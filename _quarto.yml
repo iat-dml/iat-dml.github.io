@@ -1,14 +1,25 @@
+
 project:
   type: website
-
+  resources:
+    - references.bib
 website:
   site-url: https://example.com
   title: "Data and Modelling Infrastructure for Living Labs Working group"
   navbar:
-    left:
+    right:
       - href: index.qmd
         text: Home
-      - about.qmd
+      - menu:
+              - team.qmd
+        text: "About"
+      - icon: github
+        href: https://github.com/zalf-lli
+      - icon: envelope
+        aria-label: email
+        href: "mailto:benjaminsamuel.black@zalf.de"
+
+
 
 format:
   html:
