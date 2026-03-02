@@ -70,7 +70,7 @@ ul.task-list li input[type="checkbox"] {
     const options = {
       valueNames: ['listing-image','listing-title','listing-author',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
       
-      searchColumns: ["listing-author","listing-image","listing-description"],
+      searchColumns: ["listing-title","listing-author","listing-image","listing-description"],
     };
 
     window['quarto-listings'] = window['quarto-listings'] || {};
@@ -138,7 +138,7 @@ window.Quarto = {
 <span class="menu-text">Home</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./resources.qmd"> 
+    <a class="nav-link" href="./resources.html"> 
 <span class="menu-text">Resources</span></a>
   </li>  
   <li class="nav-item dropdown ">
@@ -148,11 +148,15 @@ window.Quarto = {
     <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="nav-menu-about">
 <li>
     <a class="dropdown-item" href="./team.html">
- <span class="dropdown-text">Team</span></a>
+ <span class="dropdown-text">People</span></a>
   </li>  
         <li>
     <a class="dropdown-item" href="./code-of-conduct.html">
- <span class="dropdown-text">Verhaltenskodex</span></a>
+ <span class="dropdown-text">Code of Conduct</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="./charter.html">
+ <span class="dropdown-text">Charter</span></a>
   </li>  
     </ul>
 </li>
@@ -205,14 +209,18 @@ window.Quarto = {
 
 <div class="quarto-listing quarto-listing-container-grid" id="listing-Current">
 <div class="list grid quarto-listing-cols-4">
-<div class="g-col-1" data-index="0" data-listing-file-modified-sort="1772472636580">
+<div class="g-col-1" data-index="0" data-listing-file-modified-sort="1772473667882" data-listing-reading-time-sort="1" data-listing-word-count-sort="11">
 <a href="./current/Ben.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-center borderless">
-<div class="listing-item-img-placeholder card-img-top" style="height: 325px;"> </div>
+<p class="card-img-top">
+<img loading="lazy" src="./current/black_benjamin.jpg" class="thumbnail-image card-img" style="height: 325px;"></p>
 <div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Benjamin Black
+</h5>
 <div class="card-attribution card-text-small start">
 <div class="listing-author">
-
+Leiter der Arbeitsgruppe
 </div>
 </div>
 </div>
