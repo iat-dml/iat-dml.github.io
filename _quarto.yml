@@ -4,8 +4,10 @@ project:
   resources:
     - references.bib
 website:
-  site-url: https://example.com
+  site-url: "https://DaMIfLL.github.io"
+  repo-url: "https://github.com/zalf-lli/DaMIfLL.github.io"
   title: "Data and Modelling Infrastructure for Living Labs Working group"
+  description: "This is the website of the Data and Modelling Infrastructure for Living Labs Working group (SWG) of the Innovation Center for Agricultural System Transformation (IAT) as part of the Liebniz Center for Agricultural Landscape Research (ZALF)."
   page-footer:
     left: |
       {{< fa regular copyright >}} Benjamin Black, 2026<br>
@@ -16,15 +18,21 @@ website:
   navbar:
     right:
       - href: index.qmd
-        text: Home
+        text: Home      
+      - href: resources.qmd
+        text: Resources
+      # - href: news.qmd
+      #   text: News
       - menu:
               - team.qmd
+              - code-of-conduct.qmd
         text: "About"
       - icon: github
         href: https://github.com/zalf-lli
       - icon: envelope
         aria-label: email
         href: "mailto:benjaminsamuel.black@zalf.de"
+
 
 
 
@@ -40,13 +48,13 @@ babelquarto:
   languagelinks: navbar
   languagecodes:
   - name: de
-    text: "Version in de"
+    text: "DE"
   - name: en
-    text: "Version in en"
+    text: "ENG"
   mainlanguage: 'en'
   languages: ['de']
-title-de: title in de
-description-de: description in de
+title-de: Arbeitsgruppe „Daten- und Modellierungsinfrastruktur für Living Labs“
+description-de: „Dies ist die Website der Arbeitsgruppe „Daten- und Modellierungsinfrastruktur für Living Labs“ (SWG) des Innovationszentrums für Agrarsystemtransformation (IAT) als Teil des Leibniz-Zentrums für Agrarlandschaftsforschung (ZALF).“
 author-de: author in de
 lang: en
 

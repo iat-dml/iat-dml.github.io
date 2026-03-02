@@ -1,10 +1,24 @@
 [
   {
+    "objectID": "team.html",
+    "href": "team.html",
+    "title": "Team",
+    "section": "",
+    "text": "Klicken Sie auf das Profil jedes Teammitglieds, um weitere Informationen zu erhalten.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nKeine Treffer"
+  },
+  {
     "objectID": "index.html",
     "href": "index.html",
     "title": "web",
     "section": "",
     "text": "This is a Quarto website.\nTo learn more about Quarto websites visit https://quarto.org/docs/websites."
+  },
+  {
+    "objectID": "charter.html",
+    "href": "charter.html",
+    "title": "Data and Modelling Infrastructure for Living Labs Service Working Group Charter",
+    "section": "",
+    "text": "testing"
   },
   {
     "objectID": "about.html",
