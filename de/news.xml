@@ -10,7 +10,7 @@
 <atom:link href="https://DaMIfLL.github.io/de/news.xml" rel="self" type="application/rss+xml"/>
 <description>„Dies ist die Website der Arbeitsgruppe „Daten- und Modellierungsinfrastruktur für Living Labs“ (SWG) des Innovationszentrums für Agrarsystemtransformation (IAT) als Teil des Leibniz-Zentrums für Agrarlandschaftsforschung (ZALF).“</description>
 <generator>quarto-1.8.27</generator>
-<lastBuildDate>Mon, 02 Mar 2026 17:30:18 GMT</lastBuildDate>
+<lastBuildDate>Mon, 02 Mar 2026 17:30:25 GMT</lastBuildDate>
 <item>
   <title>About</title>
   <link>https://DaMIfLL.github.io/de/about.html</link>
@@ -25,7 +25,7 @@
 
  ]]></description>
   <guid>https://DaMIfLL.github.io/de/about.html</guid>
-  <pubDate>Mon, 02 Mar 2026 17:30:18 GMT</pubDate>
+  <pubDate>Mon, 02 Mar 2026 17:30:25 GMT</pubDate>
 </item>
 <item>
   <title>Data and Modelling Infrastructure for Living Labs Service Working Group Charter</title>
@@ -41,7 +41,7 @@
 
  ]]></description>
   <guid>https://DaMIfLL.github.io/de/charter.html</guid>
-  <pubDate>Mon, 02 Mar 2026 17:30:18 GMT</pubDate>
+  <pubDate>Mon, 02 Mar 2026 17:30:25 GMT</pubDate>
 </item>
 <item>
   <title>Verhaltenskodex</title>
@@ -56,7 +56,7 @@
 
  ]]></description>
   <guid>https://DaMIfLL.github.io/de/code-of-conduct.html</guid>
-  <pubDate>Mon, 02 Mar 2026 17:30:18 GMT</pubDate>
+  <pubDate>Mon, 02 Mar 2026 17:30:25 GMT</pubDate>
 </item>
 <item>
   <title>web</title>
@@ -73,14 +73,14 @@
 
  ]]></description>
   <guid>https://DaMIfLL.github.io/de/</guid>
-  <pubDate>Mon, 02 Mar 2026 17:30:18 GMT</pubDate>
+  <pubDate>Mon, 02 Mar 2026 17:30:25 GMT</pubDate>
 </item>
 <item>
   <title></title>
   <link>https://DaMIfLL.github.io/de/onboarding.md</link>
   <description><![CDATA[ undefined ]]></description>
   <guid>https://DaMIfLL.github.io/de/onboarding.md</guid>
-  <pubDate>Mon, 02 Mar 2026 17:30:18 GMT</pubDate>
+  <pubDate>Mon, 02 Mar 2026 17:30:25 GMT</pubDate>
 </item>
 <item>
   <title>Team</title>
@@ -104,7 +104,7 @@
 
 <div class="quarto-listing quarto-listing-container-grid" id="listing-Current">
 <div class="list grid quarto-listing-cols-4">
-<div class="g-col-1" data-index="0" data-listing-file-modified-sort="1772472611208">
+<div class="g-col-1" data-index="0" data-listing-file-modified-sort="1772472617380">
 <a href="./current/Ben.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-center borderless">
 <!-- img(9CEB782EFEE6)[progressive=false, height=325px]:Current:current/Ben.html -->
@@ -121,7 +121,7 @@
 <div class="listing-no-matching d-none">Keine Treffer</div>
 </div> ]]></description>
   <guid>https://DaMIfLL.github.io/de/team.html</guid>
-  <pubDate>Mon, 02 Mar 2026 17:30:18 GMT</pubDate>
+  <pubDate>Mon, 02 Mar 2026 17:30:25 GMT</pubDate>
 </item>
 </channel>
 </rss>
