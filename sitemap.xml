@@ -1,19 +1,51 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://example.com/index.html</loc>
-    <lastmod>2026-03-02T11:42:42.666Z</lastmod>
+    <loc>https://DaMIfLL.github.io/de/code-of-conduct.html</loc>
+    <lastmod>2026-03-02T15:20:10.899Z</lastmod>
   </url>
   <url>
-    <loc>https://example.com/about.html</loc>
-    <lastmod>2026-03-02T11:42:42.658Z</lastmod>
+    <loc>https://DaMIfLL.github.io/de/current/Ben.html</loc>
+    <lastmod>2026-03-02T15:20:10.899Z</lastmod>
   </url>
   <url>
-    <loc>https://example.com/about.de.html</loc>
-    <lastmod>2026-03-02T11:42:42.656Z</lastmod>
+    <loc>https://DaMIfLL.github.io/de/index.html</loc>
+    <lastmod>2026-03-02T15:20:10.899Z</lastmod>
   </url>
   <url>
-    <loc>https://example.com/index.de.html</loc>
-    <lastmod>2026-03-02T11:42:42.663Z</lastmod>
+    <loc>https://DaMIfLL.github.io/de/charter.html</loc>
+    <lastmod>2026-03-02T15:20:10.899Z</lastmod>
+  </url>
+  <url>
+    <loc>https://DaMIfLL.github.io/de/team.html</loc>
+    <lastmod>2026-03-02T15:20:10.899Z</lastmod>
+  </url>
+  <url>
+    <loc>https://DaMIfLL.github.io/de/about.html</loc>
+    <lastmod>2026-03-02T15:20:10.899Z</lastmod>
+  </url>
+  <url>
+    <loc>https://DaMIfLL.github.io/code-of-conduct.html</loc>
+    <lastmod>2026-03-02T15:19:54.447Z</lastmod>
+  </url>
+  <url>
+    <loc>https://DaMIfLL.github.io/current/Ben.html</loc>
+    <lastmod>2026-03-02T15:19:54.447Z</lastmod>
+  </url>
+  <url>
+    <loc>https://DaMIfLL.github.io/index.html</loc>
+    <lastmod>2026-03-02T15:19:54.448Z</lastmod>
+  </url>
+  <url>
+    <loc>https://DaMIfLL.github.io/charter.html</loc>
+    <lastmod>2026-03-02T15:19:54.447Z</lastmod>
+  </url>
+  <url>
+    <loc>https://DaMIfLL.github.io/team.html</loc>
+    <lastmod>2026-03-02T15:19:54.448Z</lastmod>
+  </url>
+  <url>
+    <loc>https://DaMIfLL.github.io/about.html</loc>
+    <lastmod>2026-03-02T15:19:54.447Z</lastmod>
   </url>
 </urlset>

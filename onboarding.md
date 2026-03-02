@@ -6,7 +6,7 @@
 We are guided by (“Land Grabbing and Poverty in Cambodia: The Myth of
 Development” 2009)
 
-\### Github for project management
+### Github for project management
 
 We will use Github for project and knowledge management building open
 the techniques proposed by the Openscapes project (Openscapes Core Team

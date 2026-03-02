@@ -1,5 +1,12 @@
 [
   {
+    "objectID": "current/Ben.html",
+    "href": "current/Ben.html",
+    "title": "Benjamin Black",
+    "section": "",
+    "text": "website"
+  },
+  {
     "objectID": "index.html",
     "href": "index.html",
     "title": "web",
@@ -7,24 +14,24 @@
     "text": "This is a Quarto website.\nTo learn more about Quarto websites visit https://quarto.org/docs/websites."
   },
   {
+    "objectID": "charter.html",
+    "href": "charter.html",
+    "title": "Data and Modelling Infrastructure for Living Labs Service Working Group Charter",
+    "section": "",
+    "text": "testing"
+  },
+  {
+    "objectID": "team.html",
+    "href": "team.html",
+    "title": "Team",
+    "section": "",
+    "text": "Click on each team members profile for further information.\n\n\n\n\n\n\n\n\nBenjamin Black\n\n\n\nLeiter der Arbeitsgruppe\n\n\n\n\n\n\nNo matching items"
+  },
+  {
     "objectID": "about.html",
     "href": "about.html",
     "title": "About",
     "section": "",
     "text": "About this site"
-  },
-  {
-    "objectID": "about.de.html",
-    "href": "about.de.html",
-    "title": "About",
-    "section": "",
-    "text": "About this site"
-  },
-  {
-    "objectID": "index.de.html",
-    "href": "index.de.html",
-    "title": "web",
-    "section": "",
-    "text": "This is a Quarto website.\nTo learn more about Quarto websites visit https://quarto.org/docs/websites."
   }
 ]
