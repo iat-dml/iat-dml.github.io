@@ -1,0 +1,11 @@
+---
+title: "Data and Modelling Infrastructure for Living Labs Service Working Group Charter"
+format:
+  gfm:
+    wrap: none          
+    toc: true
+  html:
+    self-contained: true
+---
+
+testing

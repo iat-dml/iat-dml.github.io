@@ -1,0 +1,42 @@
+---
+title: "Team"
+toc: false
+
+listing:
+  - id: current
+    contents: "current/*.qmd"
+    type: grid
+    image-height: 325px
+    grid-columns: 4
+    fields: [image, title, author]
+    grid-item-align: center
+    grid-item-border: false
+    sort: sortby
+    field-display-names: 
+      started: "Started"
+  # - id: alumni
+  #   contents: "alumni/*.qmd"
+  #   type: grid
+  #   image-height: 325px
+  #   grid-columns: 4
+  #   fields: [image, title, author]
+  #   grid-item-align: center
+  #   grid-item-border: false
+  #   sort: sortby
+  #   field-display-names: 
+  #     started: "Started"
+---
+
+Click on each team members profile for further information.
+
+:::{#current}
+:::
+
+<!-- ## Alumni -->
+
+:::{#alumni}
+:::
+
+
+
+
