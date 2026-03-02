@@ -6,6 +6,13 @@ project:
 website:
   site-url: https://example.com
   title: "Data and Modelling Infrastructure for Living Labs Working group"
+  page-footer:
+    left: |
+      {{< fa regular copyright >}} Benjamin Black, 2026<br>
+      All content licensed under {{< fa brands creative-commons >}}
+      {{< fa brands creative-commons-by >}} {{< fa brands creative-commons-sa >}} {{< fa brands creative-commons-nc >}} [(CC BY-NC-SA 4.0)](http://creativecommons.org/licenses/by-nc-sa/4.0/)
+    right: |
+      Made with [Quarto](https://quarto.org/)<br>
   navbar:
     right:
       - href: index.qmd
