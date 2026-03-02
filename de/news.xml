@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss  xmlns:atom="http://www.w3.org/2005/Atom" 
+      xmlns:media="http://search.yahoo.com/mrss/" 
+      xmlns:content="http://purl.org/rss/1.0/modules/content/" 
+      xmlns:dc="http://purl.org/dc/elements/1.1/" 
+      version="2.0">
+<channel>
+<title>Arbeitsgruppe „Daten- und Modellierungsinfrastruktur für Living Labs“</title>
+<link>https://DaMIfLL.github.io/de/news.html</link>
+<atom:link href="https://DaMIfLL.github.io/de/news.xml" rel="self" type="application/rss+xml"/>
+<description>„Dies ist die Website der Arbeitsgruppe „Daten- und Modellierungsinfrastruktur für Living Labs“ (SWG) des Innovationszentrums für Agrarsystemtransformation (IAT) als Teil des Leibniz-Zentrums für Agrarlandschaftsforschung (ZALF).“</description>
+<generator>quarto-1.8.27</generator>
+<lastBuildDate>Mon, 02 Mar 2026 17:30:18 GMT</lastBuildDate>
+<item>
+  <title>About</title>
+  <link>https://DaMIfLL.github.io/de/about.html</link>
+  <description><![CDATA[ 
+
+
+
+
+<p>About this site</p>
+
+
+
+ ]]></description>
+  <guid>https://DaMIfLL.github.io/de/about.html</guid>
+  <pubDate>Mon, 02 Mar 2026 17:30:18 GMT</pubDate>
+</item>
+<item>
+  <title>Data and Modelling Infrastructure for Living Labs Service Working Group Charter</title>
+  <link>https://DaMIfLL.github.io/de/charter.html</link>
+  <description><![CDATA[ 
+
+
+
+
+<p>testing</p>
+
+
+
+ ]]></description>
+  <guid>https://DaMIfLL.github.io/de/charter.html</guid>
+  <pubDate>Mon, 02 Mar 2026 17:30:18 GMT</pubDate>
+</item>
+<item>
+  <title>Verhaltenskodex</title>
+  <link>https://DaMIfLL.github.io/de/code-of-conduct.html</link>
+  <description><![CDATA[ 
+
+
+
+
+
+
+
+ ]]></description>
+  <guid>https://DaMIfLL.github.io/de/code-of-conduct.html</guid>
+  <pubDate>Mon, 02 Mar 2026 17:30:18 GMT</pubDate>
+</item>
+<item>
+  <title>web</title>
+  <link>https://DaMIfLL.github.io/de/</link>
+  <description><![CDATA[ 
+
+
+
+
+<p>This is a Quarto website.</p>
+<p>To learn more about Quarto websites visit <a href="https://quarto.org/docs/websites" class="uri">https://quarto.org/docs/websites</a>.</p>
+
+
+
+ ]]></description>
+  <guid>https://DaMIfLL.github.io/de/</guid>
+  <pubDate>Mon, 02 Mar 2026 17:30:18 GMT</pubDate>
+</item>
+<item>
+  <title></title>
+  <link>https://DaMIfLL.github.io/de/onboarding.md</link>
+  <description><![CDATA[ undefined ]]></description>
+  <guid>https://DaMIfLL.github.io/de/onboarding.md</guid>
+  <pubDate>Mon, 02 Mar 2026 17:30:18 GMT</pubDate>
+</item>
+<item>
+  <title>Team</title>
+  <link>https://DaMIfLL.github.io/de/team.html</link>
+  <description><![CDATA[ 
+
+
+
+
+<p>Klicken Sie auf das Profil jedes Teammitglieds, um weitere Informationen zu erhalten.</p>
+<div id="current">
+
+</div>
+<!-- ## Alumni -->
+<div id="alumni">
+
+</div>
+
+
+
+
+<div class="quarto-listing quarto-listing-container-grid" id="listing-Current">
+<div class="list grid quarto-listing-cols-4">
+<div class="g-col-1" data-index="0" data-listing-file-modified-sort="1772472611208">
+<a href="./current/Ben.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-center borderless">
+<!-- img(9CEB782EFEE6)[progressive=false, height=325px]:Current:current/Ben.html -->
+<div class="card-body post-contents">
+<div class="card-attribution card-text-small start">
+<div class="listing-author">
+
+</div>
+</div>
+</div>
+</div></a>
+</div>
+</div>
+<div class="listing-no-matching d-none">Keine Treffer</div>
+</div> ]]></description>
+  <guid>https://DaMIfLL.github.io/de/team.html</guid>
+  <pubDate>Mon, 02 Mar 2026 17:30:18 GMT</pubDate>
+</item>
+</channel>
+</rss>
