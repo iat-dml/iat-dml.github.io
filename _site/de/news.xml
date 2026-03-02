@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss  xmlns:atom="http://www.w3.org/2005/Atom" 
+      xmlns:media="http://search.yahoo.com/mrss/" 
+      xmlns:content="http://purl.org/rss/1.0/modules/content/" 
+      xmlns:dc="http://purl.org/dc/elements/1.1/" 
+      version="2.0">
+<channel>
+<title>Arbeitsgruppe „Daten- und Modellierungsinfrastruktur für Living Labs“</title>
+<link>/de/news.html</link>
+<atom:link href="/de/news.xml" rel="self" type="application/rss+xml"/>
+<description>„Dies ist die Website der Arbeitsgruppe „Daten- und Modellierungsinfrastruktur für Living Labs“ (SWG) des Innovationszentrums für Agrarsystemtransformation (IAT) als Teil des Leibniz-Zentrums für Agrarlandschaftsforschung (ZALF).“</description>
+<generator>quarto-1.8.27</generator>
+<lastBuildDate>Mon, 02 Mar 2026 17:39:24 GMT</lastBuildDate>
+<item>
+  <title>About</title>
+  <link>/de/about.html</link>
+  <description><![CDATA[ 
+
+
+
+
+<p>About this site</p>
+
+
+
+ ]]></description>
+  <guid>/de/about.html</guid>
+  <pubDate>Mon, 02 Mar 2026 17:39:24 GMT</pubDate>
+</item>
+<item>
+  <title>Data and Modelling Infrastructure for Living Labs Service Working Group Charter</title>
+  <link>/de/charter.html</link>
+  <description><![CDATA[ 
+
+
+
+
+<p>testing</p>
+
+
+
+ ]]></description>
+  <guid>/de/charter.html</guid>
+  <pubDate>Mon, 02 Mar 2026 17:39:24 GMT</pubDate>
+</item>
+<item>
+  <title>Verhaltenskodex</title>
+  <link>/de/code-of-conduct.html</link>
+  <description><![CDATA[ 
+
+
+
+
+
+
+
+ ]]></description>
+  <guid>/de/code-of-conduct.html</guid>
+  <pubDate>Mon, 02 Mar 2026 17:39:24 GMT</pubDate>
+</item>
+<item>
+  <title>Benjamin Black</title>
+  <dc:creator>Leiter der Arbeitsgruppe</dc:creator>
+  <link>/de/current/Ben.html</link>
+  <description><![CDATA[ 
+
+
+
+
+<!-- ```{=html} -->
+<!-- <meta http-equiv="Refresh" content="0; url='https://blenback.github.io/'" /> -->
+<!-- ``` -->
+<div class="quarto-about-jolla">
+  <img src="/de/current/black_benjamin.jpg" class="about-image
+  round " style="height: 15em; width: 15em;">
+ <div id="person-profile">
+</div> 
+  <hr class="about-sep">
+   <div class="about-links">
+  <a href="https://blenback.github.io/" class="about-link" rel="" target="">
+    <i class="bi bi-link"></i>
+     <span class="about-link-text">website</span>
+  </a>
+</div>
+</div>
+
+
+
+
+
+ ]]></description>
+  <guid>/de/current/Ben.html</guid>
+  <pubDate>Mon, 02 Mar 2026 17:39:24 GMT</pubDate>
+  <media:content url="/de/current/black_benjamin.jpg" medium="image" type="image/jpeg"/>
+</item>
+<item>
+  <title>web</title>
+  <link>/de/</link>
+  <description><![CDATA[ 
+
+
+
+
+<p>This is a Quarto website.</p>
+<p>To learn more about Quarto websites visit <a href="https://quarto.org/docs/websites" class="uri">https://quarto.org/docs/websites</a>.</p>
+
+
+
+ ]]></description>
+  <guid>/de/</guid>
+  <pubDate>Mon, 02 Mar 2026 17:39:24 GMT</pubDate>
+</item>
+<item>
+  <title></title>
+  <link>/de/onboarding.md</link>
+  <description><![CDATA[ undefined ]]></description>
+  <guid>/de/onboarding.md</guid>
+  <pubDate>Mon, 02 Mar 2026 17:39:24 GMT</pubDate>
+</item>
+<item>
+  <title>Ressourcen</title>
+  <link>/de/resources.html</link>
+  <description><![CDATA[ 
+
+
+
+
+<p>Dieses Repository soll ein lebendiges Dokument für SWG- und IAT-Mitglieder sein, um nützliche Informationen und Ressourcen in Bezug auf Open Science, Programmierung und Datenvisualisierung auszutauschen.</p>
+<p>Einige Dokumente, die Leitprinzipien enthalten:</p>
+<ul>
+<li><p><a href="">ZALF data policy</a></p></li>
+<li><p><a href="https://www.leibniz-gemeinschaft.de/ueber-uns/evaluierung/das-evaluierungsverfahren-der-leibniz-gemeinschaft/senatsstellungnahmen">Previous ZALF evaluations</a></p></li>
+<li><p><a href="https://zalf365.sharepoint.com/sites/vorstand/Freigegebene%20Dokumente/Forms/AllItems.aspx?id=%2Fsites%2Fvorstand%2FFreigegebene%20Dokumente%2Fstrategiedokumente%2Forganizational%2Dpolicy%2Dzalf%2Epdf&amp;parent=%2Fsites%2Fvorstand%2FFreigegebene%20Dokumente%2Fstrategiedokumente">ZALF organisational policy</a></p></li>
+<li><p><a href="https://www.dfg.de/de/grundlagen-themen/grundlagen-und-prinzipien-der-foerderung/gwp">DFG research ethics</a></p></li>
+<li><p><a href="https://www.leibniz-gemeinschaft.de/ueber-uns/leibniz-integritaet/gute-wissenschaftliche-praxis-und-ombudswesen">Liebniz center Good Scientific Practice</a></p></li>
+</ul>
+<p>Check out the <a href="https://github.com/awesomelistsio/awesome-open-science">Open Science Awesome List</a></p>
+<section id="datenvisualisierung" class="level2">
+<h2 class="anchored" data-anchor-id="datenvisualisierung">Datenvisualisierung</h2>
+<ul>
+<li><a href="https://clauswilke.com/dataviz/">Fundamentals of Data Visualization</a></li>
+<li><a href="https://openvisualizationacademy.org/">Open Visualisation Academy</a></li>
+</ul>
+</section>
+<section id="r" class="level2">
+<h2 class="anchored" data-anchor-id="r">R</h2>
+<p>What they forgot to teach you about R: https://rstats.wtf/</p>
+</section>
+<section id="quarto" class="level2">
+<h2 class="anchored" data-anchor-id="quarto">Quarto</h2>
+<ul>
+<li><a href="https://slidecrafting-book.com/">Beautiful slides with RevealJS and Quarto</a></li>
+</ul>
+
+
+</section>
+
+ ]]></description>
+  <guid>/de/resources.html</guid>
+  <pubDate>Mon, 02 Mar 2026 17:39:24 GMT</pubDate>
+</item>
+<item>
+  <title>Team</title>
+  <link>/de/team.html</link>
+  <description><![CDATA[ 
+
+
+
+
+<p>Klicken Sie auf das Profil jedes Teammitglieds, um weitere Informationen zu erhalten.</p>
+<div id="current">
+
+</div>
+<!-- ## Alumni -->
+<div id="alumni">
+
+</div>
+
+
+
+
+<div class="quarto-listing quarto-listing-container-grid" id="listing-Current">
+<div class="list grid quarto-listing-cols-4">
+<div class="g-col-1" data-index="0" data-listing-file-modified-sort="1772472986051" data-listing-reading-time-sort="1" data-listing-word-count-sort="11">
+<a href="./current/Ben.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-center borderless">
+<p class="card-img-top">
+<img loading="lazy" src="/de/current/black_benjamin.jpg" class="thumbnail-image card-img" style="height: 325px;">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Benjamin Black
+</h5>
+<div class="card-attribution card-text-small start">
+<div class="listing-author">
+Leiter der Arbeitsgruppe
+</div>
+</div>
+</div>
+</div></a>
+</div>
+</div>
+<div class="listing-no-matching d-none">Keine Treffer</div>
+</div> ]]></description>
+  <guid>/de/team.html</guid>
+  <pubDate>Mon, 02 Mar 2026 17:39:24 GMT</pubDate>
+</item>
+</channel>
+</rss>

@@ -4,7 +4,7 @@
     "href": "team.html",
     "title": "Team",
     "section": "",
-    "text": "Click on each team members profile for further information.\n\n\n\n\n\n\n\n\nBenjamin Black\n\n\n\nLeiter der Arbeitsgruppe\n\n\n\n\n\n\nNo matching items"
+    "text": "Click on each team members profile for further information.\n\n\n\n\n\n\n\n\n\n\nBenjamin Black\n\n\n\nLeiter der Arbeitsgruppe\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "index.html",
@@ -14,13 +14,6 @@
     "text": "This is a Quarto website.\nTo learn more about Quarto websites visit https://quarto.org/docs/websites."
   },
   {
-    "objectID": "charter.html",
-    "href": "charter.html",
-    "title": "Data and Modelling Infrastructure for Living Labs Service Working Group Charter",
-    "section": "",
-    "text": "testing"
-  },
-  {
     "objectID": "about.html",
     "href": "about.html",
     "title": "About",
@@ -28,10 +21,52 @@
     "text": "About this site"
   },
   {
+    "objectID": "charter.html",
+    "href": "charter.html",
+    "title": "Data and Modelling Infrastructure for Living Labs Service Working Group Charter",
+    "section": "",
+    "text": "testing"
+  },
+  {
     "objectID": "current/Ben.html",
     "href": "current/Ben.html",
     "title": "Benjamin Black",
     "section": "",
     "text": "website"
+  },
+  {
+    "objectID": "news.html",
+    "href": "news.html",
+    "title": "News",
+    "section": "",
+    "text": "A newsletter subscription option is coming soon!\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nAbout\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nData and Modelling Infrastructure for Living Labs Service Working Group Charter\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nBenjamin Black\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nweb\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nOnboarding\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nResources\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nTeam\n\n\n\n\n\n\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "resources.html",
+    "href": "resources.html",
+    "title": "Resources",
+    "section": "",
+    "text": "This repo is intended to be a living document for SWG and IAT members to share useful information and resources related to Open Science, programming and Data Visualisation.\nSome documents that provide guiding principles:\nCheck out the Open Science Awesome List"
+  },
+  {
+    "objectID": "resources.html#data-visualisation",
+    "href": "resources.html#data-visualisation",
+    "title": "Resources",
+    "section": "Data visualisation",
+    "text": "Data visualisation\n\nFundamentals of Data Visualization\nOpen Visualisation Academy"
+  },
+  {
+    "objectID": "resources.html#r",
+    "href": "resources.html#r",
+    "title": "Resources",
+    "section": "R",
+    "text": "R\nWhat they forgot to teach you about R: https://rstats.wtf/"
+  },
+  {
+    "objectID": "resources.html#quarto",
+    "href": "resources.html#quarto",
+    "title": "Resources",
+    "section": "Quarto",
+    "text": "Quarto\n\nBeautiful slides with RevealJS and Quarto"
   }
 ]

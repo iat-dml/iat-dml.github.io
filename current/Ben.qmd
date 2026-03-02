@@ -3,7 +3,7 @@ title: "Benjamin Black"
 subtitle: "Head of the working group"
 author: "Leiter der Arbeitsgruppe"
 sortby: "1"
-# image: /img/Ben.jpg
+image: black_benjamin.jpg
 toc: false
 comments: false
 

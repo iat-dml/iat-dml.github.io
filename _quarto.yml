@@ -24,8 +24,12 @@ website:
       # - href: news.qmd
       #   text: News
       - menu:
-              - team.qmd
-              - code-of-conduct.qmd
+              - href: team.qmd
+                text: People
+              - href: code-of-conduct.qmd
+                text: Code of Conduct
+              - href: charter.qmd
+                text: Charter
         text: "About"
       - icon: github
         href: https://github.com/zalf-lli

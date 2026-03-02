@@ -4,7 +4,7 @@
     "href": "team.html",
     "title": "Team",
     "section": "",
-    "text": "Klicken Sie auf das Profil jedes Teammitglieds, um weitere Informationen zu erhalten.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nKeine Treffer"
+    "text": "Klicken Sie auf das Profil jedes Teammitglieds, um weitere Informationen zu erhalten.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nBenjamin Black\n\n\n\nLeiter der Arbeitsgruppe\n\n\n\n\n\n\nKeine Treffer"
   },
   {
     "objectID": "index.html",
@@ -14,6 +14,13 @@
     "text": "This is a Quarto website.\nTo learn more about Quarto websites visit https://quarto.org/docs/websites."
   },
   {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About",
+    "section": "",
+    "text": "About this site"
+  },
+  {
     "objectID": "charter.html",
     "href": "charter.html",
     "title": "Data and Modelling Infrastructure for Living Labs Service Working Group Charter",
@@ -21,10 +28,45 @@
     "text": "testing"
   },
   {
-    "objectID": "about.html",
-    "href": "about.html",
-    "title": "About",
+    "objectID": "current/Ben.html",
+    "href": "current/Ben.html",
+    "title": "Benjamin Black",
     "section": "",
-    "text": "About this site"
+    "text": "website"
+  },
+  {
+    "objectID": "news.html",
+    "href": "news.html",
+    "title": "Nachrichten",
+    "section": "",
+    "text": "Eine Option zum Abonnieren des Newsletters wird bald verfügbar sein!\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nAbout\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nData and Modelling Infrastructure for Living Labs Service Working Group Charter\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nVerhaltenskodex\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nBenjamin Black\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nweb\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nOnboarding\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nRessourcen\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nTeam\n\n\n\n\n\n\n\n\n\n\n\nKeine Treffer"
+  },
+  {
+    "objectID": "resources.html",
+    "href": "resources.html",
+    "title": "Ressourcen",
+    "section": "",
+    "text": "Dieses Repository soll ein lebendiges Dokument für SWG- und IAT-Mitglieder sein, um nützliche Informationen und Ressourcen in Bezug auf Open Science, Programmierung und Datenvisualisierung auszutauschen.\nEinige Dokumente, die Leitprinzipien enthalten:\nCheck out the Open Science Awesome List"
+  },
+  {
+    "objectID": "resources.html#datenvisualisierung",
+    "href": "resources.html#datenvisualisierung",
+    "title": "Ressourcen",
+    "section": "Datenvisualisierung",
+    "text": "Datenvisualisierung\n\nFundamentals of Data Visualization\nOpen Visualisation Academy"
+  },
+  {
+    "objectID": "resources.html#r",
+    "href": "resources.html#r",
+    "title": "Ressourcen",
+    "section": "R",
+    "text": "R\nWhat they forgot to teach you about R: https://rstats.wtf/"
+  },
+  {
+    "objectID": "resources.html#quarto",
+    "href": "resources.html#quarto",
+    "title": "Ressourcen",
+    "section": "Quarto",
+    "text": "Quarto\n\nBeautiful slides with RevealJS and Quarto"
   }
 ]

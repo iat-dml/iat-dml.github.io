@@ -1,0 +1,32 @@
+---
+title: "Resources"
+---
+
+This repo is intended to be a living document for SWG and IAT members to share useful information and resources related to Open Science, programming and Data Visualisation.
+
+Some documents that provide guiding principles:
+
+-   [ZALF data policy]()
+
+-    [Previous ZALF evaluations](https://www.leibniz-gemeinschaft.de/ueber-uns/evaluierung/das-evaluierungsverfahren-der-leibniz-gemeinschaft/senatsstellungnahmen)
+
+-   [ZALF organisational policy](https://zalf365.sharepoint.com/sites/vorstand/Freigegebene%20Dokumente/Forms/AllItems.aspx?id=%2Fsites%2Fvorstand%2FFreigegebene%20Dokumente%2Fstrategiedokumente%2Forganizational%2Dpolicy%2Dzalf%2Epdf&parent=%2Fsites%2Fvorstand%2FFreigegebene%20Dokumente%2Fstrategiedokumente)
+
+-   [DFG research ethics](https://www.dfg.de/de/grundlagen-themen/grundlagen-und-prinzipien-der-foerderung/gwp)
+
+-   [Liebniz center Good Scientific Practice](https://www.leibniz-gemeinschaft.de/ueber-uns/leibniz-integritaet/gute-wissenschaftliche-praxis-und-ombudswesen)
+
+Check out the [Open Science Awesome List](https://github.com/awesomelistsio/awesome-open-science)
+
+## Data visualisation
+
+-   [Fundamentals of Data Visualization](https://clauswilke.com/dataviz/)
+-   [Open Visualisation Academy](https://openvisualizationacademy.org/)
+
+## R
+
+What they forgot to teach you about R: https://rstats.wtf/
+
+## Quarto
+
+-   [Beautiful slides with RevealJS and Quarto](https://slidecrafting-book.com/)
