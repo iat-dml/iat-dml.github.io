@@ -4,9 +4,11 @@ format: gfm
 bibliography: ../references.bib
 ---
 
-
 ## How we work
-### Github for project management
+
+We are guided by [@landgra2009]
+
+\### Github for project management
 
 We will use Github for project and knowledge management building open the techniques proposed by the Openscapes project [@openscapescoreteam2024].
 
@@ -14,12 +16,13 @@ We will use Github for project and knowledge management building open the techni
 -   
 
 ### Sharing documents
-- For sharing ZALF documents on the github use the sharepoint links
-- For collaboration with other SWGs, Admin and Coordination in the IAT we should use the sharepoint
+
+-   For sharing ZALF documents on the github use the sharepoint links
+-   For collaboration with other SWGs, Admin and Coordination in the IAT we should use the sharepoint
 
 ### Using issues as a communication channel
-We will use Github issues as a communication channel for the SWG. This is to ensure that all communication is transparent and accessible to all members of the SWG. We will use issues to discuss and track progress on tasks, share updates, and ask questions. We will also use labels to categorize issues and make it easier to find relevant information.
-- feel free to include links to files or specific chunks in other repos in the issues to make it easier for others to find the relevant information (in the respective files click the '...' icon and ;'copy perma link')
+
+We will use Github issues as a communication channel for the SWG. This is to ensure that all communication is transparent and accessible to all members of the SWG. We will use issues to discuss and track progress on tasks, share updates, and ask questions. We will also use labels to categorize issues and make it easier to find relevant information. - feel free to include links to files or specific chunks in other repos in the issues to make it easier for others to find the relevant information (in the respective files click the '...' icon and ;'copy perma link')
 
 ## Setting up a VScode/Positron workspace.
 
