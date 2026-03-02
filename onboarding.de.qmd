@@ -5,8 +5,8 @@ bibliography: ../references.bib
 ---
 
 
-## How we work
-### Github for project management
+## Wie wir arbeiten
+### Github für das Projektmanagement
 
 We will use Github for project and knowledge management building open the techniques proposed by the Openscapes project [@openscapescoreteam2024].
 
