@@ -1,0 +1,34 @@
+project:
+  type: website
+
+website:
+  site-url: https://example.com
+  title: "Data and Modelling Infrastructure for Living Labs Working group"
+  navbar:
+    left:
+      - href: index.qmd
+        text: Home
+      - about.qmd
+
+format:
+  html:
+    theme:
+      - cosmo
+      - brand
+    css: styles.css
+    toc: true
+
+babelquarto:
+  languagelinks: navbar
+  languagecodes:
+  - name: de
+    text: "Version in de"
+  - name: en
+    text: "Version in en"
+  mainlanguage: 'en'
+  languages: ['de']
+title-de: title in de
+description-de: description in de
+author-de: author in de
+lang: en
+
