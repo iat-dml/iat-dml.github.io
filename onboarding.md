@@ -3,14 +3,11 @@
 
 ## How we work
 
-We are guided by (“Land Grabbing and Poverty in Cambodia: The Myth of
-Development” 2009)
-
 ### Github for project management
 
 We will use Github for project and knowledge management building open
-the techniques proposed by the Openscapes project (Openscapes Core Team
-et al. 2024).
+the techniques proposed by the Openscapes project
+\[@openscapescoreteam2024\].
 
 - For all documentation use Quarto (.qmd) files with the Github
   Flavoured Markdown (gfm) format option in the yaml
@@ -45,23 +42,4 @@ explorer pane you will see eacvh of the respective folders for the
 different repos you have cloned. Last step is to save the workspace by
 going to File -\> Save Workspace As… testing
 
-<div id="refs" class="references csl-bib-body hanging-indent"
-entry-spacing="0">
-
-<div id="ref-landgra2009" class="csl-entry">
-
-“Land Grabbing and Poverty in Cambodia: The Myth of Development.” 2009.
-Phnom Penh.
-<https://www.licadho-cambodia.org/reports/files/134LICADHOREportMythofDevelopment2009Eng.pdf>.
-
-</div>
-
-<div id="ref-openscapescoreteam2024" class="csl-entry">
-
-Openscapes Core Team, Julia Lowndes, Stefanie Butland, and Erin
-Robinson. 2024. “Openscapes Champions Lesson Series V2024.11.0,”
-December. <https://doi.org/10.5281/ZENODO.7407246>.
-
-</div>
-
-</div>
+update

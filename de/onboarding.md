@@ -6,8 +6,8 @@
 ### Github für das Projektmanagement
 
 We will use Github for project and knowledge management building open
-the techniques proposed by the Openscapes project (Openscapes Core Team
-u. a. 2024).
+the techniques proposed by the Openscapes project
+\[@openscapescoreteam2024\].
 
 - For all documentation use Quarto (.qmd) files with the Github
   Flavoured Markdown (gfm) format option in the yaml
@@ -41,16 +41,3 @@ repo choose ‘add to workspace’ and then if you switched to the file
 explorer pane you will see eacvh of the respective folders for the
 different repos you have cloned. Last step is to save the workspace by
 going to File -\> Save Workspace As
-
-<div id="refs" class="references csl-bib-body hanging-indent"
-entry-spacing="0">
-
-<div id="ref-openscapescoreteam2024" class="csl-entry">
-
-Openscapes Core Team, Julia Lowndes, Stefanie Butland, und Erin
-Robinson. 2024. „Openscapes Champions Lesson Series V2024.11.0“,
-Dezember. <https://doi.org/10.5281/ZENODO.7407246>.
-
-</div>
-
-</div>
