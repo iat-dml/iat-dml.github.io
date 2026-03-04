@@ -1,12 +1,9 @@
 ---
 title: "Onboarding"
 format: gfm
-bibliography: references.bib
 ---
 
 ## How we work
-
-We are guided by [@landgra2009]
 
 ### Github for project management
 
