@@ -1,5 +1,5 @@
-Our Charter describing the concept and services of the Data and Modelling Infrastructure Service Working Group.
+Our code of conduct for team memebers of, and collaborators with, the Data and Modelling Infrastructure Service Working Group.
 
 ------------------------------------------------------------------------
 
-Unsere Charta, in der das Konzept und die Dienstleistungen der Arbeitsgruppe „Daten- und Modellierungsinfrastrukturdienst“ beschrieben werden.
+Unser Verhaltenskodex für Teammitglieder und Mitarbeiter der Arbeitsgruppe „Daten- und Modellierungsinfrastrukturdienst“.
