@@ -1,5 +1,5 @@
-Our code of conduct for team memebers of, and collaborators with, the Data and Modelling Infrastructure Service Working Group.
+A living document for onboarding new team members introducing internal processes and ways of working.
 
 ------------------------------------------------------------------------
 
-Unser Verhaltenskodex für Teammitglieder und Mitarbeiter der Arbeitsgruppe „Daten- und Modellierungsinfrastrukturdienst“.
+Ein lebendiges Dokument für die Einarbeitung neuer Teammitglieder, das interne Prozesse und Arbeitsweisen vorstellt.
