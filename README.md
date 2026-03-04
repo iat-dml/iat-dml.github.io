@@ -1,5 +1,5 @@
-Directory to store blog style documents to be shared via the news page of the website and as an email newsletter.
+Our Charter describing the concept and services of the Data and Modelling Infrastructure Service Working Group.
 
 ------------------------------------------------------------------------
 
-Verzeichnis zum Speichern von Dokumenten im Blog-Stil, die über die Nachrichtenseite der Website und als E-Mail-Newsletter geteilt werden sollen.
+Unsere Charta, in der das Konzept und die Dienstleistungen der Arbeitsgruppe „Daten- und Modellierungsinfrastrukturdienst“ beschrieben werden.
