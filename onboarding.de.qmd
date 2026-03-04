@@ -1,7 +1,6 @@
 ---
 title: "Onboarding"
 format: gfm
-bibliography: references.bib
 ---
 
 
