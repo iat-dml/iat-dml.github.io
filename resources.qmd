@@ -1,12 +1,17 @@
 ---
-title: "Resources"
+title: "Resources and tools"
 ---
 
 This repo is intended to be a living document for SWG and IAT members to share useful information and resources related to Open Science, programming and Data Visualisation.
 
 Some documents that provide guiding principles:
 
--   [ZALF data policy]()
+-   [Handling Research Data at ZALF Guidelinbes](https://zalf365.sharepoint.com/sites/dokumentencenter/Richtlinien/2023-01-richtlinie-zalf-data-policy.pdf?csf=1&web=1&e=irWOai)
+
+-   [ZALF open access policy](https://zalf365.sharepoint.com/sites/vorstand/Freigegebene%20Dokumente/strategiedokumente/policy-open-access.pdf?csf=1&web=1&e=4bXvat)
+
+-   [BonaRes Data Policy](https://doi.org/10.20387/BonaRes-RYCV-30RK)
+
 
 -    [Previous ZALF evaluations](https://www.leibniz-gemeinschaft.de/ueber-uns/evaluierung/das-evaluierungsverfahren-der-leibniz-gemeinschaft/senatsstellungnahmen)
 
@@ -17,6 +22,8 @@ Some documents that provide guiding principles:
 -   [Liebniz center Good Scientific Practice](https://www.leibniz-gemeinschaft.de/ueber-uns/leibniz-integritaet/gute-wissenschaftliche-praxis-und-ombudswesen)
 
 Check out the [Open Science Awesome List](https://github.com/awesomelistsio/awesome-open-science)
+
+-   [The Turing Way’s Guide to Planning a Community](https://book.the-turing-way.org/collaboration/new-community/new-community-guide/) - A guide to planning and building a community around open science, including tips on communication, governance, and sustainability.
 
 ## Data visualisation
 
@@ -30,3 +37,19 @@ What they forgot to teach you about R: https://rstats.wtf/
 ## Quarto
 
 -   [Beautiful slides with RevealJS and Quarto](https://slidecrafting-book.com/)
+
+## Tools and Software
+
+-   [EU alternatives for software](https://european-alternatives.eu/categories) - A directory of software alternatives to popular proprietary software, with a focus on European users and organizations.
+
+-   [gettingstuffdoneai](https://www.gettingstuffdone.ai/) - Directory of Generative AI Tools and Models, categorized by use case and functionality.
+
+-   [Inkscape](https://inkscape.org/) - Open source vector graphics editor, alternative to Adobe products, useful for creating and editing figures for publications and presentations. Available via the ZALF baramundi client.
+
+## Training
+-   [Digital Research Academy](https://digital-research.academy/) - a trainer network focused on Open Science, Data Literacy, and Research Software Engineering (DRA's [Zenodo collection](https://zenodo.org/communities/digiresacademy/records?q=&l=list&p=1&s=10&sort=newest)).
+-   [BERD academy](https://www.berd-nfdi.de/berd-academy/)
+-   [BERD reproducible research course](https://berd-nfdi.github.io/BERD-reproducible-research-course/)
+-   [NFDI4Earth - Educational Portal](https://edutrain.nfdi4earth.de/)
+-   [Assured Training](https://assured-training.org/) -Ensures the safe, legal, and ethical use of sensitive data through targeted training and certification.
+-   [KI-campus](https://ki-campus.org/en/learning-opportunities/courses) - Numerous free courses on AI and related topics, including data science, machine learning, and ethical considerations in AI.
