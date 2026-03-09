@@ -1,5 +1,16 @@
-A living document for curating a list of lists of our favourite resources on Open Science topics, programming and Data Visualisation etc.
+Website for the Data and Modelling Infrastructure for Living Labs Working Group.
 
 ------------------------------------------------------------------------
 
-Ein lebendiges Dokument zur Zusammenstellung einer Liste unserer bevorzugten Ressourcen zu Themen wie Open Science, Programmierung und Datenvisualisierung usw.
+Website für die Arbeitsgruppe „Daten- und Modellierungsinfrastruktur für Living Labs“.
+
+## Contributors
+
+<!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
+<!-- prettier-ignore-start -->
+<!-- markdownlint-disable -->
+
+<!-- markdownlint-restore -->
+<!-- prettier-ignore-end -->
+
+<!-- ALL-CONTRIBUTORS-LIST:END -->
