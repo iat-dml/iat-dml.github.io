@@ -1,16 +1,5 @@
-A living document for onboarding new team members introducing internal processes and ways of working.
+A living document for curating a list of lists of our favourite resources on Open Science topics, programming and Data Visualisation etc.
 
 ------------------------------------------------------------------------
 
-Ein lebendiges Dokument für die Einarbeitung neuer Teammitglieder, das interne Prozesse und Arbeitsweisen vorstellt.
-
-## Contributors
-
-<!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
-<!-- prettier-ignore-start -->
-<!-- markdownlint-disable -->
-
-<!-- markdownlint-restore -->
-<!-- prettier-ignore-end -->
-
-<!-- ALL-CONTRIBUTORS-LIST:END -->
+Ein lebendiges Dokument zur Zusammenstellung einer Liste unserer bevorzugten Ressourcen zu Themen wie Open Science, Programmierung und Datenvisualisierung usw.
