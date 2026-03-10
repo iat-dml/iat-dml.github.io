@@ -10,7 +10,7 @@
 <atom:link href="https://DaMIfLL.github.io/news.xml" rel="self" type="application/rss+xml"/>
 <description>This is the website of the Data and Modelling Infrastructure for Living Labs Working group (SWG) of the Innovation Center for Agricultural System Transformation (IAT) as part of the Liebniz Center for Agricultural Landscape Research (ZALF).</description>
 <generator>quarto-1.8.27</generator>
-<lastBuildDate>Mon, 09 Mar 2026 01:16:17 GMT</lastBuildDate>
+<lastBuildDate>Tue, 10 Mar 2026 01:05:47 GMT</lastBuildDate>
 <item>
   <title>About</title>
   <link>https://DaMIfLL.github.io/about.html</link>
@@ -25,7 +25,7 @@
 
  ]]></description>
   <guid>https://DaMIfLL.github.io/about.html</guid>
-  <pubDate>Mon, 09 Mar 2026 01:16:17 GMT</pubDate>
+  <pubDate>Tue, 10 Mar 2026 01:05:47 GMT</pubDate>
 </item>
 <item>
   <title>Data and Modelling Infrastructure for Living Labs Service Working Group Charter</title>
@@ -41,7 +41,7 @@
 
  ]]></description>
   <guid>https://DaMIfLL.github.io/charter.html</guid>
-  <pubDate>Mon, 09 Mar 2026 01:16:17 GMT</pubDate>
+  <pubDate>Tue, 10 Mar 2026 01:05:47 GMT</pubDate>
 </item>
 <item>
   <title>Benjamin Black</title>
@@ -75,7 +75,7 @@
 
  ]]></description>
   <guid>https://DaMIfLL.github.io/current/Ben.html</guid>
-  <pubDate>Mon, 09 Mar 2026 01:16:17 GMT</pubDate>
+  <pubDate>Tue, 10 Mar 2026 01:05:47 GMT</pubDate>
   <media:content url="https://DaMIfLL.github.io/current/black_benjamin.jpg" medium="image" type="image/jpeg"/>
 </item>
 <item>
@@ -93,17 +93,17 @@
 
  ]]></description>
   <guid>https://DaMIfLL.github.io/</guid>
-  <pubDate>Mon, 09 Mar 2026 01:16:17 GMT</pubDate>
+  <pubDate>Tue, 10 Mar 2026 01:05:47 GMT</pubDate>
 </item>
 <item>
   <title></title>
   <link>https://DaMIfLL.github.io/onboarding.md</link>
   <description><![CDATA[ undefined ]]></description>
   <guid>https://DaMIfLL.github.io/onboarding.md</guid>
-  <pubDate>Mon, 09 Mar 2026 01:16:17 GMT</pubDate>
+  <pubDate>Tue, 10 Mar 2026 01:05:47 GMT</pubDate>
 </item>
 <item>
-  <title>Resources</title>
+  <title>Resources and tools</title>
   <link>https://DaMIfLL.github.io/resources.html</link>
   <description><![CDATA[ 
 
@@ -113,13 +113,18 @@
 <p>This repo is intended to be a living document for SWG and IAT members to share useful information and resources related to Open Science, programming and Data Visualisation.</p>
 <p>Some documents that provide guiding principles:</p>
 <ul>
-<li><p><a href="">ZALF data policy</a></p></li>
+<li><p><a href="https://zalf365.sharepoint.com/sites/dokumentencenter/Richtlinien/2023-01-richtlinie-zalf-data-policy.pdf?csf=1&amp;web=1&amp;e=irWOai">Handling Research Data at ZALF Guidelinbes</a></p></li>
+<li><p><a href="https://zalf365.sharepoint.com/sites/vorstand/Freigegebene%20Dokumente/strategiedokumente/policy-open-access.pdf?csf=1&amp;web=1&amp;e=4bXvat">ZALF open access policy</a></p></li>
+<li><p><a href="https://doi.org/10.20387/BonaRes-RYCV-30RK">BonaRes Data Policy</a></p></li>
 <li><p><a href="https://www.leibniz-gemeinschaft.de/ueber-uns/evaluierung/das-evaluierungsverfahren-der-leibniz-gemeinschaft/senatsstellungnahmen">Previous ZALF evaluations</a></p></li>
 <li><p><a href="https://zalf365.sharepoint.com/sites/vorstand/Freigegebene%20Dokumente/Forms/AllItems.aspx?id=%2Fsites%2Fvorstand%2FFreigegebene%20Dokumente%2Fstrategiedokumente%2Forganizational%2Dpolicy%2Dzalf%2Epdf&amp;parent=%2Fsites%2Fvorstand%2FFreigegebene%20Dokumente%2Fstrategiedokumente">ZALF organisational policy</a></p></li>
 <li><p><a href="https://www.dfg.de/de/grundlagen-themen/grundlagen-und-prinzipien-der-foerderung/gwp">DFG research ethics</a></p></li>
 <li><p><a href="https://www.leibniz-gemeinschaft.de/ueber-uns/leibniz-integritaet/gute-wissenschaftliche-praxis-und-ombudswesen">Liebniz center Good Scientific Practice</a></p></li>
 </ul>
 <p>Check out the <a href="https://github.com/awesomelistsio/awesome-open-science">Open Science Awesome List</a></p>
+<ul>
+<li><a href="https://book.the-turing-way.org/collaboration/new-community/new-community-guide/">The Turing Way’s Guide to Planning a Community</a> - A guide to planning and building a community around open science, including tips on communication, governance, and sustainability.</li>
+</ul>
 <section id="data-visualisation" class="level2">
 <h2 class="anchored" data-anchor-id="data-visualisation">Data visualisation</h2>
 <ul>
@@ -136,13 +141,32 @@
 <ul>
 <li><a href="https://slidecrafting-book.com/">Beautiful slides with RevealJS and Quarto</a></li>
 </ul>
+</section>
+<section id="tools-and-software" class="level2">
+<h2 class="anchored" data-anchor-id="tools-and-software">Tools and Software</h2>
+<ul>
+<li><p><a href="https://european-alternatives.eu/categories">EU alternatives for software</a> - A directory of software alternatives to popular proprietary software, with a focus on European users and organizations.</p></li>
+<li><p><a href="https://www.gettingstuffdone.ai/">gettingstuffdoneai</a> - Directory of Generative AI Tools and Models, categorized by use case and functionality.</p></li>
+<li><p><a href="https://inkscape.org/">Inkscape</a> - Open source vector graphics editor, alternative to Adobe products, useful for creating and editing figures for publications and presentations. Available via the ZALF baramundi client.</p></li>
+</ul>
+</section>
+<section id="training" class="level2">
+<h2 class="anchored" data-anchor-id="training">Training</h2>
+<ul>
+<li><a href="https://digital-research.academy/">Digital Research Academy</a> - a trainer network focused on Open Science, Data Literacy, and Research Software Engineering (DRA’s <a href="https://zenodo.org/communities/digiresacademy/records?q=&amp;l=list&amp;p=1&amp;s=10&amp;sort=newest">Zenodo collection</a>).</li>
+<li><a href="https://www.berd-nfdi.de/berd-academy/">BERD academy</a></li>
+<li><a href="https://berd-nfdi.github.io/BERD-reproducible-research-course/">BERD reproducible research course</a></li>
+<li><a href="https://edutrain.nfdi4earth.de/">NFDI4Earth - Educational Portal</a></li>
+<li><a href="https://assured-training.org/">Assured Training</a> -Ensures the safe, legal, and ethical use of sensitive data through targeted training and certification.</li>
+<li><a href="https://ki-campus.org/en/learning-opportunities/courses">KI-campus</a> - Numerous free courses on AI and related topics, including data science, machine learning, and ethical considerations in AI.</li>
+</ul>
 
 
 </section>
 
  ]]></description>
   <guid>https://DaMIfLL.github.io/resources.html</guid>
-  <pubDate>Mon, 09 Mar 2026 01:16:17 GMT</pubDate>
+  <pubDate>Tue, 10 Mar 2026 01:05:47 GMT</pubDate>
 </item>
 <item>
   <title>Team</title>
@@ -155,7 +179,7 @@
 <p>Click on each team members profile for further information.</p>
 <div id="listing-current" class="quarto-listing quarto-listing-container-grid">
 <div class="list grid quarto-listing-cols-4">
-<div class="g-col-1" data-index="0" data-listing-file-modified-sort="1773018967971" data-listing-reading-time-sort="1" data-listing-word-count-sort="11">
+<div class="g-col-1" data-index="0" data-listing-file-modified-sort="1773104737551" data-listing-reading-time-sort="1" data-listing-word-count-sort="11">
 <a href="./current/Ben.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-center borderless">
 <p class="card-img-top">
@@ -186,7 +210,7 @@ Leiter der Arbeitsgruppe
 
  ]]></description>
   <guid>https://DaMIfLL.github.io/team.html</guid>
-  <pubDate>Mon, 09 Mar 2026 01:16:17 GMT</pubDate>
+  <pubDate>Tue, 10 Mar 2026 01:05:47 GMT</pubDate>
 </item>
 </channel>
 </rss>
