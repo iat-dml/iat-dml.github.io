@@ -19,6 +19,14 @@ the techniques proposed by the Openscapes project
 - For collaboration with other SWGs, Admin and Coordination in the IAT
   we should use the sharepoint
 
+### Document templates
+
+We have a dedicated repository for document templates ‘templates’ where
+we will store templates for different types of documents including PDfs,
+presentations, and reports. This is to ensure consistency in the format
+and style of our documents and to make it easier for members to create
+new documents.
+
 ### Using issues as a communication channel
 
 We will use Github issues as a communication channel for the SWG. This
@@ -42,4 +50,7 @@ explorer pane you will see eacvh of the respective folders for the
 different repos you have cloned. Last step is to save the workspace by
 going to File -\> Save Workspace As… testing
 
-update
+## Expenses re-imbursement
+
+Link to expenses-reimbursement dir within knowledge-management repo with
+instructions on how to submit expenses for re-imbursement.

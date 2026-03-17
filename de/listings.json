@@ -1,5 +1,11 @@
 [
   {
+    "listing": "/team.html",
+    "items": [
+      "/current/Ben.html"
+    ]
+  },
+  {
     "listing": "/news.html",
     "items": [
       "/about.html",
@@ -10,12 +16,6 @@
       "/onboarding.md",
       "/resources.html",
       "/team.html"
-    ]
-  },
-  {
-    "listing": "/team.html",
-    "items": [
-      "/current/Ben.html"
     ]
   }
 ]

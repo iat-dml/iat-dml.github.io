@@ -1,52 +1,31 @@
 [
   {
-    "objectID": "current/Ben.html",
-    "href": "current/Ben.html",
-    "title": "Benjamin Black",
+    "objectID": "roles/data-steward.html",
+    "href": "roles/data-steward.html",
+    "title": "Data and Modelling Infrastructure for Living Labs Working group",
     "section": "",
-    "text": "website"
+    "text": "Besonderheiten des agrarwissenschaftlichen Forschungsdatenmanagements (FDM)\nAgrarwissenschaftliche Forschung erzeugt hochgradig heterogene Daten und hängt von diesen ab: Von Feld- und Versuchsdaten über Sensordaten bis hin zu genetischen und sozioökonomischen Forschungsdaten. Der Nachnutzung von bereits veröffentlichten qualitativ hochwertigen und gut dokumentierten Daten kommt immer mehr Bedeutung zu.\nDie starke Kontextabhängigkeit (Standort, Boden, Klima, Bewirtschaftungssysteme) macht ein präzises, domänenspezifisches Forschungsdatenmanagement incl. Planung, Dokumentation, Strukturierung und Qualitätssicherung unverzichtbar.\nLangzeitfeldversuche und Monitoringprogramme erfordern standardisierte Arbeitsweisen über Jahrzehnte hinweg.\n(Inter-) nationale Initiativen wie die FAIR Data Principles und GO FAIR oder NFDI und FAIRagro betonen die Notwendigkeit der Interoperabilität von Daten und Metadaten – in den Agrarwissenschaften jedoch nur wirksam mit fachlich angepassten FDM Standards und Methoden.\nDomänenspezifisches FDM erhöht Datenqualität, Nachnutzbarkeit und Vergleichbarkeit und steigert damit den Wert von Daten und ermöglicht deren Nachnutzung. Aus Sicht der Datengeber und Funding Agencies kann domänenspezifisches FDM auch die Sichtbarkeit von Daten erhöhen.\nAufgabenspektrum eines Data Steward in den Agrarwissenschaften\n• Beratung und Unterstützung bei der Planung, Strukturierung und Veröffentlichung agrarwissenschaftlicher Forschungsdaten (inkl. Repositorienauswahl und Lizenzierung).\n• Fachspezifische Daten- und Metadatenkuration unter Berücksichtigung agrarspezifischer Standards (z.B. BonaRes Metadaten), Ontologien (z.B. Agronomy Ontology) und kontrollierter Vokabulare (z.B. AGROVOC).\n• Qualitätssicherung und Review von Metadaten sowie Sicherstellung von Interoperabilität und Nachnutzbarkeit.\n• Konzeption und Durchführung von Trainings und Workshops zum agrarspezifischen FDM für Forschende und Promovierende.\n• Entwicklung und Pflege von Templates für Datenmanagementpläne (DMP), Policies und Leitlinien zur nachhaltigen Datenpraxis in den Agrarwissenschaften.\n• Vernetzung in der Agrarcommunity, um spezifische Anliegen anwenderorientiert zu erfüllen bzw. weiterzuleiten.\n• Advice and methodological support for the responsible use of AI in project work, based on existing regulations (ZALF AI Policy). –&gt; hier haben wir noch einige Defizite, das wir aber wichtiger werden"
   },
   {
-    "objectID": "charter.html",
-    "href": "charter.html",
-    "title": "Data and Modelling Infrastructure for Living Labs Service Working Group Charter",
-    "section": "",
-    "text": "testing"
+    "objectID": "roles/data-steward.html#english-translation",
+    "href": "roles/data-steward.html#english-translation",
+    "title": "Data and Modelling Infrastructure for Living Labs Working group",
+    "section": "English translation",
+    "text": "English translation\nSpecific features of agricultural research data management (RDM)\nAgricultural research generates and relies on highly heterogeneous data: from field and experimental data (including from automated sensors), to genetic and socio-economic research data. Furthermore, the re-use of published, high-quality and well-documented data is becoming increasingly important. The strong context dependency of agricultural research (location, soil, climate, and farming systems) necessitates a precise, domain-specific, approach to research data management (RDM) – including planning, documentation, structuring and quality assurance. In particular long-term field experiments (LTEs) and monitoring programs, which may span decades, require standardised methods and protocols. Both international (the FAIR Data Principles and GO FAIR) and national (NFDI and FAIRagro) initiatives emphasise the need for the interoperability of data and metadata – though in the agricultural sciences this is only effective with domain-specific RDM standards and methods . Domain-specific RDM improves data quality, reusability and comparability, thereby increasing the value of data and enabling its reuse. Finally, from the perspective of data providers and funding agencies, domain-specific RDM can also increase the visibility of data.\nScope of duties of a Data Steward in the agricultural sciences\n• Provide advice and support in the planning, structuring and publication of agricultural research data (including repository selection and licensing).\n• Cultivate subject-specific knowledge of data and metadata curation, taking into account agricultural standards (e.g. BonaRes metadata), ontologies (e.g. Agronomy Ontology) and controlled vocabularies (e.g. AGROVOC).\n• Perform quality assurance and review of metadata, as well as ensuring interoperability and reusability.\n• Design and delivery of training courses and workshops on agricultural data management for scientists and early-career researchers.\n• Development and maintenance of templates for data management plans (DMPs), policies and guidelines on sustainable data practices in agricultural sciences.\n• Networking within the agricultural community to address or pass on specific concerns in a user-oriented manner.\n• Advice and methodological support for the responsible use of AI in project work, based on existing regulations (ZALF AI Policy). –&gt; We still have some shortcomings here, but this is becoming increasingly important"
   },
   {
-    "objectID": "news.html",
-    "href": "news.html",
-    "title": "News",
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About",
     "section": "",
-    "text": "A newsletter subscription option is coming soon!\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nAbout\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nData and Modelling Infrastructure for Living Labs Service Working Group Charter\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nBenjamin Black\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nweb\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nOnboarding\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nResources and tools\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nTeam\n\n\n\n\n\n\n\n\n\n\n\nNo matching items"
+    "text": "About this site"
   },
   {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "web",
+    "objectID": "team.html",
+    "href": "team.html",
+    "title": "Team",
     "section": "",
-    "text": "This is a Quarto website.\nTo learn more about Quarto websites visit https://quarto.org/docs/websites."
-  },
-  {
-    "objectID": "LICENSE.html",
-    "href": "LICENSE.html",
-    "title": "LICENSE",
-    "section": "",
-    "text": "The ZALF Living Labs Infrastructure Community makes all of our materials publicly available under open source licenses.\nDocuments and data are made available under a CC-BY license. Software are made available under an MIT license.\nThe license text listed below (describing both CC-BY and MIT licenses as well as their usage in the ZALF Living Labs Infrastructure community) is re-used under a CC-BY license from The Carpentries community materials. (Specifically from the Reproducible Science Curriculum).\nYou can read more about licenses in the book itself.\n\n\nAll documentation and materials in this repository are made available under the Creative Commons Attribution license. The following is a human-readable summary of (and not a substitute for) the full legal text of the CC BY 4.0 license.\nYou are free:\n\nto Share—copy and redistribute the material in any medium or format\nto Adapt—remix, transform, and build upon the material\n\nfor any purpose, even commercially.\nThe licensor cannot revoke these freedoms as long as you follow the license terms.\nUnder the following terms:\n\nAttribution—You must give appropriate credit (mentioning that your work is derived from work that is Copyright © ZALF Living Labs Infrastructure community and, where practical, linking to https://github.com/zalf-lli), provide a link to the license, and indicate if changes were made. You may do so in any reasonable manner, but not in any way that suggests the licensor endorses you or your use.\nNo additional restrictions—You may not apply legal terms or technological measures that legally restrict others from doing anything the license permits.\n\nWith the understanding that:\n\nYou do not have to comply with the license for elements of the material in the public domain or where your use is permitted by an applicable exception or limitation.\nNo warranties are given. The license may not give you all of the permissions necessary for your intended use. For example, other rights such as publicity, privacy, or moral rights may limit how you use the material.\n\n\n\n\nExcept where otherwise noted, the software and infrastructure provided by the The ZALF Living Labs Infrastructure Community are made available under the OSI-approved MIT license.\n\nPermission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the “Software”), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:\nThe above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.\nTHE SOFTWARE IS PROVIDED “AS IS”, WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE."
-  },
-  {
-    "objectID": "LICENSE.html#process-documents-and-data",
-    "href": "LICENSE.html#process-documents-and-data",
-    "title": "LICENSE",
-    "section": "",
-    "text": "All documentation and materials in this repository are made available under the Creative Commons Attribution license. The following is a human-readable summary of (and not a substitute for) the full legal text of the CC BY 4.0 license.\nYou are free:\n\nto Share—copy and redistribute the material in any medium or format\nto Adapt—remix, transform, and build upon the material\n\nfor any purpose, even commercially.\nThe licensor cannot revoke these freedoms as long as you follow the license terms.\nUnder the following terms:\n\nAttribution—You must give appropriate credit (mentioning that your work is derived from work that is Copyright © ZALF Living Labs Infrastructure community and, where practical, linking to https://github.com/zalf-lli), provide a link to the license, and indicate if changes were made. You may do so in any reasonable manner, but not in any way that suggests the licensor endorses you or your use.\nNo additional restrictions—You may not apply legal terms or technological measures that legally restrict others from doing anything the license permits.\n\nWith the understanding that:\n\nYou do not have to comply with the license for elements of the material in the public domain or where your use is permitted by an applicable exception or limitation.\nNo warranties are given. The license may not give you all of the permissions necessary for your intended use. For example, other rights such as publicity, privacy, or moral rights may limit how you use the material."
-  },
-  {
-    "objectID": "LICENSE.html#software",
-    "href": "LICENSE.html#software",
-    "title": "LICENSE",
-    "section": "",
-    "text": "Except where otherwise noted, the software and infrastructure provided by the The ZALF Living Labs Infrastructure Community are made available under the OSI-approved MIT license.\n\nPermission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the “Software”), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:\nThe above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.\nTHE SOFTWARE IS PROVIDED “AS IS”, WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE."
+    "text": "Click on each team members profile for further information.\n\n\n\n\n\n\n\n\n\n\nBenjamin Black\n\n\n\nLeiter der Arbeitsgruppe\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "resources.html",
@@ -91,17 +70,52 @@
     "text": "Training\n\nDigital Research Academy - a trainer network focused on Open Science, Data Literacy, and Research Software Engineering (DRA’s Zenodo collection).\nBERD academy\nBERD reproducible research course\nNFDI4Earth - Educational Portal\nAssured Training -Ensures the safe, legal, and ethical use of sensitive data through targeted training and certification.\nKI-campus - Numerous free courses on AI and related topics, including data science, machine learning, and ethical considerations in AI."
   },
   {
-    "objectID": "team.html",
-    "href": "team.html",
-    "title": "Team",
+    "objectID": "LICENSE.html",
+    "href": "LICENSE.html",
+    "title": "LICENSE",
     "section": "",
-    "text": "Click on each team members profile for further information.\n\n\n\n\n\n\n\n\n\n\nBenjamin Black\n\n\n\nLeiter der Arbeitsgruppe\n\n\n\n\n\n\nNo matching items"
+    "text": "The ZALF Living Labs Infrastructure Community makes all of our materials publicly available under open source licenses.\nDocuments and data are made available under a CC-BY license. Software are made available under an MIT license.\nThe license text listed below (describing both CC-BY and MIT licenses as well as their usage in the ZALF Living Labs Infrastructure community) is re-used under a CC-BY license from The Carpentries community materials. (Specifically from the Reproducible Science Curriculum).\nYou can read more about licenses in the book itself.\n\n\nAll documentation and materials in this repository are made available under the Creative Commons Attribution license. The following is a human-readable summary of (and not a substitute for) the full legal text of the CC BY 4.0 license.\nYou are free:\n\nto Share—copy and redistribute the material in any medium or format\nto Adapt—remix, transform, and build upon the material\n\nfor any purpose, even commercially.\nThe licensor cannot revoke these freedoms as long as you follow the license terms.\nUnder the following terms:\n\nAttribution—You must give appropriate credit (mentioning that your work is derived from work that is Copyright © ZALF Living Labs Infrastructure community and, where practical, linking to https://github.com/zalf-lli), provide a link to the license, and indicate if changes were made. You may do so in any reasonable manner, but not in any way that suggests the licensor endorses you or your use.\nNo additional restrictions—You may not apply legal terms or technological measures that legally restrict others from doing anything the license permits.\n\nWith the understanding that:\n\nYou do not have to comply with the license for elements of the material in the public domain or where your use is permitted by an applicable exception or limitation.\nNo warranties are given. The license may not give you all of the permissions necessary for your intended use. For example, other rights such as publicity, privacy, or moral rights may limit how you use the material.\n\n\n\n\nExcept where otherwise noted, the software and infrastructure provided by the The ZALF Living Labs Infrastructure Community are made available under the OSI-approved MIT license.\n\nPermission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the “Software”), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:\nThe above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.\nTHE SOFTWARE IS PROVIDED “AS IS”, WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE."
   },
   {
-    "objectID": "about.html",
-    "href": "about.html",
-    "title": "About",
+    "objectID": "LICENSE.html#process-documents-and-data",
+    "href": "LICENSE.html#process-documents-and-data",
+    "title": "LICENSE",
     "section": "",
-    "text": "About this site"
+    "text": "All documentation and materials in this repository are made available under the Creative Commons Attribution license. The following is a human-readable summary of (and not a substitute for) the full legal text of the CC BY 4.0 license.\nYou are free:\n\nto Share—copy and redistribute the material in any medium or format\nto Adapt—remix, transform, and build upon the material\n\nfor any purpose, even commercially.\nThe licensor cannot revoke these freedoms as long as you follow the license terms.\nUnder the following terms:\n\nAttribution—You must give appropriate credit (mentioning that your work is derived from work that is Copyright © ZALF Living Labs Infrastructure community and, where practical, linking to https://github.com/zalf-lli), provide a link to the license, and indicate if changes were made. You may do so in any reasonable manner, but not in any way that suggests the licensor endorses you or your use.\nNo additional restrictions—You may not apply legal terms or technological measures that legally restrict others from doing anything the license permits.\n\nWith the understanding that:\n\nYou do not have to comply with the license for elements of the material in the public domain or where your use is permitted by an applicable exception or limitation.\nNo warranties are given. The license may not give you all of the permissions necessary for your intended use. For example, other rights such as publicity, privacy, or moral rights may limit how you use the material."
+  },
+  {
+    "objectID": "LICENSE.html#software",
+    "href": "LICENSE.html#software",
+    "title": "LICENSE",
+    "section": "",
+    "text": "Except where otherwise noted, the software and infrastructure provided by the The ZALF Living Labs Infrastructure Community are made available under the OSI-approved MIT license.\n\nPermission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the “Software”), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:\nThe above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.\nTHE SOFTWARE IS PROVIDED “AS IS”, WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE."
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "web",
+    "section": "",
+    "text": "This is a Quarto website.\nTo learn more about Quarto websites visit https://quarto.org/docs/websites."
+  },
+  {
+    "objectID": "news.html",
+    "href": "news.html",
+    "title": "News",
+    "section": "",
+    "text": "A newsletter subscription option is coming soon!\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nAbout\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nData and Modelling Infrastructure for Living Labs Service Working Group Charter\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nBenjamin Black\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nweb\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nOnboarding\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nResources and tools\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nTeam\n\n\n\n\n\n\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "charter.html",
+    "href": "charter.html",
+    "title": "Data and Modelling Infrastructure for Living Labs Service Working Group Charter",
+    "section": "",
+    "text": "testing"
+  },
+  {
+    "objectID": "current/Ben.html",
+    "href": "current/Ben.html",
+    "title": "Benjamin Black",
+    "section": "",
+    "text": "website"
   }
 ]

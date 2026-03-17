@@ -1,75 +1,83 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://DaMIfLL.github.io/de/code-of-conduct.html</loc>
-    <lastmod>2026-03-16T01:20:14.978Z</lastmod>
-  </url>
-  <url>
-    <loc>https://DaMIfLL.github.io/de/current/Ben.html</loc>
-    <lastmod>2026-03-16T01:20:14.978Z</lastmod>
-  </url>
-  <url>
-    <loc>https://DaMIfLL.github.io/de/charter.html</loc>
-    <lastmod>2026-03-16T01:20:14.978Z</lastmod>
-  </url>
-  <url>
-    <loc>https://DaMIfLL.github.io/de/news.html</loc>
-    <lastmod>2026-03-16T01:20:14.979Z</lastmod>
-  </url>
-  <url>
-    <loc>https://DaMIfLL.github.io/de/index.html</loc>
-    <lastmod>2026-03-16T01:20:14.979Z</lastmod>
-  </url>
-  <url>
-    <loc>https://DaMIfLL.github.io/de/LICENSE.html</loc>
-    <lastmod>2026-03-16T01:20:14.964Z</lastmod>
-  </url>
-  <url>
-    <loc>https://DaMIfLL.github.io/de/resources.html</loc>
-    <lastmod>2026-03-16T01:20:14.979Z</lastmod>
-  </url>
-  <url>
-    <loc>https://DaMIfLL.github.io/de/team.html</loc>
-    <lastmod>2026-03-16T01:20:14.979Z</lastmod>
+    <loc>https://DaMIfLL.github.io/de/roles/data-steward.html</loc>
+    <lastmod>2026-03-17T01:11:17.007Z</lastmod>
   </url>
   <url>
     <loc>https://DaMIfLL.github.io/de/about.html</loc>
-    <lastmod>2026-03-16T01:20:14.978Z</lastmod>
+    <lastmod>2026-03-17T01:11:17.006Z</lastmod>
   </url>
   <url>
-    <loc>https://DaMIfLL.github.io/code-of-conduct.html</loc>
-    <lastmod>2026-03-16T01:19:54.727Z</lastmod>
+    <loc>https://DaMIfLL.github.io/de/team.html</loc>
+    <lastmod>2026-03-17T01:11:17.007Z</lastmod>
   </url>
   <url>
-    <loc>https://DaMIfLL.github.io/current/Ben.html</loc>
-    <lastmod>2026-03-16T01:19:54.727Z</lastmod>
+    <loc>https://DaMIfLL.github.io/de/resources.html</loc>
+    <lastmod>2026-03-17T01:11:17.007Z</lastmod>
   </url>
   <url>
-    <loc>https://DaMIfLL.github.io/charter.html</loc>
-    <lastmod>2026-03-16T01:19:54.727Z</lastmod>
+    <loc>https://DaMIfLL.github.io/de/LICENSE.html</loc>
+    <lastmod>2026-03-17T01:11:16.993Z</lastmod>
   </url>
   <url>
-    <loc>https://DaMIfLL.github.io/news.html</loc>
-    <lastmod>2026-03-16T01:19:54.728Z</lastmod>
+    <loc>https://DaMIfLL.github.io/de/index.html</loc>
+    <lastmod>2026-03-17T01:11:17.007Z</lastmod>
   </url>
   <url>
-    <loc>https://DaMIfLL.github.io/index.html</loc>
-    <lastmod>2026-03-16T01:19:54.728Z</lastmod>
+    <loc>https://DaMIfLL.github.io/de/news.html</loc>
+    <lastmod>2026-03-17T01:11:17.007Z</lastmod>
   </url>
   <url>
-    <loc>https://DaMIfLL.github.io/LICENSE.html</loc>
-    <lastmod>2026-03-16T01:19:54.724Z</lastmod>
+    <loc>https://DaMIfLL.github.io/de/charter.html</loc>
+    <lastmod>2026-03-17T01:11:17.006Z</lastmod>
   </url>
   <url>
-    <loc>https://DaMIfLL.github.io/resources.html</loc>
-    <lastmod>2026-03-16T01:19:54.728Z</lastmod>
+    <loc>https://DaMIfLL.github.io/de/current/Ben.html</loc>
+    <lastmod>2026-03-17T01:11:17.006Z</lastmod>
   </url>
   <url>
-    <loc>https://DaMIfLL.github.io/team.html</loc>
-    <lastmod>2026-03-16T01:19:54.728Z</lastmod>
+    <loc>https://DaMIfLL.github.io/de/code-of-conduct.html</loc>
+    <lastmod>2026-03-17T01:11:17.006Z</lastmod>
+  </url>
+  <url>
+    <loc>https://DaMIfLL.github.io/roles/data-steward.html</loc>
+    <lastmod>2026-03-17T01:10:57.990Z</lastmod>
   </url>
   <url>
     <loc>https://DaMIfLL.github.io/about.html</loc>
-    <lastmod>2026-03-16T01:19:54.727Z</lastmod>
+    <lastmod>2026-03-17T01:10:57.989Z</lastmod>
+  </url>
+  <url>
+    <loc>https://DaMIfLL.github.io/team.html</loc>
+    <lastmod>2026-03-17T01:10:57.990Z</lastmod>
+  </url>
+  <url>
+    <loc>https://DaMIfLL.github.io/resources.html</loc>
+    <lastmod>2026-03-17T01:10:57.990Z</lastmod>
+  </url>
+  <url>
+    <loc>https://DaMIfLL.github.io/LICENSE.html</loc>
+    <lastmod>2026-03-17T01:10:57.987Z</lastmod>
+  </url>
+  <url>
+    <loc>https://DaMIfLL.github.io/index.html</loc>
+    <lastmod>2026-03-17T01:10:57.990Z</lastmod>
+  </url>
+  <url>
+    <loc>https://DaMIfLL.github.io/news.html</loc>
+    <lastmod>2026-03-17T01:10:57.990Z</lastmod>
+  </url>
+  <url>
+    <loc>https://DaMIfLL.github.io/charter.html</loc>
+    <lastmod>2026-03-17T01:10:57.989Z</lastmod>
+  </url>
+  <url>
+    <loc>https://DaMIfLL.github.io/current/Ben.html</loc>
+    <lastmod>2026-03-17T01:10:57.989Z</lastmod>
+  </url>
+  <url>
+    <loc>https://DaMIfLL.github.io/code-of-conduct.html</loc>
+    <lastmod>2026-03-17T01:10:57.989Z</lastmod>
   </url>
 </urlset>
