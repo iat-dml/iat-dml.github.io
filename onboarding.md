@@ -15,9 +15,9 @@ the techniques proposed by the Openscapes project
 
 ### Sharing documents
 
-- For sharing ZALF documents on the github use the sharepoint links
+- For sharing ZALF internal documents on github use Sharepoint links
 - For collaboration with other SWGs, Admin and Coordination in the IAT
-  we should use the sharepoint
+  we should use Sharepoint and/or Teams channels.
 
 ### Document templates
 
@@ -38,7 +38,9 @@ feel free to include links to files or specific chunks in other repos in
 the issues to make it easier for others to find the relevant information
 (in the respective files click the ‘…’ icon and ;‘copy perma link’)
 
-## Setting up a VScode/Positron workspace.
+## Technical tools and resources
+
+### Setting up a VScode/Positron workspace.
 
 For SWG memebers it is advisable to set up a VS code/Positron workspace
 to simplify simultaneously working acorss the variouys organisation
@@ -48,7 +50,9 @@ explorer you are then presented with the option as to where to open the
 repo choose ‘add to workspace’ and then if you switched to the file
 explorer pane you will see eacvh of the respective folders for the
 different repos you have cloned. Last step is to save the workspace by
-going to File -\> Save Workspace As… testing
+going to File -\> Save Workspace As…
+
+### Setting up access to the ZALF HPC cluster
 
 ## Expenses re-imbursement
 
