@@ -10,7 +10,7 @@
 <atom:link href="https://DaMIfLL.github.io/news.xml" rel="self" type="application/rss+xml"/>
 <description>This is the website of the Data and Modelling Infrastructure for Living Labs Working group (SWG) of the Innovation Center for Agricultural System Transformation (IAT) as part of the Liebniz Center for Agricultural Landscape Research (ZALF).</description>
 <generator>quarto-1.9.36</generator>
-<lastBuildDate>Sat, 28 Mar 2026 01:13:22 GMT</lastBuildDate>
+<lastBuildDate>Sun, 29 Mar 2026 01:22:09 GMT</lastBuildDate>
 <item>
   <title>About</title>
   <link>https://DaMIfLL.github.io/about.html</link>
@@ -25,7 +25,7 @@
 
  ]]></description>
   <guid>https://DaMIfLL.github.io/about.html</guid>
-  <pubDate>Sat, 28 Mar 2026 01:13:22 GMT</pubDate>
+  <pubDate>Sun, 29 Mar 2026 01:22:09 GMT</pubDate>
 </item>
 <item>
   <title>Data and Modelling Infrastructure for Living Labs Service Working Group Charter</title>
@@ -41,7 +41,7 @@
 
  ]]></description>
   <guid>https://DaMIfLL.github.io/charter.html</guid>
-  <pubDate>Sat, 28 Mar 2026 01:13:22 GMT</pubDate>
+  <pubDate>Sun, 29 Mar 2026 01:22:09 GMT</pubDate>
 </item>
 <item>
   <title>Benjamin Black</title>
@@ -75,7 +75,7 @@
 
  ]]></description>
   <guid>https://DaMIfLL.github.io/current/Ben.html</guid>
-  <pubDate>Sat, 28 Mar 2026 01:13:22 GMT</pubDate>
+  <pubDate>Sun, 29 Mar 2026 01:22:09 GMT</pubDate>
   <media:content url="https://DaMIfLL.github.io/current/black_benjamin.jpg" medium="image" type="image/jpeg"/>
 </item>
 <item>
@@ -93,14 +93,14 @@
 
  ]]></description>
   <guid>https://DaMIfLL.github.io/</guid>
-  <pubDate>Sat, 28 Mar 2026 01:13:22 GMT</pubDate>
+  <pubDate>Sun, 29 Mar 2026 01:22:09 GMT</pubDate>
 </item>
 <item>
   <title></title>
   <link>https://DaMIfLL.github.io/onboarding.md</link>
   <description><![CDATA[ undefined ]]></description>
   <guid>https://DaMIfLL.github.io/onboarding.md</guid>
-  <pubDate>Sat, 28 Mar 2026 01:13:22 GMT</pubDate>
+  <pubDate>Sun, 29 Mar 2026 01:22:09 GMT</pubDate>
 </item>
 <item>
   <title>Resources and tools</title>
@@ -166,7 +166,7 @@
 
  ]]></description>
   <guid>https://DaMIfLL.github.io/resources.html</guid>
-  <pubDate>Sat, 28 Mar 2026 01:13:22 GMT</pubDate>
+  <pubDate>Sun, 29 Mar 2026 01:22:09 GMT</pubDate>
 </item>
 <item>
   <title>Team</title>
@@ -179,7 +179,7 @@
 <p>Click on each team members profile for further information.</p>
 <div id="listing-current" class="quarto-listing quarto-listing-container-grid">
 <div class="list grid quarto-listing-cols-4">
-<div class="g-col-1" data-index="0" data-listing-file-modified-sort="1774660389727" data-listing-reading-time-sort="1" data-listing-word-count-sort="11">
+<div class="g-col-1" data-index="0" data-listing-file-modified-sort="1774747317237" data-listing-reading-time-sort="1" data-listing-word-count-sort="11">
 <a href="./current/Ben.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-center borderless">
 <p class="card-img-top">
@@ -210,7 +210,7 @@ Leiter der Arbeitsgruppe
 
  ]]></description>
   <guid>https://DaMIfLL.github.io/team.html</guid>
-  <pubDate>Sat, 28 Mar 2026 01:13:22 GMT</pubDate>
+  <pubDate>Sun, 29 Mar 2026 01:22:09 GMT</pubDate>
 </item>
 </channel>
 </rss>
