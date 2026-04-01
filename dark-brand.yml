@@ -21,6 +21,12 @@ logo:
     logo-dmi:
       path: assets/logos/logo-dmi-white-en.png
       alt: Data and Modelling Infrastructure for Living Labs (DMI)
+    logo-iat-zalf:
+      path: assets/logos/logo-iat-zalf-white.png
+      alt: "Innovation Center for Agricultural System Transformation & Leibniz Centre for Agricultural Landscape Research"
+  medium: logo-iat-zalf
+  large:  logo-iat-zalf
+  small:  logo-iat-zalf
 color:
   palette:
     green: '#46A84F'

@@ -45,9 +45,9 @@ ul.task-list li input[type="checkbox"] {
 <link href="site_libs/quarto-html/quarto-syntax-highlighting-06b3079109bbc4c37b36690ef3b9afd9.css" rel="stylesheet" class="quarto-color-scheme-extra" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-a72f8a803687adf5f25caf1950e8e164.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
-<link href="site_libs/bootstrap/bootstrap-dark-b861bb85e9a19ab93546bb3d9c405d18.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
-<link href="site_libs/bootstrap/bootstrap-a72f8a803687adf5f25caf1950e8e164.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-10e0556f9ae148a4632c3c59f253d606.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-dark-4109cf8ee80ad82e542f0a2e86b94c06.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
+<link href="site_libs/bootstrap/bootstrap-10e0556f9ae148a4632c3c59f253d606.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
 <link href="site_libs/quarto-contrib/fontawesome6-0.1.0/all.css" rel="stylesheet">
 <link href="site_libs/quarto-contrib/fontawesome6-0.1.0/latex-fontsize.css" rel="stylesheet">
 <script id="quarto-search-options" type="application/json">{
@@ -87,9 +87,9 @@ ul.task-list li input[type="checkbox"] {
     }
 
     const options = {
-      valueNames: ['listing-project','listing-website','listing-format','listing-lightbox','listing-brand','listing-babelquarto','listing-title-de','listing-description-de','listing-author-de','listing-lang','listing-language','listing-title','listing-subtitle','listing-image','listing-image-alt','listing-skills','listing-projects','listing-categories','listing-path','listing-outputHref','listing-author','listing-description','listing-filename','listing-file-modified','listing-reading-time','listing-word-count',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-file-modified-sort'] },{ data: ['listing-reading-time-sort'] },{ data: ['listing-word-count-sort'] }],
+      valueNames: ['listing-project','listing-website','listing-format','listing-lightbox','listing-brand','listing-babelquarto','listing-title-de','listing-description-de','listing-author-de','listing-lang','listing-language','listing-title','listing-subtitle','listing-image','listing-image-alt','listing-skills','listing-projects','listing-description','listing-links','listing-about','listing-path','listing-outputHref','listing-author','listing-filename','listing-file-modified','listing-reading-time','listing-word-count','listing-categories',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-file-modified-sort'] },{ data: ['listing-reading-time-sort'] },{ data: ['listing-word-count-sort'] }],
       
-      searchColumns: ["listing-project","listing-website","listing-format","listing-lightbox","listing-brand","listing-babelquarto","listing-title-de","listing-description-de","listing-author-de","listing-lang","listing-language","listing-title","listing-subtitle","listing-image","listing-image-alt","listing-skills","listing-projects","listing-categories","listing-path","listing-outputHref","listing-author","listing-description","listing-filename","listing-file-modified","listing-reading-time","listing-word-count"],
+      searchColumns: ["listing-project","listing-website","listing-format","listing-lightbox","listing-brand","listing-babelquarto","listing-title-de","listing-description-de","listing-author-de","listing-lang","listing-language","listing-title","listing-subtitle","listing-image","listing-image-alt","listing-skills","listing-projects","listing-description","listing-links","listing-about","listing-path","listing-outputHref","listing-author","listing-filename","listing-file-modified","listing-reading-time","listing-word-count","listing-categories"],
     };
 
     window['quarto-listings'] = window['quarto-listings'] || {};
@@ -316,6 +316,12 @@ window.Quarto = {
   <header id="quarto-header" class="headroom fixed-top">
     <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
       <div class="navbar-container container-fluid">
+      <div class="navbar-brand-container mx-auto">
+    <a href="./index.html" class="navbar-brand navbar-brand-logo">
+    <img src="./assets\logos\logo-iat-zalf-white.png" alt="Innovation Center for Agricultural System Transformation &amp; Leibniz Centre for Agricultural Landscape Research" class="navbar-logo light-content">
+    <img src="./assets\logos\logo-iat-zalf-white.png" alt="Innovation Center for Agricultural System Transformation &amp; Leibniz Centre for Agricultural Landscape Research" class="navbar-logo dark-content">
+    </a>
+  </div>
             <div id="quarto-search" class="" title="Search"></div>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" role="menu" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
   <span class="navbar-toggler-icon"></span>
@@ -327,6 +333,18 @@ window.Quarto = {
 <span class="menu-text">Home</span></a>
   </li>  
   <li class="nav-item">
+    <a class="nav-link active" href="./team.html" aria-current="page"> 
+<span class="menu-text">People</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="./team.html"> 
+<span class="menu-text">Projects</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="./news.html"> 
+<span class="menu-text">News</span></a>
+  </li>  
+  <li class="nav-item">
     <a class="nav-link" href="./resources.html"> 
 <span class="menu-text">Resources</span></a>
   </li>  
@@ -335,10 +353,6 @@ window.Quarto = {
  <span class="menu-text">About</span>
     </a>
     <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="nav-menu-about">    
-        <li>
-    <a class="dropdown-item" href="./team.html">
- <span class="dropdown-text">People</span></a>
-  </li>  
         <li>
     <a class="dropdown-item" href="./code-of-conduct.html">
  <span class="dropdown-text">Code of Conduct</span></a>
@@ -399,7 +413,7 @@ window.Quarto = {
 <div id="listing-team-listing" class="quarto-listing quarto-listing-container-custom">
 <div class="list grid team-grid">
 
-  <div class="g-col-1" data-index="0" data-categories="TGVhZGVyc2hpcCUyQ0VuZ2luZWVyaW5n" data-listing-file-modified-sort="1775051656969" data-listing-reading-time-sort="1" data-listing-word-count-sort="87">
+  <div class="g-col-1" data-index="0" data-listing-file-modified-sort="1775059796317" data-listing-reading-time-sort="1" data-listing-word-count-sort="51">
     <a href="./team/Ben.html" class="quarto-grid-link">
       </a><div class="quarto-grid-item card h-100 card-team card-center"><a href="./team/Ben.html" class="quarto-grid-link">
         
@@ -408,13 +422,51 @@ window.Quarto = {
         </p>
         
         
-        </a><div class="card-body post-contents"><a href="./team/Ben.html" class="quarto-grid-link">
+        
+        </a><div class="listing-links"><a href="./team/Ben.html" class="quarto-grid-link">
+          
+            
+              
+          </a><a href="mailto:benjaminsamuel.black@zalf.de" class="listing-link-icon" title="Email" onclick="event.stopPropagation();" target="_blank" rel="noopener">
+            <i class="bi bi-envelope"></i>
+          </a>
+              
+            
+              
+          <a href="https://github.com/blenback" class="listing-link-icon" title="Github" onclick="event.stopPropagation();" target="_blank" rel="noopener">
+            <i class="bi bi-github"></i>
+          </a>
+              
+            
+              
+          <a href="https://www.linkedin.com/in/ben-black-9889a1150" class="listing-link-icon" title="LinkedIn" onclick="event.stopPropagation();" target="_blank" rel="noopener">
+            <i class="bi bi-linkedin"></i>
+          </a>
+              
+            
+              
+          <a href="https://blenback.github.io/" class="listing-link-icon" title="Personal Website" onclick="event.stopPropagation();" target="_blank" rel="noopener">
+            <i class="bi bi-globe2"></i>
+          </a>
+              
+            
+          
+        </div>
+        
+        
+        <div class="card-body post-contents">
           
           <h5 class="no-anchor card-title listing-title">Ben Black</h5>
           
           
           
           <div class="card-subtitle listing-subtitle team-job-title">Head of the working group</div>
+          
+
+          
+          <div class="card-text listing-description team-description">
+            Ben is the head of our working group, responsible for overseeing all projects and ensuring successful delivery. With a strong background in software engineering and team leadership, Ben has been instrumental in driving innovation and fostering a collaborative work environment.
+          </div>
           
           
           
@@ -437,15 +489,81 @@ window.Quarto = {
           
           
           
+          <div class="listing-projects">
+            <div class="projects-label">Projects:</div>
+            <div class="projects-list">
+              
+                
+                  
+              <a href="./projects/cloud-migration" class="project-link" onclick="event.stopPropagation();">Cloud Migration Platform</a>
+                  
+                
+                  
+              <a href="./projects/microservices" class="project-link" onclick="event.stopPropagation();">Microservices Framework</a>
+                  
+                
+                  
+              <a href="./projects/dev-portal" class="project-link" onclick="event.stopPropagation();">Developer Portal</a>
+                  
+                
+              
+            </div>
+          </div>
+          
+        </div>
+      </div>
+    
+  </div>
+
+  <div class="g-col-1" data-index="1" data-categories="TGVhZGVyc2hpcCUyQ0VuZ2luZWVyaW5n" data-listing-file-modified-sort="1775054974089" data-listing-reading-time-sort="1" data-listing-word-count-sort="1">
+    <a href="./team/DS.html" class="quarto-grid-link">
+      </a><div class="quarto-grid-item card h-100 card-team card-center"><a href="./team/DS.html" class="quarto-grid-link">
+        
+        <p class="card-img-top team-image-container">
+          <img src="./team/ben.jpg" class="thumbnail-image card-img team-image" alt="Photo of the Data Steward">
+        </p>
+        
+        
+        
+        
+        </a><div class="card-body post-contents"><a href="./team/DS.html" class="quarto-grid-link">
+          
+          <h5 class="no-anchor card-title listing-title">Data Steward</h5>
+          
+          
+          
+          <div class="card-subtitle listing-subtitle team-job-title">Data Steward</div>
+          
+
+          
           <div class="card-text listing-description team-description">
-            <!-- Description hidden -->
+            
           </div>
           
           
           
-          </a><div class="listing-projects"><a href="./team/Ben.html" class="quarto-grid-link">
+          <div class="listing-skills">
+            <div class="skills-label">Expertise:</div>
+            <div class="skills-list">
+            
+              
+            <div class="listing-skill">R</div>
+              
+            <div class="listing-skill">Quarto</div>
+              
+            <div class="listing-skill">Team Leadership</div>
+              
+            <div class="listing-skill">System Design</div>
+              
+            
+          </div>
+          </div>
+          
+          
+          
+          </a><div class="listing-projects"><a href="./team/DS.html" class="quarto-grid-link">
             <div class="projects-label">Projects:</div>
-            </a><div class="projects-list"><a href="./team/Ben.html" class="quarto-grid-link">
+            </a><div class="projects-list"><a href="./team/DS.html" class="quarto-grid-link">
               
                 
                   

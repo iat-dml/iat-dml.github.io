@@ -1,0 +1,23 @@
+---
+title: "Data Steward"
+subtitle: "Data Steward"
+image: ben.jpg
+image-alt: "Photo of the Data Steward"
+skills:
+  - R
+  - Quarto
+  - Team Leadership
+  - System Design
+projects:
+  - title: "Cloud Migration Platform"
+    url: "/projects/cloud-migration"
+  - title: "Microservices Framework"
+    url: "/projects/microservices"
+  - title: "Developer Portal"
+    url: "/projects/dev-portal"
+categories:
+  - Leadership
+  - Engineering
+---
+
+

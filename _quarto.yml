@@ -16,31 +16,26 @@ website:
     title: false
     right:
       - href: index.qmd
-        text: Home      
+        text: Home
+      - href: team.qmd
+        text: People
+      - href: team.qmd
+        text: Projects
+      - href: news.qmd
+        text: News    
       - href: resources.qmd
         text: Resources
-      # - href: news.qmd
-      #   text: News
       - menu:
-              - href: team.qmd
-                text: People
               - href: code-of-conduct.qmd
                 text: Code of Conduct
               - href: charter.qmd
                 text: Charter
         text: "About"
-      # - menu:
-      #         - href: support.qmd
-      #           text: Supporting FAIR research
-      #   text: "Services"
       - icon: github
         href: https://github.com/zalf-lli
       - icon: envelope
         aria-label: email
         href: "mailto:benjaminsamuel.black@zalf.de"
-
-
-
 
 format:
   html:

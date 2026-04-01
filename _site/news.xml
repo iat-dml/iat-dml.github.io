@@ -10,11 +10,12 @@
 <atom:link href="https://DaMIfLL.github.io/news.xml" rel="self" type="application/rss+xml"/>
 <description>This is the website of the Data and Modelling Infrastructure for Living Labs Working group (SWG) of the Innovation Center for Agricultural System Transformation (IAT) as part of the Liebniz Center for Agricultural Landscape Research (ZALF).</description>
 <generator>quarto-1.8.27</generator>
-<lastBuildDate>Wed, 01 Apr 2026 13:47:39 GMT</lastBuildDate>
+<lastBuildDate>Wed, 01 Apr 2026 16:10:08 GMT</lastBuildDate>
 <item>
   <title>About</title>
   <link>https://DaMIfLL.github.io/about.de.html</link>
   <description><![CDATA[ 
+
 
 
 
@@ -25,12 +26,13 @@
 
  ]]></description>
   <guid>https://DaMIfLL.github.io/about.de.html</guid>
-  <pubDate>Wed, 01 Apr 2026 13:47:39 GMT</pubDate>
+  <pubDate>Wed, 01 Apr 2026 16:10:08 GMT</pubDate>
 </item>
 <item>
   <title>About</title>
   <link>https://DaMIfLL.github.io/about.html</link>
   <description><![CDATA[ 
+
 
 
 
@@ -41,12 +43,13 @@
 
  ]]></description>
   <guid>https://DaMIfLL.github.io/about.html</guid>
-  <pubDate>Wed, 01 Apr 2026 13:47:39 GMT</pubDate>
+  <pubDate>Wed, 01 Apr 2026 16:10:08 GMT</pubDate>
 </item>
 <item>
   <title>Data and Modelling Infrastructure for Living Labs Service Working Group Charter</title>
   <link>https://DaMIfLL.github.io/charter.de.html</link>
   <description><![CDATA[ 
+
 
 
 
@@ -57,12 +60,13 @@
 
  ]]></description>
   <guid>https://DaMIfLL.github.io/charter.de.html</guid>
-  <pubDate>Wed, 01 Apr 2026 13:47:39 GMT</pubDate>
+  <pubDate>Wed, 01 Apr 2026 16:10:08 GMT</pubDate>
 </item>
 <item>
   <title>Data and Modelling Infrastructure for Living Labs Service Working Group Charter</title>
   <link>https://DaMIfLL.github.io/charter.html</link>
   <description><![CDATA[ 
+
 
 
 
@@ -73,7 +77,7 @@
 
  ]]></description>
   <guid>https://DaMIfLL.github.io/charter.html</guid>
-  <pubDate>Wed, 01 Apr 2026 13:47:39 GMT</pubDate>
+  <pubDate>Wed, 01 Apr 2026 16:10:08 GMT</pubDate>
 </item>
 <item>
   <title>Verhaltenskodex</title>
@@ -86,96 +90,16 @@
 
 
 
+
  ]]></description>
   <guid>https://DaMIfLL.github.io/code-of-conduct.de.html</guid>
-  <pubDate>Wed, 01 Apr 2026 13:47:39 GMT</pubDate>
-</item>
-<item>
-  <title>Benjamin Black</title>
-  <dc:creator>Leiter der Arbeitsgruppe</dc:creator>
-  <link>https://DaMIfLL.github.io/current/Ben.de.html</link>
-  <description><![CDATA[ 
-
-
-
-
-<!-- ```{=html} -->
-<!-- <meta http-equiv="Refresh" content="0; url='https://blenback.github.io/'" /> -->
-<!-- ``` -->
-<div class="quarto-about-jolla">
-  <img src="https://DaMIfLL.github.io/current/black_benjamin.jpg" class="about-image
-  round " style="height: 15em; width: 15em;">
- <div id="person-profile">
-</div> 
-  <hr class="about-sep">
-   <div class="about-links">
-  <a href="https://blenback.github.io/" class="about-link" rel="" target="">
-    <i class="bi bi-link"></i>
-     <span class="about-link-text">website</span>
-  </a>
-</div>
-</div>
-
-
-
-
-
- ]]></description>
-  <guid>https://DaMIfLL.github.io/current/Ben.de.html</guid>
-  <pubDate>Wed, 01 Apr 2026 13:47:39 GMT</pubDate>
-  <media:content url="https://DaMIfLL.github.io/current/black_benjamin.jpg" medium="image" type="image/jpeg"/>
-</item>
-<item>
-  <title>Ben Black</title>
-  <link>https://DaMIfLL.github.io/current/Ben.html</link>
-  <description><![CDATA[ 
-
-
-
-
-
-<section id="about-ben" class="level2">
-<h2 class="anchored" data-anchor-id="about-ben">About Ben</h2>
-<p>Sarah joined our company in 2018 and has been instrumental in modernizing our technology stack. She holds a Master’s degree in Computer Science from MIT and is a frequent speaker at tech conferences.</p>
-<section id="achievements" class="level3">
-<h3 class="anchored" data-anchor-id="achievements">Achievements</h3>
-<ul>
-<li>Led the migration of our monolithic application to microservices</li>
-<li>Reduced infrastructure costs by 40% through cloud optimization</li>
-<li>Grew the engineering team from 5 to 50 people</li>
-<li>Published research on distributed systems in leading journals</li>
-</ul>
-</section>
-<section id="education" class="level3">
-<h3 class="anchored" data-anchor-id="education">Education</h3>
-<ul>
-<li>M.S. Computer Science, MIT, 2007</li>
-<li>B.S. Computer Engineering, Stanford University, 2005</li>
-</ul>
-</section>
-<section id="contact" class="level3">
-<h3 class="anchored" data-anchor-id="contact">Contact</h3>
-<ul>
-<li>Email: sarah.johnson@company.com</li>
-<li>LinkedIn: <a href="https://linkedin.com/in/sarahjohnson">linkedin.com/in/sarahjohnson</a></li>
-<li>Twitter: <a href="https://twitter.com/sarahj_tech"><span class="citation" data-cites="sarahj_tech">@sarahj_tech</span></a></li>
-</ul>
-
-
-</section>
-</section>
-
- ]]></description>
-  <category>Leadership</category>
-  <category>Engineering</category>
-  <guid>https://DaMIfLL.github.io/current/Ben.html</guid>
-  <pubDate>Wed, 01 Apr 2026 13:47:39 GMT</pubDate>
-  <media:content url="https://DaMIfLL.github.io/current/ben.jpg" medium="image" type="image/jpeg"/>
+  <pubDate>Wed, 01 Apr 2026 16:10:08 GMT</pubDate>
 </item>
 <item>
   <title>web</title>
   <link>https://DaMIfLL.github.io/index.de.html</link>
   <description><![CDATA[ 
+
 
 
 
@@ -187,7 +111,7 @@
 
  ]]></description>
   <guid>https://DaMIfLL.github.io/index.de.html</guid>
-  <pubDate>Wed, 01 Apr 2026 13:47:39 GMT</pubDate>
+  <pubDate>Wed, 01 Apr 2026 16:10:08 GMT</pubDate>
 </item>
 <item>
   <title></title>
@@ -208,7 +132,7 @@
 
  ]]></description>
   <guid>https://DaMIfLL.github.io/</guid>
-  <pubDate>Wed, 01 Apr 2026 13:47:39 GMT</pubDate>
+  <pubDate>Wed, 01 Apr 2026 16:10:08 GMT</pubDate>
 </item>
 <item>
   <title>Nachrichten</title>
@@ -340,52 +264,7 @@
 </a>
 </div>
 </div>
-<div class="quarto-post image-left" data-index="6" data-listing-file-modified-sort="1772472986051" data-listing-reading-time-sort="1" data-listing-word-count-sort="11">
-<div class="thumbnail"><a href="./current/Ben.de.html" class="no-external">
-
-<img loading="lazy" src="https://DaMIfLL.github.io/current/black_benjamin.jpg" class="thumbnail-image" style="height: 200px;">
-
-</a></div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="./current/Ben.de.html" class="no-external">Benjamin Black</a>
-</h3>
-<div class="delink listing-description"><a href="./current/Ben.de.html" class="no-external">
-<!-- desc(5A0113B34292)[max=175]:current/Ben.de.html -->
-</a></div>
-</div>
-<div class="metadata">
-<a href="./current/Ben.de.html" class="no-external">
-</a>
-</div>
-</div>
-<div class="quarto-post image-left" data-index="7" data-categories="TGVhZGVyc2hpcCUyQ0VuZ2luZWVyaW5n" data-listing-file-modified-sort="1775051189338" data-listing-reading-time-sort="1" data-listing-word-count-sort="87">
-<div class="thumbnail"><a href="./current/Ben.html" class="no-external">
-
-<img loading="lazy" src="https://DaMIfLL.github.io/current/ben.jpg" class="thumbnail-image" style="height: 200px;" alt="Photo of Ben Black">
-
-</a></div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="./current/Ben.html" class="no-external">Ben Black</a>
-</h3>
-<div class="listing-categories">
-
-<div class="listing-category" onclick="window.quartoListingCategory('TGVhZGVyc2hpcA=='); return false;">Leadership</div>
-
-<div class="listing-category" onclick="window.quartoListingCategory('RW5naW5lZXJpbmc='); return false;">Engineering</div>
-
-</div>
-<div class="delink listing-description"><a href="./current/Ben.html" class="no-external">
-<!-- desc(5A0113B34292)[max=175]:current/Ben.html -->
-</a></div>
-</div>
-<div class="metadata">
-<a href="./current/Ben.html" class="no-external">
-</a>
-</div>
-</div>
-<div class="quarto-post image-left" data-index="8" data-listing-file-modified-sort="1772451762663" data-listing-reading-time-sort="1" data-listing-word-count-sort="12">
+<div class="quarto-post image-left" data-index="6" data-listing-file-modified-sort="1772451762663" data-listing-reading-time-sort="1" data-listing-word-count-sort="12">
 <div class="thumbnail"><a href="./index.de.html" class="no-external">
 
 <!-- img(9CEB782EFEE6)[progressive=false, height=200px]:listing:index.de.html -->
@@ -404,7 +283,7 @@
 </a>
 </div>
 </div>
-<div class="quarto-post image-left" data-index="9" data-listing-file-modified-sort="1775049516342" data-listing-reading-time-sort="1" data-listing-word-count-sort="76">
+<div class="quarto-post image-left" data-index="7" data-listing-file-modified-sort="1775049516342" data-listing-reading-time-sort="1" data-listing-word-count-sort="76">
 <div class="thumbnail"><a href="./index.html" class="no-external">
 
 <!-- img(9CEB782EFEE6)[progressive=false, height=200px]:listing:index.html -->
@@ -423,7 +302,7 @@
 </a>
 </div>
 </div>
-<div class="quarto-post image-left" data-index="10" data-listing-file-modified-sort="1772472580954" data-listing-reading-time-sort="1" data-listing-word-count-sort="8">
+<div class="quarto-post image-left" data-index="8" data-listing-file-modified-sort="1772472580954" data-listing-reading-time-sort="1" data-listing-word-count-sort="8">
 <div class="thumbnail"><a href="./news.html" class="no-external">
 
 <!-- img(9CEB782EFEE6)[progressive=false, height=200px]:listing:news.html -->
@@ -442,45 +321,7 @@
 </a>
 </div>
 </div>
-<div class="quarto-post image-left" data-index="11" data-listing-file-modified-sort="1772639005452" data-listing-reading-time-sort="2" data-listing-word-count-sort="289">
-<div class="thumbnail"><a href="./onboarding.de.md" class="no-external">
-
-<!-- img(9CEB782EFEE6)[progressive=false, height=200px]:listing:onboarding.de.md -->
-
-</a></div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="./onboarding.de.md" class="no-external">Onboarding</a>
-</h3>
-<div class="delink listing-description"><a href="./onboarding.de.md" class="no-external">
-<!-- desc(5A0113B34292)[max=175]:onboarding.de.md -->
-</a></div>
-</div>
-<div class="metadata">
-<a href="./onboarding.de.md" class="no-external">
-</a>
-</div>
-</div>
-<div class="quarto-post image-left" data-index="12" data-listing-file-modified-sort="1774353946495" data-listing-reading-time-sort="2" data-listing-word-count-sort="361">
-<div class="thumbnail"><a href="./onboarding.md" class="no-external">
-
-<!-- img(9CEB782EFEE6)[progressive=false, height=200px]:listing:onboarding.md -->
-
-</a></div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="./onboarding.md" class="no-external">Onboarding</a>
-</h3>
-<div class="delink listing-description"><a href="./onboarding.md" class="no-external">
-<!-- desc(5A0113B34292)[max=175]:onboarding.md -->
-</a></div>
-</div>
-<div class="metadata">
-<a href="./onboarding.md" class="no-external">
-</a>
-</div>
-</div>
-<div class="quarto-post image-left" data-index="13" data-listing-file-modified-sort="1772459728671" data-listing-reading-time-sort="1" data-listing-word-count-sort="92">
+<div class="quarto-post image-left" data-index="9" data-listing-file-modified-sort="1772459728671" data-listing-reading-time-sort="1" data-listing-word-count-sort="92">
 <div class="thumbnail"><a href="./resources.de.html" class="no-external">
 
 <!-- img(9CEB782EFEE6)[progressive=false, height=200px]:listing:resources.de.html -->
@@ -499,7 +340,7 @@
 </a>
 </div>
 </div>
-<div class="quarto-post image-left" data-index="14" data-listing-file-modified-sort="1773056191956" data-listing-reading-time-sort="2" data-listing-word-count-sort="292">
+<div class="quarto-post image-left" data-index="10" data-listing-file-modified-sort="1773056191956" data-listing-reading-time-sort="2" data-listing-word-count-sort="292">
 <div class="thumbnail"><a href="./resources.html" class="no-external">
 
 <!-- img(9CEB782EFEE6)[progressive=false, height=200px]:listing:resources.html -->
@@ -518,7 +359,7 @@
 </a>
 </div>
 </div>
-<div class="quarto-post image-left" data-index="15" data-listing-file-modified-sort="1772458319844" data-listing-reading-time-sort="1" data-listing-word-count-sort="15">
+<div class="quarto-post image-left" data-index="11" data-listing-file-modified-sort="1775051664090" data-listing-reading-time-sort="1" data-listing-word-count-sort="12">
 <div class="thumbnail"><a href="./team.de.html" class="no-external">
 
 <!-- img(9CEB782EFEE6)[progressive=false, height=200px]:listing:team.de.html -->
@@ -537,7 +378,7 @@
 </a>
 </div>
 </div>
-<div class="quarto-post image-left" data-index="16" data-listing-file-modified-sort="1775051245152" data-listing-reading-time-sort="1" data-listing-word-count-sort="9">
+<div class="quarto-post image-left" data-index="12" data-listing-file-modified-sort="1775059373725" data-listing-reading-time-sort="1" data-listing-word-count-sort="9">
 <div class="thumbnail"><a href="./team.html" class="no-external">
 
 <!-- img(9CEB782EFEE6)[progressive=false, height=200px]:listing:team.html -->
@@ -556,15 +397,53 @@
 </a>
 </div>
 </div>
-<div class="quarto-post image-left" data-index="17" data-categories="TGVhZGVyc2hpcCUyQ0VuZ2luZWVyaW5n" data-listing-file-modified-sort="1774454286144" data-listing-reading-time-sort="1" data-listing-word-count-sort="87">
-<div class="thumbnail"><a href="./test/example-team-member.html" class="no-external">
+<div class="quarto-post image-left" data-index="13" data-listing-file-modified-sort="1772472986051" data-listing-reading-time-sort="1" data-listing-word-count-sort="11">
+<div class="thumbnail"><a href="./team/Ben.de.html" class="no-external">
 
-<img loading="lazy" src="https://DaMIfLL.github.io/test/images/sarah-johnson.jpg" class="thumbnail-image" style="height: 200px;" alt="Photo of Sarah Johnson">
+<img loading="lazy" src="https://DaMIfLL.github.io/team/black_benjamin.jpg" class="thumbnail-image" style="height: 200px;">
 
 </a></div>
 <div class="body">
 <h3 class="no-anchor listing-title">
-<a href="./test/example-team-member.html" class="no-external">Sarah Johnson</a>
+<a href="./team/Ben.de.html" class="no-external">Benjamin Black</a>
+</h3>
+<div class="delink listing-description"><a href="./team/Ben.de.html" class="no-external">
+<!-- desc(5A0113B34292)[max=175]:team/Ben.de.html -->
+</a></div>
+</div>
+<div class="metadata">
+<a href="./team/Ben.de.html" class="no-external">
+</a>
+</div>
+</div>
+<div class="quarto-post image-left" data-index="14" data-listing-file-modified-sort="1775059796317" data-listing-reading-time-sort="1" data-listing-word-count-sort="51">
+<div class="thumbnail"><a href="./team/Ben.html" class="no-external">
+
+<img loading="lazy" src="https://DaMIfLL.github.io/team/ben.jpg" class="thumbnail-image" style="height: 200px;" alt="Photo of Ben Black">
+
+</a></div>
+<div class="body">
+<h3 class="no-anchor listing-title">
+<a href="./team/Ben.html" class="no-external">Ben Black</a>
+</h3>
+<div class="delink listing-description"><a href="./team/Ben.html" class="no-external">
+<p>Ben is the head of our working group, responsible for overseeing all projects and ensuring successful delivery. With a strong background in software engineering and team leadership, Ben has been instrumental in driving innovation and fostering a collaborative work environment.</p>
+</a></div>
+</div>
+<div class="metadata">
+<a href="./team/Ben.html" class="no-external">
+</a>
+</div>
+</div>
+<div class="quarto-post image-left" data-index="15" data-categories="TGVhZGVyc2hpcCUyQ0VuZ2luZWVyaW5n" data-listing-file-modified-sort="1775054974089" data-listing-reading-time-sort="1" data-listing-word-count-sort="1">
+<div class="thumbnail"><a href="./team/DS.html" class="no-external">
+
+<img loading="lazy" src="https://DaMIfLL.github.io/team/ben.jpg" class="thumbnail-image" style="height: 200px;" alt="Photo of the Data Steward">
+
+</a></div>
+<div class="body">
+<h3 class="no-anchor listing-title">
+<a href="./team/DS.html" class="no-external">Data Steward</a>
 </h3>
 <div class="listing-categories">
 
@@ -573,12 +452,12 @@
 <div class="listing-category" onclick="window.quartoListingCategory('RW5naW5lZXJpbmc='); return false;">Engineering</div>
 
 </div>
-<div class="delink listing-description"><a href="./test/example-team-member.html" class="no-external">
-<p>Sarah brings over 15 years of experience in software architecture and team leadership. She’s passionate about building scalable systems and mentoring developers.</p>
+<div class="delink listing-description"><a href="./team/DS.html" class="no-external">
+<!-- desc(5A0113B34292)[max=175]:team/DS.html -->
 </a></div>
 </div>
 <div class="metadata">
-<a href="./test/example-team-member.html" class="no-external">
+<a href="./team/DS.html" class="no-external">
 </a>
 </div>
 </div>
@@ -586,26 +465,13 @@
 <div class="listing-no-matching d-none">No matching items</div>
 </div> ]]></description>
   <guid>https://DaMIfLL.github.io/news.de.html</guid>
-  <pubDate>Wed, 01 Apr 2026 13:47:39 GMT</pubDate>
-</item>
-<item>
-  <title></title>
-  <link>https://DaMIfLL.github.io/onboarding.de.md</link>
-  <description><![CDATA[ undefined ]]></description>
-  <guid>https://DaMIfLL.github.io/onboarding.de.md</guid>
-  <pubDate>Wed, 01 Apr 2026 13:47:39 GMT</pubDate>
-</item>
-<item>
-  <title></title>
-  <link>https://DaMIfLL.github.io/onboarding.md</link>
-  <description><![CDATA[ undefined ]]></description>
-  <guid>https://DaMIfLL.github.io/onboarding.md</guid>
-  <pubDate>Wed, 01 Apr 2026 13:47:39 GMT</pubDate>
+  <pubDate>Wed, 01 Apr 2026 16:10:08 GMT</pubDate>
 </item>
 <item>
   <title>Ressourcen</title>
   <link>https://DaMIfLL.github.io/resources.de.html</link>
   <description><![CDATA[ 
+
 
 
 
@@ -642,7 +508,7 @@
 
  ]]></description>
   <guid>https://DaMIfLL.github.io/resources.de.html</guid>
-  <pubDate>Wed, 01 Apr 2026 13:47:39 GMT</pubDate>
+  <pubDate>Wed, 01 Apr 2026 16:10:08 GMT</pubDate>
 </item>
 <item>
   <title>Resources and tools</title>
@@ -709,7 +575,7 @@
 
  ]]></description>
   <guid>https://DaMIfLL.github.io/resources.html</guid>
-  <pubDate>Wed, 01 Apr 2026 13:47:39 GMT</pubDate>
+  <pubDate>Wed, 01 Apr 2026 16:10:08 GMT</pubDate>
 </item>
 <item>
   <title>Team</title>
@@ -721,60 +587,19 @@
 
 
 <p>Klicken Sie auf das Profil jedes Teammitglieds, um weitere Informationen zu erhalten.</p>
-<div id="current">
+<div id="listing-team-listing" class="quarto-listing quarto-listing-container-custom">
+<div class="list grid team-grid">
 
-</div>
-<!-- ## Alumni -->
-<div id="alumni">
-
-</div>
-
-
-
-
-<div class="quarto-listing quarto-listing-container-grid" id="listing-Current">
-<div class="list grid quarto-listing-cols-4">
-<div class="g-col-1" data-index="0" data-listing-file-modified-sort="1772472986051" data-listing-reading-time-sort="1" data-listing-word-count-sort="11">
-<a href="./current/Ben.de.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-center borderless">
-<p class="card-img-top">
-<img loading="lazy" src="https://DaMIfLL.github.io/current/black_benjamin.jpg" class="thumbnail-image card-img" style="height: 325px;">
-</p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-Benjamin Black
-</h5>
-<div class="card-attribution card-text-small start">
-<div class="listing-author">
-Leiter der Arbeitsgruppe
-</div>
-</div>
-</div>
-</div></a>
-</div>
-<div class="g-col-1" data-index="1" data-categories="TGVhZGVyc2hpcCUyQ0VuZ2luZWVyaW5n" data-listing-file-modified-sort="1775051189338" data-listing-reading-time-sort="1" data-listing-word-count-sort="87">
-<a href="./current/Ben.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-center borderless">
-<p class="card-img-top">
-<img loading="lazy" src="https://DaMIfLL.github.io/current/ben.jpg" class="thumbnail-image card-img" style="height: 325px;" alt="Photo of Ben Black">
-</p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-Ben Black
-</h5>
-<div class="card-attribution card-text-small start">
-<div class="listing-author">
-
-</div>
-</div>
-</div>
-</div></a>
-</div>
 </div>
 <div class="listing-no-matching d-none">No matching items</div>
-</div> ]]></description>
+</div>
+
+
+
+
+ ]]></description>
   <guid>https://DaMIfLL.github.io/team.de.html</guid>
-  <pubDate>Wed, 01 Apr 2026 13:47:39 GMT</pubDate>
+  <pubDate>Wed, 01 Apr 2026 16:10:08 GMT</pubDate>
 </item>
 <item>
   <title>Team</title>
@@ -789,22 +614,60 @@ Ben Black
 <div id="listing-team-listing" class="quarto-listing quarto-listing-container-custom">
 <div class="list grid team-grid">
 
-  <div class="g-col-1" data-index="0" data-categories="TGVhZGVyc2hpcCUyQ0VuZ2luZWVyaW5n" data-listing-file-modified-sort="1775051189338" data-listing-reading-time-sort="1" data-listing-word-count-sort="87">
-    <a href="./current/Ben.html" class="quarto-grid-link">
-      </a><div class="quarto-grid-item card h-100 card-team card-center"><a href="./current/Ben.html" class="quarto-grid-link">
+  <div class="g-col-1" data-index="0" data-listing-file-modified-sort="1775059796317" data-listing-reading-time-sort="1" data-listing-word-count-sort="51">
+    <a href="./team/Ben.html" class="quarto-grid-link">
+      </a><div class="quarto-grid-item card h-100 card-team card-center"><a href="./team/Ben.html" class="quarto-grid-link">
         
         <p class="card-img-top team-image-container">
-          <img src="https://DaMIfLL.github.io/current/ben.jpg" class="thumbnail-image card-img team-image" alt="Photo of Ben Black">
+          <img src="https://DaMIfLL.github.io/team/ben.jpg" class="thumbnail-image card-img team-image" alt="Photo of Ben Black">
         </p>
         
         
-        </a><div class="card-body post-contents"><a href="./current/Ben.html" class="quarto-grid-link">
+        
+        </a><div class="listing-links"><a href="./team/Ben.html" class="quarto-grid-link">
+          
+            
+              
+          </a><a href="mailto:benjaminsamuel.black@zalf.de" class="listing-link-icon" title="Email" onclick="event.stopPropagation();" target="_blank" rel="noopener">
+            <i class="bi bi-envelope"></i>
+          </a>
+              
+            
+              
+          <a href="https://github.com/blenback" class="listing-link-icon" title="Github" onclick="event.stopPropagation();" target="_blank" rel="noopener">
+            <i class="bi bi-github"></i>
+          </a>
+              
+            
+              
+          <a href="https://www.linkedin.com/in/ben-black-9889a1150" class="listing-link-icon" title="LinkedIn" onclick="event.stopPropagation();" target="_blank" rel="noopener">
+            <i class="bi bi-linkedin"></i>
+          </a>
+              
+            
+              
+          <a href="https://blenback.github.io/" class="listing-link-icon" title="Personal Website" onclick="event.stopPropagation();" target="_blank" rel="noopener">
+            <i class="bi bi-globe2"></i>
+          </a>
+              
+            
+          
+        </div>
+        
+        
+        <div class="card-body post-contents">
           
           <h5 class="no-anchor card-title listing-title">Ben Black</h5>
           
           
           
           <div class="card-subtitle listing-subtitle team-job-title">Head of the working group</div>
+          
+
+          
+          <div class="card-text listing-description team-description">
+            Ben is the head of our working group, responsible for overseeing all projects and ensuring successful delivery. With a strong background in software engineering and team leadership, Ben has been instrumental in driving innovation and fostering a collaborative work environment.
+          </div>
           
           
           
@@ -827,15 +690,81 @@ Ben Black
           
           
           
+          <div class="listing-projects">
+            <div class="projects-label">Projects:</div>
+            <div class="projects-list">
+              
+                
+                  
+              <a href="./projects/cloud-migration" class="project-link" onclick="event.stopPropagation();">Cloud Migration Platform</a>
+                  
+                
+                  
+              <a href="./projects/microservices" class="project-link" onclick="event.stopPropagation();">Microservices Framework</a>
+                  
+                
+                  
+              <a href="./projects/dev-portal" class="project-link" onclick="event.stopPropagation();">Developer Portal</a>
+                  
+                
+              
+            </div>
+          </div>
+          
+        </div>
+      </div>
+    
+  </div>
+
+  <div class="g-col-1" data-index="1" data-categories="TGVhZGVyc2hpcCUyQ0VuZ2luZWVyaW5n" data-listing-file-modified-sort="1775054974089" data-listing-reading-time-sort="1" data-listing-word-count-sort="1">
+    <a href="./team/DS.html" class="quarto-grid-link">
+      </a><div class="quarto-grid-item card h-100 card-team card-center"><a href="./team/DS.html" class="quarto-grid-link">
+        
+        <p class="card-img-top team-image-container">
+          <img src="https://DaMIfLL.github.io/team/ben.jpg" class="thumbnail-image card-img team-image" alt="Photo of the Data Steward">
+        </p>
+        
+        
+        
+        
+        </a><div class="card-body post-contents"><a href="./team/DS.html" class="quarto-grid-link">
+          
+          <h5 class="no-anchor card-title listing-title">Data Steward</h5>
+          
+          
+          
+          <div class="card-subtitle listing-subtitle team-job-title">Data Steward</div>
+          
+
+          
           <div class="card-text listing-description team-description">
-            <!-- Description hidden -->
+            <!-- desc(5A0113B34292)[max=175]:team/DS.html -->
           </div>
           
           
           
-          </a><div class="listing-projects"><a href="./current/Ben.html" class="quarto-grid-link">
+          <div class="listing-skills">
+            <div class="skills-label">Expertise:</div>
+            <div class="skills-list">
+            
+              
+            <div class="listing-skill">R</div>
+              
+            <div class="listing-skill">Quarto</div>
+              
+            <div class="listing-skill">Team Leadership</div>
+              
+            <div class="listing-skill">System Design</div>
+              
+            
+          </div>
+          </div>
+          
+          
+          
+          </a><div class="listing-projects"><a href="./team/DS.html" class="quarto-grid-link">
             <div class="projects-label">Projects:</div>
-            </a><div class="projects-list"><a href="./current/Ben.html" class="quarto-grid-link">
+            </a><div class="projects-list"><a href="./team/DS.html" class="quarto-grid-link">
               
                 
                   
@@ -868,53 +797,84 @@ Ben Black
 
  ]]></description>
   <guid>https://DaMIfLL.github.io/team.html</guid>
-  <pubDate>Wed, 01 Apr 2026 13:47:39 GMT</pubDate>
+  <pubDate>Wed, 01 Apr 2026 16:10:08 GMT</pubDate>
 </item>
 <item>
-  <title>Sarah Johnson</title>
-  <link>https://DaMIfLL.github.io/test/example-team-member.html</link>
+  <title>Benjamin Black</title>
+  <dc:creator>Leiter der Arbeitsgruppe</dc:creator>
+  <link>https://DaMIfLL.github.io/team/Ben.de.html</link>
   <description><![CDATA[ 
 
 
 
 
-<section id="about-sarah" class="level2">
-<h2 class="anchored" data-anchor-id="about-sarah">About Sarah</h2>
-<p>Sarah joined our company in 2018 and has been instrumental in modernizing our technology stack. She holds a Master’s degree in Computer Science from MIT and is a frequent speaker at tech conferences.</p>
-<section id="achievements" class="level3">
-<h3 class="anchored" data-anchor-id="achievements">Achievements</h3>
-<ul>
-<li>Led the migration of our monolithic application to microservices</li>
-<li>Reduced infrastructure costs by 40% through cloud optimization</li>
-<li>Grew the engineering team from 5 to 50 people</li>
-<li>Published research on distributed systems in leading journals</li>
-</ul>
+
+<!-- ```{=html} -->
+<!-- <meta http-equiv="Refresh" content="0; url='https://blenback.github.io/'" /> -->
+<!-- ``` -->
+<div class="quarto-about-jolla">
+  <img src="https://DaMIfLL.github.io/team/black_benjamin.jpg" class="about-image
+  round " style="height: 15em; width: 15em;">
+ <div id="person-profile">
+</div> 
+  <hr class="about-sep">
+   <div class="about-links">
+  <a href="https://blenback.github.io/" class="about-link" rel="" target="">
+    <i class="bi bi-link"></i>
+     <span class="about-link-text">website</span>
+  </a>
+</div>
+</div>
+
+
+
+
+
+ ]]></description>
+  <guid>https://DaMIfLL.github.io/team/Ben.de.html</guid>
+  <pubDate>Wed, 01 Apr 2026 16:10:08 GMT</pubDate>
+  <media:content url="https://DaMIfLL.github.io/team/black_benjamin.jpg" medium="image" type="image/jpeg"/>
+</item>
+<item>
+  <title>Ben Black</title>
+  <link>https://DaMIfLL.github.io/team/Ben.html</link>
+  <description><![CDATA[ 
+
+<section id="education" class="level2">
+<h2 data-anchor-id="education">Education</h2>
+<p>University of California, San Diego | San Diego, CA PhD in Mathematics | Sept 2011 - June 2015</p>
+<p>Macalester College | St.&nbsp;Paul, MN B.A in Economics | Sept 2007 - June 2011</p>
 </section>
-<section id="education" class="level3">
-<h3 class="anchored" data-anchor-id="education">Education</h3>
-<ul>
-<li>M.S. Computer Science, MIT, 2007</li>
-<li>B.S. Computer Engineering, Stanford University, 2005</li>
-</ul>
-</section>
-<section id="contact" class="level3">
-<h3 class="anchored" data-anchor-id="contact">Contact</h3>
-<ul>
-<li>Email: sarah.johnson@company.com</li>
-<li>LinkedIn: <a href="https://linkedin.com/in/sarahjohnson">linkedin.com/in/sarahjohnson</a></li>
-<li>Twitter: <a href="https://twitter.com/sarahj_tech"><span class="citation" data-cites="sarahj_tech">@sarahj_tech</span></a></li>
-</ul>
+<section id="experience" class="level2">
+<h2 data-anchor-id="experience">Experience</h2>
+<p>Wengo Analytics | Head Data Scientist | April 2018 - present</p>
+<p>GeoScynce | Chief Analyst | Spet 2012 - April 2018 test</p>
 
 
 </section>
-</section>
+ ]]></description>
+  <guid>https://DaMIfLL.github.io/team/Ben.html</guid>
+  <pubDate>Wed, 01 Apr 2026 16:10:08 GMT</pubDate>
+  <media:content url="https://DaMIfLL.github.io/team/ben.jpg" medium="image" type="image/jpeg"/>
+</item>
+<item>
+  <title>Data Steward</title>
+  <link>https://DaMIfLL.github.io/team/DS.html</link>
+  <description><![CDATA[ 
+
+
+
+
+
+
+
 
  ]]></description>
   <category>Leadership</category>
   <category>Engineering</category>
-  <guid>https://DaMIfLL.github.io/test/example-team-member.html</guid>
-  <pubDate>Wed, 01 Apr 2026 13:47:39 GMT</pubDate>
-  <media:content url="https://DaMIfLL.github.io/test/images/sarah-johnson.jpg" medium="image" type="image/jpeg"/>
+  <guid>https://DaMIfLL.github.io/team/DS.html</guid>
+  <pubDate>Wed, 01 Apr 2026 16:10:08 GMT</pubDate>
+  <media:content url="https://DaMIfLL.github.io/team/ben.jpg" medium="image" type="image/jpeg"/>
 </item>
 </channel>
 </rss>

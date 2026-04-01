@@ -10,6 +10,20 @@
         </p>
         <% } %>
         
+        <% if (item.links) { %>
+        <div class="listing-links">
+          <% if (Array.isArray(item.links)) { %>
+            <% for (const link of item.links) { %>
+              <% if (link.href && link.icon) { %>
+          <a href="<%= link.href %>" class="listing-link-icon" title="<%= link.text || '' %>" onclick="event.stopPropagation();" target="_blank" rel="noopener">
+            <i class="bi bi-<%= link.icon %>"></i>
+          </a>
+              <% } %>
+            <% } %>
+          <% } %>
+        </div>
+        <% } %>
+        
         <div class="card-body post-contents">
           <% if (item.title) { %>
           <h5 class="no-anchor card-title listing-title"><%= item.title %></h5>
@@ -17,6 +31,12 @@
           
           <% if (item.subtitle) { %>
           <div class="card-subtitle listing-subtitle team-job-title"><%= item.subtitle %></div>
+          <% } %>
+
+          <% if (item.description) { %>
+          <div class="card-text listing-description team-description">
+            <%= item.description %>
+          </div>
           <% } %>
           
           <% if (item.skills) { %>
@@ -31,12 +51,6 @@
             <div class="listing-skill"><%= item.skills %></div>
             <% } %>
           </div>
-          </div>
-          <% } %>
-          
-          <% if (item.description) { %>
-          <div class="card-text listing-description team-description">
-            <!-- Description hidden -->
           </div>
           <% } %>
           

@@ -1,51 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://DaMIfLL.github.io/news.html</loc>
-    <lastmod>2026-03-02T17:29:40.954Z</lastmod>
-  </url>
-  <url>
-    <loc>https://DaMIfLL.github.io/index.html</loc>
-    <lastmod>2026-04-01T13:18:36.342Z</lastmod>
+    <loc>https://DaMIfLL.github.io/team.html</loc>
+    <lastmod>2026-04-01T16:02:53.725Z</lastmod>
   </url>
   <url>
     <loc>https://DaMIfLL.github.io/news.de.html</loc>
     <lastmod>2026-03-02T17:29:40.951Z</lastmod>
   </url>
   <url>
-    <loc>https://DaMIfLL.github.io/test/example-team-member.html</loc>
-    <lastmod>2026-03-25T15:58:06.144Z</lastmod>
+    <loc>https://DaMIfLL.github.io/team/Ben.html</loc>
+    <lastmod>2026-04-01T16:09:56.317Z</lastmod>
   </url>
   <url>
-    <loc>https://DaMIfLL.github.io/team.html</loc>
-    <lastmod>2026-04-01T13:56:54.434Z</lastmod>
+    <loc>https://DaMIfLL.github.io/news.html</loc>
+    <lastmod>2026-03-02T17:29:40.954Z</lastmod>
   </url>
   <url>
-    <loc>https://DaMIfLL.github.io/resources.html</loc>
-    <lastmod>2026-03-09T11:36:31.956Z</lastmod>
+    <loc>https://DaMIfLL.github.io/LICENSE.html</loc>
+    <lastmod>2026-03-09T11:54:31.993Z</lastmod>
   </url>
   <url>
-    <loc>https://DaMIfLL.github.io/current/Ben.de.html</loc>
-    <lastmod>2026-03-02T17:36:26.051Z</lastmod>
-  </url>
-  <url>
-    <loc>https://DaMIfLL.github.io/about.html</loc>
-    <lastmod>2026-03-25T17:23:43.298Z</lastmod>
-  </url>
-  <url>
-    <loc>https://DaMIfLL.github.io/assets/SKILL.html</loc>
-    <lastmod>2026-04-01T12:13:07.896Z</lastmod>
-  </url>
-  <url>
-    <loc>https://DaMIfLL.github.io/assets/references/argyle-cacadia-2025-deck.html</loc>
-    <lastmod>2026-04-01T12:13:07.880Z</lastmod>
-  </url>
-  <url>
-    <loc>https://DaMIfLL.github.io/current/Ben.html</loc>
-    <lastmod>2026-04-01T13:46:29.338Z</lastmod>
-  </url>
-  <url>
-    <loc>https://DaMIfLL.github.io/team.de.html</loc>
-    <lastmod>2026-03-02T13:31:59.844Z</lastmod>
+    <loc>https://DaMIfLL.github.io/index.html</loc>
+    <lastmod>2026-04-01T13:18:36.342Z</lastmod>
   </url>
 </urlset>

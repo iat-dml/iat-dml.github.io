@@ -15,29 +15,50 @@ projects:
     url: "/projects/microservices"
   - title: "Developer Portal"
     url: "/projects/dev-portal"
-categories:
-  - Leadership
-  - Engineering
+description: "Ben is the head of our working group, responsible for overseeing all projects and ensuring successful delivery. With a strong background in software engineering and team leadership, Ben has been instrumental in driving innovation and fostering a collaborative work environment."
+links:
+    - icon: envelope
+      text: Email
+      href: mailto:benjaminsamuel.black@zalf.de
+    - icon: github
+      text: Github
+      href: https://github.com/blenback
+    - icon: linkedin
+      text: LinkedIn
+      href: https://www.linkedin.com/in/ben-black-9889a1150
+    - icon: globe2
+      text: Personal Website
+      href: https://blenback.github.io/
+about: 
+  template: solana
+  image: ben.jpg
+  image-alt: "Photo of Ben Black"
+  image-shape: round
+  links:
+    - icon: envelope
+      text: Email
+      href: mailto:benjaminsamuel.black@zalf.de
+    - icon: github
+      text: Github
+      href: https://github.com/blenback
+    - icon: linkedin
+      text: LinkedIn
+      href: https://www.linkedin.com/in/ben-black-9889a1150
+    - icon: globe2
+      text: Personal Website
+      href: https://blenback.github.io/
 ---
 
-## About Ben
+## Education
 
-Sarah joined our company in 2018 and has been instrumental in modernizing our technology stack. She holds a Master's degree in Computer Science from MIT and is a frequent speaker at tech conferences.
+University of California, San Diego | San Diego, CA
+PhD in Mathematics | Sept 2011 - June 2015
 
-### Achievements
+Macalester College | St. Paul, MN
+B.A in Economics | Sept 2007 - June 2011
 
-- Led the migration of our monolithic application to microservices
-- Reduced infrastructure costs by 40% through cloud optimization
-- Grew the engineering team from 5 to 50 people
-- Published research on distributed systems in leading journals
+## Experience
 
-### Education
+Wengo Analytics | Head Data Scientist | April 2018 - present
 
-- M.S. Computer Science, MIT, 2007
-- B.S. Computer Engineering, Stanford University, 2005
-
-### Contact
-
-- Email: sarah.johnson@company.com
-- LinkedIn: [linkedin.com/in/sarahjohnson](https://linkedin.com/in/sarahjohnson)
-- Twitter: [@sarahj_tech](https://twitter.com/sarahj_tech)
+GeoScynce | Chief Analyst | Spet 2012 - April 2018 test
