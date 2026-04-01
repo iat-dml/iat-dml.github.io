@@ -1,0 +1,59 @@
+[
+  {
+    "listing": "/news.html",
+    "items": [
+      "/about.de.html",
+      "/about.html",
+      "/charter.de.html",
+      "/charter.html",
+      "/code-of-conduct.de.html",
+      "/code-of-conduct.html",
+      "/index.de.html",
+      "/index.html",
+      "/news.de.html",
+      "/onboarding.de.md",
+      "/onboarding.md",
+      "/resources.de.html",
+      "/resources.html",
+      "/team.de.html",
+      "/team.html",
+      "/team/Ben.de.html",
+      "/team/Ben.html"
+    ]
+  },
+  {
+    "listing": "/news.de.html",
+    "items": [
+      "/about.de.html",
+      "/about.html",
+      "/charter.de.html",
+      "/charter.html",
+      "/code-of-conduct.de.html",
+      "/code-of-conduct.html",
+      "/index.de.html",
+      "/index.html",
+      "/news.html",
+      "/onboarding.de.md",
+      "/onboarding.md",
+      "/resources.de.html",
+      "/resources.html",
+      "/team.de.html",
+      "/team.html",
+      "/team/Ben.de.html",
+      "/team/Ben.html"
+    ]
+  },
+  {
+    "listing": "/team.html",
+    "items": [
+      "/team/Ben.html"
+    ]
+  },
+  {
+    "listing": "/team.de.html",
+    "items": [
+      "/current/Ben.de.html",
+      "/current/Ben.html"
+    ]
+  }
+]

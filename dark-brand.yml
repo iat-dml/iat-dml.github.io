@@ -1,0 +1,74 @@
+meta:
+  name:
+    short: ZALF
+    full: Leibniz Centre for Agricultural Landscape Research (ZALF)
+  link:
+    home: https://www.zalf.de/en/Pages/ZALF.aspx
+    github: https://github.com/zalf-lse
+    linkedin: https://www.linkedin.com/company/zalf
+    twitter: https://twitter.com/ZALF_Muencheberg
+logo:
+  images:
+    logo-zalf:
+      path: assets/logos/logo-zalf.png
+      alt: ZALF – Leibniz Centre for Agricultural Landscape Research
+    logo-leibniz:
+      path: assets/logos/logo-leibniz.png
+      alt: Leibniz Association
+    logo-iat:
+      path: assets/logos/logo-IAT.png
+      alt: Innovation Center for Agricultural System Transformation
+    logo-dmi:
+      path: assets/logos/logo-dmi-white-en.png
+      alt: Data and Modelling Infrastructure for Living Labs (DMI)
+color:
+  palette:
+    green: '#46A84F'
+    green-light: '#9EBC83'
+    green-mid: '#80BDBD'
+    teal: '#36AE6C'
+    teal-dark: '#356259'
+    olive: '#B1BE4D'
+    sage: '#657A4E'
+    slate: '#465555'
+    white: '#FFFFFF'
+    black: '#1A1A1A'
+    gray-light: '#F5F5F5'
+    gray: '#6C6C6C'
+  foreground: white
+  background: black
+  primary: teal-dark
+  secondary: teal
+  tertiary: teal
+  success: teal-dark
+  info: green-mid
+  warning: olive
+  danger: '#C0392B'
+  light: gray
+  dark: slate
+typography:
+  fonts:
+  - family: Segoe UI
+    source: system
+  - family: Segoe UI Mono
+    source: system
+  base:
+    family: Segoe UI, system-ui, Helvetica Neue, Arial, sans-serif
+    weight: 400
+    size: 1.25rem
+    line-height: 1.5
+  headings:
+    family: Segoe UI, system-ui, Helvetica Neue, Arial, sans-serif
+    weight: 600
+    color: green
+    line-height: 1.25
+  monospace:
+    family: Segoe UI Mono, ui-monospace, Consolas, monospace
+    weight: 400
+    size: 0.9em
+  monospace-inline:
+    background-color: slate
+  link:
+    color: green-light
+    weight: 600
+    decoration: underline

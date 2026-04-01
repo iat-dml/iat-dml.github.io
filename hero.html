@@ -1,0 +1,16 @@
+<script>
+  // Hero Image Background Handler
+  // This script extracts the hero image from the content and applies it as a background to the title block header
+  document.addEventListener('DOMContentLoaded', function () {
+    const heroImage = document.querySelector('img.hero');
+    const titleBlockHeader = document.querySelector('#title-block-header.quarto-title-block');
+    if (heroImage && titleBlockHeader) {
+      const imageSrc = heroImage.src || heroImage.getAttribute('src');
+
+      if (imageSrc) {
+        titleBlockHeader.style.backgroundImage = `url('${imageSrc}')`;
+        console.log('Hero background applied:', imageSrc);
+      }
+    }
+  });
+</script>

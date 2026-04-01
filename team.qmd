@@ -1,41 +1,26 @@
 ---
 title: "Team"
 toc: false
-
 listing:
-  - id: current
-    contents: "current/*.qmd"
-    type: grid
-    image-height: 325px
-    grid-columns: 4
-    fields: [image, title, author]
-    grid-item-align: center
-    grid-item-border: false
-    sort: sortby
-    field-display-names: 
-      started: "Started"
-  # - id: alumni
-  #   contents: "alumni/*.qmd"
-  #   type: grid
-  #   image-height: 325px
-  #   grid-columns: 4
-  #   fields: [image, title, author]
-  #   grid-item-align: center
-  #   grid-item-border: false
-  #   sort: sortby
-  #   field-display-names: 
-  #     started: "Started"
+  id: team-listing
+  contents: 
+    - "./team/*.qmd"
+    - "!./team/*de.qmd"
+  grid-columns: 2
+  template: ejs/team-listing.ejs
+  grid-item-border: false
+  field-display-names:
+    title: "Name"
+    subtitle: "Position"
+    skills: "Skills"
 ---
 
 Click on each team members profile for further information.
 
-:::{#current}
+:::{#team-listing}
 :::
 
-<!-- ## Alumni -->
 
-:::{#alumni}
-:::
 
 
 

@@ -4,18 +4,16 @@ project:
   resources:
     - references.bib
 website:
+  favicon: assets/logos/logo-dmi-white-en.png
   site-url: "https://DaMIfLL.github.io"
   repo-url: "https://github.com/zalf-lli/DaMIfLL.github.io"
-  title: "Data and Modelling Infrastructure for Living Labs Working group"
-  description: "This is the website of the Data and Modelling Infrastructure for Living Labs Working group (SWG) of the Innovation Center for Agricultural System Transformation (IAT) as part of the Liebniz Center for Agricultural Landscape Research (ZALF)."
-  page-footer:
-    left: |
-      {{< fa regular copyright >}} Benjamin Black, 2026<br>
-      All content licensed under {{< fa brands creative-commons >}}
-      {{< fa brands creative-commons-by >}} {{< fa brands creative-commons-sa >}} {{< fa brands creative-commons-nc >}} [(CC BY-NC-SA 4.0)](http://creativecommons.org/licenses/by-nc-sa/4.0/)
-    right: |
-      Made with [Quarto](https://quarto.org/)<br>
+  title: "Data and Modelling Infrastructure for Living Labs"
+  description: "This is the website of the Data and Modelling Infrastructure for Living Labs Working group (SWG) of the Innovation Center for Agricultural System Transformation (IAT) as part of the Liebniz Center for Agricultural Landscape Research (ZALF)." 
+  page-footer: |
+      ![](/assets/footer-light.png){fig-alt="Banner of partners" width=100% .light-content}![](/assets/footer-dark.png){fig-alt="Banner of partners" width=100% .dark-content} {{< fa regular copyright >}} Benjamin Black, 2026 All content licensed under {{< fa brands creative-commons >}} {{< fa brands creative-commons-by >}} {{< fa brands creative-commons-sa >}} {{< fa brands creative-commons-nc >}} [(CC BY-NC-SA 4.0)](http://creativecommons.org/licenses/by-nc-sa/4.0/)
   navbar:
+    # logo: false
+    title: false
     right:
       - href: index.qmd
         text: Home      
@@ -31,6 +29,10 @@ website:
               - href: charter.qmd
                 text: Charter
         text: "About"
+      # - menu:
+      #         - href: support.qmd
+      #           text: Supporting FAIR research
+      #   text: "Services"
       - icon: github
         href: https://github.com/zalf-lli
       - icon: envelope
@@ -42,11 +44,17 @@ website:
 
 format:
   html:
+    respect-user-color-scheme: true
     theme:
-      - cosmo
-      - brand
-    css: styles.css
-    toc: true
+      light: [scss/styles.scss]
+      dark: [scss/styles.scss]
+    include-after-body:
+      - file: hero.html
+    toc: false
+lightbox: true
+brand:
+  light: light-brand.yml
+  dark: dark-brand.yml
 
 babelquarto:
   languagelinks: navbar

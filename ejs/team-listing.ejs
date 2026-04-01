@@ -1,0 +1,67 @@
+```{=html}
+<div class="list grid team-grid">
+<% for (const item of items) { %>
+  <div class="g-col-1" <%= metadataAttrs(item) %>>
+    <a href="<%- item.path %>" class="quarto-grid-link">
+      <div class="quarto-grid-item card h-100 card-team card-center">
+        <% if (item.image) { %>
+        <p class="card-img-top team-image-container">
+          <img src="<%- item.image %>" class="thumbnail-image card-img team-image" alt="<%- item['image-alt'] || '' %>">
+        </p>
+        <% } %>
+        
+        <div class="card-body post-contents">
+          <% if (item.title) { %>
+          <h5 class="no-anchor card-title listing-title"><%= item.title %></h5>
+          <% } %>
+          
+          <% if (item.subtitle) { %>
+          <div class="card-subtitle listing-subtitle team-job-title"><%= item.subtitle %></div>
+          <% } %>
+          
+          <% if (item.skills) { %>
+          <div class="listing-skills">
+            <div class="skills-label">Expertise:</div>
+            <div class="skills-list">
+            <% if (Array.isArray(item.skills)) { %>
+              <% for (const skill of item.skills) { %>
+            <div class="listing-skill"><%= skill %></div>
+              <% } %>
+            <% } else { %>
+            <div class="listing-skill"><%= item.skills %></div>
+            <% } %>
+          </div>
+          </div>
+          <% } %>
+          
+          <% if (item.description) { %>
+          <div class="card-text listing-description team-description">
+            <!-- Description hidden -->
+          </div>
+          <% } %>
+          
+          <% if (item.projects) { %>
+          <div class="listing-projects">
+            <div class="projects-label">Projects:</div>
+            <div class="projects-list">
+              <% if (Array.isArray(item.projects)) { %>
+                <% for (const project of item.projects) { %>
+                  <% if (typeof project === 'object' && project.title && project.url) { %>
+              <a href="<%= project.url %>" class="project-link" onclick="event.stopPropagation();"><%= project.title %></a>
+                  <% } else if (typeof project === 'string') { %>
+              <span class="project-item"><%= project %></span>
+                  <% } %>
+                <% } %>
+              <% } else if (typeof item.projects === 'string') { %>
+              <span class="project-item"><%= item.projects %></span>
+              <% } %>
+            </div>
+          </div>
+          <% } %>
+        </div>
+      </div>
+    </a>
+  </div>
+<% } %>
+</div>
+```

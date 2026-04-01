@@ -1,0 +1,920 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss  xmlns:atom="http://www.w3.org/2005/Atom" 
+      xmlns:media="http://search.yahoo.com/mrss/" 
+      xmlns:content="http://purl.org/rss/1.0/modules/content/" 
+      xmlns:dc="http://purl.org/dc/elements/1.1/" 
+      version="2.0">
+<channel>
+<title>Data and Modelling Infrastructure for Living Labs</title>
+<link>https://DaMIfLL.github.io/news.de.html</link>
+<atom:link href="https://DaMIfLL.github.io/news.de.xml" rel="self" type="application/rss+xml"/>
+<description>This is the website of the Data and Modelling Infrastructure for Living Labs Working group (SWG) of the Innovation Center for Agricultural System Transformation (IAT) as part of the Liebniz Center for Agricultural Landscape Research (ZALF).</description>
+<generator>quarto-1.8.27</generator>
+<lastBuildDate>Wed, 01 Apr 2026 13:47:37 GMT</lastBuildDate>
+<item>
+  <title>About</title>
+  <link>https://DaMIfLL.github.io/about.de.html</link>
+  <description><![CDATA[ 
+
+
+
+
+<p>About this site</p>
+
+
+
+ ]]></description>
+  <guid>https://DaMIfLL.github.io/about.de.html</guid>
+  <pubDate>Wed, 01 Apr 2026 13:47:37 GMT</pubDate>
+</item>
+<item>
+  <title>About</title>
+  <link>https://DaMIfLL.github.io/about.html</link>
+  <description><![CDATA[ 
+
+
+
+
+<p>About this site</p>
+
+
+
+ ]]></description>
+  <guid>https://DaMIfLL.github.io/about.html</guid>
+  <pubDate>Wed, 01 Apr 2026 13:47:37 GMT</pubDate>
+</item>
+<item>
+  <title>Data and Modelling Infrastructure for Living Labs Service Working Group Charter</title>
+  <link>https://DaMIfLL.github.io/charter.de.html</link>
+  <description><![CDATA[ 
+
+
+
+
+<p>testing</p>
+
+
+
+ ]]></description>
+  <guid>https://DaMIfLL.github.io/charter.de.html</guid>
+  <pubDate>Wed, 01 Apr 2026 13:47:37 GMT</pubDate>
+</item>
+<item>
+  <title>Data and Modelling Infrastructure for Living Labs Service Working Group Charter</title>
+  <link>https://DaMIfLL.github.io/charter.html</link>
+  <description><![CDATA[ 
+
+
+
+
+<p>testing</p>
+
+
+
+ ]]></description>
+  <guid>https://DaMIfLL.github.io/charter.html</guid>
+  <pubDate>Wed, 01 Apr 2026 13:47:37 GMT</pubDate>
+</item>
+<item>
+  <title>Verhaltenskodex</title>
+  <link>https://DaMIfLL.github.io/code-of-conduct.de.html</link>
+  <description><![CDATA[ 
+
+
+
+
+
+
+
+ ]]></description>
+  <guid>https://DaMIfLL.github.io/code-of-conduct.de.html</guid>
+  <pubDate>Wed, 01 Apr 2026 13:47:37 GMT</pubDate>
+</item>
+<item>
+  <title>Benjamin Black</title>
+  <dc:creator>Leiter der Arbeitsgruppe</dc:creator>
+  <link>https://DaMIfLL.github.io/current/Ben.de.html</link>
+  <description><![CDATA[ 
+
+
+
+
+<!-- ```{=html} -->
+<!-- <meta http-equiv="Refresh" content="0; url='https://blenback.github.io/'" /> -->
+<!-- ``` -->
+<div class="quarto-about-jolla">
+  <img src="https://DaMIfLL.github.io/current/black_benjamin.jpg" class="about-image
+  round " style="height: 15em; width: 15em;">
+ <div id="person-profile">
+</div> 
+  <hr class="about-sep">
+   <div class="about-links">
+  <a href="https://blenback.github.io/" class="about-link" rel="" target="">
+    <i class="bi bi-link"></i>
+     <span class="about-link-text">website</span>
+  </a>
+</div>
+</div>
+
+
+
+
+
+ ]]></description>
+  <guid>https://DaMIfLL.github.io/current/Ben.de.html</guid>
+  <pubDate>Wed, 01 Apr 2026 13:47:37 GMT</pubDate>
+  <media:content url="https://DaMIfLL.github.io/current/black_benjamin.jpg" medium="image" type="image/jpeg"/>
+</item>
+<item>
+  <title>Ben Black</title>
+  <link>https://DaMIfLL.github.io/current/Ben.html</link>
+  <description><![CDATA[ 
+
+
+
+
+
+<section id="about-ben" class="level2">
+<h2 class="anchored" data-anchor-id="about-ben">About Ben</h2>
+<p>Sarah joined our company in 2018 and has been instrumental in modernizing our technology stack. She holds a Master’s degree in Computer Science from MIT and is a frequent speaker at tech conferences.</p>
+<section id="achievements" class="level3">
+<h3 class="anchored" data-anchor-id="achievements">Achievements</h3>
+<ul>
+<li>Led the migration of our monolithic application to microservices</li>
+<li>Reduced infrastructure costs by 40% through cloud optimization</li>
+<li>Grew the engineering team from 5 to 50 people</li>
+<li>Published research on distributed systems in leading journals</li>
+</ul>
+</section>
+<section id="education" class="level3">
+<h3 class="anchored" data-anchor-id="education">Education</h3>
+<ul>
+<li>M.S. Computer Science, MIT, 2007</li>
+<li>B.S. Computer Engineering, Stanford University, 2005</li>
+</ul>
+</section>
+<section id="contact" class="level3">
+<h3 class="anchored" data-anchor-id="contact">Contact</h3>
+<ul>
+<li>Email: sarah.johnson@company.com</li>
+<li>LinkedIn: <a href="https://linkedin.com/in/sarahjohnson">linkedin.com/in/sarahjohnson</a></li>
+<li>Twitter: <a href="https://twitter.com/sarahj_tech"><span class="citation" data-cites="sarahj_tech">@sarahj_tech</span></a></li>
+</ul>
+
+
+</section>
+</section>
+
+ ]]></description>
+  <category>Leadership</category>
+  <category>Engineering</category>
+  <guid>https://DaMIfLL.github.io/current/Ben.html</guid>
+  <pubDate>Wed, 01 Apr 2026 13:47:37 GMT</pubDate>
+  <media:content url="https://DaMIfLL.github.io/current/ben.jpg" medium="image" type="image/jpeg"/>
+</item>
+<item>
+  <title>web</title>
+  <link>https://DaMIfLL.github.io/index.de.html</link>
+  <description><![CDATA[ 
+
+
+
+
+<p>This is a Quarto website.</p>
+<p>To learn more about Quarto websites visit <a href="https://quarto.org/docs/websites" class="uri">https://quarto.org/docs/websites</a>.</p>
+
+
+
+ ]]></description>
+  <guid>https://DaMIfLL.github.io/index.de.html</guid>
+  <pubDate>Wed, 01 Apr 2026 13:47:37 GMT</pubDate>
+</item>
+<item>
+  <title></title>
+  <link>https://DaMIfLL.github.io/</link>
+  <description><![CDATA[ 
+
+
+
+
+
+<section id="data-and-modelling-infrastructure-for-living-labs" class="level1 hero">
+<h1>Data and Modelling Infrastructure for Living Labs</h1>
+</section>
+<p>Welcome to the website of the Data and Modelling Infrastructure for Living Labs (DMI) Working Group. We are a service working group within the <a href="https://www.zalf.de/de/struktur/iat/Seiten/default.aspx">Innovation Center for Agricultural System Transformation (IAT)</a> as part of the <a href="https://www.zalf.de/de/struktur/iat/Seiten/default.aspx">Liebniz Center for Agricultural Landscape Research (ZALF)</a>. Our mission is to support researchers and partners within the IAT with all things related to data and modelling. We have represented the different ways that we do this in the graphic below:</p>
+<p><a href="assets/concept-diagram.svg" class="lightbox" data-gallery="quarto-lightbox-gallery-1"><img src="https://DaMIfLL.github.io/assets/concept-diagram.svg" class="img-fluid"></a></p>
+
+
+
+ ]]></description>
+  <guid>https://DaMIfLL.github.io/</guid>
+  <pubDate>Wed, 01 Apr 2026 13:47:37 GMT</pubDate>
+</item>
+<item>
+  <title>News</title>
+  <link>https://DaMIfLL.github.io/news.html</link>
+  <description><![CDATA[ 
+
+
+
+
+
+<p>A newsletter subscription option is coming soon!</p>
+
+
+
+
+<div class="quarto-listing quarto-listing-container-default" id="listing-listing">
+<div class="list quarto-listing-default">
+<div class="quarto-post image-left" data-index="0" data-listing-file-modified-sort="1772451762656" data-listing-reading-time-sort="1" data-listing-word-count-sort="3">
+<div class="thumbnail"><a href="./about.de.html" class="no-external">
+
+<!-- img(9CEB782EFEE6)[progressive=false, height=200px]:listing:about.de.html -->
+
+</a></div>
+<div class="body">
+<h3 class="no-anchor listing-title">
+<a href="./about.de.html" class="no-external">About</a>
+</h3>
+<div class="delink listing-description"><a href="./about.de.html" class="no-external">
+<!-- desc(5A0113B34292)[max=175]:about.de.html -->
+</a></div>
+</div>
+<div class="metadata">
+<a href="./about.de.html" class="no-external">
+</a>
+</div>
+</div>
+<div class="quarto-post image-left" data-index="1" data-listing-file-modified-sort="1774459423298" data-listing-reading-time-sort="1" data-listing-word-count-sort="3">
+<div class="thumbnail"><a href="./about.html" class="no-external">
+
+<!-- img(9CEB782EFEE6)[progressive=false, height=200px]:listing:about.html -->
+
+</a></div>
+<div class="body">
+<h3 class="no-anchor listing-title">
+<a href="./about.html" class="no-external">About</a>
+</h3>
+<div class="delink listing-description"><a href="./about.html" class="no-external">
+<!-- desc(5A0113B34292)[max=175]:about.html -->
+</a></div>
+</div>
+<div class="metadata">
+<a href="./about.html" class="no-external">
+</a>
+</div>
+</div>
+<div class="quarto-post image-left" data-index="2" data-listing-file-modified-sort="1772458319832" data-listing-reading-time-sort="1" data-listing-word-count-sort="1">
+<div class="thumbnail"><a href="./charter.de.html" class="no-external">
+
+<!-- img(9CEB782EFEE6)[progressive=false, height=200px]:listing:charter.de.html -->
+
+</a></div>
+<div class="body">
+<h3 class="no-anchor listing-title">
+<a href="./charter.de.html" class="no-external">Data and Modelling Infrastructure for Living Labs Service Working Group Charter</a>
+</h3>
+<div class="delink listing-description"><a href="./charter.de.html" class="no-external">
+<!-- desc(5A0113B34292)[max=175]:charter.de.html -->
+</a></div>
+</div>
+<div class="metadata">
+<a href="./charter.de.html" class="no-external">
+</a>
+</div>
+</div>
+<div class="quarto-post image-left" data-index="3" data-listing-file-modified-sort="1772458319834" data-listing-reading-time-sort="1" data-listing-word-count-sort="1">
+<div class="thumbnail"><a href="./charter.html" class="no-external">
+
+<!-- img(9CEB782EFEE6)[progressive=false, height=200px]:listing:charter.html -->
+
+</a></div>
+<div class="body">
+<h3 class="no-anchor listing-title">
+<a href="./charter.html" class="no-external">Data and Modelling Infrastructure for Living Labs Service Working Group Charter</a>
+</h3>
+<div class="delink listing-description"><a href="./charter.html" class="no-external">
+<!-- desc(5A0113B34292)[max=175]:charter.html -->
+</a></div>
+</div>
+<div class="metadata">
+<a href="./charter.html" class="no-external">
+</a>
+</div>
+</div>
+<div class="quarto-post image-left" data-index="4" data-listing-file-modified-sort="1772462277738" data-listing-reading-time-sort="1" data-listing-word-count-sort="1">
+<div class="thumbnail"><a href="./code-of-conduct.de.html" class="no-external">
+
+<!-- img(9CEB782EFEE6)[progressive=false, height=200px]:listing:code-of-conduct.de.html -->
+
+</a></div>
+<div class="body">
+<h3 class="no-anchor listing-title">
+<a href="./code-of-conduct.de.html" class="no-external">Verhaltenskodex</a>
+</h3>
+<div class="delink listing-description"><a href="./code-of-conduct.de.html" class="no-external">
+<!-- desc(5A0113B34292)[max=175]:code-of-conduct.de.html -->
+</a></div>
+</div>
+<div class="metadata">
+<a href="./code-of-conduct.de.html" class="no-external">
+</a>
+</div>
+</div>
+<div class="quarto-post image-left" data-index="5" data-listing-file-modified-sort="1772462277740">
+<div class="thumbnail"><a href="./code-of-conduct.html" class="no-external">
+
+<!-- img(9CEB782EFEE6)[progressive=false, height=200px]:listing:code-of-conduct.html -->
+
+</a></div>
+<div class="body">
+<h3 class="no-anchor listing-title">
+<a href="./code-of-conduct.html" class="no-external"></a>
+</h3>
+<div class="delink listing-description"><a href="./code-of-conduct.html" class="no-external">
+<!-- desc(5A0113B34292)[max=175]:code-of-conduct.html -->
+</a></div>
+</div>
+<div class="metadata">
+<a href="./code-of-conduct.html" class="no-external">
+</a>
+</div>
+</div>
+<div class="quarto-post image-left" data-index="6" data-listing-file-modified-sort="1772472986051" data-listing-reading-time-sort="1" data-listing-word-count-sort="11">
+<div class="thumbnail"><a href="./current/Ben.de.html" class="no-external">
+
+<img loading="lazy" src="https://DaMIfLL.github.io/current/black_benjamin.jpg" class="thumbnail-image" style="height: 200px;">
+
+</a></div>
+<div class="body">
+<h3 class="no-anchor listing-title">
+<a href="./current/Ben.de.html" class="no-external">Benjamin Black</a>
+</h3>
+<div class="delink listing-description"><a href="./current/Ben.de.html" class="no-external">
+<!-- desc(5A0113B34292)[max=175]:current/Ben.de.html -->
+</a></div>
+</div>
+<div class="metadata">
+<a href="./current/Ben.de.html" class="no-external">
+</a>
+</div>
+</div>
+<div class="quarto-post image-left" data-index="7" data-categories="TGVhZGVyc2hpcCUyQ0VuZ2luZWVyaW5n" data-listing-file-modified-sort="1775051189338" data-listing-reading-time-sort="1" data-listing-word-count-sort="87">
+<div class="thumbnail"><a href="./current/Ben.html" class="no-external">
+
+<img loading="lazy" src="https://DaMIfLL.github.io/current/ben.jpg" class="thumbnail-image" style="height: 200px;" alt="Photo of Ben Black">
+
+</a></div>
+<div class="body">
+<h3 class="no-anchor listing-title">
+<a href="./current/Ben.html" class="no-external">Ben Black</a>
+</h3>
+<div class="listing-categories">
+
+<div class="listing-category" onclick="window.quartoListingCategory('TGVhZGVyc2hpcA=='); return false;">Leadership</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('RW5naW5lZXJpbmc='); return false;">Engineering</div>
+
+</div>
+<div class="delink listing-description"><a href="./current/Ben.html" class="no-external">
+<!-- desc(5A0113B34292)[max=175]:current/Ben.html -->
+</a></div>
+</div>
+<div class="metadata">
+<a href="./current/Ben.html" class="no-external">
+</a>
+</div>
+</div>
+<div class="quarto-post image-left" data-index="8" data-listing-file-modified-sort="1772451762663" data-listing-reading-time-sort="1" data-listing-word-count-sort="12">
+<div class="thumbnail"><a href="./index.de.html" class="no-external">
+
+<!-- img(9CEB782EFEE6)[progressive=false, height=200px]:listing:index.de.html -->
+
+</a></div>
+<div class="body">
+<h3 class="no-anchor listing-title">
+<a href="./index.de.html" class="no-external">web</a>
+</h3>
+<div class="delink listing-description"><a href="./index.de.html" class="no-external">
+<!-- desc(5A0113B34292)[max=175]:index.de.html -->
+</a></div>
+</div>
+<div class="metadata">
+<a href="./index.de.html" class="no-external">
+</a>
+</div>
+</div>
+<div class="quarto-post image-left" data-index="9" data-listing-file-modified-sort="1775049516342" data-listing-reading-time-sort="1" data-listing-word-count-sort="76">
+<div class="thumbnail"><a href="./index.html" class="no-external">
+
+<!-- img(9CEB782EFEE6)[progressive=false, height=200px]:listing:index.html -->
+
+</a></div>
+<div class="body">
+<h3 class="no-anchor listing-title">
+<a href="./index.html" class="no-external">Data and Modelling Infrastructure for Living Labs</a>
+</h3>
+<div class="delink listing-description"><a href="./index.html" class="no-external">
+<!-- desc(5A0113B34292)[max=175]:index.html -->
+</a></div>
+</div>
+<div class="metadata">
+<a href="./index.html" class="no-external">
+</a>
+</div>
+</div>
+<div class="quarto-post image-left" data-index="10" data-listing-file-modified-sort="1772472580951" data-listing-reading-time-sort="1" data-listing-word-count-sort="10">
+<div class="thumbnail"><a href="./news.de.html" class="no-external">
+
+<!-- img(9CEB782EFEE6)[progressive=false, height=200px]:listing:news.de.html -->
+
+</a></div>
+<div class="body">
+<h3 class="no-anchor listing-title">
+<a href="./news.de.html" class="no-external">Nachrichten</a>
+</h3>
+<div class="delink listing-description"><a href="./news.de.html" class="no-external">
+<!-- desc(5A0113B34292)[max=175]:news.de.html -->
+</a></div>
+</div>
+<div class="metadata">
+<a href="./news.de.html" class="no-external">
+</a>
+</div>
+</div>
+<div class="quarto-post image-left" data-index="11" data-listing-file-modified-sort="1772639005452" data-listing-reading-time-sort="2" data-listing-word-count-sort="289">
+<div class="thumbnail"><a href="./onboarding.de.md" class="no-external">
+
+<!-- img(9CEB782EFEE6)[progressive=false, height=200px]:listing:onboarding.de.md -->
+
+</a></div>
+<div class="body">
+<h3 class="no-anchor listing-title">
+<a href="./onboarding.de.md" class="no-external">Onboarding</a>
+</h3>
+<div class="delink listing-description"><a href="./onboarding.de.md" class="no-external">
+<!-- desc(5A0113B34292)[max=175]:onboarding.de.md -->
+</a></div>
+</div>
+<div class="metadata">
+<a href="./onboarding.de.md" class="no-external">
+</a>
+</div>
+</div>
+<div class="quarto-post image-left" data-index="12" data-listing-file-modified-sort="1774353946495" data-listing-reading-time-sort="2" data-listing-word-count-sort="361">
+<div class="thumbnail"><a href="./onboarding.md" class="no-external">
+
+<!-- img(9CEB782EFEE6)[progressive=false, height=200px]:listing:onboarding.md -->
+
+</a></div>
+<div class="body">
+<h3 class="no-anchor listing-title">
+<a href="./onboarding.md" class="no-external">Onboarding</a>
+</h3>
+<div class="delink listing-description"><a href="./onboarding.md" class="no-external">
+<!-- desc(5A0113B34292)[max=175]:onboarding.md -->
+</a></div>
+</div>
+<div class="metadata">
+<a href="./onboarding.md" class="no-external">
+</a>
+</div>
+</div>
+<div class="quarto-post image-left" data-index="13" data-listing-file-modified-sort="1772459728671" data-listing-reading-time-sort="1" data-listing-word-count-sort="92">
+<div class="thumbnail"><a href="./resources.de.html" class="no-external">
+
+<!-- img(9CEB782EFEE6)[progressive=false, height=200px]:listing:resources.de.html -->
+
+</a></div>
+<div class="body">
+<h3 class="no-anchor listing-title">
+<a href="./resources.de.html" class="no-external">Ressourcen</a>
+</h3>
+<div class="delink listing-description"><a href="./resources.de.html" class="no-external">
+<!-- desc(5A0113B34292)[max=175]:resources.de.html -->
+</a></div>
+</div>
+<div class="metadata">
+<a href="./resources.de.html" class="no-external">
+</a>
+</div>
+</div>
+<div class="quarto-post image-left" data-index="14" data-listing-file-modified-sort="1773056191956" data-listing-reading-time-sort="2" data-listing-word-count-sort="292">
+<div class="thumbnail"><a href="./resources.html" class="no-external">
+
+<!-- img(9CEB782EFEE6)[progressive=false, height=200px]:listing:resources.html -->
+
+</a></div>
+<div class="body">
+<h3 class="no-anchor listing-title">
+<a href="./resources.html" class="no-external">Resources and tools</a>
+</h3>
+<div class="delink listing-description"><a href="./resources.html" class="no-external">
+<!-- desc(5A0113B34292)[max=175]:resources.html -->
+</a></div>
+</div>
+<div class="metadata">
+<a href="./resources.html" class="no-external">
+</a>
+</div>
+</div>
+<div class="quarto-post image-left" data-index="15" data-listing-file-modified-sort="1772458319844" data-listing-reading-time-sort="1" data-listing-word-count-sort="15">
+<div class="thumbnail"><a href="./team.de.html" class="no-external">
+
+<!-- img(9CEB782EFEE6)[progressive=false, height=200px]:listing:team.de.html -->
+
+</a></div>
+<div class="body">
+<h3 class="no-anchor listing-title">
+<a href="./team.de.html" class="no-external">Team</a>
+</h3>
+<div class="delink listing-description"><a href="./team.de.html" class="no-external">
+<!-- desc(5A0113B34292)[max=175]:team.de.html -->
+</a></div>
+</div>
+<div class="metadata">
+<a href="./team.de.html" class="no-external">
+</a>
+</div>
+</div>
+<div class="quarto-post image-left" data-index="16" data-listing-file-modified-sort="1775051245152" data-listing-reading-time-sort="1" data-listing-word-count-sort="9">
+<div class="thumbnail"><a href="./team.html" class="no-external">
+
+<!-- img(9CEB782EFEE6)[progressive=false, height=200px]:listing:team.html -->
+
+</a></div>
+<div class="body">
+<h3 class="no-anchor listing-title">
+<a href="./team.html" class="no-external">Team</a>
+</h3>
+<div class="delink listing-description"><a href="./team.html" class="no-external">
+<!-- desc(5A0113B34292)[max=175]:team.html -->
+</a></div>
+</div>
+<div class="metadata">
+<a href="./team.html" class="no-external">
+</a>
+</div>
+</div>
+<div class="quarto-post image-left" data-index="17" data-categories="TGVhZGVyc2hpcCUyQ0VuZ2luZWVyaW5n" data-listing-file-modified-sort="1774454286144" data-listing-reading-time-sort="1" data-listing-word-count-sort="87">
+<div class="thumbnail"><a href="./test/example-team-member.html" class="no-external">
+
+<img loading="lazy" src="https://DaMIfLL.github.io/test/images/sarah-johnson.jpg" class="thumbnail-image" style="height: 200px;" alt="Photo of Sarah Johnson">
+
+</a></div>
+<div class="body">
+<h3 class="no-anchor listing-title">
+<a href="./test/example-team-member.html" class="no-external">Sarah Johnson</a>
+</h3>
+<div class="listing-categories">
+
+<div class="listing-category" onclick="window.quartoListingCategory('TGVhZGVyc2hpcA=='); return false;">Leadership</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('RW5naW5lZXJpbmc='); return false;">Engineering</div>
+
+</div>
+<div class="delink listing-description"><a href="./test/example-team-member.html" class="no-external">
+<p>Sarah brings over 15 years of experience in software architecture and team leadership. She’s passionate about building scalable systems and mentoring developers.</p>
+</a></div>
+</div>
+<div class="metadata">
+<a href="./test/example-team-member.html" class="no-external">
+</a>
+</div>
+</div>
+</div>
+<div class="listing-no-matching d-none">No matching items</div>
+</div> ]]></description>
+  <guid>https://DaMIfLL.github.io/news.html</guid>
+  <pubDate>Wed, 01 Apr 2026 13:47:37 GMT</pubDate>
+</item>
+<item>
+  <title></title>
+  <link>https://DaMIfLL.github.io/onboarding.de.md</link>
+  <description><![CDATA[ undefined ]]></description>
+  <guid>https://DaMIfLL.github.io/onboarding.de.md</guid>
+  <pubDate>Wed, 01 Apr 2026 13:47:37 GMT</pubDate>
+</item>
+<item>
+  <title></title>
+  <link>https://DaMIfLL.github.io/onboarding.md</link>
+  <description><![CDATA[ undefined ]]></description>
+  <guid>https://DaMIfLL.github.io/onboarding.md</guid>
+  <pubDate>Wed, 01 Apr 2026 13:47:37 GMT</pubDate>
+</item>
+<item>
+  <title>Ressourcen</title>
+  <link>https://DaMIfLL.github.io/resources.de.html</link>
+  <description><![CDATA[ 
+
+
+
+
+<p>Dieses Repository soll ein lebendiges Dokument für SWG- und IAT-Mitglieder sein, um nützliche Informationen und Ressourcen in Bezug auf Open Science, Programmierung und Datenvisualisierung auszutauschen.</p>
+<p>Einige Dokumente, die Leitprinzipien enthalten:</p>
+<ul>
+<li><p><a href="">ZALF data policy</a></p></li>
+<li><p><a href="https://www.leibniz-gemeinschaft.de/ueber-uns/evaluierung/das-evaluierungsverfahren-der-leibniz-gemeinschaft/senatsstellungnahmen">Previous ZALF evaluations</a></p></li>
+<li><p><a href="https://zalf365.sharepoint.com/sites/vorstand/Freigegebene%20Dokumente/Forms/AllItems.aspx?id=%2Fsites%2Fvorstand%2FFreigegebene%20Dokumente%2Fstrategiedokumente%2Forganizational%2Dpolicy%2Dzalf%2Epdf&amp;parent=%2Fsites%2Fvorstand%2FFreigegebene%20Dokumente%2Fstrategiedokumente">ZALF organisational policy</a></p></li>
+<li><p><a href="https://www.dfg.de/de/grundlagen-themen/grundlagen-und-prinzipien-der-foerderung/gwp">DFG research ethics</a></p></li>
+<li><p><a href="https://www.leibniz-gemeinschaft.de/ueber-uns/leibniz-integritaet/gute-wissenschaftliche-praxis-und-ombudswesen">Liebniz center Good Scientific Practice</a></p></li>
+</ul>
+<p>Check out the <a href="https://github.com/awesomelistsio/awesome-open-science">Open Science Awesome List</a></p>
+<section id="datenvisualisierung" class="level2">
+<h2 class="anchored" data-anchor-id="datenvisualisierung">Datenvisualisierung</h2>
+<ul>
+<li><a href="https://clauswilke.com/dataviz/">Fundamentals of Data Visualization</a></li>
+<li><a href="https://openvisualizationacademy.org/">Open Visualisation Academy</a></li>
+</ul>
+</section>
+<section id="r" class="level2">
+<h2 class="anchored" data-anchor-id="r">R</h2>
+<p>What they forgot to teach you about R: https://rstats.wtf/</p>
+</section>
+<section id="quarto" class="level2">
+<h2 class="anchored" data-anchor-id="quarto">Quarto</h2>
+<ul>
+<li><a href="https://slidecrafting-book.com/">Beautiful slides with RevealJS and Quarto</a></li>
+</ul>
+
+
+</section>
+
+ ]]></description>
+  <guid>https://DaMIfLL.github.io/resources.de.html</guid>
+  <pubDate>Wed, 01 Apr 2026 13:47:37 GMT</pubDate>
+</item>
+<item>
+  <title>Resources and tools</title>
+  <link>https://DaMIfLL.github.io/resources.html</link>
+  <description><![CDATA[ 
+
+
+
+
+
+<p>This repo is intended to be a living document for SWG and IAT members to share useful information and resources related to Open Science, programming and Data Visualisation.</p>
+<p>Some documents that provide guiding principles:</p>
+<ul>
+<li><p><a href="https://zalf365.sharepoint.com/sites/dokumentencenter/Richtlinien/2023-01-richtlinie-zalf-data-policy.pdf?csf=1&amp;web=1&amp;e=irWOai">Handling Research Data at ZALF Guidelinbes</a></p></li>
+<li><p><a href="https://zalf365.sharepoint.com/sites/vorstand/Freigegebene%20Dokumente/strategiedokumente/policy-open-access.pdf?csf=1&amp;web=1&amp;e=4bXvat">ZALF open access policy</a></p></li>
+<li><p><a href="https://doi.org/10.20387/BonaRes-RYCV-30RK">BonaRes Data Policy</a></p></li>
+<li><p><a href="https://www.leibniz-gemeinschaft.de/ueber-uns/evaluierung/das-evaluierungsverfahren-der-leibniz-gemeinschaft/senatsstellungnahmen">Previous ZALF evaluations</a></p></li>
+<li><p><a href="https://zalf365.sharepoint.com/sites/vorstand/Freigegebene%20Dokumente/Forms/AllItems.aspx?id=%2Fsites%2Fvorstand%2FFreigegebene%20Dokumente%2Fstrategiedokumente%2Forganizational%2Dpolicy%2Dzalf%2Epdf&amp;parent=%2Fsites%2Fvorstand%2FFreigegebene%20Dokumente%2Fstrategiedokumente">ZALF organisational policy</a></p></li>
+<li><p><a href="https://www.dfg.de/de/grundlagen-themen/grundlagen-und-prinzipien-der-foerderung/gwp">DFG research ethics</a></p></li>
+<li><p><a href="https://www.leibniz-gemeinschaft.de/ueber-uns/leibniz-integritaet/gute-wissenschaftliche-praxis-und-ombudswesen">Liebniz center Good Scientific Practice</a></p></li>
+</ul>
+<p>Check out the <a href="https://github.com/awesomelistsio/awesome-open-science">Open Science Awesome List</a></p>
+<ul>
+<li><a href="https://book.the-turing-way.org/collaboration/new-community/new-community-guide/">The Turing Way’s Guide to Planning a Community</a> - A guide to planning and building a community around open science, including tips on communication, governance, and sustainability.</li>
+</ul>
+<section id="data-visualisation" class="level2">
+<h2 class="anchored" data-anchor-id="data-visualisation">Data visualisation</h2>
+<ul>
+<li><a href="https://clauswilke.com/dataviz/">Fundamentals of Data Visualization</a></li>
+<li><a href="https://openvisualizationacademy.org/">Open Visualisation Academy</a></li>
+</ul>
+</section>
+<section id="r" class="level2">
+<h2 class="anchored" data-anchor-id="r">R</h2>
+<p>What they forgot to teach you about R: https://rstats.wtf/</p>
+</section>
+<section id="quarto" class="level2">
+<h2 class="anchored" data-anchor-id="quarto">Quarto</h2>
+<ul>
+<li><a href="https://slidecrafting-book.com/">Beautiful slides with RevealJS and Quarto</a></li>
+</ul>
+</section>
+<section id="tools-and-software" class="level2">
+<h2 class="anchored" data-anchor-id="tools-and-software">Tools and Software</h2>
+<ul>
+<li><p><a href="https://european-alternatives.eu/categories">EU alternatives for software</a> - A directory of software alternatives to popular proprietary software, with a focus on European users and organizations.</p></li>
+<li><p><a href="https://www.gettingstuffdone.ai/">gettingstuffdoneai</a> - Directory of Generative AI Tools and Models, categorized by use case and functionality.</p></li>
+<li><p><a href="https://inkscape.org/">Inkscape</a> - Open source vector graphics editor, alternative to Adobe products, useful for creating and editing figures for publications and presentations. Available via the ZALF baramundi client.</p></li>
+</ul>
+</section>
+<section id="training" class="level2">
+<h2 class="anchored" data-anchor-id="training">Training</h2>
+<ul>
+<li><a href="https://digital-research.academy/">Digital Research Academy</a> - a trainer network focused on Open Science, Data Literacy, and Research Software Engineering (DRA’s <a href="https://zenodo.org/communities/digiresacademy/records?q=&amp;l=list&amp;p=1&amp;s=10&amp;sort=newest">Zenodo collection</a>).</li>
+<li><a href="https://www.berd-nfdi.de/berd-academy/">BERD academy</a></li>
+<li><a href="https://berd-nfdi.github.io/BERD-reproducible-research-course/">BERD reproducible research course</a></li>
+<li><a href="https://edutrain.nfdi4earth.de/">NFDI4Earth - Educational Portal</a></li>
+<li><a href="https://assured-training.org/">Assured Training</a> -Ensures the safe, legal, and ethical use of sensitive data through targeted training and certification.</li>
+<li><a href="https://ki-campus.org/en/learning-opportunities/courses">KI-campus</a> - Numerous free courses on AI and related topics, including data science, machine learning, and ethical considerations in AI.</li>
+</ul>
+
+
+</section>
+
+ ]]></description>
+  <guid>https://DaMIfLL.github.io/resources.html</guid>
+  <pubDate>Wed, 01 Apr 2026 13:47:37 GMT</pubDate>
+</item>
+<item>
+  <title>Team</title>
+  <link>https://DaMIfLL.github.io/team.de.html</link>
+  <description><![CDATA[ 
+
+
+
+
+
+<p>Klicken Sie auf das Profil jedes Teammitglieds, um weitere Informationen zu erhalten.</p>
+<div id="current">
+
+</div>
+<!-- ## Alumni -->
+<div id="alumni">
+
+</div>
+
+
+
+
+<div class="quarto-listing quarto-listing-container-grid" id="listing-Current">
+<div class="list grid quarto-listing-cols-4">
+<div class="g-col-1" data-index="0" data-listing-file-modified-sort="1772472986051" data-listing-reading-time-sort="1" data-listing-word-count-sort="11">
+<a href="./current/Ben.de.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-center borderless">
+<p class="card-img-top">
+<img loading="lazy" src="https://DaMIfLL.github.io/current/black_benjamin.jpg" class="thumbnail-image card-img" style="height: 325px;">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Benjamin Black
+</h5>
+<div class="card-attribution card-text-small start">
+<div class="listing-author">
+Leiter der Arbeitsgruppe
+</div>
+</div>
+</div>
+</div></a>
+</div>
+<div class="g-col-1" data-index="1" data-categories="TGVhZGVyc2hpcCUyQ0VuZ2luZWVyaW5n" data-listing-file-modified-sort="1775051189338" data-listing-reading-time-sort="1" data-listing-word-count-sort="87">
+<a href="./current/Ben.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-center borderless">
+<p class="card-img-top">
+<img loading="lazy" src="https://DaMIfLL.github.io/current/ben.jpg" class="thumbnail-image card-img" style="height: 325px;" alt="Photo of Ben Black">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Ben Black
+</h5>
+<div class="card-attribution card-text-small start">
+<div class="listing-author">
+
+</div>
+</div>
+</div>
+</div></a>
+</div>
+</div>
+<div class="listing-no-matching d-none">No matching items</div>
+</div> ]]></description>
+  <guid>https://DaMIfLL.github.io/team.de.html</guid>
+  <pubDate>Wed, 01 Apr 2026 13:47:37 GMT</pubDate>
+</item>
+<item>
+  <title>Team</title>
+  <link>https://DaMIfLL.github.io/team.html</link>
+  <description><![CDATA[ 
+
+
+
+
+
+<p>Click on each team members profile for further information.</p>
+<div id="listing-team-listing" class="quarto-listing quarto-listing-container-custom">
+<div class="list grid team-grid">
+
+  <div class="g-col-1" data-index="0" data-categories="TGVhZGVyc2hpcCUyQ0VuZ2luZWVyaW5n" data-listing-file-modified-sort="1775051189338" data-listing-reading-time-sort="1" data-listing-word-count-sort="87">
+    <a href="./current/Ben.html" class="quarto-grid-link">
+      </a><div class="quarto-grid-item card h-100 card-team card-center"><a href="./current/Ben.html" class="quarto-grid-link">
+        
+        <p class="card-img-top team-image-container">
+          <img src="https://DaMIfLL.github.io/current/ben.jpg" class="thumbnail-image card-img team-image" alt="Photo of Ben Black">
+        </p>
+        
+        
+        </a><div class="card-body post-contents"><a href="./current/Ben.html" class="quarto-grid-link">
+          
+          <h5 class="no-anchor card-title listing-title">Ben Black</h5>
+          
+          
+          
+          <div class="card-subtitle listing-subtitle team-job-title">Head of the working group</div>
+          
+          
+          
+          <div class="listing-skills">
+            <div class="skills-label">Expertise:</div>
+            <div class="skills-list">
+            
+              
+            <div class="listing-skill">R</div>
+              
+            <div class="listing-skill">Quarto</div>
+              
+            <div class="listing-skill">Team Leadership</div>
+              
+            <div class="listing-skill">System Design</div>
+              
+            
+          </div>
+          </div>
+          
+          
+          
+          <div class="card-text listing-description team-description">
+            <!-- Description hidden -->
+          </div>
+          
+          
+          
+          </a><div class="listing-projects"><a href="./current/Ben.html" class="quarto-grid-link">
+            <div class="projects-label">Projects:</div>
+            </a><div class="projects-list"><a href="./current/Ben.html" class="quarto-grid-link">
+              
+                
+                  
+              </a><a href="./projects/cloud-migration" class="project-link" onclick="event.stopPropagation();">Cloud Migration Platform</a>
+                  
+                
+                  
+              <a href="./projects/microservices" class="project-link" onclick="event.stopPropagation();">Microservices Framework</a>
+                  
+                
+                  
+              <a href="./projects/dev-portal" class="project-link" onclick="event.stopPropagation();">Developer Portal</a>
+                  
+                
+              
+            </div>
+          </div>
+          
+        </div>
+      </div>
+    
+  </div>
+
+</div>
+<div class="listing-no-matching d-none">No matching items</div>
+</div>
+
+
+
+
+ ]]></description>
+  <guid>https://DaMIfLL.github.io/team.html</guid>
+  <pubDate>Wed, 01 Apr 2026 13:47:37 GMT</pubDate>
+</item>
+<item>
+  <title>Sarah Johnson</title>
+  <link>https://DaMIfLL.github.io/test/example-team-member.html</link>
+  <description><![CDATA[ 
+
+
+
+
+<section id="about-sarah" class="level2">
+<h2 class="anchored" data-anchor-id="about-sarah">About Sarah</h2>
+<p>Sarah joined our company in 2018 and has been instrumental in modernizing our technology stack. She holds a Master’s degree in Computer Science from MIT and is a frequent speaker at tech conferences.</p>
+<section id="achievements" class="level3">
+<h3 class="anchored" data-anchor-id="achievements">Achievements</h3>
+<ul>
+<li>Led the migration of our monolithic application to microservices</li>
+<li>Reduced infrastructure costs by 40% through cloud optimization</li>
+<li>Grew the engineering team from 5 to 50 people</li>
+<li>Published research on distributed systems in leading journals</li>
+</ul>
+</section>
+<section id="education" class="level3">
+<h3 class="anchored" data-anchor-id="education">Education</h3>
+<ul>
+<li>M.S. Computer Science, MIT, 2007</li>
+<li>B.S. Computer Engineering, Stanford University, 2005</li>
+</ul>
+</section>
+<section id="contact" class="level3">
+<h3 class="anchored" data-anchor-id="contact">Contact</h3>
+<ul>
+<li>Email: sarah.johnson@company.com</li>
+<li>LinkedIn: <a href="https://linkedin.com/in/sarahjohnson">linkedin.com/in/sarahjohnson</a></li>
+<li>Twitter: <a href="https://twitter.com/sarahj_tech"><span class="citation" data-cites="sarahj_tech">@sarahj_tech</span></a></li>
+</ul>
+
+
+</section>
+</section>
+
+ ]]></description>
+  <category>Leadership</category>
+  <category>Engineering</category>
+  <guid>https://DaMIfLL.github.io/test/example-team-member.html</guid>
+  <pubDate>Wed, 01 Apr 2026 13:47:37 GMT</pubDate>
+  <media:content url="https://DaMIfLL.github.io/test/images/sarah-johnson.jpg" medium="image" type="image/jpeg"/>
+</item>
+</channel>
+</rss>

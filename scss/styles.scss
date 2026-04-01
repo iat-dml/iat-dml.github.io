@@ -1,0 +1,389 @@
+/* styles.scss */
+
+/*-- scss:rules --*/
+
+/* ============================================
+   Layout Reset & Base Spacing
+   ============================================ */
+
+body,
+main,
+#quarto-content {
+  margin: 0;
+  padding: 0;
+}
+
+.navbar {
+  margin: 0;
+  padding-block-end: 0;
+}
+
+.navbar-logo {
+  max-height: 100px;
+}
+
+/* Remove gap between navbar and hero - more aggressive */
+#quarto-header {
+  margin-block-end: 0;
+  padding-block-end: 0;
+}
+
+/* Target the navbar container */
+#quarto-header > * {
+  margin-block-end: 0;
+  padding-block-end: 0;
+}
+
+/* ============================================
+   Hero Section
+   ============================================ */
+
+.hero {
+  /* Full-width bleed */
+  inline-size: 100vw;
+  margin-inline-start: 50%;
+  transform: translateX(-50%);
+  
+  /* Remove any top margin/gap - negative margin to pull up if needed */
+  margin-block-start: 0;
+  
+  /* Background */
+  background: url("assets/hero-banner.png") no-repeat center center / cover;
+  
+  /* Layout */
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  
+  /* Spacing - account for fixed navbar */
+  min-block-size: 30vh;
+  padding-block-start: calc(60px + 1rem); /* navbar height + extra space */
+  padding-block-end: 6rem;
+  
+  /* Typography */
+  color: $brand-white;
+  text-align: center;
+  
+  /* Positioning context */
+  position: relative;
+  
+//   /* Top fade overlay */
+//   &::before {
+//     content: "";
+//     position: absolute;
+//     inset-block-start: 0;
+//     inset-inline: 0;
+//     block-size: 40%;
+//     background: linear-gradient(
+//       to bottom,
+//       rgb(0 0 0 / 0.6),
+//       rgb(0 0 0 / 0)
+//     );
+//     pointer-events: none;
+//     z-index: 1;
+//   }
+  
+//   /* Ensure content sits above overlay */
+//   > * {
+//     position: relative;
+//     z-index: 2;
+//   }
+}
+
+.hero + * {
+  margin-block-start: 3rem;
+}
+
+/* Hero Typography */
+.hero h1 {
+  font-size: clamp(2.5rem, 8vw, 5rem);
+  font-weight: 700;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  text-wrap: balance;
+  color: $brand-white;
+  margin-block-end: 0.5rem;
+}
+
+.hero p {
+  font-size: clamp(1rem, 2.5vw, 1.3rem);
+  text-wrap: pretty;
+  color: $brand-white;
+  margin-block-end: 1rem;
+  max-inline-size: 65ch;
+}
+
+/* Hero CTA Button */
+.hero-btn {
+  display: inline-block;
+  background-color: $brand-teal;
+  color: $brand-white;
+  font-weight: 800;
+  font-size: clamp(1.1rem, 2vw, 1.5rem);
+  text-decoration: none;
+  padding-block: 0.8rem;
+  padding-inline: 2rem;
+  border-radius: 9999px;
+  box-shadow: 0 8px 32px rgb(0 0 0 / 0.3);
+  margin-block-start: min(35rem, 40vh);
+  
+  transition: 
+    background-color 0.3s ease,
+    color 0.3s ease,
+    box-shadow 0.3s ease;
+  
+  &:hover {
+    background-color: $brand-white;
+    color: $brand-green;
+    box-shadow: 0 6px 16px rgb(0 0 0 / 0.4);
+  }
+  
+  /* Responsive adjustment */
+  @media (width <= 768px) {
+    margin-block-start: 1rem;
+  }
+}
+
+/* ============================================
+   Team Grid Styling
+   ============================================ */
+
+.team-grid {
+  // Grid layout
+  display: grid;
+  gap: 2em;
+  
+  // Fluid responsive columns — fills available width, minimum 280px per card
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr)) !important;  
+  .quarto-grid-item.card-team,
+  .quarto-grid-item.card-team.card {
+    // Rounded corners
+    border-radius: 1rem;
+    background-color: #fafafa !important;
+    border: 1px solid #e5e7eb;
+    
+    // Clean neutral shadow
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.06), 0 1px 3px rgba(0, 0, 0, 0.04);
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+    
+    // Hover — subtle lift with slightly deeper shadow
+    &:hover {
+      transform: translateY(-4px);
+      box-shadow: 0 8px 20px rgba(0, 0, 0, 0.10), 0 3px 6px rgba(0, 0, 0, 0.06);
+    }
+    
+    text-align: center;
+    
+    .card-body {
+      padding: 1.75rem;
+    }
+  }
+  
+  // Circular team member images
+  .team-image-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1.5rem 1.5rem 0.5rem 1.5rem;
+    margin-bottom: 0;
+    
+    .team-image {
+      width: 150px;
+      height: 150px;
+      border-radius: 50%;
+      object-fit: cover;
+      // Neutral border
+      border: 3px solid #e5e7eb;
+    }
+  }
+  
+  // Team member name — teal-dark brand accent
+  .listing-title {
+    font-family: "Segoe UI", system-ui, Helvetica Neue, Arial, sans-serif;
+    font-weight: 600;
+    font-size: 1.25rem;
+    margin-bottom: 0.25rem;
+    margin-top: 0.5rem;
+    color: #356259;
+  }
+  
+  // Job title — neutral and understated
+  .team-job-title {
+    font-family: "Segoe UI", system-ui, Helvetica Neue, Arial, sans-serif;
+    font-weight: 400;
+    color: #6b7280;
+    font-size: 0.95rem;
+    margin-bottom: 1rem;
+    font-style: italic;
+  }
+  
+  // Skills badges — neutral gray
+  .listing-skills {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 0.5rem;
+    margin-bottom: 1rem;
+
+    .skills-label {
+      font-weight: 600;
+      font-size: 0.85rem;
+      margin-bottom: 0.5rem;
+      color: #374151;
+      text-transform: uppercase;
+      letter-spacing: 0.5px;
+    }
+
+    .skills-list {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 0.5rem;
+    
+    
+    .listing-skill {
+      background-color: #f3f4f6;
+      color: #374151;
+      border: 1px solid #e5e7eb;
+      border-radius: 1rem;
+      padding: 0.25rem 0.75rem;
+      font-size: 0.75rem;
+      font-weight: 500;
+      text-transform: uppercase;
+      letter-spacing: 0.5px;
+    }
+  }
+  }
+  
+  // Description
+  .team-description {
+    font-size: 0.9rem;
+    line-height: 1.6;
+    margin-bottom: 1rem;
+    text-align: center;
+    color: #6b7280;
+  }
+  
+  // Projects section
+  .listing-projects {
+    margin-top: 1rem;
+    padding-top: 1rem;
+    border-top: 1px solid #e5e7eb;
+    
+    .projects-label {
+      font-weight: 600;
+      font-size: 0.85rem;
+      margin-bottom: 0.5rem;
+      color: #374151;
+      text-transform: uppercase;
+      letter-spacing: 0.5px;
+    }
+    
+    .projects-list {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 0.5rem;
+      
+      .project-link {
+        display: inline-block;
+        background-color: #f3f4f6;
+        color: #356259;
+        border: 1px solid #e5e7eb;
+        padding: 0.375rem 0.75rem;
+        border-radius: 0.5rem;
+        text-decoration: none;
+        font-size: 0.85rem;
+        font-weight: 500;
+        transition: background-color 0.2s ease, border-color 0.2s ease;
+        
+        &:hover {
+          background-color: #e5e7eb;
+          border-color: #d1d5db;
+          color: #356259;
+        }
+      }
+      
+      .project-item {
+        display: inline-block;
+        background-color: #f3f4f6;
+        color: #374151;
+        padding: 0.375rem 0.75rem;
+        border-radius: 0.5rem;
+        font-size: 0.85rem;
+      }
+    }
+  }
+  
+  // Override default card alignment classes for team grid
+  .quarto-grid-item.card-center {
+    .listing-description {
+      text-align: center;
+    }
+  }
+}
+
+/* ============================================
+   Footer
+   ============================================ */
+
+footer.footer,
+.nav-footer {
+  max-inline-size: 100%;
+  padding: 0;
+  overflow-x: clip; /* Prevent horizontal scrollbar */
+}
+
+.nav-footer-center {
+  max-inline-size: 100%;
+  padding: 0;
+  
+  p {
+    margin: 0;
+  }
+  
+  /* Full-width image container */
+  p:has(img) {
+    margin: 0;
+    padding: 0;
+    max-inline-size: none;
+    inline-size: 100vw;
+    margin-inline-start: calc(-50vw + 50%);
+  }
+  
+  img {
+    display: block;
+    inline-size: 100%;
+    block-size: auto;
+    object-fit: cover;
+  }
+}
+
+/* Force full-width for any footer images */
+footer img,
+.nav-footer img {
+  inline-size: 100vw !important;
+  max-inline-size: 100vw !important;
+  margin-inline-start: calc(-50vw + 50%) !important;
+  margin-inline-end: calc(-50vw + 50%) !important;
+  padding: 0 !important;
+}
+
+/* Remove container constraints in footer */
+.nav-footer .container,
+.nav-footer .container-fluid,
+footer .container,
+footer .container-fluid {
+  max-inline-size: 100% !important;
+  padding: 0 !important;
+  margin: 0 !important;
+}
+
+/* Ensure footer content wrapper allows full width */
+.nav-footer-center .container,
+.nav-footer-center .container-fluid {
+  inline-size: 100vw;
+  max-inline-size: 100vw;
+  margin-inline-start: calc(-50vw + 50%);
+}
