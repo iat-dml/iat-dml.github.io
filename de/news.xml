@@ -10,11 +10,12 @@
 <atom:link href="https://DaMIfLL.github.io/de/news.xml" rel="self" type="application/rss+xml"/>
 <description>„Dies ist die Website der Arbeitsgruppe „Daten- und Modellierungsinfrastruktur für Living Labs“ (SWG) des Innovationszentrums für Agrarsystemtransformation (IAT) als Teil des Leibniz-Zentrums für Agrarlandschaftsforschung (ZALF).“</description>
 <generator>quarto-1.9.36</generator>
-<lastBuildDate>Wed, 01 Apr 2026 01:28:32 GMT</lastBuildDate>
+<lastBuildDate>Thu, 02 Apr 2026 01:18:11 GMT</lastBuildDate>
 <item>
   <title>About</title>
   <link>https://DaMIfLL.github.io/de/about.html</link>
   <description><![CDATA[ 
+
 
 
 
@@ -25,12 +26,13 @@
 
  ]]></description>
   <guid>https://DaMIfLL.github.io/de/about.html</guid>
-  <pubDate>Wed, 01 Apr 2026 01:28:32 GMT</pubDate>
+  <pubDate>Thu, 02 Apr 2026 01:18:11 GMT</pubDate>
 </item>
 <item>
   <title>Data and Modelling Infrastructure for Living Labs Service Working Group Charter</title>
   <link>https://DaMIfLL.github.io/de/charter.html</link>
   <description><![CDATA[ 
+
 
 
 
@@ -41,7 +43,7 @@
 
  ]]></description>
   <guid>https://DaMIfLL.github.io/de/charter.html</guid>
-  <pubDate>Wed, 01 Apr 2026 01:28:32 GMT</pubDate>
+  <pubDate>Thu, 02 Apr 2026 01:18:11 GMT</pubDate>
 </item>
 <item>
   <title>Verhaltenskodex</title>
@@ -54,49 +56,16 @@
 
 
 
+
  ]]></description>
   <guid>https://DaMIfLL.github.io/de/code-of-conduct.html</guid>
-  <pubDate>Wed, 01 Apr 2026 01:28:32 GMT</pubDate>
-</item>
-<item>
-  <title>Benjamin Black</title>
-  <dc:creator>Leiter der Arbeitsgruppe</dc:creator>
-  <link>https://DaMIfLL.github.io/de/current/Ben.html</link>
-  <description><![CDATA[ 
-
-
-
-
-<!-- ```{=html} -->
-<!-- <meta http-equiv="Refresh" content="0; url='https://blenback.github.io/'" /> -->
-<!-- ``` -->
-<div class="quarto-about-jolla">
-  <img src="https://DaMIfLL.github.io/de/current/black_benjamin.jpg" class="about-image
-  round " style="height: 15em; width: 15em;">
- <div id="person-profile">
-</div> 
-  <hr class="about-sep">
-   <div class="about-links">
-  <a href="https://blenback.github.io/" class="about-link" rel="" target="">
-    <i class="bi bi-link"></i>
-     <span class="about-link-text">website</span>
-  </a>
-</div>
-</div>
-
-
-
-
-
- ]]></description>
-  <guid>https://DaMIfLL.github.io/de/current/Ben.html</guid>
-  <pubDate>Wed, 01 Apr 2026 01:28:32 GMT</pubDate>
-  <media:content url="https://DaMIfLL.github.io/de/current/black_benjamin.jpg" medium="image" type="image/jpeg"/>
+  <pubDate>Thu, 02 Apr 2026 01:18:11 GMT</pubDate>
 </item>
 <item>
   <title>web</title>
   <link>https://DaMIfLL.github.io/de/</link>
   <description><![CDATA[ 
+
 
 
 
@@ -108,19 +77,13 @@
 
  ]]></description>
   <guid>https://DaMIfLL.github.io/de/</guid>
-  <pubDate>Wed, 01 Apr 2026 01:28:32 GMT</pubDate>
-</item>
-<item>
-  <title></title>
-  <link>https://DaMIfLL.github.io/de/onboarding.md</link>
-  <description><![CDATA[ undefined ]]></description>
-  <guid>https://DaMIfLL.github.io/de/onboarding.md</guid>
-  <pubDate>Wed, 01 Apr 2026 01:28:32 GMT</pubDate>
+  <pubDate>Thu, 02 Apr 2026 01:18:11 GMT</pubDate>
 </item>
 <item>
   <title>Ressourcen</title>
   <link>https://DaMIfLL.github.io/de/resources.html</link>
   <description><![CDATA[ 
+
 
 
 
@@ -157,7 +120,7 @@
 
  ]]></description>
   <guid>https://DaMIfLL.github.io/de/resources.html</guid>
-  <pubDate>Wed, 01 Apr 2026 01:28:32 GMT</pubDate>
+  <pubDate>Thu, 02 Apr 2026 01:18:11 GMT</pubDate>
 </item>
 <item>
   <title>Team</title>
@@ -167,43 +130,57 @@
 
 
 
+
 <p>Klicken Sie auf das Profil jedes Teammitglieds, um weitere Informationen zu erhalten.</p>
-<div id="current">
+<div id="listing-team-listing" class="quarto-listing quarto-listing-container-custom">
+<div class="list grid team-grid">
 
-</div>
-<!-- ## Alumni -->
-<div id="alumni">
-
-</div>
-
-
-
-
-<div class="quarto-listing quarto-listing-container-grid" id="listing-Current">
-<div class="list grid quarto-listing-cols-4">
-<div class="g-col-1" data-index="0" data-listing-file-modified-sort="1775006903319" data-listing-reading-time-sort="1" data-listing-word-count-sort="11">
-<a href="./current/Ben.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-center borderless">
-<p class="card-img-top">
-<img loading="lazy" src="https://DaMIfLL.github.io/de/current/black_benjamin.jpg" class="thumbnail-image card-img" style="height: 325px;">
-</p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-Benjamin Black
-</h5>
-<div class="card-attribution card-text-small start">
-<div class="listing-author">
-Leiter der Arbeitsgruppe
-</div>
-</div>
-</div>
-</div></a>
-</div>
 </div>
 <div class="listing-no-matching d-none">Keine Treffer</div>
-</div> ]]></description>
+</div>
+
+
+
+
+ ]]></description>
   <guid>https://DaMIfLL.github.io/de/team.html</guid>
-  <pubDate>Wed, 01 Apr 2026 01:28:32 GMT</pubDate>
+  <pubDate>Thu, 02 Apr 2026 01:18:11 GMT</pubDate>
+</item>
+<item>
+  <title>Benjamin Black</title>
+  <dc:creator>Leiter der Arbeitsgruppe</dc:creator>
+  <link>https://DaMIfLL.github.io/de/team/Ben.html</link>
+  <description><![CDATA[ 
+
+
+
+
+
+<!-- ```{=html} -->
+<!-- <meta http-equiv="Refresh" content="0; url='https://blenback.github.io/'" /> -->
+<!-- ``` -->
+<div class="quarto-about-jolla">
+  <img src="https://DaMIfLL.github.io/de/team/black_benjamin.jpg" class="about-image
+  round " style="height: 15em; width: 15em;">
+ <div id="person-profile">
+</div> 
+  <hr class="about-sep">
+   <div class="about-links">
+  <a href="https://blenback.github.io/" class="about-link" rel="" target="">
+    <i class="bi bi-link"></i>
+     <span class="about-link-text">website</span>
+  </a>
+</div>
+</div>
+
+
+
+
+
+ ]]></description>
+  <guid>https://DaMIfLL.github.io/de/team/Ben.html</guid>
+  <pubDate>Thu, 02 Apr 2026 01:18:11 GMT</pubDate>
+  <media:content url="https://DaMIfLL.github.io/de/team/black_benjamin.jpg" medium="image" type="image/jpeg"/>
 </item>
 </channel>
 </rss>
