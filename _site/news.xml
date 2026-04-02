@@ -10,7 +10,7 @@
 <atom:link href="https://DaMIfLL.github.io/news.xml" rel="self" type="application/rss+xml"/>
 <description>This is the website of the Data and Modelling Infrastructure for Living Labs Working group (SWG) of the Innovation Center for Agricultural System Transformation (IAT) as part of the Liebniz Center for Agricultural Landscape Research (ZALF).</description>
 <generator>quarto-1.8.27</generator>
-<lastBuildDate>Wed, 01 Apr 2026 16:10:08 GMT</lastBuildDate>
+<lastBuildDate>Thu, 02 Apr 2026 12:35:43 GMT</lastBuildDate>
 <item>
   <title>About</title>
   <link>https://DaMIfLL.github.io/about.de.html</link>
@@ -26,7 +26,7 @@
 
  ]]></description>
   <guid>https://DaMIfLL.github.io/about.de.html</guid>
-  <pubDate>Wed, 01 Apr 2026 16:10:08 GMT</pubDate>
+  <pubDate>Thu, 02 Apr 2026 12:35:43 GMT</pubDate>
 </item>
 <item>
   <title>About</title>
@@ -43,7 +43,7 @@
 
  ]]></description>
   <guid>https://DaMIfLL.github.io/about.html</guid>
-  <pubDate>Wed, 01 Apr 2026 16:10:08 GMT</pubDate>
+  <pubDate>Thu, 02 Apr 2026 12:35:43 GMT</pubDate>
 </item>
 <item>
   <title>Data and Modelling Infrastructure for Living Labs Service Working Group Charter</title>
@@ -60,7 +60,7 @@
 
  ]]></description>
   <guid>https://DaMIfLL.github.io/charter.de.html</guid>
-  <pubDate>Wed, 01 Apr 2026 16:10:08 GMT</pubDate>
+  <pubDate>Thu, 02 Apr 2026 12:35:43 GMT</pubDate>
 </item>
 <item>
   <title>Data and Modelling Infrastructure for Living Labs Service Working Group Charter</title>
@@ -77,7 +77,7 @@
 
  ]]></description>
   <guid>https://DaMIfLL.github.io/charter.html</guid>
-  <pubDate>Wed, 01 Apr 2026 16:10:08 GMT</pubDate>
+  <pubDate>Thu, 02 Apr 2026 12:35:43 GMT</pubDate>
 </item>
 <item>
   <title>Verhaltenskodex</title>
@@ -93,7 +93,7 @@
 
  ]]></description>
   <guid>https://DaMIfLL.github.io/code-of-conduct.de.html</guid>
-  <pubDate>Wed, 01 Apr 2026 16:10:08 GMT</pubDate>
+  <pubDate>Thu, 02 Apr 2026 12:35:43 GMT</pubDate>
 </item>
 <item>
   <title>web</title>
@@ -111,7 +111,7 @@
 
  ]]></description>
   <guid>https://DaMIfLL.github.io/index.de.html</guid>
-  <pubDate>Wed, 01 Apr 2026 16:10:08 GMT</pubDate>
+  <pubDate>Thu, 02 Apr 2026 12:35:43 GMT</pubDate>
 </item>
 <item>
   <title></title>
@@ -124,15 +124,26 @@
 
 <section id="data-and-modelling-infrastructure-for-living-labs" class="level1 hero">
 <h1>Data and Modelling Infrastructure for Living Labs</h1>
+<p><a href="mailto:benjaminsamuel.black@zalf.de" class="hero-btn">Discuss your project with us</a></p>
 </section>
+<div style="text-align: center">
 <p>Welcome to the website of the Data and Modelling Infrastructure for Living Labs (DMI) Working Group. We are a service working group within the <a href="https://www.zalf.de/de/struktur/iat/Seiten/default.aspx">Innovation Center for Agricultural System Transformation (IAT)</a> as part of the <a href="https://www.zalf.de/de/struktur/iat/Seiten/default.aspx">Liebniz Center for Agricultural Landscape Research (ZALF)</a>. Our mission is to support researchers and partners within the IAT with all things related to data and modelling. We have represented the different ways that we do this in the graphic below:</p>
-<p><a href="assets/concept-diagram.svg" class="lightbox" data-gallery="quarto-lightbox-gallery-1"><img src="https://DaMIfLL.github.io/assets/concept-diagram.svg" class="img-fluid"></a></p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="assets/logos/logo-dmi-white-en.png" class="lightbox" data-gallery="quarto-lightbox-gallery-1"><img src="https://DaMIfLL.github.io/assets/logos/logo-dmi-white-en.png" class="img-fluid quarto-figure quarto-figure-center figure-img" alt="Visualisation of the three key service areas of the group"></a></p>
+</figure>
+</div>
+<p><span class="text-support">Support</span>: Empowering IAT researchers to manage research data and software over the full scientific life cycle</p>
+<p><span class="text-integration">Integration</span>: Connecting data and methods across IAT research groups</p>
+<p><span class="text-transfer">Transfer</span>: Closing the loop between science and practice</p>
+<p><a href="services.qmd" class="btn-brand">learn more about our services and how we can support you</a></p>
+</div>
 
 
 
  ]]></description>
   <guid>https://DaMIfLL.github.io/</guid>
-  <pubDate>Wed, 01 Apr 2026 16:10:08 GMT</pubDate>
+  <pubDate>Thu, 02 Apr 2026 12:35:43 GMT</pubDate>
 </item>
 <item>
   <title>Nachrichten</title>
@@ -283,7 +294,7 @@
 </a>
 </div>
 </div>
-<div class="quarto-post image-left" data-index="7" data-listing-file-modified-sort="1775049516342" data-listing-reading-time-sort="1" data-listing-word-count-sort="76">
+<div class="quarto-post image-left" data-index="7" data-listing-file-modified-sort="1775133330384" data-listing-reading-time-sort="1" data-listing-word-count-sort="131">
 <div class="thumbnail"><a href="./index.html" class="no-external">
 
 <!-- img(9CEB782EFEE6)[progressive=false, height=200px]:listing:index.html -->
@@ -397,18 +408,18 @@
 </a>
 </div>
 </div>
-<div class="quarto-post image-left" data-index="13" data-listing-file-modified-sort="1772472986051" data-listing-reading-time-sort="1" data-listing-word-count-sort="11">
+<div class="quarto-post image-left" data-index="13" data-listing-file-modified-sort="1775060065491" data-listing-reading-time-sort="1" data-listing-word-count-sort="51">
 <div class="thumbnail"><a href="./team/Ben.de.html" class="no-external">
 
-<img loading="lazy" src="https://DaMIfLL.github.io/team/black_benjamin.jpg" class="thumbnail-image" style="height: 200px;">
+<img loading="lazy" src="https://DaMIfLL.github.io/team/ben.jpg" class="thumbnail-image" style="height: 200px;" alt="Photo of Ben Black">
 
 </a></div>
 <div class="body">
 <h3 class="no-anchor listing-title">
-<a href="./team/Ben.de.html" class="no-external">Benjamin Black</a>
+<a href="./team/Ben.de.html" class="no-external">Ben Black</a>
 </h3>
 <div class="delink listing-description"><a href="./team/Ben.de.html" class="no-external">
-<!-- desc(5A0113B34292)[max=175]:team/Ben.de.html -->
+<p>Ben is the head of our working group, responsible for overseeing all projects and ensuring successful delivery. With a strong background in software engineering and team leadership, Ben has been instrumental in driving innovation and fostering a collaborative work environment.</p>
 </a></div>
 </div>
 <div class="metadata">
@@ -465,7 +476,7 @@
 <div class="listing-no-matching d-none">No matching items</div>
 </div> ]]></description>
   <guid>https://DaMIfLL.github.io/news.de.html</guid>
-  <pubDate>Wed, 01 Apr 2026 16:10:08 GMT</pubDate>
+  <pubDate>Thu, 02 Apr 2026 12:35:43 GMT</pubDate>
 </item>
 <item>
   <title>Ressourcen</title>
@@ -508,7 +519,7 @@
 
  ]]></description>
   <guid>https://DaMIfLL.github.io/resources.de.html</guid>
-  <pubDate>Wed, 01 Apr 2026 16:10:08 GMT</pubDate>
+  <pubDate>Thu, 02 Apr 2026 12:35:43 GMT</pubDate>
 </item>
 <item>
   <title>Resources and tools</title>
@@ -575,7 +586,7 @@
 
  ]]></description>
   <guid>https://DaMIfLL.github.io/resources.html</guid>
-  <pubDate>Wed, 01 Apr 2026 16:10:08 GMT</pubDate>
+  <pubDate>Thu, 02 Apr 2026 12:35:43 GMT</pubDate>
 </item>
 <item>
   <title>Team</title>
@@ -599,7 +610,7 @@
 
  ]]></description>
   <guid>https://DaMIfLL.github.io/team.de.html</guid>
-  <pubDate>Wed, 01 Apr 2026 16:10:08 GMT</pubDate>
+  <pubDate>Thu, 02 Apr 2026 12:35:43 GMT</pubDate>
 </item>
 <item>
   <title>Team</title>
@@ -738,7 +749,7 @@
 
           
           <div class="card-text listing-description team-description">
-            <!-- desc(5A0113B34292)[max=175]:team/DS.html -->
+            
           </div>
           
           
@@ -797,11 +808,10 @@
 
  ]]></description>
   <guid>https://DaMIfLL.github.io/team.html</guid>
-  <pubDate>Wed, 01 Apr 2026 16:10:08 GMT</pubDate>
+  <pubDate>Thu, 02 Apr 2026 12:35:43 GMT</pubDate>
 </item>
 <item>
   <title>Benjamin Black</title>
-  <dc:creator>Leiter der Arbeitsgruppe</dc:creator>
   <link>https://DaMIfLL.github.io/team/Ben.de.html</link>
   <description><![CDATA[ 
 
@@ -832,8 +842,8 @@
 
  ]]></description>
   <guid>https://DaMIfLL.github.io/team/Ben.de.html</guid>
-  <pubDate>Wed, 01 Apr 2026 16:10:08 GMT</pubDate>
-  <media:content url="https://DaMIfLL.github.io/team/black_benjamin.jpg" medium="image" type="image/jpeg"/>
+  <pubDate>Thu, 02 Apr 2026 12:35:43 GMT</pubDate>
+  <media:content url="https://DaMIfLL.github.io/team/ben.jpg" medium="image" type="image/jpeg"/>
 </item>
 <item>
   <title>Ben Black</title>
@@ -854,7 +864,7 @@
 </section>
  ]]></description>
   <guid>https://DaMIfLL.github.io/team/Ben.html</guid>
-  <pubDate>Wed, 01 Apr 2026 16:10:08 GMT</pubDate>
+  <pubDate>Thu, 02 Apr 2026 12:35:43 GMT</pubDate>
   <media:content url="https://DaMIfLL.github.io/team/ben.jpg" medium="image" type="image/jpeg"/>
 </item>
 <item>
@@ -873,7 +883,7 @@
   <category>Leadership</category>
   <category>Engineering</category>
   <guid>https://DaMIfLL.github.io/team/DS.html</guid>
-  <pubDate>Wed, 01 Apr 2026 16:10:08 GMT</pubDate>
+  <pubDate>Thu, 02 Apr 2026 12:35:43 GMT</pubDate>
   <media:content url="https://DaMIfLL.github.io/team/ben.jpg" medium="image" type="image/jpeg"/>
 </item>
 </channel>

@@ -1,0 +1,16 @@
+---
+title: "Upcoming Workshop and Hackathon at iEMSs 2025"
+date: "2025-06-01"
+categories: [workshop, hackathon, iEMSs, upcoming]
+description: "DaMIfLL is organising a workshop and hackathon at the iEMSs 2025 conference. Join us to collaboratively develop data standards and tools for landscape modelling."
+---
+
+We are excited to announce that DaMIfLL will host a workshop and hackathon at the
+International Environmental Modelling and Software Society (iEMSs) 2025 conference.
+
+The event will bring together researchers and practitioners to collaboratively tackle
+data interoperability challenges in landscape and land use modelling. Participants will
+work hands-on with datasets and tools in a hackathon format.
+
+More details on registration and the programme will follow soon.
+

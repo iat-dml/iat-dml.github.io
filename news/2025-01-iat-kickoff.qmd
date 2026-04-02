@@ -1,0 +1,14 @@
+---
+title: "DaMIfLL Presents at IAT Kickoff Meeting"
+date: "2025-01-20"
+categories: [presentation, IAT, outreach]
+description: "Members of the DaMIfLL working group presented the initiative at the IAT kickoff meeting, introducing our goals and activities to the broader community."
+---
+
+Members of the DaMIfLL working group attended and presented at the IAT kickoff meeting.
+The presentation introduced the DaMIfLL initiative, outlined our working group structure,
+and highlighted ongoing efforts to improve data management and interoperability in land
+use and landscape research.
+
+We look forward to continued collaboration with the IAT community.
+

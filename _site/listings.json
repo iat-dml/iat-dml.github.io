@@ -18,34 +18,56 @@
       "/index.de.html",
       "/index.html",
       "/news.html",
+      "/projects.de.html",
+      "/projects.html",
       "/resources.de.html",
       "/resources.html",
       "/team.de.html",
       "/team.html",
       "/team/Ben.de.html",
       "/team/Ben.html",
-      "/team/DS.html"
+      "/team/DS.html",
+      "/news/2025-06-iemss-workshop.html",
+      "/news/2025-03-fairagro-summit.html",
+      "/news/2025-01-iat-kickoff.html",
+      "/projects/monkshilllabs.html",
+      "/projects/living-lab-dashboards.html"
     ]
   },
   {
     "listing": "/news.html",
     "items": [
-      "/about.de.html",
-      "/about.html",
-      "/charter.de.html",
-      "/charter.html",
-      "/code-of-conduct.de.html",
-      "/code-of-conduct.html",
-      "/index.de.html",
-      "/index.html",
-      "/news.de.html",
-      "/resources.de.html",
-      "/resources.html",
-      "/team.de.html",
-      "/team.html",
-      "/team/Ben.de.html",
-      "/team/Ben.html",
-      "/team/DS.html"
+      "/news/2025-06-iemss-workshop.html",
+      "/news/2025-03-fairagro-summit.html",
+      "/news/2025-01-iat-kickoff.html"
+    ]
+  },
+  {
+    "listing": "/index.html",
+    "items": [
+      "/news/2025-06-iemss-workshop.html",
+      "/news/2025-03-fairagro-summit.html",
+      "/news/2025-01-iat-kickoff.html",
+      "/projects/monkshilllabs.html",
+      "/projects/living-lab-dashboards.html"
+    ]
+  },
+  {
+    "listing": "/team.de.html",
+    "items": []
+  },
+  {
+    "listing": "/projects.html",
+    "items": [
+      "/projects/monkshilllabs.html",
+      "/projects/living-lab-dashboards.html"
+    ]
+  },
+  {
+    "listing": "/projects.de.html",
+    "items": [
+      "/projects/monkshilllabs.html",
+      "/projects/living-lab-dashboards.html"
     ]
   }
 ]

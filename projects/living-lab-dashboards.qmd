@@ -1,0 +1,17 @@
+---
+title: "Living Lab Dashboards"
+date: "2024-09-01"
+categories: [dashboard, visualization, living labs]
+description: "Interactive dashboards for monitoring and analyzing living lab experiments across multiple sites in the landscape research network."
+---
+
+The Living Lab Dashboards project develops interactive web-based tools for visualizing
+and exploring data from living lab experiments conducted across our research network.
+
+These dashboards integrate diverse data streams including environmental sensors, field
+observations, and remote sensing data to provide real-time insights into landscape
+dynamics and experimental outcomes.
+
+The platform supports collaborative analysis and data-driven decision making for
+adaptive management of living lab sites.
+

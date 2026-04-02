@@ -1,24 +1,64 @@
 ---
-title: "Benjamin Black"
-subtitle: "Head of the working group"
-author: "Leiter der Arbeitsgruppe"
-sortby: "1"
-image: black_benjamin.jpg
-toc: false
-comments: false
-
-about:
-  id: person-profile
-  template: jolla
+title: "Ben Black"
+subtitle: "Leiter der Arbeitsgruppe"
+image: ben.jpg
+image-alt: "Photo of Ben Black"
+skills:
+  - R
+  - Quarto
+  - Team Leadership
+  - System Design
+projects:
+  - title: "Cloud Migration Platform"
+    url: "/projects/cloud-migration"
+  - title: "Microservices Framework"
+    url: "/projects/microservices"
+  - title: "Developer Portal"
+    url: "/projects/dev-portal"
+description: "Ben is the head of our working group, responsible for overseeing all projects and ensuring successful delivery. With a strong background in software engineering and team leadership, Ben has been instrumental in driving innovation and fostering a collaborative work environment."
+links:
+    - icon: envelope
+      text: Email
+      href: mailto:benjaminsamuel.black@zalf.de
+    - icon: github
+      text: Github
+      href: https://github.com/blenback
+    - icon: linkedin
+      text: LinkedIn
+      href: https://www.linkedin.com/in/ben-black-9889a1150
+    - icon: globe2
+      text: Persönliche Website
+      href: https://blenback.github.io/
+about: 
+  template: solana
+  image: ben.jpg
+  image-alt: "Photo of Ben Black"
+  image-shape: round
   links:
-    - icon: link
-      text: website
+    - icon: envelope
+      text: Email
+      href: mailto:benjaminsamuel.black@zalf.de
+    - icon: github
+      text: Github
+      href: https://github.com/blenback
+    - icon: linkedin
+      text: LinkedIn
+      href: https://www.linkedin.com/in/ben-black-9889a1150
+    - icon: globe2
+      text: Persönliche Website
       href: https://blenback.github.io/
 ---
 
-<!-- ```{=html} -->
-<!-- <meta http-equiv="Refresh" content="0; url='https://blenback.github.io/'" /> -->
-<!-- ``` -->
+## Education
 
-:::{#person-profile}
-:::
+University of California, San Diego | San Diego, CA
+PhD in Mathematics | Sept 2011 - June 2015
+
+Macalester College | St. Paul, MN
+B.A in Economics | Sept 2007 - June 2011
+
+## Experience
+
+Wengo Analytics | Head Data Scientist | April 2018 - present
+
+GeoScynce | Chief Analyst | Spet 2012 - April 2018 test

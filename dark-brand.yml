@@ -39,6 +39,9 @@ color:
     slate: '#465555'
     white: '#FFFFFF'
     black: '#1A1A1A'
+    transfer: "#458484"   # Blue colour for transfer activities (e.g. transfer page, transfer news)
+    support:  "#2D6A4F"   # Dark green for support activities (e.g. support page, support news)
+    integration: "#C18F59"   # terracotta for integration activities (e.g. integration page, integration news)
     gray-light: '#F5F5F5'
     gray: '#6C6C6C'
   foreground: white

@@ -31,6 +31,8 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="./">
 <link href="./assets/logos/logo-dmi-white-en.png" rel="icon" type="image/png">
+<script src="site_libs/quarto-listing/list.min.js"></script>
+<script src="site_libs/quarto-listing/quarto-listing.js"></script>
 <script src="site_libs/quarto-html/quarto.js" type="module"></script>
 <script src="site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
 <script src="site_libs/quarto-html/axe/axe-check.js" type="module"></script>
@@ -43,9 +45,9 @@ ul.task-list li input[type="checkbox"] {
 <link href="site_libs/quarto-html/quarto-syntax-highlighting-06b3079109bbc4c37b36690ef3b9afd9.css" rel="stylesheet" class="quarto-color-scheme-extra" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-826a03af42c5df08439dd602ca89d8ed.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
-<link href="site_libs/bootstrap/bootstrap-dark-93d86edc3935b6f9e46751737d2939de.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
-<link href="site_libs/bootstrap/bootstrap-826a03af42c5df08439dd602ca89d8ed.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-5c542f2a8b3e26c051f5cf16355f74de.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-dark-e2923b4137b2c5f0b449704f73f0620c.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
+<link href="site_libs/bootstrap/bootstrap-5c542f2a8b3e26c051f5cf16355f74de.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
 <link href="site_libs/quarto-contrib/fontawesome6-0.1.0/all.css" rel="stylesheet">
 <link href="site_libs/quarto-contrib/fontawesome6-0.1.0/latex-fontsize.css" rel="stylesheet">
 <script src="site_libs/quarto-contrib/glightbox/glightbox.min.js"></script>
@@ -78,11 +80,97 @@ ul.task-list li input[type="checkbox"] {
     "search-label": "Search"
   }
 }</script>
+<script>
 
+  window.document.addEventListener("DOMContentLoaded", function (_event) {
+    const listingTargetEl = window.document.querySelector('#listing-news-listing .list');
+    if (!listingTargetEl) {
+      // No listing discovered, do not attach.
+      return; 
+    }
+
+    const options = {
+      valueNames: ['listing-image','listing-title','listing-date','listing-categories','listing-description',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
+      
+      searchColumns: ["listing-title","listing-author","listing-date","listing-image","listing-description"],
+    };
+
+    window['quarto-listings'] = window['quarto-listings'] || {};
+    window['quarto-listings']['listing-news-listing'] = new List('listing-news-listing', options);
+
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  });
+
+  window.addEventListener('hashchange',() => {
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  })
+  
+
+  window.document.addEventListener("DOMContentLoaded", function (_event) {
+    const listingTargetEl = window.document.querySelector('#listing-projects-listing .list');
+    if (!listingTargetEl) {
+      // No listing discovered, do not attach.
+      return; 
+    }
+
+    const options = {
+      valueNames: ['listing-image','listing-title','listing-date','listing-categories','listing-description',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
+      
+      searchColumns: ["listing-title","listing-author","listing-date","listing-image","listing-description"],
+    };
+
+    window['quarto-listings'] = window['quarto-listings'] || {};
+    window['quarto-listings']['listing-projects-listing'] = new List('listing-projects-listing', options);
+
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  });
+
+  window.addEventListener('hashchange',() => {
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  })
+  </script>
+
+  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
+  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
+
+<script type="text/javascript">
+const typesetMath = (el) => {
+  if (window.MathJax) {
+    // MathJax Typeset
+    window.MathJax.typeset([el]);
+  } else if (window.katex) {
+    // KaTeX Render
+    var mathElements = el.getElementsByClassName("math");
+    var macros = [];
+    for (var i = 0; i < mathElements.length; i++) {
+      var texText = mathElements[i].firstChild;
+      if (mathElements[i].tagName == "SPAN" && texText && texText.data) {
+        window.katex.render(texText.data, mathElements[i], {
+          displayMode: mathElements[i].classList.contains('display'),
+          throwOnError: false,
+          macros: macros,
+          fleqn: false
+        });
+      }
+    }
+  }
+}
+window.Quarto = {
+  typesetMath
+};
+</script>
 
 </head>
 
-<body class="nav-fixed fullcontent quarto-light"><script id="quarto-html-before-body" type="application/javascript">
+<body class="nav-fixed quarto-light"><script id="quarto-html-before-body" type="application/javascript">
     const toggleBodyColorMode = (bsSheetEl) => {
       const mode = bsSheetEl.getAttribute("data-mode");
       const bodyEl = window.document.querySelector("body");
@@ -325,12 +413,12 @@ ul.task-list li input[type="checkbox"] {
     </nav>
 </header>
 <!-- content -->
-<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-full page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
     
 <!-- main -->
-<main class="content" id="quarto-document-content"><header id="title-block-header" class="quarto-title-block"></header>
+<main class="content column-page" id="quarto-document-content"><header id="title-block-header" class="quarto-title-block"></header>
 
 
 
@@ -338,9 +426,187 @@ ul.task-list li input[type="checkbox"] {
 
 <section id="data-and-modelling-infrastructure-for-living-labs" class="level1 hero">
 <h1>Data and Modelling Infrastructure for Living Labs</h1>
+<p><a href="mailto:benjaminsamuel.black@zalf.de" class="hero-btn">Discuss your project with us</a></p>
 </section>
 <p>Welcome to the website of the Data and Modelling Infrastructure for Living Labs (DMI) Working Group. We are a service working group within the <a href="https://www.zalf.de/de/struktur/iat/Seiten/default.aspx">Innovation Center for Agricultural System Transformation (IAT)</a> as part of the <a href="https://www.zalf.de/de/struktur/iat/Seiten/default.aspx">Liebniz Center for Agricultural Landscape Research (ZALF)</a>. Our mission is to support researchers and partners within the IAT with all things related to data and modelling. We have represented the different ways that we do this in the graphic below:</p>
-<p><a href="assets/concept-diagram.svg" class="lightbox" data-gallery="quarto-lightbox-gallery-1"><img src="assets/concept-diagram.svg" class="img-fluid"></a></p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="assets/logos/logo-dmi-white-en.png" class="lightbox" data-gallery="quarto-lightbox-gallery-1"><img src="assets/logos/logo-dmi-white-en.png" class="img-fluid quarto-figure quarto-figure-center figure-img" style="width:50.0%" alt="Visualisation of the three key service areas of the group"></a></p>
+</figure>
+</div>
+<div style="text-align: center">
+<p><span class="text-support">Support</span>: Empowering IAT researchers to manage research data and software over the full scientific life cycle</p>
+<p><span class="text-integration">Integration</span>: Connecting data and methods across IAT research groups</p>
+<p><span class="text-transfer">Transfer</span>: Closing the loop between science and practice</p>
+<p><a href="services.qmd" class="btn-brand">Learn more about our services and how we can support you</a></p>
+<p><a href="./projects.html" class="btn-brand">See example of projects we have supported</a></p>
+<p><a href="./team.html" class="btn-brand">Meet the team</a></p>
+</div>
+<div class="columns-divided">
+<div class="column" style="text-align: center">
+<section id="news" class="level2">
+<h2 class="anchored" data-anchor-id="news">News</h2>
+<div id="listing-news-listing" class="quarto-listing quarto-listing-container-grid">
+<div class="list grid quarto-listing-cols-1">
+<div class="g-col-1" data-index="0" data-categories="d29ya3Nob3AlMkNoYWNrYXRob24lMkNpRU1TcyUyQ3VwY29taW5n" data-listing-date-sort="1748728800000" data-listing-file-modified-sort="1775133846365" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="61">
+<a href="./news/2025-06-iemss-workshop.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-center">
+<div class="listing-item-img-placeholder card-img-top" style="height: 150px;">&nbsp;</div>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Upcoming Workshop and Hackathon at iEMSs 2025
+</h5>
+<div class="listing-categories">
+
+<div class="listing-category" onclick="window.quartoListingCategory('d29ya3Nob3A='); return false;">workshop</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('aGFja2F0aG9u'); return false;">hackathon</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('aUVNU3M='); return false;">iEMSs</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('dXBjb21pbmc='); return false;">upcoming</div>
+
+</div>
+<div class="card-text listing-description delink">
+<p>DaMIfLL is organising a workshop and hackathon at the iEMSs 2025 conference. Join us to collaboratively develop data standards and tools for landscape modelling.</p>
+</div>
+<div class="card-attribution card-text-small end">
+<div class="listing-date">
+Jun 1, 2025
+</div>
+</div>
+</div>
+</div></a>
+</div>
+<div class="g-col-1" data-index="1" data-categories="RkFJUmFncm8lMkNGQUlSJTIwZGF0YSUyQ2NvbW11bml0eQ==" data-listing-date-sort="1741734000000" data-listing-file-modified-sort="1775133846362" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="41">
+<a href="./news/2025-03-fairagro-summit.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-center">
+<div class="listing-item-img-placeholder card-img-top" style="height: 150px;">&nbsp;</div>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+DaMIfLL at the FAIRagro Community Summit
+</h5>
+<div class="listing-categories">
+
+<div class="listing-category" onclick="window.quartoListingCategory('RkFJUmFncm8='); return false;">FAIRagro</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('RkFJUiUyMGRhdGE='); return false;">FAIR data</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('Y29tbXVuaXR5'); return false;">community</div>
+
+</div>
+<div class="card-text listing-description delink">
+<p>DaMIfLL working group members attended the FAIRagro community summit, engaging with the FAIR data community and exploring synergies with agricultural research…</p>
+</div>
+<div class="card-attribution card-text-small end">
+<div class="listing-date">
+Mar 12, 2025
+</div>
+</div>
+</div>
+</div></a>
+</div>
+<div class="g-col-1" data-index="2" data-categories="cHJlc2VudGF0aW9uJTJDSUFUJTJDb3V0cmVhY2g=" data-listing-date-sort="1737327600000" data-listing-file-modified-sort="1775133846358" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="47">
+<a href="./news/2025-01-iat-kickoff.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-center">
+<div class="listing-item-img-placeholder card-img-top" style="height: 150px;">&nbsp;</div>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+DaMIfLL Presents at IAT Kickoff Meeting
+</h5>
+<div class="listing-categories">
+
+<div class="listing-category" onclick="window.quartoListingCategory('cHJlc2VudGF0aW9u'); return false;">presentation</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('SUFU'); return false;">IAT</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('b3V0cmVhY2g='); return false;">outreach</div>
+
+</div>
+<div class="card-text listing-description delink">
+<p>Members of the DaMIfLL working group presented the initiative at the IAT kickoff meeting, introducing our goals and activities to the broader community.</p>
+</div>
+<div class="card-attribution card-text-small end">
+<div class="listing-date">
+Jan 20, 2025
+</div>
+</div>
+</div>
+</div></a>
+</div>
+</div>
+<div class="listing-no-matching d-none">No matching items</div>
+</div>
+</section>
+</div>
+<div class="column" style="text-align: center">
+<section id="projects" class="level2">
+<h2 class="anchored" data-anchor-id="projects">Projects</h2>
+<div id="listing-projects-listing" class="quarto-listing quarto-listing-container-grid">
+<div class="list grid quarto-listing-cols-1">
+<div class="g-col-1" data-index="0" data-categories="aW5mcmFzdHJ1Y3R1cmUlMkNjb2xsYWJvcmF0aW9uJTJDcmVzZWFyY2glMjBwbGF0Zm9ybQ==" data-listing-date-sort="1731625200000" data-listing-file-modified-sort="1775134542694" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="59">
+<a href="./projects/monkshilllabs.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-center">
+<div class="listing-item-img-placeholder card-img-top" style="height: 150px;">&nbsp;</div>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+MonksHillLabs Initiative
+</h5>
+<div class="listing-categories">
+
+<div class="listing-category" onclick="window.quartoListingCategory('aW5mcmFzdHJ1Y3R1cmU='); return false;">infrastructure</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('Y29sbGFib3JhdGlvbg=='); return false;">collaboration</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('cmVzZWFyY2glMjBwbGF0Zm9ybQ=='); return false;">research platform</div>
+
+</div>
+<div class="card-text listing-description delink">
+<p>MonksHillLabs provides shared research infrastructure and collaborative workspace for developing and testing landscape modelling tools and data workflows.</p>
+</div>
+<div class="card-attribution card-text-small end">
+<div class="listing-date">
+Nov 15, 2024
+</div>
+</div>
+</div>
+</div></a>
+</div>
+<div class="g-col-1" data-index="1" data-categories="ZGFzaGJvYXJkJTJDdmlzdWFsaXphdGlvbiUyQ2xpdmluZyUyMGxhYnM=" data-listing-date-sort="1725141600000" data-listing-file-modified-sort="1775134542689" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="58">
+<a href="./projects/living-lab-dashboards.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-center">
+<div class="listing-item-img-placeholder card-img-top" style="height: 150px;">&nbsp;</div>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Living Lab Dashboards
+</h5>
+<div class="listing-categories">
+
+<div class="listing-category" onclick="window.quartoListingCategory('ZGFzaGJvYXJk'); return false;">dashboard</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('dmlzdWFsaXphdGlvbg=='); return false;">visualization</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('bGl2aW5nJTIwbGFicw=='); return false;">living labs</div>
+
+</div>
+<div class="card-text listing-description delink">
+<p>Interactive dashboards for monitoring and analyzing living lab experiments across multiple sites in the landscape research network.</p>
+</div>
+<div class="card-attribution card-text-small end">
+<div class="listing-date">
+Sep 1, 2024
+</div>
+</div>
+</div>
+</div></a>
+</div>
+</div>
+<div class="listing-no-matching d-none">No matching items</div>
+</div>
+</section>
+</div>
+</div>
+
 
 
 

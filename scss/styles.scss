@@ -3,14 +3,43 @@
 /*-- scss:rules --*/
 
 /* ============================================
+   Brand Term Colour Utilities
+   ============================================ */
+
+.text-support {
+  color: $brand-support;
+  font-weight: 800;
+}
+
+.text-integration {
+  color: $brand-integration;
+  font-weight: 800;
+}
+
+.text-transfer {
+  color: $brand-transfer;
+  font-weight: 800;
+}
+
+/* ============================================
    Layout Reset & Base Spacing
    ============================================ */
 
 body,
-main,
 #quarto-content {
   margin: 0;
   padding: 0;
+}
+
+/* Only on pages that have a hero: remove the top gap and hide the empty title block */
+main:has(.hero),
+main:has(.hero) #quarto-document-content {
+  padding-top: 0 !important;
+  margin-top: 0 !important;
+}
+
+main:has(.hero) #title-block-header.quarto-title-block {
+  display: none;
 }
 
 .navbar {
@@ -22,73 +51,113 @@ main,
   max-height: 50px;
 }
 
-/* Remove gap between navbar and hero - more aggressive */
+/* Remove gap between navbar and hero */
 #quarto-header {
   margin-block-end: 0;
   padding-block-end: 0;
 }
 
-/* Target the navbar container */
 #quarto-header > * {
   margin-block-end: 0;
   padding-block-end: 0;
 }
 
 /* ============================================
-   Hero Section
+   Brand Button (reusable)
    ============================================ */
 
+.btn-brand {
+  display: inline-block;
+  background-color: $brand-teal-dark;
+  color: $brand-white;
+  font-weight: 800;
+  font-size: clamp(1rem, 2vw, 1.3rem);
+  text-decoration: none;
+  padding-block: 0.8rem;
+  padding-inline: 2rem;
+  border-radius: 9999px;
+  box-shadow: 0 8px 32px rgb(0 0 0 / 0.3);
+
+  transition:
+    background-color 0.3s ease,
+    color 0.3s ease,
+    box-shadow 0.3s ease;
+
+  &:hover {
+    background-color: $brand-white;
+    color: $brand-green;
+    box-shadow: 0 6px 16px rgb(0 0 0 / 0.4);
+  }
+
+  @media (width <= 768px) {
+    padding-block: 0.6rem;
+    padding-inline: 1.5rem;
+  }
+}
+
+/* ============================================
+   Button Row Layout
+   ============================================ */
+
+.button-row {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1.5rem;
+  flex-wrap: wrap;
+  margin-block-start: 2rem;
+
+  .btn-brand {
+    flex: 0 1 auto;
+    white-space: normal; // Allow text to wrap
+    max-width: 250px; // Constrain button width to force wrapping
+    text-align: center;
+    line-height: 1.4; // Add some line height for readability
+  }
+
+  @media (width <= 768px) {
+    flex-direction: column;
+    gap: 1rem;
+    
+    .btn-brand {
+      width: 100%;
+      max-width: 350px;
+    }
+  }
+}
+
+/* ============================================
+   Hero Section
+   ============================================ */
 .hero {
   /* Full-width bleed */
-  inline-size: 100vw;
-  margin-inline-start: 50%;
-  transform: translateX(-50%);
-  
-  /* Remove any top margin/gap - negative margin to pull up if needed */
+  width: 100vw;
+  margin-left: calc(50% - 50vw);
+  margin-right: calc(50% - 50vw);
   margin-block-start: 0;
-  
+
   /* Background */
-  background: url("assets/hero-banner.png") no-repeat center center / cover;
-  
+  background-image: url("assets/hero-banner-alt.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+
   /* Layout */
   display: flex;
   flex-direction: column;
-  justify-content: flex-start;
+  justify-content: center;
   align-items: center;
-  
-  /* Spacing - account for fixed navbar */
-  min-block-size: 30vh;
-  padding-block-start: calc(60px + 1rem); /* navbar height + extra space */
-  padding-block-end: 6rem;
-  
+
+  /* Height */
+  min-block-size: 35vh;
+  padding-block: 2rem;
+
   /* Typography */
   color: $brand-white;
   text-align: center;
-  
+
   /* Positioning context */
   position: relative;
-  
-//   /* Top fade overlay */
-//   &::before {
-//     content: "";
-//     position: absolute;
-//     inset-block-start: 0;
-//     inset-inline: 0;
-//     block-size: 40%;
-//     background: linear-gradient(
-//       to bottom,
-//       rgb(0 0 0 / 0.6),
-//       rgb(0 0 0 / 0)
-//     );
-//     pointer-events: none;
-//     z-index: 1;
-//   }
-  
-//   /* Ensure content sits above overlay */
-//   > * {
-//     position: relative;
-//     z-index: 2;
-//   }
 }
 
 .hero + * {
@@ -116,30 +185,10 @@ main,
 
 /* Hero CTA Button */
 .hero-btn {
-  display: inline-block;
-  background-color: $brand-teal;
-  color: $brand-white;
-  font-weight: 800;
+  @extend .btn-brand;
   font-size: clamp(1.1rem, 2vw, 1.5rem);
-  text-decoration: none;
-  padding-block: 0.8rem;
-  padding-inline: 2rem;
-  border-radius: 9999px;
-  box-shadow: 0 8px 32px rgb(0 0 0 / 0.3);
-  margin-block-start: min(35rem, 40vh);
-  
-  transition: 
-    background-color 0.3s ease,
-    color 0.3s ease,
-    box-shadow 0.3s ease;
-  
-  &:hover {
-    background-color: $brand-white;
-    color: $brand-green;
-    box-shadow: 0 6px 16px rgb(0 0 0 / 0.4);
-  }
-  
-  /* Responsive adjustment */
+  margin-block-start: 1.5rem;
+
   @media (width <= 768px) {
     margin-block-start: 1rem;
   }
@@ -422,4 +471,66 @@ footer .container-fluid {
   inline-size: 100vw;
   max-inline-size: 100vw;
   margin-inline-start: calc(-50vw + 50%);
+}
+
+/* Remove underline for H2 headings and linked H2s */
+h2,
+h2 a {
+  text-decoration: none !important;
+  border-bottom: none !important;
+}
+
+h2 a:hover,
+h2:hover {
+  text-decoration: none !important;
+}
+
+
+/* Two-column layout with vertical divider */
+.columns-divided {
+  display: flex !important;
+  gap: 2rem;
+  align-items: flex-start;
+}
+
+.columns-divided > .column {
+  flex: 1;
+  min-width: 0;
+}
+
+.columns-divided > .column + .column {
+  position: relative;
+  padding-left: 2rem;
+}
+
+.columns-divided > .column + .column::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  width: 2px;
+  background: rgba(0, 0, 0, 0.2);
+  pointer-events: none;
+}
+
+@media (prefers-color-scheme: dark) {
+  .columns-divided > .column + .column::before {
+    background: rgba(255, 255, 255, 0.2);
+  }
+}
+
+@media (max-width: 768px) {
+  .columns-divided {
+    flex-direction: column;
+    gap: 2rem;
+  }
+  
+  .columns-divided > .column + .column {
+    padding-left: 0;
+  }
+  
+  .columns-divided > .column + .column::before {
+    display: none;
+  }
 }

@@ -1,0 +1,18 @@
+---
+title: "MonksHillLabs Initiative"
+date: "2024-11-15"
+categories: [infrastructure, collaboration, research platform]
+description: "MonksHillLabs provides shared research infrastructure and collaborative workspace for developing and testing landscape modelling tools and data workflows."
+---
+
+MonksHillLabs is a collaborative research platform that provides shared computational
+infrastructure, data repositories, and development environments for landscape and
+land use modelling projects.
+
+The initiative brings together researchers, data scientists, and software developers
+to co-create tools, standards, and workflows that advance data interoperability and
+reproducible research in landscape science.
+
+Current activities include developing standardized data formats, building modular
+modelling components, and hosting hackathons and training workshops.
+

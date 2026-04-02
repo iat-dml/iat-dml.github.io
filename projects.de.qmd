@@ -1,0 +1,17 @@
+---
+title: "Projekte"
+subtitle: "Gemeinschaftsprojekte und Initiativen"
+toc: false
+comments: false
+listing:
+    contents: "./projects/*.qmd"
+    image-height: 200px
+    image-align: left
+    fields: [image, title, date, categories, description]
+    type: grid
+    grid-columns: 1
+    grid-item-align: center
+    sort: "date desc"
+---
+
+

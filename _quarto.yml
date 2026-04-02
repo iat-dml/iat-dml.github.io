@@ -1,4 +1,3 @@
-
 project:
   type: website
   resources:
@@ -46,6 +45,10 @@ format:
     include-after-body:
       - file: hero.html
     toc: false
+    page-layout: full        # or "article" (default, narrow), "custom"
+    max-width: 1400px        # Adjust to your preference
+    margin-left: 2rem
+    margin-right: 2rem
 lightbox: true
 brand:
   light: light-brand.yml

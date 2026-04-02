@@ -1,7 +1,59 @@
-:::: hero
+---
+listing:
+  - id: news-listing
+    contents: "./news/*.qmd"
+    type: grid
+    grid-columns: 1
+    fields: [image, title, date, categories, description]
+    sort: "date desc"
+    grid-item-align: center
+  - id: projects-listing
+    contents: "./projects/*.qmd"
+    type: grid
+    grid-columns: 1
+    fields: [image, title, date, categories, description]
+    sort: "date desc"
+    grid-item-align: center
+---
+::: hero
 # Data and Modelling Infrastructure for Living Labs
-::::
+
+[Discuss your project with us](mailto:benjaminsamuel.black@zalf.de){.hero-btn}
+:::
 
 Welcome to the website of the Data and Modelling Infrastructure for Living Labs (DMI) Working Group. We are a service working group within the [Innovation Center for Agricultural System Transformation (IAT)](https://www.zalf.de/de/struktur/iat/Seiten/default.aspx) as part of the [Liebniz Center for Agricultural Landscape Research (ZALF)](https://www.zalf.de/de/struktur/iat/Seiten/default.aspx). Our mission is to support researchers and partners within the IAT with all things related to data and modelling. We have represented the different ways that we do this in the graphic below:
 
-![](assets/concept-diagram.svg)
+![](assets/logos/logo-dmi-white-en.png){fig-alt="Visualisation of the three key service areas of the group" fig-align="center" width="50%"}
+
+::: {style="text-align: center"}
+[Support]{.text-support}: Empowering IAT researchers to manage research data and software over the full scientific life cycle
+
+[Integration]{.text-integration}: Connecting data and methods across IAT research groups
+
+[Transfer]{.text-transfer}: Closing the loop between science and practice
+
+
+
+[Learn more about our services and how we can support you](services.qmd){.btn-brand}
+
+[See example of projects we have supported](projects.qmd){.btn-brand}
+
+[Meet the team](team.qmd){.btn-brand}
+:::
+
+
+::: {.columns-divided}
+::: {.column style="text-align: center"}
+## News
+
+::: {#news-listing}
+:::
+:::
+
+::: {.column style="text-align: center"}
+## Projects
+
+::: {#projects-listing}
+:::
+:::
+:::

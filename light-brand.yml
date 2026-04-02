@@ -22,9 +22,12 @@ logo:
     logo-dmi:
       path: assets/logos/logo-dmi-white-en.png
       alt: "Data and Modelling Infrastructure for Living Labs (DMI)"
-  # medium: logo-dmi
-  # large: logo-dmi
-  # small: logo-dmi
+    logo-iat-zalf:
+      path: assets/logos/logo-iat-zalf-white.png
+      alt: "Innovation Center for Agricultural System Transformation & Leibniz Centre for Agricultural Landscape Research"
+  medium: logo-iat-zalf
+  large:  logo-iat-zalf
+  small:  logo-iat-zalf
 
 color:
   palette:
@@ -38,6 +41,9 @@ color:
     # Accent
     olive:           "#B1BE4D"   # Olive / yellow-green
     sage:            "#657A4E"   # Sage green
+    transfer:        "#458484"   # Blue colour for transfer activities (e.g. transfer page, transfer news)
+    support:         "#2D6A4F"   # Dark green for support activities (e.g. support page, support news)
+    integration:     "#C18F59"   # terracotta for integration activities (e.g. integration page, integration news)
     # Neutrals
     slate:           "#465555"   # Dark slate (text)
     white:           "#FFFFFF"
