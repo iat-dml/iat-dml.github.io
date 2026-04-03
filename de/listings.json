@@ -6,10 +6,15 @@
       "/charter.html",
       "/code-of-conduct.html",
       "/index.html",
+      "/projects.html",
       "/resources.html",
       "/team.html",
       "/team/Ben.html"
     ]
+  },
+  {
+    "listing": "/projects.html",
+    "items": []
   },
   {
     "listing": "/team.html",

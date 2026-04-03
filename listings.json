@@ -1,20 +1,32 @@
 [
   {
-    "listing": "/team.html",
+    "listing": "/news.html",
     "items": [
-      "/team/Ben.html",
-      "/team/DS.html"
+      "/news/2025-06-iemss-workshop.html",
+      "/news/2025-03-fairagro-summit.html",
+      "/news/2025-01-iat-kickoff.html"
     ]
   },
   {
-    "listing": "/news.html",
+    "listing": "/index.html",
     "items": [
-      "/about.html",
-      "/charter.html",
-      "/code-of-conduct.html",
-      "/index.html",
-      "/resources.html",
-      "/team.html",
+      "/news/2025-06-iemss-workshop.html",
+      "/news/2025-03-fairagro-summit.html",
+      "/news/2025-01-iat-kickoff.html",
+      "/projects/monkshilllabs.html",
+      "/projects/living-lab-dashboards.html"
+    ]
+  },
+  {
+    "listing": "/projects.html",
+    "items": [
+      "/projects/monkshilllabs.html",
+      "/projects/living-lab-dashboards.html"
+    ]
+  },
+  {
+    "listing": "/team.html",
+    "items": [
       "/team/Ben.html",
       "/team/DS.html"
     ]
