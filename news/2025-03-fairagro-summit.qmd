@@ -1,12 +1,12 @@
 ---
 title: "DaMIfLL at the FAIRagro Community Summit"
-date: "2025-03-12"
+date: "2026-03-05"
+image: ../assets/FAIRagro-summit.jpg
 categories: [FAIRagro, FAIR data, community]
-description: "DaMIfLL working group members attended the FAIRagro community summit, engaging with the FAIR data community and exploring synergies with agricultural research infrastructures."
+description: "DaMIfLL working group members attended the FAIRagro community summit, engaging with the FAIR data community in Agricultural research."
 ---
 
-Working group members attended the FAIRagro community summit, joining researchers and
-data infrastructure specialists to discuss FAIR data principles in the agricultural and
+In March the Working group attended the FAIRagro community summit, joining researchers and data infrastructure specialists to discuss FAIR data principles in the agricultural and
 landscape sciences.
 
 The event provided valuable opportunities to exchange ideas, identify common challenges,

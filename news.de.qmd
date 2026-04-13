@@ -4,26 +4,13 @@ subtitle: "Aktuelles aus den Arbeitsgruppen"
 toc: false
 comments: false
 listing:
-    contents: "*.qmd"
-    type: default
-    image-height: 200px
+    contents: 
+    - "./news/*de.qmd"
+    - "!./news/*.qmd"
     image-align: left
     fields: [image, title, date, categories, description]
-    # type: grid
-    # grid-columns: 3
-    # fields: [image, title]
-    # grid-item-align: center
+    type: grid
+    grid-columns: 3
+    grid-item-align: center
     sort: "date desc"
-    feed: true
-    categories: true
-format:
-  html:
-    page-layout: article
-    grid:
-      sidebar-width: 200px
-      body-width: 1300px
-      margin-width: 150px
-      gutter-width: 1.5rem
 ---
-
-Eine Option zum Abonnieren des Newsletters wird bald verfügbar sein!

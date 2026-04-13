@@ -1,0 +1,14 @@
+# Applied to all .qmd files in the news/ directory.
+# Injects the article's `image` field as a hero banner behind the title block.
+
+filters:
+  - hero-banner.lua
+
+format:
+  html:
+    include-after-body:
+      - file: ../hero-article.html
+    include-in-header:
+      text: "<style>.quarto-title .description { display: none; }
+      
+      </style>"

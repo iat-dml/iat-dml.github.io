@@ -4,6 +4,7 @@ listing:
     contents: "./news/*.qmd"
     type: grid
     grid-columns: 1
+    max-items: 4
     fields: [image, title, date, categories, description]
     sort: "date desc"
     grid-item-align: center

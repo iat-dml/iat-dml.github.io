@@ -1,0 +1,16 @@
+<script>
+  // Article Hero Banner Handler
+  // Reads window.__articleHeroImage injected by news/hero-banner.lua (which
+  // extracts the `image` field from the article's YAML front matter), then
+  // applies it as the background of the Quarto title block and adds CSS
+  // classes so styles.scss can style it as a full-bleed hero banner.
+  document.addEventListener('DOMContentLoaded', function () {
+    const imageSrc = window.__articleHeroImage;
+    const titleBlockHeader = document.querySelector('#title-block-header.quarto-title-block');
+    if (imageSrc && titleBlockHeader) {
+      titleBlockHeader.style.backgroundImage = 'url("' + imageSrc + '")';
+      titleBlockHeader.classList.add('hero-article');
+      document.body.classList.add('has-hero-article');
+    }
+  });
+</script>

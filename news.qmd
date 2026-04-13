@@ -4,12 +4,14 @@ subtitle: "Updates from the working groups activities"
 toc: false
 comments: false
 listing:
-    contents: "./news/*.qmd"
-    image-height: 200px
+    contents: 
+    - "./news/*.qmd"
+    - "!./news/*de.qmd"
     image-align: left
+    image-height: 300px
     fields: [image, title, date, categories, description]
     type: grid
-    grid-columns: 1
+    grid-columns: 3
     grid-item-align: center
     sort: "date desc"
 ---

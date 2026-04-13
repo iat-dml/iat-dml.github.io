@@ -410,6 +410,152 @@ main:has(.hero) #title-block-header.quarto-title-block {
 }
 
 /* ============================================
+   Article Hero Title Block
+   Applied via news/_metadata.yml + news/hero-banner.lua + hero-article.html:
+   the Lua filter injects the YAML `image` field as window.__articleHeroImage,
+   and the JS adds .hero-article to #title-block-header and .has-hero-article
+   to <body>.
+   ============================================ */
+
+// Remove top padding on article pages that use a hero title block
+body.has-hero-article {
+  main.content,
+  #quarto-document-content {
+    padding-top: 0 !important;
+    margin-top: 0 !important;
+  }
+}
+
+#title-block-header.quarto-title-block.hero-article {
+  // Full-width bleed (same as .hero)
+  width: 100vw;
+  margin-left: calc(50% - 50vw);
+  margin-right: calc(50% - 50vw);
+  margin-block-start: 0;
+
+  // Background — image URL injected by JS
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+
+  // Dark overlay for text legibility
+  position: relative;
+
+  &::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background: rgba(0, 0, 0, 0.5);
+    z-index: 0;
+    pointer-events: none;
+  }
+
+  // Layout
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+
+  // Height
+  min-block-size: 30vh;
+  padding-block: 2.5rem;
+  padding-inline: 1.5rem;
+
+  // Raise all children above the overlay
+  > * {
+    position: relative;
+    z-index: 1;
+  }
+
+  // Title
+  .quarto-title h1.title {
+    font-size: clamp(2rem, 6vw, 3.5rem);
+    font-weight: 700;
+    color: $brand-white;
+    text-shadow: 0 2px 8px rgba(0, 0, 0, 0.6);
+    margin-block-end: 0.5rem;
+  }
+
+  // Category badges
+  .quarto-categories {
+    justify-content: center;
+
+    .quarto-category {
+      color: $brand-white;
+      border-color: rgba(255, 255, 255, 0.5);
+      background: rgba(255, 255, 255, 0.15);
+    }
+  }
+
+  // Description — hide on hero article pages (description serves listing cards only)
+  .description {
+    display: none;
+  }
+
+  // Metadata (date, author, etc.)
+  .quarto-title-meta,
+  .quarto-title-meta-heading,
+  .quarto-title-meta-contents,
+  .quarto-title-meta-contents p {
+    color: rgba(255, 255, 255, 0.8);
+  }
+
+  .quarto-title-meta {
+    justify-items: center;
+    text-align: center;
+  }
+}
+
+/* ============================================
+    Responsive Embedded Media (iframes, pptx, etc.)
+      - Use .embed-container to wrap any iframe/object/embed
+   ============================================ */
+
+div.embed-container {
+  position: relative;
+  padding-bottom: 70%;
+  overflow: hidden;
+  max-width: 100%;
+}
+
+div.embed-container iframe,
+div.embed-container object,
+div.embed-container embed {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 515px;
+  display: block;
+  text-align: center;
+}
+
+/* ============================================
+   Column Alignment Utilities
+   ============================================ */
+
+.columns-center {
+  display: flex !important;
+  align-items: center; /* Vertical center */
+  justify-content: center; /* Horizontal center */
+}
+
+.columns-center > .column {
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Center content horizontally within each column */
+  justify-content: center; /* Center content vertically within each column */
+}
+
+@media (max-width: 768px) {
+  .columns-center {
+    flex-direction: column;
+  }
+}
+
+
+/* ============================================
    Footer
    ============================================ */
 
@@ -484,6 +630,47 @@ h2 a:hover,
 h2:hover {
   text-decoration: none !important;
 }
+
+
+/* ============================================
+   Generic Grid Listing Cards (news, projects, etc.)
+   ============================================ */
+
+// Hover lift for all grid listing cards outside .team-grid
+.quarto-listing-container-grid .quarto-grid-item.card:not(.card-team) {
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+
+  &:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.12), 0 3px 6px rgba(0, 0, 0, 0.06);
+  }
+}
+
+body.quarto-dark .quarto-listing-container-grid .quarto-grid-item.card:not(.card-team) {
+  border: 1px solid rgba(255, 255, 255, 0.15);
+}
+
+/* ============================================
+   News / Generic Grid Listing Images
+   ============================================ */
+
+// // Fixed-height image container so all cards share the same thumbnail height
+// p.card-img-top {
+//   margin: 0;
+//   padding: 0;
+//   overflow: hidden;
+//   // height: 200px;
+//   display: block;
+//   // background-color: #f3f4f6; // neutral fill for the empty space
+
+//   img.thumbnail-image.card-img {
+//     width: 100% !important;
+//     height: 100% !important;
+//     object-fit: contain;          // Full image shown, no cropping
+//     object-position: center center;
+//     display: block;
+//   }
+// }
 
 
 /* Two-column layout with vertical divider */

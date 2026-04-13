@@ -4,7 +4,9 @@ subtitle: "Collaborative projects and initiatives"
 toc: false
 comments: false
 listing:
-    contents: "./projects/*.qmd"
+    contents: 
+    - "./projects/*.qmd"
+    - "!./projects/*de.qmd"
     image-height: 200px
     image-align: left
     fields: [image, title, date, categories, description]

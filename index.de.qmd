@@ -1,7 +1,58 @@
 ---
-title: "web"
+listing:
+  - id: news-listing
+    contents: "./news/*de.qmd"
+    type: grid
+    grid-columns: 1
+    fields: [image, title, date, categories, description]
+    sort: "date desc"
+    grid-item-align: center
+  - id: projects-listing
+    contents: "./projects/*de.qmd"
+    type: grid
+    grid-columns: 1
+    fields: [image, title, date, categories, description]
+    sort: "date desc"
+    grid-item-align: center
 ---
+::: hero
+# Daten- und Modellierungsinfrastruktur für Living Labs
 
-This is a Quarto website.
+[Diskutieren Sie Ihr Projekt mit uns](mailto:benjaminsamuel.black@zalf.de){.hero-btn}
+:::
 
-To learn more about Quarto websites visit <https://quarto.org/docs/websites>.
+Willkommen auf der Website der Arbeitsgruppe Daten- und Modellierungsinfrastruktur für Living Labs (DMI). Wir sind eine Service-Arbeitsgruppe innerhalb des [Innovationszentrums für Agrarsystemtransformation (IAT)](https://www.zalf.de/de/struktur/iat/Seiten/default.aspx) am [Leibniz-Zentrum für Agrarlandschaftsforschung (ZALF)](https://www.zalf.de/de/struktur/iat/Seiten/default.aspx). Unsere Mission ist es, Forschende und Partner innerhalb des IAT in allen Belangen rund um Daten und Modellierung zu unterstützen. Die verschiedenen Möglichkeiten, wie wir dies tun, haben wir in der Grafik unten dargestellt:
+
+![](assets/logos/logo-dmi-white-en.png){fig-alt="Visualisierung der drei zentralen Servicebereiche der Gruppe" fig-align="center" width="50%"}
+
+::: {style="text-align: center"}
+[Support]{.text-support}: Forschende im IAT dabei unterstützen, Forschungsdaten und Software über den gesamten wissenschaftlichen Lebenszyklus zu verwalten
+
+[Integration]{.text-integration}: Daten und Methoden über die IAT-Forschungsgruppen hinweg verbinden
+
+[Transfer]{.text-transfer}: Die Verbindung zwischen Wissenschaft und Praxis schließen
+
+
+
+[Erfahren Sie mehr über unsere Dienstleistungen und wie wir Sie unterstützen können](services.qmd){.btn-brand}
+[Beispiele für Projekte, die wir unterstützt haben](projects.qmd){.btn-brand}
+
+[Das Team kennenlernen](team.qmd){.btn-brand}
+:::
+
+
+::: {.columns-divided}
+::: {.column style="text-align: center"}
+## News
+
+::: {#news-listing}
+:::
+:::
+
+::: {.column style="text-align: center"}
+## Projects
+
+::: {#projects-listing}
+:::
+:::
+:::
