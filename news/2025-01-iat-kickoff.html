@@ -8,10 +8,10 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
-<meta name="dcterms.date" content="2025-01-20">
-<meta name="description" content="Members of the DaMIfLL working group presented the initiative at the IAT kickoff meeting, introducing our goals and activities to the broader community.">
+<meta name="dcterms.date" content="2026-03-18">
+<meta name="description" content="Members of the DMI working group presented at the IAT kickoff meeting, introducing our service concept for supporting researchers with data and modelling needs.">
 
-<title>DaMIfLL Presents at IAT Kickoff Meeting – Data and Modelling Infrastructure for Living Labs</title>
+<title>DMI Presents at IAT Kickoff Meeting – Data and Modelling Infrastructure for Living Labs</title>
 <style>
 /* Default styles provided by pandoc.
 ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
@@ -49,9 +49,9 @@ ul.task-list li input[type="checkbox"] {
 <link href="../site_libs/quarto-html/quarto-syntax-highlighting-a1d8b2f0f3dbbb7cb0eedfcfd0896b37.css" rel="stylesheet" class="quarto-color-scheme-extra" id="quarto-text-highlighting-styles">
 <script src="../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../site_libs/bootstrap/bootstrap-6fcd78e93b37ae25caf18bdff204e5d9.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
-<link href="../site_libs/bootstrap/bootstrap-dark-4ccd1015b90ddf06537734311c815a85.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
-<link href="../site_libs/bootstrap/bootstrap-6fcd78e93b37ae25caf18bdff204e5d9.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
+<link href="../site_libs/bootstrap/bootstrap-60d635d1790a21b4d1c919f000be8e60.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
+<link href="../site_libs/bootstrap/bootstrap-dark-1ee4f1f4c0ce954c1a3b58db028f8d93.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
+<link href="../site_libs/bootstrap/bootstrap-60d635d1790a21b4d1c919f000be8e60.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
 <link href="../site_libs/quarto-contrib/fontawesome6-0.1.0/all.css" rel="stylesheet">
 <link href="../site_libs/quarto-contrib/fontawesome6-0.1.0/latex-fontsize.css" rel="stylesheet">
 <script id="quarto-search-options" type="application/json">{
@@ -81,6 +81,8 @@ ul.task-list li input[type="checkbox"] {
     "search-label": "Search"
   }
 }</script>
+<style>.quarto-title .description { display: none; }
+</style>
 
 
 </head>
@@ -338,7 +340,7 @@ ul.task-list li input[type="checkbox"] {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">DaMIfLL Presents at IAT Kickoff Meeting</h1>
+<h1 class="title">DMI Presents at IAT Kickoff Meeting</h1>
   <div class="quarto-categories">
     <div class="quarto-category">presentation</div>
     <div class="quarto-category">IAT</div>
@@ -348,7 +350,7 @@ ul.task-list li input[type="checkbox"] {
 
 <div>
   <div class="description">
-    Members of the DaMIfLL working group presented the initiative at the IAT kickoff meeting, introducing our goals and activities to the broader community.
+    Members of the DMI working group presented at the IAT kickoff meeting, introducing our service concept for supporting researchers with data and modelling needs.
   </div>
 </div>
 
@@ -359,7 +361,7 @@ ul.task-list li input[type="checkbox"] {
     <div>
     <div class="quarto-title-meta-heading">Published</div>
     <div class="quarto-title-meta-contents">
-      <p class="date">January 20, 2025</p>
+      <p class="date">March 18, 2026</p>
     </div>
   </div>
   
@@ -371,8 +373,11 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<p>Members of the DaMIfLL working group attended and presented at the IAT kickoff meeting. The presentation introduced the DaMIfLL initiative, outlined our working group structure, and highlighted ongoing efforts to improve data management and interoperability in land use and landscape research.</p>
-<p>We look forward to continued collaboration with the IAT community.</p>
+<script>window.__articleHeroImage = "../assets/concept-diagram.svg";</script>
+<p>In March 2026 the Innovation Center for Agricultural System Transformation (IAT) was officially launched, with two days of events at the Futurium in Berlin as well as the ZALF campus in Müncheberg. The focus of the 2nd day was on connecting researchers working on similar topics within the IAT from both ZALF and the partner institutions. We were fortunate to have an opportunity to present our concept for how the Data and Modelling Infrastructure for Living Labs group (DMI) will provide a three pillar approach of services to support IAT researchers and living labs in their data and modelling needs. The slides we presented are available below, and we are looking forward to engaging with the IAT and broader ZALF community in the coming months to produce some real outputs from collaborations to serve as a showcase for the services we can provide.</p>
+<div class="embed-container">
+  <p align="center"><iframe src="../assets/DMI-kickoff-presentation.pdf" style="border: 0.5px"></iframe></p>
+</div>
 
 
 
@@ -817,6 +822,22 @@ ul.task-list li input[type="checkbox"] {
         titleBlockHeader.style.backgroundImage = `url('${imageSrc}')`;
         console.log('Hero background applied:', imageSrc);
       }
+    }
+  });
+</script>
+<script>
+  // Article Hero Banner Handler
+  // Reads window.__articleHeroImage injected by news/hero-banner.lua (which
+  // extracts the `image` field from the article's YAML front matter), then
+  // applies it as the background of the Quarto title block and adds CSS
+  // classes so styles.scss can style it as a full-bleed hero banner.
+  document.addEventListener('DOMContentLoaded', function () {
+    const imageSrc = window.__articleHeroImage;
+    const titleBlockHeader = document.querySelector('#title-block-header.quarto-title-block');
+    if (imageSrc && titleBlockHeader) {
+      titleBlockHeader.style.backgroundImage = 'url("' + imageSrc + '")';
+      titleBlockHeader.classList.add('hero-article');
+      document.body.classList.add('has-hero-article');
     }
   });
 </script>

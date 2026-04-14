@@ -8,8 +8,8 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
-<meta name="dcterms.date" content="2025-03-12">
-<meta name="description" content="DaMIfLL working group members attended the FAIRagro community summit, engaging with the FAIR data community and exploring synergies with agricultural research infrastructures.">
+<meta name="dcterms.date" content="2026-03-05">
+<meta name="description" content="DaMIfLL working group members attended the FAIRagro community summit, engaging with the FAIR data community in Agricultural research.">
 
 <title>DaMIfLL at the FAIRagro Community Summit – Data and Modelling Infrastructure for Living Labs</title>
 <style>
@@ -49,9 +49,9 @@ ul.task-list li input[type="checkbox"] {
 <link href="../site_libs/quarto-html/quarto-syntax-highlighting-a1d8b2f0f3dbbb7cb0eedfcfd0896b37.css" rel="stylesheet" class="quarto-color-scheme-extra" id="quarto-text-highlighting-styles">
 <script src="../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../site_libs/bootstrap/bootstrap-6fcd78e93b37ae25caf18bdff204e5d9.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
-<link href="../site_libs/bootstrap/bootstrap-dark-4ccd1015b90ddf06537734311c815a85.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
-<link href="../site_libs/bootstrap/bootstrap-6fcd78e93b37ae25caf18bdff204e5d9.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
+<link href="../site_libs/bootstrap/bootstrap-60d635d1790a21b4d1c919f000be8e60.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
+<link href="../site_libs/bootstrap/bootstrap-dark-1ee4f1f4c0ce954c1a3b58db028f8d93.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
+<link href="../site_libs/bootstrap/bootstrap-60d635d1790a21b4d1c919f000be8e60.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
 <link href="../site_libs/quarto-contrib/fontawesome6-0.1.0/all.css" rel="stylesheet">
 <link href="../site_libs/quarto-contrib/fontawesome6-0.1.0/latex-fontsize.css" rel="stylesheet">
 <script id="quarto-search-options" type="application/json">{
@@ -81,6 +81,8 @@ ul.task-list li input[type="checkbox"] {
     "search-label": "Search"
   }
 }</script>
+<style>.quarto-title .description { display: none; }
+</style>
 
 
 </head>
@@ -348,7 +350,7 @@ ul.task-list li input[type="checkbox"] {
 
 <div>
   <div class="description">
-    DaMIfLL working group members attended the FAIRagro community summit, engaging with the FAIR data community and exploring synergies with agricultural research infrastructures.
+    DaMIfLL working group members attended the FAIRagro community summit, engaging with the FAIR data community in Agricultural research.
   </div>
 </div>
 
@@ -359,7 +361,7 @@ ul.task-list li input[type="checkbox"] {
     <div>
     <div class="quarto-title-meta-heading">Published</div>
     <div class="quarto-title-meta-contents">
-      <p class="date">March 12, 2025</p>
+      <p class="date">March 5, 2026</p>
     </div>
   </div>
   
@@ -371,7 +373,8 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<p>Working group members attended the FAIRagro community summit, joining researchers and data infrastructure specialists to discuss FAIR data principles in the agricultural and landscape sciences.</p>
+<script>window.__articleHeroImage = "../assets/FAIRagro-summit.jpg";</script>
+<p>In March the Working group attended the FAIRagro community summit, joining researchers and data infrastructure specialists to discuss FAIR data principles in the agricultural and landscape sciences.</p>
 <p>The event provided valuable opportunities to exchange ideas, identify common challenges, and explore potential collaborations between DaMIfLL and FAIRagro initiatives.</p>
 
 
@@ -817,6 +820,22 @@ ul.task-list li input[type="checkbox"] {
         titleBlockHeader.style.backgroundImage = `url('${imageSrc}')`;
         console.log('Hero background applied:', imageSrc);
       }
+    }
+  });
+</script>
+<script>
+  // Article Hero Banner Handler
+  // Reads window.__articleHeroImage injected by news/hero-banner.lua (which
+  // extracts the `image` field from the article's YAML front matter), then
+  // applies it as the background of the Quarto title block and adds CSS
+  // classes so styles.scss can style it as a full-bleed hero banner.
+  document.addEventListener('DOMContentLoaded', function () {
+    const imageSrc = window.__articleHeroImage;
+    const titleBlockHeader = document.querySelector('#title-block-header.quarto-title-block');
+    if (imageSrc && titleBlockHeader) {
+      titleBlockHeader.style.backgroundImage = 'url("' + imageSrc + '")';
+      titleBlockHeader.classList.add('hero-article');
+      document.body.classList.add('has-hero-article');
     }
   });
 </script>

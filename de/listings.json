@@ -1,23 +1,18 @@
 [
   {
-    "listing": "/team.html",
+    "listing": "/projects.html",
     "items": []
   },
   {
     "listing": "/news.html",
-    "items": [
-      "/about.html",
-      "/charter.html",
-      "/code-of-conduct.html",
-      "/index.html",
-      "/projects.html",
-      "/resources.html",
-      "/team.html",
-      "/team/Ben.html"
-    ]
+    "items": []
   },
   {
-    "listing": "/projects.html",
+    "listing": "/team.html",
+    "items": []
+  },
+  {
+    "listing": "/index.html",
     "items": []
   }
 ]

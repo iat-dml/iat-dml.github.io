@@ -3,8 +3,8 @@
     "listing": "/index.html",
     "items": [
       "/news/2025-06-iemss-workshop.html",
-      "/news/2025-03-fairagro-summit.html",
       "/news/2025-01-iat-kickoff.html",
+      "/news/2025-03-fairagro-summit.html",
       "/projects/monkshilllabs.html",
       "/projects/living-lab-dashboards.html"
     ]
@@ -20,8 +20,8 @@
     "listing": "/news.html",
     "items": [
       "/news/2025-06-iemss-workshop.html",
-      "/news/2025-03-fairagro-summit.html",
-      "/news/2025-01-iat-kickoff.html"
+      "/news/2025-01-iat-kickoff.html",
+      "/news/2025-03-fairagro-summit.html"
     ]
   },
   {
