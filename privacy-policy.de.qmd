@@ -1,0 +1,67 @@
+---
+title: "Datenschutzerklärung"
+---
+
+## Überblick
+
+Diese Website ist eine statische Website, die über GitHub Pages bereitgestellt wird. Wir erheben nicht aktiv personenbezogene Daten. Allerdings kann GitHub bei einem Besuch personenbezogene Daten verarbeiten (z. B. Protokolldaten einschließlich IP-Adressen), um rechtliche Verpflichtungen zu erfüllen sowie die Sicherheit und Integrität der Website und des Dienstes zu gewährleisten. Details finden Sie in der [GitHub-Datenschutzerklärung](https://docs.github.com/en/site-policy/privacy-policies/github-privacy-statement).
+
+---
+
+## 1. Zweck dieser Datenschutzerklärung
+
+Die Arbeitsgruppe „Data and Modelling Infrastructure for Living Labs (DML)“ am Leibniz-Zentrum für Agrarlandschaftsforschung (ZALF) legt großen Wert auf den Schutz Ihrer personenbezogenen Daten. Diese Datenschutzerklärung informiert darüber, welche personenbezogenen Daten beim Besuch dieser Website verarbeitet werden können, zu welchen Zwecken dies geschieht und welche Rechte Ihnen zustehen.
+
+## 2. Erhebung und Verarbeitung von Daten
+
+Da es sich um eine statische Website auf GitHub Pages handelt, verarbeiten wir selbst keine personenbezogenen Daten aktiv. Im Rahmen des Betriebs können jedoch durch den Hosting-Anbieter folgende Daten verarbeitet werden:
+
+- **Protokolldaten**: Informationen wie IP-Adresse, Browsertyp, Betriebssystem, Referrer-URL, aufgerufene Seiten und Zeitstempel können von GitHub Pages protokolliert werden.
+- **Cookies**: Diese Website setzt selbst keine Tracking-Cookies. GitHub kann Cookies einsetzen, um seine Dienste bereitzustellen und abzusichern.
+
+Weitere Informationen finden Sie in der [GitHub-Datenschutzerklärung](https://docs.github.com/en/site-policy/privacy-policies/github-privacy-statement).
+
+## 3. Zweck der Verarbeitung
+
+Wir verwenden personenbezogene Daten nicht für Analyse-, Marketing- oder Profiling-Zwecke. Eine etwaige Verarbeitung durch GitHub (z. B. Server-Logs) dient dem Betrieb und der Sicherheit der Hosting-Plattform.
+
+## 4. Weitergabe von Daten
+
+Wir verkaufen oder vermieten keine personenbezogenen Daten und geben sie nicht an Dritte weiter. GitHub kann Daten als Hosting-Anbieter gemäß seiner Datenschutzerklärung verarbeiten.
+
+## 5. Rechte der betroffenen Personen (DSGVO)
+
+Nach der DSGVO haben Sie insbesondere folgende Rechte:
+
+- **Auskunft** (Art. 15)
+- **Berichtigung** (Art. 16)
+- **Löschung** (Art. 17)
+- **Einschränkung der Verarbeitung** (Art. 18)
+- **Widerspruch** (Art. 21)
+- **Datenübertragbarkeit** (Art. 20)
+
+Zudem haben Sie das Recht, sich bei einer Aufsichtsbehörde zu beschweren (Art. 77).
+
+## 6. Speicherdauer
+
+Wir speichern über diese Website keine personenbezogenen Daten. Etwaige Protokolldaten werden durch GitHub gemäß deren Aufbewahrungsrichtlinien verarbeitet.
+
+## 7. Dienste Dritter und externe Links
+
+Diese Website kann Links zu externen Websites enthalten. Für deren Datenschutzpraktiken sind wir nicht verantwortlich. Bitte beachten Sie die jeweiligen Datenschutzhinweise.
+
+## 8. Sicherheitsmaßnahmen
+
+Diese Website betreibt keine eigene Nutzerdatenbank. GitHub Pages stellt Betriebs- und Plattform-Sicherheit bereit. Weitere Informationen finden Sie in GitHub’s [Security overview](https://github.com/security).
+
+## 9. Aktualisierungen
+
+Wir können diese Datenschutzerklärung anpassen, um rechtliche Anforderungen oder Änderungen der Website abzubilden. Die jeweils aktuelle Version wird auf dieser Seite veröffentlicht.
+
+## 10. Kontakt
+
+Bei Fragen zur Datenschutzerklärung kontaktieren Sie uns bitte:
+
+- **Leibniz-Zentrum für Agrarlandschaftsforschung (ZALF) e.V.**
+- **Arbeitsgruppe „Data and Modelling Infrastructure for Living Labs (DML)”**
+- **E-mail**: [benjaminsamuel.black@zalf.de](mailto:benjaminsamuel.black@zalf.de)

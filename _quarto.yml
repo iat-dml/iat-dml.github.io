@@ -9,7 +9,7 @@ website:
   title: "Data and Modelling Infrastructure for Living Labs"
   description: "This is the website of the Data and Modelling Infrastructure for Living Labs Working group (SWG) of the Innovation Center for Agricultural System Transformation (IAT) as part of the Liebniz Center for Agricultural Landscape Research (ZALF)." 
   page-footer: |
-      ![](/assets/footer-light.png){fig-alt="Banner of partners" width=100% .light-content}![](/assets/footer-dark.png){fig-alt="Banner of partners" width=100% .dark-content} {{< fa regular copyright >}} Benjamin Black, 2026 All content licensed under {{< fa brands creative-commons >}} {{< fa brands creative-commons-by >}} {{< fa brands creative-commons-sa >}} {{< fa brands creative-commons-nc >}} [(CC BY-NC-SA 4.0)](http://creativecommons.org/licenses/by-nc-sa/4.0/)
+      ![](/assets/footer-light.png){fig-alt="Banner of partners" width=100% .light-content}![](/assets/footer-dark.png){fig-alt="Banner of partners" width=100% .dark-content} {{< fa regular copyright >}} Benjamin Black, 2026 All content licensed under {{< fa brands creative-commons >}} {{< fa brands creative-commons-by >}} {{< fa brands creative-commons-sa >}} {{< fa brands creative-commons-nc >}} [(CC BY-NC-SA 4.0)](http://creativecommons.org/licenses/by-nc-sa/4.0/) · [Privacy policy](privacy-policy.qmd)
   navbar:
     # logo: false
     title: false

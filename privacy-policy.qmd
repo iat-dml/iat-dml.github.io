@@ -1,0 +1,67 @@
+---
+title: "Privacy policy"
+---
+
+## Overview
+
+This website is a static site hosted on GitHub Pages. We do not actively collect personal data. However, GitHub may collect personal data from visitors (including logs of visitor IP addresses) to comply with legal obligations and to maintain the security and integrity of the website and service. See the [GitHub Privacy Statement](https://docs.github.com/en/site-policy/privacy-policies/github-privacy-statement) for details.
+
+---
+
+## 1. Purpose of this privacy policy
+
+The Data and Modelling Infrastructure for Living Labs (DML) Working Group at the Leibniz Centre for Agricultural Landscape Research (ZALF) is committed to protecting your personal data. This privacy policy explains what personal data may be processed when you visit this website, how it is used, and what rights you have.
+
+## 2. Collection of data
+
+Since this website is a static site hosted on GitHub Pages, we do not actively collect personal data. However, the following data may be processed by our hosting provider as part of standard operation:
+
+- **Log data**: Information such as IP address, browser type, operating system, referring URL, pages visited, and timestamps may be logged by GitHub Pages.
+- **Cookies**: This site does not set its own tracking cookies. GitHub may use cookies as part of providing and securing their services.
+
+Please refer to the [GitHub Privacy Statement](https://docs.github.com/en/site-policy/privacy-policies/github-privacy-statement) for details on their handling of log data and cookies.
+
+## 3. Use of data
+
+We do not use personal data for analytics, marketing, or profiling. Any data processed by GitHub (e.g., server logs) is used to operate and secure the hosting platform.
+
+## 4. Sharing your data
+
+We do not sell, lease, or share personal data. GitHub, as the hosting provider, may process data according to their privacy policy.
+
+## 5. Data subject rights (GDPR)
+
+Under the GDPR, you have the following rights regarding your personal data:
+
+- **Right to access** (Art. 15)
+- **Right to rectification** (Art. 16)
+- **Right to erasure** (Art. 17)
+- **Right to restriction of processing** (Art. 18)
+- **Right to object** (Art. 21)
+- **Right to data portability** (Art. 20)
+
+You also have the right to lodge a complaint with a supervisory authority (Art. 77).
+
+## 6. Data retention
+
+We do not retain personal data through this website. Any log data processed by GitHub is retained according to GitHub’s policies.
+
+## 7. Third-party services and links
+
+This site may link to third-party websites. We are not responsible for their privacy practices. Please review the privacy policies of those websites.
+
+## 8. Security measures
+
+This static website does not operate its own user database. GitHub Pages provides operational and platform security. See GitHub’s [Security overview](https://github.com/security) for more details.
+
+## 9. Updates to this policy
+
+We may update this privacy policy to reflect changes in legal requirements or website functionality. Updates will be published on this page.
+
+## 10. Contact
+
+If you have questions about this privacy policy, please contact:
+
+- **Leibniz Centre for Agricultural Landscape Research (ZALF) e.V.**
+- **Data and Modelling Infrastructure for Living Labs (DML) Working Group**
+- **E-mail**: [benjaminsamuel.black@zalf.de](mailto:benjaminsamuel.black@zalf.de)
