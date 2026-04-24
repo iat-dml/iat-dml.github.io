@@ -70,6 +70,13 @@
     "text": "Click on each team members profile for further information.\n\n\n\n  \n    \n      \n        \n        \n          \n        \n        \n        \n        \n        \n          \n            \n              \n          \n            \n          \n              \n            \n              \n          \n            \n          \n              \n            \n              \n          \n            \n          \n              \n            \n              \n          \n            \n          \n              \n            \n          \n        \n        \n        \n        \n          \n          Ben Black\n          \n          \n          \n          Head of the working group\n          \n\n          \n          \n            Ben is the head of our working group, responsible for overseeing all projects and ensuring successful delivery. With a strong background in software engineering and team leadership, Ben has been instrumental in driving innovation and fostering a collaborative work environment.\n          \n          \n          \n          \n          \n            Expertise:\n            \n            \n              \n            R\n              \n            Quarto\n              \n            Team Leadership\n              \n            System Design\n              \n            \n          \n          \n          \n          \n          \n          \n            Projects:\n            \n              \n                \n                  \n              Cloud Migration Platform\n                  \n                \n                  \n              Microservices Framework\n                  \n                \n                  \n              Developer Portal\n                  \n                \n              \n            \n          \n          \n        \n      \n    \n  \n\n  \n    \n      \n        \n        \n          \n        \n        \n        \n        \n        \n        \n          \n          Data Steward\n          \n          \n          \n          Data Steward\n          \n\n          \n          \n            \n          \n          \n          \n          \n          \n            Expertise:\n            \n            \n              \n            R\n              \n            Quarto\n              \n            Team Leadership\n              \n            System Design\n              \n            \n          \n          \n          \n          \n          \n          \n            Projects:\n            \n              \n                \n                  \n              Cloud Migration Platform\n                  \n                \n                  \n              Microservices Framework\n                  \n                \n                  \n              Developer Portal\n                  \n                \n              \n            \n          \n          \n        \n      \n    \n  \n\n\nNo matching items"
   },
   {
+    "objectID": "projects/living-lab-dashboards.html",
+    "href": "projects/living-lab-dashboards.html",
+    "title": "Living Lab Dashboards",
+    "section": "",
+    "text": "The Living Lab Dashboards project develops interactive web-based tools for visualizing and exploring data from living lab experiments conducted across our research network.\nThese dashboards integrate diverse data streams including environmental sensors, field observations, and remote sensing data to provide real-time insights into landscape dynamics and experimental outcomes.\nThe platform supports collaborative analysis and data-driven decision making for adaptive management of living lab sites."
+  },
+  {
     "objectID": "projects/monkshilllabs.html",
     "href": "projects/monkshilllabs.html",
     "title": "MonksHillLabs Initiative",
@@ -77,11 +84,88 @@
     "text": "MonksHillLabs is a collaborative research platform that provides shared computational infrastructure, data repositories, and development environments for landscape and land use modelling projects.\nThe initiative brings together researchers, data scientists, and software developers to co-create tools, standards, and workflows that advance data interoperability and reproducible research in landscape science.\nCurrent activities include developing standardized data formats, building modular modelling components, and hosting hackathons and training workshops."
   },
   {
-    "objectID": "projects/living-lab-dashboards.html",
-    "href": "projects/living-lab-dashboards.html",
-    "title": "Living Lab Dashboards",
+    "objectID": "privacy-policy.html",
+    "href": "privacy-policy.html",
+    "title": "Privacy policy",
     "section": "",
-    "text": "The Living Lab Dashboards project develops interactive web-based tools for visualizing and exploring data from living lab experiments conducted across our research network.\nThese dashboards integrate diverse data streams including environmental sensors, field observations, and remote sensing data to provide real-time insights into landscape dynamics and experimental outcomes.\nThe platform supports collaborative analysis and data-driven decision making for adaptive management of living lab sites."
+    "text": "This website is a static site hosted on GitHub Pages. We do not actively collect personal data. However, GitHub may collect personal data from visitors (including logs of visitor IP addresses) to comply with legal obligations and to maintain the security and integrity of the website and service. See the GitHub Privacy Statement for details."
+  },
+  {
+    "objectID": "privacy-policy.html#overview",
+    "href": "privacy-policy.html#overview",
+    "title": "Privacy policy",
+    "section": "",
+    "text": "This website is a static site hosted on GitHub Pages. We do not actively collect personal data. However, GitHub may collect personal data from visitors (including logs of visitor IP addresses) to comply with legal obligations and to maintain the security and integrity of the website and service. See the GitHub Privacy Statement for details."
+  },
+  {
+    "objectID": "privacy-policy.html#purpose-of-this-privacy-policy",
+    "href": "privacy-policy.html#purpose-of-this-privacy-policy",
+    "title": "Privacy policy",
+    "section": "1. Purpose of this privacy policy",
+    "text": "1. Purpose of this privacy policy\nThe Data and Modelling Infrastructure for Living Labs (DML) Working Group at the Leibniz Centre for Agricultural Landscape Research (ZALF) is committed to protecting your personal data. This privacy policy explains what personal data may be processed when you visit this website, how it is used, and what rights you have."
+  },
+  {
+    "objectID": "privacy-policy.html#collection-of-data",
+    "href": "privacy-policy.html#collection-of-data",
+    "title": "Privacy policy",
+    "section": "2. Collection of data",
+    "text": "2. Collection of data\nSince this website is a static site hosted on GitHub Pages, we do not actively collect personal data. However, the following data may be processed by our hosting provider as part of standard operation:\n\nLog data: Information such as IP address, browser type, operating system, referring URL, pages visited, and timestamps may be logged by GitHub Pages.\nCookies: This site does not set its own tracking cookies. GitHub may use cookies as part of providing and securing their services.\n\nPlease refer to the GitHub Privacy Statement for details on their handling of log data and cookies."
+  },
+  {
+    "objectID": "privacy-policy.html#use-of-data",
+    "href": "privacy-policy.html#use-of-data",
+    "title": "Privacy policy",
+    "section": "3. Use of data",
+    "text": "3. Use of data\nWe do not use personal data for analytics, marketing, or profiling. Any data processed by GitHub (e.g., server logs) is used to operate and secure the hosting platform."
+  },
+  {
+    "objectID": "privacy-policy.html#sharing-your-data",
+    "href": "privacy-policy.html#sharing-your-data",
+    "title": "Privacy policy",
+    "section": "4. Sharing your data",
+    "text": "4. Sharing your data\nWe do not sell, lease, or share personal data. GitHub, as the hosting provider, may process data according to their privacy policy."
+  },
+  {
+    "objectID": "privacy-policy.html#data-subject-rights-gdpr",
+    "href": "privacy-policy.html#data-subject-rights-gdpr",
+    "title": "Privacy policy",
+    "section": "5. Data subject rights (GDPR)",
+    "text": "5. Data subject rights (GDPR)\nUnder the GDPR, you have the following rights regarding your personal data:\n\nRight to access (Art. 15)\nRight to rectification (Art. 16)\nRight to erasure (Art. 17)\nRight to restriction of processing (Art. 18)\nRight to object (Art. 21)\nRight to data portability (Art. 20)\n\nYou also have the right to lodge a complaint with a supervisory authority (Art. 77)."
+  },
+  {
+    "objectID": "privacy-policy.html#data-retention",
+    "href": "privacy-policy.html#data-retention",
+    "title": "Privacy policy",
+    "section": "6. Data retention",
+    "text": "6. Data retention\nWe do not retain personal data through this website. Any log data processed by GitHub is retained according to GitHub’s policies."
+  },
+  {
+    "objectID": "privacy-policy.html#third-party-services-and-links",
+    "href": "privacy-policy.html#third-party-services-and-links",
+    "title": "Privacy policy",
+    "section": "7. Third-party services and links",
+    "text": "7. Third-party services and links\nThis site may link to third-party websites. We are not responsible for their privacy practices. Please review the privacy policies of those websites."
+  },
+  {
+    "objectID": "privacy-policy.html#security-measures",
+    "href": "privacy-policy.html#security-measures",
+    "title": "Privacy policy",
+    "section": "8. Security measures",
+    "text": "8. Security measures\nThis static website does not operate its own user database. GitHub Pages provides operational and platform security. See GitHub’s Security overview for more details."
+  },
+  {
+    "objectID": "privacy-policy.html#updates-to-this-policy",
+    "href": "privacy-policy.html#updates-to-this-policy",
+    "title": "Privacy policy",
+    "section": "9. Updates to this policy",
+    "text": "9. Updates to this policy\nWe may update this privacy policy to reflect changes in legal requirements or website functionality. Updates will be published on this page."
+  },
+  {
+    "objectID": "privacy-policy.html#contact",
+    "href": "privacy-policy.html#contact",
+    "title": "Privacy policy",
+    "section": "10. Contact",
+    "text": "10. Contact\nIf you have questions about this privacy policy, please contact:\n\nLeibniz Centre for Agricultural Landscape Research (ZALF) e.V.\nData and Modelling Infrastructure for Living Labs (DML) Working Group\nE-mail: benjaminsamuel.black@zalf.de"
   },
   {
     "objectID": "news/2025-06-iemss-workshop.html",
