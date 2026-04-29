@@ -1,5 +1,5 @@
-A living document for onboarding new team members introducing internal processes and ways of working.
+A living document for curating a list of lists of our favourite resources on Open Science topics, programming and Data Visualisation etc.
 
 ------------------------------------------------------------------------
 
-Ein lebendiges Dokument für die Einarbeitung neuer Teammitglieder, das interne Prozesse und Arbeitsweisen vorstellt.
+Ein lebendiges Dokument zur Zusammenstellung einer Liste unserer bevorzugten Ressourcen zu Themen wie Open Science, Programmierung und Datenvisualisierung usw.
