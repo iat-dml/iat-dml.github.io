@@ -1,14 +1,14 @@
 [
   {
-    "listing": "/team.html",
-    "items": []
-  },
-  {
     "listing": "/projects.html",
     "items": []
   },
   {
     "listing": "/news.html",
+    "items": []
+  },
+  {
+    "listing": "/team.html",
     "items": []
   },
   {

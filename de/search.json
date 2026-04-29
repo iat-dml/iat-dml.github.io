@@ -1,33 +1,5 @@
 [
   {
-    "objectID": "team/Ben.html",
-    "href": "team/Ben.html",
-    "title": "Ben Black",
-    "section": "",
-    "text": "University of California, San Diego | San Diego, CA PhD in Mathematics | Sept 2011 - June 2015\nMacalester College | St. Paul, MN B.A in Economics | Sept 2007 - June 2011"
-  },
-  {
-    "objectID": "team/Ben.html#education",
-    "href": "team/Ben.html#education",
-    "title": "Ben Black",
-    "section": "",
-    "text": "University of California, San Diego | San Diego, CA PhD in Mathematics | Sept 2011 - June 2015\nMacalester College | St. Paul, MN B.A in Economics | Sept 2007 - June 2011"
-  },
-  {
-    "objectID": "team/Ben.html#experience",
-    "href": "team/Ben.html#experience",
-    "title": "Ben Black",
-    "section": "Experience",
-    "text": "Experience\nWengo Analytics | Head Data Scientist | April 2018 - present\nGeoScynce | Chief Analyst | Spet 2012 - April 2018 test"
-  },
-  {
-    "objectID": "team.html",
-    "href": "team.html",
-    "title": "Team",
-    "section": "",
-    "text": "Klicken Sie auf das Profil jedes Teammitglieds, um weitere Informationen zu erhalten.\n\n\n\n\nKeine Treffer"
-  },
-  {
     "objectID": "LICENSE.html",
     "href": "LICENSE.html",
     "title": "LICENSE",
@@ -68,13 +40,6 @@
     "title": "Nachrichten",
     "section": "",
     "text": "Keine Treffer"
-  },
-  {
-    "objectID": "charter.html",
-    "href": "charter.html",
-    "title": "Data and Modelling Infrastructure for Living Labs Service Working Group Charter",
-    "section": "",
-    "text": "testing"
   },
   {
     "objectID": "privacy-policy.html",
@@ -161,6 +126,62 @@
     "text": "10. Kontakt\nBei Fragen zur Datenschutzerklärung kontaktieren Sie uns bitte:\n\nLeibniz-Zentrum für Agrarlandschaftsforschung (ZALF) e.V.\nArbeitsgruppe „Data and Modelling Infrastructure for Living Labs (DML)”\nE-mail: benjaminsamuel.black@zalf.de"
   },
   {
+    "objectID": "team.html",
+    "href": "team.html",
+    "title": "Team",
+    "section": "",
+    "text": "Klicken Sie auf das Profil jedes Teammitglieds, um weitere Informationen zu erhalten.\n\n\n\n\nKeine Treffer"
+  },
+  {
+    "objectID": "charter.html",
+    "href": "charter.html",
+    "title": "Data and Modelling Infrastructure for Living Labs Service Working Group Charter",
+    "section": "",
+    "text": "testing"
+  },
+  {
+    "objectID": "team/Ben.html",
+    "href": "team/Ben.html",
+    "title": "Ben Black",
+    "section": "",
+    "text": "University of California, San Diego | San Diego, CA PhD in Mathematics | Sept 2011 - June 2015\nMacalester College | St. Paul, MN B.A in Economics | Sept 2007 - June 2011"
+  },
+  {
+    "objectID": "team/Ben.html#education",
+    "href": "team/Ben.html#education",
+    "title": "Ben Black",
+    "section": "",
+    "text": "University of California, San Diego | San Diego, CA PhD in Mathematics | Sept 2011 - June 2015\nMacalester College | St. Paul, MN B.A in Economics | Sept 2007 - June 2011"
+  },
+  {
+    "objectID": "team/Ben.html#experience",
+    "href": "team/Ben.html#experience",
+    "title": "Ben Black",
+    "section": "Experience",
+    "text": "Experience\nWengo Analytics | Head Data Scientist | April 2018 - present\nGeoScynce | Chief Analyst | Spet 2012 - April 2018 test"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Daten- und Modellierungsinfrastruktur für Living Labs",
+    "section": "",
+    "text": "Diskutieren Sie Ihr Projekt mit uns\nWillkommen auf der Website der Arbeitsgruppe Daten- und Modellierungsinfrastruktur für Living Labs (DMI). Wir sind eine Service-Arbeitsgruppe innerhalb des Innovationszentrums für Agrarsystemtransformation (IAT) am Leibniz-Zentrum für Agrarlandschaftsforschung (ZALF). Unsere Mission ist es, Forschende und Partner innerhalb des IAT in allen Belangen rund um Daten und Modellierung zu unterstützen. Die verschiedenen Möglichkeiten, wie wir dies tun, haben wir in der Grafik unten dargestellt:"
+  },
+  {
+    "objectID": "index.html#news",
+    "href": "index.html#news",
+    "title": "Daten- und Modellierungsinfrastruktur für Living Labs",
+    "section": "News",
+    "text": "News\n\n\n\n\nKeine Treffer"
+  },
+  {
+    "objectID": "index.html#projects",
+    "href": "index.html#projects",
+    "title": "Daten- und Modellierungsinfrastruktur für Living Labs",
+    "section": "Projects",
+    "text": "Projects\n\n\n\n\nKeine Treffer"
+  },
+  {
     "objectID": "resources.html",
     "href": "resources.html",
     "title": "Ressourcen",
@@ -187,26 +208,5 @@
     "title": "Ressourcen",
     "section": "Quarto",
     "text": "Quarto\n\nBeautiful slides with RevealJS and Quarto"
-  },
-  {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "Daten- und Modellierungsinfrastruktur für Living Labs",
-    "section": "",
-    "text": "Diskutieren Sie Ihr Projekt mit uns\nWillkommen auf der Website der Arbeitsgruppe Daten- und Modellierungsinfrastruktur für Living Labs (DMI). Wir sind eine Service-Arbeitsgruppe innerhalb des Innovationszentrums für Agrarsystemtransformation (IAT) am Leibniz-Zentrum für Agrarlandschaftsforschung (ZALF). Unsere Mission ist es, Forschende und Partner innerhalb des IAT in allen Belangen rund um Daten und Modellierung zu unterstützen. Die verschiedenen Möglichkeiten, wie wir dies tun, haben wir in der Grafik unten dargestellt:"
-  },
-  {
-    "objectID": "index.html#news",
-    "href": "index.html#news",
-    "title": "Daten- und Modellierungsinfrastruktur für Living Labs",
-    "section": "News",
-    "text": "News\n\n\n\n\nKeine Treffer"
-  },
-  {
-    "objectID": "index.html#projects",
-    "href": "index.html#projects",
-    "title": "Daten- und Modellierungsinfrastruktur für Living Labs",
-    "section": "Projects",
-    "text": "Projects\n\n\n\n\nKeine Treffer"
   }
 ]
