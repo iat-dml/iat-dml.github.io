@@ -869,13 +869,10 @@ body.quarto-dark .quarto-listing-container-grid .quarto-grid-item.card:not(.card
 }
 
 /* Mobile: listing cards bleed to full viewport width.
-   The same calc(50% - 50vw) technique used on .hero breaks out of the
-   page-columns CSS grid and any ancestor padding at any nesting depth. */
+   Full-bleed is applied at .columns-divided (direct child of main.content,
+   same level as .hero) so calc(50% - 50vw) resolves correctly. */
 @media (max-width: 767.98px) {
   .quarto-listing-container-grid {
-    width: 100vw;
-    margin-left: calc(50% - 50vw);
-    margin-right: calc(50% - 50vw);
     padding-inline: 0;
   }
 
@@ -935,10 +932,14 @@ body.quarto-dark .columns-divided > .column + .column::before {
   background: rgba(255, 255, 255, 0.12);
 }
 
-@media (max-width: 768px) {
+@media (max-width: 767.98px) {
   .columns-divided {
     flex-direction: column;
     gap: 2rem;
+    align-items: stretch;
+    width: 100vw;
+    margin-left: calc(50% - 50vw);
+    margin-right: calc(50% - 50vw);
   }
 
   .columns-divided > .column + .column {
