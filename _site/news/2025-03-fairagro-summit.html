@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.8.27">
+<meta name="generator" content="quarto-1.8.25">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -40,14 +40,14 @@ ul.task-list li input[type="checkbox"] {
 <script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="../site_libs/quarto-html/anchor.min.js"></script>
 <link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="../site_libs/quarto-html/quarto-syntax-highlighting-06b3079109bbc4c37b36690ef3b9afd9.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
-<link href="../site_libs/quarto-html/quarto-syntax-highlighting-dark-8d6e1e67c5d6db17efdab79151fc856a.css" rel="stylesheet" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
-<link href="../site_libs/quarto-html/quarto-syntax-highlighting-06b3079109bbc4c37b36690ef3b9afd9.css" rel="stylesheet" class="quarto-color-scheme-extra" id="quarto-text-highlighting-styles">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-291a5f9f70427abdccba3f46b74154b5.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-dark-6dc061f6d1e55e67b8a69dca4c84c804.css" rel="stylesheet" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-291a5f9f70427abdccba3f46b74154b5.css" rel="stylesheet" class="quarto-color-scheme-extra" id="quarto-text-highlighting-styles">
 <script src="../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../site_libs/bootstrap/bootstrap-4fd20293389b40bcafccd8af71e0e21b.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
-<link href="../site_libs/bootstrap/bootstrap-dark-cc0e60c31436799ffb26781a0b959b03.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
-<link href="../site_libs/bootstrap/bootstrap-4fd20293389b40bcafccd8af71e0e21b.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
+<link href="../site_libs/bootstrap/bootstrap-7f2b2f83ec69df5e8b62b98236397222.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
+<link href="../site_libs/bootstrap/bootstrap-dark-e8741794654249e1e3033085cd7f8afc.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
+<link href="../site_libs/bootstrap/bootstrap-7f2b2f83ec69df5e8b62b98236397222.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
 <link href="../site_libs/quarto-contrib/fontawesome6-0.1.0/all.css" rel="stylesheet">
 <link href="../site_libs/quarto-contrib/fontawesome6-0.1.0/latex-fontsize.css" rel="stylesheet">
 <script id="quarto-search-options" type="application/json">{
@@ -77,7 +77,8 @@ ul.task-list li input[type="checkbox"] {
     "search-label": "Search"
   }
 }</script>
-<style>.quarto-title .description { display: none; }</style>
+<style>.quarto-title .description { display: none; }
+</style>
 
 
 </head>
@@ -795,7 +796,7 @@ ul.task-list li input[type="checkbox"] {
       &nbsp;
     </div>   
     <div class="nav-footer-center">
-<p><img src="..\assets/footer-light.png" class="light-content img-fluid" style="width:100.0%" alt="Banner of partners"><img src="..\assets/footer-dark.png" class="dark-content img-fluid" style="width:100.0%" alt="Banner of partners"> <i class="fa-regular fa-copyright" aria-label="copyright"></i> Benjamin Black, 2026 All content licensed under <i class="fa-brands fa-creative-commons" aria-label="creative-commons"></i> <i class="fa-brands fa-creative-commons-by" aria-label="creative-commons-by"></i> <i class="fa-brands fa-creative-commons-sa" aria-label="creative-commons-sa"></i> <i class="fa-brands fa-creative-commons-nc" aria-label="creative-commons-nc"></i> <a href="http://creativecommons.org/licenses/by-nc-sa/4.0/">(CC BY-NC-SA 4.0)</a></p>
+<p><img src="..\assets/footer-light.png" class="light-content img-fluid" style="width:100.0%" alt="Banner of partners"><img src="..\assets/footer-dark.png" class="dark-content img-fluid" style="width:100.0%" alt="Banner of partners"> <i class="fa-regular fa-copyright" aria-label="copyright"></i> Benjamin Black, 2026 All content licensed under <i class="fa-brands fa-creative-commons" aria-label="creative-commons"></i> <i class="fa-brands fa-creative-commons-by" aria-label="creative-commons-by"></i> <i class="fa-brands fa-creative-commons-sa" aria-label="creative-commons-sa"></i> <i class="fa-brands fa-creative-commons-nc" aria-label="creative-commons-nc"></i> <a href="http://creativecommons.org/licenses/by-nc-sa/4.0/">(CC BY-NC-SA 4.0)</a> · <a href="privacy-policy.qmd">Privacy policy</a></p>
 </div>
     <div class="nav-footer-right">
       &nbsp;
@@ -835,21 +836,37 @@ ul.task-list li input[type="checkbox"] {
 </script>
 
 <script>
+
   // Article Hero Banner Handler
+
   // Reads window.__articleHeroImage injected by news/hero-banner.lua (which
+
   // extracts the `image` field from the article's YAML front matter), then
+
   // applies it as the background of the Quarto title block and adds CSS
+
   // classes so styles.scss can style it as a full-bleed hero banner.
+
   document.addEventListener('DOMContentLoaded', function () {
+
     const imageSrc = window.__articleHeroImage;
+
     const titleBlockHeader = document.querySelector('#title-block-header.quarto-title-block');
+
     if (imageSrc && titleBlockHeader) {
+
       titleBlockHeader.style.backgroundImage = 'url("' + imageSrc + '")';
+
       titleBlockHeader.classList.add('hero-article');
+
       document.body.classList.add('has-hero-article');
+
     }
+
   });
+
 </script>
+
 
 
 

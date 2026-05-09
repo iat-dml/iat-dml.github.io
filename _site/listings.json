@@ -7,11 +7,16 @@
     ]
   },
   {
-    "listing": "/projects.html",
-    "items": [
-      "/projects/monkshilllabs.html",
-      "/projects/living-lab-dashboards.html"
-    ]
+    "listing": "/projects.de.html",
+    "items": []
+  },
+  {
+    "listing": "/news.de.html",
+    "items": []
+  },
+  {
+    "listing": "/index.de.html",
+    "items": []
   },
   {
     "listing": "/index.html",
@@ -32,19 +37,14 @@
     ]
   },
   {
-    "listing": "/news.de.html",
-    "items": []
+    "listing": "/projects.html",
+    "items": [
+      "/projects/monkshilllabs.html",
+      "/projects/living-lab-dashboards.html"
+    ]
   },
   {
     "listing": "/team.de.html",
-    "items": []
-  },
-  {
-    "listing": "/index.de.html",
-    "items": []
-  },
-  {
-    "listing": "/projects.de.html",
     "items": []
   }
 ]

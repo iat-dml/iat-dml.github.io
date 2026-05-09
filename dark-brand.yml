@@ -7,77 +7,97 @@ meta:
     github: https://github.com/zalf-lse
     linkedin: https://www.linkedin.com/company/zalf
     twitter: https://twitter.com/ZALF_Muencheberg
+
 logo:
   images:
     logo-zalf:
       path: assets/logos/logo-zalf.png
-      alt: ZALF – Leibniz Centre for Agricultural Landscape Research
+      alt: "ZALF – Leibniz Centre for Agricultural Landscape Research"
     logo-leibniz:
       path: assets/logos/logo-leibniz.png
-      alt: Leibniz Association
+      alt: "Leibniz Association"
     logo-iat:
       path: assets/logos/logo-IAT.png
-      alt: Innovation Center for Agricultural System Transformation
+      alt: "Innovation Center for Agricultural System Transformation"
     logo-dmi:
       path: assets/logos/logo-dmi-white-en.png
-      alt: Data and Modelling Infrastructure for Living Labs (DMI)
+      alt: "Data and Modelling Infrastructure for Living Labs (DMI)"
     logo-iat-zalf:
       path: assets/logos/logo-iat-zalf-white.png
       alt: "Innovation Center for Agricultural System Transformation & Leibniz Centre for Agricultural Landscape Research"
   medium: logo-iat-zalf
   large:  logo-iat-zalf
   small:  logo-iat-zalf
+
 color:
   palette:
-    green: '#46A84F'
-    green-light: '#9EBC83'
-    green-mid: '#80BDBD'
-    teal: '#36AE6C'
-    teal-dark: '#356259'
-    olive: '#B1BE4D'
-    sage: '#657A4E'
-    slate: '#465555'
-    white: '#FFFFFF'
-    black: '#1A1A1A'
-    transfer: "#458484"   # Blue colour for transfer activities (e.g. transfer page, transfer news)
-    support:  "#2D6A4F"   # Dark green for support activities (e.g. support page, support news)
-    integration: "#C18F59"   # terracotta for integration activities (e.g. integration page, integration news)
-    gray-light: '#F5F5F5'
-    gray: '#6C6C6C'
-  foreground: white
-  background: black
-  primary: teal-dark
-  secondary: teal
-  tertiary: teal
-  success: teal-dark
-  info: green-mid
-  warning: olive
-  danger: '#C0392B'
-  light: gray
-  dark: slate
+    green:           "#46A84F"
+    green-light:     "#9EBC83"
+    green-mid:       "#80BDBD"
+    teal:            "#36AE6C"
+    teal-dark:       "#356259"
+    olive:           "#B1BE4D"
+    sage:            "#657A4E"
+    transfer:        "#458484"
+    support:         "#2D6A4F"
+    integration:     "#C18F59"
+    slate:           "#465555"
+    white:           "#FFFFFF"
+    black:           "#0F1B18"   # ← teal-tinted near-black (was flat #1A1A1A)
+    dark-surface:    "#162520"   # card / surface background in dark mode
+    dark-border:     "#1F3530"   # border colour in dark mode
+    paper:           "#F5F3EE"
+    gray-light:      "#F5F5F5"
+    gray:            "#6C6C6C"
+
+  # Semantic assignments — note foreground/background are inverted vs. light
+  foreground:  white
+  background:  black            # ← #0F1B18 — richer than flat black
+  primary:     teal             # brighter teal reads better on dark
+  secondary:   teal
+  tertiary:    green-mid
+  success:     teal
+  info:        green-mid
+  warning:     olive
+  danger:      "#E74C3C"
+  light:       gray
+  dark:        slate
+
 typography:
   fonts:
-  - family: Segoe UI
-    source: system
-  - family: Segoe UI Mono
-    source: system
+    # Same font stack as light theme
+    - family: "DM Serif Display"
+      source: google
+    - family: "DM Sans"
+      source: google
+    - family: "Segoe UI"
+      source: system
+    - family: "Segoe UI Mono"
+      source: system
+
+  # See light-brand.yml: bare family names are required so Quarto can emit
+  # the Google Fonts @import. Fallback stacks live in scss/styles.scss.
   base:
-    family: Segoe UI, system-ui, Helvetica Neue, Arial, sans-serif
+    family: "DM Sans"
     weight: 400
-    size: 1.25rem
-    line-height: 1.5
+    size: 1rem
+    line-height: 1.65
+
   headings:
-    family: Segoe UI, system-ui, Helvetica Neue, Arial, sans-serif
-    weight: 600
-    color: green
-    line-height: 1.25
+    family: "DM Serif Display"
+    weight: 400
+    color: green-light          # ← lighter shade reads well on dark background
+    line-height: 1.15
+
   monospace:
-    family: Segoe UI Mono, ui-monospace, Consolas, monospace
+    family: "Segoe UI Mono"
     weight: 400
     size: 0.9em
+
   monospace-inline:
-    background-color: slate
+    background-color: dark-surface
+
   link:
     color: green-light
-    weight: 600
+    weight: 500
     decoration: underline
