@@ -31,7 +31,42 @@ body,
   padding: 0;
 }
 
-/* Only on pages that have a hero: remove the top gap and hide the empty title block */
+/* Warm paper background — overrides $body-bg if brand.yml didn't load it.
+   Font stacks are appended here because brand.yml's typography.base.family /
+   typography.headings.family must be a bare primary name — Quarto matches the
+   value against the `fonts:` array exactly to emit the Google Fonts @import,
+   so a comma-separated fallback stack there silently breaks the import. */
+body {
+  background-color: #F5F3EE !important;
+  font-family: "DM Sans", "Segoe UI", system-ui, "Helvetica Neue", Arial, sans-serif;
+}
+
+/* Quarto's `page-layout: full` adds white-ish container backgrounds on some
+   wrappers; force them transparent so the warm paper shows through. */
+#quarto-content,
+main.content,
+main.column-page,
+#quarto-document-content {
+  background-color: transparent !important;
+}
+
+h1, h2, h3, h4, h5, h6,
+.h1, .h2, .h3, .h4, .h5, .h6 {
+  font-family: "DM Serif Display", Georgia, "Times New Roman", serif;
+}
+
+code, kbd, pre, samp,
+.font-monospace {
+  font-family: "Segoe UI Mono", ui-monospace, "Cascadia Code", Consolas, monospace;
+}
+
+/* White cards / surfaces sit on top of warm body */
+.card,
+.quarto-grid-item.card {
+  background-color: $white;
+}
+
+/* Only on pages that have a hero: remove top gap and hide empty title block */
 main:has(.hero),
 main:has(.hero) #quarto-document-content {
   padding-top: 0 !important;
@@ -42,13 +77,77 @@ main:has(.hero) #title-block-header.quarto-title-block {
   display: none;
 }
 
+/* ============================================
+   Navbar — light glass treatment
+   ============================================ */
+
 .navbar {
   margin: 0;
   padding-block-end: 0;
+  background: rgba(255, 255, 255, 0.95) !important;
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border-bottom: 1px solid rgba(0, 0, 0, 0.07) !important;
+  transition: background 0.3s ease;
+
+  /* Override Bootstrap dark-navbar text colours */
+  .nav-link {
+    color: #4E5855 !important;
+    font-weight: 500;
+    border-radius: 4px;
+    transition: color 0.15s ease, background-color 0.15s ease;
+
+    &:hover {
+      color: $brand-teal-dark !important;
+      background-color: rgba(53, 98, 89, 0.07) !important;
+    }
+
+    &.active {
+      color: $brand-teal-dark !important;
+      font-weight: 600;
+    }
+  }
+
+  /* Icon buttons (search, GitHub, email, theme toggle) */
+  .quarto-color-scheme-toggle,
+  .quarto-navigation-tool {
+    color: #7A817E !important;
+    border-radius: 4px;
+    transition: color 0.15s ease, background-color 0.15s ease;
+
+    &:hover {
+      color: $brand-teal-dark !important;
+      background-color: rgba(53, 98, 89, 0.07) !important;
+    }
+  }
+
+  /* Dropdown menus */
+  .dropdown-item {
+    color: #4E5855;
+    &:hover, &:focus {
+      color: $brand-teal-dark;
+      background-color: rgba(53, 98, 89, 0.06);
+    }
+  }
+
+  .dropdown-menu {
+    border: 1px solid rgba(0, 0, 0, 0.08);
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.1), 0 2px 6px rgba(0, 0, 0, 0.05);
+    border-radius: 8px;
+    padding: 0.375rem;
+  }
+
+  /* Hamburger icon — dark bars on light background */
+  .navbar-toggler-icon {
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba(53, 98, 89, 0.85)' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e") !important;
+  }
+  .navbar-toggler {
+    border-color: rgba(53, 98, 89, 0.25) !important;
+  }
 }
 
 .navbar-logo {
-  max-height: 50px;
+  max-height: 44px;
 }
 
 /* Remove gap between navbar and hero */
@@ -70,28 +169,31 @@ main:has(.hero) #title-block-header.quarto-title-block {
   display: inline-block;
   background-color: $brand-teal-dark;
   color: $brand-white;
-  font-weight: 800;
-  font-size: clamp(1rem, 2vw, 1.3rem);
+  font-weight: 600;
+  font-size: clamp(0.875rem, 1.8vw, 1.05rem);
   text-decoration: none;
-  padding-block: 0.8rem;
-  padding-inline: 2rem;
-  border-radius: 9999px;
-  box-shadow: 0 8px 32px rgb(0 0 0 / 0.3);
+  padding-block: 0.65rem;
+  padding-inline: 1.5rem;
+  border-radius: 0.5rem;          /* ← was 9999px (pill); now rounded-rect */
+  border: 1.5px solid $brand-teal-dark;
+  box-shadow: 0 2px 8px rgb(0 0 0 / 0.1);
 
   transition:
-    background-color 0.3s ease,
-    color 0.3s ease,
-    box-shadow 0.3s ease;
+    background-color 0.2s ease,
+    border-color 0.2s ease,
+    color 0.2s ease,
+    box-shadow 0.2s ease;
 
   &:hover {
-    background-color: $brand-white;
-    color: $brand-green;
-    box-shadow: 0 6px 16px rgb(0 0 0 / 0.4);
+    background-color: #2A4E47;
+    border-color: #2A4E47;
+    color: $brand-white;
+    box-shadow: 0 4px 14px rgb(53 98 89 / 0.25);
   }
 
   @media (width <= 768px) {
-    padding-block: 0.6rem;
-    padding-inline: 1.5rem;
+    padding-block: 0.55rem;
+    padding-inline: 1.25rem;
   }
 }
 
@@ -103,25 +205,25 @@ main:has(.hero) #title-block-header.quarto-title-block {
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: 1.5rem;
+  gap: 0.875rem;
   flex-wrap: wrap;
   margin-block-start: 2rem;
 
   .btn-brand {
     flex: 0 1 auto;
-    white-space: normal; // Allow text to wrap
-    max-width: 250px; // Constrain button width to force wrapping
+    white-space: normal;
+    max-width: 260px;
     text-align: center;
-    line-height: 1.4; // Add some line height for readability
+    line-height: 1.4;
   }
 
   @media (width <= 768px) {
     flex-direction: column;
-    gap: 1rem;
-    
+    gap: 0.75rem;
+
     .btn-brand {
       width: 100%;
-      max-width: 350px;
+      max-width: 360px;
     }
   }
 }
@@ -129,6 +231,7 @@ main:has(.hero) #title-block-header.quarto-title-block {
 /* ============================================
    Hero Section
    ============================================ */
+
 .hero {
   /* Full-width bleed */
   width: 100vw;
@@ -136,11 +239,40 @@ main:has(.hero) #title-block-header.quarto-title-block {
   margin-right: calc(50% - 50vw);
   margin-block-start: 0;
 
-  /* Background */
+  /* Background — image provided by user; gradient is the fallback */
   background-image: url("assets/hero-banner-alt.png");
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
+
+  /* Dark overlay for legibility — slightly lighter than before */
+  position: relative;
+
+  &::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background: linear-gradient(
+      to bottom,
+      rgba(8, 24, 19, 0.72) 0%,
+      rgba(8, 24, 19, 0.58) 100%
+    );
+    z-index: 0;
+    pointer-events: none;
+  }
+
+  /* Subtle grid texture */
+  &::after {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background-image:
+      linear-gradient(rgba(255, 255, 255, 0.025) 1px, transparent 1px),
+      linear-gradient(90deg, rgba(255, 255, 255, 0.025) 1px, transparent 1px);
+    background-size: 52px 52px;
+    z-index: 0;
+    pointer-events: none;
+  }
 
   /* Layout */
   display: flex;
@@ -149,160 +281,237 @@ main:has(.hero) #title-block-header.quarto-title-block {
   align-items: center;
 
   /* Height */
-  min-block-size: 35vh;
-  padding-block: 2rem;
+  min-block-size: 42vh;
+  padding-block: 4rem;
 
   /* Typography */
   color: $brand-white;
   text-align: center;
 
-  /* Positioning context */
-  position: relative;
+  /* All children above overlays */
+  > * { position: relative; z-index: 1; }
 }
 
 .hero + * {
   margin-block-start: 3rem;
 }
 
+/* Hero Eyebrow
+   In index.qmd, add [IAT Service Working Group]{.hero-eyebrow} as the
+   first line inside the ::: hero div, before the # heading. */
+.hero-eyebrow {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.625rem;
+  font-size: 0.7rem;
+  font-weight: 600;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+  color: $brand-teal;
+  margin-block-end: 0;
+
+  &::before,
+  &::after {
+    content: "";
+    width: 26px;
+    height: 1px;
+    background: $brand-teal;
+    opacity: 0.55;
+  }
+}
+
+/* Strip excess margin from the paragraph wrapping the eyebrow */
+.hero p:has(.hero-eyebrow) {
+  margin-block-end: 0.625rem;
+  color: inherit;
+}
+
 /* Hero Typography */
 .hero h1 {
-  font-size: clamp(2.5rem, 8vw, 5rem);
-  font-weight: 700;
-  letter-spacing: 0.05em;
-  text-transform: uppercase;
+  font-size: clamp(2.1rem, 5.5vw, 3.75rem);
+  font-weight: 400;            /* DM Serif Display has only one weight */
+  letter-spacing: -0.01em;    /* ← was 0.05em wide; now tight & refined */
+  text-transform: none;        /* ← was uppercase; now sentence case */
   text-wrap: balance;
   color: $brand-white;
-  margin-block-end: 0.5rem;
+  margin-block-end: 0.875rem;
+  line-height: 1.13;
+}
+
+.hero section {
+  text-align: center;
+  width: 100%;
 }
 
 .hero p {
-  font-size: clamp(1rem, 2.5vw, 1.3rem);
+  font-size: clamp(0.9rem, 2vw, 1.05rem);
   text-wrap: pretty;
-  color: $brand-white;
-  margin-block-end: 1rem;
-  max-inline-size: 65ch;
+  text-align: center;
+  color: rgba(255, 255, 255, 0.7);
+  margin-block-end: 1.25rem;
+  max-inline-size: 56ch;
+  margin-inline: auto;
 }
 
 /* Hero CTA Button */
 .hero-btn {
   @extend .btn-brand;
-  font-size: clamp(1.1rem, 2vw, 1.5rem);
-  margin-block-start: 1.5rem;
+
+  /* Outlined ghost style on the dark hero */
+  background-color: transparent;
+  border-color: rgba(255, 255, 255, 0.4);
+  color: rgba(255, 255, 255, 0.9);
+  font-size: clamp(0.875rem, 1.8vw, 1.05rem);
+  margin-block-start: 0.5rem;
+  box-shadow: none;
+
+  &:hover {
+    background-color: rgba(255, 255, 255, 0.1);
+    border-color: rgba(255, 255, 255, 0.7);
+    color: $brand-white;
+    box-shadow: none;
+  }
 
   @media (width <= 768px) {
-    margin-block-start: 1rem;
+    margin-block-start: 0.75rem;
   }
 }
+
+/* ============================================
+   Section Column Labels
+   (e.g. "News ─────", "Projects ─────")
+   ============================================ */
+
+.col-section-label,
+.columns-divided .column h2 {
+  /* Sans, not the heading serif — match the mockup's tracked uppercase eyebrow
+     style. Brand typography sets --bs-heading-color: teal-dark and the heading
+     font to DM Serif Display, so we override both by name with !important. */
+  font-family: "DM Sans", "Segoe UI", system-ui, sans-serif !important;
+  font-size: 0.68rem !important;
+  font-weight: 700 !important;
+  letter-spacing: 0.15em !important;
+  text-transform: uppercase;
+  color: #6C706D !important;     /* muted gray; do not rely on --bs-secondary-color */
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  margin-bottom: 1.125rem;
+  border-bottom: none !important;
+  text-decoration: none !important;
+
+  &::after {
+    content: "";
+    flex: 1;
+    height: 1px;
+    background: rgba(0, 0, 0, 0.1);
+  }
+}
+
+body.quarto-dark {
+  .col-section-label,
+  .columns-divided .column h2 {
+    color: rgba(255, 255, 255, 0.55) !important;
+
+    &::after { background: rgba(255, 255, 255, 0.12); }
+  }
+}
+
+/* Remove default Quarto underline on anchored h2 inside listings */
+h2.anchored { border-bottom: none !important; }
 
 /* ============================================
    Team Grid Styling
    ============================================ */
 
 .team-grid {
-  // Grid layout
   display: grid;
   gap: 2em;
-  
-  // Fluid responsive columns — fills available width, minimum 280px per card
-  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr)) !important;  
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr)) !important;
+
   .quarto-grid-item.card-team,
   .quarto-grid-item.card-team.card {
-    // Rounded corners
     border-radius: 1rem;
-    background-color: #fafafa !important;
+    background-color: $white !important;
     border: 1px solid #e5e7eb;
-    
-    // Clean neutral shadow
-    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.06), 0 1px 3px rgba(0, 0, 0, 0.04);
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05), 0 1px 3px rgba(0, 0, 0, 0.03);
     transition: transform 0.2s ease, box-shadow 0.2s ease;
-    
-    // Hover — subtle lift with slightly deeper shadow
+
     &:hover {
       transform: translateY(-4px);
-      box-shadow: 0 8px 20px rgba(0, 0, 0, 0.10), 0 3px 6px rgba(0, 0, 0, 0.06);
+      box-shadow: 0 8px 20px rgba(0, 0, 0, 0.09), 0 3px 6px rgba(0, 0, 0, 0.05);
     }
-    
+
     text-align: center;
-    
+
     .card-body {
       padding: 1.75rem;
     }
   }
-  
-  // Circular team member images
+
   .team-image-container {
     display: flex;
     justify-content: center;
     align-items: center;
     padding: 1.5rem 1.5rem 0.5rem 1.5rem;
     margin-bottom: 0;
-    
+
     .team-image {
       width: 150px;
       height: 150px;
       border-radius: 50%;
       object-fit: cover;
-      // Neutral border
       border: 3px solid #e5e7eb;
     }
   }
-  
-  // Social/contact links below image
+
   .listing-links {
     display: flex;
     gap: 0.75rem;
     justify-content: center;
     padding: 0.75rem 0 0.5rem 0;
     margin: 0;
-    
+
     .listing-link-icon {
       display: inline-flex;
       align-items: center;
       justify-content: center;
       width: 32px;
       height: 32px;
-      font-size: 1.1rem;
+      font-size: 1.05rem;
       color: #6b7280;
       text-decoration: none;
       border-radius: 50%;
       background-color: #f3f4f6;
       border: 1px solid #e5e7eb;
       transition: background-color 0.2s ease, color 0.2s ease, border-color 0.2s ease;
-      
+
       &:hover {
-        background-color: #356259;
-        color: #ffffff;
-        border-color: #356259;
-        text-decoration: none;
+        background-color: $brand-teal-dark;
+        color: $white;
+        border-color: $brand-teal-dark;
       }
-      
-      i {
-        line-height: 1;
-      }
+
+      i { line-height: 1; }
     }
   }
-  
-  // Team member name — teal-dark brand accent
+
   .listing-title {
-    font-family: "Segoe UI", system-ui, Helvetica Neue, Arial, sans-serif;
     font-weight: 600;
-    font-size: 1.25rem;
+    font-size: 1.2rem;
     margin-bottom: 0.25rem;
     margin-top: 0.5rem;
-    color: #356259;
+    color: $brand-teal-dark;
   }
-  
-  // Job title — neutral and understated
+
   .team-job-title {
-    font-family: "Segoe UI", system-ui, Helvetica Neue, Arial, sans-serif;
     font-weight: 400;
     color: #6b7280;
-    font-size: 0.95rem;
+    font-size: 0.9rem;
     margin-bottom: 1rem;
     font-style: italic;
   }
-  
-  // Skills badges — neutral gray
+
   .listing-skills {
     display: flex;
     flex-wrap: wrap;
@@ -312,7 +521,7 @@ main:has(.hero) #title-block-header.quarto-title-block {
 
     .skills-label {
       font-weight: 600;
-      font-size: 0.85rem;
+      font-size: 0.82rem;
       margin-bottom: 0.5rem;
       color: #374151;
       text-transform: uppercase;
@@ -324,100 +533,89 @@ main:has(.hero) #title-block-header.quarto-title-block {
       flex-wrap: wrap;
       justify-content: center;
       gap: 0.5rem;
-    
-    
-    .listing-skill {
-      background-color: #f3f4f6;
-      color: #374151;
-      border: 1px solid #e5e7eb;
-      border-radius: 1rem;
-      padding: 0.25rem 0.75rem;
-      font-size: 0.75rem;
-      font-weight: 500;
-      text-transform: uppercase;
-      letter-spacing: 0.5px;
+
+      .listing-skill {
+        background-color: #f3f4f6;
+        color: #374151;
+        border: 1px solid #e5e7eb;
+        border-radius: 1rem;
+        padding: 0.2rem 0.7rem;
+        font-size: 0.73rem;
+        font-weight: 500;
+        text-transform: uppercase;
+        letter-spacing: 0.5px;
+      }
     }
   }
-  }
-  
-  // Description
+
   .team-description {
-    font-size: 0.9rem;
+    font-size: 0.875rem;
     line-height: 1.6;
     margin-bottom: 1rem;
     text-align: center;
     color: #6b7280;
   }
-  
-  // Projects section
+
   .listing-projects {
     margin-top: 1rem;
     padding-top: 1rem;
     border-top: 1px solid #e5e7eb;
-    
+
     .projects-label {
       font-weight: 600;
-      font-size: 0.85rem;
+      font-size: 0.82rem;
       margin-bottom: 0.5rem;
       color: #374151;
       text-transform: uppercase;
       letter-spacing: 0.5px;
     }
-    
+
     .projects-list {
       display: flex;
       flex-wrap: wrap;
       justify-content: center;
       gap: 0.5rem;
-      
+
       .project-link {
         display: inline-block;
         background-color: #f3f4f6;
-        color: #356259;
+        color: $brand-teal-dark;
         border: 1px solid #e5e7eb;
         padding: 0.375rem 0.75rem;
         border-radius: 0.5rem;
         text-decoration: none;
-        font-size: 0.85rem;
+        font-size: 0.82rem;
         font-weight: 500;
         transition: background-color 0.2s ease, border-color 0.2s ease;
-        
+
         &:hover {
           background-color: #e5e7eb;
           border-color: #d1d5db;
-          color: #356259;
+          color: $brand-teal-dark;
           text-decoration: none;
         }
       }
-      
+
       .project-item {
         display: inline-block;
         background-color: #f3f4f6;
         color: #374151;
         padding: 0.375rem 0.75rem;
         border-radius: 0.5rem;
-        font-size: 0.85rem;
+        font-size: 0.82rem;
       }
     }
   }
-  
-  // Override default card alignment classes for team grid
-  .quarto-grid-item.card-center {
-    .listing-description {
-      text-align: center;
-    }
+
+  .quarto-grid-item.card-center .listing-description {
+    text-align: center;
   }
 }
 
 /* ============================================
    Article Hero Title Block
-   Applied via news/_metadata.yml + news/hero-banner.lua + hero-article.html:
-   the Lua filter injects the YAML `image` field as window.__articleHeroImage,
-   and the JS adds .hero-article to #title-block-header and .has-hero-article
-   to <body>.
    ============================================ */
 
-// Remove top padding on article pages that use a hero title block
 body.has-hero-article {
   main.content,
   #quarto-document-content {
@@ -427,78 +625,62 @@ body.has-hero-article {
 }
 
 #title-block-header.quarto-title-block.hero-article {
-  // Full-width bleed (same as .hero)
   width: 100vw;
   margin-left: calc(50% - 50vw);
   margin-right: calc(50% - 50vw);
   margin-block-start: 0;
-
-  // Background — image URL injected by JS
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
-
-  // Dark overlay for text legibility
   position: relative;
 
   &::before {
     content: "";
     position: absolute;
     inset: 0;
-    background: rgba(0, 0, 0, 0.5);
+    background: rgba(0, 0, 0, 0.52);
     z-index: 0;
     pointer-events: none;
   }
 
-  // Layout
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   text-align: center;
-
-  // Height
   min-block-size: 30vh;
   padding-block: 2.5rem;
   padding-inline: 1.5rem;
 
-  // Raise all children above the overlay
-  > * {
-    position: relative;
-    z-index: 1;
-  }
+  > * { position: relative; z-index: 1; }
 
-  // Title
   .quarto-title h1.title {
-    font-size: clamp(2rem, 6vw, 3.5rem);
-    font-weight: 700;
+    font-size: clamp(1.9rem, 5.5vw, 3.25rem);
+    font-weight: 400;
     color: $brand-white;
-    text-shadow: 0 2px 8px rgba(0, 0, 0, 0.6);
+    text-shadow: 0 2px 10px rgba(0, 0, 0, 0.5);
     margin-block-end: 0.5rem;
+    letter-spacing: -0.01em;
+    text-transform: none;
   }
 
-  // Category badges
   .quarto-categories {
     justify-content: center;
 
     .quarto-category {
       color: $brand-white;
-      border-color: rgba(255, 255, 255, 0.5);
-      background: rgba(255, 255, 255, 0.15);
+      border-color: rgba(255, 255, 255, 0.45);
+      background: rgba(255, 255, 255, 0.12);
     }
   }
 
-  // Description — hide on hero article pages (description serves listing cards only)
-  .description {
-    display: none;
-  }
+  .description { display: none; }
 
-  // Metadata (date, author, etc.)
   .quarto-title-meta,
   .quarto-title-meta-heading,
   .quarto-title-meta-contents,
   .quarto-title-meta-contents p {
-    color: rgba(255, 255, 255, 0.8);
+    color: rgba(255, 255, 255, 0.75);
   }
 
   .quarto-title-meta {
@@ -508,8 +690,7 @@ body.has-hero-article {
 }
 
 /* ============================================
-    Responsive Embedded Media (iframes, pptx, etc.)
-      - Use .embed-container to wrap any iframe/object/embed
+   Responsive Embedded Media
    ============================================ */
 
 div.embed-container {
@@ -537,23 +718,20 @@ div.embed-container embed {
 
 .columns-center {
   display: flex !important;
-  align-items: center; /* Vertical center */
-  justify-content: center; /* Horizontal center */
+  align-items: center;
+  justify-content: center;
 }
 
 .columns-center > .column {
   display: flex;
   flex-direction: column;
-  align-items: center; /* Center content horizontally within each column */
-  justify-content: center; /* Center content vertically within each column */
+  align-items: center;
+  justify-content: center;
 }
 
 @media (max-width: 768px) {
-  .columns-center {
-    flex-direction: column;
-  }
+  .columns-center { flex-direction: column; }
 }
-
 
 /* ============================================
    Footer
@@ -563,18 +741,15 @@ footer.footer,
 .nav-footer {
   max-inline-size: 100%;
   padding: 0;
-  overflow-x: clip; /* Prevent horizontal scrollbar */
+  overflow-x: clip;
 }
 
 .nav-footer-center {
   max-inline-size: 100%;
   padding: 0;
-  
-  p {
-    margin: 0;
-  }
-  
-  /* Full-width image container */
+
+  p { margin: 0; }
+
   p:has(img) {
     margin: 0;
     padding: 0;
@@ -582,7 +757,7 @@ footer.footer,
     inline-size: 100vw;
     margin-inline-start: calc(-50vw + 50%);
   }
-  
+
   img {
     display: block;
     inline-size: 100%;
@@ -591,7 +766,6 @@ footer.footer,
   }
 }
 
-/* Force full-width for any footer images */
 footer img,
 .nav-footer img {
   inline-size: 100vw !important;
@@ -601,7 +775,6 @@ footer img,
   padding: 0 !important;
 }
 
-/* Remove container constraints in footer */
 .nav-footer .container,
 .nav-footer .container-fluid,
 footer .container,
@@ -611,7 +784,6 @@ footer .container-fluid {
   margin: 0 !important;
 }
 
-/* Ensure footer content wrapper allows full width */
 .nav-footer-center .container,
 .nav-footer-center .container-fluid {
   inline-size: 100vw;
@@ -619,7 +791,7 @@ footer .container-fluid {
   margin-inline-start: calc(-50vw + 50%);
 }
 
-/* Remove underline for H2 headings and linked H2s */
+/* Suppress Quarto's default bottom-border on h2 */
 h2,
 h2 a {
   text-decoration: none !important;
@@ -631,52 +803,107 @@ h2:hover {
   text-decoration: none !important;
 }
 
-
 /* ============================================
-   Generic Grid Listing Cards (news, projects, etc.)
+   Generic Grid Listing Cards (news, projects)
    ============================================ */
 
-// Hover lift for all grid listing cards outside .team-grid
 .quarto-listing-container-grid .quarto-grid-item.card:not(.card-team) {
-  transition: transform 0.2s ease, box-shadow 0.2s ease;
+  background-color: $white;
+  border: 1px solid rgba(0, 0, 0, 0.08);
+  border-radius: 8px;
+  transition: transform 0.2s ease, box-shadow 0.2s ease, border-color 0.2s ease;
 
   &:hover {
-    transform: translateY(-4px);
-    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.12), 0 3px 6px rgba(0, 0, 0, 0.06);
+    transform: translateY(-3px);
+    border-color: rgba(0, 0, 0, 0.14);
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.09), 0 2px 6px rgba(0, 0, 0, 0.05);
+  }
+
+  /* Quarto renders title BEFORE categories; the mockup wants the order:
+     1. categories  2. title  3. description  4. date.
+     Flex + order reorders without touching the listing template. */
+  .card-body {
+    display: flex;
+    flex-direction: column;
+    gap: 0.35rem;
+
+    .listing-categories     { order: 1; margin-bottom: 0.1rem; }
+    .listing-title          { order: 2; }
+    .listing-description    { order: 3; }
+    .card-attribution       { order: 4; }
+  }
+
+  /* Card title: sans, semibold, near-black — not the teal serif heading style
+     that h5 inherits from brand.yml typography. */
+  .listing-title {
+    font-family: "DM Sans", "Segoe UI", system-ui, sans-serif !important;
+    font-size: 0.95rem !important;
+    font-weight: 600 !important;
+    color: #1B2120 !important;
+    line-height: 1.38 !important;
+    letter-spacing: 0 !important;
+    margin-bottom: 0.15rem;
+  }
+
+  .listing-description {
+    font-size: 0.82rem;
+    color: #6C706D;
+    line-height: 1.55;
+  }
+
+  .listing-date,
+  .card-attribution {
+    font-size: 0.72rem;
+    color: #6C706D;
   }
 }
 
 body.quarto-dark .quarto-listing-container-grid .quarto-grid-item.card:not(.card-team) {
-  border: 1px solid rgba(255, 255, 255, 0.15);
+  background-color: rgba(255, 255, 255, 0.04);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+
+  .listing-title       { color: rgba(255, 255, 255, 0.92) !important; }
+  .listing-description,
+  .listing-date,
+  .card-attribution    { color: rgba(255, 255, 255, 0.6); }
+}
+
+/* Mobile: listing cards bleed to full viewport width.
+   Full-bleed is applied at .columns-divided (direct child of main.content,
+   same level as .hero) so calc(50% - 50vw) resolves correctly. */
+@media (max-width: 767.98px) {
+  .quarto-listing-container-grid {
+    padding-inline: 0;
+  }
+
+  .quarto-listing-container-grid .quarto-grid-item.card:not(.card-team) {
+    border-radius: 0;
+    border-left: none;
+    border-right: none;
+  }
+}
+
+/* Category badges on cards */
+.listing-category {
+  font-size: 0.67rem !important;
+  font-weight: 600 !important;
+  letter-spacing: 0.07em;
+  text-transform: uppercase;
+  padding: 0.175rem 0.45rem !important;
+  border-radius: 3px !important;
+  background: rgba(53, 98, 89, 0.09) !important;
+  color: $brand-teal-dark !important;
+  border-color: transparent !important;
+  cursor: default;
 }
 
 /* ============================================
-   News / Generic Grid Listing Images
+   Two-column layout with vertical divider
    ============================================ */
 
-// // Fixed-height image container so all cards share the same thumbnail height
-// p.card-img-top {
-//   margin: 0;
-//   padding: 0;
-//   overflow: hidden;
-//   // height: 200px;
-//   display: block;
-//   // background-color: #f3f4f6; // neutral fill for the empty space
-
-//   img.thumbnail-image.card-img {
-//     width: 100% !important;
-//     height: 100% !important;
-//     object-fit: contain;          // Full image shown, no cropping
-//     object-position: center center;
-//     display: block;
-//   }
-// }
-
-
-/* Two-column layout with vertical divider */
 .columns-divided {
   display: flex !important;
-  gap: 2rem;
+  gap: 2.5rem;
   align-items: flex-start;
 }
 
@@ -687,7 +914,7 @@ body.quarto-dark .quarto-listing-container-grid .quarto-grid-item.card:not(.card
 
 .columns-divided > .column + .column {
   position: relative;
-  padding-left: 2rem;
+  padding-left: 2.5rem;
 }
 
 .columns-divided > .column + .column::before {
@@ -696,28 +923,48 @@ body.quarto-dark .quarto-listing-container-grid .quarto-grid-item.card:not(.card
   left: 0;
   top: 0;
   bottom: 0;
-  width: 2px;
-  background: rgba(0, 0, 0, 0.2);
+  width: 1px;
+  background: rgba(0, 0, 0, 0.1);
   pointer-events: none;
 }
 
-@media (prefers-color-scheme: dark) {
-  .columns-divided > .column + .column::before {
-    background: rgba(255, 255, 255, 0.2);
-  }
+body.quarto-dark .columns-divided > .column + .column::before {
+  background: rgba(255, 255, 255, 0.12);
 }
 
-@media (max-width: 768px) {
+@media (max-width: 767.98px) {
   .columns-divided {
     flex-direction: column;
     gap: 2rem;
+    align-items: stretch;
+    width: 100vw;
+    margin-left: calc(50% - 50vw);
+    margin-right: calc(50% - 50vw);
   }
-  
+
   .columns-divided > .column + .column {
     padding-left: 0;
   }
-  
+
   .columns-divided > .column + .column::before {
     display: none;
+  }
+}
+
+/* ============================================
+   Dark mode refinements
+   ============================================ */
+
+body.quarto-dark {
+  background-color: #0F1B18;
+
+  .card,
+  .quarto-grid-item.card {
+    background-color: #162520;
+  }
+
+  .team-grid .quarto-grid-item.card-team {
+    background-color: #1C2E2A !important;
+    border-color: rgba(255, 255, 255, 0.08) !important;
   }
 }

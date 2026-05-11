@@ -46,6 +46,8 @@ What they forgot to teach you about R: https://rstats.wtf/
 
 -   [Inkscape](https://inkscape.org/) - Open source vector graphics editor, alternative to Adobe products, useful for creating and editing figures for publications and presentations. Available via the ZALF baramundi client.
 
+-   [SoRA Geolinking service for social science data](https://sora-service.org/en/)
+
 ## Training
 -   [Digital Research Academy](https://digital-research.academy/) - a trainer network focused on Open Science, Data Literacy, and Research Software Engineering (DRA's [Zenodo collection](https://zenodo.org/communities/digiresacademy/records?q=&l=list&p=1&s=10&sort=newest)).
 -   [BERD academy](https://www.berd-nfdi.de/berd-academy/)
@@ -53,3 +55,4 @@ What they forgot to teach you about R: https://rstats.wtf/
 -   [NFDI4Earth - Educational Portal](https://edutrain.nfdi4earth.de/)
 -   [Assured Training](https://assured-training.org/) -Ensures the safe, legal, and ethical use of sensitive data through targeted training and certification.
 -   [KI-campus](https://ki-campus.org/en/learning-opportunities/courses) - Numerous free courses on AI and related topics, including data science, machine learning, and ethical considerations in AI.
+-   [Liebniz Institute for the Social Sciences (GESIS)](https://www.gesis.org/en/gesis-training)

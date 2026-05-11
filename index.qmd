@@ -17,6 +17,8 @@ listing:
     grid-item-align: center
 ---
 ::: hero
+[IAT Service Working Group]{.hero-eyebrow}
+
 # Data and Modelling Infrastructure for Living Labs
 
 [Discuss your project with us](mailto:benjaminsamuel.black@zalf.de){.hero-btn}
@@ -58,3 +60,4 @@ Welcome to the website of the Data and Modelling Infrastructure for Living Labs 
 :::
 :::
 :::
+
