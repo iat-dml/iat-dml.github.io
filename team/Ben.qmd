@@ -1,7 +1,7 @@
 ---
 title: "Ben Black"
 subtitle: "Head of the working group"
-image: ben.jpg
+image: ../assets/ben.jpg
 image-alt: "Photo of Ben Black"
 skills:
   - R
@@ -31,7 +31,7 @@ links:
       href: https://blenback.github.io/
 about: 
   template: solana
-  image: ben.jpg
+  image: ../assets/ben.jpg
   image-alt: "Photo of Ben Black"
   image-shape: round
   links:
