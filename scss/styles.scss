@@ -148,6 +148,37 @@ main:has(.hero) #title-block-header.quarto-title-block {
   .navbar-toggler {
     border-color: rgba(53, 98, 89, 0.25) !important;
   }
+
+  /* ── Language switcher (babelquarto) ──────────────────────────────────
+     Strip Bootstrap btn-primary chrome; restyle to match .nav-link.
+     `order: 999` pushes it to the far right of the flex navbar.        */
+  .babelquarto-languages-button {
+    /* Reset btn-primary */
+    background-color: transparent !important;
+    border: none !important;
+    box-shadow: none !important;
+
+    /* Match nav-link typography & colour */
+    color: #4E5855 !important;
+    font-size: inherit;
+    font-weight: 500;
+    padding: var(--bs-nav-link-padding-y, 0.5rem) var(--bs-nav-link-padding-x, 1rem);
+    border-radius: 4px;
+    transition: color 0.15s ease, background-color 0.15s ease;
+
+    /* Push to far right */
+    order: 999;
+    margin-inline-start: auto;
+
+    &:hover,
+    &:focus,
+    &:active,
+    &.show {
+      background-color: rgba(53, 98, 89, 0.07) !important;
+      color: $brand-teal-dark !important;
+      box-shadow: none !important;
+    }
+  }
 }
 
 .navbar-logo {
@@ -825,7 +856,7 @@ h2:hover {
 
   /* Quarto renders title BEFORE categories; the mockup wants the order:
      1. categories  2. title  3. description  4. date.
-     Flex + order reorders without touching the listing template. */
+         Flex + order reorders without touching the listing template. */
   .card-body {
     display: flex;
     flex-direction: column;
@@ -1021,6 +1052,19 @@ body.quarto-dark {
 
     .navbar-toggler {
       border-color: rgba(255, 255, 255, 0.2) !important;
+    }
+
+    /* Language switcher — dark mode */
+    .babelquarto-languages-button {
+      color: rgba(255, 255, 255, 0.78) !important;
+
+      &:hover,
+      &:focus,
+      &:active,
+      &.show {
+        color: #9EBC83 !important;
+        background-color: rgba(255, 255, 255, 0.06) !important;
+      }
     }
   }
 

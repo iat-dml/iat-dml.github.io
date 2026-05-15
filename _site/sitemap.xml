@@ -1,50 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>/de/team.html</loc>
-    <lastmod>2026-04-01T13:54:24.090Z</lastmod>
-  </url>
-  <url>
-    <loc>/de/resources.html</loc>
-    <lastmod>2026-03-02T13:55:28.671Z</lastmod>
-  </url>
-  <url>
-    <loc>/de/privacy-policy.html</loc>
-    <lastmod>2026-04-29T07:45:46.276Z</lastmod>
-  </url>
-  <url>
-    <loc>/de/LICENSE.html</loc>
-    <lastmod>2026-05-15T09:59:29.124Z</lastmod>
-  </url>
-  <url>
-    <loc>/de/code-of-conduct.html</loc>
-    <lastmod>2026-03-02T14:37:57.738Z</lastmod>
-  </url>
-  <url>
-    <loc>/de/about.html</loc>
-    <lastmod>2026-03-02T11:42:42.656Z</lastmod>
-  </url>
-  <url>
-    <loc>/de/charter.html</loc>
-    <lastmod>2026-03-02T13:31:59.832Z</lastmod>
-  </url>
-  <url>
-    <loc>/de/index.html</loc>
-    <lastmod>2026-05-15T10:51:40.499Z</lastmod>
-  </url>
-  <url>
-    <loc>/de/news.html</loc>
-    <lastmod>2026-04-09T07:20:53.551Z</lastmod>
-  </url>
-  <url>
-    <loc>/de/projects.html</loc>
-    <lastmod>2026-04-09T07:12:37.150Z</lastmod>
-  </url>
-  <url>
-    <loc>/de/team/Ben.html</loc>
-    <lastmod>2026-04-01T16:14:25.491Z</lastmod>
-  </url>
-  <url>
     <loc>https://iat-dml.github.io/team.html</loc>
     <lastmod>2026-04-23T08:53:28.288Z</lastmod>
   </url>
