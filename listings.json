@@ -1,5 +1,12 @@
 [
   {
+    "listing": "/projects.html",
+    "items": [
+      "/projects/monkshilllabs.html",
+      "/projects/living-lab-dashboards.html"
+    ]
+  },
+  {
     "listing": "/team.html",
     "items": [
       "/team/Ben.html",
@@ -12,13 +19,6 @@
       "/news/2025-06-iemss-workshop.html",
       "/news/2025-01-iat-kickoff.html",
       "/news/2025-03-fairagro-summit.html"
-    ]
-  },
-  {
-    "listing": "/projects.html",
-    "items": [
-      "/projects/monkshilllabs.html",
-      "/projects/living-lab-dashboards.html"
     ]
   },
   {
