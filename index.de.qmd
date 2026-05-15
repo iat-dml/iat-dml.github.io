@@ -16,6 +16,8 @@ listing:
     grid-item-align: center
 ---
 ::: hero
+[IAT-Arbeitsgruppe]{.hero-eyebrow}
+
 # Daten- und Modellierungsinfrastruktur für Living Labs
 
 [Diskutieren Sie Ihr Projekt mit uns](mailto:benjaminsamuel.black@zalf.de){.hero-btn}
@@ -35,6 +37,7 @@ Willkommen auf der Website der Arbeitsgruppe Daten- und Modellierungsinfrastrukt
 
 
 [Erfahren Sie mehr über unsere Dienstleistungen und wie wir Sie unterstützen können](services.qmd){.btn-brand}
+
 [Beispiele für Projekte, die wir unterstützt haben](projects.qmd){.btn-brand}
 
 [Das Team kennenlernen](team.qmd){.btn-brand}
