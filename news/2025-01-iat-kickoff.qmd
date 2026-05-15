@@ -1,17 +1,17 @@
 ---
-title: "DMI Presents at IAT Kickoff Meeting"
+title: "DML Presents at IAT Kickoff Meeting"
 date: "2026-03-18"
 categories: [presentation, IAT, outreach]
 image: ../assets/concept-diagram.svg
-description: "Members of the DMI working group presented  at the IAT kickoff meeting, introducing our service concept for supporting researchers with data and modelling needs."
+description: "Members of the DML working group presented  at the IAT kickoff meeting, introducing our service concept for supporting researchers with data and modelling needs."
 ---
 
-In March 2026 the Innovation Center for Agricultural System Transformation (IAT) was officially launched, with two days of events at the Futurium in Berlin as well as the ZALF campus in Müncheberg. The focus of the 2nd day was on connecting researchers working on similar topics within the IAT from both ZALF and the partner institutions. We were fortunate to have an opportunity to present our concept for how the Data and Modelling Infrastructure for Living Labs group (DMI) will provide a three pillar approach of services to support IAT researchers and living labs in their data and modelling needs. The slides we presented are available below, and we are looking forward to engaging with the IAT and broader ZALF community in the coming months to produce some real outputs from collaborations to serve as a showcase for the services we can provide.
+In March 2026 the Innovation Center for Agricultural System Transformation (IAT) was officially launched, with two days of events at the Futurium in Berlin as well as the ZALF campus in Müncheberg. The focus of the 2nd day was on connecting researchers working on similar topics within the IAT from both ZALF and the partner institutions. We were fortunate to have an opportunity to present our concept for how the Data and Modelling Infrastructure for Living Labs group (DML) will provide a three pillar approach of services to support IAT researchers and living labs in their data and modelling needs. The slides we presented are available below, and we are looking forward to engaging with the IAT and broader ZALF community in the coming months to produce some real outputs from collaborations to serve as a showcase for the services we can provide.
 
 
 ```{=html}
 <div class="embed-container">
-  <p align="center"><iframe src="../assets/DMI-kickoff-presentation.pdf" style="border: 0.5px" ></iframe
+  <p align="center"><iframe src="../assets/DML-kickoff-presentation.pdf" style="border: 0.5px" ></iframe
   ></p>
 </div>
 ```

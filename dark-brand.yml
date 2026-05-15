@@ -19,9 +19,9 @@ logo:
     logo-iat:
       path: assets/logos/logo-IAT.png
       alt: "Innovation Center for Agricultural System Transformation"
-    logo-dmi:
-      path: assets/logos/logo-dmi-white-en.png
-      alt: "Data and Modelling Infrastructure for Living Labs (DMI)"
+    logo-DML:
+      path: assets/logos/logo-DML-white-en.png
+      alt: "Data and Modelling Infrastructure for Living Labs (DML)"
     logo-iat-zalf:
       path: assets/logos/logo-iat-zalf-white.png
       alt: "Innovation Center for Agricultural System Transformation & Leibniz Centre for Agricultural Landscape Research"

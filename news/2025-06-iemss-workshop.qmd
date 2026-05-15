@@ -3,12 +3,12 @@ title: "Upcoming Workshop and Hackathon at iEMSs 2026"
 date: "2026-07-12"
 image: "../assets/iemss2026_logo.png"
 categories: [workshop, hackathon, iEMSs, upcoming]
-description: "The DMI group is organising a workshop and hackathon at the iEMSs 2026 conference in Dublin"
+description: "The DML group is organising a workshop and hackathon at the iEMSs 2026 conference in Dublin"
 ---
 
 ::: {.columns .columns-center}
 ::: {.column}
-We are excited to announce that the DMI group will host both a workshop and a hackathon at the
+We are excited to announce that the DML group will host both a workshop and a hackathon at the
 [International Environmental Modelling and Software Society (iEMSs) 2026 conference in Dublin](https://conference.iemss.org/) over the 12-16th July.
 
 The workshop **"One Publishing Tool to Rule Them All: Quarto for Documentation, Presentations, Manuscripts and Outreach"**, which is being prepared in collaboration with researchers from [ETH Zurich](https://baug.ethz.ch/en/department/people/staff/personen-detail.MzE3MjU2.TGlzdC82NzksLTU1NTc1NDEwMQ==.html) will explore [Quarto](https://quarto.org/) as a unified solution for academic communication. Quarto can generate multiple output formats — PDF, HTML, LaTeX, and DOCX — from a single source document while supporting executable code in Python, R, Julia, and Observable. Through short presentations and guided exercises, participants will learn to produce documentation, reproducible journal articles, presentations, outreach websites, and interactive dashboards — all from one tool.
