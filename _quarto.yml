@@ -4,8 +4,8 @@ project:
     - references.bib
 website:
   favicon: assets/logos/logo-dmi-white-en.png
-  site-url: "https://DaMIfLL.github.io"
-  repo-url: "https://github.com/zalf-lli/DaMIfLL.github.io"
+  site-url: "https://DML.github.io"
+  repo-url: "https://github.com/zalf-lli/DML.github.io"
   title: "Data and Modelling Infrastructure for Living Labs"
   description: "This is the website of the Data and Modelling Infrastructure for Living Labs Working group (SWG) of the Innovation Center for Agricultural System Transformation (IAT) as part of the Liebniz Center for Agricultural Landscape Research (ZALF)." 
   page-footer: |
