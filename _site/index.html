@@ -1,14 +1,17 @@
 <!DOCTYPE html>
-<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
-
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+<head>
+<link rel="alternate" hreflang="en" href="/index.html" />
+<link rel="alternate" hreflang="de" href="/de/index.de.html" />
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.8.25">
-
+<meta name="generator" content="quarto-1.9.37">
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
-
-
 <title>Data and Modelling Infrastructure for Living Labs</title>
 <style>
+/* Default styles provided by pandoc.
+** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
+*/
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
 div.columns{display: flex; gap: min(4vw, 1.5em);}
@@ -21,37 +24,19 @@ ul.task-list li input[type="checkbox"] {
   vertical-align: middle;
 }
 </style>
-
-
-<script src="site_libs/quarto-nav/quarto-nav.js"></script>
-<script src="site_libs/quarto-nav/headroom.min.js"></script>
-<script src="site_libs/clipboard/clipboard.min.js"></script>
-<script src="site_libs/quarto-search/autocomplete.umd.js"></script>
-<script src="site_libs/quarto-search/fuse.min.js"></script>
-<script src="site_libs/quarto-search/quarto-search.js"></script>
-<meta name="quarto:offset" content="./">
-<link href="./assets/logos/logo-DML-white-en.png" rel="icon" type="image/png">
-<script src="site_libs/quarto-listing/list.min.js"></script>
-<script src="site_libs/quarto-listing/quarto-listing.js"></script>
-<script src="site_libs/quarto-html/quarto.js" type="module"></script>
-<script src="site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
-<script src="site_libs/quarto-html/axe/axe-check.js" type="module"></script>
-<script src="site_libs/quarto-html/popper.min.js"></script>
-<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
-<script src="site_libs/quarto-html/anchor.min.js"></script>
-<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-291a5f9f70427abdccba3f46b74154b5.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-dark-6dc061f6d1e55e67b8a69dca4c84c804.css" rel="stylesheet" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-291a5f9f70427abdccba3f46b74154b5.css" rel="stylesheet" class="quarto-color-scheme-extra" id="quarto-text-highlighting-styles">
-<script src="site_libs/bootstrap/bootstrap.min.js"></script>
-<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-ab2a624d374c340e4e31b9db312e0408.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
-<link href="site_libs/bootstrap/bootstrap-dark-575ddb4b7ada37a68746a2d878fa0cb2.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
-<link href="site_libs/bootstrap/bootstrap-ab2a624d374c340e4e31b9db312e0408.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
+<script src="site_libs/quarto-nav/quarto-nav.js"></script><script src="site_libs/quarto-nav/headroom.min.js"></script><script src="site_libs/clipboard/clipboard.min.js"></script><script src="site_libs/quarto-search/autocomplete.umd.js"></script><script src="site_libs/quarto-search/fuse.min.js"></script><script src="site_libs/quarto-search/quarto-search.js"></script><meta name="quarto:offset" content="./">
+<link href="./assets/logos/logo-dml-white-en.png" rel="icon" type="image/png">
+<script src="site_libs/quarto-listing/list.min.js"></script><script src="site_libs/quarto-listing/quarto-listing.js"></script><script src="site_libs/quarto-html/quarto.js" type="module"></script><script src="site_libs/quarto-html/tabsets/tabsets.js" type="module"></script><script src="site_libs/quarto-html/popper.min.js"></script><script src="site_libs/quarto-html/tippy.umd.min.js"></script><script src="site_libs/quarto-html/anchor.min.js"></script><link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-e0478103bcd67e6e365f68c8031923de.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-dark-dfbc809d33f558df5acac9759c9e9b7f.css" rel="stylesheet" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-e0478103bcd67e6e365f68c8031923de.css" rel="stylesheet" class="quarto-color-scheme-extra" id="quarto-text-highlighting-styles">
+<script src="site_libs/bootstrap/bootstrap.min.js"></script><link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="site_libs/bootstrap/bootstrap-0a13b1a43e249acc23f9e049bbc28501.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-dark-b6e397dc5a25a1566a9fa8164441d648.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
+<link href="site_libs/bootstrap/bootstrap-0a13b1a43e249acc23f9e049bbc28501.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
 <link href="site_libs/quarto-contrib/fontawesome6-0.1.0/all.css" rel="stylesheet">
 <link href="site_libs/quarto-contrib/fontawesome6-0.1.0/latex-fontsize.css" rel="stylesheet">
-<script src="site_libs/quarto-contrib/glightbox/glightbox.min.js"></script>
-<link href="site_libs/quarto-contrib/glightbox/glightbox.min.css" rel="stylesheet">
+<script src="site_libs/quarto-contrib/glightbox/glightbox.min.js"></script><link href="site_libs/quarto-contrib/glightbox/glightbox.min.css" rel="stylesheet">
 <link href="site_libs/quarto-contrib/glightbox/lightbox.css" rel="stylesheet">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
@@ -79,8 +64,7 @@ ul.task-list li input[type="checkbox"] {
     "search-submit-button-title": "Submit",
     "search-label": "Search"
   }
-}</script>
-<script>
+}</script><script>
 
   window.document.addEventListener("DOMContentLoaded", function (_event) {
     const listingTargetEl = window.document.querySelector('#listing-news-listing .list');
@@ -136,12 +120,7 @@ ul.task-list li input[type="checkbox"] {
       window['quarto-listing-loaded']();
     }
   })
-  </script>
-
-  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
-  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
-
-<script type="text/javascript">
+  </script><script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script><script defer src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script><script type="text/javascript">
 const typesetMath = (el) => {
   if (window.MathJax) {
     // MathJax Typeset
@@ -167,10 +146,9 @@ window.Quarto = {
   typesetMath
 };
 </script>
-
 </head>
-
-<body class="nav-fixed quarto-light"><script id="quarto-html-before-body" type="application/javascript">
+<body class="nav-fixed quarto-light">
+<script id="quarto-html-before-body" type="application/javascript">
     const toggleBodyColorMode = (bsSheetEl) => {
       const mode = bsSheetEl.getAttribute("data-mode");
       const bodyEl = window.document.querySelector("body");
@@ -341,17 +319,11 @@ window.Quarto = {
     } else {
       toggleColorMode(false);
     }
-  </script>
-
-<div id="quarto-search-results"></div>
-  <header id="quarto-header" class="headroom fixed-top">
-    <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
-      <div class="navbar-container container-fluid">
+  </script><div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top"><nav class="navbar navbar-expand-lg " data-bs-theme="dark"><div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
     <a href="./index.html" class="navbar-brand navbar-brand-logo">
-    <img src="./assets\logos\logo-iat-zalf-white.png" alt="Innovation Center for Agricultural System Transformation &amp; Leibniz Centre for Agricultural Landscape Research" class="navbar-logo light-content">
-    <img src="./assets\logos\logo-iat-zalf-white.png" alt="Innovation Center for Agricultural System Transformation &amp; Leibniz Centre for Agricultural Landscape Research" class="navbar-logo dark-content">
-    </a>
+    <img src="./assets\logos\logo-IAT.png" alt="Innovation Center for Agricultural System Transformation" class="navbar-logo light-content"><img src="./assets\logos\logo-iat-zalf-white.png" alt="Innovation Center for Agricultural System Transformation &amp; Leibniz Centre for Agricultural Landscape Research" class="navbar-logo dark-content"></a>
   </div>
             <div id="quarto-search" class="" title="Search"></div>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" role="menu" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
@@ -359,7 +331,10 @@ window.Quarto = {
 </button>
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll ms-auto">
-  <li class="nav-item">
+<li class="nav-item"><div class="dropdown" id="languages-links-parent">
+<button class="btn btn-primary dropdown-toggle babelquarto-languages-button" type="button" data-bs-toggle="dropdown" aria-expanded="false" id="languages-button"><i class="bi bi-globe2"></i> ENG</button><ul class="dropdown-menu" id="languages-links"><li><a class="dropdown-item" href="/de/index.html" id="language-link-de">DE</a></li></ul>
+</div></li>
+<li class="nav-item">
     <a class="nav-link active" href="./index.html" aria-current="page"> 
 <span class="menu-text">Home</span></a>
   </li>  
@@ -383,8 +358,8 @@ window.Quarto = {
     <a class="nav-link dropdown-toggle" href="#" id="nav-menu-about" role="link" data-bs-toggle="dropdown" aria-expanded="false">
  <span class="menu-text">About</span>
     </a>
-    <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="nav-menu-about">    
-        <li>
+    <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="nav-menu-about">
+<li>
     <a class="dropdown-item" href="./code-of-conduct.html">
  <span class="dropdown-text">Code of Conduct</span></a>
   </li>  
@@ -393,7 +368,7 @@ window.Quarto = {
  <span class="dropdown-text">Charter</span></a>
   </li>  
     </ul>
-  </li>
+</li>
   <li class="nav-item compact">
     <a class="nav-link" href="https://github.com/iat-dml"> <i class="bi bi-github" role="img">
 </i> 
@@ -405,36 +380,25 @@ window.Quarto = {
 <span class="menu-text"></span></a>
   </li>  
 </ul>
-          </div> <!-- /navcollapse -->
+</div> <!-- /navcollapse -->
             <div class="quarto-navbar-tools">
   <a href="" class="quarto-color-scheme-toggle quarto-navigation-tool  px-1" onclick="window.quartoToggleColorScheme(); return false;" title="Toggle dark mode"><i class="bi"></i></a>
 </div>
       </div> <!-- /container-fluid -->
-    </nav>
-</header>
-<!-- content -->
-<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-full page-navbar">
+    </nav></header><!-- content --><div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-full page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
     
 <!-- main -->
-<main class="content column-page" id="quarto-document-content"><header id="title-block-header" class="quarto-title-block"></header>
-
-
-
-
-
-<div class="hero">
+<main class="content column-page" id="quarto-document-content"><header id="title-block-header" class="quarto-title-block"></header><div class="hero">
 <p><span class="hero-eyebrow">IAT Service Working Group</span></p>
-<section id="data-and-modelling-infrastructure-for-living-labs" class="level1">
-<h1>Data and Modelling Infrastructure for Living Labs</h1>
+<section id="data-and-modelling-infrastructure-for-living-labs" class="level1"><h1>Data and Modelling Infrastructure for Living Labs</h1>
 <p><a href="mailto:benjaminsamuel.black@zalf.de" class="hero-btn">Discuss your project with us</a></p>
 </section>
 </div>
 <p>Welcome to the website of the Data and Modelling Infrastructure for Living Labs (DML) Working Group. We are a service working group within the <a href="https://www.zalf.de/de/struktur/iat/Seiten/default.aspx">Innovation Center for Agricultural System Transformation (IAT)</a> as part of the <a href="https://www.zalf.de/de/struktur/iat/Seiten/default.aspx">Liebniz Center for Agricultural Landscape Research (ZALF)</a>. Our mission is to support researchers and partners within the IAT with all things related to data and modelling. We have represented the different ways that we do this in the graphic below:</p>
 <div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><a href="assets/logos/logo-DML-white-en.png" class="lightbox" data-gallery="quarto-lightbox-gallery-1"><img src="assets/logos/logo-DML-white-en.png" class="img-fluid quarto-figure quarto-figure-center figure-img" style="width:50.0%" alt="Visualisation of the three key service areas of the group"></a></p>
+<figure class="figure"><p><a href="assets/logos/logo-DML-white-en.png" class="lightbox" data-gallery="quarto-lightbox-gallery-1"><img src="assets/logos/logo-DML-white-en.png" class="img-fluid quarto-figure quarto-figure-center figure-img" style="width:50.0%" alt="Visualisation of the three key service areas of the group"></a></p>
 </figure>
 </div>
 <div style="text-align: center">
@@ -447,16 +411,14 @@ window.Quarto = {
 </div>
 <div class="columns-divided">
 <div class="column" style="text-align: center">
-<section id="news" class="level2">
-<h2 class="anchored" data-anchor-id="news">News</h2>
+<section id="news" class="level2"><h2 class="anchored" data-anchor-id="news">News</h2>
 <div id="listing-news-listing" class="quarto-listing quarto-listing-container-grid">
 <div class="list grid quarto-listing-cols-1">
-<div class="g-col-1" data-index="0" data-categories="d29ya3Nob3AlMkNoYWNrYXRob24lMkNpRU1TcyUyQ3VwY29taW5n" data-listing-date-sort="1783807200000" data-listing-file-modified-sort="1778321768430" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="185">
+<div class="g-col-1" data-index="0" data-categories="d29ya3Nob3AlMkNoYWNrYXRob24lMkNpRU1TcyUyQ3VwY29taW5n" data-listing-date-sort="1783807200000" data-listing-file-modified-sort="1778559187928" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="185">
 <a href="./news/2025-06-iemss-workshop.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-center">
 <p class="card-img-top">
-<img loading="lazy" src="./assets/iemss2026_logo.png" class="thumbnail-image card-img" style="height: 150px;">
-</p>
+<img loading="lazy" src="./assets/iemss2026_logo.png" class="thumbnail-image card-img" style="height: 150px;"></p>
 <div class="card-body post-contents">
 <h5 class="no-anchor card-title listing-title">
 Upcoming Workshop and Hackathon at iEMSs 2026
@@ -483,12 +445,11 @@ Jul 12, 2026
 </div>
 </div></a>
 </div>
-<div class="g-col-1" data-index="1" data-categories="cHJlc2VudGF0aW9uJTJDSUFUJTJDb3V0cmVhY2g=" data-listing-date-sort="1773788400000" data-listing-file-modified-sort="1778321768430" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="153">
+<div class="g-col-1" data-index="1" data-categories="cHJlc2VudGF0aW9uJTJDSUFUJTJDb3V0cmVhY2g=" data-listing-date-sort="1773788400000" data-listing-file-modified-sort="1778559187928" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="153">
 <a href="./news/2025-01-iat-kickoff.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-center">
 <p class="card-img-top">
-<img loading="lazy" src="./assets/concept-diagram.svg" class="thumbnail-image card-img" style="height: 150px;">
-</p>
+<img loading="lazy" src="./assets/concept-diagram.svg" class="thumbnail-image card-img" style="height: 150px;"></p>
 <div class="card-body post-contents">
 <h5 class="no-anchor card-title listing-title">
 DML Presents at IAT Kickoff Meeting
@@ -513,12 +474,11 @@ Mar 18, 2026
 </div>
 </div></a>
 </div>
-<div class="g-col-1" data-index="2" data-categories="RkFJUmFncm8lMkNGQUlSJTIwZGF0YSUyQ2NvbW11bml0eQ==" data-listing-date-sort="1772665200000" data-listing-file-modified-sort="1778321768430" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="44">
+<div class="g-col-1" data-index="2" data-categories="RkFJUmFncm8lMkNGQUlSJTIwZGF0YSUyQ2NvbW11bml0eQ==" data-listing-date-sort="1772665200000" data-listing-file-modified-sort="1778839297024" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="44">
 <a href="./news/2025-03-fairagro-summit.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-center">
 <p class="card-img-top">
-<img loading="lazy" src="./assets/FAIRagro-summit.jpg" class="thumbnail-image card-img" style="height: 150px;">
-</p>
+<img loading="lazy" src="./assets/FAIRagro-summit.jpg" class="thumbnail-image card-img" style="height: 150px;"></p>
 <div class="card-body post-contents">
 <h5 class="no-anchor card-title listing-title">
 DML at the FAIRagro Community Summit
@@ -549,14 +509,13 @@ Mar 5, 2026
 </section>
 </div>
 <div class="column" style="text-align: center">
-<section id="projects" class="level2">
-<h2 class="anchored" data-anchor-id="projects">Projects</h2>
+<section id="projects" class="level2"><h2 class="anchored" data-anchor-id="projects">Projects</h2>
 <div id="listing-projects-listing" class="quarto-listing quarto-listing-container-grid">
 <div class="list grid quarto-listing-cols-1">
-<div class="g-col-1" data-index="0" data-categories="aW5mcmFzdHJ1Y3R1cmUlMkNjb2xsYWJvcmF0aW9uJTJDcmVzZWFyY2glMjBwbGF0Zm9ybQ==" data-listing-date-sort="1731625200000" data-listing-file-modified-sort="1778321768437" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="59">
+<div class="g-col-1" data-index="0" data-categories="aW5mcmFzdHJ1Y3R1cmUlMkNjb2xsYWJvcmF0aW9uJTJDcmVzZWFyY2glMjBwbGF0Zm9ybQ==" data-listing-date-sort="1731625200000" data-listing-file-modified-sort="1775134542694" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="59">
 <a href="./projects/monkshilllabs.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-center">
-<div class="listing-item-img-placeholder card-img-top" style="height: 150px;">&nbsp;</div>
+<div class="listing-item-img-placeholder card-img-top" style="height: 150px;"> </div>
 <div class="card-body post-contents">
 <h5 class="no-anchor card-title listing-title">
 MonksHillLabs Initiative
@@ -581,10 +540,10 @@ Nov 15, 2024
 </div>
 </div></a>
 </div>
-<div class="g-col-1" data-index="1" data-categories="ZGFzaGJvYXJkJTJDdmlzdWFsaXphdGlvbiUyQ2xpdmluZyUyMGxhYnM=" data-listing-date-sort="1725141600000" data-listing-file-modified-sort="1778321768430" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="58">
+<div class="g-col-1" data-index="1" data-categories="ZGFzaGJvYXJkJTJDdmlzdWFsaXphdGlvbiUyQ2xpdmluZyUyMGxhYnM=" data-listing-date-sort="1725141600000" data-listing-file-modified-sort="1775134542689" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="58">
 <a href="./projects/living-lab-dashboards.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-center">
-<div class="listing-item-img-placeholder card-img-top" style="height: 150px;">&nbsp;</div>
+<div class="listing-item-img-placeholder card-img-top" style="height: 150px;"> </div>
 <div class="card-body post-contents">
 <h5 class="no-anchor card-title listing-title">
 Living Lab Dashboards
@@ -619,8 +578,7 @@ Sep 1, 2024
 
 
 
-</main> <!-- /main -->
-<script id="quarto-html-after-body" type="application/javascript">
+</main><!-- /main --><script id="quarto-html-after-body" type="application/javascript">
   window.document.addEventListener("DOMContentLoaded", function (event) {
     // Ensure there is a toggle, if there isn't float one in the top right
     if (window.document.querySelector('.quarto-color-scheme-toggle') === null) {
@@ -706,7 +664,7 @@ Sep 1, 2024
     }
       var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
       var mailtoRegex = new RegExp(/^mailto:/);
-        var filterRegex = new RegExp("https:\/\/DML\.github\.io");
+        var filterRegex = new RegExp("https:\/\/iat-dml\.github\.io");
       var isInternal = (href) => {
           return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
       }
@@ -1034,20 +992,18 @@ Sep 1, 2024
   });
   </script>
 </div> <!-- /content -->
-<footer class="footer">
-  <div class="nav-footer">
+<footer class="footer"><div class="nav-footer">
     <div class="nav-footer-left">
-      &nbsp;
+       
     </div>   
     <div class="nav-footer-center">
-<p><img src=".\assets/footer-light.png" class="light-content img-fluid" style="width:100.0%" alt="Banner of partners"><img src=".\assets/footer-dark.png" class="dark-content img-fluid" style="width:100.0%" alt="Banner of partners"> <i class="fa-regular fa-copyright" aria-label="copyright"></i> Benjamin Black, 2026 All content licensed under <i class="fa-brands fa-creative-commons" aria-label="creative-commons"></i> <i class="fa-brands fa-creative-commons-by" aria-label="creative-commons-by"></i> <i class="fa-brands fa-creative-commons-sa" aria-label="creative-commons-sa"></i> <i class="fa-brands fa-creative-commons-nc" aria-label="creative-commons-nc"></i> <a href="http://creativecommons.org/licenses/by-nc-sa/4.0/">(CC BY-NC-SA 4.0)</a> · <a href="./privacy-policy.html">Privacy policy</a></p>
+<p><img src=".\assets/footer-light.png" class="light-content img-fluid" style="width:100.0%" alt="Banner of partners"><img src=".\assets/footer-dark.png" class="dark-content img-fluid" style="width:100.0%" alt="Banner of partners"><i class="fa-regular fa-copyright" aria-label="copyright"></i> Benjamin Black, 2026 All content licensed under <i class="fa-brands fa-creative-commons" aria-label="creative-commons"></i> <i class="fa-brands fa-creative-commons-by" aria-label="creative-commons-by"></i> <i class="fa-brands fa-creative-commons-sa" aria-label="creative-commons-sa"></i> <i class="fa-brands fa-creative-commons-nc" aria-label="creative-commons-nc"></i> <a href="http://creativecommons.org/licenses/by-nc-sa/4.0/">(CC BY-NC-SA 4.0)</a> · <a href="./privacy-policy.html">Privacy policy</a></p>
 </div>
     <div class="nav-footer-right">
-      &nbsp;
+       
     </div>
   </div>
-</footer>
-<script>
+</footer><script>
 
   // Hero Image Background Handler
 
@@ -1077,9 +1033,7 @@ Sep 1, 2024
 
   });
 
-</script>
-
-<script>var lightboxQuarto = GLightbox({"closeEffect":"zoom","descPosition":"bottom","loop":false,"openEffect":"zoom","selector":".lightbox"});
+</script><script>var lightboxQuarto = GLightbox({"closeEffect":"zoom","descPosition":"bottom","loop":false,"openEffect":"zoom","selector":".lightbox"});
 (function() {
   let previousOnload = window.onload;
   window.onload = () => {
@@ -1111,8 +1065,5 @@ Sep 1, 2024
   
 })();
           </script>
-
-
-
-
-</body></html>
+</body>
+</html>

@@ -25,9 +25,9 @@ logo:
     logo-iat-zalf:
       path: assets/logos/logo-iat-zalf-white.png
       alt: "Innovation Center for Agricultural System Transformation & Leibniz Centre for Agricultural Landscape Research"
-  medium: logo-iat-zalf
-  large:  logo-iat-zalf
-  small:  logo-iat-zalf
+  medium: logo-iat
+  large:  logo-iat
+  small:  logo-iat
 
 color:
   palette:
@@ -103,7 +103,7 @@ typography:
     size: 0.9em
 
   monospace-inline:
-    background-color: gray-light
+    background-color: "#EAE6DF"
 
   link:
     color: primary

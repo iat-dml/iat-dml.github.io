@@ -7,60 +7,32 @@
     "text": "Click on each team members profile for further information.\n\n\n\n  \n    \n      \n        \n        \n          \n        \n        \n        \n        \n        \n          \n            \n              \n          \n            \n          \n              \n            \n              \n          \n            \n          \n              \n            \n              \n          \n            \n          \n              \n            \n              \n          \n            \n          \n              \n            \n          \n        \n        \n        \n        \n          \n          Ben Black\n          \n          \n          \n          Head of the working group\n          \n\n          \n          \n            Ben is the head of our working group, responsible for overseeing all projects and ensuring successful delivery. With a strong background in software engineering and team leadership, Ben has been instrumental in driving innovation and fostering a collaborative work environment.\n          \n          \n          \n          \n          \n            Expertise:\n            \n            \n              \n            R\n              \n            Quarto\n              \n            Team Leadership\n              \n            System Design\n              \n            \n          \n          \n          \n          \n          \n          \n            Projects:\n            \n              \n                \n                  \n              Cloud Migration Platform\n                  \n                \n                  \n              Microservices Framework\n                  \n                \n                  \n              Developer Portal\n                  \n                \n              \n            \n          \n          \n        \n      \n    \n  \n\n  \n    \n      \n        \n        \n          \n        \n        \n        \n        \n        \n        \n          \n          Data Steward\n          \n          \n          \n          Data Steward\n          \n\n          \n          \n            \n          \n          \n          \n          \n          \n            Expertise:\n            \n            \n              \n            R\n              \n            Quarto\n              \n            Team Leadership\n              \n            System Design\n              \n            \n          \n          \n          \n          \n          \n          \n            Projects:\n            \n              \n                \n                  \n              Cloud Migration Platform\n                  \n                \n                  \n              Microservices Framework\n                  \n                \n                  \n              Developer Portal\n                  \n                \n              \n            \n          \n          \n        \n      \n    \n  \n\n\nNo matching items"
   },
   {
-    "objectID": "team/Ben.de.html",
-    "href": "team/Ben.de.html",
+    "objectID": "team/Ben.html",
+    "href": "team/Ben.html",
     "title": "Ben Black",
     "section": "",
     "text": "University of California, San Diego | San Diego, CA PhD in Mathematics | Sept 2011 - June 2015\nMacalester College | St. Paul, MN B.A in Economics | Sept 2007 - June 2011"
   },
   {
-    "objectID": "team/Ben.de.html#education",
-    "href": "team/Ben.de.html#education",
+    "objectID": "team/Ben.html#education",
+    "href": "team/Ben.html#education",
     "title": "Ben Black",
     "section": "",
     "text": "University of California, San Diego | San Diego, CA PhD in Mathematics | Sept 2011 - June 2015\nMacalester College | St. Paul, MN B.A in Economics | Sept 2007 - June 2011"
   },
   {
-    "objectID": "team/Ben.de.html#experience",
-    "href": "team/Ben.de.html#experience",
+    "objectID": "team/Ben.html#experience",
+    "href": "team/Ben.html#experience",
     "title": "Ben Black",
     "section": "Experience",
     "text": "Experience\nWengo Analytics | Head Data Scientist | April 2018 - present\nGeoScynce | Chief Analyst | Spet 2012 - April 2018 test"
   },
   {
-    "objectID": "resources.de.html",
-    "href": "resources.de.html",
-    "title": "Ressourcen",
+    "objectID": "projects.html",
+    "href": "projects.html",
+    "title": "Projects",
     "section": "",
-    "text": "Dieses Repository soll ein lebendiges Dokument für SWG- und IAT-Mitglieder sein, um nützliche Informationen und Ressourcen in Bezug auf Open Science, Programmierung und Datenvisualisierung auszutauschen.\nEinige Dokumente, die Leitprinzipien enthalten:\nCheck out the Open Science Awesome List"
-  },
-  {
-    "objectID": "resources.de.html#datenvisualisierung",
-    "href": "resources.de.html#datenvisualisierung",
-    "title": "Ressourcen",
-    "section": "Datenvisualisierung",
-    "text": "Datenvisualisierung\n\nFundamentals of Data Visualization\nOpen Visualisation Academy"
-  },
-  {
-    "objectID": "resources.de.html#r",
-    "href": "resources.de.html#r",
-    "title": "Ressourcen",
-    "section": "R",
-    "text": "R\nWhat they forgot to teach you about R: https://rstats.wtf/"
-  },
-  {
-    "objectID": "resources.de.html#quarto",
-    "href": "resources.de.html#quarto",
-    "title": "Ressourcen",
-    "section": "Quarto",
-    "text": "Quarto\n\nBeautiful slides with RevealJS and Quarto"
-  },
-  {
-    "objectID": "projects.de.html",
-    "href": "projects.de.html",
-    "title": "Projekte",
-    "section": "",
-    "text": "No matching items"
+    "text": "MonksHillLabs Initiative\n\n\n\ninfrastructure\n\ncollaboration\n\nresearch platform\n\n\n\nMonksHillLabs provides shared research infrastructure and collaborative workspace for developing and testing landscape modelling tools and data workflows.\n\n\n\nNov 15, 2024\n\n\n\n\n\n\n\n\n\n\n\nLiving Lab Dashboards\n\n\n\ndashboard\n\nvisualization\n\nliving labs\n\n\n\nInteractive dashboards for monitoring and analyzing living lab experiments across multiple sites in the landscape research network.\n\n\n\nSep 1, 2024\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "projects/living-lab-dashboards.html",
@@ -70,95 +42,11 @@
     "text": "The Living Lab Dashboards project develops interactive web-based tools for visualizing and exploring data from living lab experiments conducted across our research network.\nThese dashboards integrate diverse data streams including environmental sensors, field observations, and remote sensing data to provide real-time insights into landscape dynamics and experimental outcomes.\nThe platform supports collaborative analysis and data-driven decision making for adaptive management of living lab sites."
   },
   {
-    "objectID": "privacy-policy.de.html",
-    "href": "privacy-policy.de.html",
-    "title": "Datenschutzerklärung",
+    "objectID": "news.html",
+    "href": "news.html",
+    "title": "News",
     "section": "",
-    "text": "Diese Website ist eine statische Website, die über GitHub Pages bereitgestellt wird. Wir erheben nicht aktiv personenbezogene Daten. Allerdings kann GitHub bei einem Besuch personenbezogene Daten verarbeiten (z. B. Protokolldaten einschließlich IP-Adressen), um rechtliche Verpflichtungen zu erfüllen sowie die Sicherheit und Integrität der Website und des Dienstes zu gewährleisten. Details finden Sie in der GitHub-Datenschutzerklärung."
-  },
-  {
-    "objectID": "privacy-policy.de.html#überblick",
-    "href": "privacy-policy.de.html#überblick",
-    "title": "Datenschutzerklärung",
-    "section": "",
-    "text": "Diese Website ist eine statische Website, die über GitHub Pages bereitgestellt wird. Wir erheben nicht aktiv personenbezogene Daten. Allerdings kann GitHub bei einem Besuch personenbezogene Daten verarbeiten (z. B. Protokolldaten einschließlich IP-Adressen), um rechtliche Verpflichtungen zu erfüllen sowie die Sicherheit und Integrität der Website und des Dienstes zu gewährleisten. Details finden Sie in der GitHub-Datenschutzerklärung."
-  },
-  {
-    "objectID": "privacy-policy.de.html#zweck-dieser-datenschutzerklärung",
-    "href": "privacy-policy.de.html#zweck-dieser-datenschutzerklärung",
-    "title": "Datenschutzerklärung",
-    "section": "1. Zweck dieser Datenschutzerklärung",
-    "text": "1. Zweck dieser Datenschutzerklärung\nDie Arbeitsgruppe „Data and Modelling Infrastructure for Living Labs (DML)“ am Leibniz-Zentrum für Agrarlandschaftsforschung (ZALF) legt großen Wert auf den Schutz Ihrer personenbezogenen Daten. Diese Datenschutzerklärung informiert darüber, welche personenbezogenen Daten beim Besuch dieser Website verarbeitet werden können, zu welchen Zwecken dies geschieht und welche Rechte Ihnen zustehen."
-  },
-  {
-    "objectID": "privacy-policy.de.html#erhebung-und-verarbeitung-von-daten",
-    "href": "privacy-policy.de.html#erhebung-und-verarbeitung-von-daten",
-    "title": "Datenschutzerklärung",
-    "section": "2. Erhebung und Verarbeitung von Daten",
-    "text": "2. Erhebung und Verarbeitung von Daten\nDa es sich um eine statische Website auf GitHub Pages handelt, verarbeiten wir selbst keine personenbezogenen Daten aktiv. Im Rahmen des Betriebs können jedoch durch den Hosting-Anbieter folgende Daten verarbeitet werden:\n\nProtokolldaten: Informationen wie IP-Adresse, Browsertyp, Betriebssystem, Referrer-URL, aufgerufene Seiten und Zeitstempel können von GitHub Pages protokolliert werden.\nCookies: Diese Website setzt selbst keine Tracking-Cookies. GitHub kann Cookies einsetzen, um seine Dienste bereitzustellen und abzusichern.\n\nWeitere Informationen finden Sie in der GitHub-Datenschutzerklärung."
-  },
-  {
-    "objectID": "privacy-policy.de.html#zweck-der-verarbeitung",
-    "href": "privacy-policy.de.html#zweck-der-verarbeitung",
-    "title": "Datenschutzerklärung",
-    "section": "3. Zweck der Verarbeitung",
-    "text": "3. Zweck der Verarbeitung\nWir verwenden personenbezogene Daten nicht für Analyse-, Marketing- oder Profiling-Zwecke. Eine etwaige Verarbeitung durch GitHub (z. B. Server-Logs) dient dem Betrieb und der Sicherheit der Hosting-Plattform."
-  },
-  {
-    "objectID": "privacy-policy.de.html#weitergabe-von-daten",
-    "href": "privacy-policy.de.html#weitergabe-von-daten",
-    "title": "Datenschutzerklärung",
-    "section": "4. Weitergabe von Daten",
-    "text": "4. Weitergabe von Daten\nWir verkaufen oder vermieten keine personenbezogenen Daten und geben sie nicht an Dritte weiter. GitHub kann Daten als Hosting-Anbieter gemäß seiner Datenschutzerklärung verarbeiten."
-  },
-  {
-    "objectID": "privacy-policy.de.html#rechte-der-betroffenen-personen-dsgvo",
-    "href": "privacy-policy.de.html#rechte-der-betroffenen-personen-dsgvo",
-    "title": "Datenschutzerklärung",
-    "section": "5. Rechte der betroffenen Personen (DSGVO)",
-    "text": "5. Rechte der betroffenen Personen (DSGVO)\nNach der DSGVO haben Sie insbesondere folgende Rechte:\n\nAuskunft (Art. 15)\nBerichtigung (Art. 16)\nLöschung (Art. 17)\nEinschränkung der Verarbeitung (Art. 18)\nWiderspruch (Art. 21)\nDatenübertragbarkeit (Art. 20)\n\nZudem haben Sie das Recht, sich bei einer Aufsichtsbehörde zu beschweren (Art. 77)."
-  },
-  {
-    "objectID": "privacy-policy.de.html#speicherdauer",
-    "href": "privacy-policy.de.html#speicherdauer",
-    "title": "Datenschutzerklärung",
-    "section": "6. Speicherdauer",
-    "text": "6. Speicherdauer\nWir speichern über diese Website keine personenbezogenen Daten. Etwaige Protokolldaten werden durch GitHub gemäß deren Aufbewahrungsrichtlinien verarbeitet."
-  },
-  {
-    "objectID": "privacy-policy.de.html#dienste-dritter-und-externe-links",
-    "href": "privacy-policy.de.html#dienste-dritter-und-externe-links",
-    "title": "Datenschutzerklärung",
-    "section": "7. Dienste Dritter und externe Links",
-    "text": "7. Dienste Dritter und externe Links\nDiese Website kann Links zu externen Websites enthalten. Für deren Datenschutzpraktiken sind wir nicht verantwortlich. Bitte beachten Sie die jeweiligen Datenschutzhinweise."
-  },
-  {
-    "objectID": "privacy-policy.de.html#sicherheitsmaßnahmen",
-    "href": "privacy-policy.de.html#sicherheitsmaßnahmen",
-    "title": "Datenschutzerklärung",
-    "section": "8. Sicherheitsmaßnahmen",
-    "text": "8. Sicherheitsmaßnahmen\nDiese Website betreibt keine eigene Nutzerdatenbank. GitHub Pages stellt Betriebs- und Plattform-Sicherheit bereit. Weitere Informationen finden Sie in GitHub’s Security overview."
-  },
-  {
-    "objectID": "privacy-policy.de.html#aktualisierungen",
-    "href": "privacy-policy.de.html#aktualisierungen",
-    "title": "Datenschutzerklärung",
-    "section": "9. Aktualisierungen",
-    "text": "9. Aktualisierungen\nWir können diese Datenschutzerklärung anpassen, um rechtliche Anforderungen oder Änderungen der Website abzubilden. Die jeweils aktuelle Version wird auf dieser Seite veröffentlicht."
-  },
-  {
-    "objectID": "privacy-policy.de.html#kontakt",
-    "href": "privacy-policy.de.html#kontakt",
-    "title": "Datenschutzerklärung",
-    "section": "10. Kontakt",
-    "text": "10. Kontakt\nBei Fragen zur Datenschutzerklärung kontaktieren Sie uns bitte:\n\nLeibniz-Zentrum für Agrarlandschaftsforschung (ZALF) e.V.\nArbeitsgruppe „Data and Modelling Infrastructure for Living Labs (DML)”\nE-mail: benjaminsamuel.black@zalf.de"
-  },
-  {
-    "objectID": "news.de.html",
-    "href": "news.de.html",
-    "title": "Nachrichten",
-    "section": "",
-    "text": "No matching items"
+    "text": "Upcoming Workshop and Hackathon at iEMSs 2026\n\n\n\nworkshop\n\nhackathon\n\niEMSs\n\nupcoming\n\n\n\nThe DML group is organising a workshop and hackathon at the iEMSs 2026 conference in Dublin\n\n\n\nJul 12, 2026\n\n\n\n\n\n\n\n\n\n\n\n\n\nDML Presents at IAT Kickoff Meeting\n\n\n\npresentation\n\nIAT\n\noutreach\n\n\n\nMembers of the DML working group presented at the IAT kickoff meeting, introducing our service concept for supporting researchers with data and modelling needs.\n\n\n\nMar 18, 2026\n\n\n\n\n\n\n\n\n\n\n\n\n\nDML at the FAIRagro Community Summit\n\n\n\nFAIRagro\n\nFAIR data\n\ncommunity\n\n\n\nDML working group members attended the FAIRagro community summit, engaging with the FAIR data community in Agricultural research.\n\n\n\nMar 5, 2026\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "news/2025-03-fairagro-summit.html",
@@ -189,34 +77,6 @@
     "text": "Except where otherwise noted, the software and infrastructure provided by the The ZALF Living Labs Infrastructure Community are made available under the OSI-approved MIT license.\n\nPermission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the “Software”), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:\nThe above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.\nTHE SOFTWARE IS PROVIDED “AS IS”, WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE."
   },
   {
-    "objectID": "index.de.html",
-    "href": "index.de.html",
-    "title": "Daten- und Modellierungsinfrastruktur für Living Labs",
-    "section": "",
-    "text": "Diskutieren Sie Ihr Projekt mit uns\nWillkommen auf der Website der Arbeitsgruppe Daten- und Modellierungsinfrastruktur für Living Labs (DML). Wir sind eine Service-Arbeitsgruppe innerhalb des Innovationszentrums für Agrarsystemtransformation (IAT) am Leibniz-Zentrum für Agrarlandschaftsforschung (ZALF). Unsere Mission ist es, Forschende und Partner innerhalb des IAT in allen Belangen rund um Daten und Modellierung zu unterstützen. Die verschiedenen Möglichkeiten, wie wir dies tun, haben wir in der Grafik unten dargestellt:"
-  },
-  {
-    "objectID": "index.de.html#news",
-    "href": "index.de.html#news",
-    "title": "Daten- und Modellierungsinfrastruktur für Living Labs",
-    "section": "News",
-    "text": "News\n\n\n\n\nNo matching items"
-  },
-  {
-    "objectID": "index.de.html#projects",
-    "href": "index.de.html#projects",
-    "title": "Daten- und Modellierungsinfrastruktur für Living Labs",
-    "section": "Projects",
-    "text": "Projects\n\n\n\n\nNo matching items"
-  },
-  {
-    "objectID": "charter.html",
-    "href": "charter.html",
-    "title": "Data and Modelling Infrastructure for Living Labs Service Working Group Charter",
-    "section": "",
-    "text": "testing"
-  },
-  {
     "objectID": "about.html",
     "href": "about.html",
     "title": "About",
@@ -224,15 +84,8 @@
     "text": "About this site"
   },
   {
-    "objectID": "about.de.html",
-    "href": "about.de.html",
-    "title": "About",
-    "section": "",
-    "text": "About this site"
-  },
-  {
-    "objectID": "charter.de.html",
-    "href": "charter.de.html",
+    "objectID": "charter.html",
+    "href": "charter.html",
     "title": "Data and Modelling Infrastructure for Living Labs Service Working Group Charter",
     "section": "",
     "text": "testing"
@@ -249,7 +102,7 @@
     "href": "index.html#news",
     "title": "Data and Modelling Infrastructure for Living Labs",
     "section": "News",
-    "text": "News\n\n\n\n\n\n\n\n\n\n\nUpcoming Workshop and Hackathon at iEMSs 2026\n\n\n\nworkshop\n\nhackathon\n\niEMSs\n\nupcoming\n\n\n\nThe DML group is organising a workshop and hackathon at the iEMSs 2026 conference in Dublin\n\n\n\nJul 12, 2026\n\n\n\n\n\n\n\n\n\n\n\n\n\nDMI Presents at IAT Kickoff Meeting\n\n\n\npresentation\n\nIAT\n\noutreach\n\n\n\nMembers of the DML working group presented at the IAT kickoff meeting, introducing our service concept for supporting researchers with data and modelling needs.\n\n\n\nMar 18, 2026\n\n\n\n\n\n\n\n\n\n\n\n\n\nDML at the FAIRagro Community Summit\n\n\n\nFAIRagro\n\nFAIR data\n\ncommunity\n\n\n\nDML working group members attended the FAIRagro community summit, engaging with the FAIR data community in Agricultural research.\n\n\n\nMar 5, 2026\n\n\n\n\n\n\nNo matching items"
+    "text": "News\n\n\n\n\n\n\n\n\n\n\nUpcoming Workshop and Hackathon at iEMSs 2026\n\n\n\nworkshop\n\nhackathon\n\niEMSs\n\nupcoming\n\n\n\nThe DML group is organising a workshop and hackathon at the iEMSs 2026 conference in Dublin\n\n\n\nJul 12, 2026\n\n\n\n\n\n\n\n\n\n\n\n\n\nDML Presents at IAT Kickoff Meeting\n\n\n\npresentation\n\nIAT\n\noutreach\n\n\n\nMembers of the DML working group presented at the IAT kickoff meeting, introducing our service concept for supporting researchers with data and modelling needs.\n\n\n\nMar 18, 2026\n\n\n\n\n\n\n\n\n\n\n\n\n\nDML at the FAIRagro Community Summit\n\n\n\nFAIRagro\n\nFAIR data\n\ncommunity\n\n\n\nDML working group members attended the FAIRagro community summit, engaging with the FAIR data community in Agricultural research.\n\n\n\nMar 5, 2026\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "index.html#projects",
@@ -271,13 +124,6 @@
     "title": "Upcoming Workshop and Hackathon at iEMSs 2026",
     "section": "",
     "text": "We are excited to announce that the DML group will host both a workshop and a hackathon at the International Environmental Modelling and Software Society (iEMSs) 2026 conference in Dublin over the 12-16th July.\nThe workshop “One Publishing Tool to Rule Them All: Quarto for Documentation, Presentations, Manuscripts and Outreach”, which is being prepared in collaboration with researchers from ETH Zurich will explore Quarto as a unified solution for academic communication. Quarto can generate multiple output formats — PDF, HTML, LaTeX, and DOCX — from a single source document while supporting executable code in Python, R, Julia, and Observable. Through short presentations and guided exercises, participants will learn to produce documentation, reproducible journal articles, presentations, outreach websites, and interactive dashboards — all from one tool.\nThe Hackathon, prepared in collaboration with the Early Career Researcher Team within the Open Modelling Foundation will have participants try to ‘hack’ existing models to improve their FAIRness with a special focus on re-useability.\nWe will make the content from both the workshop and hackathon available online after the conference, so stay tuned for more updates!"
-  },
-  {
-    "objectID": "news.html",
-    "href": "news.html",
-    "title": "News",
-    "section": "",
-    "text": "Upcoming Workshop and Hackathon at iEMSs 2026\n\n\n\nworkshop\n\nhackathon\n\niEMSs\n\nupcoming\n\n\n\nThe DML group is organising a workshop and hackathon at the iEMSs 2026 conference in Dublin\n\n\n\nJul 12, 2026\n\n\n\n\n\n\n\n\n\n\n\n\n\nDMI Presents at IAT Kickoff Meeting\n\n\n\npresentation\n\nIAT\n\noutreach\n\n\n\nMembers of the DML working group presented at the IAT kickoff meeting, introducing our service concept for supporting researchers with data and modelling needs.\n\n\n\nMar 18, 2026\n\n\n\n\n\n\n\n\n\n\n\n\n\nDML at the FAIRagro Community Summit\n\n\n\nFAIRagro\n\nFAIR data\n\ncommunity\n\n\n\nDML working group members attended the FAIRagro community summit, engaging with the FAIR data community in Agricultural research.\n\n\n\nMar 5, 2026\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "privacy-policy.html",
@@ -371,13 +217,6 @@
     "text": "MonksHillLabs is a collaborative research platform that provides shared computational infrastructure, data repositories, and development environments for landscape and land use modelling projects.\nThe initiative brings together researchers, data scientists, and software developers to co-create tools, standards, and workflows that advance data interoperability and reproducible research in landscape science.\nCurrent activities include developing standardized data formats, building modular modelling components, and hosting hackathons and training workshops."
   },
   {
-    "objectID": "projects.html",
-    "href": "projects.html",
-    "title": "Projects",
-    "section": "",
-    "text": "MonksHillLabs Initiative\n\n\n\ninfrastructure\n\ncollaboration\n\nresearch platform\n\n\n\nMonksHillLabs provides shared research infrastructure and collaborative workspace for developing and testing landscape modelling tools and data workflows.\n\n\n\nNov 15, 2024\n\n\n\n\n\n\n\n\n\n\n\nLiving Lab Dashboards\n\n\n\ndashboard\n\nvisualization\n\nliving labs\n\n\n\nInteractive dashboards for monitoring and analyzing living lab experiments across multiple sites in the landscape research network.\n\n\n\nSep 1, 2024\n\n\n\n\n\n\nNo matching items"
-  },
-  {
     "objectID": "resources.html",
     "href": "resources.html",
     "title": "Resources and tools",
@@ -410,7 +249,7 @@
     "href": "resources.html#tools-and-software",
     "title": "Resources and tools",
     "section": "Tools and Software",
-    "text": "Tools and Software\n\nEU alternatives for software - A directory of software alternatives to popular proprietary software, with a focus on European users and organizations.\ngettingstuffdoneai - Directory of Generative AI Tools and Models, categorized by use case and functionality.\nInkscape - Open source vector graphics editor, alternative to Adobe products, useful for creating and editing figures for publications and presentations. Available via the ZALF baramundi client."
+    "text": "Tools and Software\n\nEU alternatives for software - A directory of software alternatives to popular proprietary software, with a focus on European users and organizations.\ngettingstuffdoneai - Directory of Generative AI Tools and Models, categorized by use case and functionality.\nInkscape - Open source vector graphics editor, alternative to Adobe products, useful for creating and editing figures for publications and presentations. Available via the ZALF baramundi client.\nSoRA Geolinking service for social science data"
   },
   {
     "objectID": "resources.html#training",
@@ -418,33 +257,5 @@
     "title": "Resources and tools",
     "section": "Training",
     "text": "Training\n\nDigital Research Academy - a trainer network focused on Open Science, Data Literacy, and Research Software Engineering (DRA’s Zenodo collection).\nBERD academy\nBERD reproducible research course\nNFDI4Earth - Educational Portal\nAssured Training -Ensures the safe, legal, and ethical use of sensitive data through targeted training and certification.\nKI-campus - Numerous free courses on AI and related topics, including data science, machine learning, and ethical considerations in AI.\nLiebniz Institute for the Social Sciences (GESIS)"
-  },
-  {
-    "objectID": "team/Ben.html",
-    "href": "team/Ben.html",
-    "title": "Ben Black",
-    "section": "",
-    "text": "University of California, San Diego | San Diego, CA PhD in Mathematics | Sept 2011 - June 2015\nMacalester College | St. Paul, MN B.A in Economics | Sept 2007 - June 2011"
-  },
-  {
-    "objectID": "team/Ben.html#education",
-    "href": "team/Ben.html#education",
-    "title": "Ben Black",
-    "section": "",
-    "text": "University of California, San Diego | San Diego, CA PhD in Mathematics | Sept 2011 - June 2015\nMacalester College | St. Paul, MN B.A in Economics | Sept 2007 - June 2011"
-  },
-  {
-    "objectID": "team/Ben.html#experience",
-    "href": "team/Ben.html#experience",
-    "title": "Ben Black",
-    "section": "Experience",
-    "text": "Experience\nWengo Analytics | Head Data Scientist | April 2018 - present\nGeoScynce | Chief Analyst | Spet 2012 - April 2018 test"
-  },
-  {
-    "objectID": "team.de.html",
-    "href": "team.de.html",
-    "title": "Team",
-    "section": "",
-    "text": "Klicken Sie auf das Profil jedes Teammitglieds, um weitere Informationen zu erhalten.\n\n\n\n\nNo matching items"
   }
 ]

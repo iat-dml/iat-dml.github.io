@@ -31,22 +31,26 @@ body,
   padding: 0;
 }
 
-/* Warm paper background — overrides $body-bg if brand.yml didn't load it.
-   Font stacks are appended here because brand.yml's typography.base.family /
-   typography.headings.family must be a bare primary name — Quarto matches the
-   value against the `fonts:` array exactly to emit the Google Fonts @import,
-   so a comma-separated fallback stack there silently breaks the import. */
+/* Font stack: brand.yml must use a bare primary family name so Quarto matches
+   it against the `fonts:` array to emit the Google Fonts @import. Fallback
+   stacks are layered on here instead. */
 body {
-  background-color: #F5F3EE !important;
   font-family: "DM Sans", "Segoe UI", system-ui, "Helvetica Neue", Arial, sans-serif;
 }
 
+/* Warm paper background — scoped to light mode so it cannot override
+   the dark-brand background (#0F1B18) applied by body.quarto-dark below. */
+body:not(.quarto-dark) {
+  background-color: #F5F3EE !important;
+}
+
 /* Quarto's `page-layout: full` adds white-ish container backgrounds on some
-   wrappers; force them transparent so the warm paper shows through. */
+   wrappers; force them transparent so the body colour (paper or dark) shows through. */
 #quarto-content,
 main.content,
 main.column-page,
-#quarto-document-content {
+#quarto-document-content,
+#title-block-header.quarto-title-block:not(.hero-article) {
   background-color: transparent !important;
 }
 
@@ -956,7 +960,7 @@ body.quarto-dark .columns-divided > .column + .column::before {
    ============================================ */
 
 body.quarto-dark {
-  background-color: #0F1B18;
+  background-color: #0F1B18 !important;
 
   .card,
   .quarto-grid-item.card {
@@ -966,5 +970,71 @@ body.quarto-dark {
   .team-grid .quarto-grid-item.card-team {
     background-color: #1C2E2A !important;
     border-color: rgba(255, 255, 255, 0.08) !important;
+  }
+
+  /* Navbar — dark glass treatment */
+  .navbar {
+    background: rgba(15, 27, 24, 0.95) !important;
+    border-bottom-color: rgba(255, 255, 255, 0.07) !important;
+
+    .nav-link {
+      color: rgba(255, 255, 255, 0.78) !important;
+
+      &:hover {
+        color: #9EBC83 !important;
+        background-color: rgba(255, 255, 255, 0.06) !important;
+      }
+
+      &.active {
+        color: #9EBC83 !important;
+        font-weight: 600;
+      }
+    }
+
+    .quarto-color-scheme-toggle,
+    .quarto-navigation-tool {
+      color: rgba(255, 255, 255, 0.78) !important;
+
+      &:hover {
+        color: #9EBC83 !important;
+        background-color: rgba(255, 255, 255, 0.06) !important;
+      }
+    }
+
+    .dropdown-menu {
+      background-color: #162520;
+      border-color: rgba(255, 255, 255, 0.1);
+    }
+
+    .dropdown-item {
+      color: rgba(255, 255, 255, 0.78);
+
+      &:hover, &:focus {
+        color: #9EBC83;
+        background-color: rgba(255, 255, 255, 0.06);
+      }
+    }
+
+    .navbar-toggler-icon {
+      background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba(255, 255, 255, 0.75)' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e") !important;
+    }
+
+    .navbar-toggler {
+      border-color: rgba(255, 255, 255, 0.2) !important;
+    }
+  }
+
+  /* Code blocks */
+  div.sourceCode,
+  pre.sourceCode {
+    background-color: #1C2E2A !important;
+    border: 1px solid rgba(255, 255, 255, 0.08);
+    border-radius: 6px;
+  }
+
+  code:not([class]) {
+    background-color: #1C2E2A;
+    border-radius: 3px;
+    padding: 0.12em 0.35em;
   }
 }

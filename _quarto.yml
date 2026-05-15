@@ -41,7 +41,7 @@ format:
     respect-user-color-scheme: true
     theme:
       light: [scss/styles.scss]
-      # dark: [scss/styles.scss]
+      dark: [scss/styles.scss]
     include-after-body:
       - file: hero.html
     toc: false
@@ -52,7 +52,7 @@ format:
 lightbox: true
 brand:
   light: light-brand.yml
-  # dark: dark-brand.yml
+  dark: dark-brand.yml
 
 babelquarto:
   languagelinks: navbar
