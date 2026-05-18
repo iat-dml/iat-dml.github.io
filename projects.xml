@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss  xmlns:atom="http://www.w3.org/2005/Atom" 
+      xmlns:media="http://search.yahoo.com/mrss/" 
+      xmlns:content="http://purl.org/rss/1.0/modules/content/" 
+      xmlns:dc="http://purl.org/dc/elements/1.1/" 
+      version="2.0">
+<channel>
+<title>Data and Modelling Infrastructure for Living Labs</title>
+<link>https://iat-dml.github.io/projects.html</link>
+<atom:link href="https://iat-dml.github.io/projects.xml" rel="self" type="application/rss+xml"/>
+<description>This is the website of the Data and Modelling Infrastructure for Living Labs Working group (SWG) of the Innovation Center for Agricultural System Transformation (IAT) as part of the Liebniz Center for Agricultural Landscape Research (ZALF).</description>
+<generator>quarto-1.9.37</generator>
+<lastBuildDate>Fri, 15 Nov 2024 00:00:00 GMT</lastBuildDate>
+<item>
+  <title>MonksHillLabs Initiative</title>
+  <link>https://iat-dml.github.io/projects/monkshilllabs.html</link>
+  <description><![CDATA[ 
+
+
+
+
+
+<p>MonksHillLabs is a collaborative research platform that provides shared computational infrastructure, data repositories, and development environments for landscape and land use modelling projects.</p>
+<p>The initiative brings together researchers, data scientists, and software developers to co-create tools, standards, and workflows that advance data interoperability and reproducible research in landscape science.</p>
+<p>Current activities include developing standardized data formats, building modular modelling components, and hosting hackathons and training workshops.</p>
+
+
+
+ ]]></description>
+  <category>infrastructure</category>
+  <category>collaboration</category>
+  <category>research platform</category>
+  <guid>https://iat-dml.github.io/projects/monkshilllabs.html</guid>
+  <pubDate>Fri, 15 Nov 2024 00:00:00 GMT</pubDate>
+</item>
+<item>
+  <title>Living Lab Dashboards</title>
+  <link>https://iat-dml.github.io/projects/living-lab-dashboards.html</link>
+  <description><![CDATA[ 
+
+
+
+
+
+<p>The Living Lab Dashboards project develops interactive web-based tools for visualizing and exploring data from living lab experiments conducted across our research network.</p>
+<p>These dashboards integrate diverse data streams including environmental sensors, field observations, and remote sensing data to provide real-time insights into landscape dynamics and experimental outcomes.</p>
+<p>The platform supports collaborative analysis and data-driven decision making for adaptive management of living lab sites.</p>
+
+
+
+ ]]></description>
+  <category>dashboard</category>
+  <category>visualization</category>
+  <category>living labs</category>
+  <guid>https://iat-dml.github.io/projects/living-lab-dashboards.html</guid>
+  <pubDate>Sun, 01 Sep 2024 00:00:00 GMT</pubDate>
+</item>
+</channel>
+</rss>
