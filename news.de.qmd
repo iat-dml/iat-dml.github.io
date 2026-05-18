@@ -13,4 +13,5 @@ listing:
     grid-columns: 3
     grid-item-align: center
     sort: "date desc"
+    feed: true
 ---

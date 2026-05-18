@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss  xmlns:atom="http://www.w3.org/2005/Atom" 
+      xmlns:media="http://search.yahoo.com/mrss/" 
+      xmlns:content="http://purl.org/rss/1.0/modules/content/" 
+      xmlns:dc="http://purl.org/dc/elements/1.1/" 
+      version="2.0">
+<channel>
+<title>Data and Modelling Infrastructure for Living Labs</title>
+<link>https://iat-dml.github.io/news.html</link>
+<atom:link href="https://iat-dml.github.io/news.xml" rel="self" type="application/rss+xml"/>
+<description>This is the website of the Data and Modelling Infrastructure for Living Labs Working group (SWG) of the Innovation Center for Agricultural System Transformation (IAT) as part of the Liebniz Center for Agricultural Landscape Research (ZALF).</description>
+<generator>quarto-1.9.37</generator>
+<lastBuildDate>Sat, 11 Jul 2026 22:00:00 GMT</lastBuildDate>
+<item>
+  <title>Upcoming Workshop and Hackathon at iEMSs 2026</title>
+  <link>https://iat-dml.github.io/news/2025-06-iemss-workshop.html</link>
+  <description><![CDATA[ 
+
+
+
+
+
+<script>window.__articleHeroImage = "../assets/iemss2026_logo.png";</script>
+<div class="columns columns-center">
+<div class="column">
+<p>We are excited to announce that the DML group will host both a workshop and a hackathon at the <a href="https://conference.iemss.org/">International Environmental Modelling and Software Society (iEMSs) 2026 conference in Dublin</a> over the 12-16th July.</p>
+<p>The workshop <strong>“One Publishing Tool to Rule Them All: Quarto for Documentation, Presentations, Manuscripts and Outreach”</strong>, which is being prepared in collaboration with researchers from <a href="https://baug.ethz.ch/en/department/people/staff/personen-detail.MzE3MjU2.TGlzdC82NzksLTU1NTc1NDEwMQ==.html">ETH Zurich</a> will explore <a href="https://quarto.org/">Quarto</a> as a unified solution for academic communication. Quarto can generate multiple output formats — PDF, HTML, LaTeX, and DOCX — from a single source document while supporting executable code in Python, R, Julia, and Observable. Through short presentations and guided exercises, participants will learn to produce documentation, reproducible journal articles, presentations, outreach websites, and interactive dashboards — all from one tool.</p>
+<p>The Hackathon, prepared in collaboration with the Early Career Researcher Team within the <a href="https://www.openmodelingfoundation.org/">Open Modelling Foundation</a> will have participants try to ‘hack’ existing models to improve their FAIRness with a special focus on re-useability.</p>
+<p>We will make the content from both the workshop and hackathon available online after the conference, so stay tuned for more updates!</p>
+</div><div class="column">
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="../assets/iemss2026_logo.png" class="lightbox" data-gallery="quarto-lightbox-gallery-1"><img src="https://iat-dml.github.io/assets/iemss2026_logo.png" class="img-fluid quarto-figure quarto-figure-center figure-img" style="width:100.0%" alt="iEMSs 2026 logo"></a></p>
+</figure>
+</div>
+</div>
+</div>
+
+
+
+ ]]></description>
+  <category>workshop</category>
+  <category>hackathon</category>
+  <category>iEMSs</category>
+  <category>upcoming</category>
+  <guid>https://iat-dml.github.io/news/2025-06-iemss-workshop.html</guid>
+  <pubDate>Sat, 11 Jul 2026 22:00:00 GMT</pubDate>
+  <media:content url="https://iat-dml.github.io/assets/iemss2026_logo.png" medium="image" type="image/png" height="78" width="144"/>
+</item>
+<item>
+  <title>DML Presents at IAT Kickoff Meeting</title>
+  <link>https://iat-dml.github.io/news/2025-01-iat-kickoff.html</link>
+  <description><![CDATA[ 
+
+
+
+
+
+<script>window.__articleHeroImage = "../assets/concept-diagram.svg";</script>
+<p>In March 2026 the Innovation Center for Agricultural System Transformation (IAT) was officially launched, with two days of events at the Futurium in Berlin as well as the ZALF campus in Müncheberg. The focus of the 2nd day was on connecting researchers working on similar topics within the IAT from both ZALF and the partner institutions. We were fortunate to have an opportunity to present our concept for how the Data and Modelling Infrastructure for Living Labs group (DML) will provide a three pillar approach of services to support IAT researchers and living labs in their data and modelling needs. The slides we presented are available below, and we are looking forward to engaging with the IAT and broader ZALF community in the coming months to produce some real outputs from collaborations to serve as a showcase for the services we can provide.</p>
+<div class="embed-container">
+  <p align="center"><iframe src="../assets/DML-kickoff-presentation.pdf" style="border: 0.5px"></iframe></p>
+</div>
+
+
+
+ ]]></description>
+  <category>presentation</category>
+  <category>IAT</category>
+  <category>outreach</category>
+  <guid>https://iat-dml.github.io/news/2025-01-iat-kickoff.html</guid>
+  <pubDate>Tue, 17 Mar 2026 23:00:00 GMT</pubDate>
+  <media:content url="https://iat-dml.github.io/assets/concept-diagram.svg" medium="image" type="image/svg+xml"/>
+</item>
+<item>
+  <title>DML at the FAIRagro Community Summit</title>
+  <link>https://iat-dml.github.io/news/2025-03-fairagro-summit.html</link>
+  <description><![CDATA[ 
+
+
+
+
+
+<script>window.__articleHeroImage = "../assets/FAIRagro-summit.jpg";</script>
+<p>In March the Working group attended the FAIRagro community summit, joining researchers and data infrastructure specialists to discuss FAIR data principles in the agricultural and landscape sciences.</p>
+<p>The event provided valuable opportunities to exchange ideas, identify common challenges, and explore potential collaborations between DML and FAIRagro initiatives.</p>
+
+
+
+ ]]></description>
+  <category>FAIRagro</category>
+  <category>FAIR data</category>
+  <category>community</category>
+  <guid>https://iat-dml.github.io/news/2025-03-fairagro-summit.html</guid>
+  <pubDate>Wed, 04 Mar 2026 23:00:00 GMT</pubDate>
+  <media:content url="https://iat-dml.github.io/assets/FAIRagro-summit.jpg" medium="image" type="image/jpeg"/>
+</item>
+</channel>
+</rss>
