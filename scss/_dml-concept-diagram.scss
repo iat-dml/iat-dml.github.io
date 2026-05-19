@@ -1,13 +1,13 @@
 .dml-concept-diagram {
-  --dml-paper: #f5f3ee;
-  --dml-support: #2d6a4f;
-  --dml-integration: #c18f59;
-  --dml-transfer: #458484;
-  --dml-teal-dark: #356259;
-  --dml-slate: #465555;
-  --dml-muted: #7a817e;
-  --dml-frame-title: #356259;
-  --dml-panel-title: #356259;
+  --dml-paper: #{$brand-paper};
+  --dml-support: #{$brand-support};
+  --dml-integration: #{$brand-integration};
+  --dml-transfer: #{$brand-transfer};
+  --dml-teal-dark: #{$brand-teal-dark};
+  --dml-slate: #{$brand-slate};
+  --dml-muted: #{$brand-gray};
+  --dml-frame-title: #{$brand-teal-dark};
+  --dml-panel-title: #{$brand-teal-dark};
   --dml-shadow: 0 12px 32px rgba(0, 0, 0, 0.08), 0 2px 6px rgba(0, 0, 0, 0.04);
   position: relative;
   width: min(100%, 1100px);
@@ -41,16 +41,8 @@
   z-index: 2;
 }
 
-.dml-concept-diagram__eyebrow {
-  font-size: 10px;
-  letter-spacing: 0.22em;
-  text-transform: uppercase;
-  font-weight: 600;
-  color: var(--dml-muted);
-}
-
 .dml-concept-diagram__title {
-  margin-top: 6px;
+  margin-top: 0;
   font-family: "DM Serif Display", Georgia, serif;
   font-size: 28px;
   line-height: 1.1;
@@ -105,7 +97,7 @@
 .dml-concept-diagram__panel {
   position: absolute;
   width: 300px;
-  background: #fff;
+  background: #{$brand-white};
   border-radius: 10px;
   padding: 22px 24px;
   box-shadow: var(--dml-shadow);
@@ -115,16 +107,16 @@
 }
 
 body.quarto-dark .dml-concept-diagram {
-  --dml-paper: #0f1b18;
-  --dml-muted: rgba(245, 243, 238, 0.72);
-  --dml-frame-title: #f5f3ee;
-  --dml-panel-title: #f5f3ee;
-  --dml-slate: #d5ddd9;
+  --dml-paper: #{$brand-black};
+  --dml-muted: #{rgba($brand-white, 0.72)};
+  --dml-frame-title: #{$brand-white};
+  --dml-panel-title: #{$brand-white};
+  --dml-slate: #{rgba($brand-white, 0.84)};
   --dml-shadow: 0 16px 36px rgba(0, 0, 0, 0.28), 0 4px 10px rgba(0, 0, 0, 0.18);
 }
 
 body.quarto-dark .dml-concept-diagram__panel {
-  background: #162520;
+  background: #{$brand-dark-surface};
 }
 
 .dml-concept-diagram__panel[data-position="support"] {
@@ -155,7 +147,7 @@ body.quarto-dark .dml-concept-diagram__panel {
   display: flex;
   align-items: center;
   justify-content: center;
-  color: #fff;
+  color: #{$brand-white};
   font-family: "DM Serif Display", Georgia, serif;
   font-size: 13px;
 }

@@ -49,6 +49,8 @@ color:
     slate:           "#465555"   # Dark slate (text)
     white:           "#FFFFFF"
     black:           "#1A1A1A"
+    dark-surface:    "#162520"
+    dark-border:     "#1F3530"
     paper:           "#F5F3EE"   # Warm off-white body background
     gray-light:      "#F5F5F5"
     gray:            "#6C6C6C"

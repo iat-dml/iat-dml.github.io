@@ -2,6 +2,8 @@
 
 /*-- scss:rules --*/
 
+@import "dml-concept-diagram";
+
 /* ============================================
    Brand Term Colour Utilities
    ============================================ */
@@ -85,6 +87,21 @@ main:has(.hero) #title-block-header.quarto-title-block {
    Navbar — light glass treatment
    ============================================ */
 
+body.quarto-light .navbar,
+body:not(.quarto-dark) .navbar {
+  --dml-navbar-icon-color: #356259;
+  --dml-navbar-icon-hover: #2A4E47;
+  --dml-navbar-icon-bg: rgba(53, 98, 89, 0.07);
+  --dml-navbar-icon-focus: rgba(53, 98, 89, 0.2);
+}
+
+body.quarto-dark .navbar {
+  --dml-navbar-icon-color: rgba(255, 255, 255, 0.88);
+  --dml-navbar-icon-hover: #9EBC83;
+  --dml-navbar-icon-bg: rgba(255, 255, 255, 0.06);
+  --dml-navbar-icon-focus: rgba(158, 188, 131, 0.32);
+}
+
 .navbar {
   margin: 0;
   padding-block-end: 0;
@@ -113,16 +130,116 @@ main:has(.hero) #title-block-header.quarto-title-block {
   }
 
   /* Icon buttons (search, GitHub, email, theme toggle) */
+  .nav-link:has(.bi),
   .quarto-color-scheme-toggle,
-  .quarto-navigation-tool {
-    color: #7A817E !important;
+  .quarto-navigation-tool,
+  #quarto-search .aa-DetachedSearchButton,
+  #quarto-search .aa-SubmitButton {
+    color: var(--dml-navbar-icon-color, #356259) !important;
+    opacity: 1;
     border-radius: 4px;
-    transition: color 0.15s ease, background-color 0.15s ease;
+    transition: color 0.15s ease, background-color 0.15s ease, opacity 0.15s ease;
+
+    i,
+    svg,
+    .aa-SubmitIcon,
+    .aa-DetachedSearchButtonIcon {
+      color: inherit !important;
+      fill: currentColor;
+      stroke: currentColor;
+    }
+
+    i::before,
+    .bi::before {
+      color: inherit !important;
+    }
 
     &:hover {
-      color: $brand-teal-dark !important;
-      background-color: rgba(53, 98, 89, 0.07) !important;
+      color: var(--dml-navbar-icon-hover, #2A4E47) !important;
+      opacity: 1;
+      background-color: var(--dml-navbar-icon-bg, rgba(53, 98, 89, 0.07)) !important;
     }
+
+    &:focus-visible {
+      color: var(--dml-navbar-icon-hover, #2A4E47) !important;
+      opacity: 1;
+      background-color: var(--dml-navbar-icon-bg, rgba(53, 98, 89, 0.07)) !important;
+      outline: 2px solid var(--dml-navbar-icon-focus, rgba(53, 98, 89, 0.2));
+      outline-offset: 2px;
+    }
+  }
+
+  #quarto-search .aa-DetachedSearchButton,
+  #quarto-search .aa-SubmitButton {
+    background: transparent !important;
+    border: none !important;
+    box-shadow: none !important;
+  }
+
+  #quarto-search .aa-DetachedSearchButtonPlaceholder,
+  #quarto-search .aa-DetachedSearchButtonQuery {
+    color: inherit !important;
+  }
+
+  .quarto-color-scheme-toggle {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    min-width: 2rem;
+    min-height: 2rem;
+  }
+
+  .quarto-color-scheme-toggle i,
+  .quarto-color-scheme-toggle .bi {
+    display: none !important;
+  }
+
+  .quarto-color-scheme-toggle::before {
+    content: "☾";
+    color: var(--dml-navbar-icon-color, #356259) !important;
+    font-size: 1rem;
+    line-height: 1;
+  }
+
+  .quarto-color-scheme-toggle.alternate::before {
+    content: "☀";
+  }
+
+  .quarto-color-scheme-toggle:hover::before,
+  .quarto-color-scheme-toggle:focus-visible::before {
+    color: var(--dml-navbar-icon-hover, #2A4E47) !important;
+  }
+
+  .quarto-color-scheme-toggle i,
+  .quarto-color-scheme-toggle .bi {
+    display: inline-block !important;
+    font-style: normal;
+    line-height: 1;
+  }
+
+  .quarto-color-scheme-toggle i::before,
+  .quarto-color-scheme-toggle .bi::before {
+    content: "\f497" !important;
+    font-family: bootstrap-icons !important;
+    color: var(--dml-navbar-icon-color, #356259) !important;
+    font-size: 1rem;
+    line-height: 1;
+  }
+
+  .quarto-color-scheme-toggle.alternate i::before,
+  .quarto-color-scheme-toggle.alternate .bi::before {
+    content: "\f5a2" !important;
+  }
+
+  .quarto-color-scheme-toggle::before {
+    content: none !important;
+  }
+
+  .quarto-color-scheme-toggle:hover i::before,
+  .quarto-color-scheme-toggle:hover .bi::before,
+  .quarto-color-scheme-toggle:focus-visible i::before,
+  .quarto-color-scheme-toggle:focus-visible .bi::before {
+    color: var(--dml-navbar-icon-hover, #2A4E47) !important;
   }
 
   /* Dropdown menus */
@@ -1019,16 +1136,6 @@ body.quarto-dark {
       &.active {
         color: #9EBC83 !important;
         font-weight: 600;
-      }
-    }
-
-    .quarto-color-scheme-toggle,
-    .quarto-navigation-tool {
-      color: rgba(255, 255, 255, 0.78) !important;
-
-      &:hover {
-        color: #9EBC83 !important;
-        background-color: rgba(255, 255, 255, 0.06) !important;
       }
     }
 

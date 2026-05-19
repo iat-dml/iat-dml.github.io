@@ -9,7 +9,7 @@
   const OUTER_R_ACTIVE = 286;
   const HALF_SPAN = 56;
 
-  const COLORS = {
+  const DEFAULT_COLORS = {
     support: "#2D6A4F",
     integration: "#C18F59",
     transfer: "#458484",
@@ -19,7 +19,6 @@
 
   const CONTENT = {
     en: {
-      eyebrow: "IAT Service Working Group",
       title: "Three pillars of services",
       hint: "Click a petal to expand.",
       collapse: "\u2190 collapse",
@@ -30,7 +29,6 @@
         {
           key: "support",
           label: "Support",
-          color: COLORS.support,
           angle: 210,
           tagline:
             "Supporting researchers to manage their research data and software over all the stages of their projects.",
@@ -44,7 +42,6 @@
         {
           key: "transfer",
           label: "Transfer",
-          color: COLORS.transfer,
           angle: 330,
           tagline: "Closing the loop between science and practice.",
           bullets: [
@@ -57,7 +54,6 @@
         {
           key: "integration",
           label: "Integration",
-          color: COLORS.integration,
           angle: 90,
           tagline:
             "Connecting research data and methods across working groups.",
@@ -71,7 +67,6 @@
       ],
     },
     de: {
-      eyebrow: "IAT-Arbeitsgruppe",
       title: "Drei Säulen unseres Leistungsangebots",
       hint: "Klicken Sie auf ein Segment, um Details anzuzeigen.",
       collapse: "\u2190 einklappen",
@@ -82,7 +77,6 @@
         {
           key: "support",
           label: "Support",
-          color: COLORS.support,
           angle: 210,
           tagline:
             "Unterstützung für Forschende beim Management ihrer Forschungsdaten und Software über alle Projektphasen hinweg.",
@@ -96,7 +90,6 @@
         {
           key: "transfer",
           label: "Transfer",
-          color: COLORS.transfer,
           angle: 330,
           tagline:
             "Den Kreislauf zwischen Wissenschaft und Praxis schließen.",
@@ -110,7 +103,6 @@
         {
           key: "integration",
           label: "Integration",
-          color: COLORS.integration,
           angle: 90,
           tagline:
             "Verknüpfung von Forschungsdaten und Methoden über Arbeitsgruppen hinweg.",
@@ -164,6 +156,22 @@
     return el;
   }
 
+  function cssVar(style, name, fallback) {
+    const value = style.getPropertyValue(name).trim();
+    return value || fallback;
+  }
+
+  function getColors(root) {
+    const style = getComputedStyle(root);
+    return {
+      support: cssVar(style, "--dml-support", DEFAULT_COLORS.support),
+      integration: cssVar(style, "--dml-integration", DEFAULT_COLORS.integration),
+      transfer: cssVar(style, "--dml-transfer", DEFAULT_COLORS.transfer),
+      tealDark: cssVar(style, "--dml-teal-dark", DEFAULT_COLORS.tealDark),
+      slate: cssVar(style, "--dml-slate", DEFAULT_COLORS.slate),
+    };
+  }
+
   function panelAnchorX(key) {
     if (key === "support") {
       return 320;
@@ -180,7 +188,16 @@
 
   function mountDiagram(root) {
     const lang = root.dataset.lang === "de" ? "de" : "en";
-    const content = CONTENT[lang];
+    const colors = getColors(root);
+    const content = {
+      ...CONTENT[lang],
+      pillars: CONTENT[lang].pillars.map(function (pillar) {
+        return {
+          ...pillar,
+          color: colors[pillar.key] || DEFAULT_COLORS[pillar.key],
+        };
+      }),
+    };
     let active = null;
 
     root.classList.add("dml-concept-diagram");
@@ -188,7 +205,6 @@
 
     const header = createEl("div", "dml-concept-diagram__header");
     const heading = createEl("div");
-    heading.appendChild(createEl("div", "dml-concept-diagram__eyebrow", content.eyebrow));
     heading.appendChild(createEl("div", "dml-concept-diagram__title", content.title));
     const hint = createEl("div", "dml-concept-diagram__hint");
     header.appendChild(heading);

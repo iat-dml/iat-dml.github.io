@@ -1,38 +1,10 @@
 [
   {
-    "objectID": "concept-diagram.html#data-and-modelling-infrastructure",
-    "href": "concept-diagram.html#data-and-modelling-infrastructure",
-    "title": "DML Concept Diagram",
-    "section": "Data and Modelling Infrastructure",
-    "text": "Data and Modelling Infrastructure\nConcept diagram for presentations\nThis deck is self-contained so concept-diagram.qmd can be moved and rendered elsewhere without relying on this website project.\n\nSupport Integration Transfer"
-  },
-  {
-    "objectID": "concept-diagram.html#how-to-use-it",
-    "href": "concept-diagram.html#how-to-use-it",
-    "title": "DML Concept Diagram",
-    "section": "How To Use It",
-    "text": "How To Use It\nUse the next slide as your live overview.\n\nClick a petal directly for ad hoc navigation.\nUse normal presentation advance to step through Support, Integration, and Transfer.\nUse back navigation to move back through the sequence before leaving the slide."
-  },
-  {
-    "objectID": "concept-diagram.html#interactive-diagram",
-    "href": "concept-diagram.html#interactive-diagram",
-    "title": "DML Concept Diagram",
-    "section": "Interactive Diagram",
-    "text": "Interactive Diagram\nClick petals directly, or use normal slide advance to reveal the three panels in sequence."
-  },
-  {
-    "objectID": "concept-diagram.html#presenter-flow",
-    "href": "concept-diagram.html#presenter-flow",
-    "title": "DML Concept Diagram",
-    "section": "Presenter Flow",
-    "text": "Presenter Flow\nOne effective speaking sequence is:\n\nStart in the center and frame DML as one connected infrastructure.\nAdvance once for Support and explain how researchers are helped across the project lifecycle.\nAdvance again for Integration to show how data and methods connect across groups.\nAdvance a third time for Transfer to close with practice, interfaces, and stakeholder-facing outputs.\n\nThe diagram works best as a navigation slide, not as a dense information slide."
-  },
-  {
     "objectID": "index.html",
     "href": "index.html",
     "title": "Data and Modelling Infrastructure for Living Labs",
     "section": "",
-    "text": "IAT Service Working Group\n\n\nDiscuss your project with us\nWelcome to the website of the Data and Modelling Infrastructure for Living Labs (DML) Working Group. We are a service working group within the Innovation Center for Agricultural System Transformation (IAT) as part of the Liebniz Center for Agricultural Landscape Research (ZALF). Our mission is to support researchers and partners within the IAT with all things related to data and modelling. We have represented the different ways that we do this in the graphic below:"
+    "text": "IAT Service Working Group\n\n\nDiscuss your project with us\nWelcome to the website of the Data and Modelling Infrastructure for Living Labs (DML) Working Group. We are a service working group within the Innovation Center for Agricultural System Transformation (IAT) as part of the Liebniz Center for Agricultural Landscape Research (ZALF). Our mission is to support researchers and partners within the IAT with all things related to data and modelling. We have represented our three-pillared approach to this in the graphic below:"
   },
   {
     "objectID": "index.html#news",
