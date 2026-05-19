@@ -9,8 +9,8 @@ skills:
   - Team Leadership
   - System Design
 projects:
-  - title: "Cloud Migration Platform"
-    url: "/projects/cloud-migration"
+  - title: "Living Labs Explorer"
+    url: "projects/living-lab-dashboards"
   - title: "Microservices Framework"
     url: "/projects/microservices"
   - title: "Developer Portal"

@@ -1,0 +1,16 @@
+---
+title: "Data Steward"
+subtitle: "Data Steward"
+image: ../assets/user.svg
+image-alt: "Photo of the Data Steward"
+Kompetenzen:
+  - Forschungsdatenmanagement
+  - Metadatenstandards
+  - Datenkuratierung
+  - Datenschutz und Privatsphäre
+categories:
+  - Leadership
+  - Engineering
+---
+
+Wir werden bald einstellen

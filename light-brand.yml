@@ -19,8 +19,8 @@ logo:
     logo-iat:
       path: assets/logos/logo-IAT.png
       alt: "Innovation Center for Agricultural System Transformation"
-    logo-DML:
-      path: assets/logos/logo-DML-white-en.png
+    logo-dml:
+      path: assets/logos/favicon_light.png
       alt: "Data and Modelling Infrastructure for Living Labs (DML)"
     logo-iat-zalf:
       path: assets/logos/logo-iat-zalf-white.png

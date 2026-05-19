@@ -1,0 +1,280 @@
+.dml-concept-diagram {
+  --dml-paper: #f5f3ee;
+  --dml-support: #2d6a4f;
+  --dml-integration: #c18f59;
+  --dml-transfer: #458484;
+  --dml-teal-dark: #356259;
+  --dml-slate: #465555;
+  --dml-muted: #7a817e;
+  --dml-frame-title: #356259;
+  --dml-panel-title: #356259;
+  --dml-shadow: 0 12px 32px rgba(0, 0, 0, 0.08), 0 2px 6px rgba(0, 0, 0, 0.04);
+  position: relative;
+  width: min(100%, 1100px);
+  margin: 2rem auto 1.5rem;
+  aspect-ratio: 1100 / 720;
+  background: var(--dml-paper);
+  overflow: hidden;
+}
+
+.dml-concept-diagram__svg,
+.dml-concept-diagram__overlay {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.dml-concept-diagram__overlay {
+  pointer-events: none;
+}
+
+.dml-concept-diagram__header {
+  position: absolute;
+  top: 28px;
+  left: 40px;
+  right: 40px;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 1rem;
+  z-index: 2;
+}
+
+.dml-concept-diagram__eyebrow {
+  font-size: 10px;
+  letter-spacing: 0.22em;
+  text-transform: uppercase;
+  font-weight: 600;
+  color: var(--dml-muted);
+}
+
+.dml-concept-diagram__title {
+  margin-top: 6px;
+  font-family: "DM Serif Display", Georgia, serif;
+  font-size: 28px;
+  line-height: 1.1;
+  color: var(--dml-frame-title);
+}
+
+.dml-concept-diagram__hint {
+  font-size: 11px;
+  color: var(--dml-muted);
+  text-align: right;
+}
+
+.dml-concept-diagram__hint button {
+  border: 0;
+  background: transparent;
+  color: var(--dml-frame-title);
+  font: inherit;
+  font-weight: 600;
+  cursor: pointer;
+  padding: 0;
+}
+
+.dml-concept-diagram__center {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  width: clamp(180px, 24vw, 260px);
+  text-align: center;
+  pointer-events: none;
+  transform: translate(-50%, -46%);
+  z-index: 1;
+}
+
+.dml-concept-diagram__center-title {
+  font-family: "DM Serif Display", Georgia, serif;
+  font-size: clamp(22px, 3vw, 32px);
+  line-height: 1.15;
+  color: var(--dml-frame-title);
+  letter-spacing: -0.01em;
+  text-wrap: balance;
+}
+
+.dml-concept-diagram__center-subtitle {
+  margin-top: 14px;
+  font-size: clamp(9px, 1vw, 10.5px);
+  letter-spacing: 0.24em;
+  text-transform: uppercase;
+  color: var(--dml-muted);
+  font-weight: 600;
+}
+
+.dml-concept-diagram__panel {
+  position: absolute;
+  width: 300px;
+  background: #fff;
+  border-radius: 10px;
+  padding: 22px 24px;
+  box-shadow: var(--dml-shadow);
+  animation: dml-fade-in 0.4s cubic-bezier(0.4, 0.2, 0.2, 1) both;
+  z-index: 3;
+  pointer-events: auto;
+}
+
+body.quarto-dark .dml-concept-diagram {
+  --dml-paper: #0f1b18;
+  --dml-muted: rgba(245, 243, 238, 0.72);
+  --dml-frame-title: #f5f3ee;
+  --dml-panel-title: #f5f3ee;
+  --dml-slate: #d5ddd9;
+  --dml-shadow: 0 16px 36px rgba(0, 0, 0, 0.28), 0 4px 10px rgba(0, 0, 0, 0.18);
+}
+
+body.quarto-dark .dml-concept-diagram__panel {
+  background: #162520;
+}
+
+.dml-concept-diagram__panel[data-position="support"] {
+  top: 90px;
+  left: 40px;
+}
+
+.dml-concept-diagram__panel[data-position="transfer"] {
+  top: 90px;
+  right: 40px;
+}
+
+.dml-concept-diagram__panel[data-position="integration"] {
+  bottom: 30px;
+  left: calc(50% - 150px);
+}
+
+.dml-concept-diagram__panel-header {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.dml-concept-diagram__panel-badge {
+  width: 24px;
+  height: 24px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  font-family: "DM Serif Display", Georgia, serif;
+  font-size: 13px;
+}
+
+.dml-concept-diagram__panel-label {
+  font-size: 9.5px;
+  letter-spacing: 0.22em;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+
+.dml-concept-diagram__panel-tagline {
+  margin-top: 12px;
+  font-family: "DM Serif Display", Georgia, serif;
+  font-size: 17px;
+  line-height: 1.32;
+  color: var(--dml-panel-title);
+  text-wrap: pretty;
+}
+
+.dml-concept-diagram__panel-list {
+  margin: 16px 0 0;
+  padding: 0;
+  list-style: none;
+  font-size: 12.5px;
+  line-height: 1.85;
+  color: var(--dml-slate);
+}
+
+.dml-concept-diagram__panel-list li {
+  display: flex;
+  gap: 10px;
+  align-items: baseline;
+}
+
+.dml-concept-diagram__panel-dot {
+  width: 5px;
+  height: 5px;
+  border-radius: 50%;
+  flex-shrink: 0;
+  transform: translateY(-2px);
+}
+
+.dml-concept-diagram__svg text {
+  user-select: none;
+}
+
+@keyframes dml-fade-in {
+  from {
+    opacity: 0;
+    transform: translateY(6px);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@media (max-width: 980px) {
+  .dml-concept-diagram {
+    aspect-ratio: auto;
+    min-height: 980px;
+  }
+
+  .dml-concept-diagram__header {
+    position: static;
+    padding: 24px 24px 0;
+    flex-direction: column;
+    gap: 0.5rem;
+  }
+
+  .dml-concept-diagram__hint {
+    text-align: left;
+  }
+
+  .dml-concept-diagram__svg,
+  .dml-concept-diagram__overlay {
+    top: 120px;
+    height: 620px;
+  }
+
+  .dml-concept-diagram__center {
+    top: 440px;
+  }
+
+  .dml-concept-diagram__panel[data-position="support"],
+  .dml-concept-diagram__panel[data-position="transfer"],
+  .dml-concept-diagram__panel[data-position="integration"] {
+    left: 24px;
+    right: 24px;
+    top: auto;
+    bottom: 24px;
+    width: auto;
+    transform: none;
+  }
+}
+
+@media (max-width: 640px) {
+  .dml-concept-diagram {
+    min-height: 860px;
+  }
+
+  .dml-concept-diagram__svg,
+  .dml-concept-diagram__overlay {
+    top: 145px;
+    height: 450px;
+  }
+
+  .dml-concept-diagram__center {
+    top: 360px;
+    width: min(220px, calc(100% - 48px));
+  }
+
+  .dml-concept-diagram__center-title {
+    font-size: clamp(18px, 5vw, 24px);
+  }
+
+  .dml-concept-diagram__title {
+    font-size: 22px;
+  }
+}

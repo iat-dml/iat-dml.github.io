@@ -4,20 +4,10 @@ subtitle: "Data Steward"
 image: ../assets/user.svg
 image-alt: "Photo of the Data Steward"
 skills:
-  - R
-  - Quarto
-  - Team Leadership
-  - System Design
-projects:
-  - title: "Cloud Migration Platform"
-    url: "/projects/cloud-migration"
-  - title: "Microservices Framework"
-    url: "/projects/microservices"
-  - title: "Developer Portal"
-    url: "/projects/dev-portal"
-categories:
-  - Leadership
-  - Engineering
+  - Research Data Management
+  - Metadata Standards
+  - Data Curation
+  - Data Protection and Privacy
 ---
 
-
+We will be hiring soon!

@@ -1,7 +1,7 @@
 ---
 title: "Ben Black"
 subtitle: "Leiter der Arbeitsgruppe"
-image: ben.jpg
+image: ../assets/ben.jpg
 image-alt: "Photo of Ben Black"
 skills:
   - R
@@ -9,12 +9,10 @@ skills:
   - Team Leadership
   - System Design
 projects:
-  - title: "Cloud Migration Platform"
-    url: "/projects/cloud-migration"
-  - title: "Microservices Framework"
-    url: "/projects/microservices"
-  - title: "Developer Portal"
-    url: "/projects/dev-portal"
+  - title: "Living Lab Dashboards"
+    url: "/projects/living-lab-dashboards"
+  - title: "MonksHillLabs Initiative"
+    url: "/projects/monkshilllabs"
 description: "Ben is the head of our working group, responsible for overseeing all projects and ensuring successful delivery. With a strong background in software engineering and team leadership, Ben has been instrumental in driving innovation and fostering a collaborative work environment."
 links:
     - icon: envelope

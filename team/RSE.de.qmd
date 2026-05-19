@@ -1,0 +1,19 @@
+---
+title: "Research Software Engineer"
+subtitle: "Research Software Engineer"
+image: ../assets/user.svg
+image-alt: "Photo of the Research Software Engineer"
+skills:
+  - Python
+  - R
+  - Git
+  - Software Architecture
+  - CI/CD
+  - HPC
+  - Open Source Development
+categories:
+  - Engineering
+  - Research
+---
+
+Wir werden bald einstellen
