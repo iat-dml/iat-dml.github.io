@@ -1,0 +1,187 @@
+name: Pull docs from knowledge-management
+
+on:
+  schedule:
+    - cron: "15 4 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: pull-docs-from-knowledge-management
+  cancel-in-progress: false
+
+env:
+  # Update this if the source-of-truth repository lives somewhere else.
+  SOURCE_REPO: iat-dml/knowledge-management
+  SYNC_STATE_FILE: .github/sync-state/knowledge-management-source-sha.txt
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Check out website repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Check out source repository
+        uses: actions/checkout@v4
+        with:
+          repository: ${{ env.SOURCE_REPO }}
+          path: source
+          # Use a PAT with read access to the source repository if it is private.
+          token: ${{ secrets.SYNC_PAT }}
+
+      - name: Detect newer source changes
+        id: detect
+        shell: bash
+        run: |
+          set -euo pipefail
+
+          current_sha="$(git -C source rev-parse HEAD)"
+          echo "current_sha=$current_sha" >> "$GITHUB_OUTPUT"
+
+          previous_sha=""
+          if [[ -f "${SYNC_STATE_FILE}" ]]; then
+            previous_sha="$(tr -d '\r\n' < "${SYNC_STATE_FILE}")"
+          fi
+          echo "previous_sha=$previous_sha" >> "$GITHUB_OUTPUT"
+
+          tracked_paths=(
+            references.bib
+            charter
+            code-of-conduct
+            resources
+            news
+          )
+
+          if [[ -z "$previous_sha" ]]; then
+            echo "should_sync=true" >> "$GITHUB_OUTPUT"
+            echo "reason=Initial sync: no previous source SHA recorded." >> "$GITHUB_OUTPUT"
+            exit 0
+          fi
+
+          if ! git -C source cat-file -e "${previous_sha}^{commit}" 2>/dev/null; then
+            echo "should_sync=true" >> "$GITHUB_OUTPUT"
+            echo "reason=Stored source SHA not found in source repository history." >> "$GITHUB_OUTPUT"
+            exit 0
+          fi
+
+          if ! git -C source merge-base --is-ancestor "$previous_sha" HEAD; then
+            echo "should_sync=true" >> "$GITHUB_OUTPUT"
+            echo "reason=Stored source SHA is not an ancestor of current HEAD." >> "$GITHUB_OUTPUT"
+            exit 0
+          fi
+
+          if git -C source diff --quiet "$previous_sha" HEAD -- "${tracked_paths[@]}"; then
+            echo "should_sync=false" >> "$GITHUB_OUTPUT"
+            echo "reason=No tracked files changed since the last synced source commit." >> "$GITHUB_OUTPUT"
+          else
+            echo "should_sync=true" >> "$GITHUB_OUTPUT"
+            echo "reason=Tracked files changed since the last synced source commit." >> "$GITHUB_OUTPUT"
+          fi
+
+      - name: Sync curated files from source repository
+        if: ${{ steps.detect.outputs.should_sync == 'true' }}
+        shell: bash
+        run: |
+          set -euo pipefail
+
+          missing=0
+
+          copy_file() {
+            local src="$1"
+            local dest="$2"
+
+            if [[ ! -f "$src" ]]; then
+              echo "::error::Missing source file: $src"
+              missing=1
+              return
+            fi
+
+            mkdir -p "$(dirname "$dest")"
+            install -m 0644 "$src" "$dest"
+          }
+
+          copy_tree_except() {
+            local src_dir="$1"
+            local dest_dir="$2"
+            shift 2
+
+            if [[ ! -d "$src_dir" ]]; then
+              echo "::error::Missing source directory: $src_dir"
+              missing=1
+              return
+            fi
+
+            local find_args=(-type f)
+            local pattern
+            for pattern in "$@"; do
+              find_args+=("!" "-name" "$pattern")
+            done
+
+            while IFS= read -r -d '' src; do
+              local rel="${src#${src_dir}/}"
+              local dest="$dest_dir/$rel"
+
+              mkdir -p "$(dirname "$dest")"
+              install -m 0644 "$src" "$dest"
+            done < <(find "$src_dir" "${find_args[@]}" -print0)
+          }
+
+          copy_file source/references.bib references.bib
+
+          copy_file source/charter/charter.qmd charter.qmd
+          copy_file source/charter/charter.de.qmd charter.de.qmd
+
+          copy_file source/code-of-conduct/code-of-conduct.qmd code-of-conduct.qmd
+          copy_file source/code-of-conduct/code-of-conduct.de.qmd code-of-conduct.de.qmd
+
+          copy_file source/resources/resources.qmd resources.qmd
+          copy_file source/resources/resources.de.qmd resources.de.qmd
+
+          copy_file source/news/news.qmd news.qmd
+          copy_file source/news/news.de.qmd news.de.qmd
+          copy_tree_except source/news news README.md news.qmd news.de.qmd
+
+          if [[ "$missing" -ne 0 ]]; then
+            echo "One or more expected source files were missing."
+            exit 1
+          fi
+
+      - name: Record synced source commit
+        if: ${{ steps.detect.outputs.should_sync == 'true' }}
+        shell: bash
+        run: |
+          set -euo pipefail
+
+          mkdir -p "$(dirname "${SYNC_STATE_FILE}")"
+          printf '%s\n' '${{ steps.detect.outputs.current_sha }}' > "${SYNC_STATE_FILE}"
+
+      - name: Show pending changes
+        shell: bash
+        run: |
+          echo "${{ steps.detect.outputs.reason }}"
+          git status --short
+
+      - name: Commit and push synced changes
+        if: ${{ steps.detect.outputs.should_sync == 'true' }}
+        shell: bash
+        run: |
+          set -euo pipefail
+
+          git config user.email "actions@github.com"
+          git config user.name "GitHub Actions"
+
+          git add -A
+
+          if git diff --cached --quiet; then
+            echo "No changes to commit."
+            exit 0
+          fi
+
+          git commit -m "Sync docs from knowledge-management"
+          git push
