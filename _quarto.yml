@@ -15,6 +15,8 @@ website:
     right:
       - href: index.qmd
         text: Home
+      - href: services.qmd
+        text: Services
       - href: team.qmd
         text: People
       - href: projects.qmd
@@ -42,7 +44,7 @@ format:
       light: [scss/styles.scss]
       dark: [scss/styles.scss]
     include-in-header:
-      - file: dml-concept-diagram-head.html
+      - file: dml-shared-head-assets.html
     include-after-body:
       - file: hero.html
     toc: false

@@ -3,6 +3,7 @@
 /*-- scss:rules --*/
 
 @import "dml-concept-diagram";
+@import "dml-support-tiers";
 
 /* ============================================
    Brand Term Colour Utilities
@@ -577,27 +578,62 @@ h2.anchored { border-bottom: none !important; }
    ============================================ */
 
 .team-grid {
+  --team-card-bg: #{$brand-white};
+  --team-card-border: rgba(15, 27, 24, 0.09);
+  --team-card-shadow: 0 12px 30px rgba(15, 27, 24, 0.08), 0 3px 8px rgba(15, 27, 24, 0.04);
+  --team-card-shadow-hover: 0 18px 36px rgba(15, 27, 24, 0.12), 0 6px 14px rgba(15, 27, 24, 0.06);
+  --team-card-title: #{$brand-teal-dark};
+  --team-card-text: #{$brand-slate};
+  --team-card-muted: #{$brand-gray};
+  --team-card-chip-bg: #{rgba($brand-teal-dark, 0.06)};
+  --team-card-chip-border: #{rgba($brand-teal-dark, 0.12)};
+  --team-card-chip-text: #{$brand-teal-dark};
+  --team-card-icon-bg: #{rgba($brand-teal-dark, 0.06)};
+  --team-card-icon-border: #{rgba($brand-teal-dark, 0.12)};
+  --team-card-icon-color: #{$brand-teal-dark};
+  --team-card-divider: #{rgba($brand-teal-dark, 0.12)};
+  --team-card-image-ring: #{rgba($brand-teal-dark, 0.16)};
+
   display: grid;
   gap: 2em;
   grid-template-columns: repeat(auto-fill, minmax(280px, 1fr)) !important;
 
   .quarto-grid-item.card-team,
   .quarto-grid-item.card-team.card {
+    position: relative;
+    overflow: hidden;
     border-radius: 1rem;
-    background-color: $white !important;
-    border: 1px solid #e5e7eb;
-    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05), 0 1px 3px rgba(0, 0, 0, 0.03);
-    transition: transform 0.2s ease, box-shadow 0.2s ease;
+    background:
+      linear-gradient(180deg, rgba(255, 255, 255, 0.58), rgba(255, 255, 255, 0.08)),
+      var(--team-card-bg) !important;
+    border: 1px solid var(--team-card-border);
+    box-shadow: var(--team-card-shadow);
+    transition: transform 0.2s ease, box-shadow 0.2s ease, border-color 0.2s ease;
 
     &:hover {
       transform: translateY(-4px);
-      box-shadow: 0 8px 20px rgba(0, 0, 0, 0.09), 0 3px 6px rgba(0, 0, 0, 0.05);
+      border-color: rgba(53, 98, 89, 0.22);
+      box-shadow: var(--team-card-shadow-hover);
     }
 
     text-align: center;
 
+    &::before {
+      content: "";
+      position: absolute;
+      inset: 0 0 auto;
+      height: 4px;
+      background: linear-gradient(
+        90deg,
+        $brand-support 0%,
+        $brand-integration 52%,
+        $brand-transfer 100%
+      );
+      opacity: 0.95;
+    }
+
     .card-body {
-      padding: 1.75rem;
+      padding: 1.5rem 1.75rem 1.75rem;
     }
   }
 
@@ -613,7 +649,8 @@ h2.anchored { border-bottom: none !important; }
       height: 150px;
       border-radius: 50%;
       object-fit: cover;
-      border: 3px solid #e5e7eb;
+      border: 3px solid var(--team-card-image-ring);
+      box-shadow: 0 10px 22px rgba(15, 27, 24, 0.1);
     }
   }
 
@@ -631,11 +668,11 @@ h2.anchored { border-bottom: none !important; }
       width: 32px;
       height: 32px;
       font-size: 1.05rem;
-      color: #6b7280;
+      color: var(--team-card-icon-color);
       text-decoration: none;
       border-radius: 50%;
-      background-color: #f3f4f6;
-      border: 1px solid #e5e7eb;
+      background-color: var(--team-card-icon-bg);
+      border: 1px solid var(--team-card-icon-border);
       transition: background-color 0.2s ease, color 0.2s ease, border-color 0.2s ease;
 
       &:hover {
@@ -649,23 +686,30 @@ h2.anchored { border-bottom: none !important; }
   }
 
   .listing-title {
-    font-weight: 600;
-    font-size: 1.2rem;
-    margin-bottom: 0.25rem;
+    font-family: "DM Serif Display", Georgia, serif !important;
+    font-weight: 400;
+    font-size: 1.45rem;
+    line-height: 1.18;
+    letter-spacing: -0.01em;
+    margin-bottom: 0.35rem;
     margin-top: 0.5rem;
-    color: $brand-teal-dark;
+    color: var(--team-card-title);
+    text-wrap: balance;
   }
 
   .team-job-title {
-    font-weight: 400;
-    color: #6b7280;
-    font-size: 0.9rem;
+    font-weight: 700;
+    color: var(--team-card-muted);
+    font-size: 0.72rem;
     margin-bottom: 1rem;
-    font-style: italic;
+    font-style: normal;
+    letter-spacing: 0.16em;
+    text-transform: uppercase;
   }
 
   .listing-skills {
     display: flex;
+    flex-direction: column;
     flex-wrap: wrap;
     justify-content: center;
     gap: 0.5rem;
@@ -675,51 +719,52 @@ h2.anchored { border-bottom: none !important; }
       font-weight: 600;
       font-size: 0.82rem;
       margin-bottom: 0.5rem;
-      color: #374151;
+      color: var(--team-card-title);
       text-transform: uppercase;
-      letter-spacing: 0.5px;
+      letter-spacing: 0.08em;
     }
 
-    .skills-list {
+      .skills-list {
       display: flex;
       flex-wrap: wrap;
       justify-content: center;
       gap: 0.5rem;
 
       .listing-skill {
-        background-color: #f3f4f6;
-        color: #374151;
-        border: 1px solid #e5e7eb;
+        background-color: var(--team-card-chip-bg);
+        color: var(--team-card-chip-text);
+        border: 1px solid var(--team-card-chip-border);
         border-radius: 1rem;
-        padding: 0.2rem 0.7rem;
+        padding: 0.26rem 0.72rem;
         font-size: 0.73rem;
-        font-weight: 500;
+        font-weight: 700;
         text-transform: uppercase;
-        letter-spacing: 0.5px;
+        letter-spacing: 0.08em;
       }
     }
   }
 
   .team-description {
-    font-size: 0.875rem;
-    line-height: 1.6;
-    margin-bottom: 1rem;
+    font-size: 0.9rem;
+    line-height: 1.68;
+    margin-bottom: 1.1rem;
     text-align: center;
-    color: #6b7280;
+    color: var(--team-card-text);
+    text-wrap: pretty;
   }
 
   .listing-projects {
     margin-top: 1rem;
     padding-top: 1rem;
-    border-top: 1px solid #e5e7eb;
+    border-top: 1px solid var(--team-card-divider);
 
     .projects-label {
       font-weight: 600;
       font-size: 0.82rem;
       margin-bottom: 0.5rem;
-      color: #374151;
+      color: var(--team-card-title);
       text-transform: uppercase;
-      letter-spacing: 0.5px;
+      letter-spacing: 0.08em;
     }
 
     .projects-list {
@@ -730,31 +775,32 @@ h2.anchored { border-bottom: none !important; }
 
       .project-link {
         display: inline-block;
-        background-color: #f3f4f6;
-        color: $brand-teal-dark;
-        border: 1px solid #e5e7eb;
+        background-color: var(--team-card-chip-bg);
+        color: var(--team-card-chip-text);
+        border: 1px solid var(--team-card-chip-border);
         padding: 0.375rem 0.75rem;
         border-radius: 0.5rem;
         text-decoration: none;
         font-size: 0.82rem;
-        font-weight: 500;
-        transition: background-color 0.2s ease, border-color 0.2s ease;
+        font-weight: 600;
+        transition: background-color 0.2s ease, border-color 0.2s ease, color 0.2s ease;
 
         &:hover {
-          background-color: #e5e7eb;
-          border-color: #d1d5db;
-          color: $brand-teal-dark;
+          background-color: rgba(53, 98, 89, 0.14);
+          border-color: rgba(53, 98, 89, 0.22);
+          color: var(--team-card-title);
           text-decoration: none;
         }
       }
 
       .project-item {
         display: inline-block;
-        background-color: #f3f4f6;
-        color: #374151;
+        background-color: var(--team-card-chip-bg);
+        color: var(--team-card-text);
         padding: 0.375rem 0.75rem;
         border-radius: 0.5rem;
         font-size: 0.82rem;
+        border: 1px solid var(--team-card-chip-border);
       }
     }
   }
@@ -1116,8 +1162,28 @@ body.quarto-dark {
   }
 
   .team-grid .quarto-grid-item.card-team {
-    background-color: #1C2E2A !important;
-    border-color: rgba(255, 255, 255, 0.08) !important;
+    background:
+      linear-gradient(180deg, rgba(255, 255, 255, 0.035), rgba(255, 255, 255, 0.015)),
+      #1C2E2A !important;
+    border-color: rgba(255, 255, 255, 0.1) !important;
+  }
+
+  .team-grid {
+    --team-card-bg: #{$brand-dark-surface};
+    --team-card-border: rgba(255, 255, 255, 0.1);
+    --team-card-shadow: 0 18px 36px rgba(0, 0, 0, 0.28), 0 4px 10px rgba(0, 0, 0, 0.18);
+    --team-card-shadow-hover: 0 22px 42px rgba(0, 0, 0, 0.32), 0 8px 18px rgba(0, 0, 0, 0.2);
+    --team-card-title: #{$brand-white};
+    --team-card-text: #{rgba($brand-white, 0.84)};
+    --team-card-muted: #{rgba($brand-white, 0.7)};
+    --team-card-chip-bg: #{rgba($brand-white, 0.06)};
+    --team-card-chip-border: #{rgba($brand-white, 0.12)};
+    --team-card-chip-text: #{rgba($brand-white, 0.86)};
+    --team-card-icon-bg: #{rgba($brand-white, 0.06)};
+    --team-card-icon-border: #{rgba($brand-white, 0.12)};
+    --team-card-icon-color: #{rgba($brand-white, 0.82)};
+    --team-card-divider: #{rgba($brand-white, 0.12)};
+    --team-card-image-ring: #{rgba($brand-white, 0.16)};
   }
 
   /* Navbar — dark glass treatment */

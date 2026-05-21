@@ -1,0 +1,9 @@
+---
+title: "More information about our services"
+---
+
+## Tiered Support model
+
+The working group offers different levels of support depending on the scope of the request, the expected collaboration, and the time needed to deliver useful results.
+
+<div data-dml-support-tiers data-lang="en" aria-label="Interactive staircase diagram showing the three support tiers offered by the working group"></div>

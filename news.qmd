@@ -4,7 +4,9 @@ subtitle: "Updates from the working groups activities"
 toc: false
 comments: false
 listing:
-    contents: "*.qmd"
+    contents:
+    - "./news/*.qmd"
+    - "!./news/*de.qmd"
     type: default
     image-height: 200px
     image-align: left

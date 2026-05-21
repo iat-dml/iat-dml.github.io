@@ -1,0 +1,9 @@
+---
+title: "Über uns"
+---
+
+## Unterstützungsmodell
+
+Die Arbeitsgruppe bietet unterschiedliche Unterstützungsstufen an, abhängig vom Umfang der Anfrage, der erwarteten Zusammenarbeit und dem Aufwand für belastbare Ergebnisse.
+
+<div data-dml-support-tiers data-lang="de" aria-label="Interaktives Stufendiagramm mit den drei Unterstützungsstufen der Arbeitsgruppe"></div>
