@@ -10,24 +10,7 @@
 <atom:link href="https://iat-dml.github.io/de/news.xml" rel="self" type="application/rss+xml"/>
 <description>„Dies ist die Website der Arbeitsgruppe „Daten- und Modellierungsinfrastruktur für Living Labs“ (SWG) des Innovationszentrums für Agrarsystemtransformation (IAT) als Teil des Leibniz-Zentrums für Agrarlandschaftsforschung (ZALF).“</description>
 <generator>quarto-1.9.37</generator>
-<lastBuildDate>Thu, 21 May 2026 02:09:36 GMT</lastBuildDate>
-<item>
-  <title>About</title>
-  <link>https://iat-dml.github.io/de/about.html</link>
-  <description><![CDATA[ 
-
-
-
-
-
-<p>About this site</p>
-
-
-
- ]]></description>
-  <guid>https://iat-dml.github.io/de/about.html</guid>
-  <pubDate>Thu, 21 May 2026 02:09:36 GMT</pubDate>
-</item>
+<lastBuildDate>Thu, 21 May 2026 15:51:22 GMT</lastBuildDate>
 <item>
   <title>Data and Modelling Infrastructure for Living Labs Service Working Group Charter</title>
   <link>https://iat-dml.github.io/de/charter.html</link>
@@ -43,7 +26,7 @@
 
  ]]></description>
   <guid>https://iat-dml.github.io/de/charter.html</guid>
-  <pubDate>Thu, 21 May 2026 02:09:36 GMT</pubDate>
+  <pubDate>Thu, 21 May 2026 15:51:22 GMT</pubDate>
 </item>
 <item>
   <title>Verhaltenskodex</title>
@@ -59,7 +42,7 @@
 
  ]]></description>
   <guid>https://iat-dml.github.io/de/code-of-conduct.html</guid>
-  <pubDate>Thu, 21 May 2026 02:09:36 GMT</pubDate>
+  <pubDate>Thu, 21 May 2026 15:51:22 GMT</pubDate>
 </item>
 <item>
   <title></title>
@@ -85,7 +68,7 @@
 [Integration]{.text-integration}: Daten und Methoden über die IAT-Forschungsgruppen hinweg verbinden
 
 [Transfer]{.text-transfer}: Die Verbindung zwischen Wissenschaft und Praxis schließen -->
-<p><a href="services.qmd" class="btn-brand">Erfahren Sie mehr über unsere Dienstleistungen und wie wir Sie unterstützen können</a></p>
+<p><a href="./services.html" class="btn-brand">Erfahren Sie mehr über unsere Dienstleistungen und wie wir Sie unterstützen können</a></p>
 <p><a href="./projects.html" class="btn-brand">Beispiele für Projekte, die wir unterstützt haben</a></p>
 <p><a href="./team.html" class="btn-brand">Das Team kennenlernen</a></p>
 </div>
@@ -119,7 +102,7 @@
 
  ]]></description>
   <guid>https://iat-dml.github.io/de/</guid>
-  <pubDate>Thu, 21 May 2026 02:09:36 GMT</pubDate>
+  <pubDate>Thu, 21 May 2026 15:51:22 GMT</pubDate>
 </item>
 <item>
   <title>Datenschutzerklärung</title>
@@ -199,7 +182,7 @@
 
  ]]></description>
   <guid>https://iat-dml.github.io/de/privacy-policy.html</guid>
-  <pubDate>Thu, 21 May 2026 02:09:36 GMT</pubDate>
+  <pubDate>Thu, 21 May 2026 15:51:22 GMT</pubDate>
 </item>
 <item>
   <title>Projekte</title>
@@ -221,7 +204,7 @@
 <div class="listing-no-matching d-none">Keine Treffer</div>
 </div> ]]></description>
   <guid>https://iat-dml.github.io/de/projects.html</guid>
-  <pubDate>Thu, 21 May 2026 02:09:36 GMT</pubDate>
+  <pubDate>Thu, 21 May 2026 15:51:22 GMT</pubDate>
 </item>
 <item>
   <title>Ressourcen</title>
@@ -264,7 +247,30 @@
 
  ]]></description>
   <guid>https://iat-dml.github.io/de/resources.html</guid>
-  <pubDate>Thu, 21 May 2026 02:09:36 GMT</pubDate>
+  <pubDate>Thu, 21 May 2026 15:51:22 GMT</pubDate>
+</item>
+<item>
+  <title>Über uns</title>
+  <link>https://iat-dml.github.io/de/services.html</link>
+  <description><![CDATA[ 
+
+
+
+
+
+<section id="unterstützungsmodell" class="level2">
+<h2 class="anchored" data-anchor-id="unterstützungsmodell">Unterstützungsmodell</h2>
+<p>Die Arbeitsgruppe bietet unterschiedliche Unterstützungsstufen an, abhängig vom Umfang der Anfrage, der erwarteten Zusammenarbeit und dem Aufwand für belastbare Ergebnisse.</p>
+<div data-dml-support-tiers="" data-lang="de" aria-label="Interaktives Stufendiagramm mit den drei Unterstützungsstufen der Arbeitsgruppe">
+
+</div>
+
+
+</section>
+
+ ]]></description>
+  <guid>https://iat-dml.github.io/de/services.html</guid>
+  <pubDate>Thu, 21 May 2026 15:51:22 GMT</pubDate>
 </item>
 <item>
   <title>Team</title>
@@ -288,7 +294,7 @@
 
  ]]></description>
   <guid>https://iat-dml.github.io/de/team.html</guid>
-  <pubDate>Thu, 21 May 2026 02:09:36 GMT</pubDate>
+  <pubDate>Thu, 21 May 2026 15:51:22 GMT</pubDate>
 </item>
 <item>
   <title>Ben Black</title>
@@ -309,7 +315,7 @@
 </section>
  ]]></description>
   <guid>https://iat-dml.github.io/de/team/Ben.html</guid>
-  <pubDate>Thu, 21 May 2026 02:09:36 GMT</pubDate>
+  <pubDate>Thu, 21 May 2026 15:51:22 GMT</pubDate>
   <media:content url="https://iat-dml.github.io/de/assets/ben.jpg" medium="image" type="image/jpeg"/>
 </item>
 <item>
@@ -329,7 +335,7 @@
   <category>Leadership</category>
   <category>Engineering</category>
   <guid>https://iat-dml.github.io/de/team/DS.html</guid>
-  <pubDate>Thu, 21 May 2026 02:09:36 GMT</pubDate>
+  <pubDate>Thu, 21 May 2026 15:51:22 GMT</pubDate>
   <media:content url="https://iat-dml.github.io/de/assets/user.svg" medium="image" type="image/svg+xml"/>
 </item>
 <item>
@@ -349,7 +355,7 @@
   <category>Engineering</category>
   <category>Research</category>
   <guid>https://iat-dml.github.io/de/team/RSE.html</guid>
-  <pubDate>Thu, 21 May 2026 02:09:36 GMT</pubDate>
+  <pubDate>Thu, 21 May 2026 15:51:22 GMT</pubDate>
   <media:content url="https://iat-dml.github.io/de/assets/user.svg" medium="image" type="image/svg+xml"/>
 </item>
 </channel>
