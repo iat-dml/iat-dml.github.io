@@ -38,36 +38,7 @@
   },
   {
     "listing": "/news.de.html",
-    "items": [
-      "/charter.de.html",
-      "/charter.html",
-      "/code-of-conduct.de.html",
-      "/code-of-conduct.html",
-      "/index.de.html",
-      "/index.html",
-      "/news.html",
-      "/privacy-policy.de.html",
-      "/privacy-policy.html",
-      "/projects.de.html",
-      "/projects.html",
-      "/resources.de.html",
-      "/resources.html",
-      "/services.de.html",
-      "/services.html",
-      "/team.de.html",
-      "/team.html",
-      "/team/Ben.de.html",
-      "/team/Ben.html",
-      "/team/DS.de.html",
-      "/team/DS.html",
-      "/team/RSE.de.html",
-      "/team/RSE.html",
-      "/news/2025-06-iemss-workshop.html",
-      "/news/2025-01-iat-kickoff.html",
-      "/news/2025-03-fairagro-summit.html",
-      "/projects/monkshilllabs.html",
-      "/projects/living-lab-dashboards.html"
-    ]
+    "items": []
   },
   {
     "listing": "/projects.de.html",
