@@ -4,9 +4,7 @@ subtitle: "Aktuelles aus den Arbeitsgruppen"
 toc: false
 comments: false
 listing:
-    contents: 
-    - "./news/*de.qmd"
-    - "!./news/*.qmd"
+    contents: "*.qmd"
     type: default
     image-height: 200px
     image-align: left
