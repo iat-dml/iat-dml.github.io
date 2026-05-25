@@ -10,7 +10,7 @@
 <atom:link href="https://iat-dml.github.io/de/news.xml" rel="self" type="application/rss+xml"/>
 <description>„Dies ist die Website der Arbeitsgruppe „Daten- und Modellierungsinfrastruktur für Living Labs“ (SWG) des Innovationszentrums für Agrarsystemtransformation (IAT) als Teil des Leibniz-Zentrums für Agrarlandschaftsforschung (ZALF).“</description>
 <generator>quarto-1.9.37</generator>
-<lastBuildDate>Sun, 24 May 2026 02:07:35 GMT</lastBuildDate>
+<lastBuildDate>Mon, 25 May 2026 02:16:25 GMT</lastBuildDate>
 <item>
   <title>Data and Modelling Infrastructure for Living Labs Service Working Group Charter</title>
   <link>https://iat-dml.github.io/de/charter.html</link>
@@ -26,7 +26,7 @@
 
  ]]></description>
   <guid>https://iat-dml.github.io/de/charter.html</guid>
-  <pubDate>Sun, 24 May 2026 02:07:35 GMT</pubDate>
+  <pubDate>Mon, 25 May 2026 02:16:25 GMT</pubDate>
 </item>
 <item>
   <title>Verhaltenskodex</title>
@@ -42,7 +42,7 @@
 
  ]]></description>
   <guid>https://iat-dml.github.io/de/code-of-conduct.html</guid>
-  <pubDate>Sun, 24 May 2026 02:07:35 GMT</pubDate>
+  <pubDate>Mon, 25 May 2026 02:16:25 GMT</pubDate>
 </item>
 <item>
   <title></title>
@@ -102,7 +102,7 @@
 
  ]]></description>
   <guid>https://iat-dml.github.io/de/</guid>
-  <pubDate>Sun, 24 May 2026 02:07:35 GMT</pubDate>
+  <pubDate>Mon, 25 May 2026 02:16:25 GMT</pubDate>
 </item>
 <item>
   <title>Datenschutzerklärung</title>
@@ -182,7 +182,7 @@
 
  ]]></description>
   <guid>https://iat-dml.github.io/de/privacy-policy.html</guid>
-  <pubDate>Sun, 24 May 2026 02:07:35 GMT</pubDate>
+  <pubDate>Mon, 25 May 2026 02:16:25 GMT</pubDate>
 </item>
 <item>
   <title>Projekte</title>
@@ -204,7 +204,7 @@
 <div class="listing-no-matching d-none">Keine Treffer</div>
 </div> ]]></description>
   <guid>https://iat-dml.github.io/de/projects.html</guid>
-  <pubDate>Sun, 24 May 2026 02:07:35 GMT</pubDate>
+  <pubDate>Mon, 25 May 2026 02:16:25 GMT</pubDate>
 </item>
 <item>
   <title>Ressourcen</title>
@@ -247,7 +247,7 @@
 
  ]]></description>
   <guid>https://iat-dml.github.io/de/resources.html</guid>
-  <pubDate>Sun, 24 May 2026 02:07:35 GMT</pubDate>
+  <pubDate>Mon, 25 May 2026 02:16:25 GMT</pubDate>
 </item>
 <item>
   <title>Über uns</title>
@@ -270,7 +270,7 @@
 
  ]]></description>
   <guid>https://iat-dml.github.io/de/services.html</guid>
-  <pubDate>Sun, 24 May 2026 02:07:35 GMT</pubDate>
+  <pubDate>Mon, 25 May 2026 02:16:25 GMT</pubDate>
 </item>
 <item>
   <title>Team</title>
@@ -294,7 +294,7 @@
 
  ]]></description>
   <guid>https://iat-dml.github.io/de/team.html</guid>
-  <pubDate>Sun, 24 May 2026 02:07:35 GMT</pubDate>
+  <pubDate>Mon, 25 May 2026 02:16:25 GMT</pubDate>
 </item>
 <item>
   <title>Ben Black</title>
@@ -315,7 +315,7 @@
 </section>
  ]]></description>
   <guid>https://iat-dml.github.io/de/team/Ben.html</guid>
-  <pubDate>Sun, 24 May 2026 02:07:35 GMT</pubDate>
+  <pubDate>Mon, 25 May 2026 02:16:25 GMT</pubDate>
   <media:content url="https://iat-dml.github.io/de/assets/ben.jpg" medium="image" type="image/jpeg"/>
 </item>
 <item>
@@ -335,7 +335,7 @@
   <category>Leadership</category>
   <category>Engineering</category>
   <guid>https://iat-dml.github.io/de/team/DS.html</guid>
-  <pubDate>Sun, 24 May 2026 02:07:35 GMT</pubDate>
+  <pubDate>Mon, 25 May 2026 02:16:25 GMT</pubDate>
   <media:content url="https://iat-dml.github.io/de/assets/user.svg" medium="image" type="image/svg+xml"/>
 </item>
 <item>
@@ -355,7 +355,7 @@
   <category>Engineering</category>
   <category>Research</category>
   <guid>https://iat-dml.github.io/de/team/RSE.html</guid>
-  <pubDate>Sun, 24 May 2026 02:07:35 GMT</pubDate>
+  <pubDate>Mon, 25 May 2026 02:16:25 GMT</pubDate>
   <media:content url="https://iat-dml.github.io/de/assets/user.svg" medium="image" type="image/svg+xml"/>
 </item>
 </channel>
