@@ -11,7 +11,7 @@ listing:
   image-align: left
   fields: [image, title, date, categories, description]
   type: grid
-  grid-columns: 1
+  grid-columns: 3
   grid-item-align: center
   sort: "date desc"
   feed: true

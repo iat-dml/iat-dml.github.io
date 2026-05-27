@@ -1,5 +1,6 @@
 ---
 title: "MonksHillLabs Initiative"
+image: ../assets/mhl-screenshot.png
 date: "2024-11-15"
 categories: [infrastructure, collaboration, research platform]
 description: "MonksHillLabs provides shared research infrastructure and collaborative workspace for developing and testing landscape modelling tools and data workflows."

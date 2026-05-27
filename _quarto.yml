@@ -63,7 +63,7 @@ babelquarto:
   - name: de
     text: "DE"
   - name: en
-    text: "ENG"
+    text: "EN"
   mainlanguage: 'en'
   languages: ['de']
 title-de: Arbeitsgruppe „Daten- und Modellierungsinfrastruktur für Living Labs“
