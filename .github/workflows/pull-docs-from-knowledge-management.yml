@@ -55,7 +55,6 @@ jobs:
             charter
             code-of-conduct
             resources
-            news
           )
 
           if [[ -z "$previous_sha" ]]; then
@@ -142,10 +141,6 @@ jobs:
 
           copy_file source/resources/resources.qmd resources.qmd
           copy_file source/resources/resources.de.qmd resources.de.qmd
-
-          copy_file source/news/news.qmd news.qmd
-          copy_file source/news/news.de.qmd news.de.qmd
-          copy_tree_except source/news news README.md news.qmd news.de.qmd
 
           if [[ "$missing" -ne 0 ]]; then
             echo "One or more expected source files were missing."
