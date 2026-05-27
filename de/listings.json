@@ -1,19 +1,7 @@
 [
   {
     "listing": "/news.html",
-    "items": [
-      "/charter.html",
-      "/code-of-conduct.html",
-      "/index.html",
-      "/privacy-policy.html",
-      "/projects.html",
-      "/resources.html",
-      "/services.html",
-      "/team.html",
-      "/team/Ben.html",
-      "/team/DS.html",
-      "/team/RSE.html"
-    ]
+    "items": []
   },
   {
     "listing": "/index.html",

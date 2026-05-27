@@ -27,22 +27,9 @@
   {
     "listing": "/news.html",
     "items": [
-      "/charter.html",
-      "/code-of-conduct.html",
-      "/index.html",
-      "/privacy-policy.html",
-      "/projects.html",
-      "/resources.html",
-      "/services.html",
-      "/team.html",
-      "/team/Ben.html",
-      "/team/DS.html",
-      "/team/RSE.html",
       "/news/2025-06-iemss-workshop.html",
       "/news/2025-01-iat-kickoff.html",
-      "/news/2025-03-fairagro-summit.html",
-      "/projects/monkshilllabs.html",
-      "/projects/living-lab-dashboards.html"
+      "/news/2025-03-fairagro-summit.html"
     ]
   }
 ]
