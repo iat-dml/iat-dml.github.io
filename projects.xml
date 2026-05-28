@@ -32,28 +32,7 @@
   <category>research platform</category>
   <guid>https://iat-dml.github.io/projects/monkshilllabs.html</guid>
   <pubDate>Fri, 15 Nov 2024 00:00:00 GMT</pubDate>
-</item>
-<item>
-  <title>Living Lab Dashboards</title>
-  <link>https://iat-dml.github.io/projects/living-lab-dashboards.html</link>
-  <description><![CDATA[ 
-
-
-
-
-
-<p>The Living Lab Dashboards project develops interactive web-based tools for visualizing and exploring data from living lab experiments conducted across our research network.</p>
-<p>These dashboards integrate diverse data streams including environmental sensors, field observations, and remote sensing data to provide real-time insights into landscape dynamics and experimental outcomes.</p>
-<p>The platform supports collaborative analysis and data-driven decision making for adaptive management of living lab sites.</p>
-
-
-
- ]]></description>
-  <category>dashboard</category>
-  <category>visualization</category>
-  <category>living labs</category>
-  <guid>https://iat-dml.github.io/projects/living-lab-dashboards.html</guid>
-  <pubDate>Sun, 01 Sep 2024 00:00:00 GMT</pubDate>
+  <media:content url="https://iat-dml.github.io/assets/mhl-screenshot.png" medium="image" type="image/png" height="92" width="144"/>
 </item>
 </channel>
 </rss>
