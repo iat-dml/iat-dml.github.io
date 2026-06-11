@@ -40,6 +40,14 @@ What they forgot to teach you about R: https://rstats.wtf/
 
 ## Tools and Software
 
+-   [Academic Cloud](https://academiccloud.de/)
+
+-   [TIB AIsstant]()
+
+-   [ORKG Ask: Open Source scholarly search and exploration system powered by Vector Search, Large Language Models and Knowledge Graphs](https://ask.orkg.org/https://ask.orkg.org/)
+
+-   [Rspace: Interoperable research tools across domains, facilitating machine actionable passage of data and metadata through all stages of the research lifecycleinteroperable research tools across domains, facilitating machine actionable passage of data and metadata through all stages of the research lifecycle](https://www.researchspace.com/about)
+
 -   [EU alternatives for software](https://european-alternatives.eu/categories) - A directory of software alternatives to popular proprietary software, with a focus on European users and organizations.
 
 -   [gettingstuffdoneai](https://www.gettingstuffdone.ai/) - Directory of Generative AI Tools and Models, categorized by use case and functionality.
