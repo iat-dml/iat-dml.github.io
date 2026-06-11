@@ -18,6 +18,8 @@ listing:
 ::: hero
 [IAT-Arbeitsgruppe]{.hero-eyebrow}
 
+![](assets/logos/dml-strata-deep.svg){.hero-logo}
+
 # Daten- und Modellierungsinfrastruktur für Living Labs
 
 [Diskutieren Sie Ihr Projekt mit uns](mailto:benjaminsamuel.black@zalf.de){.hero-btn}

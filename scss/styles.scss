@@ -636,6 +636,21 @@ html[lang="de"] #languages-links-parent {
   color: inherit;
 }
 
+/* Hero Logo
+   In index.qmd, add ![DML](assets/logos/dml-strata-deep.svg){.hero-logo}
+   between the .hero-eyebrow line and the # heading. */
+.hero-logo {
+  display: block;
+  width: clamp(68px, 11vw, 92px);
+  height: auto;
+  margin-inline: auto;
+}
+
+/* Control the spacing around the paragraph wrapping the hero logo */
+.hero p:has(.hero-logo) {
+  margin-block: 0.5rem 0.5rem;
+}
+
 /* Hero Typography */
 .hero h1 {
   font-size: clamp(2.1rem, 5.5vw, 3.75rem);

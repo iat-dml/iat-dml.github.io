@@ -12,7 +12,10 @@ website:
       ![](/assets/footer-light.png){fig-alt="Banner of partners" width=100% .light-content}![](/assets/footer-dark.png){fig-alt="Banner of partners" width=100% .dark-content} {{< fa regular copyright >}} Benjamin Black, 2026 All content licensed under {{< fa brands creative-commons >}} {{< fa brands creative-commons-by >}} {{< fa brands creative-commons-sa >}} {{< fa brands creative-commons-nc >}} [(CC BY-NC-SA 4.0)](http://creativecommons.org/licenses/by-nc-sa/4.0/) · [Privacy policy](/privacy-policy.qmd)
   navbar:
     title: false
-    logo: assets/logos/dml-strata-lockup-deep.svg
+    # Navbar logo is driven by the brand `small` logo (the disc mark —
+    # light-brand.yml / dark-brand.yml → logo-dml/logo-DML). The lockup's
+    # text is too small to read at navbar size, so the disc is used here.
+    # A `logo:` here is ignored once `brand` is configured, so leave it off.
     right:
       - href: index.qmd
         text: Home
