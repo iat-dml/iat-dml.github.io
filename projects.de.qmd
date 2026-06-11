@@ -4,9 +4,8 @@ subtitle: "Gemeinschaftsprojekte und Initiativen"
 toc: false
 comments: false
 listing:
-    contents: 
-    - "./projects/*de.qmd"
-    - "!./projects/*.qmd"
+    contents:
+    - "./projects/*.de.qmd"
     image-height: 200px
     image-align: left
     fields: [image, title, date, categories, description]

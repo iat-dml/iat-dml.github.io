@@ -508,6 +508,108 @@ html[lang="de"] #languages-links-parent {
 }
 
 /* ============================================
+   Secondary Button (outline / ghost on light)
+   Used for in-content navigation links that must sit
+   visually below the primary .btn-brand action.
+   ============================================ */
+
+.btn-ghost {
+  display: inline-block;
+  background-color: transparent;
+  color: $brand-teal-dark;
+  font-weight: 600;
+  font-size: clamp(0.85rem, 1.6vw, 1rem);
+  text-decoration: none;
+  padding-block: 0.6rem;
+  padding-inline: 1.35rem;
+  border-radius: 0.5rem;
+  border: 1.5px solid rgba(53, 98, 89, 0.35);
+  box-shadow: none;
+
+  transition:
+    background-color 0.2s ease,
+    border-color 0.2s ease,
+    color 0.2s ease;
+
+  &:hover {
+    background-color: rgba(53, 98, 89, 0.07);
+    border-color: $brand-teal-dark;
+    color: $brand-teal-dark;
+  }
+
+  &:focus-visible {
+    outline: 2px solid rgba(53, 98, 89, 0.4);
+    outline-offset: 2px;
+  }
+}
+
+body.quarto-dark .btn-ghost {
+  color: #9EBC83;
+  border-color: rgba(158, 188, 131, 0.4);
+
+  &:hover {
+    background-color: rgba(158, 188, 131, 0.1);
+    border-color: #9EBC83;
+    color: #9EBC83;
+  }
+}
+
+/* ============================================
+   "View all →" listing footer link
+   ============================================ */
+
+.more-link {
+  display: inline-block;
+  margin-block-start: 1.25rem;
+  font-size: 0.78rem;
+  font-weight: 700;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: $brand-teal-dark;
+  text-decoration: none;
+
+  &:hover {
+    text-decoration: underline;
+    text-underline-offset: 3px;
+  }
+}
+
+body.quarto-dark .more-link {
+  color: #9EBC83;
+}
+
+/* ============================================
+   Concept-diagram no-JS / screen-reader fallback
+   (the diagram JS replaces this container's contents on mount,
+   so it is only shown when JS is unavailable or before it runs)
+   ============================================ */
+
+.dml-concept-fallback {
+  max-inline-size: 72ch;
+  margin-inline: auto;
+  margin-block: 1.5rem;
+  text-align: left;
+
+  h3 {
+    font-size: 1.35rem;
+    margin-block-end: 1rem;
+  }
+
+  ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: grid;
+    gap: 0.85rem;
+  }
+
+  li {
+    line-height: 1.6;
+    text-wrap: pretty;
+  }
+}
+
+/* ============================================
    Button Row Layout
    ============================================ */
 
@@ -525,6 +627,17 @@ html[lang="de"] #languages-links-parent {
     max-width: 260px;
     text-align: center;
     line-height: 1.4;
+  }
+
+  /* Quarto wraps consecutive links in a single <p>; make that <p> the
+     flex row so the secondary buttons get the gap and wrap cleanly. */
+  p {
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 0.875rem;
   }
 
   @media (width <= 768px) {
@@ -644,6 +757,7 @@ html[lang="de"] #languages-links-parent {
   width: clamp(68px, 11vw, 92px);
   height: auto;
   margin-inline: auto;
+  margin-block: 0.5rem;
 }
 
 /* Control the spacing around the paragraph wrapping the hero logo */
@@ -699,6 +813,17 @@ html[lang="de"] #languages-links-parent {
 
   @media (width <= 768px) {
     margin-block-start: 0.75rem;
+  }
+}
+
+/* Hero primary CTA: the solid .btn-brand contact button needs a deeper
+   shadow to lift off the dark hero image and read as the boldest action. */
+.hero .btn-brand {
+  margin-block-start: 0.5rem;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.4);
+
+  &:hover {
+    box-shadow: 0 10px 28px rgba(53, 98, 89, 0.55);
   }
 }
 

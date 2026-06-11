@@ -4,6 +4,7 @@ listing:
     contents: "./news/*de.qmd"
     type: grid
     grid-columns: 1
+    max-items: 3
     fields: [image, title, date, categories, description]
     sort: "date desc"
     grid-item-align: center
@@ -18,31 +19,38 @@ listing:
 ::: hero
 [IAT-Arbeitsgruppe]{.hero-eyebrow}
 
-![](assets/logos/dml-strata-deep.svg){.hero-logo}
+```{=html}
+<img src="assets/logos/dml-strata-deep.svg" class="hero-logo" alt="">
+```
 
 # Daten- und Modellierungsinfrastruktur für Living Labs
 
-[Diskutieren Sie Ihr Projekt mit uns](mailto:benjaminsamuel.black@zalf.de){.hero-btn}
+[Diskutieren Sie Ihr Projekt mit uns](mailto:benjaminsamuel.black@zalf.de){.btn-brand}
 :::
 
-Willkommen auf der Website der Arbeitsgruppe Daten- und Modellierungsinfrastruktur für Living Labs (DML). Wir sind eine Service-Arbeitsgruppe innerhalb des [Innovationszentrums für Agrarsystemtransformation (IAT)](https://www.zalf.de/de/struktur/iat/Seiten/default.aspx) am [Leibniz-Zentrum für Agrarlandschaftsforschung (ZALF)](https://www.zalf.de/de/struktur/iat/Seiten/default.aspx). Unsere Mission ist es, Forschende und Partner innerhalb des IAT in allen Belangen rund um Daten und Modellierung zu unterstützen. Die verschiedenen Möglichkeiten, wie wir dies tun, haben wir in der Grafik unten dargestellt:
+Willkommen auf der Website der Arbeitsgruppe Daten- und Modellierungsinfrastruktur für Living Labs (DML). Wir sind eine Service-Arbeitsgruppe innerhalb des [Innovationszentrums für Agrarsystemtransformation (IAT)](https://www.zalf.de/de/struktur/iat/Seiten/default.aspx) am [Leibniz-Zentrum für Agrarlandschaftsforschung (ZALF)](https://www.zalf.de/de/Seiten/ZALF.aspx). Unsere Mission ist es, Forschende und Partner innerhalb des IAT in allen Belangen rund um Daten und Modellierung zu unterstützen. Die verschiedenen Möglichkeiten, wie wir dies tun, haben wir in der Grafik unten dargestellt:
 
 ```{=html}
-<div data-dml-concept-diagram data-lang="de" aria-label="Interaktives Konzeptdiagramm der drei Service-Säulen der DML-Arbeitsgruppe"></div>
+<div data-dml-concept-diagram data-lang="de" aria-label="Interaktives Konzeptdiagramm der drei Service-Säulen der DML-Arbeitsgruppe">
+  <div class="dml-concept-fallback">
+    <h3>Drei Säulen unseres Leistungsangebots</h3>
+    <ul>
+      <li><strong class="text-support">Support</strong> — Forschende beim Management ihrer Forschungsdaten und Software über alle Projektphasen hinweg unterstützen: Datenmanagementpläne, Versionskontrolle, FAIR-Veröffentlichung, Schulungen und Beratung.</li>
+      <li><strong class="text-integration">Integration</strong> — Forschungsdaten und Methoden über Arbeitsgruppen hinweg verknüpfen: gemeinsame Dateninfrastruktur, interoperable Methoden und Modelle, arbeitsgruppenübergreifende Workflows, gemeinsame Standards.</li>
+      <li><strong class="text-transfer">Transfer</strong> — Den Kreislauf zwischen Wissenschaft und Praxis schließen: Dashboards und Web-Tools, Co-Design mit Stakeholdern, Living-Lab-Feedbackschleifen, Kommunikation für Open Science.</li>
+    </ul>
+  </div>
+</div>
 ```
 
 ::: {style="text-align: center"}
-<!-- [Support]{.text-support}: Forschende im IAT dabei unterstützen, Forschungsdaten und Software über den gesamten wissenschaftlichen Lebenszyklus zu verwalten
+[Diskutieren Sie Ihr Projekt mit uns](mailto:benjaminsamuel.black@zalf.de){.btn-brand}
+:::
 
-[Integration]{.text-integration}: Daten und Methoden über die IAT-Forschungsgruppen hinweg verbinden
-
-[Transfer]{.text-transfer}: Die Verbindung zwischen Wissenschaft und Praxis schließen -->
-
-[Erfahren Sie mehr über unsere Dienstleistungen und wie wir Sie unterstützen können](services.qmd){.btn-brand}
-
-[Beispiele für Projekte, die wir unterstützt haben](projects.qmd){.btn-brand}
-
-[Das Team kennenlernen](team.qmd){.btn-brand}
+::: {.button-row}
+[Unsere Dienstleistungen](services.qmd){.btn-ghost}
+[Projekte](projects.qmd){.btn-ghost}
+[Das Team kennenlernen](team.qmd){.btn-ghost}
 :::
 
 
@@ -52,6 +60,8 @@ Willkommen auf der Website der Arbeitsgruppe Daten- und Modellierungsinfrastrukt
 
 ::: {#news-listing}
 :::
+
+[Alle News →](news.qmd){.more-link}
 :::
 
 ::: {.column style="text-align: center"}
@@ -59,5 +69,7 @@ Willkommen auf der Website der Arbeitsgruppe Daten- und Modellierungsinfrastrukt
 
 ::: {#projects-listing}
 :::
+
+[Alle Projekte →](projects.qmd){.more-link}
 :::
 :::

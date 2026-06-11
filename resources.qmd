@@ -19,7 +19,7 @@ Some documents that provide guiding principles:
 
 -   [DFG research ethics](https://www.dfg.de/de/grundlagen-themen/grundlagen-und-prinzipien-der-foerderung/gwp)
 
--   [Liebniz center Good Scientific Practice](https://www.leibniz-gemeinschaft.de/ueber-uns/leibniz-integritaet/gute-wissenschaftliche-praxis-und-ombudswesen)
+-   [Leibniz center Good Scientific Practice](https://www.leibniz-gemeinschaft.de/ueber-uns/leibniz-integritaet/gute-wissenschaftliche-praxis-und-ombudswesen)
 
 Check out the [Open Science Awesome List](https://github.com/awesomelistsio/awesome-open-science)
 
@@ -63,4 +63,4 @@ What they forgot to teach you about R: https://rstats.wtf/
 -   [NFDI4Earth - Educational Portal](https://edutrain.nfdi4earth.de/)
 -   [Assured Training](https://assured-training.org/) -Ensures the safe, legal, and ethical use of sensitive data through targeted training and certification.
 -   [KI-campus](https://ki-campus.org/en/learning-opportunities/courses) - Numerous free courses on AI and related topics, including data science, machine learning, and ethical considerations in AI.
--   [Liebniz Institute for the Social Sciences (GESIS)](https://www.gesis.org/en/gesis-training)
+-   [Leibniz Institute for the Social Sciences (GESIS)](https://www.gesis.org/en/gesis-training)
