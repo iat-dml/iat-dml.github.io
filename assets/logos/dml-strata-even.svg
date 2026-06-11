@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="22 22 156 156" width="156" height="156">
+  <title>DML Strata mark — Even strata palette</title>
+  <defs>
+    <clipPath id="sdisc"><circle cx="100" cy="100" r="76"></circle></clipPath>
+    <mask id="sseams">
+      <rect x="0" y="0" width="200" height="200" fill="white"></rect>
+      <path d="M 14 84 C 58 68, 122 98, 186 78" fill="none" stroke="black" stroke-width="5" stroke-linecap="round"></path>
+      <path d="M 14 124 C 70 138, 134 112, 186 126" fill="none" stroke="black" stroke-width="5" stroke-linecap="round"></path>
+    </mask>
+  </defs>
+  <g clip-path="url(#sdisc)" mask="url(#sseams)">
+    <circle cx="100" cy="100" r="76" fill="#3B7A5C"></circle>
+    <path d="M 14 84 C 58 68, 122 98, 186 78 L 186 188 L 14 188 Z" fill="#4D9293"></path>
+    <path d="M 14 124 C 70 138, 134 112, 186 126 L 186 188 L 14 188 Z" fill="#CC9A55"></path>
+  </g>
+</svg>

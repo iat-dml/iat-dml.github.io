@@ -20,14 +20,20 @@ logo:
       path: assets/logos/logo-IAT.png
       alt: "Innovation Center for Agricultural System Transformation"
     logo-dml:
-      path: assets/logos/favicon_light.png
+      path: assets/logos/dml-strata-deep-favicon.svg
+      alt: "Data and Modelling Infrastructure for Living Labs (DML)"
+    logo-dml-full:
+      path: assets/logos/dml-strata-deep.svg
+      alt: "Data and Modelling Infrastructure for Living Labs (DML)"
+    logo-dml-lockup:
+      path: assets/logos/dml-strata-lockup-deep.svg
       alt: "Data and Modelling Infrastructure for Living Labs (DML)"
     logo-iat-zalf:
       path: assets/logos/logo-iat-zalf-white.png
       alt: "Innovation Center for Agricultural System Transformation & Leibniz Centre for Agricultural Landscape Research"
-  medium: logo-iat
-  large:  logo-iat
-  small:  logo-iat
+  medium: logo-dml-lockup
+  large:  logo-dml-lockup
+  small:  logo-dml
 
 color:
   palette:
@@ -42,9 +48,9 @@ color:
     olive:           "#B1BE4D"   # Olive / yellow-green
     sage:            "#657A4E"   # Sage green
     # Service colours
-    transfer:        "#458484"   # Teal-blue for transfer activities
-    support:         "#2D6A4F"   # Dark green for support activities
-    integration:     "#C18F59"   # Terracotta for integration activities
+    transfer:        "#3E7775"   # Teal — mid stratum (logo layer 2)
+    support:         "#2B5D45"   # Forest green — surface stratum (logo layer 1)
+    integration:     "#A4713D"   # Terracotta — deep stratum (logo layer 3)
     # Neutrals
     slate:           "#465555"   # Dark slate (text)
     white:           "#FFFFFF"

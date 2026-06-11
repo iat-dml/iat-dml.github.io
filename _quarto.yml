@@ -3,7 +3,7 @@ project:
   resources:
     - references.bib
 website:
-  favicon: assets/logos/favicon_light.png
+  favicon: assets/logos/dml-strata-deep-favicon.svg
   site-url: "https://iat-dml.github.io"
   repo-url: "https://github.com/iat-dml/iat-dml.github.io"
   title: "Data and Modelling Infrastructure for Living Labs"
@@ -12,6 +12,7 @@ website:
       ![](/assets/footer-light.png){fig-alt="Banner of partners" width=100% .light-content}![](/assets/footer-dark.png){fig-alt="Banner of partners" width=100% .dark-content} {{< fa regular copyright >}} Benjamin Black, 2026 All content licensed under {{< fa brands creative-commons >}} {{< fa brands creative-commons-by >}} {{< fa brands creative-commons-sa >}} {{< fa brands creative-commons-nc >}} [(CC BY-NC-SA 4.0)](http://creativecommons.org/licenses/by-nc-sa/4.0/) · [Privacy policy](/privacy-policy.qmd)
   navbar:
     title: false
+    logo: assets/logos/dml-strata-lockup-deep.svg
     right:
       - href: index.qmd
         text: Home
