@@ -19,7 +19,82 @@ Some documents that provide guiding principles:
 
 -   [DFG research ethics](https://www.dfg.de/de/grundlagen-themen/grundlagen-und-prinzipien-der-foerderung/gwp)
 
--   [Leibniz center Good Scientific Practice](https://www.leibniz-gemeinschaft.de/ueber-uns/leibniz-integritaet/gute-wissenschaftliche-praxis-und-ombudswesen)
+-   [Liebniz center Good Scientific Practice](https://www.leibniz-gemeinschaft.de/ueber-uns/leibniz-integritaet/gute-wissenschaftliche-praxis-und-ombudswesen)
+
+
+## Open Science communities and Initiatives
+
+-   [Open Science Awesome List](https://github.com/awesomelistsio/awesome-open-science)
+
+-   [The Turing Way’s Guide to Planning a Community](https://book.the-turing-way.org/collaboration/new-community/new-community-guide/) - A guide to planning and building a community around open science, including tips on communication, governance, and sustainability.
+
+-   [AG Open Science](https://ag-openscience.de/) - German-speaking OKF working group "Open Science". Connecting active members of the open science community and advocating for better framework conditions for research, collaboration, and publication.
+
+-  [German Reproducibility Network (GRN)](https://www.reproducibility-network.de/) - A network of researchers and institutions in Germany working to improve the reproducibility of scientific research.
+
+-  [Reproducibility for Everyone (R4Everyone)](https://www.repro4everyone.org/) - A community-driven initiative to promote reproducibility in scientific research through training, resources, and advocacy.
+
+-  [FOSTER Open Science](https://openscience.eu/article/project/foster) - A concluded European project that provides training and resources to support the adoption of open science practices.
+
+
+
+## Data visualisation
+
+-   [Fundamentals of Data Visualization](https://clauswilke.com/dataviz/)
+
+-   [Open Visualisation Academy](https://openvisualizationacademy.org/)
+
+## R and Python programming
+
+-   [What they forgot to teach you about R](https://rstats.wtf/)
+
+-   [Python for Data Analysis](https://github.com/wesm/pydata-book)
+
+
+## Quarto
+
+-   [Beautiful slides with RevealJS and Quarto](https://slidecrafting-book.com/)
+
+## Tools and Software
+
+-   [EU alternatives for software](https://european-alternatives.eu/categories) - A directory of software alternatives to popular proprietary software, with a focus on European users and organizations.
+
+-   [gettingstuffdoneai](https://www.gettingstuffdone.ai/) - Directory of Generative AI Tools and Models, categorized by use case and functionality.
+
+-   [Inkscape](https://inkscape.org/) - Open source vector graphics editor, alternative to Adobe products, useful for creating and editing figures for publications and presentations. Available via the ZALF baramundi client.
+
+-   [SoRA Geolinking service for social science data](https://sora-service.org/en/)
+
+## Training
+-   [Digital Research Academy](https://digital-research.academy/) - a trainer network focused on Open Science, Data Literacy, and Research Software Engineering (DRA's [Zenodo collection](https://zenodo.org/communities/digiresacademy/records?q=&l=list&p=1&s=10&sort=newest)).
+-   [BERD academy](https://www.berd-nfdi.de/berd-academy/)
+-   [BERD reproducible research course](https://berd-nfdi.github.io/BERD-reproducible-research-course/)
+-   [NFDI4Earth - Educational Portal](https://edutrain.nfdi4earth.de/)
+-   [Assured Training](https://assured-training.org/) -Ensures the safe, legal, and ethical use of sensitive data through targeted training and certification.
+-   [KI-campus](https://ki-campus.org/en/learning-opportunities/courses) - Numerous free courses on AI and related topics, including data science, machine learning, and ethical considerations in AI.
+-   [Liebniz Institute for the Social Sciences (GESIS)](https://www.gesis.org/en/gesis-training)
+---
+title: "Resources and tools"
+---
+
+This repo is intended to be a living document for SWG and IAT members to share useful information and resources related to Open Science, programming and Data Visualisation.
+
+Some documents that provide guiding principles:
+
+-   [Handling Research Data at ZALF Guidelinbes](https://zalf365.sharepoint.com/sites/dokumentencenter/Richtlinien/2023-01-richtlinie-zalf-data-policy.pdf?csf=1&web=1&e=irWOai)
+
+-   [ZALF open access policy](https://zalf365.sharepoint.com/sites/vorstand/Freigegebene%20Dokumente/strategiedokumente/policy-open-access.pdf?csf=1&web=1&e=4bXvat)
+
+-   [BonaRes Data Policy](https://doi.org/10.20387/BonaRes-RYCV-30RK)
+
+
+-    [Previous ZALF evaluations](https://www.leibniz-gemeinschaft.de/ueber-uns/evaluierung/das-evaluierungsverfahren-der-leibniz-gemeinschaft/senatsstellungnahmen)
+
+-   [ZALF organisational policy](https://zalf365.sharepoint.com/sites/vorstand/Freigegebene%20Dokumente/Forms/AllItems.aspx?id=%2Fsites%2Fvorstand%2FFreigegebene%20Dokumente%2Fstrategiedokumente%2Forganizational%2Dpolicy%2Dzalf%2Epdf&parent=%2Fsites%2Fvorstand%2FFreigegebene%20Dokumente%2Fstrategiedokumente)
+
+-   [DFG research ethics](https://www.dfg.de/de/grundlagen-themen/grundlagen-und-prinzipien-der-foerderung/gwp)
+
+-   [Liebniz center Good Scientific Practice](https://www.leibniz-gemeinschaft.de/ueber-uns/leibniz-integritaet/gute-wissenschaftliche-praxis-und-ombudswesen)
 
 Check out the [Open Science Awesome List](https://github.com/awesomelistsio/awesome-open-science)
 
@@ -63,4 +138,4 @@ What they forgot to teach you about R: https://rstats.wtf/
 -   [NFDI4Earth - Educational Portal](https://edutrain.nfdi4earth.de/)
 -   [Assured Training](https://assured-training.org/) -Ensures the safe, legal, and ethical use of sensitive data through targeted training and certification.
 -   [KI-campus](https://ki-campus.org/en/learning-opportunities/courses) - Numerous free courses on AI and related topics, including data science, machine learning, and ethical considerations in AI.
--   [Leibniz Institute for the Social Sciences (GESIS)](https://www.gesis.org/en/gesis-training)
+-   [Liebniz Institute for the Social Sciences (GESIS)](https://www.gesis.org/en/gesis-training)
