@@ -88,7 +88,7 @@
     "href": "news.html",
     "title": "News",
     "section": "",
-    "text": "A newsletter subscription option is coming soon!\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nUpcoming Workshop and Hackathon at iEMSs 2026\n\n\n\nworkshop\n\nhackathon\n\niEMSs\n\nupcoming\n\n\n\nThe DML group is organising a workshop and hackathon at the iEMSs 2026 conference in Dublin\n\n\n\nJul 12, 2026\n\n\n\n\n\n\n\n\n\n\n\n\n\nDML Presents at IAT Kickoff Meeting\n\n\n\npresentation\n\nIAT\n\noutreach\n\n\n\nMembers of the DML working group presented at the IAT kickoff meeting, introducing our service concept for supporting researchers with data and modelling needs.\n\n\n\nMar 18, 2026\n\n\n\n\n\n\n\n\n\n\n\n\n\nDML at the FAIRagro Community Summit\n\n\n\nFAIRagro\n\nFAIR data\n\ncommunity\n\n\n\nDML working group members attended the FAIRagro community summit, engaging with the FAIR data community in Agricultural research.\n\n\n\nMar 5, 2026\n\n\n\n\n\n\nNo matching items"
+    "text": "A newsletter subscription option is coming soon!\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nUpcoming Quarto Workshop at iEMSs 2026\n\n\n\nworkshop\n\niEMSs\n\nupcoming\n\n\n\nThe DML group is organising a workshop at the iEMSs 2026 conference in Dublin\n\n\n\nJul 12, 2026\n\n\n\n\n\n\n\n\n\n\n\n\n\nDML Presents at IAT Kickoff Meeting\n\n\n\npresentation\n\nIAT\n\noutreach\n\n\n\nMembers of the DML working group presented at the IAT kickoff meeting, introducing our service concept for supporting researchers with data and modelling needs.\n\n\n\nMar 18, 2026\n\n\n\n\n\n\n\n\n\n\n\n\n\nDML at the FAIRagro Community Summit\n\n\n\nFAIRagro\n\nFAIR data\n\ncommunity\n\n\n\nDML working group members attended the FAIRagro community summit, engaging with the FAIR data community in Agricultural research.\n\n\n\nMar 5, 2026\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "team/Ben.html",
@@ -112,151 +112,18 @@
     "text": "Experience\nWengo Analytics | Head Data Scientist | April 2018 - present\nGeoScynce | Chief Analyst | Spet 2012 - April 2018 test"
   },
   {
-    "objectID": "news/2025-01-iat-kickoff.html",
-    "href": "news/2025-01-iat-kickoff.html",
+    "objectID": "news/2026-03-fairagro-summit.html",
+    "href": "news/2026-03-fairagro-summit.html",
+    "title": "DML at the FAIRagro Community Summit",
+    "section": "",
+    "text": "In March, DML working group members travelled to Frankfurt to attend the FAIRagro Community Summit. The event brought together the FAIRagro community to showcase the services and tools the consortium has been developing to advance Open and FAIR data practices in agricultural research.\nFAIRagro is an NFDI consortium that has represented the agrosystems research community in Germany since 2023. With more than 30 partners, it is building a FAIR (Findable, Accessible, Interoperable, Reusable) research data management infrastructure — developing the tools and workflows needed to support Open Science and sustainable crop production.\nThe summit was a great opportunity to exchange ideas, hear about ongoing developments, and connect with others working on research data challenges in agriculture. We look forward to future collaboration with the FAIRagro consortium!"
+  },
+  {
+    "objectID": "news/2026-01-iat-kickoff.html",
+    "href": "news/2026-01-iat-kickoff.html",
     "title": "DML Presents at IAT Kickoff Meeting",
     "section": "",
     "text": "In March 2026 the Innovation Center for Agricultural System Transformation (IAT) was officially launched, with two days of events at the Futurium in Berlin as well as the ZALF campus in Müncheberg. The focus of the 2nd day was on connecting researchers working on similar topics within the IAT from both ZALF and the partner institutions. We were fortunate to have an opportunity to present our concept for how the Data and Modelling Infrastructure for Living Labs group (DML) will provide a three pillar approach of services to support IAT researchers and living labs in their data and modelling needs. The slides we presented are available below, and we are looking forward to engaging with the IAT and broader ZALF community in the coming months to produce some real outputs from collaborations to serve as a showcase for the services we can provide."
-  },
-  {
-    "objectID": "news/2025-06-iemss-workshop.html",
-    "href": "news/2025-06-iemss-workshop.html",
-    "title": "Upcoming Workshop and Hackathon at iEMSs 2026",
-    "section": "",
-    "text": "We are excited to announce that the DML group will host both a workshop and a hackathon at the International Environmental Modelling and Software Society (iEMSs) 2026 conference in Dublin over the 12-16th July.\nThe workshop “One Publishing Tool to Rule Them All: Quarto for Documentation, Presentations, Manuscripts and Outreach”, which is being prepared in collaboration with researchers from ETH Zurich will explore Quarto as a unified solution for academic communication. Quarto can generate multiple output formats — PDF, HTML, LaTeX, and DOCX — from a single source document while supporting executable code in Python, R, Julia, and Observable. Through short presentations and guided exercises, participants will learn to produce documentation, reproducible journal articles, presentations, outreach websites, and interactive dashboards — all from one tool.\nThe Hackathon, prepared in collaboration with the Early Career Researcher Team within the Open Modelling Foundation will have participants try to ‘hack’ existing models to improve their FAIRness with a special focus on re-useability.\nWe will make the content from both the workshop and hackathon available online after the conference, so stay tuned for more updates!"
-  },
-  {
-    "objectID": "team.html",
-    "href": "team.html",
-    "title": "Team",
-    "section": "",
-    "text": "Click on each team members profile for further information.\n\n\n\n  \n    \n      \n        \n        \n          \n        \n        \n        \n        \n        \n          \n            \n              \n          \n            \n          \n              \n            \n              \n          \n            \n          \n              \n            \n              \n          \n            \n          \n              \n            \n              \n          \n            \n          \n              \n            \n          \n        \n        \n        \n        \n          \n          Ben Black\n          \n          \n          \n          Head of the working group\n          \n\n          \n          \n            Ben is the head of our working group, responsible for overseeing all projects and ensuring successful delivery. With a strong background in software engineering and team leadership, Ben has been instrumental in driving innovation and fostering a collaborative work environment.\n          \n          \n          \n          \n          \n            Expertise:\n            \n            \n              \n            R\n              \n            Quarto\n              \n            Team Leadership\n              \n            System Design\n              \n            \n          \n          \n          \n          \n          \n          \n            Projects:\n            \n              \n                \n                  \n              Living Labs Explorer\n                  \n                \n                  \n              Microservices Framework\n                  \n                \n                  \n              Developer Portal\n                  \n                \n              \n            \n          \n          \n        \n      \n    \n  \n\n  \n    \n      \n        \n        \n          \n        \n        \n        \n        \n        \n        \n          \n          Data Steward\n          \n          \n          \n          Data Steward\n          \n\n          \n          \n            \n          \n          \n          \n          \n          \n            Expertise:\n            \n            \n              \n            Research Data Management\n              \n            Metadata Standards\n              \n            Data Curation\n              \n            Data Protection and Privacy\n              \n            \n          \n          \n          \n          \n          \n        \n      \n    \n  \n\n  \n    \n      \n        \n        \n          \n        \n        \n        \n        \n        \n        \n          \n          Research Software Engineer\n          \n          \n          \n          Research Software Engineer\n          \n\n          \n          \n            \n          \n          \n          \n          \n          \n            Expertise:\n            \n            \n              \n            Python\n              \n            R\n              \n            Git\n              \n            Software Architecture\n              \n            CI/CD\n              \n            HPC\n              \n            Open Source Development\n              \n            \n          \n          \n          \n          \n          \n        \n      \n    \n  \n\n\nNo matching items"
-  },
-  {
-    "objectID": "code-of-conduct.html",
-    "href": "code-of-conduct.html",
-    "title": "Data and Modelling Infrastructure for Living Labs",
-    "section": "",
-    "text": "We recognise that we cannot be experts in every topic and it is OK to inform service users of this. In this regard we try to make sure that service requests are assigned to team members with the most fitting expertise but we should see occasions where we feel out of our depth as opportunities to expand our own knowledge on topics."
-  },
-  {
-    "objectID": "resources.html",
-    "href": "resources.html",
-    "title": "Resources and tools",
-    "section": "",
-    "text": "This repo is intended to be a living document for SWG and IAT members to share useful information and resources related to Open Science, programming and Data Visualisation.\nSome documents that provide guiding principles:"
-  },
-  {
-    "objectID": "resources.html#open-science-communities-and-initiatives",
-    "href": "resources.html#open-science-communities-and-initiatives",
-    "title": "Resources and tools",
-    "section": "Open Science communities and Initiatives",
-    "text": "Open Science communities and Initiatives\n\nOpen Science Awesome List\nThe Turing Way’s Guide to Planning a Community - A guide to planning and building a community around open science, including tips on communication, governance, and sustainability.\nAG Open Science - German-speaking OKF working group “Open Science”. Connecting active members of the open science community and advocating for better framework conditions for research, collaboration, and publication.\nGerman Reproducibility Network (GRN) - A network of researchers and institutions in Germany working to improve the reproducibility of scientific research.\nReproducibility for Everyone (R4Everyone) - A community-driven initiative to promote reproducibility in scientific research through training, resources, and advocacy.\nFOSTER Open Science - A concluded European project that provides training and resources to support the adoption of open science practices."
-  },
-  {
-    "objectID": "resources.html#data-visualisation",
-    "href": "resources.html#data-visualisation",
-    "title": "Resources and tools",
-    "section": "Data visualisation",
-    "text": "Data visualisation\n\nFundamentals of Data Visualization\nOpen Visualisation Academy"
-  },
-  {
-    "objectID": "resources.html#r-and-python-programming",
-    "href": "resources.html#r-and-python-programming",
-    "title": "Resources and tools",
-    "section": "R and Python programming",
-    "text": "R and Python programming\n\nWhat they forgot to teach you about R\nPython for Data Analysis"
-  },
-  {
-    "objectID": "resources.html#quarto",
-    "href": "resources.html#quarto",
-    "title": "Resources and tools",
-    "section": "Quarto",
-    "text": "Quarto\n\nBeautiful slides with RevealJS and Quarto"
-  },
-  {
-    "objectID": "resources.html#tools-and-software",
-    "href": "resources.html#tools-and-software",
-    "title": "Resources and tools",
-    "section": "Tools and Software",
-    "text": "Tools and Software\n\nEU alternatives for software - A directory of software alternatives to popular proprietary software, with a focus on European users and organizations.\ngettingstuffdoneai - Directory of Generative AI Tools and Models, categorized by use case and functionality.\nInkscape - Open source vector graphics editor, alternative to Adobe products, useful for creating and editing figures for publications and presentations. Available via the ZALF baramundi client.\nSoRA Geolinking service for social science data"
-  },
-  {
-    "objectID": "resources.html#training",
-    "href": "resources.html#training",
-    "title": "Resources and tools",
-    "section": "Training",
-    "text": "Training\n\nDigital Research Academy - a trainer network focused on Open Science, Data Literacy, and Research Software Engineering (DRA’s Zenodo collection).\nBERD academy\nBERD reproducible research course\nNFDI4Earth - Educational Portal\nAssured Training -Ensures the safe, legal, and ethical use of sensitive data through targeted training and certification.\nKI-campus - Numerous free courses on AI and related topics, including data science, machine learning, and ethical considerations in AI.\nLiebniz Institute for the Social Sciences (GESIS)\ntitle: “Resources and tools”\n\nThis repo is intended to be a living document for SWG and IAT members to share useful information and resources related to Open Science, programming and Data Visualisation.\nSome documents that provide guiding principles:\n\nHandling Research Data at ZALF Guidelinbes\nZALF open access policy\nBonaRes Data Policy\nPrevious ZALF evaluations\nZALF organisational policy\nDFG research ethics\nLiebniz center Good Scientific Practice\n\nCheck out the Open Science Awesome List\n\nThe Turing Way’s Guide to Planning a Community - A guide to planning and building a community around open science, including tips on communication, governance, and sustainability."
-  },
-  {
-    "objectID": "resources.html#data-visualisation-1",
-    "href": "resources.html#data-visualisation-1",
-    "title": "Resources and tools",
-    "section": "Data visualisation",
-    "text": "Data visualisation\n\nFundamentals of Data Visualization\nOpen Visualisation Academy"
-  },
-  {
-    "objectID": "resources.html#r",
-    "href": "resources.html#r",
-    "title": "Resources and tools",
-    "section": "R",
-    "text": "R\nWhat they forgot to teach you about R: https://rstats.wtf/"
-  },
-  {
-    "objectID": "resources.html#quarto-1",
-    "href": "resources.html#quarto-1",
-    "title": "Resources and tools",
-    "section": "Quarto",
-    "text": "Quarto\n\nBeautiful slides with RevealJS and Quarto"
-  },
-  {
-    "objectID": "resources.html#tools-and-software-1",
-    "href": "resources.html#tools-and-software-1",
-    "title": "Resources and tools",
-    "section": "Tools and Software",
-    "text": "Tools and Software\n\nAcademic Cloud\nTIB AIsstant\nORKG Ask: Open Source scholarly search and exploration system powered by Vector Search, Large Language Models and Knowledge Graphs\nRspace: Interoperable research tools across domains, facilitating machine actionable passage of data and metadata through all stages of the research lifecycleinteroperable research tools across domains, facilitating machine actionable passage of data and metadata through all stages of the research lifecycle\nEU alternatives for software - A directory of software alternatives to popular proprietary software, with a focus on European users and organizations.\ngettingstuffdoneai - Directory of Generative AI Tools and Models, categorized by use case and functionality.\nInkscape - Open source vector graphics editor, alternative to Adobe products, useful for creating and editing figures for publications and presentations. Available via the ZALF baramundi client.\nSoRA Geolinking service for social science data"
-  },
-  {
-    "objectID": "resources.html#training-1",
-    "href": "resources.html#training-1",
-    "title": "Resources and tools",
-    "section": "Training",
-    "text": "Training\n\nDigital Research Academy - a trainer network focused on Open Science, Data Literacy, and Research Software Engineering (DRA’s Zenodo collection).\nBERD academy\nBERD reproducible research course\nNFDI4Earth - Educational Portal\nAssured Training -Ensures the safe, legal, and ethical use of sensitive data through targeted training and certification.\nKI-campus - Numerous free courses on AI and related topics, including data science, machine learning, and ethical considerations in AI.\nLiebniz Institute for the Social Sciences (GESIS)"
-  },
-  {
-    "objectID": "charter.html",
-    "href": "charter.html",
-    "title": "Data and Modelling Infrastructure for Living Labs Service Working Group Charter",
-    "section": "",
-    "text": "The purpose of the charter is to explain to our service users how we work in detail, the specific types of services we offer and the levels of support we can provide.\nHighlight the service concept via the diagram\nExplain the roles in our team in more detail: Data Steward, Research Software Engineer, Science transfer expert.\nPARAPHRASE from Team-manual:"
-  },
-  {
-    "objectID": "charter.html#how-we-work",
-    "href": "charter.html#how-we-work",
-    "title": "Data and Modelling Infrastructure for Living Labs Service Working Group Charter",
-    "section": "How we work",
-    "text": "How we work\n‘We strive to adapt approaches from agile project management, software development and Open Science for the context of providing support to researchers. We aim to use what works without adopting everything or being too rigid.’"
-  },
-  {
-    "objectID": "services.html",
-    "href": "services.html",
-    "title": "More information about our services",
-    "section": "",
-    "text": "The working group offers different levels of support depending on the scope of the request, the expected collaboration, and the time needed to deliver useful results."
-  },
-  {
-    "objectID": "services.html#tiered-support-model",
-    "href": "services.html#tiered-support-model",
-    "title": "More information about our services",
-    "section": "",
-    "text": "The working group offers different levels of support depending on the scope of the request, the expected collaboration, and the time needed to deliver useful results."
-  },
-  {
-    "objectID": "projects.html",
-    "href": "projects.html",
-    "title": "Projects",
-    "section": "",
-    "text": "MonksHillLabs Initiative\n\n\n\ninfrastructure\n\ncollaboration\n\nresearch platform\n\n\n\nMonksHillLabs provides shared research infrastructure and collaborative workspace for developing and testing landscape modelling tools and data workflows.\n\n\n\nNov 15, 2024\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "LICENSE.html",
@@ -280,11 +147,144 @@
     "text": "Except where otherwise noted, the software and infrastructure provided by the The ZALF Living Labs Infrastructure Community are made available under the OSI-approved MIT license.\n\nPermission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the “Software”), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:\nThe above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.\nTHE SOFTWARE IS PROVIDED “AS IS”, WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE."
   },
   {
-    "objectID": "news/2025-03-fairagro-summit.html",
-    "href": "news/2025-03-fairagro-summit.html",
-    "title": "DML at the FAIRagro Community Summit",
+    "objectID": "projects.html",
+    "href": "projects.html",
+    "title": "Projects",
     "section": "",
-    "text": "In March the Working group attended the FAIRagro community summit, joining researchers and data infrastructure specialists to discuss FAIR data principles in the agricultural and landscape sciences.\nThe event provided valuable opportunities to exchange ideas, identify common challenges, and explore potential collaborations between DML and FAIRagro initiatives."
+    "text": "MonksHillLabs Initiative\n\n\n\ninfrastructure\n\ncollaboration\n\nresearch platform\n\n\n\nMonksHillLabs provides shared research infrastructure and collaborative workspace for developing and testing landscape modelling tools and data workflows.\n\n\n\nNov 15, 2024\n\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "services.html",
+    "href": "services.html",
+    "title": "Services",
+    "section": "",
+    "text": "The working group offers different levels of support depending on the scope of the request, the expected collaboration, and the time needed to deliver useful results."
+  },
+  {
+    "objectID": "services.html#tiered-support-model",
+    "href": "services.html#tiered-support-model",
+    "title": "Services",
+    "section": "",
+    "text": "The working group offers different levels of support depending on the scope of the request, the expected collaboration, and the time needed to deliver useful results."
+  },
+  {
+    "objectID": "charter.html",
+    "href": "charter.html",
+    "title": "Charter",
+    "section": "",
+    "text": "The purpose of the charter is to explain to our service users how we work in detail, the specific types of services we offer and the levels of support we can provide.\nHighlight the service concept via the diagram\nExplain the roles in our team in more detail: Data Steward, Research Software Engineer, Science transfer expert.\nPARAPHRASE from Team-manual:"
+  },
+  {
+    "objectID": "charter.html#how-we-work",
+    "href": "charter.html#how-we-work",
+    "title": "Charter",
+    "section": "How we work",
+    "text": "How we work\n‘We strive to adapt approaches from agile project management, software development and Open Science for the context of providing support to researchers. We aim to use what works without adopting everything or being too rigid.’"
+  },
+  {
+    "objectID": "resources.html",
+    "href": "resources.html",
+    "title": "Resources",
+    "section": "",
+    "text": "This repo is intended to be a living document for SWG and IAT members to share useful information and resources related to Open Science, programming and Data Visualisation.\nSome documents that provide guiding principles:"
+  },
+  {
+    "objectID": "resources.html#open-science-communities-and-initiatives",
+    "href": "resources.html#open-science-communities-and-initiatives",
+    "title": "Resources",
+    "section": "Open Science communities and Initiatives",
+    "text": "Open Science communities and Initiatives\n\nOpen Science Awesome List\nThe Turing Way’s Guide to Planning a Community - A guide to planning and building a community around open science, including tips on communication, governance, and sustainability.\nAG Open Science - German-speaking OKF working group “Open Science”. Connecting active members of the open science community and advocating for better framework conditions for research, collaboration, and publication.\nGerman Reproducibility Network (GRN) - A network of researchers and institutions in Germany working to improve the reproducibility of scientific research.\nReproducibility for Everyone (R4Everyone) - A community-driven initiative to promote reproducibility in scientific research through training, resources, and advocacy.\nFOSTER Open Science - A concluded European project that provides training and resources to support the adoption of open science practices."
+  },
+  {
+    "objectID": "resources.html#data-visualisation",
+    "href": "resources.html#data-visualisation",
+    "title": "Resources",
+    "section": "Data visualisation",
+    "text": "Data visualisation\n\nFundamentals of Data Visualization\nOpen Visualisation Academy"
+  },
+  {
+    "objectID": "resources.html#r-and-python-programming",
+    "href": "resources.html#r-and-python-programming",
+    "title": "Resources",
+    "section": "R and Python programming",
+    "text": "R and Python programming\n\nWhat they forgot to teach you about R\nPython for Data Analysis"
+  },
+  {
+    "objectID": "resources.html#quarto",
+    "href": "resources.html#quarto",
+    "title": "Resources",
+    "section": "Quarto",
+    "text": "Quarto\n\nBeautiful slides with RevealJS and Quarto"
+  },
+  {
+    "objectID": "resources.html#tools-and-software",
+    "href": "resources.html#tools-and-software",
+    "title": "Resources",
+    "section": "Tools and Software",
+    "text": "Tools and Software\n\nEU alternatives for software - A directory of software alternatives to popular proprietary software, with a focus on European users and organizations.\ngettingstuffdoneai - Directory of Generative AI Tools and Models, categorized by use case and functionality.\nInkscape - Open source vector graphics editor, alternative to Adobe products, useful for creating and editing figures for publications and presentations. Available via the ZALF baramundi client.\nSoRA Geolinking service for social science data\nHYperverse R package for interactive apps as an alternative to shiny"
+  },
+  {
+    "objectID": "resources.html#training",
+    "href": "resources.html#training",
+    "title": "Resources",
+    "section": "Training",
+    "text": "Training\n\nDigital Research Academy - a trainer network focused on Open Science, Data Literacy, and Research Software Engineering (DRA’s Zenodo collection).\nBERD academy\nBERD reproducible research course\nNFDI4Earth - Educational Portal\nAssured Training -Ensures the safe, legal, and ethical use of sensitive data through targeted training and certification.\nKI-campus - Numerous free courses on AI and related topics, including data science, machine learning, and ethical considerations in AI.\nLiebniz Institute for the Social Sciences (GESIS)\ntitle: “Resources”\n\nThis repo is intended to be a living document for SWG and IAT members to share useful information and resources related to Open Science, programming and Data Visualisation.\nSome documents that provide guiding principles:\n\nHandling Research Data at ZALF Guidelinbes\nZALF open access policy\nBonaRes Data Policy\nPrevious ZALF evaluations\nZALF organisational policy\nDFG research ethics\nLiebniz center Good Scientific Practice\n\nCheck out the Open Science Awesome List\n\nThe Turing Way’s Guide to Planning a Community - A guide to planning and building a community around open science, including tips on communication, governance, and sustainability."
+  },
+  {
+    "objectID": "resources.html#data-visualisation-1",
+    "href": "resources.html#data-visualisation-1",
+    "title": "Resources",
+    "section": "Data visualisation",
+    "text": "Data visualisation\n\nFundamentals of Data Visualization\nOpen Visualisation Academy"
+  },
+  {
+    "objectID": "resources.html#r",
+    "href": "resources.html#r",
+    "title": "Resources",
+    "section": "R",
+    "text": "R\nWhat they forgot to teach you about R: https://rstats.wtf/"
+  },
+  {
+    "objectID": "resources.html#quarto-1",
+    "href": "resources.html#quarto-1",
+    "title": "Resources",
+    "section": "Quarto",
+    "text": "Quarto\n\nBeautiful slides with RevealJS and Quarto"
+  },
+  {
+    "objectID": "resources.html#tools-and-software-1",
+    "href": "resources.html#tools-and-software-1",
+    "title": "Resources",
+    "section": "Tools and Software",
+    "text": "Tools and Software\n\nAcademic Cloud\nTIB AIsstant\nORKG Ask: Open Source scholarly search and exploration system powered by Vector Search, Large Language Models and Knowledge Graphs\nRspace: Interoperable research tools across domains, facilitating machine actionable passage of data and metadata through all stages of the research lifecycleinteroperable research tools across domains, facilitating machine actionable passage of data and metadata through all stages of the research lifecycle\nEU alternatives for software - A directory of software alternatives to popular proprietary software, with a focus on European users and organizations.\ngettingstuffdoneai - Directory of Generative AI Tools and Models, categorized by use case and functionality.\nInkscape - Open source vector graphics editor, alternative to Adobe products, useful for creating and editing figures for publications and presentations. Available via the ZALF baramundi client.\nSoRA Geolinking service for social science data"
+  },
+  {
+    "objectID": "resources.html#training-1",
+    "href": "resources.html#training-1",
+    "title": "Resources",
+    "section": "Training",
+    "text": "Training\n\nDigital Research Academy - a trainer network focused on Open Science, Data Literacy, and Research Software Engineering (DRA’s Zenodo collection).\nBERD academy\nBERD reproducible research course\nNFDI4Earth - Educational Portal\nAssured Training -Ensures the safe, legal, and ethical use of sensitive data through targeted training and certification.\nKI-campus - Numerous free courses on AI and related topics, including data science, machine learning, and ethical considerations in AI.\nLiebniz Institute for the Social Sciences (GESIS)"
+  },
+  {
+    "objectID": "code-of-conduct.html",
+    "href": "code-of-conduct.html",
+    "title": "Code of Conduct",
+    "section": "",
+    "text": "We recognise that we cannot be experts in every topic and it is OK to inform service users of this. In this regard we try to make sure that service requests are assigned to team members with the most fitting expertise but we should see occasions where we feel out of our depth as opportunities to expand our own knowledge on topics."
+  },
+  {
+    "objectID": "team.html",
+    "href": "team.html",
+    "title": "People",
+    "section": "",
+    "text": "Click on each team members profile for further information.\n\n\n\n  \n    \n      \n        \n        \n          \n        \n        \n        \n        \n        \n          \n            \n              \n          \n            \n          \n              \n            \n              \n          \n            \n          \n              \n            \n              \n          \n            \n          \n              \n            \n              \n          \n            \n          \n              \n            \n          \n        \n        \n        \n        \n          \n          Ben Black\n          \n          \n          \n          Head of the working group\n          \n\n          \n          \n            Ben is the head of our working group, responsible for overseeing all projects and ensuring successful delivery. With a strong background in software engineering and team leadership, Ben has been instrumental in driving innovation and fostering a collaborative work environment.\n          \n          \n          \n          \n          \n            Expertise:\n            \n            \n              \n            R\n              \n            Quarto\n              \n            Team Leadership\n              \n            System Design\n              \n            \n          \n          \n          \n          \n          \n          \n            Projects:\n            \n              \n                \n                  \n              Living Labs Explorer\n                  \n                \n                  \n              Microservices Framework\n                  \n                \n                  \n              Developer Portal\n                  \n                \n              \n            \n          \n          \n        \n      \n    \n  \n\n  \n    \n      \n        \n        \n          \n        \n        \n        \n        \n        \n        \n          \n          Data Steward\n          \n          \n          \n          Data Steward\n          \n\n          \n          \n            \n          \n          \n          \n          \n          \n            Expertise:\n            \n            \n              \n            Research Data Management\n              \n            Metadata Standards\n              \n            Data Curation\n              \n            Data Protection and Privacy\n              \n            \n          \n          \n          \n          \n          \n        \n      \n    \n  \n\n  \n    \n      \n        \n        \n          \n        \n        \n        \n        \n        \n        \n          \n          Research Software Engineer\n          \n          \n          \n          Research Software Engineer\n          \n\n          \n          \n            \n          \n          \n          \n          \n          \n            Expertise:\n            \n            \n              \n            Python\n              \n            R\n              \n            Git\n              \n            Software Architecture\n              \n            CI/CD\n              \n            HPC\n              \n            Open Source Development\n              \n            \n          \n          \n          \n          \n          \n        \n      \n    \n  \n\n\nNo matching items"
+  },
+  {
+    "objectID": "news/2026-06-iemss-workshop.html",
+    "href": "news/2026-06-iemss-workshop.html",
+    "title": "Upcoming Quarto Workshop at iEMSs 2026",
+    "section": "",
+    "text": "We are excited to announce that the DML group will host a workshop at the International Environmental Modelling and Software Society (iEMSs) 2026 conference in Dublin over the 12-16th July.\nThe workshop “One Publishing Tool to Rule Them All: Quarto for Documentation, Presentations, Manuscripts and Outreach”, which is being prepared in collaboration with researchers from ETH Zurich will explore Quarto as a unified solution for academic communication. Quarto can generate multiple output formats — PDF, HTML, LaTeX, and DOCX — from a single source document while supporting executable code in Python, R, Julia, and Observable. Through short presentations and guided exercises, participants will learn to produce documentation, reproducible journal articles, presentations, outreach websites, and interactive dashboards — all from one tool.\nWe will make the content from both the workshop available online prior to the conference, so stay tuned for more updates!"
   },
   {
     "objectID": "team/DS.html",
@@ -310,21 +310,21 @@
   {
     "objectID": "index.html",
     "href": "index.html",
-    "title": "Data and Modelling Infrastructure for Living Labs",
+    "title": "Home",
     "section": "",
     "text": "IAT Service Working Group\n\n\n\nDiscuss your project with us\nWelcome to the website of the Data and Modelling Infrastructure for Living Labs (DML) Working Group. We are a service working group within the Innovation Center for Agricultural System Transformation (IAT) as part of the Leibniz Centre for Agricultural Landscape Research (ZALF). Our mission is to support researchers and partners within the IAT with all things related to data and modelling. We have represented our three-pillared approach to this in the graphic below:"
   },
   {
     "objectID": "index.html#news",
     "href": "index.html#news",
-    "title": "Data and Modelling Infrastructure for Living Labs",
+    "title": "Home",
     "section": "News",
-    "text": "News\n\n\n\n\n\n\n\n\n\n\nUpcoming Workshop and Hackathon at iEMSs 2026\n\n\n\nworkshop\n\nhackathon\n\niEMSs\n\nupcoming\n\n\n\nThe DML group is organising a workshop and hackathon at the iEMSs 2026 conference in Dublin\n\n\n\nJul 12, 2026\n\n\n\n\n\n\n\n\n\n\n\n\n\nDML Presents at IAT Kickoff Meeting\n\n\n\npresentation\n\nIAT\n\noutreach\n\n\n\nMembers of the DML working group presented at the IAT kickoff meeting, introducing our service concept for supporting researchers with data and modelling needs.\n\n\n\nMar 18, 2026\n\n\n\n\n\n\n\n\n\n\n\n\n\nDML at the FAIRagro Community Summit\n\n\n\nFAIRagro\n\nFAIR data\n\ncommunity\n\n\n\nDML working group members attended the FAIRagro community summit, engaging with the FAIR data community in Agricultural research.\n\n\n\nMar 5, 2026\n\n\n\n\n\n\nNo matching items\n\nAll news →"
+    "text": "News\n\n\n\n\n\n\n\n\n\n\nUpcoming Quarto Workshop at iEMSs 2026\n\n\n\nworkshop\n\niEMSs\n\nupcoming\n\n\n\nThe DML group is organising a workshop at the iEMSs 2026 conference in Dublin\n\n\n\nJul 12, 2026\n\n\n\n\n\n\n\n\n\n\n\n\n\nDML Presents at IAT Kickoff Meeting\n\n\n\npresentation\n\nIAT\n\noutreach\n\n\n\nMembers of the DML working group presented at the IAT kickoff meeting, introducing our service concept for supporting researchers with data and modelling needs.\n\n\n\nMar 18, 2026\n\n\n\n\n\n\n\n\n\n\n\n\n\nDML at the FAIRagro Community Summit\n\n\n\nFAIRagro\n\nFAIR data\n\ncommunity\n\n\n\nDML working group members attended the FAIRagro community summit, engaging with the FAIR data community in Agricultural research.\n\n\n\nMar 5, 2026\n\n\n\n\n\n\nNo matching items\n\nAll news →"
   },
   {
     "objectID": "index.html#projects",
     "href": "index.html#projects",
-    "title": "Data and Modelling Infrastructure for Living Labs",
+    "title": "Home",
     "section": "Projects",
     "text": "Projects\n\n\n\n\n\n\n\n\n\n\nMonksHillLabs Initiative\n\n\n\ninfrastructure\n\ncollaboration\n\nresearch platform\n\n\n\nMonksHillLabs provides shared research infrastructure and collaborative workspace for developing and testing landscape modelling tools and data workflows.\n\n\n\nNov 15, 2024\n\n\n\n\n\n\nNo matching items\n\nAll projects →"
   }

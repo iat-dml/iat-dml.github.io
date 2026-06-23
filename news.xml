@@ -12,8 +12,8 @@
 <generator>quarto-1.9.38</generator>
 <lastBuildDate>Sun, 12 Jul 2026 00:00:00 GMT</lastBuildDate>
 <item>
-  <title>Upcoming Workshop and Hackathon at iEMSs 2026</title>
-  <link>https://iat-dml.github.io/news/2025-06-iemss-workshop.html</link>
+  <title>Upcoming Quarto Workshop at iEMSs 2026</title>
+  <link>https://iat-dml.github.io/news/2026-06-iemss-workshop.html</link>
   <description><![CDATA[ 
 
 
@@ -23,10 +23,9 @@
 <script>window.__articleHeroImage = "../assets/iemss2026_logo.png";</script>
 <div class="columns columns-center">
 <div class="column">
-<p>We are excited to announce that the DML group will host both a workshop and a hackathon at the <a href="https://conference.iemss.org/">International Environmental Modelling and Software Society (iEMSs) 2026 conference in Dublin</a> over the 12-16th July.</p>
+<p>We are excited to announce that the DML group will host a workshop at the <a href="https://conference.iemss.org/">International Environmental Modelling and Software Society (iEMSs) 2026 conference in Dublin</a> over the 12-16th July.</p>
 <p>The workshop <strong>“One Publishing Tool to Rule Them All: Quarto for Documentation, Presentations, Manuscripts and Outreach”</strong>, which is being prepared in collaboration with researchers from <a href="https://baug.ethz.ch/en/department/people/staff/personen-detail.MzE3MjU2.TGlzdC82NzksLTU1NTc1NDEwMQ==.html">ETH Zurich</a> will explore <a href="https://quarto.org/">Quarto</a> as a unified solution for academic communication. Quarto can generate multiple output formats — PDF, HTML, LaTeX, and DOCX — from a single source document while supporting executable code in Python, R, Julia, and Observable. Through short presentations and guided exercises, participants will learn to produce documentation, reproducible journal articles, presentations, outreach websites, and interactive dashboards — all from one tool.</p>
-<p>The Hackathon, prepared in collaboration with the Early Career Researcher Team within the <a href="https://www.openmodelingfoundation.org/">Open Modelling Foundation</a> will have participants try to ‘hack’ existing models to improve their FAIRness with a special focus on re-useability.</p>
-<p>We will make the content from both the workshop and hackathon available online after the conference, so stay tuned for more updates!</p>
+<p>We will make the content from both the workshop available online prior to the conference, so stay tuned for more updates!</p>
 </div><div class="column">
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
@@ -40,16 +39,15 @@
 
  ]]></description>
   <category>workshop</category>
-  <category>hackathon</category>
   <category>iEMSs</category>
   <category>upcoming</category>
-  <guid>https://iat-dml.github.io/news/2025-06-iemss-workshop.html</guid>
+  <guid>https://iat-dml.github.io/news/2026-06-iemss-workshop.html</guid>
   <pubDate>Sun, 12 Jul 2026 00:00:00 GMT</pubDate>
   <media:content url="https://iat-dml.github.io/assets/iemss2026_logo.png" medium="image" type="image/png" height="78" width="144"/>
 </item>
 <item>
   <title>DML Presents at IAT Kickoff Meeting</title>
-  <link>https://iat-dml.github.io/news/2025-01-iat-kickoff.html</link>
+  <link>https://iat-dml.github.io/news/2026-01-iat-kickoff.html</link>
   <description><![CDATA[ 
 
 
@@ -68,13 +66,13 @@
   <category>presentation</category>
   <category>IAT</category>
   <category>outreach</category>
-  <guid>https://iat-dml.github.io/news/2025-01-iat-kickoff.html</guid>
+  <guid>https://iat-dml.github.io/news/2026-01-iat-kickoff.html</guid>
   <pubDate>Wed, 18 Mar 2026 00:00:00 GMT</pubDate>
   <media:content url="https://iat-dml.github.io/assets/concept-diagram.svg" medium="image" type="image/svg+xml"/>
 </item>
 <item>
   <title>DML at the FAIRagro Community Summit</title>
-  <link>https://iat-dml.github.io/news/2025-03-fairagro-summit.html</link>
+  <link>https://iat-dml.github.io/news/2026-03-fairagro-summit.html</link>
   <description><![CDATA[ 
 
 
@@ -82,8 +80,9 @@
 
 
 <script>window.__articleHeroImage = "../assets/FAIRagro-summit.jpg";</script>
-<p>In March the Working group attended the FAIRagro community summit, joining researchers and data infrastructure specialists to discuss FAIR data principles in the agricultural and landscape sciences.</p>
-<p>The event provided valuable opportunities to exchange ideas, identify common challenges, and explore potential collaborations between DML and FAIRagro initiatives.</p>
+<p>In March, DML working group members travelled to Frankfurt to attend the <a href="https://fairagro.net/en/event/summit-2026/">FAIRagro Community Summit</a>. The event brought together the FAIRagro community to showcase the services and tools the consortium has been developing to advance Open and FAIR data practices in agricultural research.</p>
+<p><a href="https://fairagro.net/en/">FAIRagro</a> is an NFDI consortium that has represented the agrosystems research community in Germany since 2023. With more than 30 partners, it is building a FAIR (Findable, Accessible, Interoperable, Reusable) research data management infrastructure — developing the tools and workflows needed to support Open Science and sustainable crop production.</p>
+<p>The summit was a great opportunity to exchange ideas, hear about ongoing developments, and connect with others working on research data challenges in agriculture. We look forward to future collaboration with the FAIRagro consortium!</p>
 
 
 
@@ -91,7 +90,7 @@
   <category>FAIRagro</category>
   <category>FAIR data</category>
   <category>community</category>
-  <guid>https://iat-dml.github.io/news/2025-03-fairagro-summit.html</guid>
+  <guid>https://iat-dml.github.io/news/2026-03-fairagro-summit.html</guid>
   <pubDate>Thu, 05 Mar 2026 00:00:00 GMT</pubDate>
   <media:content url="https://iat-dml.github.io/assets/FAIRagro-summit.jpg" medium="image" type="image/jpeg"/>
 </item>
