@@ -65,6 +65,8 @@ Some documents that provide guiding principles:
 
 -   [SoRA Geolinking service for social science data](https://sora-service.org/en/)
 
+-   [HYperverse R package for interactive apps as an alternative to shiny](https://hyperverse.world/)
+
 ## Training
 -   [Digital Research Academy](https://digital-research.academy/) - a trainer network focused on Open Science, Data Literacy, and Research Software Engineering (DRA's [Zenodo collection](https://zenodo.org/communities/digiresacademy/records?q=&l=list&p=1&s=10&sort=newest)).
 -   [BERD academy](https://www.berd-nfdi.de/berd-academy/)
