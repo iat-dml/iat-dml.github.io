@@ -2,7 +2,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>/de/team.html</loc>
-    <lastmod>2026-04-01T13:54:24.090Z</lastmod>
+    <lastmod>2026-06-23T09:44:38.252Z</lastmod>
   </url>
   <url>
     <loc>/de/team/DS.html</loc>
@@ -10,11 +10,11 @@
   </url>
   <url>
     <loc>/de/services.html</loc>
-    <lastmod>2026-05-21T14:44:28.473Z</lastmod>
+    <lastmod>2026-06-23T09:44:38.219Z</lastmod>
   </url>
   <url>
     <loc>/de/projects.html</loc>
-    <lastmod>2026-05-27T13:04:51.787Z</lastmod>
+    <lastmod>2026-06-11T13:42:27.367Z</lastmod>
   </url>
   <url>
     <loc>/de/privacy-policy.html</loc>
@@ -30,7 +30,7 @@
   </url>
   <url>
     <loc>/de/charter.html</loc>
-    <lastmod>2026-03-02T13:31:59.832Z</lastmod>
+    <lastmod>2026-06-23T09:44:38.307Z</lastmod>
   </url>
   <url>
     <loc>/de/code-of-conduct.html</loc>
@@ -38,11 +38,11 @@
   </url>
   <url>
     <loc>/de/index.html</loc>
-    <lastmod>2026-06-11T13:25:46.103Z</lastmod>
+    <lastmod>2026-06-23T09:44:38.181Z</lastmod>
   </url>
   <url>
     <loc>/de/news.html</loc>
-    <lastmod>2026-05-27T13:04:44.564Z</lastmod>
+    <lastmod>2026-06-11T13:42:25.668Z</lastmod>
   </url>
   <url>
     <loc>/de/PRODUCT.html</loc>
@@ -50,7 +50,7 @@
   </url>
   <url>
     <loc>/de/resources.html</loc>
-    <lastmod>2026-06-11T13:23:09.009Z</lastmod>
+    <lastmod>2026-06-19T16:07:40.286Z</lastmod>
   </url>
   <url>
     <loc>/de/team/Ben.html</loc>
@@ -62,7 +62,7 @@
   </url>
   <url>
     <loc>https://iat-dml.github.io/team.html</loc>
-    <lastmod>2026-04-23T08:53:28.288Z</lastmod>
+    <lastmod>2026-06-23T09:50:46.659Z</lastmod>
   </url>
   <url>
     <loc>https://iat-dml.github.io/team/DS.html</loc>
@@ -70,51 +70,51 @@
   </url>
   <url>
     <loc>https://iat-dml.github.io/services.html</loc>
-    <lastmod>2026-05-21T14:53:53.517Z</lastmod>
+    <lastmod>2026-06-23T09:50:46.649Z</lastmod>
   </url>
   <url>
     <loc>https://iat-dml.github.io/projects.html</loc>
-    <lastmod>2026-05-27T13:04:42.536Z</lastmod>
+    <lastmod>2026-06-23T09:50:46.682Z</lastmod>
   </url>
   <url>
     <loc>https://iat-dml.github.io/privacy-policy.html</loc>
     <lastmod>2026-04-29T07:45:46.276Z</lastmod>
   </url>
   <url>
-    <loc>https://iat-dml.github.io/news/2025-06-iemss-workshop.html</loc>
-    <lastmod>2026-05-12T04:13:07.928Z</lastmod>
+    <loc>https://iat-dml.github.io/news/2026-06-iemss-workshop.html</loc>
+    <lastmod>2026-06-22T08:51:58.080Z</lastmod>
   </url>
   <url>
-    <loc>https://iat-dml.github.io/news/2025-01-iat-kickoff.html</loc>
-    <lastmod>2026-05-12T04:13:07.928Z</lastmod>
-  </url>
-  <url>
-    <loc>https://iat-dml.github.io/index.html</loc>
-    <lastmod>2026-06-19T15:48:36.710Z</lastmod>
-  </url>
-  <url>
-    <loc>https://iat-dml.github.io/code-of-conduct.html</loc>
-    <lastmod>2026-05-20T16:15:18.244Z</lastmod>
-  </url>
-  <url>
-    <loc>https://iat-dml.github.io/charter.html</loc>
-    <lastmod>2026-05-20T16:15:18.235Z</lastmod>
-  </url>
-  <url>
-    <loc>https://iat-dml.github.io/DESIGN.html</loc>
-    <lastmod>2026-06-11T11:44:33.220Z</lastmod>
+    <loc>https://iat-dml.github.io/news/2026-03-fairagro-summit.html</loc>
+    <lastmod>2026-06-22T08:59:29.964Z</lastmod>
   </url>
   <url>
     <loc>https://iat-dml.github.io/LICENSE.html</loc>
     <lastmod>2026-05-15T09:59:29.124Z</lastmod>
   </url>
   <url>
-    <loc>https://iat-dml.github.io/news/2025-03-fairagro-summit.html</loc>
-    <lastmod>2026-05-15T10:01:37.024Z</lastmod>
+    <loc>https://iat-dml.github.io/DESIGN.html</loc>
+    <lastmod>2026-06-11T11:44:33.220Z</lastmod>
+  </url>
+  <url>
+    <loc>https://iat-dml.github.io/charter.html</loc>
+    <lastmod>2026-06-23T09:50:46.749Z</lastmod>
+  </url>
+  <url>
+    <loc>https://iat-dml.github.io/code-of-conduct.html</loc>
+    <lastmod>2026-06-23T09:50:46.730Z</lastmod>
+  </url>
+  <url>
+    <loc>https://iat-dml.github.io/index.html</loc>
+    <lastmod>2026-06-23T09:50:46.634Z</lastmod>
+  </url>
+  <url>
+    <loc>https://iat-dml.github.io/news/2026-01-iat-kickoff.html</loc>
+    <lastmod>2026-05-12T04:13:07.928Z</lastmod>
   </url>
   <url>
     <loc>https://iat-dml.github.io/news.html</loc>
-    <lastmod>2026-05-27T13:04:46.486Z</lastmod>
+    <lastmod>2026-06-23T09:50:46.701Z</lastmod>
   </url>
   <url>
     <loc>https://iat-dml.github.io/PRODUCT.html</loc>
@@ -126,7 +126,7 @@
   </url>
   <url>
     <loc>https://iat-dml.github.io/resources.html</loc>
-    <lastmod>2026-06-11T13:23:07.258Z</lastmod>
+    <lastmod>2026-06-23T09:50:46.719Z</lastmod>
   </url>
   <url>
     <loc>https://iat-dml.github.io/team/Ben.html</loc>

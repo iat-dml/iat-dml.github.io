@@ -1,5 +1,6 @@
 ---
-title: "Data and Modelling Infrastructure for Living Labs Service Working Group Charter"
+title: "Charter"
+title-de: "Charta"
 format:
   gfm:
     wrap: none          

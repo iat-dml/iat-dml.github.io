@@ -1,5 +1,6 @@
 ---
 title: "News"
+title-de: "Nachrichten"
 subtitle: "Updates from the working groups activities"
 toc: false
 comments: false

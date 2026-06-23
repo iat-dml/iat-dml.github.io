@@ -1,0 +1,14 @@
+---
+title: "DML at the FAIRagro Community Summit"
+date: "2026-03-05"
+image: ../assets/FAIRagro-summit.jpg
+categories: [FAIRagro, FAIR data, community]
+description: "DML working group members attended the FAIRagro community summit, engaging with the FAIR data community in Agricultural research."
+---
+
+In March, DML working group members travelled to Frankfurt to attend the [FAIRagro Community Summit](https://fairagro.net/en/event/summit-2026/). The event brought together the FAIRagro community to showcase the services and tools the consortium has been developing to advance Open and FAIR data practices in agricultural research.
+
+[FAIRagro](https://fairagro.net/en/) is an NFDI consortium that has represented the agrosystems research community in Germany since 2023. With more than 30 partners, it is building a FAIR (Findable, Accessible, Interoperable, Reusable) research data management infrastructure — developing the tools and workflows needed to support Open Science and sustainable crop production.
+
+The summit was a great opportunity to exchange ideas, hear about ongoing developments, and connect with others working on research data challenges in agriculture. We look forward to future collaboration with the FAIRagro consortium!
+

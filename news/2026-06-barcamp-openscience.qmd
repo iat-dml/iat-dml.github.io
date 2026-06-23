@@ -1,0 +1,8 @@
+---
+title: "DML at Barcamp Open Science 2026"
+date: "2026-03-05"
+draft: true
+image: ../assets/FAIRagro-summit.jpg
+categories: [FAIRagro, FAIR data, community]
+description: "DML working group members attended the FAIRagro community summit, engaging with the FAIR data community in Agricultural research."
+---

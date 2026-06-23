@@ -1,5 +1,6 @@
 ---
 title: "Projects"
+title-de: "Projekte"
 subtitle: "Collaborative projects and initiatives"
 toc: false
 comments: false

@@ -1,5 +1,6 @@
 ---
-title: "More information about our services"
+title: "Services"
+title-de: "Dienstleistungen"
 ---
 
 ## Tiered Support model

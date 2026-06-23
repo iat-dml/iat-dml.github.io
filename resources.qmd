@@ -1,5 +1,6 @@
 ---
-title: "Resources and tools"
+title: "Resources"
+title-de: "Ressourcen"
 ---
 
 This repo is intended to be a living document for SWG and IAT members to share useful information and resources related to Open Science, programming and Data Visualisation.
@@ -74,7 +75,7 @@ Some documents that provide guiding principles:
 -   [KI-campus](https://ki-campus.org/en/learning-opportunities/courses) - Numerous free courses on AI and related topics, including data science, machine learning, and ethical considerations in AI.
 -   [Liebniz Institute for the Social Sciences (GESIS)](https://www.gesis.org/en/gesis-training)
 ---
-title: "Resources and tools"
+title: "Resources"
 ---
 
 This repo is intended to be a living document for SWG and IAT members to share useful information and resources related to Open Science, programming and Data Visualisation.

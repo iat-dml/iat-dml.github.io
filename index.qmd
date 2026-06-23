@@ -1,4 +1,6 @@
 ---
+title: "Home"
+title-de: "Startseite"
 listing:
   - id: news-listing
     contents: "./news/*.qmd"
