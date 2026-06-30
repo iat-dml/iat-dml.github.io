@@ -1,0 +1,12 @@
+---
+title: "IAT ZALF Templates"
+image: ../assets/mhl-screenshot.png
+date: "2024-11-15"
+categories: [infrastructure, collaboration, research platform]
+description: "Templates for producing presentations and documents consistent with the IAT and ZALF branding."
+---
+
+This was a small project on behalf of the IAT team to create templates to be used with technical publishing software such as Quarto and Typstfor for producing presentations and documents consistent with the IAT and ZALF branding. 
+
+The results are in a public GitHub repository at [https://github.com/iat-dml/templates](https://github.com/iat-dml/templates). 
+

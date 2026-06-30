@@ -32,7 +32,7 @@
     "href": "projects.html",
     "title": "Projects",
     "section": "",
-    "text": "MonksHillLabs Initiative\n\n\n\ninfrastructure\n\ncollaboration\n\nresearch platform\n\n\n\nMonksHillLabs provides shared research infrastructure and collaborative workspace for developing and testing landscape modelling tools and data workflows.\n\n\n\nNov 15, 2024\n\n\n\n\n\n\nNo matching items"
+    "text": "MonksHillLabs Initiative\n\n\n\ninfrastructure\n\ncollaboration\n\nresearch platform\n\n\n\nMonksHillLabs provides shared research infrastructure and collaborative workspace for developing and testing landscape modelling tools and data workflows.\n\n\n\nNov 15, 2024\n\n\n\n\n\n\n\n\n\n\n\n\n\nIAT ZALF Templates\n\n\n\ninfrastructure\n\ncollaboration\n\nresearch platform\n\n\n\nTemplates for producing presentations and documents consistent with the IAT and ZALF branding.\n\n\n\nNov 15, 2024\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "privacy-policy.html",
@@ -242,7 +242,7 @@
     "href": "index.html#projects",
     "title": "Home",
     "section": "Projects",
-    "text": "Projects\n\n\n\n\n\n\n\n\n\n\nMonksHillLabs Initiative\n\n\n\ninfrastructure\n\ncollaboration\n\nresearch platform\n\n\n\nMonksHillLabs provides shared research infrastructure and collaborative workspace for developing and testing landscape modelling tools and data workflows.\n\n\n\nNov 15, 2024\n\n\n\n\n\n\nNo matching items\n\nAll projects →"
+    "text": "Projects\n\n\n\n\n\n\n\n\n\n\nMonksHillLabs Initiative\n\n\n\ninfrastructure\n\ncollaboration\n\nresearch platform\n\n\n\nMonksHillLabs provides shared research infrastructure and collaborative workspace for developing and testing landscape modelling tools and data workflows.\n\n\n\nNov 15, 2024\n\n\n\n\n\n\n\n\n\n\n\n\n\nIAT ZALF Templates\n\n\n\ninfrastructure\n\ncollaboration\n\nresearch platform\n\n\n\nTemplates for producing presentations and documents consistent with the IAT and ZALF branding.\n\n\n\nNov 15, 2024\n\n\n\n\n\n\nNo matching items\n\nAll projects →"
   },
   {
     "objectID": "news/2026-01-iat-kickoff.html",
@@ -361,7 +361,7 @@
     "href": "resources.html#tools-and-software",
     "title": "Resources",
     "section": "Tools and Software",
-    "text": "Tools and Software\n\nEU alternatives for software - A directory of software alternatives to popular proprietary software, with a focus on European users and organizations.\ngettingstuffdoneai - Directory of Generative AI Tools and Models, categorized by use case and functionality.\nInkscape - Open source vector graphics editor, alternative to Adobe products, useful for creating and editing figures for publications and presentations. Available via the ZALF baramundi client.\nSoRA Geolinking service for social science data"
+    "text": "Tools and Software\n\nEU alternatives for software - A directory of software alternatives to popular proprietary software, with a focus on European users and organizations.\ngettingstuffdoneai - Directory of Generative AI Tools and Models, categorized by use case and functionality.\nInkscape - Open source vector graphics editor, alternative to Adobe products, useful for creating and editing figures for publications and presentations. Available via the ZALF baramundi client.\nSoRA Geolinking service for social science data\nHYperverse R package for interactive apps as an alternative to shiny"
   },
   {
     "objectID": "resources.html#training",
@@ -432,5 +432,222 @@
     "title": "Research Software Engineer",
     "section": "",
     "text": "We will be hiring soon"
+  },
+  {
+    "objectID": "team/RSE.de.html",
+    "href": "team/RSE.de.html",
+    "title": "Research Software Engineer",
+    "section": "",
+    "text": "Wir werden bald einstellen"
+  },
+  {
+    "objectID": "team/Ben.de.html",
+    "href": "team/Ben.de.html",
+    "title": "Ben Black",
+    "section": "",
+    "text": "University of California, San Diego | San Diego, CA PhD in Mathematics | Sept 2011 - June 2015\nMacalester College | St. Paul, MN B.A in Economics | Sept 2007 - June 2011"
+  },
+  {
+    "objectID": "team/Ben.de.html#education",
+    "href": "team/Ben.de.html#education",
+    "title": "Ben Black",
+    "section": "",
+    "text": "University of California, San Diego | San Diego, CA PhD in Mathematics | Sept 2011 - June 2015\nMacalester College | St. Paul, MN B.A in Economics | Sept 2007 - June 2011"
+  },
+  {
+    "objectID": "team/Ben.de.html#experience",
+    "href": "team/Ben.de.html#experience",
+    "title": "Ben Black",
+    "section": "Experience",
+    "text": "Experience\nWengo Analytics | Head Data Scientist | April 2018 - present\nGeoScynce | Chief Analyst | Spet 2012 - April 2018 test"
+  },
+  {
+    "objectID": "projects.de.html",
+    "href": "projects.de.html",
+    "title": "Projekte",
+    "section": "",
+    "text": "No matching items"
+  },
+  {
+    "objectID": "privacy-policy.de.html",
+    "href": "privacy-policy.de.html",
+    "title": "Datenschutzerklärung",
+    "section": "",
+    "text": "Diese Website ist eine statische Website, die über GitHub Pages bereitgestellt wird. Wir erheben nicht aktiv personenbezogene Daten. Allerdings kann GitHub bei einem Besuch personenbezogene Daten verarbeiten (z. B. Protokolldaten einschließlich IP-Adressen), um rechtliche Verpflichtungen zu erfüllen sowie die Sicherheit und Integrität der Website und des Dienstes zu gewährleisten. Details finden Sie in der GitHub-Datenschutzerklärung."
+  },
+  {
+    "objectID": "privacy-policy.de.html#überblick",
+    "href": "privacy-policy.de.html#überblick",
+    "title": "Datenschutzerklärung",
+    "section": "",
+    "text": "Diese Website ist eine statische Website, die über GitHub Pages bereitgestellt wird. Wir erheben nicht aktiv personenbezogene Daten. Allerdings kann GitHub bei einem Besuch personenbezogene Daten verarbeiten (z. B. Protokolldaten einschließlich IP-Adressen), um rechtliche Verpflichtungen zu erfüllen sowie die Sicherheit und Integrität der Website und des Dienstes zu gewährleisten. Details finden Sie in der GitHub-Datenschutzerklärung."
+  },
+  {
+    "objectID": "privacy-policy.de.html#zweck-dieser-datenschutzerklärung",
+    "href": "privacy-policy.de.html#zweck-dieser-datenschutzerklärung",
+    "title": "Datenschutzerklärung",
+    "section": "1. Zweck dieser Datenschutzerklärung",
+    "text": "1. Zweck dieser Datenschutzerklärung\nDie Arbeitsgruppe „Data and Modelling Infrastructure for Living Labs (DML)“ am Leibniz-Zentrum für Agrarlandschaftsforschung (ZALF) legt großen Wert auf den Schutz Ihrer personenbezogenen Daten. Diese Datenschutzerklärung informiert darüber, welche personenbezogenen Daten beim Besuch dieser Website verarbeitet werden können, zu welchen Zwecken dies geschieht und welche Rechte Ihnen zustehen."
+  },
+  {
+    "objectID": "privacy-policy.de.html#erhebung-und-verarbeitung-von-daten",
+    "href": "privacy-policy.de.html#erhebung-und-verarbeitung-von-daten",
+    "title": "Datenschutzerklärung",
+    "section": "2. Erhebung und Verarbeitung von Daten",
+    "text": "2. Erhebung und Verarbeitung von Daten\nDa es sich um eine statische Website auf GitHub Pages handelt, verarbeiten wir selbst keine personenbezogenen Daten aktiv. Im Rahmen des Betriebs können jedoch durch den Hosting-Anbieter folgende Daten verarbeitet werden:\n\nProtokolldaten: Informationen wie IP-Adresse, Browsertyp, Betriebssystem, Referrer-URL, aufgerufene Seiten und Zeitstempel können von GitHub Pages protokolliert werden.\nCookies: Diese Website setzt selbst keine Tracking-Cookies. GitHub kann Cookies einsetzen, um seine Dienste bereitzustellen und abzusichern.\n\nWeitere Informationen finden Sie in der GitHub-Datenschutzerklärung."
+  },
+  {
+    "objectID": "privacy-policy.de.html#zweck-der-verarbeitung",
+    "href": "privacy-policy.de.html#zweck-der-verarbeitung",
+    "title": "Datenschutzerklärung",
+    "section": "3. Zweck der Verarbeitung",
+    "text": "3. Zweck der Verarbeitung\nWir verwenden personenbezogene Daten nicht für Analyse-, Marketing- oder Profiling-Zwecke. Eine etwaige Verarbeitung durch GitHub (z. B. Server-Logs) dient dem Betrieb und der Sicherheit der Hosting-Plattform."
+  },
+  {
+    "objectID": "privacy-policy.de.html#weitergabe-von-daten",
+    "href": "privacy-policy.de.html#weitergabe-von-daten",
+    "title": "Datenschutzerklärung",
+    "section": "4. Weitergabe von Daten",
+    "text": "4. Weitergabe von Daten\nWir verkaufen oder vermieten keine personenbezogenen Daten und geben sie nicht an Dritte weiter. GitHub kann Daten als Hosting-Anbieter gemäß seiner Datenschutzerklärung verarbeiten."
+  },
+  {
+    "objectID": "privacy-policy.de.html#rechte-der-betroffenen-personen-dsgvo",
+    "href": "privacy-policy.de.html#rechte-der-betroffenen-personen-dsgvo",
+    "title": "Datenschutzerklärung",
+    "section": "5. Rechte der betroffenen Personen (DSGVO)",
+    "text": "5. Rechte der betroffenen Personen (DSGVO)\nNach der DSGVO haben Sie insbesondere folgende Rechte:\n\nAuskunft (Art. 15)\nBerichtigung (Art. 16)\nLöschung (Art. 17)\nEinschränkung der Verarbeitung (Art. 18)\nWiderspruch (Art. 21)\nDatenübertragbarkeit (Art. 20)\n\nZudem haben Sie das Recht, sich bei einer Aufsichtsbehörde zu beschweren (Art. 77)."
+  },
+  {
+    "objectID": "privacy-policy.de.html#speicherdauer",
+    "href": "privacy-policy.de.html#speicherdauer",
+    "title": "Datenschutzerklärung",
+    "section": "6. Speicherdauer",
+    "text": "6. Speicherdauer\nWir speichern über diese Website keine personenbezogenen Daten. Etwaige Protokolldaten werden durch GitHub gemäß deren Aufbewahrungsrichtlinien verarbeitet."
+  },
+  {
+    "objectID": "privacy-policy.de.html#dienste-dritter-und-externe-links",
+    "href": "privacy-policy.de.html#dienste-dritter-und-externe-links",
+    "title": "Datenschutzerklärung",
+    "section": "7. Dienste Dritter und externe Links",
+    "text": "7. Dienste Dritter und externe Links\nDiese Website kann Links zu externen Websites enthalten. Für deren Datenschutzpraktiken sind wir nicht verantwortlich. Bitte beachten Sie die jeweiligen Datenschutzhinweise."
+  },
+  {
+    "objectID": "privacy-policy.de.html#sicherheitsmaßnahmen",
+    "href": "privacy-policy.de.html#sicherheitsmaßnahmen",
+    "title": "Datenschutzerklärung",
+    "section": "8. Sicherheitsmaßnahmen",
+    "text": "8. Sicherheitsmaßnahmen\nDiese Website betreibt keine eigene Nutzerdatenbank. GitHub Pages stellt Betriebs- und Plattform-Sicherheit bereit. Weitere Informationen finden Sie in GitHub’s Security overview."
+  },
+  {
+    "objectID": "privacy-policy.de.html#aktualisierungen",
+    "href": "privacy-policy.de.html#aktualisierungen",
+    "title": "Datenschutzerklärung",
+    "section": "9. Aktualisierungen",
+    "text": "9. Aktualisierungen\nWir können diese Datenschutzerklärung anpassen, um rechtliche Anforderungen oder Änderungen der Website abzubilden. Die jeweils aktuelle Version wird auf dieser Seite veröffentlicht."
+  },
+  {
+    "objectID": "privacy-policy.de.html#kontakt",
+    "href": "privacy-policy.de.html#kontakt",
+    "title": "Datenschutzerklärung",
+    "section": "10. Kontakt",
+    "text": "10. Kontakt\nBei Fragen zur Datenschutzerklärung kontaktieren Sie uns bitte:\n\nLeibniz-Zentrum für Agrarlandschaftsforschung (ZALF) e.V.\nArbeitsgruppe „Data and Modelling Infrastructure for Living Labs (DML)”\nE-mail: benjaminsamuel.black@zalf.de"
+  },
+  {
+    "objectID": "index.de.html",
+    "href": "index.de.html",
+    "title": "Startseite",
+    "section": "",
+    "text": "IAT-Arbeitsgruppe\n\n\n\nDiskutieren Sie Ihr Projekt mit uns\nWillkommen auf der Website der Arbeitsgruppe Daten- und Modellierungsinfrastruktur für Living Labs (DML). Wir sind eine Service-Arbeitsgruppe innerhalb des Innovationszentrums für Agrarsystemtransformation (IAT) am Leibniz-Zentrum für Agrarlandschaftsforschung (ZALF). Unsere Mission ist es, Forschende und Partner innerhalb des IAT in allen Belangen rund um Daten und Modellierung zu unterstützen. Die verschiedenen Möglichkeiten, wie wir dies tun, haben wir in der Grafik unten dargestellt:"
+  },
+  {
+    "objectID": "index.de.html#news",
+    "href": "index.de.html#news",
+    "title": "Startseite",
+    "section": "News",
+    "text": "News\n\n\n\n\nNo matching items\n\nAlle News →"
+  },
+  {
+    "objectID": "index.de.html#projects",
+    "href": "index.de.html#projects",
+    "title": "Startseite",
+    "section": "Projects",
+    "text": "Projects\n\n\n\n\nNo matching items\n\nAlle Projekte →"
+  },
+  {
+    "objectID": "charter.de.html",
+    "href": "charter.de.html",
+    "title": "Charta",
+    "section": "",
+    "text": "testing"
+  },
+  {
+    "objectID": "news.de.html",
+    "href": "news.de.html",
+    "title": "Nachrichten",
+    "section": "",
+    "text": "Eine Option zum Abonnieren des Newsletters wird bald verfügbar sein!\n\n\n\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "projects/zalf-iat-templates.html",
+    "href": "projects/zalf-iat-templates.html",
+    "title": "IAT ZALF Templates",
+    "section": "",
+    "text": "This was a small project on behalf of the IAT team to create templates to be used with technical publishing software such as Quarto and Typstfor for producing presentations and documents consistent with the IAT and ZALF branding.\nThe results are in a public GitHub repository at https://github.com/iat-dml/templates."
+  },
+  {
+    "objectID": "resources.de.html",
+    "href": "resources.de.html",
+    "title": "Ressourcen",
+    "section": "",
+    "text": "Dieses Repository soll ein lebendiges Dokument für SWG- und IAT-Mitglieder sein, um nützliche Informationen und Ressourcen in Bezug auf Open Science, Programmierung und Datenvisualisierung auszutauschen.\nEinige Dokumente, die Leitprinzipien enthalten:\nCheck out the Open Science Awesome List"
+  },
+  {
+    "objectID": "resources.de.html#datenvisualisierung",
+    "href": "resources.de.html#datenvisualisierung",
+    "title": "Ressourcen",
+    "section": "Datenvisualisierung",
+    "text": "Datenvisualisierung\n\nFundamentals of Data Visualization\nOpen Visualisation Academy"
+  },
+  {
+    "objectID": "resources.de.html#r",
+    "href": "resources.de.html#r",
+    "title": "Ressourcen",
+    "section": "R",
+    "text": "R\nWhat they forgot to teach you about R: https://rstats.wtf/"
+  },
+  {
+    "objectID": "resources.de.html#quarto",
+    "href": "resources.de.html#quarto",
+    "title": "Ressourcen",
+    "section": "Quarto",
+    "text": "Quarto\n\nBeautiful slides with RevealJS and Quarto"
+  },
+  {
+    "objectID": "services.de.html",
+    "href": "services.de.html",
+    "title": "Dienstleistungen",
+    "section": "",
+    "text": "Die Arbeitsgruppe bietet unterschiedliche Unterstützungsstufen an, abhängig vom Umfang der Anfrage, der erwarteten Zusammenarbeit und dem Aufwand für belastbare Ergebnisse."
+  },
+  {
+    "objectID": "services.de.html#unterstützungsmodell",
+    "href": "services.de.html#unterstützungsmodell",
+    "title": "Dienstleistungen",
+    "section": "",
+    "text": "Die Arbeitsgruppe bietet unterschiedliche Unterstützungsstufen an, abhängig vom Umfang der Anfrage, der erwarteten Zusammenarbeit und dem Aufwand für belastbare Ergebnisse."
+  },
+  {
+    "objectID": "team/DS.de.html",
+    "href": "team/DS.de.html",
+    "title": "Data Steward",
+    "section": "",
+    "text": "Wir werden bald einstellen"
+  },
+  {
+    "objectID": "team.de.html",
+    "href": "team.de.html",
+    "title": "Personen",
+    "section": "",
+    "text": "Klicken Sie auf das Profil jedes Teammitglieds, um weitere Informationen zu erhalten.\n\n\n\n  \n    \n      \n        \n        \n          \n        \n        \n        \n        \n        \n          \n            \n              \n          \n            \n          \n              \n            \n              \n          \n            \n          \n              \n            \n              \n          \n            \n          \n              \n            \n              \n          \n            \n          \n              \n            \n          \n        \n        \n        \n        \n          \n          Ben Black\n          \n          \n          \n          Leiter der Arbeitsgruppe\n          \n\n          \n          \n            Ben is the head of our working group, responsible for overseeing all projects and ensuring successful delivery. With a strong background in software engineering and team leadership, Ben has been instrumental in driving innovation and fostering a collaborative work environment.\n          \n          \n          \n          \n          \n            Expertise:\n            \n            \n              \n            R\n              \n            Quarto\n              \n            Team Leadership\n              \n            System Design\n              \n            \n          \n          \n          \n          \n          \n          \n            Projects:\n            \n              \n                \n                  \n              Living Lab Dashboards\n                  \n                \n                  \n              MonksHillLabs Initiative\n                  \n                \n              \n            \n          \n          \n        \n      \n    \n  \n\n  \n    \n      \n        \n        \n          \n        \n        \n        \n        \n        \n        \n          \n          Data Steward\n          \n          \n          \n          Data Steward\n          \n\n          \n          \n            \n          \n          \n          \n          \n          \n          \n        \n      \n    \n  \n\n  \n    \n      \n        \n        \n          \n        \n        \n        \n        \n        \n        \n          \n          Research Software Engineer\n          \n          \n          \n          Research Software Engineer\n          \n\n          \n          \n            \n          \n          \n          \n          \n          \n            Expertise:\n            \n            \n              \n            Python\n              \n            R\n              \n            Git\n              \n            Software Architecture\n              \n            CI/CD\n              \n            HPC\n              \n            Open Source Development\n              \n            \n          \n          \n          \n          \n          \n        \n      \n    \n  \n\n\nNo matching items"
   }
 ]

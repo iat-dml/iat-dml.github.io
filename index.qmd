@@ -51,7 +51,6 @@ Welcome to the website of the Data and Modelling Infrastructure for Living Labs 
 
 ::: {.button-row}
 [Our services](services.qmd){.btn-ghost}
-[Projects](projects.qmd){.btn-ghost}
 [Meet the team](team.qmd){.btn-ghost}
 :::
 

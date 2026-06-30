@@ -50,7 +50,6 @@ Willkommen auf der Website der Arbeitsgruppe Daten- und Modellierungsinfrastrukt
 
 ::: {.button-row}
 [Unsere Dienstleistungen](services.qmd){.btn-ghost}
-[Projekte](projects.qmd){.btn-ghost}
 [Das Team kennenlernen](team.qmd){.btn-ghost}
 :::
 
