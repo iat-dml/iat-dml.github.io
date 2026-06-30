@@ -27,6 +27,41 @@ ul.task-list li input[type="checkbox"] {
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
 }
+/* CSS for syntax highlighting */
+html { -webkit-text-size-adjust: 100%; }
+pre > code.sourceCode { white-space: pre; position: relative; }
+pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
+pre > code.sourceCode > span:empty { height: 1.2em; }
+.sourceCode { overflow: visible; }
+code.sourceCode > span { color: inherit; text-decoration: inherit; }
+div.sourceCode { margin: 1em 0; }
+pre.sourceCode { margin: 0; }
+@media screen {
+div.sourceCode { overflow: auto; }
+}
+@media print {
+pre > code.sourceCode { white-space: pre-wrap; }
+pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
+}
+pre.numberSource code
+  { counter-reset: source-line 0; }
+pre.numberSource code > span
+  { position: relative; left: -4em; counter-increment: source-line; }
+pre.numberSource code > span > a:first-child::before
+  { content: counter(source-line);
+    position: relative; left: -1em; text-align: right; vertical-align: baseline;
+    border: none; display: inline-block;
+    -webkit-touch-callout: none; -webkit-user-select: none;
+    -khtml-user-select: none; -moz-user-select: none;
+    -ms-user-select: none; user-select: none;
+    padding: 0 4px; width: 4em;
+  }
+pre.numberSource { margin-left: 3em;  padding-left: 4px; }
+div.sourceCode
+  {   }
+@media screen {
+pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
+}
 </style>
 
 
@@ -54,6 +89,9 @@ ul.task-list li input[type="checkbox"] {
 <link href="../site_libs/bootstrap/bootstrap-1ec9e43254ef3f1b741cb7b0acaeb222.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
 <link href="../site_libs/quarto-contrib/fontawesome6-0.1.0/all.css" rel="stylesheet">
 <link href="../site_libs/quarto-contrib/fontawesome6-0.1.0/latex-fontsize.css" rel="stylesheet">
+<script src="../site_libs/quarto-contrib/glightbox/glightbox.min.js"></script>
+<link href="../site_libs/quarto-contrib/glightbox/glightbox.min.css" rel="stylesheet">
+<link href="../site_libs/quarto-contrib/glightbox/lightbox.css" rel="stylesheet">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -381,10 +419,70 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<p>This was a small project on behalf of the IAT team to create templates to be used with technical publishing software such as Quarto and Typstfor for producing presentations and documents consistent with the IAT and ZALF branding.</p>
-<p>The results are in a public GitHub repository at <a href="https://github.com/iat-dml/templates">https://github.com/iat-dml/templates</a>.</p>
+<p>This project delivered a collection of reusable document and presentation templates for the IAT working groups, covering both technical publishing pipelines (<a href="https://quarto.org">Quarto</a> extensions) and traditional office formats (PowerPoint). All templates are available in a public GitHub repository at <a href="https://github.com/iat-dml/templates">https://github.com/iat-dml/templates</a>.</p>
+<section id="quarto-extensions" class="level2">
+<h2 class="anchored" data-anchor-id="quarto-extensions">Quarto Extensions</h2>
+<p>The core deliverables are four Quarto extensions that can be installed directly from the repository and used in any Quarto project. They are self-contained — logos, colour palettes, and fonts are all bundled inside the <code>_extensions/</code> folder, so documents render consistently regardless of the local environment.</p>
+<section id="zalf-internal-documents" class="level3">
+<h3 class="anchored" data-anchor-id="zalf-internal-documents">ZALF Internal Documents</h3>
+<p>A <a href="https://quarto.org/docs/output-formats/typst.html">Quarto Typst</a> extension that renders <code>.qmd</code> files as branded ZALF PDF documents. The cover page places the ZALF and Leibniz Association logos at the top and bottom respectively, with a grey band across the middle carrying the document title, date, and an optional cover image. Subsequent pages use running headers, styled H1–H4 headings, coloured bullet lists, and striped tables — all drawn from the official ZALF green palette (<code>#46A84F</code>).</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="../assets/templates-zalf-typst.png" class="lightbox" data-gallery="quarto-lightbox-gallery-1" title="Cover page of the ZALF internal document template"><img src="../assets/templates-zalf-typst.png" class="img-fluid figure-img" alt="Cover page showing the ZALF logo, document title, date, and Leibniz Association logo"></a></p>
+<figcaption>Cover page of the ZALF internal document template</figcaption>
+</figure>
+</div>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb1"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="ex">quarto</span> use template iat-dml/templates/zalf-internal-typst</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+</section>
+<section id="iat-internal-documents" class="level3">
+<h3 class="anchored" data-anchor-id="iat-internal-documents">IAT Internal Documents</h3>
+<p>A companion Typst extension for IAT internal PDF documents. It follows the same cover-page and body layout as the ZALF template but swaps in the IAT brand palette, the combined ZALF/IAT logo, and a branded footer banner with partner and funder logos.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="../assets/templates-iat-typst.png" class="lightbox" data-gallery="quarto-lightbox-gallery-2" title="Cover page of the IAT internal document template"><img src="../assets/templates-iat-typst.png" class="img-fluid figure-img" alt="Cover page showing the IAT logo, document title, date, and a row of partner and funder logos"></a></p>
+<figcaption>Cover page of the IAT internal document template</figcaption>
+</figure>
+</div>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb2"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a><span class="ex">quarto</span> use template iat-dml/templates/iat-internal-typst</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+</section>
+<section id="iat-presentations" class="level3">
+<h3 class="anchored" data-anchor-id="iat-presentations">IAT Presentations</h3>
+<p>A <a href="https://quarto.org/docs/presentations/revealjs/">Quarto Revealjs</a> extension for branded IAT HTML slide decks. The title slide uses a deep forest-green hero panel with white headings and the ZALF/IAT logo in the top-right corner. A full-width footer bar carries partner university logos and funder marks, ensuring compliance with grant acknowledgement requirements out of the box.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="../assets/templates-iat-revealjs.png" class="lightbox" data-gallery="quarto-lightbox-gallery-3" title="Title slide of the IAT Revealjs presentation template"><img src="../assets/templates-iat-revealjs.png" class="img-fluid figure-img" alt="Title slide in dark green with IAT logo, presentation title in white, and a logo bar along the bottom"></a></p>
+<figcaption>Title slide of the IAT Revealjs presentation template</figcaption>
+</figure>
+</div>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb3"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a><span class="ex">quarto</span> use template iat-dml/templates/iat-revealjs</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+</section>
+<section id="dml-presentations" class="level3">
+<h3 class="anchored" data-anchor-id="dml-presentations">DML Presentations</h3>
+<p>A Revealjs extension styled for the Data and Modelling Infrastructure (DML) working group. The theme reflects the DML visual identity: DM Serif Display for large headings, DM Sans for body text, a warm off-white paper background, and a teal-dark primary colour with green and olive accents. A persistent DML circular mark appears in the lower-right corner of every content slide and hides automatically in PDF exports.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="../assets/templates-dml-revealjs.png" class="lightbox" data-gallery="quarto-lightbox-gallery-4" title="Title slide of the DML Revealjs presentation template"><img src="../assets/templates-dml-revealjs.png" class="img-fluid figure-img" alt="Title slide with large serif heading, DML circular mark, and a funder logo bar along the bottom"></a></p>
+<figcaption>Title slide of the DML Revealjs presentation template</figcaption>
+</figure>
+</div>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb4"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb4-1"><a href="#cb4-1" aria-hidden="true" tabindex="-1"></a><span class="ex">quarto</span> use template iat-dml/templates/dml-revealjs</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+</section>
+</section>
+<section id="powerpoint-templates" class="level2">
+<h2 class="anchored" data-anchor-id="powerpoint-templates">PowerPoint Templates</h2>
+<p>Three branded PowerPoint templates are included for users who prefer traditional slide software:</p>
+<ul>
+<li><strong>DML</strong> — <code>dml-template-powerpoint.potx</code></li>
+<li><strong>IAT</strong> — <code>iat-template-powerpoint.pptx</code></li>
+<li><strong>ZALF</strong> — <code>zalf-template-powerpoint-slides.pptx</code></li>
+</ul>
+</section>
+<section id="meeting-agenda-minutes" class="level2">
+<h2 class="anchored" data-anchor-id="meeting-agenda-minutes">Meeting Agenda &amp; Minutes</h2>
+<p>A Markdown template (<code>agenda-minutes-template.md</code>) is provided for structured bi-weekly service working group meeting notes, covering working group updates, management updates, and action items.</p>
 
 
+</section>
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
@@ -830,6 +928,38 @@ ul.task-list li input[type="checkbox"] {
     }
   });
 </script>
+<script>var lightboxQuarto = GLightbox({"closeEffect":"zoom","descPosition":"bottom","loop":false,"openEffect":"zoom","selector":".lightbox"});
+(function() {
+  let previousOnload = window.onload;
+  window.onload = () => {
+    if (previousOnload) {
+      previousOnload();
+    }
+    lightboxQuarto.on('slide_before_load', (data) => {
+      const { slideIndex, slideNode, slideConfig, player, trigger } = data;
+      const href = trigger.getAttribute('href');
+      if (href !== null) {
+        const imgEl = window.document.querySelector(`a[href="${href}"] img`);
+        if (imgEl !== null) {
+          const srcAttr = imgEl.getAttribute("src");
+          if (srcAttr && srcAttr.startsWith("data:")) {
+            slideConfig.href = srcAttr;
+          }
+        }
+      } 
+    });
+  
+    lightboxQuarto.on('slide_after_load', (data) => {
+      const { slideIndex, slideNode, slideConfig, player, trigger } = data;
+      if (window.Quarto?.typesetMath) {
+        window.Quarto.typesetMath(slideNode);
+      }
+    });
+  
+  };
+  
+})();
+          </script>
 
 
 

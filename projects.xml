@@ -43,10 +43,78 @@
 
 
 
-<p>This was a small project on behalf of the IAT team to create templates to be used with technical publishing software such as Quarto and Typstfor for producing presentations and documents consistent with the IAT and ZALF branding.</p>
-<p>The results are in a public GitHub repository at <a href="https://github.com/iat-dml/templates">https://github.com/iat-dml/templates</a>.</p>
+<p>This project delivered a collection of reusable document and presentation templates for the IAT working groups, covering both technical publishing pipelines (<a href="https://quarto.org">Quarto</a> extensions) and traditional office formats (PowerPoint). All templates are available in a public GitHub repository at <a href="https://github.com/iat-dml/templates">https://github.com/iat-dml/templates</a>.</p>
+<section id="quarto-extensions" class="level2">
+<h2 class="anchored" data-anchor-id="quarto-extensions">Quarto Extensions</h2>
+<p>The core deliverables are four Quarto extensions that can be installed directly from the repository and used in any Quarto project. They are self-contained — logos, colour palettes, and fonts are all bundled inside the <code>_extensions/</code> folder, so documents render consistently regardless of the local environment.</p>
+<section id="zalf-internal-documents" class="level3">
+<h3 class="anchored" data-anchor-id="zalf-internal-documents">ZALF Internal Documents</h3>
+<p>A <a href="https://quarto.org/docs/output-formats/typst.html">Quarto Typst</a> extension that renders <code>.qmd</code> files as branded ZALF PDF documents. The cover page places the ZALF and Leibniz Association logos at the top and bottom respectively, with a grey band across the middle carrying the document title, date, and an optional cover image. Subsequent pages use running headers, styled H1–H4 headings, coloured bullet lists, and striped tables — all drawn from the official ZALF green palette (<code>#46A84F</code>).</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="../assets/templates-zalf-typst.png" class="lightbox" data-gallery="quarto-lightbox-gallery-1" title="Cover page of the ZALF internal document template"><img src="https://iat-dml.github.io/assets/templates-zalf-typst.png" class="img-fluid figure-img" alt="Cover page showing the ZALF logo, document title, date, and Leibniz Association logo"></a></p>
+<figcaption>Cover page of the ZALF internal document template</figcaption>
+</figure>
+</div>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb1" style="background: #f1f3f5;"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb1-1"><span class="ex" style="color: null;
+background-color: null;
+font-style: inherit;">quarto</span> use template iat-dml/templates/zalf-internal-typst</span></code></pre></div></div>
+</section>
+<section id="iat-internal-documents" class="level3">
+<h3 class="anchored" data-anchor-id="iat-internal-documents">IAT Internal Documents</h3>
+<p>A companion Typst extension for IAT internal PDF documents. It follows the same cover-page and body layout as the ZALF template but swaps in the IAT brand palette, the combined ZALF/IAT logo, and a branded footer banner with partner and funder logos.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="../assets/templates-iat-typst.png" class="lightbox" data-gallery="quarto-lightbox-gallery-2" title="Cover page of the IAT internal document template"><img src="https://iat-dml.github.io/assets/templates-iat-typst.png" class="img-fluid figure-img" alt="Cover page showing the IAT logo, document title, date, and a row of partner and funder logos"></a></p>
+<figcaption>Cover page of the IAT internal document template</figcaption>
+</figure>
+</div>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb2" style="background: #f1f3f5;"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb2-1"><span class="ex" style="color: null;
+background-color: null;
+font-style: inherit;">quarto</span> use template iat-dml/templates/iat-internal-typst</span></code></pre></div></div>
+</section>
+<section id="iat-presentations" class="level3">
+<h3 class="anchored" data-anchor-id="iat-presentations">IAT Presentations</h3>
+<p>A <a href="https://quarto.org/docs/presentations/revealjs/">Quarto Revealjs</a> extension for branded IAT HTML slide decks. The title slide uses a deep forest-green hero panel with white headings and the ZALF/IAT logo in the top-right corner. A full-width footer bar carries partner university logos and funder marks, ensuring compliance with grant acknowledgement requirements out of the box.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="../assets/templates-iat-revealjs.png" class="lightbox" data-gallery="quarto-lightbox-gallery-3" title="Title slide of the IAT Revealjs presentation template"><img src="https://iat-dml.github.io/assets/templates-iat-revealjs.png" class="img-fluid figure-img" alt="Title slide in dark green with IAT logo, presentation title in white, and a logo bar along the bottom"></a></p>
+<figcaption>Title slide of the IAT Revealjs presentation template</figcaption>
+</figure>
+</div>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb3" style="background: #f1f3f5;"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb3-1"><span class="ex" style="color: null;
+background-color: null;
+font-style: inherit;">quarto</span> use template iat-dml/templates/iat-revealjs</span></code></pre></div></div>
+</section>
+<section id="dml-presentations" class="level3">
+<h3 class="anchored" data-anchor-id="dml-presentations">DML Presentations</h3>
+<p>A Revealjs extension styled for the Data and Modelling Infrastructure (DML) working group. The theme reflects the DML visual identity: DM Serif Display for large headings, DM Sans for body text, a warm off-white paper background, and a teal-dark primary colour with green and olive accents. A persistent DML circular mark appears in the lower-right corner of every content slide and hides automatically in PDF exports.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="../assets/templates-dml-revealjs.png" class="lightbox" data-gallery="quarto-lightbox-gallery-4" title="Title slide of the DML Revealjs presentation template"><img src="https://iat-dml.github.io/assets/templates-dml-revealjs.png" class="img-fluid figure-img" alt="Title slide with large serif heading, DML circular mark, and a funder logo bar along the bottom"></a></p>
+<figcaption>Title slide of the DML Revealjs presentation template</figcaption>
+</figure>
+</div>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb4" style="background: #f1f3f5;"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb4-1"><span class="ex" style="color: null;
+background-color: null;
+font-style: inherit;">quarto</span> use template iat-dml/templates/dml-revealjs</span></code></pre></div></div>
+</section>
+</section>
+<section id="powerpoint-templates" class="level2">
+<h2 class="anchored" data-anchor-id="powerpoint-templates">PowerPoint Templates</h2>
+<p>Three branded PowerPoint templates are included for users who prefer traditional slide software:</p>
+<ul>
+<li><strong>DML</strong> — <code>dml-template-powerpoint.potx</code></li>
+<li><strong>IAT</strong> — <code>iat-template-powerpoint.pptx</code></li>
+<li><strong>ZALF</strong> — <code>zalf-template-powerpoint-slides.pptx</code></li>
+</ul>
+</section>
+<section id="meeting-agenda-minutes" class="level2">
+<h2 class="anchored" data-anchor-id="meeting-agenda-minutes">Meeting Agenda &amp; Minutes</h2>
+<p>A Markdown template (<code>agenda-minutes-template.md</code>) is provided for structured bi-weekly service working group meeting notes, covering working group updates, management updates, and action items.</p>
 
 
+</section>
 
  ]]></description>
   <category>infrastructure</category>
@@ -54,7 +122,7 @@
   <category>research platform</category>
   <guid>https://iat-dml.github.io/projects/zalf-iat-templates.html</guid>
   <pubDate>Fri, 15 Nov 2024 00:00:00 GMT</pubDate>
-  <media:content url="https://iat-dml.github.io/assets/mhl-screenshot.png" medium="image" type="image/png" height="92" width="144"/>
+  <media:content url="https://iat-dml.github.io/assets/templates-dml-revealjs.png" medium="image" type="image/png" height="83" width="144"/>
 </item>
 </channel>
 </rss>

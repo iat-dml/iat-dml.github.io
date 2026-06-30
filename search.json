@@ -305,7 +305,28 @@
     "href": "projects/zalf-iat-templates.html",
     "title": "IAT ZALF Templates",
     "section": "",
-    "text": "This was a small project on behalf of the IAT team to create templates to be used with technical publishing software such as Quarto and Typstfor for producing presentations and documents consistent with the IAT and ZALF branding.\nThe results are in a public GitHub repository at https://github.com/iat-dml/templates."
+    "text": "This project delivered a collection of reusable document and presentation templates for the IAT working groups, covering both technical publishing pipelines (Quarto extensions) and traditional office formats (PowerPoint). All templates are available in a public GitHub repository at https://github.com/iat-dml/templates."
+  },
+  {
+    "objectID": "projects/zalf-iat-templates.html#quarto-extensions",
+    "href": "projects/zalf-iat-templates.html#quarto-extensions",
+    "title": "IAT ZALF Templates",
+    "section": "Quarto Extensions",
+    "text": "Quarto Extensions\nThe core deliverables are four Quarto extensions that can be installed directly from the repository and used in any Quarto project. They are self-contained — logos, colour palettes, and fonts are all bundled inside the _extensions/ folder, so documents render consistently regardless of the local environment.\n\nZALF Internal Documents\nA Quarto Typst extension that renders .qmd files as branded ZALF PDF documents. The cover page places the ZALF and Leibniz Association logos at the top and bottom respectively, with a grey band across the middle carrying the document title, date, and an optional cover image. Subsequent pages use running headers, styled H1–H4 headings, coloured bullet lists, and striped tables — all drawn from the official ZALF green palette (#46A84F).\n\n\n\nCover page of the ZALF internal document template\n\n\nquarto use template iat-dml/templates/zalf-internal-typst\n\n\nIAT Internal Documents\nA companion Typst extension for IAT internal PDF documents. It follows the same cover-page and body layout as the ZALF template but swaps in the IAT brand palette, the combined ZALF/IAT logo, and a branded footer banner with partner and funder logos.\n\n\n\nCover page of the IAT internal document template\n\n\nquarto use template iat-dml/templates/iat-internal-typst\n\n\nIAT Presentations\nA Quarto Revealjs extension for branded IAT HTML slide decks. The title slide uses a deep forest-green hero panel with white headings and the ZALF/IAT logo in the top-right corner. A full-width footer bar carries partner university logos and funder marks, ensuring compliance with grant acknowledgement requirements out of the box.\n\n\n\nTitle slide of the IAT Revealjs presentation template\n\n\nquarto use template iat-dml/templates/iat-revealjs\n\n\nDML Presentations\nA Revealjs extension styled for the Data and Modelling Infrastructure (DML) working group. The theme reflects the DML visual identity: DM Serif Display for large headings, DM Sans for body text, a warm off-white paper background, and a teal-dark primary colour with green and olive accents. A persistent DML circular mark appears in the lower-right corner of every content slide and hides automatically in PDF exports.\n\n\n\nTitle slide of the DML Revealjs presentation template\n\n\nquarto use template iat-dml/templates/dml-revealjs"
+  },
+  {
+    "objectID": "projects/zalf-iat-templates.html#powerpoint-templates",
+    "href": "projects/zalf-iat-templates.html#powerpoint-templates",
+    "title": "IAT ZALF Templates",
+    "section": "PowerPoint Templates",
+    "text": "PowerPoint Templates\nThree branded PowerPoint templates are included for users who prefer traditional slide software:\n\nDML — dml-template-powerpoint.potx\nIAT — iat-template-powerpoint.pptx\nZALF — zalf-template-powerpoint-slides.pptx"
+  },
+  {
+    "objectID": "projects/zalf-iat-templates.html#meeting-agenda-minutes",
+    "href": "projects/zalf-iat-templates.html#meeting-agenda-minutes",
+    "title": "IAT ZALF Templates",
+    "section": "Meeting Agenda & Minutes",
+    "text": "Meeting Agenda & Minutes\nA Markdown template (agenda-minutes-template.md) is provided for structured bi-weekly service working group meeting notes, covering working group updates, management updates, and action items."
   },
   {
     "objectID": "projects/monkshilllabs.html",
