@@ -34,5 +34,27 @@
   <pubDate>Fri, 15 Nov 2024 00:00:00 GMT</pubDate>
   <media:content url="https://iat-dml.github.io/assets/mhl-screenshot.png" medium="image" type="image/png" height="92" width="144"/>
 </item>
+<item>
+  <title>IAT ZALF Templates</title>
+  <link>https://iat-dml.github.io/projects/zalf-iat-templates.html</link>
+  <description><![CDATA[ 
+
+
+
+
+
+<p>This was a small project on behalf of the IAT team to create templates to be used with technical publishing software such as Quarto and Typstfor for producing presentations and documents consistent with the IAT and ZALF branding.</p>
+<p>The results are in a public GitHub repository at <a href="https://github.com/iat-dml/templates">https://github.com/iat-dml/templates</a>.</p>
+
+
+
+ ]]></description>
+  <category>infrastructure</category>
+  <category>collaboration</category>
+  <category>research platform</category>
+  <guid>https://iat-dml.github.io/projects/zalf-iat-templates.html</guid>
+  <pubDate>Fri, 15 Nov 2024 00:00:00 GMT</pubDate>
+  <media:content url="https://iat-dml.github.io/assets/mhl-screenshot.png" medium="image" type="image/png" height="92" width="144"/>
+</item>
 </channel>
 </rss>
