@@ -4,7 +4,7 @@ toc: false
 listing:
   id: team-listing
   contents:
-    - "./team/*.de.qmd"
+    - "./team/*.qmd"
   grid-columns: 2
   template: ejs/team-listing.ejs
   grid-item-border: false

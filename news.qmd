@@ -7,7 +7,7 @@ comments: false
 listing:
   contents:
     - "./news/*.qmd"
-    - "!./news/*de.qmd"
+    - "!./news/*.de.qmd"
   image-height: 200px
   image-align: left
   fields: [image, title, date, categories, description]

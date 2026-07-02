@@ -6,7 +6,7 @@ listing:
   id: team-listing
   contents: 
     - "./team/*.qmd"
-    - "!./team/*de.qmd"
+    - "!./team/*.de.qmd"
   grid-columns: 2
   template: ejs/team-listing.ejs
   grid-item-border: false
