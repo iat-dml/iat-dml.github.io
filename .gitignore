@@ -2,9 +2,10 @@
 **/*.quarto_ipynb
 /_site/
 .impeccable/*
-PRODUCT.md
-DESIGN.md
+_PRODUCT.md
+_DESIGN.md
 .planning/
+.planning/HANDOFF.json
 .planning/HANDOFF.json
 .planning/HANDOFF.json
 .planning/HANDOFF.json

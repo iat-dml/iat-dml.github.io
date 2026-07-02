@@ -35,6 +35,20 @@
     "text": "Living Lab Explorer\n\n\n\ndashboard\n\nvisualization\n\nliving labs\n\ntransfer\n\nWIP\n\n\n\nInteractive dashboards for exploring environmentaL and socio-economic data from the five IAT Living Labs.\n\n\n\nJul 1, 2026\n\n\n\n\n\n\n\n\n\n\n\n\n\nMonksHillLab field ecophysiology handbook web version\n\n\n\ncollaboration\n\nresearch platform\n\nWIP\n\ntransfer\n\n\n\nThe DML group helped broaden the reach of the MonksHillLab field ecophysiology handbook by moving from a PDF to an interactive web resource.\n\n\n\nJun 3, 2026\n\n\n\n\n\n\n\n\n\n\n\n\n\nIAT ZALF Templates\n\n\n\ninfrastructure\n\ncollaboration\n\nresearch platform\n\n\n\nTemplates for producing presentations and documents consistent with the IAT and ZALF branding.\n\n\n\nNov 15, 2024\n\n\n\n\n\n\nNo matching items"
   },
   {
+    "objectID": "projects/policy-lab-guide.html",
+    "href": "projects/policy-lab-guide.html",
+    "title": "A how-to guide for Policy Labs",
+    "section": "",
+    "text": "The Policy Lab Guide is a work-in-progress project to guide researchers and practictioners in the development of Policy Labs for Agri-environmental Measures within the setting of Living Labs. The guide is designed to be a practical resource for those looking to co-design, test and evaluate policy interventions in collaboration with stakeholders, providing recommended methods for each step of the process.\nIt offers two ways in: a concept diagram that lays out the Policy Lab phases in a visual format, and a searchable methods library where every method can be filtered by phase, actor, effort, and skill level.\nThe guide is being developed collaboratively with colleagues at ZALF: Bettina Matzdorf, Joana Iwaniw, Ben Black, and Sebastian Rogga. But in the near future we hope to open the guide up for contributions from the wider community of researchers and practitioners working in the field of policy co-design and Living Labs especially within the IAT. Please get in touch if you would like to contribute or provide feedback on the guide"
+  },
+  {
+    "objectID": "projects/living-lab-dashboards.html",
+    "href": "projects/living-lab-dashboards.html",
+    "title": "Living Lab Explorer",
+    "section": "",
+    "text": "The Living Lab Explorer is a work-in-progress project building upon factsheets prepared by the IAT Regional Network Managers to create interactive dashboards to allow practice partners and researchers to gain an understanding of the environmental and socio-economic conditions that characterise the five IAT Living Labs."
+  },
+  {
     "objectID": "privacy-policy.html",
     "href": "privacy-policy.html",
     "title": "Privacy policy",
@@ -322,6 +336,41 @@
     "text": "The MonksHillLab initiative — part of the Working Group Ecophysiology of Water and Matter Cycling at the Leibniz Centre for Agricultural Landscape Research (ZALF) — produces an open handbook, Build-It-Yourself: Low-Cost Systems for Field Ecophysiology, which guides readers through building and calibrating low-cost, DIY sensor systems for environmental monitoring.\nThe DML group worked with the MonksHillLab team to make this handbook more accessible. Previously it existed as a PDF; we helped create a web version built with Quarto and hosted on GitHub Pages that adds interactivity (for example being able to expand images and copy code blocks) making it more engaging to its intended audience of researchers around the world. Also becaus eit is hosted as a GitHub repository this opens up the door for contributions from the user community, allowing the handbook to grow and evolve over time."
   },
   {
+    "objectID": "projects/monkshilllabs.html#explore-the-handbook",
+    "href": "projects/monkshilllabs.html#explore-the-handbook",
+    "title": "MonksHillLab field ecophysiology handbook web version",
+    "section": "Explore the handbook",
+    "text": "Explore the handbook\n\n\nThe live handbook is available at monkshilllab-isolab.github.io/LCSfFE-handbook. It is a living document, and the MonksHillLab team welcomes contributions of improvements and new chapters — see the handbook’s contributing section, or contact the author (mathias.hoffmann@zalf.de).\nThe handbook is published under a CC-BY 4.0 licence and archived on Zenodo at DOI 10.5281/zenodo.15562591."
+  },
+  {
+    "objectID": "projects/zalf-iat-templates.html",
+    "href": "projects/zalf-iat-templates.html",
+    "title": "IAT ZALF Templates",
+    "section": "",
+    "text": "This project delivered a collection of reusable document and presentation templates for the IAT working groups, covering both technical publishing pipelines (Quarto extensions) and traditional office formats (PowerPoint). All templates are available in a public GitHub repository at https://github.com/iat-dml/templates."
+  },
+  {
+    "objectID": "projects/zalf-iat-templates.html#quarto-extensions",
+    "href": "projects/zalf-iat-templates.html#quarto-extensions",
+    "title": "IAT ZALF Templates",
+    "section": "Quarto Extensions",
+    "text": "Quarto Extensions\nThe core deliverables are four Quarto extensions that can be installed directly from the repository and used in any Quarto project. They are self-contained — logos, colour palettes, and fonts are all bundled inside the _extensions/ folder, so documents render consistently regardless of the local environment.\n\nZALF Internal Documents\nA Quarto Typst extension that renders .qmd files as branded ZALF PDF documents. The cover page places the ZALF and Leibniz Association logos at the top and bottom respectively, with a grey band across the middle carrying the document title, date, and an optional cover image. Subsequent pages use running headers, styled H1–H4 headings, coloured bullet lists, and striped tables — all drawn from the official ZALF green palette (#46A84F).\n\n\n\nCover page of the ZALF internal document template\n\n\nquarto use template iat-dml/templates/zalf-internal-typst\n\n\nIAT Internal Documents\nA companion Typst extension for IAT internal PDF documents. It follows the same cover-page and body layout as the ZALF template but swaps in the IAT brand palette, the combined ZALF/IAT logo, and a branded footer banner with partner and funder logos.\n\n\n\nCover page of the IAT internal document template\n\n\nquarto use template iat-dml/templates/iat-internal-typst\n\n\nIAT Presentations\nA Quarto Revealjs extension for branded IAT HTML slide decks. The title slide uses a deep forest-green hero panel with white headings and the ZALF/IAT logo in the top-right corner. A full-width footer bar carries partner university logos and funder marks, ensuring compliance with grant acknowledgement requirements out of the box.\n\n\n\nTitle slide of the IAT Revealjs presentation template\n\n\nquarto use template iat-dml/templates/iat-revealjs\n\n\nDML Presentations\nA Revealjs extension styled for the Data and Modelling Infrastructure (DML) working group. The theme reflects the DML visual identity: DM Serif Display for large headings, DM Sans for body text, a warm off-white paper background, and a teal-dark primary colour with green and olive accents. A persistent DML circular mark appears in the lower-right corner of every content slide and hides automatically in PDF exports.\n\n\n\nTitle slide of the DML Revealjs presentation template\n\n\nquarto use template iat-dml/templates/dml-revealjs"
+  },
+  {
+    "objectID": "projects/zalf-iat-templates.html#powerpoint-templates",
+    "href": "projects/zalf-iat-templates.html#powerpoint-templates",
+    "title": "IAT ZALF Templates",
+    "section": "PowerPoint Templates",
+    "text": "PowerPoint Templates\nThree branded PowerPoint templates are included for users who prefer traditional slide software:\n\nDML — dml-template-powerpoint.potx\nIAT — iat-template-powerpoint.pptx\nZALF — zalf-template-powerpoint-slides.pptx"
+  },
+  {
+    "objectID": "projects/zalf-iat-templates.html#meeting-agenda-minutes",
+    "href": "projects/zalf-iat-templates.html#meeting-agenda-minutes",
+    "title": "IAT ZALF Templates",
+    "section": "Meeting Agenda & Minutes",
+    "text": "Meeting Agenda & Minutes\nA Markdown template (agenda-minutes-template.md) is provided for structured bi-weekly service working group meeting notes, covering working group updates, management updates, and action items."
+  },
+  {
     "objectID": "resources.html",
     "href": "resources.html",
     "title": "Resources",
@@ -432,264 +481,5 @@
     "title": "Research Software Engineer",
     "section": "",
     "text": "We will be hiring soon"
-  },
-  {
-    "objectID": "team/RSE.de.html",
-    "href": "team/RSE.de.html",
-    "title": "Research Software Engineer",
-    "section": "",
-    "text": "Wir werden bald einstellen"
-  },
-  {
-    "objectID": "team/Ben.de.html",
-    "href": "team/Ben.de.html",
-    "title": "Ben Black",
-    "section": "",
-    "text": "University of California, San Diego | San Diego, CA PhD in Mathematics | Sept 2011 - June 2015\nMacalester College | St. Paul, MN B.A in Economics | Sept 2007 - June 2011"
-  },
-  {
-    "objectID": "team/Ben.de.html#education",
-    "href": "team/Ben.de.html#education",
-    "title": "Ben Black",
-    "section": "",
-    "text": "University of California, San Diego | San Diego, CA PhD in Mathematics | Sept 2011 - June 2015\nMacalester College | St. Paul, MN B.A in Economics | Sept 2007 - June 2011"
-  },
-  {
-    "objectID": "team/Ben.de.html#experience",
-    "href": "team/Ben.de.html#experience",
-    "title": "Ben Black",
-    "section": "Experience",
-    "text": "Experience\nWengo Analytics | Head Data Scientist | April 2018 - present\nGeoScynce | Chief Analyst | Spet 2012 - April 2018 test"
-  },
-  {
-    "objectID": "projects.de.html",
-    "href": "projects.de.html",
-    "title": "Projekte",
-    "section": "",
-    "text": "No matching items"
-  },
-  {
-    "objectID": "privacy-policy.de.html",
-    "href": "privacy-policy.de.html",
-    "title": "Datenschutzerklärung",
-    "section": "",
-    "text": "Diese Website ist eine statische Website, die über GitHub Pages bereitgestellt wird. Wir erheben nicht aktiv personenbezogene Daten. Allerdings kann GitHub bei einem Besuch personenbezogene Daten verarbeiten (z. B. Protokolldaten einschließlich IP-Adressen), um rechtliche Verpflichtungen zu erfüllen sowie die Sicherheit und Integrität der Website und des Dienstes zu gewährleisten. Details finden Sie in der GitHub-Datenschutzerklärung."
-  },
-  {
-    "objectID": "privacy-policy.de.html#überblick",
-    "href": "privacy-policy.de.html#überblick",
-    "title": "Datenschutzerklärung",
-    "section": "",
-    "text": "Diese Website ist eine statische Website, die über GitHub Pages bereitgestellt wird. Wir erheben nicht aktiv personenbezogene Daten. Allerdings kann GitHub bei einem Besuch personenbezogene Daten verarbeiten (z. B. Protokolldaten einschließlich IP-Adressen), um rechtliche Verpflichtungen zu erfüllen sowie die Sicherheit und Integrität der Website und des Dienstes zu gewährleisten. Details finden Sie in der GitHub-Datenschutzerklärung."
-  },
-  {
-    "objectID": "privacy-policy.de.html#zweck-dieser-datenschutzerklärung",
-    "href": "privacy-policy.de.html#zweck-dieser-datenschutzerklärung",
-    "title": "Datenschutzerklärung",
-    "section": "1. Zweck dieser Datenschutzerklärung",
-    "text": "1. Zweck dieser Datenschutzerklärung\nDie Arbeitsgruppe „Data and Modelling Infrastructure for Living Labs (DML)“ am Leibniz-Zentrum für Agrarlandschaftsforschung (ZALF) legt großen Wert auf den Schutz Ihrer personenbezogenen Daten. Diese Datenschutzerklärung informiert darüber, welche personenbezogenen Daten beim Besuch dieser Website verarbeitet werden können, zu welchen Zwecken dies geschieht und welche Rechte Ihnen zustehen."
-  },
-  {
-    "objectID": "privacy-policy.de.html#erhebung-und-verarbeitung-von-daten",
-    "href": "privacy-policy.de.html#erhebung-und-verarbeitung-von-daten",
-    "title": "Datenschutzerklärung",
-    "section": "2. Erhebung und Verarbeitung von Daten",
-    "text": "2. Erhebung und Verarbeitung von Daten\nDa es sich um eine statische Website auf GitHub Pages handelt, verarbeiten wir selbst keine personenbezogenen Daten aktiv. Im Rahmen des Betriebs können jedoch durch den Hosting-Anbieter folgende Daten verarbeitet werden:\n\nProtokolldaten: Informationen wie IP-Adresse, Browsertyp, Betriebssystem, Referrer-URL, aufgerufene Seiten und Zeitstempel können von GitHub Pages protokolliert werden.\nCookies: Diese Website setzt selbst keine Tracking-Cookies. GitHub kann Cookies einsetzen, um seine Dienste bereitzustellen und abzusichern.\n\nWeitere Informationen finden Sie in der GitHub-Datenschutzerklärung."
-  },
-  {
-    "objectID": "privacy-policy.de.html#zweck-der-verarbeitung",
-    "href": "privacy-policy.de.html#zweck-der-verarbeitung",
-    "title": "Datenschutzerklärung",
-    "section": "3. Zweck der Verarbeitung",
-    "text": "3. Zweck der Verarbeitung\nWir verwenden personenbezogene Daten nicht für Analyse-, Marketing- oder Profiling-Zwecke. Eine etwaige Verarbeitung durch GitHub (z. B. Server-Logs) dient dem Betrieb und der Sicherheit der Hosting-Plattform."
-  },
-  {
-    "objectID": "privacy-policy.de.html#weitergabe-von-daten",
-    "href": "privacy-policy.de.html#weitergabe-von-daten",
-    "title": "Datenschutzerklärung",
-    "section": "4. Weitergabe von Daten",
-    "text": "4. Weitergabe von Daten\nWir verkaufen oder vermieten keine personenbezogenen Daten und geben sie nicht an Dritte weiter. GitHub kann Daten als Hosting-Anbieter gemäß seiner Datenschutzerklärung verarbeiten."
-  },
-  {
-    "objectID": "privacy-policy.de.html#rechte-der-betroffenen-personen-dsgvo",
-    "href": "privacy-policy.de.html#rechte-der-betroffenen-personen-dsgvo",
-    "title": "Datenschutzerklärung",
-    "section": "5. Rechte der betroffenen Personen (DSGVO)",
-    "text": "5. Rechte der betroffenen Personen (DSGVO)\nNach der DSGVO haben Sie insbesondere folgende Rechte:\n\nAuskunft (Art. 15)\nBerichtigung (Art. 16)\nLöschung (Art. 17)\nEinschränkung der Verarbeitung (Art. 18)\nWiderspruch (Art. 21)\nDatenübertragbarkeit (Art. 20)\n\nZudem haben Sie das Recht, sich bei einer Aufsichtsbehörde zu beschweren (Art. 77)."
-  },
-  {
-    "objectID": "privacy-policy.de.html#speicherdauer",
-    "href": "privacy-policy.de.html#speicherdauer",
-    "title": "Datenschutzerklärung",
-    "section": "6. Speicherdauer",
-    "text": "6. Speicherdauer\nWir speichern über diese Website keine personenbezogenen Daten. Etwaige Protokolldaten werden durch GitHub gemäß deren Aufbewahrungsrichtlinien verarbeitet."
-  },
-  {
-    "objectID": "privacy-policy.de.html#dienste-dritter-und-externe-links",
-    "href": "privacy-policy.de.html#dienste-dritter-und-externe-links",
-    "title": "Datenschutzerklärung",
-    "section": "7. Dienste Dritter und externe Links",
-    "text": "7. Dienste Dritter und externe Links\nDiese Website kann Links zu externen Websites enthalten. Für deren Datenschutzpraktiken sind wir nicht verantwortlich. Bitte beachten Sie die jeweiligen Datenschutzhinweise."
-  },
-  {
-    "objectID": "privacy-policy.de.html#sicherheitsmaßnahmen",
-    "href": "privacy-policy.de.html#sicherheitsmaßnahmen",
-    "title": "Datenschutzerklärung",
-    "section": "8. Sicherheitsmaßnahmen",
-    "text": "8. Sicherheitsmaßnahmen\nDiese Website betreibt keine eigene Nutzerdatenbank. GitHub Pages stellt Betriebs- und Plattform-Sicherheit bereit. Weitere Informationen finden Sie in GitHub’s Security overview."
-  },
-  {
-    "objectID": "privacy-policy.de.html#aktualisierungen",
-    "href": "privacy-policy.de.html#aktualisierungen",
-    "title": "Datenschutzerklärung",
-    "section": "9. Aktualisierungen",
-    "text": "9. Aktualisierungen\nWir können diese Datenschutzerklärung anpassen, um rechtliche Anforderungen oder Änderungen der Website abzubilden. Die jeweils aktuelle Version wird auf dieser Seite veröffentlicht."
-  },
-  {
-    "objectID": "privacy-policy.de.html#kontakt",
-    "href": "privacy-policy.de.html#kontakt",
-    "title": "Datenschutzerklärung",
-    "section": "10. Kontakt",
-    "text": "10. Kontakt\nBei Fragen zur Datenschutzerklärung kontaktieren Sie uns bitte:\n\nLeibniz-Zentrum für Agrarlandschaftsforschung (ZALF) e.V.\nArbeitsgruppe „Data and Modelling Infrastructure for Living Labs (DML)”\nE-mail: benjaminsamuel.black@zalf.de"
-  },
-  {
-    "objectID": "index.de.html",
-    "href": "index.de.html",
-    "title": "Startseite",
-    "section": "",
-    "text": "IAT-Arbeitsgruppe\n\n\n\nDiskutieren Sie Ihr Projekt mit uns\nWillkommen auf der Website der Arbeitsgruppe Daten- und Modellierungsinfrastruktur für Living Labs (DML). Wir sind eine Service-Arbeitsgruppe innerhalb des Innovationszentrums für Agrarsystemtransformation (IAT) am Leibniz-Zentrum für Agrarlandschaftsforschung (ZALF). Unsere Mission ist es, Forschende und Partner innerhalb des IAT in allen Belangen rund um Daten und Modellierung zu unterstützen. Die verschiedenen Möglichkeiten, wie wir dies tun, haben wir in der Grafik unten dargestellt:"
-  },
-  {
-    "objectID": "index.de.html#news",
-    "href": "index.de.html#news",
-    "title": "Startseite",
-    "section": "News",
-    "text": "News\n\n\n\n\nNo matching items\n\nAlle News →"
-  },
-  {
-    "objectID": "index.de.html#projects",
-    "href": "index.de.html#projects",
-    "title": "Startseite",
-    "section": "Projects",
-    "text": "Projects\n\n\n\n\n\n\n\n\n\n\nA how-to guide for Policy Labs\n\n\n\nguide\n\nmethods\n\nliving labs\n\ntransfer\n\nWIP\n\n\n\nAn interactive guide for developing Policy Labs for Agri-environmental Measures within Living Labs.\n\n\n\nJul 1, 2026\n\n\n\n\n\n\nNo matching items\n\nAlle Projekte →"
-  },
-  {
-    "objectID": "charter.de.html",
-    "href": "charter.de.html",
-    "title": "Charta",
-    "section": "",
-    "text": "testing"
-  },
-  {
-    "objectID": "news.de.html",
-    "href": "news.de.html",
-    "title": "Nachrichten",
-    "section": "",
-    "text": "Eine Option zum Abonnieren des Newsletters wird bald verfügbar sein!\n\n\n\n\n\n\n\n\nNo matching items"
-  },
-  {
-    "objectID": "projects/zalf-iat-templates.html",
-    "href": "projects/zalf-iat-templates.html",
-    "title": "IAT ZALF Templates",
-    "section": "",
-    "text": "This project delivered a collection of reusable document and presentation templates for the IAT working groups, covering both technical publishing pipelines (Quarto extensions) and traditional office formats (PowerPoint). All templates are available in a public GitHub repository at https://github.com/iat-dml/templates."
-  },
-  {
-    "objectID": "resources.de.html",
-    "href": "resources.de.html",
-    "title": "Ressourcen",
-    "section": "",
-    "text": "Dieses Repository soll ein lebendiges Dokument für SWG- und IAT-Mitglieder sein, um nützliche Informationen und Ressourcen in Bezug auf Open Science, Programmierung und Datenvisualisierung auszutauschen.\nEinige Dokumente, die Leitprinzipien enthalten:\nCheck out the Open Science Awesome List"
-  },
-  {
-    "objectID": "resources.de.html#datenvisualisierung",
-    "href": "resources.de.html#datenvisualisierung",
-    "title": "Ressourcen",
-    "section": "Datenvisualisierung",
-    "text": "Datenvisualisierung\n\nFundamentals of Data Visualization\nOpen Visualisation Academy"
-  },
-  {
-    "objectID": "resources.de.html#r",
-    "href": "resources.de.html#r",
-    "title": "Ressourcen",
-    "section": "R",
-    "text": "R\nWhat they forgot to teach you about R: https://rstats.wtf/"
-  },
-  {
-    "objectID": "resources.de.html#quarto",
-    "href": "resources.de.html#quarto",
-    "title": "Ressourcen",
-    "section": "Quarto",
-    "text": "Quarto\n\nBeautiful slides with RevealJS and Quarto"
-  },
-  {
-    "objectID": "services.de.html",
-    "href": "services.de.html",
-    "title": "Dienstleistungen",
-    "section": "",
-    "text": "Die Arbeitsgruppe bietet unterschiedliche Unterstützungsstufen an, abhängig vom Umfang der Anfrage, der erwarteten Zusammenarbeit und dem Aufwand für belastbare Ergebnisse."
-  },
-  {
-    "objectID": "services.de.html#unterstützungsmodell",
-    "href": "services.de.html#unterstützungsmodell",
-    "title": "Dienstleistungen",
-    "section": "",
-    "text": "Die Arbeitsgruppe bietet unterschiedliche Unterstützungsstufen an, abhängig vom Umfang der Anfrage, der erwarteten Zusammenarbeit und dem Aufwand für belastbare Ergebnisse."
-  },
-  {
-    "objectID": "team/DS.de.html",
-    "href": "team/DS.de.html",
-    "title": "Data Steward",
-    "section": "",
-    "text": "Wir werden bald einstellen"
-  },
-  {
-    "objectID": "team.de.html",
-    "href": "team.de.html",
-    "title": "Personen",
-    "section": "",
-    "text": "Klicken Sie auf das Profil jedes Teammitglieds, um weitere Informationen zu erhalten.\n\n\n\n  \n    \n      \n        \n        \n          \n        \n        \n        \n        \n        \n          \n            \n              \n          \n            \n          \n              \n            \n              \n          \n            \n          \n              \n            \n              \n          \n            \n          \n              \n            \n              \n          \n            \n          \n              \n            \n          \n        \n        \n        \n        \n          \n          Ben Black\n          \n          \n          \n          Leiter der Arbeitsgruppe\n          \n\n          \n          \n            Ben is the head of our working group, responsible for overseeing all projects and ensuring successful delivery. With a strong background in software engineering and team leadership, Ben has been instrumental in driving innovation and fostering a collaborative work environment.\n          \n          \n          \n          \n          \n            Expertise:\n            \n            \n              \n            R\n              \n            Quarto\n              \n            Team Leadership\n              \n            System Design\n              \n            \n          \n          \n          \n          \n          \n          \n            Projects:\n            \n              \n                \n                  \n              Living Lab Dashboards\n                  \n                \n                  \n              MonksHillLabs Initiative\n                  \n                \n              \n            \n          \n          \n        \n      \n    \n  \n\n  \n    \n      \n        \n        \n          \n        \n        \n        \n        \n        \n        \n          \n          Data Steward\n          \n          \n          \n          Data Steward\n          \n\n          \n          \n            \n          \n          \n          \n          \n          \n          \n        \n      \n    \n  \n\n  \n    \n      \n        \n        \n          \n        \n        \n        \n        \n        \n        \n          \n          Research Software Engineer\n          \n          \n          \n          Research Software Engineer\n          \n\n          \n          \n            \n          \n          \n          \n          \n          \n            Expertise:\n            \n            \n              \n            Python\n              \n            R\n              \n            Git\n              \n            Software Architecture\n              \n            CI/CD\n              \n            HPC\n              \n            Open Source Development\n              \n            \n          \n          \n          \n          \n          \n        \n      \n    \n  \n\n\nNo matching items"
-  },
-  {
-    "objectID": "projects/zalf-iat-templates.html#quarto-extensions",
-    "href": "projects/zalf-iat-templates.html#quarto-extensions",
-    "title": "IAT ZALF Templates",
-    "section": "Quarto Extensions",
-    "text": "Quarto Extensions\nThe core deliverables are four Quarto extensions that can be installed directly from the repository and used in any Quarto project. They are self-contained — logos, colour palettes, and fonts are all bundled inside the _extensions/ folder, so documents render consistently regardless of the local environment.\n\nZALF Internal Documents\nA Quarto Typst extension that renders .qmd files as branded ZALF PDF documents. The cover page places the ZALF and Leibniz Association logos at the top and bottom respectively, with a grey band across the middle carrying the document title, date, and an optional cover image. Subsequent pages use running headers, styled H1–H4 headings, coloured bullet lists, and striped tables — all drawn from the official ZALF green palette (#46A84F).\n\n\n\nCover page of the ZALF internal document template\n\n\nquarto use template iat-dml/templates/zalf-internal-typst\n\n\nIAT Internal Documents\nA companion Typst extension for IAT internal PDF documents. It follows the same cover-page and body layout as the ZALF template but swaps in the IAT brand palette, the combined ZALF/IAT logo, and a branded footer banner with partner and funder logos.\n\n\n\nCover page of the IAT internal document template\n\n\nquarto use template iat-dml/templates/iat-internal-typst\n\n\nIAT Presentations\nA Quarto Revealjs extension for branded IAT HTML slide decks. The title slide uses a deep forest-green hero panel with white headings and the ZALF/IAT logo in the top-right corner. A full-width footer bar carries partner university logos and funder marks, ensuring compliance with grant acknowledgement requirements out of the box.\n\n\n\nTitle slide of the IAT Revealjs presentation template\n\n\nquarto use template iat-dml/templates/iat-revealjs\n\n\nDML Presentations\nA Revealjs extension styled for the Data and Modelling Infrastructure (DML) working group. The theme reflects the DML visual identity: DM Serif Display for large headings, DM Sans for body text, a warm off-white paper background, and a teal-dark primary colour with green and olive accents. A persistent DML circular mark appears in the lower-right corner of every content slide and hides automatically in PDF exports.\n\n\n\nTitle slide of the DML Revealjs presentation template\n\n\nquarto use template iat-dml/templates/dml-revealjs"
-  },
-  {
-    "objectID": "projects/zalf-iat-templates.html#powerpoint-templates",
-    "href": "projects/zalf-iat-templates.html#powerpoint-templates",
-    "title": "IAT ZALF Templates",
-    "section": "PowerPoint Templates",
-    "text": "PowerPoint Templates\nThree branded PowerPoint templates are included for users who prefer traditional slide software:\n\nDML — dml-template-powerpoint.potx\nIAT — iat-template-powerpoint.pptx\nZALF — zalf-template-powerpoint-slides.pptx"
-  },
-  {
-    "objectID": "projects/zalf-iat-templates.html#meeting-agenda-minutes",
-    "href": "projects/zalf-iat-templates.html#meeting-agenda-minutes",
-    "title": "IAT ZALF Templates",
-    "section": "Meeting Agenda & Minutes",
-    "text": "Meeting Agenda & Minutes\nA Markdown template (agenda-minutes-template.md) is provided for structured bi-weekly service working group meeting notes, covering working group updates, management updates, and action items."
-  },
-  {
-    "objectID": "projects/living-lab-dashboards.html",
-    "href": "projects/living-lab-dashboards.html",
-    "title": "Living Lab Explorer",
-    "section": "",
-    "text": "The Living Lab Explorer is a work-in-progress project building upon factsheets prepared by the IAT Regional Network Managers to create interactive dashboards to allow practice partners and researchers to gain an understanding of the environmental and socio-economic conditions that characterise the five IAT Living Labs."
-  },
-  {
-    "objectID": "projects/policy-lab-guide.html",
-    "href": "projects/policy-lab-guide.html",
-    "title": "A how-to guide for Policy Labs",
-    "section": "",
-    "text": "The Policy Lab Guide is a work-in-progress project to guide researchers and practictioners in the development of Policy Labs for Agri-environmental Measures within the setting of Living Labs. The guide is designed to be a practical resource for those looking to co-design, test and evaluate policy interventions in collaboration with stakeholders, providing recommended methods for each step of the process.\nIt offers two ways in: a concept diagram that lays out the Policy Lab phases in a visual format, and a searchable methods library where every method can be filtered by phase, actor, effort, and skill level.\nThe guide is being developed collaboratively with colleagues at ZALF: Bettina Matzdorf, Joana Iwaniw, Ben Black, and Sebastian Rogga. But in the near future we hope to open the guide up for contributions from the wider community of researchers and practitioners working in the field of policy co-design and Living Labs especially within the IAT. Please get in touch if you would like to contribute or provide feedback on the guide"
-  },
-  {
-    "objectID": "projects/monkshilllabs.html#explore-the-handbook",
-    "href": "projects/monkshilllabs.html#explore-the-handbook",
-    "title": "MonksHillLab field ecophysiology handbook web version",
-    "section": "Explore the handbook",
-    "text": "Explore the handbook\n\n\nThe live handbook is available at monkshilllab-isolab.github.io/LCSfFE-handbook. It is a living document, and the MonksHillLab team welcomes contributions of improvements and new chapters — see the handbook’s contributing section, or contact the author (mathias.hoffmann@zalf.de).\nThe handbook is published under a CC-BY 4.0 licence and archived on Zenodo at DOI 10.5281/zenodo.15562591."
   }
 ]
