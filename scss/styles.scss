@@ -1392,6 +1392,28 @@ body.quarto-dark .quarto-listing-container-grid .quarto-grid-item.card:not(.card
   cursor: default;
 }
 
+/* Service-category badges — brand strata colours.
+   The dml-cat-* classes are added by assets/js/dml-category-colors.js, which
+   also maps the German equivalents (Unterstützung, Wissenstransfer) onto the
+   same keys. Other categories keep the default badge styling above. */
+$dml-service-categories: (
+  "support": $brand-support,
+  "transfer": $brand-transfer,
+  "integration": $brand-integration,
+);
+
+/* Solid brand chips with white text: the three service colours are all
+   mid-dark, so the same treatment reads in light mode, dark mode and on
+   the hero-article image overlay. */
+@each $key, $color in $dml-service-categories {
+  .listing-category.dml-cat-#{$key},
+  .quarto-category.dml-cat-#{$key} {
+    background: $color !important;
+    color: $brand-white !important;
+    border-color: transparent !important;
+  }
+}
+
 /* ============================================
    Two-column layout with vertical divider
    ============================================ */
