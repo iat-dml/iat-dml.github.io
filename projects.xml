@@ -37,6 +37,33 @@
   <media:content url="https://iat-dml.github.io/assets/ll-explorer-screenshot.png" medium="image" type="image/png" height="74" width="144"/>
 </item>
 <item>
+  <title>A how-to guide for Policy Labs</title>
+  <link>https://iat-dml.github.io/projects/policy-lab-guide.html</link>
+  <description><![CDATA[ 
+
+
+
+
+
+<p>The <a href="https://iat-dml.github.io/policy-codesign-methods/">Policy Lab Guide</a> is a work-in-progress project to guide researchers and practictioners in the development of <strong>Policy Labs for Agri-environmental Measures</strong> within the setting of Living Labs. The guide is designed to be a practical resource for those looking to co-design, test and evaluate policy interventions in collaboration with stakeholders, providing recommended methods for each step of the process.</p>
+<p>It offers two ways in: a <strong>concept diagram</strong> that lays out the Policy Lab phases in a visual format, and a searchable <strong>methods library</strong> where every method can be filtered by phase, actor, effort, and skill level.</p>
+<p>The guide is being developed collaboratively with colleagues at ZALF: <a href="https://www.zalf.de/de/ueber_uns/mitarbeiter/Seiten/matzdorf_b.aspx">Bettina Matzdorf</a>, Joana Iwaniw, <a href="https://blenback.github.io/">Ben Black</a>, and <a href="https://www.zalf.de/de/ueber_uns/mitarbeiter/Seiten/Rogga_S.aspx">Sebastian Rogga</a>. But in the near future we hope to open the guide up for contributions from the wider community of researchers and practitioners working in the field of policy co-design and Living Labs especially within the IAT. <a href="mailto:iat-dml@zalf.de">Please get in touch if you would like to contribute or provide feedback on the guide</a></p>
+<iframe src="https://iat-dml.github.io/policy-codesign-methods/" width="100%" height="600" style="border: none;">
+</iframe>
+
+
+
+ ]]></description>
+  <category>guide</category>
+  <category>methods</category>
+  <category>living labs</category>
+  <category>transfer</category>
+  <category>WIP</category>
+  <guid>https://iat-dml.github.io/projects/policy-lab-guide.html</guid>
+  <pubDate>Wed, 01 Jul 2026 00:00:00 GMT</pubDate>
+  <media:content url="https://iat-dml.github.io/assets/policy-labs-screenshot.png" medium="image" type="image/png" height="71" width="144"/>
+</item>
+<item>
   <title>MonksHillLab field ecophysiology handbook web version</title>
   <link>https://iat-dml.github.io/projects/monkshilllabs.html</link>
   <description><![CDATA[ 

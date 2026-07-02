@@ -10,6 +10,178 @@
 <atom:link href="https://iat-dml.github.io/de/projects.xml" rel="self" type="application/rss+xml"/>
 <description>„Dies ist die Website der Arbeitsgruppe „Daten- und Modellierungsinfrastruktur für Living Labs“ (SWG) des Innovationszentrums für Agrarsystemtransformation (IAT) als Teil des Leibniz-Zentrums für Agrarlandschaftsforschung (ZALF).“</description>
 <generator>quarto-1.9.38</generator>
-<lastBuildDate>Thu, 02 Jul 2026 14:43:44 GMT</lastBuildDate>
+<lastBuildDate>Wed, 01 Jul 2026 00:00:00 GMT</lastBuildDate>
+<item>
+  <title>Living Lab Explorer</title>
+  <link>https://iat-dml.github.io/de/projects/living-lab-dashboards.html</link>
+  <description><![CDATA[ 
+
+
+
+
+
+<p>Der <a href="https://iat-dml.github.io/living-lab-explorer/">Living Lab Explorer</a> ist ein noch in der Entwicklung befindliches Projekt, das auf den von den regionalen Netzwerkmanagern des IAT erstellten Factsheets aufbaut, um interaktive Dashboards zu erstellen, die es Praxispartnern und Forschern ermöglichen, sich ein Bild von den ökologischen und sozioökonomischen Bedingungen zu machen, die die fünf IAT-Living-Labs charakterisieren.</p>
+<iframe src="https://iat-dml.github.io/living-lab-explorer/" width="100%" height="600" style="border: none;">
+</iframe>
+
+
+
+ ]]></description>
+  <category>dashboard</category>
+  <category>visualization</category>
+  <category>living labs</category>
+  <category>transfer</category>
+  <category>WIP</category>
+  <guid>https://iat-dml.github.io/de/projects/living-lab-dashboards.html</guid>
+  <pubDate>Wed, 01 Jul 2026 00:00:00 GMT</pubDate>
+  <media:content url="https://iat-dml.github.io/de/assets/ll-explorer-screenshot.png" medium="image" type="image/png" height="74" width="144"/>
+</item>
+<item>
+  <title>Ein Leitfaden für Policy Labs</title>
+  <link>https://iat-dml.github.io/de/projects/policy-lab-guide.html</link>
+  <description><![CDATA[ 
+
+
+
+
+
+<p>Die <a href="https://iat-dml.github.io/policy-codesign-methods/">Policy Lab Guide</a> ist ein noch in der Entwicklung befindliches Projekt, das Forschern und Praktikern als Leitfaden für die Entwicklung von <strong>Policy Labs für Agrarumweltmaßnahmen</strong> im Rahmen von Living Labs dienen soll. Der Leitfaden ist als praktische Ressource für diejenigen konzipiert, die politische Maßnahmen in Zusammenarbeit mit Interessengruppen gemeinsam gestalten, testen und bewerten möchten, und bietet empfohlene Methoden für jeden Schritt des Prozesses.</p>
+<p>Er bietet zwei Einstiegsmöglichkeiten: ein <strong>Konzeptdiagramm</strong>, das die Phasen des Policy Labs visuell darstellt, und eine durchsuchbare <strong>Methodenbibliothek</strong>, in der jede Methode nach Phase, Akteur, Aufwand und Kompetenzniveau gefiltert werden kann.</p>
+<p>Der Leitfaden wird gemeinsam mit Kollegen vom ZALF entwickelt: <a href="https://www.zalf.de/de/ueber_uns/mitarbeiter/Seiten/matzdorf_b.aspx">Bettina Matzdorf</a>, Joana Iwaniw, <a href="https://blenback.github.io/">Ben Black</a> und <a href="https://www.zalf.de/de/ueber_uns/mitarbeiter/Seiten/Rogga_S.aspx">Sebastian Rogga</a>. In naher Zukunft hoffen wir jedoch, den Leitfaden für Beiträge der breiteren Gemeinschaft von Forschern und Praktikern zu öffnen, die im Bereich des Policy Co-Designs und der Living Labs tätig sind, insbesondere innerhalb des IAT. <a href="mailto:iat-dml@zalf.de">Bitte melden Sie sich bei uns, wenn Sie einen Beitrag leisten oder Feedback zum Leitfaden geben möchten</a></p>
+<iframe src="https://iat-dml.github.io/policy-codesign-methods/" width="100%" height="600" style="border: none;">
+</iframe>
+
+
+
+ ]]></description>
+  <category>guide</category>
+  <category>methods</category>
+  <category>living labs</category>
+  <category>transfer</category>
+  <category>WIP</category>
+  <guid>https://iat-dml.github.io/de/projects/policy-lab-guide.html</guid>
+  <pubDate>Wed, 01 Jul 2026 00:00:00 GMT</pubDate>
+  <media:content url="https://iat-dml.github.io/de/assets/policy-labs-screenshot.png" medium="image" type="image/png" height="71" width="144"/>
+</item>
+<item>
+  <title>MonksHillLab-Handbuch zur Feldökophysiologie – Webversion</title>
+  <link>https://iat-dml.github.io/de/projects/monkshilllabs.html</link>
+  <description><![CDATA[ 
+
+
+
+
+
+<p>Die Initiative <strong>MonksHillLab</strong> – Teil der <a href="https://www.zalf.de/en/struktur/pb1/ibg/Pages/default.aspx">Arbeitsgruppe Ökophysiologie des Wasser- und Stoffkreislaufs</a> am <a href="https://www.zalf.de/en/%20Pages/ZALF.aspx">Leibniz-Zentrum für Agrarlandschaftsforschung (ZALF)</a> – erstellt ein frei zugängliches Handbuch mit dem Titel <a href="https://monkshilllab-isolab.github.io/LCSfFE-handbook/"><strong>Build-It-Yourself: Low-Cost Systems for Field Ecophysiology</strong></a>, das den Lesern eine Anleitung zum Bau und zur Kalibrierung kostengünstiger, selbstgebauter Sensorsysteme für die Umweltüberwachung bietet.</p>
+<p>Die DML-Gruppe hat gemeinsam mit dem MonksHillLab-Team daran gearbeitet, dieses Handbuch zugänglicher zu gestalten. Bislang lag es als PDF vor; wir haben dabei geholfen, eine Webversion zu erstellen, die mit <a href="https://quarto.org">Quarto</a> erstellt und auf GitHub Pages gehostet wird. Diese bietet interaktive Funktionen (beispielsweise die Möglichkeit, Bilder zu vergrößern und Code-Blöcke zu kopieren) und macht das Handbuch für seine Zielgruppe – Forscher auf der ganzen Welt – attraktiver. Da es zudem als GitHub-Repository gehostet wird, eröffnet dies die Möglichkeit für Beiträge aus der Nutzergemeinschaft, wodurch das Handbuch im Laufe der Zeit wachsen und sich weiterentwickeln kann.</p>
+<section id="entdecken-sie-das-handbuch" class="level2">
+<h2 class="anchored" data-anchor-id="entdecken-sie-das-handbuch">Entdecken Sie das Handbuch</h2>
+<iframe src="https://monkshilllab-isolab.github.io/LCSfFE-handbook/" width="100%" height="600" style="border: none;">
+</iframe>
+<p>Das Live-Handbuch ist unter <a href="https://monkshilllab-isolab.github.io/LCSfFE-handbook/">monkshilllab-isolab.github.io/LCSfFE-handbook</a> verfügbar. Es handelt sich um ein fortlaufend aktualisiertes Dokument, und das MonksHillLab-Team freut sich über Beiträge zur Verbesserung sowie über neue Kapitel – siehe den Abschnitt „Mitwirken“ im Handbuch oder wenden Sie sich an den Autor (<a href="mailto:mathias.hoffmann@zalf.de">mathias.hoffmann@zalf.de</a>).</p>
+<p>Das Handbuch wird unter einer <a href="https://github.com/zalf-lli/LCSfFE-handbook/blob/main/LICENSE.md">CC-BY 4.0-Lizenz</a> veröffentlicht und auf Zenodo unter der DOI [10.5281/zenodo.15562591] (https://doi.org/10.5281/zenodo.15562591).</p>
+
+
+</section>
+
+ ]]></description>
+  <category>collaboration</category>
+  <category>research platform</category>
+  <category>WIP</category>
+  <category>transfer</category>
+  <guid>https://iat-dml.github.io/de/projects/monkshilllabs.html</guid>
+  <pubDate>Wed, 03 Jun 2026 00:00:00 GMT</pubDate>
+  <media:content url="https://iat-dml.github.io/de/assets/mhl-screenshot.png" medium="image" type="image/png" height="92" width="144"/>
+</item>
+<item>
+  <title>IAT ZALF Templates</title>
+  <link>https://iat-dml.github.io/de/projects/zalf-iat-templates.html</link>
+  <description><![CDATA[ 
+
+
+
+
+
+<p>Im Rahmen dieses Projekts wurde eine Sammlung wiederverwendbarer Dokument- und Präsentationsvorlagen für die IAT-Arbeitsgruppen erstellt, die sowohl technische Publikationspipelines (Erweiterungen für <a href="https://quarto.org">Quarto</a>) als auch herkömmliche Office-Formate (PowerPoint) abdecken. Alle Vorlagen sind in einem öffentlichen GitHub-Repository unter <a href="https://github.com/iat-dml/templates">https://github.com/iat-dml/templates</a> verfügbar.</p>
+<section id="quarto-erweiterungen" class="level2">
+<h2 class="anchored" data-anchor-id="quarto-erweiterungen">Quarto-Erweiterungen</h2>
+<p>Die wichtigsten Ergebnisse sind vier Quarto-Erweiterungen, die direkt aus dem Repository installiert und in jedem Quarto-Projekt verwendet werden können. Sie sind in sich geschlossen – Logos, Farbpaletten und Schriftarten sind alle im Ordner <code>_extensions/</code> enthalten, sodass Dokumente unabhängig von der lokalen Umgebung einheitlich dargestellt werden.</p>
+<section id="interne-dokumente-der-zalf" class="level3">
+<h3 class="anchored" data-anchor-id="interne-dokumente-der-zalf">Interne Dokumente der ZALF</h3>
+<p>Eine Erweiterung für <a href="https://quarto.org/docs/output-formats/typst.html">Quarto Typst</a>, die <code>.qmd</code>-Dateien als ZALF-PDF-Dokumente mit eigenem Branding rendert. Auf dem Deckblatt werden die Logos von ZALF und der Leibniz-Gemeinschaft oben bzw. unten platziert, während in der Mitte ein grauer Streifen den Dokumenttitel, das Datum und ein optionales Deckbild enthält. Die folgenden Seiten verwenden Laufkopfzeilen, formatierte H1–H4-Überschriften, farbige Aufzählungslisten und gestreifte Tabellen – allesamt in der offiziellen grünen ZALF-Farbpalette (<code>#46A84F</code>) gestaltet.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="../assets/templates-zalf-typst.png" class="lightbox" data-gallery="quarto-lightbox-gallery-1" title="Titelseite der ZALF-Vorlage für interne Dokumente"><img src="https://iat-dml.github.io/de/assets/templates-zalf-typst.png" class="img-fluid figure-img" alt="Titelseite mit dem ZALF-Logo, dem Titel des Dokuments, dem Datum und dem Logo der Leibniz-Gemeinschaft"></a></p>
+<figcaption>Titelseite der ZALF-Vorlage für interne Dokumente</figcaption>
+</figure>
+</div>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb1" style="background: #f1f3f5;"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb1-1"><span class="ex" style="color: null;
+background-color: null;
+font-style: inherit;">quarto</span> use template iat-dml/templates/zalf-internal-typst</span></code></pre></div></div>
+</section>
+<section id="interne-dokumente-der-iat" class="level3">
+<h3 class="anchored" data-anchor-id="interne-dokumente-der-iat">Interne Dokumente der IAT</h3>
+<p>Eine begleitende Typst-Erweiterung für interne PDF-Dokumente des IAT. Sie folgt demselben Layout für Deckblatt und Hauptteil wie die ZALF-Vorlage, verwendet jedoch die IAT-Markenpalette, das kombinierte ZALF/IAT-Logo sowie ein markenspezifisches Fußzeilenbanner mit den Logos von Partnern und Förderern.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="../assets/templates-iat-typst.png" class="lightbox" data-gallery="quarto-lightbox-gallery-2" title="Deckblatt der Vorlage für interne IAT-Dokumente"><img src="https://iat-dml.github.io/de/assets/templates-iat-typst.png" class="img-fluid figure-img" alt="Deckblatt mit dem IAT-Logo, dem Dokumenttitel, dem Datum und einer Reihe von Partner- und Fördererlogos"></a></p>
+<figcaption>Deckblatt der Vorlage für interne IAT-Dokumente</figcaption>
+</figure>
+</div>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb2" style="background: #f1f3f5;"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb2-1"><span class="ex" style="color: null;
+background-color: null;
+font-style: inherit;">quarto</span> use template iat-dml/templates/iat-internal-typst</span></code></pre></div></div>
+</section>
+<section id="iat-präsentationen" class="level3">
+<h3 class="anchored" data-anchor-id="iat-präsentationen">IAT-Präsentationen</h3>
+<p>Eine <a href="https://quarto.org/docs/presentations/revealjs/">Quarto Revealjs</a>-Erweiterung für IAT-HTML-Präsentationen mit Markenelementen. Die Titelfolie verfügt über ein tiefes, waldgrünes Hero-Panel mit weißen Überschriften und dem ZALF/IAT-Logo in der oberen rechten Ecke. Eine Fußzeile in voller Breite enthält die Logos der Partneruniversitäten und die Kennzeichen der Förderer, wodurch die Einhaltung der Anforderungen zur Danksagung bei Fördermitteln von Haus aus gewährleistet ist.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="../assets/templates-iat-revealjs.png" class="lightbox" data-gallery="quarto-lightbox-gallery-3" title="Titelfolie der IAT-Revealjs-Präsentationsvorlage"><img src="https://iat-dml.github.io/de/assets/templates-iat-revealjs.png" class="img-fluid figure-img" alt="Titelfolie in Dunkelgrün mit IAT-Logo, Präsentationstitel in Weiß und einer Logoleiste am unteren Rand"></a></p>
+<figcaption>Titelfolie der IAT-Revealjs-Präsentationsvorlage</figcaption>
+</figure>
+</div>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb3" style="background: #f1f3f5;"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb3-1"><span class="ex" style="color: null;
+background-color: null;
+font-style: inherit;">quarto</span> use template iat-dml/templates/iat-revealjs</span></code></pre></div></div>
+</section>
+<section id="dml-präsentationen" class="level3">
+<h3 class="anchored" data-anchor-id="dml-präsentationen">DML-Präsentationen</h3>
+<p>Eine Revealjs-Erweiterung, die speziell für die Arbeitsgruppe „Data and Modelling Infrastructure“ (DML) gestaltet wurde. Das Design spiegelt die visuelle Identität von DML wider: „DM Serif Display“ für große Überschriften, „DM Sans“ für den Fließtext, einen warmen, cremefarbenen Papierhintergrund sowie eine dunkelblaugrüne Primärfarbe mit grünen und olivfarbenen Akzenten. In der unteren rechten Ecke jeder Inhaltsfolie erscheint ein dauerhaftes DML-Kreislogo, das bei PDF-Exporten automatisch ausgeblendet wird.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="../assets/templates-dml-revealjs.png" class="lightbox" data-gallery="quarto-lightbox-gallery-4" title="Titelfolie der DML-Revealjs-Präsentationsvorlage"><img src="https://iat-dml.github.io/de/assets/templates-dml-revealjs.png" class="img-fluid figure-img" alt="Titelfolie mit großer Serifen-Überschrift, DML-Kreissymbol und einer Leiste mit Fördererlogos am unteren Rand"></a></p>
+<figcaption>Titelfolie der DML-Revealjs-Präsentationsvorlage</figcaption>
+</figure>
+</div>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb4" style="background: #f1f3f5;"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb4-1"><span class="ex" style="color: null;
+background-color: null;
+font-style: inherit;">quarto</span> use template iat-dml/templates/dml-revealjs</span></code></pre></div></div>
+</section>
+</section>
+<section id="powerpoint-vorlagen" class="level2">
+<h2 class="anchored" data-anchor-id="powerpoint-vorlagen">PowerPoint-Vorlagen</h2>
+<p>Für Nutzer, die traditionelle Präsentationssoftware bevorzugen, sind drei PowerPoint-Vorlagen mit Markenlogo enthalten:</p>
+<ul>
+<li><strong>DML</strong> — <code>dml-template-powerpoint.potx</code></li>
+<li><strong>IAT</strong> — <code>iat-template-powerpoint.pptx</code></li>
+<li><strong>ZALF</strong> — <code>zalf-template-powerpoint-slides.pptx</code></li>
+</ul>
+</section>
+<section id="tagesordnung-und-protokoll-der-sitzung" class="level2">
+<h2 class="anchored" data-anchor-id="tagesordnung-und-protokoll-der-sitzung">Tagesordnung und Protokoll der Sitzung</h2>
+<p>Für strukturierte, zweiwöchentliche Sitzungsprotokolle der Arbeitsgruppe „Service“ steht eine Markdown-Vorlage (<code>agenda-minutes-template.md</code>) zur Verfügung, die Informationen zu den aktuellen Entwicklungen in der Arbeitsgruppe, zu den aktuellen Entwicklungen in der Geschäftsleitung sowie zu den zu erledigenden Aufgaben enthält.</p>
+
+
+</section>
+
+ ]]></description>
+  <category>infrastructure</category>
+  <category>collaboration</category>
+  <category>research platform</category>
+  <guid>https://iat-dml.github.io/de/projects/zalf-iat-templates.html</guid>
+  <pubDate>Fri, 15 Nov 2024 00:00:00 GMT</pubDate>
+  <media:content url="https://iat-dml.github.io/de/assets/templates-dml-revealjs.png" medium="image" type="image/png" height="83" width="144"/>
+</item>
 </channel>
 </rss>

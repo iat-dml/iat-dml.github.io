@@ -1,20 +1,35 @@
 [
   {
     "listing": "/news.html",
-    "items": []
+    "items": [
+      "/news/2026-03-fairagro-summit.html"
+    ]
   },
   {
     "listing": "/team.html",
-    "items": []
+    "items": [
+      "/team/Ben.html",
+      "/team/DS.html",
+      "/team/RSE.html"
+    ]
   },
   {
     "listing": "/projects.html",
-    "items": []
+    "items": [
+      "/projects/living-lab-dashboards.html",
+      "/projects/policy-lab-guide.html",
+      "/projects/monkshilllabs.html",
+      "/projects/zalf-iat-templates.html"
+    ]
   },
   {
     "listing": "/index.html",
     "items": [
-      "/projects/policy-lab-guide.html"
+      "/news/2026-03-fairagro-summit.html",
+      "/projects/living-lab-dashboards.html",
+      "/projects/policy-lab-guide.html",
+      "/projects/monkshilllabs.html",
+      "/projects/zalf-iat-templates.html"
     ]
   }
 ]
