@@ -14,6 +14,7 @@ listing:
     contents: "./projects/*.qmd"
     type: grid
     grid-columns: 1
+    max-items: 3
     fields: [image, title, date, categories, description]
     sort: "date desc"
     grid-item-align: center
