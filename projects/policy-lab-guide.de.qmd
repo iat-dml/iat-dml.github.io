@@ -1,0 +1,15 @@
+---
+title: "Ein Leitfaden für Policy Labs"
+image: ../assets/policy-labs-screenshot.png
+date: "2026-07-01"
+categories: [guide, methods, living labs, transfer, WIP]
+description: "Ein interaktiver Leitfaden zur Entwicklung von „Policy Labs“ für Agrarumweltmaßnahmen im Rahmen von „Living Labs“."
+---
+
+Die [Policy Lab Guide](https://iat-dml.github.io/policy-codesign-methods/) ist ein noch in der Entwicklung befindliches Projekt, das Forschern und Praktikern als Leitfaden für die Entwicklung von **Policy Labs für Agrarumweltmaßnahmen** im Rahmen von Living Labs dienen soll. Der Leitfaden ist als praktische Ressource für diejenigen konzipiert, die politische Maßnahmen in Zusammenarbeit mit Interessengruppen gemeinsam gestalten, testen und bewerten möchten, und bietet empfohlene Methoden für jeden Schritt des Prozesses.
+
+Er bietet zwei Einstiegsmöglichkeiten: ein **Konzeptdiagramm**, das die Phasen des Policy Labs visuell darstellt, und eine durchsuchbare **Methodenbibliothek**, in der jede Methode nach Phase, Akteur, Aufwand und Kompetenzniveau gefiltert werden kann.
+
+Der Leitfaden wird gemeinsam mit Kollegen vom ZALF entwickelt: [Bettina Matzdorf](https://www.zalf.de/de/ueber_uns/mitarbeiter/Seiten/matzdorf_b.aspx), Joana Iwaniw, [Ben Black](https://blenback.github.io/) und [Sebastian Rogga](https://www.zalf.de/de/ueber_uns/mitarbeiter/Seiten/Rogga_S.aspx). In naher Zukunft hoffen wir jedoch, den Leitfaden für Beiträge der breiteren Gemeinschaft von Forschern und Praktikern zu öffnen, die im Bereich des Policy Co-Designs und der Living Labs tätig sind, insbesondere innerhalb des IAT. [Bitte melden Sie sich bei uns, wenn Sie einen Beitrag leisten oder Feedback zum Leitfaden geben möchten](mailto:iat-dml@zalf.de)
+
+<iframe src="https://iat-dml.github.io/policy-codesign-methods/" width="100%" height="600" style="border: none;"></iframe>

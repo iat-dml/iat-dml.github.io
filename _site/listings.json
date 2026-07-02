@@ -10,6 +10,7 @@
   {
     "listing": "/projects.html",
     "items": [
+      "/projects/living-lab-dashboards.html",
       "/projects/monkshilllabs.html",
       "/projects/zalf-iat-templates.html"
     ]
@@ -20,6 +21,8 @@
       "/news/2026-06-iemss-workshop.html",
       "/news/2026-01-iat-kickoff.html",
       "/news/2026-03-fairagro-summit.html",
+      "/projects/living-lab-dashboards.html",
+      "/projects/policy-lab-guide.html",
       "/projects/monkshilllabs.html",
       "/projects/zalf-iat-templates.html"
     ]
@@ -38,7 +41,9 @@
   },
   {
     "listing": "/index.de.html",
-    "items": []
+    "items": [
+      "/projects/policy-lab-guide.html"
+    ]
   },
   {
     "listing": "/news.de.html",

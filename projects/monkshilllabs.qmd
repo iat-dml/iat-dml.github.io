@@ -1,19 +1,19 @@
 ---
-title: "MonksHillLabs Initiative"
+title: "MonksHillLab field ecophysiology handbook web version"
 image: ../assets/mhl-screenshot.png
-date: "2024-11-15"
-categories: [infrastructure, collaboration, research platform]
-description: "MonksHillLabs provides shared research infrastructure and collaborative workspace for developing and testing landscape modelling tools and data workflows."
+date: "2026-06-03"
+categories: [collaboration, research platform, WIP, transfer]
+description: "The DML group helped broaden the reach of the MonksHillLab field ecophysiology handbook by moving from a PDF to an interactive web resource."
 ---
 
-MonksHillLabs is a collaborative research platform that provides shared computational
-infrastructure, data repositories, and development environments for landscape and
-land use modelling projects.
+The **MonksHillLab** initiative — part of the [Working Group Ecophysiology of Water and Matter Cycling](https://www.zalf.de/en/struktur/pb1/ibg/Pages/default.aspx) at the [Leibniz Centre for Agricultural Landscape Research (ZALF)](https://www.zalf.de/en/Pages/ZALF.aspx) — produces an open handbook, [**Build-It-Yourself: Low-Cost Systems for Field Ecophysiology**](https://monkshilllab-isolab.github.io/LCSfFE-handbook/), which guides readers through building and calibrating low-cost, DIY sensor systems for environmental monitoring.
 
-The initiative brings together researchers, data scientists, and software developers
-to co-create tools, standards, and workflows that advance data interoperability and
-reproducible research in landscape science.
+The DML group worked with the MonksHillLab team to make this handbook more accessible. Previously it existed as a PDF; we helped create a web version built with [Quarto](https://quarto.org) and hosted on GitHub Pages that adds interactivity (for example being able to expand images and copy code blocks) making it more engaging to its intended audience of researchers around the world. Also becaus eit is hosted as a GitHub repository this opens up the door for contributions from the user community, allowing the handbook to grow and evolve over time.
 
-Current activities include developing standardized data formats, building modular
-modelling components, and hosting hackathons and training workshops.
+## Explore the handbook
 
+<iframe src="https://monkshilllab-isolab.github.io/LCSfFE-handbook/" width="100%" height="600" style="border: none;"></iframe>
+
+The live handbook is available at [monkshilllab-isolab.github.io/LCSfFE-handbook](https://monkshilllab-isolab.github.io/LCSfFE-handbook/). It is a living document, and the MonksHillLab team welcomes contributions of improvements and new chapters — see the handbook's contributing section, or contact the author ([mathias.hoffmann@zalf.de](mailto:mathias.hoffmann@zalf.de)).
+
+The handbook is published under a [CC-BY 4.0 licence](https://github.com/zalf-lli/LCSfFE-handbook/blob/main/LICENSE.md) and archived on Zenodo at DOI [10.5281/zenodo.15562591](https://doi.org/10.5281/zenodo.15562591).

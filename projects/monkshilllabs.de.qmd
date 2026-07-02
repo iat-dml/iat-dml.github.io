@@ -1,0 +1,19 @@
+---
+title: "MonksHillLab-Handbuch zur Feldökophysiologie – Webversion"
+image: ../assets/mhl-screenshot.png
+date: "2026-06-03"
+categories: [collaboration, research platform, WIP, transfer]
+description: "Die DML-Gruppe trug dazu bei, die Reichweite des Handbuchs zur Feldökophysiologie von MonksHillLab zu vergrößern, indem sie es von einem PDF in eine interaktive Webressource umwandelte."
+---
+
+Die Initiative **MonksHillLab** – Teil der [Arbeitsgruppe Ökophysiologie des Wasser- und Stoffkreislaufs](https://www.zalf.de/en/struktur/pb1/ibg/Pages/default.aspx) am [Leibniz-Zentrum für Agrarlandschaftsforschung (ZALF)](https://www.zalf.de/en/ Pages/ZALF.aspx) – erstellt ein frei zugängliches Handbuch mit dem Titel [**Build-It-Yourself: Low-Cost Systems for Field Ecophysiology**](https://monkshilllab-isolab.github.io/LCSfFE-handbook/), das den Lesern eine Anleitung zum Bau und zur Kalibrierung kostengünstiger, selbstgebauter Sensorsysteme für die Umweltüberwachung bietet.
+
+Die DML-Gruppe hat gemeinsam mit dem MonksHillLab-Team daran gearbeitet, dieses Handbuch zugänglicher zu gestalten. Bislang lag es als PDF vor; wir haben dabei geholfen, eine Webversion zu erstellen, die mit [Quarto](https://quarto.org) erstellt und auf GitHub Pages gehostet wird. Diese bietet interaktive Funktionen (beispielsweise die Möglichkeit, Bilder zu vergrößern und Code-Blöcke zu kopieren) und macht das Handbuch für seine Zielgruppe – Forscher auf der ganzen Welt – attraktiver. Da es zudem als GitHub-Repository gehostet wird, eröffnet dies die Möglichkeit für Beiträge aus der Nutzergemeinschaft, wodurch das Handbuch im Laufe der Zeit wachsen und sich weiterentwickeln kann.
+
+## Entdecken Sie das Handbuch
+
+<iframe src="https://monkshilllab-isolab.github.io/LCSfFE-handbook/" width="100%" height="600" style="border: none;"></iframe>
+
+Das Live-Handbuch ist unter [monkshilllab-isolab.github.io/LCSfFE-handbook](https://monkshilllab-isolab.github.io/LCSfFE-handbook/) verfügbar. Es handelt sich um ein fortlaufend aktualisiertes Dokument, und das MonksHillLab-Team freut sich über Beiträge zur Verbesserung sowie über neue Kapitel – siehe den Abschnitt „Mitwirken“ im Handbuch oder wenden Sie sich an den Autor ([mathias.hoffmann@zalf.de](mailto:mathias.hoffmann@zalf.de)).
+
+Das Handbuch wird unter einer [CC-BY 4.0-Lizenz](https://github.com/zalf-lli/LCSfFE-handbook/blob/main/LICENSE.md) veröffentlicht und auf Zenodo unter der DOI [10.5281/zenodo.15562591] (https://doi.org/10.5281/zenodo.15562591).

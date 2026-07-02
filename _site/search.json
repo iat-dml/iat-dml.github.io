@@ -32,7 +32,7 @@
     "href": "projects.html",
     "title": "Projects",
     "section": "",
-    "text": "MonksHillLabs Initiative\n\n\n\ninfrastructure\n\ncollaboration\n\nresearch platform\n\n\n\nMonksHillLabs provides shared research infrastructure and collaborative workspace for developing and testing landscape modelling tools and data workflows.\n\n\n\nNov 15, 2024\n\n\n\n\n\n\n\n\n\n\n\n\n\nIAT ZALF Templates\n\n\n\ninfrastructure\n\ncollaboration\n\nresearch platform\n\n\n\nTemplates for producing presentations and documents consistent with the IAT and ZALF branding.\n\n\n\nNov 15, 2024\n\n\n\n\n\n\nNo matching items"
+    "text": "Living Lab Explorer\n\n\n\ndashboard\n\nvisualization\n\nliving labs\n\ntransfer\n\nWIP\n\n\n\nInteractive dashboards for exploring environmentaL and socio-economic data from the five IAT Living Labs.\n\n\n\nJul 1, 2026\n\n\n\n\n\n\n\n\n\n\n\n\n\nMonksHillLab field ecophysiology handbook web version\n\n\n\ncollaboration\n\nresearch platform\n\nWIP\n\ntransfer\n\n\n\nThe DML group helped broaden the reach of the MonksHillLab field ecophysiology handbook by moving from a PDF to an interactive web resource.\n\n\n\nJun 3, 2026\n\n\n\n\n\n\n\n\n\n\n\n\n\nIAT ZALF Templates\n\n\n\ninfrastructure\n\ncollaboration\n\nresearch platform\n\n\n\nTemplates for producing presentations and documents consistent with the IAT and ZALF branding.\n\n\n\nNov 15, 2024\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "privacy-policy.html",
@@ -242,7 +242,7 @@
     "href": "index.html#projects",
     "title": "Home",
     "section": "Projects",
-    "text": "Projects\n\n\n\n\n\n\n\n\n\n\nMonksHillLabs Initiative\n\n\n\ninfrastructure\n\ncollaboration\n\nresearch platform\n\n\n\nMonksHillLabs provides shared research infrastructure and collaborative workspace for developing and testing landscape modelling tools and data workflows.\n\n\n\nNov 15, 2024\n\n\n\n\n\n\n\n\n\n\n\n\n\nIAT ZALF Templates\n\n\n\ninfrastructure\n\ncollaboration\n\nresearch platform\n\n\n\nTemplates for producing presentations and documents consistent with the IAT and ZALF branding.\n\n\n\nNov 15, 2024\n\n\n\n\n\n\nNo matching items\n\nAll projects →"
+    "text": "Projects\n\n\n\n\n\n\n\n\n\n\nLiving Lab Explorer\n\n\n\ndashboard\n\nvisualization\n\nliving labs\n\ntransfer\n\nWIP\n\n\n\nInteractive dashboards for exploring environmentaL and socio-economic data from the five IAT Living Labs.\n\n\n\nJul 1, 2026\n\n\n\n\n\n\n\n\n\n\n\n\n\nA how-to guide for Policy Labs\n\n\n\nguide\n\nmethods\n\nliving labs\n\ntransfer\n\nWIP\n\n\n\nAn interactive guide for developing Policy Labs for Agri-environmental Measures within Living Labs.\n\n\n\nJul 1, 2026\n\n\n\n\n\n\n\n\n\n\n\n\n\nMonksHillLab field ecophysiology handbook web version\n\n\n\ncollaboration\n\nresearch platform\n\nWIP\n\ntransfer\n\n\n\nThe DML group helped broaden the reach of the MonksHillLab field ecophysiology handbook by moving from a PDF to an interactive web resource.\n\n\n\nJun 3, 2026\n\n\n\n\n\n\n\n\n\n\n\n\n\nIAT ZALF Templates\n\n\n\ninfrastructure\n\ncollaboration\n\nresearch platform\n\n\n\nTemplates for producing presentations and documents consistent with the IAT and ZALF branding.\n\n\n\nNov 15, 2024\n\n\n\n\n\n\nNo matching items\n\nAll projects →"
   },
   {
     "objectID": "news/2026-01-iat-kickoff.html",
@@ -317,9 +317,9 @@
   {
     "objectID": "projects/monkshilllabs.html",
     "href": "projects/monkshilllabs.html",
-    "title": "MonksHillLabs Initiative",
+    "title": "MonksHillLab field ecophysiology handbook web version",
     "section": "",
-    "text": "MonksHillLabs is a collaborative research platform that provides shared computational infrastructure, data repositories, and development environments for landscape and land use modelling projects.\nThe initiative brings together researchers, data scientists, and software developers to co-create tools, standards, and workflows that advance data interoperability and reproducible research in landscape science.\nCurrent activities include developing standardized data formats, building modular modelling components, and hosting hackathons and training workshops."
+    "text": "The MonksHillLab initiative — part of the Working Group Ecophysiology of Water and Matter Cycling at the Leibniz Centre for Agricultural Landscape Research (ZALF) — produces an open handbook, Build-It-Yourself: Low-Cost Systems for Field Ecophysiology, which guides readers through building and calibrating low-cost, DIY sensor systems for environmental monitoring.\nThe DML group worked with the MonksHillLab team to make this handbook more accessible. Previously it existed as a PDF; we helped create a web version built with Quarto and hosted on GitHub Pages that adds interactivity (for example being able to expand images and copy code blocks) making it more engaging to its intended audience of researchers around the world. Also becaus eit is hosted as a GitHub repository this opens up the door for contributions from the user community, allowing the handbook to grow and evolve over time."
   },
   {
     "objectID": "resources.html",
@@ -571,7 +571,7 @@
     "href": "index.de.html#projects",
     "title": "Startseite",
     "section": "Projects",
-    "text": "Projects\n\n\n\n\nNo matching items\n\nAlle Projekte →"
+    "text": "Projects\n\n\n\n\n\n\n\n\n\n\nA how-to guide for Policy Labs\n\n\n\nguide\n\nmethods\n\nliving labs\n\ntransfer\n\nWIP\n\n\n\nAn interactive guide for developing Policy Labs for Agri-environmental Measures within Living Labs.\n\n\n\nJul 1, 2026\n\n\n\n\n\n\nNo matching items\n\nAlle Projekte →"
   },
   {
     "objectID": "charter.de.html",
@@ -592,7 +592,7 @@
     "href": "projects/zalf-iat-templates.html",
     "title": "IAT ZALF Templates",
     "section": "",
-    "text": "This was a small project on behalf of the IAT team to create templates to be used with technical publishing software such as Quarto and Typstfor for producing presentations and documents consistent with the IAT and ZALF branding.\nThe results are in a public GitHub repository at https://github.com/iat-dml/templates."
+    "text": "This project delivered a collection of reusable document and presentation templates for the IAT working groups, covering both technical publishing pipelines (Quarto extensions) and traditional office formats (PowerPoint). All templates are available in a public GitHub repository at https://github.com/iat-dml/templates."
   },
   {
     "objectID": "resources.de.html",
@@ -649,5 +649,47 @@
     "title": "Personen",
     "section": "",
     "text": "Klicken Sie auf das Profil jedes Teammitglieds, um weitere Informationen zu erhalten.\n\n\n\n  \n    \n      \n        \n        \n          \n        \n        \n        \n        \n        \n          \n            \n              \n          \n            \n          \n              \n            \n              \n          \n            \n          \n              \n            \n              \n          \n            \n          \n              \n            \n              \n          \n            \n          \n              \n            \n          \n        \n        \n        \n        \n          \n          Ben Black\n          \n          \n          \n          Leiter der Arbeitsgruppe\n          \n\n          \n          \n            Ben is the head of our working group, responsible for overseeing all projects and ensuring successful delivery. With a strong background in software engineering and team leadership, Ben has been instrumental in driving innovation and fostering a collaborative work environment.\n          \n          \n          \n          \n          \n            Expertise:\n            \n            \n              \n            R\n              \n            Quarto\n              \n            Team Leadership\n              \n            System Design\n              \n            \n          \n          \n          \n          \n          \n          \n            Projects:\n            \n              \n                \n                  \n              Living Lab Dashboards\n                  \n                \n                  \n              MonksHillLabs Initiative\n                  \n                \n              \n            \n          \n          \n        \n      \n    \n  \n\n  \n    \n      \n        \n        \n          \n        \n        \n        \n        \n        \n        \n          \n          Data Steward\n          \n          \n          \n          Data Steward\n          \n\n          \n          \n            \n          \n          \n          \n          \n          \n          \n        \n      \n    \n  \n\n  \n    \n      \n        \n        \n          \n        \n        \n        \n        \n        \n        \n          \n          Research Software Engineer\n          \n          \n          \n          Research Software Engineer\n          \n\n          \n          \n            \n          \n          \n          \n          \n          \n            Expertise:\n            \n            \n              \n            Python\n              \n            R\n              \n            Git\n              \n            Software Architecture\n              \n            CI/CD\n              \n            HPC\n              \n            Open Source Development\n              \n            \n          \n          \n          \n          \n          \n        \n      \n    \n  \n\n\nNo matching items"
+  },
+  {
+    "objectID": "projects/zalf-iat-templates.html#quarto-extensions",
+    "href": "projects/zalf-iat-templates.html#quarto-extensions",
+    "title": "IAT ZALF Templates",
+    "section": "Quarto Extensions",
+    "text": "Quarto Extensions\nThe core deliverables are four Quarto extensions that can be installed directly from the repository and used in any Quarto project. They are self-contained — logos, colour palettes, and fonts are all bundled inside the _extensions/ folder, so documents render consistently regardless of the local environment.\n\nZALF Internal Documents\nA Quarto Typst extension that renders .qmd files as branded ZALF PDF documents. The cover page places the ZALF and Leibniz Association logos at the top and bottom respectively, with a grey band across the middle carrying the document title, date, and an optional cover image. Subsequent pages use running headers, styled H1–H4 headings, coloured bullet lists, and striped tables — all drawn from the official ZALF green palette (#46A84F).\n\n\n\nCover page of the ZALF internal document template\n\n\nquarto use template iat-dml/templates/zalf-internal-typst\n\n\nIAT Internal Documents\nA companion Typst extension for IAT internal PDF documents. It follows the same cover-page and body layout as the ZALF template but swaps in the IAT brand palette, the combined ZALF/IAT logo, and a branded footer banner with partner and funder logos.\n\n\n\nCover page of the IAT internal document template\n\n\nquarto use template iat-dml/templates/iat-internal-typst\n\n\nIAT Presentations\nA Quarto Revealjs extension for branded IAT HTML slide decks. The title slide uses a deep forest-green hero panel with white headings and the ZALF/IAT logo in the top-right corner. A full-width footer bar carries partner university logos and funder marks, ensuring compliance with grant acknowledgement requirements out of the box.\n\n\n\nTitle slide of the IAT Revealjs presentation template\n\n\nquarto use template iat-dml/templates/iat-revealjs\n\n\nDML Presentations\nA Revealjs extension styled for the Data and Modelling Infrastructure (DML) working group. The theme reflects the DML visual identity: DM Serif Display for large headings, DM Sans for body text, a warm off-white paper background, and a teal-dark primary colour with green and olive accents. A persistent DML circular mark appears in the lower-right corner of every content slide and hides automatically in PDF exports.\n\n\n\nTitle slide of the DML Revealjs presentation template\n\n\nquarto use template iat-dml/templates/dml-revealjs"
+  },
+  {
+    "objectID": "projects/zalf-iat-templates.html#powerpoint-templates",
+    "href": "projects/zalf-iat-templates.html#powerpoint-templates",
+    "title": "IAT ZALF Templates",
+    "section": "PowerPoint Templates",
+    "text": "PowerPoint Templates\nThree branded PowerPoint templates are included for users who prefer traditional slide software:\n\nDML — dml-template-powerpoint.potx\nIAT — iat-template-powerpoint.pptx\nZALF — zalf-template-powerpoint-slides.pptx"
+  },
+  {
+    "objectID": "projects/zalf-iat-templates.html#meeting-agenda-minutes",
+    "href": "projects/zalf-iat-templates.html#meeting-agenda-minutes",
+    "title": "IAT ZALF Templates",
+    "section": "Meeting Agenda & Minutes",
+    "text": "Meeting Agenda & Minutes\nA Markdown template (agenda-minutes-template.md) is provided for structured bi-weekly service working group meeting notes, covering working group updates, management updates, and action items."
+  },
+  {
+    "objectID": "projects/living-lab-dashboards.html",
+    "href": "projects/living-lab-dashboards.html",
+    "title": "Living Lab Explorer",
+    "section": "",
+    "text": "The Living Lab Explorer is a work-in-progress project building upon factsheets prepared by the IAT Regional Network Managers to create interactive dashboards to allow practice partners and researchers to gain an understanding of the environmental and socio-economic conditions that characterise the five IAT Living Labs."
+  },
+  {
+    "objectID": "projects/policy-lab-guide.html",
+    "href": "projects/policy-lab-guide.html",
+    "title": "A how-to guide for Policy Labs",
+    "section": "",
+    "text": "The Policy Lab Guide is a work-in-progress project to guide researchers and practictioners in the development of Policy Labs for Agri-environmental Measures within the setting of Living Labs. The guide is designed to be a practical resource for those looking to co-design, test and evaluate policy interventions in collaboration with stakeholders, providing recommended methods for each step of the process.\nIt offers two ways in: a concept diagram that lays out the Policy Lab phases in a visual format, and a searchable methods library where every method can be filtered by phase, actor, effort, and skill level.\nThe guide is being developed collaboratively with colleagues at ZALF: Bettina Matzdorf, Joana Iwaniw, Ben Black, and Sebastian Rogga. But in the near future we hope to open the guide up for contributions from the wider community of researchers and practitioners working in the field of policy co-design and Living Labs especially within the IAT. Please get in touch if you would like to contribute or provide feedback on the guide"
+  },
+  {
+    "objectID": "projects/monkshilllabs.html#explore-the-handbook",
+    "href": "projects/monkshilllabs.html#explore-the-handbook",
+    "title": "MonksHillLab field ecophysiology handbook web version",
+    "section": "Explore the handbook",
+    "text": "Explore the handbook\n\n\nThe live handbook is available at monkshilllab-isolab.github.io/LCSfFE-handbook. It is a living document, and the MonksHillLab team welcomes contributions of improvements and new chapters — see the handbook’s contributing section, or contact the author (mathias.hoffmann@zalf.de).\nThe handbook is published under a CC-BY 4.0 licence and archived on Zenodo at DOI 10.5281/zenodo.15562591."
   }
 ]
