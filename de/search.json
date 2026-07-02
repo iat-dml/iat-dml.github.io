@@ -91,6 +91,48 @@
     "text": "Eine Option zum Abonnieren des Newsletters wird bald verfügbar sein!\n\n\n\n\n\n\n\n\nKeine Treffer"
   },
   {
+    "objectID": "projects/monkshilllabs.html",
+    "href": "projects/monkshilllabs.html",
+    "title": "MonksHillLab-Handbuch zur Feldökophysiologie – Webversion",
+    "section": "",
+    "text": "Die Initiative MonksHillLab – Teil der Arbeitsgruppe Ökophysiologie des Wasser- und Stoffkreislaufs am Leibniz-Zentrum für Agrarlandschaftsforschung (ZALF) – erstellt ein frei zugängliches Handbuch mit dem Titel Build-It-Yourself: Low-Cost Systems for Field Ecophysiology, das den Lesern eine Anleitung zum Bau und zur Kalibrierung kostengünstiger, selbstgebauter Sensorsysteme für die Umweltüberwachung bietet.\nDie DML-Gruppe hat gemeinsam mit dem MonksHillLab-Team daran gearbeitet, dieses Handbuch zugänglicher zu gestalten. Bislang lag es als PDF vor; wir haben dabei geholfen, eine Webversion zu erstellen, die mit Quarto erstellt und auf GitHub Pages gehostet wird. Diese bietet interaktive Funktionen (beispielsweise die Möglichkeit, Bilder zu vergrößern und Code-Blöcke zu kopieren) und macht das Handbuch für seine Zielgruppe – Forscher auf der ganzen Welt – attraktiver. Da es zudem als GitHub-Repository gehostet wird, eröffnet dies die Möglichkeit für Beiträge aus der Nutzergemeinschaft, wodurch das Handbuch im Laufe der Zeit wachsen und sich weiterentwickeln kann."
+  },
+  {
+    "objectID": "projects/monkshilllabs.html#entdecken-sie-das-handbuch",
+    "href": "projects/monkshilllabs.html#entdecken-sie-das-handbuch",
+    "title": "MonksHillLab-Handbuch zur Feldökophysiologie – Webversion",
+    "section": "Entdecken Sie das Handbuch",
+    "text": "Entdecken Sie das Handbuch\n\n\nDas Live-Handbuch ist unter monkshilllab-isolab.github.io/LCSfFE-handbook verfügbar. Es handelt sich um ein fortlaufend aktualisiertes Dokument, und das MonksHillLab-Team freut sich über Beiträge zur Verbesserung sowie über neue Kapitel – siehe den Abschnitt „Mitwirken“ im Handbuch oder wenden Sie sich an den Autor (mathias.hoffmann@zalf.de).\nDas Handbuch wird unter einer CC-BY 4.0-Lizenz veröffentlicht und auf Zenodo unter der DOI [10.5281/zenodo.15562591] (https://doi.org/10.5281/zenodo.15562591)."
+  },
+  {
+    "objectID": "projects/zalf-iat-templates.html",
+    "href": "projects/zalf-iat-templates.html",
+    "title": "IAT ZALF Templates",
+    "section": "",
+    "text": "Im Rahmen dieses Projekts wurde eine Sammlung wiederverwendbarer Dokument- und Präsentationsvorlagen für die IAT-Arbeitsgruppen erstellt, die sowohl technische Publikationspipelines (Erweiterungen für Quarto) als auch herkömmliche Office-Formate (PowerPoint) abdecken. Alle Vorlagen sind in einem öffentlichen GitHub-Repository unter https://github.com/iat-dml/templates verfügbar."
+  },
+  {
+    "objectID": "projects/zalf-iat-templates.html#quarto-erweiterungen",
+    "href": "projects/zalf-iat-templates.html#quarto-erweiterungen",
+    "title": "IAT ZALF Templates",
+    "section": "Quarto-Erweiterungen",
+    "text": "Quarto-Erweiterungen\nDie wichtigsten Ergebnisse sind vier Quarto-Erweiterungen, die direkt aus dem Repository installiert und in jedem Quarto-Projekt verwendet werden können. Sie sind in sich geschlossen – Logos, Farbpaletten und Schriftarten sind alle im Ordner _extensions/ enthalten, sodass Dokumente unabhängig von der lokalen Umgebung einheitlich dargestellt werden.\n\nInterne Dokumente der ZALF\nEine Erweiterung für Quarto Typst, die .qmd-Dateien als ZALF-PDF-Dokumente mit eigenem Branding rendert. Auf dem Deckblatt werden die Logos von ZALF und der Leibniz-Gemeinschaft oben bzw. unten platziert, während in der Mitte ein grauer Streifen den Dokumenttitel, das Datum und ein optionales Deckbild enthält. Die folgenden Seiten verwenden Laufkopfzeilen, formatierte H1–H4-Überschriften, farbige Aufzählungslisten und gestreifte Tabellen – allesamt in der offiziellen grünen ZALF-Farbpalette (#46A84F) gestaltet.\n\n\n\nTitelseite der ZALF-Vorlage für interne Dokumente\n\n\nquarto use template iat-dml/templates/zalf-internal-typst\n\n\nInterne Dokumente der IAT\nEine begleitende Typst-Erweiterung für interne PDF-Dokumente des IAT. Sie folgt demselben Layout für Deckblatt und Hauptteil wie die ZALF-Vorlage, verwendet jedoch die IAT-Markenpalette, das kombinierte ZALF/IAT-Logo sowie ein markenspezifisches Fußzeilenbanner mit den Logos von Partnern und Förderern.\n\n\n\nDeckblatt der Vorlage für interne IAT-Dokumente\n\n\nquarto use template iat-dml/templates/iat-internal-typst\n\n\nIAT-Präsentationen\nEine Quarto Revealjs-Erweiterung für IAT-HTML-Präsentationen mit Markenelementen. Die Titelfolie verfügt über ein tiefes, waldgrünes Hero-Panel mit weißen Überschriften und dem ZALF/IAT-Logo in der oberen rechten Ecke. Eine Fußzeile in voller Breite enthält die Logos der Partneruniversitäten und die Kennzeichen der Förderer, wodurch die Einhaltung der Anforderungen zur Danksagung bei Fördermitteln von Haus aus gewährleistet ist.\n\n\n\nTitelfolie der IAT-Revealjs-Präsentationsvorlage\n\n\nquarto use template iat-dml/templates/iat-revealjs\n\n\nDML-Präsentationen\nEine Revealjs-Erweiterung, die speziell für die Arbeitsgruppe „Data and Modelling Infrastructure“ (DML) gestaltet wurde. Das Design spiegelt die visuelle Identität von DML wider: „DM Serif Display“ für große Überschriften, „DM Sans“ für den Fließtext, einen warmen, cremefarbenen Papierhintergrund sowie eine dunkelblaugrüne Primärfarbe mit grünen und olivfarbenen Akzenten. In der unteren rechten Ecke jeder Inhaltsfolie erscheint ein dauerhaftes DML-Kreislogo, das bei PDF-Exporten automatisch ausgeblendet wird.\n\n\n\nTitelfolie der DML-Revealjs-Präsentationsvorlage\n\n\nquarto use template iat-dml/templates/dml-revealjs"
+  },
+  {
+    "objectID": "projects/zalf-iat-templates.html#powerpoint-vorlagen",
+    "href": "projects/zalf-iat-templates.html#powerpoint-vorlagen",
+    "title": "IAT ZALF Templates",
+    "section": "PowerPoint-Vorlagen",
+    "text": "PowerPoint-Vorlagen\nFür Nutzer, die traditionelle Präsentationssoftware bevorzugen, sind drei PowerPoint-Vorlagen mit Markenlogo enthalten:\n\nDML — dml-template-powerpoint.potx\nIAT — iat-template-powerpoint.pptx\nZALF — zalf-template-powerpoint-slides.pptx"
+  },
+  {
+    "objectID": "projects/zalf-iat-templates.html#tagesordnung-und-protokoll-der-sitzung",
+    "href": "projects/zalf-iat-templates.html#tagesordnung-und-protokoll-der-sitzung",
+    "title": "IAT ZALF Templates",
+    "section": "Tagesordnung und Protokoll der Sitzung",
+    "text": "Tagesordnung und Protokoll der Sitzung\nFür strukturierte, zweiwöchentliche Sitzungsprotokolle der Arbeitsgruppe „Service“ steht eine Markdown-Vorlage (agenda-minutes-template.md) zur Verfügung, die Informationen zu den aktuellen Entwicklungen in der Arbeitsgruppe, zu den aktuellen Entwicklungen in der Geschäftsleitung sowie zu den zu erledigenden Aufgaben enthält."
+  },
+  {
     "objectID": "team/Ben.html",
     "href": "team/Ben.html",
     "title": "Ben Black",
@@ -112,53 +154,18 @@
     "text": "Experience\nWengo Analytics | Head Data Scientist | April 2018 - present\nGeoScynce | Chief Analyst | Spet 2012 - April 2018 test"
   },
   {
-    "objectID": "LICENSE.html",
-    "href": "LICENSE.html",
-    "title": "LICENSE",
+    "objectID": "news/2026-03-fairagro-summit.html",
+    "href": "news/2026-03-fairagro-summit.html",
+    "title": "DML auf dem FAIRagro Community Summit",
     "section": "",
-    "text": "The ZALF Living Labs Infrastructure Community makes all of our materials publicly available under open source licenses.\nDocuments and data are made available under a CC-BY license. Software are made available under an MIT license.\nThe license text listed below (describing both CC-BY and MIT licenses as well as their usage in the ZALF Living Labs Infrastructure community) is re-used under a CC-BY license from The Carpentries community materials. (Specifically from the Reproducible Science Curriculum).\nYou can read more about licenses in the book itself.\n\n\nAll documentation and materials in this repository are made available under the Creative Commons Attribution license. The following is a human-readable summary of (and not a substitute for) the full legal text of the CC BY 4.0 license.\nYou are free:\n\nto Share—copy and redistribute the material in any medium or format\nto Adapt—remix, transform, and build upon the material\n\nfor any purpose, even commercially.\nThe licensor cannot revoke these freedoms as long as you follow the license terms.\nUnder the following terms:\n\nAttribution—You must give appropriate credit (mentioning that your work is derived from work that is Copyright © ZALF Living Labs Infrastructure community and, where practical, linking to https://github.com/iat-dml), provide a link to the license, and indicate if changes were made. You may do so in any reasonable manner, but not in any way that suggests the licensor endorses you or your use.\nNo additional restrictions—You may not apply legal terms or technological measures that legally restrict others from doing anything the license permits.\n\nWith the understanding that:\n\nYou do not have to comply with the license for elements of the material in the public domain or where your use is permitted by an applicable exception or limitation.\nNo warranties are given. The license may not give you all of the permissions necessary for your intended use. For example, other rights such as publicity, privacy, or moral rights may limit how you use the material.\n\n\n\n\nExcept where otherwise noted, the software and infrastructure provided by the The ZALF Living Labs Infrastructure Community are made available under the OSI-approved MIT license.\n\nPermission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the “Software”), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:\nThe above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.\nTHE SOFTWARE IS PROVIDED “AS IS”, WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE."
+    "text": "Im März reisten Mitglieder der DML-Arbeitsgruppe nach Frankfurt, um am FAIRagro Community Summit teilzunehmen. Die Veranstaltung brachte die FAIRagro-Community zusammen, um die Dienste und Werkzeuge vorzustellen, die das Konsortium entwickelt hat, um offene und FAIR-konforme Datenpraktiken in der Agrarforschung voranzutreiben.\nFAIRagro ist ein NFDI-Konsortium, das seit 2023 die Agrarsystemforschung in Deutschland vertritt. Mit mehr als 30 Partnern baut es eine FAIR-konforme (Findable, Accessible, Interoperable, Reusable) Infrastruktur für das Forschungsdatenmanagement auf und entwickelt die Tools und Arbeitsabläufe, die zur Unterstützung von Open Science und einer nachhaltigen Pflanzenproduktion erforderlich sind.\nDer Gipfel bot eine hervorragende Gelegenheit, Ideen auszutauschen, sich über aktuelle Entwicklungen zu informieren und Kontakte zu anderen zu knüpfen, die sich mit Herausforderungen im Bereich Forschungsdaten in der Landwirtschaft beschäftigen. Wir freuen uns auf die zukünftige Zusammenarbeit mit dem FAIRagro-Konsortium!"
   },
   {
-    "objectID": "LICENSE.html#process-documents-and-data",
-    "href": "LICENSE.html#process-documents-and-data",
-    "title": "LICENSE",
+    "objectID": "team.html",
+    "href": "team.html",
+    "title": "Personen",
     "section": "",
-    "text": "All documentation and materials in this repository are made available under the Creative Commons Attribution license. The following is a human-readable summary of (and not a substitute for) the full legal text of the CC BY 4.0 license.\nYou are free:\n\nto Share—copy and redistribute the material in any medium or format\nto Adapt—remix, transform, and build upon the material\n\nfor any purpose, even commercially.\nThe licensor cannot revoke these freedoms as long as you follow the license terms.\nUnder the following terms:\n\nAttribution—You must give appropriate credit (mentioning that your work is derived from work that is Copyright © ZALF Living Labs Infrastructure community and, where practical, linking to https://github.com/iat-dml), provide a link to the license, and indicate if changes were made. You may do so in any reasonable manner, but not in any way that suggests the licensor endorses you or your use.\nNo additional restrictions—You may not apply legal terms or technological measures that legally restrict others from doing anything the license permits.\n\nWith the understanding that:\n\nYou do not have to comply with the license for elements of the material in the public domain or where your use is permitted by an applicable exception or limitation.\nNo warranties are given. The license may not give you all of the permissions necessary for your intended use. For example, other rights such as publicity, privacy, or moral rights may limit how you use the material."
-  },
-  {
-    "objectID": "LICENSE.html#software",
-    "href": "LICENSE.html#software",
-    "title": "LICENSE",
-    "section": "",
-    "text": "Except where otherwise noted, the software and infrastructure provided by the The ZALF Living Labs Infrastructure Community are made available under the OSI-approved MIT license.\n\nPermission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the “Software”), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:\nThe above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.\nTHE SOFTWARE IS PROVIDED “AS IS”, WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE."
-  },
-  {
-    "objectID": "projects.html",
-    "href": "projects.html",
-    "title": "Projekte",
-    "section": "",
-    "text": "Keine Treffer"
-  },
-  {
-    "objectID": "services.html",
-    "href": "services.html",
-    "title": "Dienstleistungen",
-    "section": "",
-    "text": "Die Arbeitsgruppe bietet unterschiedliche Unterstützungsstufen an, abhängig vom Umfang der Anfrage, der erwarteten Zusammenarbeit und dem Aufwand für belastbare Ergebnisse."
-  },
-  {
-    "objectID": "services.html#unterstützungsmodell",
-    "href": "services.html#unterstützungsmodell",
-    "title": "Dienstleistungen",
-    "section": "",
-    "text": "Die Arbeitsgruppe bietet unterschiedliche Unterstützungsstufen an, abhängig vom Umfang der Anfrage, der erwarteten Zusammenarbeit und dem Aufwand für belastbare Ergebnisse."
-  },
-  {
-    "objectID": "charter.html",
-    "href": "charter.html",
-    "title": "Charta",
-    "section": "",
-    "text": "testing"
+    "text": "Klicken Sie auf das Profil jedes Teammitglieds, um weitere Informationen zu erhalten.\n\n\n\n\nKeine Treffer"
   },
   {
     "objectID": "resources.html",
@@ -189,11 +196,53 @@
     "text": "Quarto\n\nBeautiful slides with RevealJS and Quarto"
   },
   {
-    "objectID": "team.html",
-    "href": "team.html",
-    "title": "Personen",
+    "objectID": "charter.html",
+    "href": "charter.html",
+    "title": "Charta",
     "section": "",
-    "text": "Klicken Sie auf das Profil jedes Teammitglieds, um weitere Informationen zu erhalten.\n\n\n\n\nKeine Treffer"
+    "text": "testing"
+  },
+  {
+    "objectID": "services.html",
+    "href": "services.html",
+    "title": "Dienstleistungen",
+    "section": "",
+    "text": "Die Arbeitsgruppe bietet unterschiedliche Unterstützungsstufen an, abhängig vom Umfang der Anfrage, der erwarteten Zusammenarbeit und dem Aufwand für belastbare Ergebnisse."
+  },
+  {
+    "objectID": "services.html#unterstützungsmodell",
+    "href": "services.html#unterstützungsmodell",
+    "title": "Dienstleistungen",
+    "section": "",
+    "text": "Die Arbeitsgruppe bietet unterschiedliche Unterstützungsstufen an, abhängig vom Umfang der Anfrage, der erwarteten Zusammenarbeit und dem Aufwand für belastbare Ergebnisse."
+  },
+  {
+    "objectID": "projects.html",
+    "href": "projects.html",
+    "title": "Projekte",
+    "section": "",
+    "text": "Keine Treffer"
+  },
+  {
+    "objectID": "LICENSE.html",
+    "href": "LICENSE.html",
+    "title": "LICENSE",
+    "section": "",
+    "text": "The ZALF Living Labs Infrastructure Community makes all of our materials publicly available under open source licenses.\nDocuments and data are made available under a CC-BY license. Software are made available under an MIT license.\nThe license text listed below (describing both CC-BY and MIT licenses as well as their usage in the ZALF Living Labs Infrastructure community) is re-used under a CC-BY license from The Carpentries community materials. (Specifically from the Reproducible Science Curriculum).\nYou can read more about licenses in the book itself.\n\n\nAll documentation and materials in this repository are made available under the Creative Commons Attribution license. The following is a human-readable summary of (and not a substitute for) the full legal text of the CC BY 4.0 license.\nYou are free:\n\nto Share—copy and redistribute the material in any medium or format\nto Adapt—remix, transform, and build upon the material\n\nfor any purpose, even commercially.\nThe licensor cannot revoke these freedoms as long as you follow the license terms.\nUnder the following terms:\n\nAttribution—You must give appropriate credit (mentioning that your work is derived from work that is Copyright © ZALF Living Labs Infrastructure community and, where practical, linking to https://github.com/iat-dml), provide a link to the license, and indicate if changes were made. You may do so in any reasonable manner, but not in any way that suggests the licensor endorses you or your use.\nNo additional restrictions—You may not apply legal terms or technological measures that legally restrict others from doing anything the license permits.\n\nWith the understanding that:\n\nYou do not have to comply with the license for elements of the material in the public domain or where your use is permitted by an applicable exception or limitation.\nNo warranties are given. The license may not give you all of the permissions necessary for your intended use. For example, other rights such as publicity, privacy, or moral rights may limit how you use the material.\n\n\n\n\nExcept where otherwise noted, the software and infrastructure provided by the The ZALF Living Labs Infrastructure Community are made available under the OSI-approved MIT license.\n\nPermission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the “Software”), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:\nThe above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.\nTHE SOFTWARE IS PROVIDED “AS IS”, WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE."
+  },
+  {
+    "objectID": "LICENSE.html#process-documents-and-data",
+    "href": "LICENSE.html#process-documents-and-data",
+    "title": "LICENSE",
+    "section": "",
+    "text": "All documentation and materials in this repository are made available under the Creative Commons Attribution license. The following is a human-readable summary of (and not a substitute for) the full legal text of the CC BY 4.0 license.\nYou are free:\n\nto Share—copy and redistribute the material in any medium or format\nto Adapt—remix, transform, and build upon the material\n\nfor any purpose, even commercially.\nThe licensor cannot revoke these freedoms as long as you follow the license terms.\nUnder the following terms:\n\nAttribution—You must give appropriate credit (mentioning that your work is derived from work that is Copyright © ZALF Living Labs Infrastructure community and, where practical, linking to https://github.com/iat-dml), provide a link to the license, and indicate if changes were made. You may do so in any reasonable manner, but not in any way that suggests the licensor endorses you or your use.\nNo additional restrictions—You may not apply legal terms or technological measures that legally restrict others from doing anything the license permits.\n\nWith the understanding that:\n\nYou do not have to comply with the license for elements of the material in the public domain or where your use is permitted by an applicable exception or limitation.\nNo warranties are given. The license may not give you all of the permissions necessary for your intended use. For example, other rights such as publicity, privacy, or moral rights may limit how you use the material."
+  },
+  {
+    "objectID": "LICENSE.html#software",
+    "href": "LICENSE.html#software",
+    "title": "LICENSE",
+    "section": "",
+    "text": "Except where otherwise noted, the software and infrastructure provided by the The ZALF Living Labs Infrastructure Community are made available under the OSI-approved MIT license.\n\nPermission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the “Software”), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:\nThe above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.\nTHE SOFTWARE IS PROVIDED “AS IS”, WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE."
   },
   {
     "objectID": "team/DS.html",
@@ -208,6 +257,20 @@
     "title": "Research Software Engineer",
     "section": "",
     "text": "Wir werden bald einstellen"
+  },
+  {
+    "objectID": "projects/living-lab-dashboards.html",
+    "href": "projects/living-lab-dashboards.html",
+    "title": "Living Lab Explorer",
+    "section": "",
+    "text": "Der Living Lab Explorer ist ein noch in der Entwicklung befindliches Projekt, das auf den von den regionalen Netzwerkmanagern des IAT erstellten Factsheets aufbaut, um interaktive Dashboards zu erstellen, die es Praxispartnern und Forschern ermöglichen, sich ein Bild von den ökologischen und sozioökonomischen Bedingungen zu machen, die die fünf IAT-Living-Labs charakterisieren."
+  },
+  {
+    "objectID": "projects/policy-lab-guide.html",
+    "href": "projects/policy-lab-guide.html",
+    "title": "Ein Leitfaden für Policy Labs",
+    "section": "",
+    "text": "Die Policy Lab Guide ist ein noch in der Entwicklung befindliches Projekt, das Forschern und Praktikern als Leitfaden für die Entwicklung von Policy Labs für Agrarumweltmaßnahmen im Rahmen von Living Labs dienen soll. Der Leitfaden ist als praktische Ressource für diejenigen konzipiert, die politische Maßnahmen in Zusammenarbeit mit Interessengruppen gemeinsam gestalten, testen und bewerten möchten, und bietet empfohlene Methoden für jeden Schritt des Prozesses.\nEr bietet zwei Einstiegsmöglichkeiten: ein Konzeptdiagramm, das die Phasen des Policy Labs visuell darstellt, und eine durchsuchbare Methodenbibliothek, in der jede Methode nach Phase, Akteur, Aufwand und Kompetenzniveau gefiltert werden kann.\nDer Leitfaden wird gemeinsam mit Kollegen vom ZALF entwickelt: Bettina Matzdorf, Joana Iwaniw, Ben Black und Sebastian Rogga. In naher Zukunft hoffen wir jedoch, den Leitfaden für Beiträge der breiteren Gemeinschaft von Forschern und Praktikern zu öffnen, die im Bereich des Policy Co-Designs und der Living Labs tätig sind, insbesondere innerhalb des IAT. Bitte melden Sie sich bei uns, wenn Sie einen Beitrag leisten oder Feedback zum Leitfaden geben möchten"
   },
   {
     "objectID": "index.html",
@@ -228,6 +291,6 @@
     "href": "index.html#projects",
     "title": "Startseite",
     "section": "Projects",
-    "text": "Projects\n\n\n\n\nKeine Treffer\n\nAlle Projekte →"
+    "text": "Projects\n\n\n\n\n\n\n\n\n\n\nEin Leitfaden für Policy Labs\n\n\n\nguide\n\nmethods\n\nliving labs\n\ntransfer\n\nWIP\n\n\n\nEin interaktiver Leitfaden zur Entwicklung von „Policy Labs“ für Agrarumweltmaßnahmen im Rahmen von „Living Labs“.\n\n\n\n01.07.2026\n\n\n\n\n\n\nKeine Treffer\n\nAlle Projekte →"
   }
 ]

@@ -4,15 +4,17 @@
     "items": []
   },
   {
-    "listing": "/projects.html",
-    "items": []
-  },
-  {
     "listing": "/team.html",
     "items": []
   },
   {
-    "listing": "/index.html",
+    "listing": "/projects.html",
     "items": []
+  },
+  {
+    "listing": "/index.html",
+    "items": [
+      "/projects/policy-lab-guide.html"
+    ]
   }
 ]

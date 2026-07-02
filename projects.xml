@@ -10,9 +10,34 @@
 <atom:link href="https://iat-dml.github.io/projects.xml" rel="self" type="application/rss+xml"/>
 <description>This is the website of the Data and Modelling Infrastructure for Living Labs Working group (SWG) of the Innovation Center for Agricultural System Transformation (IAT) as part of the Leibniz Centre for Agricultural Landscape Research (ZALF).</description>
 <generator>quarto-1.9.38</generator>
-<lastBuildDate>Fri, 15 Nov 2024 00:00:00 GMT</lastBuildDate>
+<lastBuildDate>Wed, 01 Jul 2026 00:00:00 GMT</lastBuildDate>
 <item>
-  <title>MonksHillLabs Initiative</title>
+  <title>Living Lab Explorer</title>
+  <link>https://iat-dml.github.io/projects/living-lab-dashboards.html</link>
+  <description><![CDATA[ 
+
+
+
+
+
+<p>The <a href="https://iat-dml.github.io/living-lab-explorer/">Living Lab Explorer</a> is a work-in-progress project building upon factsheets prepared by the IAT Regional Network Managers to create interactive dashboards to allow practice partners and researchers to gain an understanding of the environmental and socio-economic conditions that characterise the five IAT Living Labs.</p>
+<iframe src="https://iat-dml.github.io/living-lab-explorer/" width="100%" height="600" style="border: none;">
+</iframe>
+
+
+
+ ]]></description>
+  <category>dashboard</category>
+  <category>visualization</category>
+  <category>living labs</category>
+  <category>transfer</category>
+  <category>WIP</category>
+  <guid>https://iat-dml.github.io/projects/living-lab-dashboards.html</guid>
+  <pubDate>Wed, 01 Jul 2026 00:00:00 GMT</pubDate>
+  <media:content url="https://iat-dml.github.io/assets/ll-explorer-screenshot.png" medium="image" type="image/png" height="74" width="144"/>
+</item>
+<item>
+  <title>MonksHillLab field ecophysiology handbook web version</title>
   <link>https://iat-dml.github.io/projects/monkshilllabs.html</link>
   <description><![CDATA[ 
 
@@ -20,18 +45,25 @@
 
 
 
-<p>MonksHillLabs is a collaborative research platform that provides shared computational infrastructure, data repositories, and development environments for landscape and land use modelling projects.</p>
-<p>The initiative brings together researchers, data scientists, and software developers to co-create tools, standards, and workflows that advance data interoperability and reproducible research in landscape science.</p>
-<p>Current activities include developing standardized data formats, building modular modelling components, and hosting hackathons and training workshops.</p>
+<p>The <strong>MonksHillLab</strong> initiative — part of the <a href="https://www.zalf.de/en/struktur/pb1/ibg/Pages/default.aspx">Working Group Ecophysiology of Water and Matter Cycling</a> at the <a href="https://www.zalf.de/en/Pages/ZALF.aspx">Leibniz Centre for Agricultural Landscape Research (ZALF)</a> — produces an open handbook, <a href="https://monkshilllab-isolab.github.io/LCSfFE-handbook/"><strong>Build-It-Yourself: Low-Cost Systems for Field Ecophysiology</strong></a>, which guides readers through building and calibrating low-cost, DIY sensor systems for environmental monitoring.</p>
+<p>The DML group worked with the MonksHillLab team to make this handbook more accessible. Previously it existed as a PDF; we helped create a web version built with <a href="https://quarto.org">Quarto</a> and hosted on GitHub Pages that adds interactivity (for example being able to expand images and copy code blocks) making it more engaging to its intended audience of researchers around the world. Also becaus eit is hosted as a GitHub repository this opens up the door for contributions from the user community, allowing the handbook to grow and evolve over time.</p>
+<section id="explore-the-handbook" class="level2">
+<h2 class="anchored" data-anchor-id="explore-the-handbook">Explore the handbook</h2>
+<iframe src="https://monkshilllab-isolab.github.io/LCSfFE-handbook/" width="100%" height="600" style="border: none;">
+</iframe>
+<p>The live handbook is available at <a href="https://monkshilllab-isolab.github.io/LCSfFE-handbook/">monkshilllab-isolab.github.io/LCSfFE-handbook</a>. It is a living document, and the MonksHillLab team welcomes contributions of improvements and new chapters — see the handbook’s contributing section, or contact the author (<a href="mailto:mathias.hoffmann@zalf.de">mathias.hoffmann@zalf.de</a>).</p>
+<p>The handbook is published under a <a href="https://github.com/zalf-lli/LCSfFE-handbook/blob/main/LICENSE.md">CC-BY 4.0 licence</a> and archived on Zenodo at DOI <a href="https://doi.org/10.5281/zenodo.15562591">10.5281/zenodo.15562591</a>.</p>
 
 
+</section>
 
  ]]></description>
-  <category>infrastructure</category>
   <category>collaboration</category>
   <category>research platform</category>
+  <category>WIP</category>
+  <category>transfer</category>
   <guid>https://iat-dml.github.io/projects/monkshilllabs.html</guid>
-  <pubDate>Fri, 15 Nov 2024 00:00:00 GMT</pubDate>
+  <pubDate>Wed, 03 Jun 2026 00:00:00 GMT</pubDate>
   <media:content url="https://iat-dml.github.io/assets/mhl-screenshot.png" medium="image" type="image/png" height="92" width="144"/>
 </item>
 <item>
