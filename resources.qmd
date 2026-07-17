@@ -1,6 +1,5 @@
 ---
-title: "Resources"
-title-de: "Ressourcen"
+title: "Resources and tools"
 ---
 
 This repo is intended to be a living document for SWG and IAT members to share useful information and resources related to Open Science, programming and Data Visualisation.
@@ -77,7 +76,7 @@ Some documents that provide guiding principles:
 -   [KI-campus](https://ki-campus.org/en/learning-opportunities/courses) - Numerous free courses on AI and related topics, including data science, machine learning, and ethical considerations in AI.
 -   [Liebniz Institute for the Social Sciences (GESIS)](https://www.gesis.org/en/gesis-training)
 ---
-title: "Resources"
+title: "Resources and tools"
 ---
 
 This repo is intended to be a living document for SWG and IAT members to share useful information and resources related to Open Science, programming and Data Visualisation.
@@ -115,6 +114,11 @@ What they forgot to teach you about R: https://rstats.wtf/
 ## Quarto
 
 -   [Beautiful slides with RevealJS and Quarto](https://slidecrafting-book.com/)
+
+## AI coding
+
+-   [Dictionary of AI coding](https://github.com/mattpocock/dictionary-of-ai-coding)
+
 
 ## Tools and Software
 
