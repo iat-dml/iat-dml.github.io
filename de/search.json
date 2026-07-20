@@ -84,18 +84,18 @@
     "text": "Living Lab Explorer\n\n\n\ndashboard\n\nvisualization\n\nliving labs\n\ntransfer\n\nWIP\n\n\n\nInteraktive Dashboards zur Auswertung von Umwelt- und sozioökonomischen Daten aus den fünf IAT-Living-Labs.\n\n\n\n01.07.2026\n\n\n\n\n\n\n\n\n\n\n\n\n\nEin Leitfaden für Policy Labs\n\n\n\nguide\n\nmethods\n\nliving labs\n\ntransfer\n\nWIP\n\n\n\nEin interaktiver Leitfaden zur Entwicklung von „Policy Labs“ für Agrarumweltmaßnahmen im Rahmen von „Living Labs“.\n\n\n\n01.07.2026\n\n\n\n\n\n\n\n\n\n\n\n\n\nMonksHillLab-Handbuch zur Feldökophysiologie – Webversion\n\n\n\ncollaboration\n\nresearch platform\n\nWIP\n\ntransfer\n\n\n\nDie DML-Gruppe trug dazu bei, die Reichweite des Handbuchs zur Feldökophysiologie von MonksHillLab zu vergrößern, indem sie es von einem PDF in eine interaktive Webressource…\n\n\n\n03.06.2026\n\n\n\n\n\n\n\n\n\n\n\n\n\nIAT ZALF Templates\n\n\n\ninfrastructure\n\ncollaboration\n\nresearch platform\n\n\n\nVorlagen zur Erstellung von Präsentationen und Dokumenten, die dem Corporate Design von IAT und ZALF entsprechen.\n\n\n\n15.11.2024\n\n\n\n\n\n\nKeine Treffer"
   },
   {
-    "objectID": "projects/monkshilllabs.html",
-    "href": "projects/monkshilllabs.html",
-    "title": "MonksHillLab-Handbuch zur Feldökophysiologie – Webversion",
+    "objectID": "projects/living-lab-dashboards.html",
+    "href": "projects/living-lab-dashboards.html",
+    "title": "Living Lab Explorer",
     "section": "",
-    "text": "Die Initiative MonksHillLab – Teil der Arbeitsgruppe Ökophysiologie des Wasser- und Stoffkreislaufs am Leibniz-Zentrum für Agrarlandschaftsforschung (ZALF) – erstellt ein frei zugängliches Handbuch mit dem Titel Build-It-Yourself: Low-Cost Systems for Field Ecophysiology, das den Lesern eine Anleitung zum Bau und zur Kalibrierung kostengünstiger, selbstgebauter Sensorsysteme für die Umweltüberwachung bietet.\nDie DML-Gruppe hat gemeinsam mit dem MonksHillLab-Team daran gearbeitet, dieses Handbuch zugänglicher zu gestalten. Bislang lag es als PDF vor; wir haben dabei geholfen, eine Webversion zu erstellen, die mit Quarto erstellt und auf GitHub Pages gehostet wird. Diese bietet interaktive Funktionen (beispielsweise die Möglichkeit, Bilder zu vergrößern und Code-Blöcke zu kopieren) und macht das Handbuch für seine Zielgruppe – Forscher auf der ganzen Welt – attraktiver. Da es zudem als GitHub-Repository gehostet wird, eröffnet dies die Möglichkeit für Beiträge aus der Nutzergemeinschaft, wodurch das Handbuch im Laufe der Zeit wachsen und sich weiterentwickeln kann."
+    "text": "Der Living Lab Explorer ist ein noch in der Entwicklung befindliches Projekt, das auf den von den regionalen Netzwerkmanagern des IAT erstellten Factsheets aufbaut, um interaktive Dashboards zu erstellen, die es Praxispartnern und Forschern ermöglichen, sich ein Bild von den ökologischen und sozioökonomischen Bedingungen zu machen, die die fünf IAT-Living-Labs charakterisieren."
   },
   {
-    "objectID": "projects/monkshilllabs.html#entdecken-sie-das-handbuch",
-    "href": "projects/monkshilllabs.html#entdecken-sie-das-handbuch",
-    "title": "MonksHillLab-Handbuch zur Feldökophysiologie – Webversion",
-    "section": "Entdecken Sie das Handbuch",
-    "text": "Entdecken Sie das Handbuch\n\n\nDas Live-Handbuch ist unter monkshilllab-isolab.github.io/LCSfFE-handbook verfügbar. Es handelt sich um ein fortlaufend aktualisiertes Dokument, und das MonksHillLab-Team freut sich über Beiträge zur Verbesserung sowie über neue Kapitel – siehe den Abschnitt „Mitwirken“ im Handbuch oder wenden Sie sich an den Autor (mathias.hoffmann@zalf.de).\nDas Handbuch wird unter einer CC-BY 4.0-Lizenz veröffentlicht und auf Zenodo unter der DOI [10.5281/zenodo.15562591] (https://doi.org/10.5281/zenodo.15562591)."
+    "objectID": "projects/policy-lab-guide.html",
+    "href": "projects/policy-lab-guide.html",
+    "title": "Ein Leitfaden für Policy Labs",
+    "section": "",
+    "text": "Die Policy Lab Guide ist ein noch in der Entwicklung befindliches Projekt, das Forschern und Praktikern als Leitfaden für die Entwicklung von Policy Labs für Agrarumweltmaßnahmen im Rahmen von Living Labs dienen soll. Der Leitfaden ist als praktische Ressource für diejenigen konzipiert, die politische Maßnahmen in Zusammenarbeit mit Interessengruppen gemeinsam gestalten, testen und bewerten möchten, und bietet empfohlene Methoden für jeden Schritt des Prozesses.\nEr bietet zwei Einstiegsmöglichkeiten: ein Konzeptdiagramm, das die Phasen des Policy Labs visuell darstellt, und eine durchsuchbare Methodenbibliothek, in der jede Methode nach Phase, Akteur, Aufwand und Kompetenzniveau gefiltert werden kann.\nDer Leitfaden wird gemeinsam mit Kollegen vom ZALF entwickelt: Bettina Matzdorf, Joana Iwaniw, Ben Black und Sebastian Rogga. In naher Zukunft hoffen wir jedoch, den Leitfaden für Beiträge der breiteren Gemeinschaft von Forschern und Praktikern zu öffnen, die im Bereich des Policy Co-Designs und der Living Labs tätig sind, insbesondere innerhalb des IAT. Bitte melden Sie sich bei uns, wenn Sie einen Beitrag leisten oder Feedback zum Leitfaden geben möchten"
   },
   {
     "objectID": "projects/zalf-iat-templates.html",
@@ -126,18 +126,18 @@
     "text": "Tagesordnung und Protokoll der Sitzung\nFür strukturierte, zweiwöchentliche Sitzungsprotokolle der Arbeitsgruppe „Service“ steht eine Markdown-Vorlage (agenda-minutes-template.md) zur Verfügung, die Informationen zu den aktuellen Entwicklungen in der Arbeitsgruppe, zu den aktuellen Entwicklungen in der Geschäftsleitung sowie zu den zu erledigenden Aufgaben enthält."
   },
   {
-    "objectID": "projects/policy-lab-guide.html",
-    "href": "projects/policy-lab-guide.html",
-    "title": "Ein Leitfaden für Policy Labs",
+    "objectID": "projects/monkshilllabs.html",
+    "href": "projects/monkshilllabs.html",
+    "title": "MonksHillLab-Handbuch zur Feldökophysiologie – Webversion",
     "section": "",
-    "text": "Die Policy Lab Guide ist ein noch in der Entwicklung befindliches Projekt, das Forschern und Praktikern als Leitfaden für die Entwicklung von Policy Labs für Agrarumweltmaßnahmen im Rahmen von Living Labs dienen soll. Der Leitfaden ist als praktische Ressource für diejenigen konzipiert, die politische Maßnahmen in Zusammenarbeit mit Interessengruppen gemeinsam gestalten, testen und bewerten möchten, und bietet empfohlene Methoden für jeden Schritt des Prozesses.\nEr bietet zwei Einstiegsmöglichkeiten: ein Konzeptdiagramm, das die Phasen des Policy Labs visuell darstellt, und eine durchsuchbare Methodenbibliothek, in der jede Methode nach Phase, Akteur, Aufwand und Kompetenzniveau gefiltert werden kann.\nDer Leitfaden wird gemeinsam mit Kollegen vom ZALF entwickelt: Bettina Matzdorf, Joana Iwaniw, Ben Black und Sebastian Rogga. In naher Zukunft hoffen wir jedoch, den Leitfaden für Beiträge der breiteren Gemeinschaft von Forschern und Praktikern zu öffnen, die im Bereich des Policy Co-Designs und der Living Labs tätig sind, insbesondere innerhalb des IAT. Bitte melden Sie sich bei uns, wenn Sie einen Beitrag leisten oder Feedback zum Leitfaden geben möchten"
+    "text": "Die Initiative MonksHillLab – Teil der Arbeitsgruppe Ökophysiologie des Wasser- und Stoffkreislaufs am Leibniz-Zentrum für Agrarlandschaftsforschung (ZALF) – erstellt ein frei zugängliches Handbuch mit dem Titel Build-It-Yourself: Low-Cost Systems for Field Ecophysiology, das den Lesern eine Anleitung zum Bau und zur Kalibrierung kostengünstiger, selbstgebauter Sensorsysteme für die Umweltüberwachung bietet.\nDie DML-Gruppe hat gemeinsam mit dem MonksHillLab-Team daran gearbeitet, dieses Handbuch zugänglicher zu gestalten. Bislang lag es als PDF vor; wir haben dabei geholfen, eine Webversion zu erstellen, die mit Quarto erstellt und auf GitHub Pages gehostet wird. Diese bietet interaktive Funktionen (beispielsweise die Möglichkeit, Bilder zu vergrößern und Code-Blöcke zu kopieren) und macht das Handbuch für seine Zielgruppe – Forscher auf der ganzen Welt – attraktiver. Da es zudem als GitHub-Repository gehostet wird, eröffnet dies die Möglichkeit für Beiträge aus der Nutzergemeinschaft, wodurch das Handbuch im Laufe der Zeit wachsen und sich weiterentwickeln kann."
   },
   {
-    "objectID": "projects/living-lab-dashboards.html",
-    "href": "projects/living-lab-dashboards.html",
-    "title": "Living Lab Explorer",
-    "section": "",
-    "text": "Der Living Lab Explorer ist ein noch in der Entwicklung befindliches Projekt, das auf den von den regionalen Netzwerkmanagern des IAT erstellten Factsheets aufbaut, um interaktive Dashboards zu erstellen, die es Praxispartnern und Forschern ermöglichen, sich ein Bild von den ökologischen und sozioökonomischen Bedingungen zu machen, die die fünf IAT-Living-Labs charakterisieren."
+    "objectID": "projects/monkshilllabs.html#entdecken-sie-das-handbuch",
+    "href": "projects/monkshilllabs.html#entdecken-sie-das-handbuch",
+    "title": "MonksHillLab-Handbuch zur Feldökophysiologie – Webversion",
+    "section": "Entdecken Sie das Handbuch",
+    "text": "Entdecken Sie das Handbuch\n\n\nDas Live-Handbuch ist unter monkshilllab-isolab.github.io/LCSfFE-handbook verfügbar. Es handelt sich um ein fortlaufend aktualisiertes Dokument, und das MonksHillLab-Team freut sich über Beiträge zur Verbesserung sowie über neue Kapitel – siehe den Abschnitt „Mitwirken“ im Handbuch oder wenden Sie sich an den Autor (mathias.hoffmann@zalf.de).\nDas Handbuch wird unter einer CC-BY 4.0-Lizenz veröffentlicht und auf Zenodo unter der DOI [10.5281/zenodo.15562591] (https://doi.org/10.5281/zenodo.15562591)."
   },
   {
     "objectID": "charter.html",
