@@ -231,6 +231,27 @@
     "text": "The Living Lab Explorer is a work-in-progress project building upon factsheets prepared by the IAT Regional Network Managers to create interactive dashboards to allow practice partners and researchers to gain an understanding of the environmental and socio-economic conditions that characterise the five IAT Living Labs."
   },
   {
+    "objectID": "contact-form.html",
+    "href": "contact-form.html",
+    "title": "Request Support",
+    "section": "",
+    "text": "Use the form below to send us a request — no account of any kind is required."
+  },
+  {
+    "objectID": "contact-form.html#prefer-email",
+    "href": "contact-form.html#prefer-email",
+    "title": "Request Support",
+    "section": "Prefer email?",
+    "text": "Prefer email?\nWrite to us at iat-dml@zalf.de with a short description of your request — it is logged automatically in our tracking system and we will get back to you."
+  },
+  {
+    "objectID": "contact-form.html#already-have-a-github-account",
+    "href": "contact-form.html#already-have-a-github-account",
+    "title": "Request Support",
+    "section": "Already have a GitHub account?",
+    "text": "Already have a GitHub account?\nYou can open a request directly in our service desk."
+  },
+  {
     "objectID": "projects.html",
     "href": "projects.html",
     "title": "Projects",

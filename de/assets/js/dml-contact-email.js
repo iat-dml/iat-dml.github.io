@@ -7,7 +7,7 @@
   // The questions mirror the mandatory "Basic Information" fields of the
   // service-request issue template, so requests arrive with the same details
   // we capture when logging them as GitHub issues.
-  const RECIPIENT = "benjaminsamuel.black@zalf.de";
+  const RECIPIENT = "iat-dml@zalf.de";
 
   const TEMPLATE = {
     en: {
