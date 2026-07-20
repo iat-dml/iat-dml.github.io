@@ -27,7 +27,7 @@ listing:
 
 # Daten- und Modellierungsinfrastruktur für Living Labs
 
-[Diskutieren Sie Ihr Projekt mit uns](mailto:benjaminsamuel.black@zalf.de){.btn-brand .dml-contact}
+[Diskutieren Sie Ihr Projekt mit uns](contact-form.qmd){.btn-brand}
 :::
 
 Willkommen auf der Website der Arbeitsgruppe Daten- und Modellierungsinfrastruktur für Living Labs (DML). Wir sind eine Service-Arbeitsgruppe innerhalb des [Innovationszentrums für Agrarsystemtransformation (IAT)](https://www.zalf.de/de/struktur/iat/Seiten/default.aspx) am [Leibniz-Zentrum für Agrarlandschaftsforschung (ZALF)](https://www.zalf.de/de/Seiten/ZALF.aspx). Unsere Mission ist es, Forschende und Partner innerhalb des IAT in allen Belangen rund um Daten und Modellierung zu unterstützen. Die verschiedenen Möglichkeiten, wie wir dies tun, haben wir in der Grafik unten dargestellt:
@@ -46,7 +46,7 @@ Willkommen auf der Website der Arbeitsgruppe Daten- und Modellierungsinfrastrukt
 ```
 
 ::: {style="text-align: center"}
-[Diskutieren Sie Ihr Projekt mit uns](mailto:benjaminsamuel.black@zalf.de){.btn-brand .dml-contact}
+[Diskutieren Sie Ihr Projekt mit uns](contact-form.qmd){.btn-brand}
 :::
 
 ::: {.button-row}

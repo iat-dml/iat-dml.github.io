@@ -28,7 +28,7 @@ listing:
 
 # Data and Modelling Infrastructure for Living Labs
 
-[Discuss your project with us](mailto:benjaminsamuel.black@zalf.de){.btn-brand .dml-contact}
+[Discuss your project with us](contact-form.qmd){.btn-brand}
 :::
 
 Welcome to the website of the Data and Modelling Infrastructure for Living Labs (DML) Working Group. We are a service working group within the [Innovation Center for Agricultural System Transformation (IAT)](https://www.zalf.de/de/struktur/iat/Seiten/default.aspx) as part of the [Leibniz Centre for Agricultural Landscape Research (ZALF)](https://www.zalf.de/en/Pages/ZALF.aspx). Our mission is to support researchers and partners within the IAT with all things related to data and modelling. We have represented our three-pillared approach to this in the graphic below:
@@ -47,7 +47,7 @@ Welcome to the website of the Data and Modelling Infrastructure for Living Labs 
 ```
 
 ::: {style="text-align: center"}
-[Discuss your project with us](mailto:benjaminsamuel.black@zalf.de){.btn-brand .dml-contact}
+[Discuss your project with us](contact-form.qmd){.btn-brand}
 :::
 
 ::: {.button-row}
