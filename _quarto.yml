@@ -33,7 +33,7 @@ website:
         href: https://github.com/iat-dml
       - icon: envelope
         aria-label: email
-        href: "mailto:benjaminsamuel.black@zalf.de"
+        href: "mailto:iat-dml@zalf.de"
 
 format:
   html:

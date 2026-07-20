@@ -2,4 +2,31 @@
 title: "Request Support"
 ---
 
+Use the form below to send us a request — no account of any kind is required.
+
+::: {.callout-note title="How your data is handled" collapse="true"}
+The information you submit (name, affiliation, contact email, and your request description)
+is used solely to process your service request. It is received in the Microsoft 365
+environment of ZALF and automatically transferred to a work-tracking "issue" in our GitHub
+repository (GitHub, Inc., USA), where our team manages requests. It is deleted when no
+longer required. **Please do not include sensitive personal data** (e.g. health data) or
+confidential research data — we will ask for further details through an appropriate channel
+once we are in contact.
+:::
+
 <iframe src="https://forms.office.com/Pages/ResponsePage.aspx?id=Zo0M4kenHkul2ga1P95PoHFKJd1yMPxBpP7fDZSCehNUOFhRWTJBMEo1QVRNN1dKT1lZUjRJOUJRRi4u&embed=true" frameborder="0" marginwidth="0" marginheight="0" style="border: none; width: 100%; height: 80vh; min-height: 480px;" allowfullscreen webkitallowfullscreen mozallowfullscreen msallowfullscreen> </iframe>
+
+::: {.column-margin}
+**Form not loading?**
+[Open it in a new tab](https://forms.office.com/Pages/ResponsePage.aspx?id=Zo0M4kenHkul2ga1P95PoHFKJd1yMPxBpP7fDZSCehNUOFhRWTJBMEo1QVRNN1dKT1lZUjRJOUJRRi4u){target="_blank"}
+:::
+
+## Prefer email?
+
+Write to us at [iat-dml@zalf.de](mailto:iat-dml@zalf.de){.dml-contact} with a short description of your request —
+it is logged automatically in our tracking system and we will get back to you.
+
+## Already have a GitHub account?
+
+You can open a request directly in our
+[service desk](https://github.com/iat-dml/service-desk/issues/new/choose).
