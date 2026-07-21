@@ -301,11 +301,11 @@
     "text": "Data visualisation\n\nFundamentals of Data Visualization\nOpen Visualisation Academy"
   },
   {
-    "objectID": "resources.html#r-and-python-programming",
-    "href": "resources.html#r-and-python-programming",
+    "objectID": "resources.html#r",
+    "href": "resources.html#r",
     "title": "Resources and tools",
-    "section": "R and Python programming",
-    "text": "R and Python programming\n\nWhat they forgot to teach you about R\nPython for Data Analysis"
+    "section": "R",
+    "text": "R\n\nWhat they forgot to teach you about R"
   },
   {
     "objectID": "resources.html#quarto",
@@ -315,60 +315,25 @@
     "text": "Quarto\n\nBeautiful slides with RevealJS and Quarto"
   },
   {
+    "objectID": "resources.html#generative-ai",
+    "href": "resources.html#generative-ai",
+    "title": "Resources and tools",
+    "section": "Generative AI",
+    "text": "Generative AI\n\nDictionary of AI coding\ngettingstuffdoneai - Directory of Generative AI Tools and Models, categorized by use case and functionality.\nKI-campus - Numerous free courses on AI and related topics, including data science, machine learning, and ethical considerations in AI."
+  },
+  {
     "objectID": "resources.html#tools-and-software",
     "href": "resources.html#tools-and-software",
     "title": "Resources and tools",
     "section": "Tools and Software",
-    "text": "Tools and Software\n\nEU alternatives for software - A directory of software alternatives to popular proprietary software, with a focus on European users and organizations.\ngettingstuffdoneai - Directory of Generative AI Tools and Models, categorized by use case and functionality.\nInkscape - Open source vector graphics editor, alternative to Adobe products, useful for creating and editing figures for publications and presentations. Available via the ZALF baramundi client.\nSoRA Geolinking service for social science data\nHYperverse R package for interactive apps as an alternative to shiny"
+    "text": "Tools and Software\n\nAcademic Cloud\nTIB AIsstant\nORKG Ask: Open Source scholarly search and exploration system powered by Vector Search, Large Language Models and Knowledge Graphs\nRspace: Interoperable research tools across domains, facilitating machine actionable passage of data and metadata through all stages of the research lifecycleinteroperable research tools across domains, facilitating machine actionable passage of data and metadata through all stages of the research lifecycle\nEU alternatives for software - A directory of software alternatives to popular proprietary software, with a focus on European users and organizations.\nInkscape - Open source vector graphics editor, alternative to Adobe products, useful for creating and editing figures for publications and presentations. Available via the ZALF baramundi client.\nSoRA Geolinking service for social science data"
   },
   {
     "objectID": "resources.html#training",
     "href": "resources.html#training",
     "title": "Resources and tools",
     "section": "Training",
-    "text": "Training\n\nDigital Research Academy - a trainer network focused on Open Science, Data Literacy, and Research Software Engineering (DRA’s Zenodo collection).\nBERD academy\nBERD reproducible research course\nNFDI4Earth - Educational Portal\nAssured Training -Ensures the safe, legal, and ethical use of sensitive data through targeted training and certification.\nKI-campus - Numerous free courses on AI and related topics, including data science, machine learning, and ethical considerations in AI.\nLiebniz Institute for the Social Sciences (GESIS)\ntitle: “Resources and tools”\n\nThis repo is intended to be a living document for SWG and IAT members to share useful information and resources related to Open Science, programming and Data Visualisation.\nSome documents that provide guiding principles:\n\nHandling Research Data at ZALF Guidelinbes\nZALF open access policy\nBonaRes Data Policy\nPrevious ZALF evaluations\nZALF organisational policy\nDFG research ethics\nLiebniz center Good Scientific Practice\n\nCheck out the Open Science Awesome List\n\nThe Turing Way’s Guide to Planning a Community - A guide to planning and building a community around open science, including tips on communication, governance, and sustainability."
-  },
-  {
-    "objectID": "resources.html#data-visualisation-1",
-    "href": "resources.html#data-visualisation-1",
-    "title": "Resources and tools",
-    "section": "Data visualisation",
-    "text": "Data visualisation\n\nFundamentals of Data Visualization\nOpen Visualisation Academy"
-  },
-  {
-    "objectID": "resources.html#r",
-    "href": "resources.html#r",
-    "title": "Resources and tools",
-    "section": "R",
-    "text": "R\nWhat they forgot to teach you about R: https://rstats.wtf/"
-  },
-  {
-    "objectID": "resources.html#quarto-1",
-    "href": "resources.html#quarto-1",
-    "title": "Resources and tools",
-    "section": "Quarto",
-    "text": "Quarto\n\nBeautiful slides with RevealJS and Quarto"
-  },
-  {
-    "objectID": "resources.html#ai-coding",
-    "href": "resources.html#ai-coding",
-    "title": "Resources and tools",
-    "section": "AI coding",
-    "text": "AI coding\n\nDictionary of AI coding"
-  },
-  {
-    "objectID": "resources.html#tools-and-software-1",
-    "href": "resources.html#tools-and-software-1",
-    "title": "Resources and tools",
-    "section": "Tools and Software",
-    "text": "Tools and Software\n\nAcademic Cloud\nTIB AIsstant\nORKG Ask: Open Source scholarly search and exploration system powered by Vector Search, Large Language Models and Knowledge Graphs\nRspace: Interoperable research tools across domains, facilitating machine actionable passage of data and metadata through all stages of the research lifecycleinteroperable research tools across domains, facilitating machine actionable passage of data and metadata through all stages of the research lifecycle\nEU alternatives for software - A directory of software alternatives to popular proprietary software, with a focus on European users and organizations.\ngettingstuffdoneai - Directory of Generative AI Tools and Models, categorized by use case and functionality.\nInkscape - Open source vector graphics editor, alternative to Adobe products, useful for creating and editing figures for publications and presentations. Available via the ZALF baramundi client.\nSoRA Geolinking service for social science data"
-  },
-  {
-    "objectID": "resources.html#training-1",
-    "href": "resources.html#training-1",
-    "title": "Resources and tools",
-    "section": "Training",
-    "text": "Training\n\nDigital Research Academy - a trainer network focused on Open Science, Data Literacy, and Research Software Engineering (DRA’s Zenodo collection).\nBERD academy\nBERD reproducible research course\nNFDI4Earth - Educational Portal\nAssured Training -Ensures the safe, legal, and ethical use of sensitive data through targeted training and certification.\nKI-campus - Numerous free courses on AI and related topics, including data science, machine learning, and ethical considerations in AI.\nLiebniz Institute for the Social Sciences (GESIS)"
+    "text": "Training\n\nDigital Research Academy - a trainer network focused on Open Science, Data Literacy, and Research Software Engineering (DRA’s [Zenodo collection] (https://zenodo.org/communities/digiresacademy/records?q=&l=list&p=1&s=10&sort=newest)).\nBERD academy\nBERD reproducible research course\nNFDI4Earth - Educational Portal\nAssured Training -Ensures the safe, legal, and ethical use of sensitive data through targeted training and certification.\nLiebniz Institute for the Social Sciences (GESIS)"
   },
   {
     "objectID": "code-of-conduct.html",
