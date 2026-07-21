@@ -133,14 +133,14 @@ jobs:
 
           copy_file source/references.bib references.bib
 
-          copy_file source/charter/charter.qmd charter.qmd
-          copy_file source/charter/charter.de.qmd charter.de.qmd
-
           copy_file source/code-of-conduct/code-of-conduct.qmd code-of-conduct.qmd
           copy_file source/code-of-conduct/code-of-conduct.de.qmd code-of-conduct.de.qmd
 
           copy_file source/resources/resources.qmd resources.qmd
           copy_file source/resources/resources.de.qmd resources.de.qmd
+
+          copy_file source/team_manual/team-manual.qmd team_manual.qmd
+          copy_file source/team_manual/team-manual.de.qmd team_manual.de.qmd
 
           if [[ "$missing" -ne 0 ]]; then
             echo "One or more expected source files were missing."
