@@ -23,10 +23,10 @@ website:
       - href: projects.qmd
       - href: news.qmd
       - href: resources.qmd
-      - menu:
-              - href: code-of-conduct.qmd
-              - href: charter.qmd
-        text: "About"
+      # - menu:
+      #         - href: code-of-conduct.qmd
+      #         - href: charter.qmd
+      #   text: "About"
       - href: contact-form.qmd
       - icon: github
         aria-label: GitHub
