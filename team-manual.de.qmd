@@ -1,0 +1,131 @@
+# Data and Modelling Infrastructure Team Manual
+
+This manual serves as a living document to inform how we in the Data and Modelling Infrastructure (DML) Service Working Group (SWG) work, communicate, and share information. It is intended to be a resource for both current and future members of the SWG. The manual will be updated regularly to reflect changes in our processes and practices, and we welcome contributions from all members of the SWG to ensure that it remains relevant and useful.
+
+We strive to adapt approaches from agile project management, modern software development and Open Science to the context of providing support to researchers. Our aim is to use what works without adopting everything or being too rigid. For example, using Github will be a cornerstone of how we work, in terms of developing and managing the deliverables for our service requests. At the same time for many of our users we may need to provide them with the deliverables via a different means (e.g. file sharing) to meet their level of technical expertise.
+
+The major sections below cover:
+
+- [How we create a respectful work environment](#sec-conduct)
+
+- [How we organise our work](#sec-how_we_organise)
+
+- [How we provide our services](#sec-how_services)
+
+- [How we communicate and stay informed](#sec-how_communicate)
+
+- [How we share documents and data](#sec-how_share_documents)
+
+We use a tiered system for support, where we provide different levels of support based on the needs and preferences of our users. For example, for some users we may provide more hands-on support, while for others we may provide more self-service resources and documentation. We will also be flexible in our communication channels, using a combination of Github issues and Microsoft Teams Channels to communicate with our users and other IAT core groups (e.g. The IAT Coordination Team and Regional Network Managers).
+
+## How we create a respectful work environment {#sec-conduct}
+
+We are committed to creating a respectful and inclusive work environment for all members of the SWG. We will treat each other with respect and kindness, and we will strive to create a culture of openness and collaboration. To this end we have developed a [code of conduct](../code-of-conduct/code-of-conduct.qmd) that outlines our expectations for behaviour and communication both within the SWG and when interacting with service users. Like this team manual, the code of conduct is a living document that we will update as needed to ensure that it remains relevant and effective. We will also make sure that all members of the SWG are familiar with the code of conduct and that they understand their responsibilities in creating a positive and respectful work environment.
+
+We will also be mindful of our language and communication style, and we will avoid using language that is offensive or exclusionary.
+
+## How we organise our work {#sec-how_we_organise}
+
+### Github as the foundation {#sec-github_as_foundation}
+
+We will use Github for project and knowledge management building upon the techniques proposed by the Open Science initiaitatives such as the Turing Way \[**CITATION**\] and the Openscapes project [@openscapescoreteam2024], such as using issues and [GitHubs Projects](https://docs.github.com/en/issues/planning-and-tracking-with-projects/learning-about-projects/about-projects) functionality for project management and communication, a wiki for building persistent knowledge, and using dedicated repositories for documentation and deliverables. This is to ensure that all our work is transparent and accessible to all members of the SWG, and to make it easier to track progress on our projects and service requests.
+
+### Markdown for documentation {#sec-documentation}
+
+For all documentation use Quarto (.qmd) files with the Github Flavoured Markdown (gfm) format option in the yaml
+
+### Good Github hygiene {#sec-github_hygiene}
+
+- Start all new repositories as `private` and migrate to `public` later where possible (e.g. for approved service request products).
+
+- Use [kebab-case](https://amydegregorio.com/2020/10/25/programming-case-types/) for repository names and file names (e.g. `service-desk` or `knowledge-management`). With full capitalization for acronyms (e.g. `DML-website`).
+
+- Use our custom issue labels: **TODO list them**
+
+- Put a `README.md` in each repository to provide project level documentation as normal. For non-conventional repositories such as knowledge-mangement and templates include a `README.md` in each major directory within them containing a one sentence description both English and German (Deepl'd) of the purpose of the directory.
+
+- Within issues, we encourage including `perma-links` to files or specific chunks in other repos in the issues to make it easier for others to find the relevant information (in the respective files click the '`...`' icon and '`copy perma link`').
+
+### Our key repositories
+
+The image below gives an overview of our key repos and how thez are connected with each explained in more detail below.
+
+# TODO: Create an excalidrawn diagram to show the repo structure and connections between them.
+
+![](../assets/repo-structure.png)
+
+#### Service-desk for tracking service requests
+
+The service-desk repo is for tracking incoming and on-going service activities and requests. Each service request is logged as a GitHub issue using a standardised issue template to capture key details about the request and to track progress on it. This is to ensure that all service activities are tracked and managed effectively and that we can easily report on our activities to the IAT and other stakeholders.
+
+The general process of receiving and engaging in service requests will be covered in more detail in @sec-how_services, but here we cover the technical aspect of how we use the service-desk repo to manage our service requests.
+
+##### How requests reach the repo
+
+Whatever route a request takes, it ends up as a GitHub issue in the [service-desk repo](https://github.com/iat-dml/service-desk). There are three intake channels:
+
+1.  **Contact form (no GitHub account needed).** Requesters fill in the **DML service request** [Microsoft Form](https://forms.office.com/Pages/ResponsePage.aspx?id=Zo0M4kenHkul2ga1P95PoHFKJd1yMPxBpP7fDZSCehNUOFhRWTJBMEo1QVRNN1dKT1lZUjRJOUJRRi4u), which we **embed directly on the DML website** so most requesters never touch GitHub. The form captures only the *Basic Information* of the template (requester details, service type, short description, rough timeline). A [Power Automate](https://github.com/iat-dml/service-desk/blob/main/docs/POWER-AUTOMATE-SETUP.md) flow then creates a structured issue automatically and applies the matching service-type label(s).
+2.  **Email (no GitHub account needed).** Requesters write to the DML shared mailbox. A second Power Automate flow converts each message into an issue labelled `needs-triage`, which we then structure into the template during triage.
+3.  **GitHub issue form.** Requesters (or SWG members logging a request on someone's behalf) with a GitHub account can open an issue directly using the [**DML service request form**](https://github.com/iat-dml/service-desk/blob/main/.github/ISSUE_TEMPLATE/dml-service-request.yml).
+
+In every case only the *Basic Information* is needed up front. The *Detailed Information* section (request repo, detailed description, data and tooling, support tier, timeline) is filled in later, once the request has been discussed internally and/or with the requester and is actively being worked on. This lets us log incoming requests quickly and then follow up to get more details and set expectations. The issue then serves as a living document for the request. See the [service-desk README](https://github.com/iat-dml/service-desk/blob/main/README.md) for a full overview of the workflow and what the template captures, and the [Power Automate setup guide](https://github.com/iat-dml/service-desk/blob/main/docs/POWER-AUTOMATE-SETUP.md) for how the intake automation is built.
+
+Both automation flows post a notification to the **service-requests** channel in the **IAT-DML** Team in Microsoft Teams: a success message linking the newly created issue, or a failure warning if a flow errors (so a silently lost request gets noticed quickly).
+
+##### Once an issue exists
+
+1.  Assign the issue to the relevant member/s of the DML team, based on their expertise and availability.
+2.  Add our custom labels to the issue to categorize the requests and make it easier to find relevant information. We use labels to indicate the type of service request (e.g. support, integration, or transfer), the support tier (e.g. high, medium, low), and the status (e.g. backlog, in progress, done). Form submissions already arrive with their service-type label(s) applied; add the remaining labels during triage.
+
+Importantly, the issues can and should be updated over time, we wil be flexible as to whether we always add new information by ediitng the original issue or by adding comments or sub issues. But the key point is that the issue should be a living document that captures the progress and details of the request from reception to completion and we will use a [custom AI agent skill](https://github.com/iat-dml/dml-content-publisher) to automate the writing of [blog style pages for each project](https://github.com/iat-dml/DML.github.io/tree/main/projects) for the DML website based on the information in the issue.
+
+#### Knowledge-management for documentation
+
+#### Project-management for tracking projects and deliverables
+
+#### Wiki for general information
+
+#### Training for our educational materials
+
+#### iat-dml.github.io our website
+
+### Automations and AI agents + skills
+
+TODO document dml-content-publisher and the other automations and AI agents + skills we are developing to support our work.
+
+## How we provide our services {#sec-how_services}
+
+- Ideally requests should be made via the contact form/email address provided on the DML webpages, in this case we will use an automation to convert them into issues. However, it should be requests will also happen informally via general emails or direct discussions with members of the SWG, in this case it is the responsibility of the SWG member to create an issue in the service-desk repo
+
+- First meeting to discuss the request. Getting details, understanding needs and setting expectations.
+
+- Possibly develop a tiered system for support, maybe only to be used internally to describe the level of effort/engagement/priority. Higher effort requests would perhaps require some kind of reciprocal benefits i.e. support for personnel from the requesting group, or co-authorship on a deliverable, etc.
+
+- When creating a repo for the request, set the custom repository property `service-repo` to `true`. Custom properties are set in the repository settings on GitHub (Settings → Custom properties) and allow us to filter and identify all service-related repos across the organisation. In the README of the new repo, include a one-sentence description of the purpose of the repo and a link back to the corresponding issue in the service-desk repo (e.g. `https://github.com/iat-dml/service-desk/issues/<issue-number>`). This connects the working repo to the intake record so that anyone can trace the request back to its original context.
+
+## How we communicate and stay informed {#sec-how_communicate}
+
+### Internal channels of communication
+
+TODO: add details of MS teams set-up including the IAT-Core, IAT-All and IAT-DML teams and channels.
+
+We will use Github issues as a communication channel for the SWG. This is to ensure that all communication is transparent and accessible to all members of the SWG. We will use issues to discuss and track progress on tasks, share updates, and ask questions. We will also use labels to categorize issues and make it easier to find relevant information.
+
+### External channels of communication
+
+- DML website
+- ZALF Intranet
+- ZALF website
+- Zukunft Land
+- LinkedIn
+
+## Document templates
+
+We have a dedicated repository for document templates 'templates' where we will store templates for different types of documents including PDfs, presentations, and reports. This is to ensure consistency in the format and style of our documents and to make it easier for members to create new documents.
+
+## How we share documents and data {#sec-how_share_documents}
+
+## Sharing documents
+
+- For sharing ZALF internal documents on github use Sharepoint links
+- For collaboration with other SWGs, Admin and Coordination in the IAT we should use Sharepoint and/or Teams channels.
