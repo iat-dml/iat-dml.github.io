@@ -1,13 +1,13 @@
 <!DOCTYPE html>
-<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="de" xml:lang="de">
 <head>
-<link rel="alternate" hreflang="en" href="https://iat-dml.github.io/index.html" />
-<link rel="alternate" hreflang="de" href="https://iat-dml.github.io/de/index.de.html" />
+<link rel="alternate" hreflang="en" href="https://iat-dml.github.io/team-manual.html" />
+<link rel="alternate" hreflang="de" href="https://iat-dml.github.io/de/team-manual.de.html" />
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 <meta charset="utf-8">
 <meta name="generator" content="quarto-1.9.38">
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
-<title>Home – Data and Modelling Infrastructure for Living Labs</title>
+<title>team-manual – Arbeitsgruppe „Daten- und Modellierungsinfrastruktur für Living Labs“</title>
 <style>
 /* Default styles provided by pandoc.
 ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
@@ -26,7 +26,7 @@ ul.task-list li input[type="checkbox"] {
 </style>
 <script src="site_libs/quarto-nav/quarto-nav.js"></script><script src="site_libs/quarto-nav/headroom.min.js"></script><script src="site_libs/clipboard/clipboard.min.js"></script><script src="site_libs/quarto-search/autocomplete.umd.js"></script><script src="site_libs/quarto-search/fuse.min.js"></script><script src="site_libs/quarto-search/quarto-search.js"></script><meta name="quarto:offset" content="./">
 <link href="./assets/logos/dml-strata-deep-favicon.svg" rel="icon" type="image/svg+xml">
-<script src="site_libs/quarto-listing/list.min.js"></script><script src="site_libs/quarto-listing/quarto-listing.js"></script><script src="site_libs/quarto-html/quarto.js" type="module"></script><script src="site_libs/quarto-html/tabsets/tabsets.js" type="module"></script><script src="site_libs/quarto-html/popper.min.js"></script><script src="site_libs/quarto-html/tippy.umd.min.js"></script><script src="site_libs/quarto-html/anchor.min.js"></script><link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
+<script src="site_libs/quarto-html/quarto.js" type="module"></script><script src="site_libs/quarto-html/tabsets/tabsets.js" type="module"></script><script src="site_libs/quarto-html/popper.min.js"></script><script src="site_libs/quarto-html/tippy.umd.min.js"></script><script src="site_libs/quarto-html/anchor.min.js"></script><link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
 <link href="site_libs/quarto-html/quarto-syntax-highlighting-39fb3206596ee4304180fa035abe23e7.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
 <link href="site_libs/quarto-html/quarto-syntax-highlighting-dark-bb20777aadb173f8ee9278a8c4f583e9.css" rel="stylesheet" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
 <link href="site_libs/quarto-html/quarto-syntax-highlighting-39fb3206596ee4304180fa035abe23e7.css" rel="stylesheet" class="quarto-color-scheme-extra" id="quarto-text-highlighting-styles">
@@ -36,6 +36,8 @@ ul.task-list li input[type="checkbox"] {
 <link href="site_libs/bootstrap/bootstrap-b06064ebf7489427bd715af44fe64b12.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
 <link href="site_libs/quarto-contrib/fontawesome6-0.1.0/all.css" rel="stylesheet">
 <link href="site_libs/quarto-contrib/fontawesome6-0.1.0/latex-fontsize.css" rel="stylesheet">
+<script src="site_libs/quarto-contrib/glightbox/glightbox.min.js"></script><link href="site_libs/quarto-contrib/glightbox/glightbox.min.css" rel="stylesheet">
+<link href="site_libs/quarto-contrib/glightbox/lightbox.css" rel="stylesheet">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -50,103 +52,22 @@ ul.task-list li input[type="checkbox"] {
   ],
   "show-item-context": false,
   "language": {
-    "search-no-results-text": "No results",
-    "search-matching-documents-text": "matching documents",
-    "search-copy-link-title": "Copy link to search",
-    "search-hide-matches-text": "Hide additional matches",
-    "search-more-match-text": "more match in this document",
-    "search-more-matches-text": "more matches in this document",
-    "search-clear-button-title": "Clear",
+    "search-no-results-text": "Keine Treffer",
+    "search-matching-documents-text": "Treffer",
+    "search-copy-link-title": "Link in die Suche kopieren",
+    "search-hide-matches-text": "Zusätzliche Treffer verbergen",
+    "search-more-match-text": "weitere Treffer in diesem Dokument",
+    "search-more-matches-text": "weitere Treffer in diesem Dokument",
+    "search-clear-button-title": "Zurücksetzen",
     "search-text-placeholder": "",
-    "search-detached-cancel-button-title": "Cancel",
-    "search-submit-button-title": "Submit",
-    "search-label": "Search"
+    "search-detached-cancel-button-title": "Abbrechen",
+    "search-submit-button-title": "Abschicken",
+    "search-label": "Suchen"
   }
-}</script><script>
-
-  window.document.addEventListener("DOMContentLoaded", function (_event) {
-    const listingTargetEl = window.document.querySelector('#listing-news-listing .list');
-    if (!listingTargetEl) {
-      // No listing discovered, do not attach.
-      return; 
-    }
-
-    const options = {
-      valueNames: ['listing-image','listing-title','listing-date','listing-categories','listing-description',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
-      
-      searchColumns: ["listing-title","listing-author","listing-date","listing-image","listing-description"],
-    };
-
-    window['quarto-listings'] = window['quarto-listings'] || {};
-    window['quarto-listings']['listing-news-listing'] = new List('listing-news-listing', options);
-
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  });
-
-  window.addEventListener('hashchange',() => {
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  })
-  
-
-  window.document.addEventListener("DOMContentLoaded", function (_event) {
-    const listingTargetEl = window.document.querySelector('#listing-projects-listing .list');
-    if (!listingTargetEl) {
-      // No listing discovered, do not attach.
-      return; 
-    }
-
-    const options = {
-      valueNames: ['listing-image','listing-title','listing-date','listing-categories','listing-description',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
-      
-      searchColumns: ["listing-title","listing-author","listing-date","listing-image","listing-description"],
-    };
-
-    window['quarto-listings'] = window['quarto-listings'] || {};
-    window['quarto-listings']['listing-projects-listing'] = new List('listing-projects-listing', options);
-
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  });
-
-  window.addEventListener('hashchange',() => {
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  })
-  </script><link rel="preconnect" href="https://fonts.googleapis.com">
+}</script><link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
 <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&amp;family=DM+Serif+Display&amp;display=swap" rel="stylesheet">
-<script src="./assets/js/dml-concept-diagram.js"></script><script src="./assets/js/dml-support-tiers.js"></script><script src="./assets/js/dml-contact-email.js"></script><script src="./assets/js/dml-category-colors.js"></script><script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script><script defer src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script><script type="text/javascript">
-const typesetMath = (el) => {
-  if (window.MathJax) {
-    // MathJax Typeset
-    window.MathJax.typeset([el]);
-  } else if (window.katex) {
-    // KaTeX Render
-    var mathElements = el.getElementsByClassName("math");
-    var macros = [];
-    for (var i = 0; i < mathElements.length; i++) {
-      var texText = mathElements[i].firstChild;
-      if (mathElements[i].tagName == "SPAN" && texText && texText.data) {
-        window.katex.render(texText.data, mathElements[i], {
-          displayMode: mathElements[i].classList.contains('display'),
-          throwOnError: false,
-          macros: macros,
-          fleqn: false
-        });
-      }
-    }
-  }
-}
-window.Quarto = {
-  typesetMath
-};
-</script>
+<script src="./assets/js/dml-concept-diagram.js"></script><script src="./assets/js/dml-support-tiers.js"></script><script src="./assets/js/dml-contact-email.js"></script><script src="./assets/js/dml-category-colors.js"></script>
 </head>
 <body class="nav-fixed quarto-light">
 <script id="quarto-html-before-body" type="application/javascript">
@@ -326,42 +247,42 @@ window.Quarto = {
     <a href="./index.html" class="navbar-brand navbar-brand-logo">
     <img src="./assets/logos/dml-strata-deep-favicon.svg" alt="Data and Modelling Infrastructure for Living Labs (DML)" class="navbar-logo light-content"><img src="./assets/logos/dml-strata-deep-favicon.svg" alt="Data and Modelling Infrastructure for Living Labs (DML)" class="navbar-logo dark-content"></a>
   </div>
-            <div id="quarto-search" class="" title="Search"></div>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" role="menu" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+            <div id="quarto-search" class="" title="Suchen"></div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" role="menu" aria-expanded="false" aria-label="Navigation umschalten" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
   <span class="navbar-toggler-icon"></span>
 </button>
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll ms-auto">
 <li class="nav-item"><div class="dropdown" id="languages-links-parent">
-<button class="btn btn-primary dropdown-toggle babelquarto-languages-button" type="button" data-bs-toggle="dropdown" aria-expanded="false" id="languages-button"><i class="bi bi-globe2"></i> EN</button><ul class="dropdown-menu" id="languages-links"><li><a class="dropdown-item" href="https://iat-dml.github.io/de/index.html" id="language-link-de">DE</a></li></ul>
+<button class="btn btn-primary dropdown-toggle babelquarto-languages-button" type="button" data-bs-toggle="dropdown" aria-expanded="false" id="languages-button"><i class="bi bi-globe2"></i> DE</button><ul class="dropdown-menu" id="languages-links"><li><a class="dropdown-item" href="https://iat-dml.github.io/team-manual.html" id="language-link-en">EN</a></li></ul>
 </div></li>
 <li class="nav-item">
-    <a class="nav-link active" href="./index.html" aria-current="page"> 
-<span class="menu-text">Home</span></a>
+    <a class="nav-link" href="./index.html"> 
+<span class="menu-text">Startseite</span></a>
   </li>  
   <li class="nav-item">
     <a class="nav-link" href="./services.html"> 
-<span class="menu-text">Services</span></a>
+<span class="menu-text">Dienstleistungen</span></a>
   </li>  
   <li class="nav-item">
     <a class="nav-link" href="./team.html"> 
-<span class="menu-text">People</span></a>
+<span class="menu-text">Personen</span></a>
   </li>  
   <li class="nav-item">
     <a class="nav-link" href="./projects.html"> 
-<span class="menu-text">Projects</span></a>
+<span class="menu-text">Projekte</span></a>
   </li>  
   <li class="nav-item">
     <a class="nav-link" href="./news.html"> 
-<span class="menu-text">News</span></a>
+<span class="menu-text">Nachrichten</span></a>
   </li>  
   <li class="nav-item">
     <a class="nav-link" href="./resources.html"> 
-<span class="menu-text">Resources and tools</span></a>
+<span class="menu-text">Ressourcen</span></a>
   </li>  
   <li class="nav-item">
     <a class="nav-link" href="./contact-form.html"> 
-<span class="menu-text">Request Support</span></a>
+<span class="menu-text">Support anfordern</span></a>
   </li>  
   <li class="nav-item compact">
     <a class="nav-link" href="https://github.com/iat-dml"> <i class="bi bi-github" role="img" aria-label="GitHub">
@@ -376,7 +297,7 @@ window.Quarto = {
 </ul>
 </div> <!-- /navcollapse -->
             <div class="quarto-navbar-tools">
-  <a href="" class="quarto-color-scheme-toggle quarto-navigation-tool  px-1" onclick="window.quartoToggleColorScheme(); return false;" title="Toggle dark mode"><i class="bi"></i></a>
+  <a href="" class="quarto-color-scheme-toggle quarto-navigation-tool  px-1" onclick="window.quartoToggleColorScheme(); return false;" title="Dunkelmodus umschalten"><i class="bi"></i></a>
 </div>
       </div> <!-- /container-fluid -->
     </nav></header><!-- content --><div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-full page-navbar">
@@ -384,258 +305,90 @@ window.Quarto = {
 <!-- margin-sidebar -->
     
 <!-- main -->
-<main class="content column-page" id="quarto-document-content"><header id="title-block-header" class="quarto-title-block default"><div class="quarto-title">
-<h1 class="title">Home</h1>
-</div>
-
-
-
-<div class="quarto-title-meta column-page">
-
-    
-  
-    
-  </div>
-  
-
-
-</header><div class="hero">
-<p><span class="hero-eyebrow">IAT Service Working Group</span></p>
-<img src="assets/logos/dml-strata-deep.svg" class="hero-logo" alt=""><section id="data-and-modelling-infrastructure-for-living-labs" class="level1"><h1>Data and Modelling Infrastructure for Living Labs</h1>
-<p><a href="./contact-form.html" class="btn-brand">Discuss your project with us</a></p>
-</section>
-</div>
-<p>Welcome to the website of the Data and Modelling Infrastructure for Living Labs (DML) Working Group. We are a service working group within the <a href="https://www.zalf.de/de/struktur/iat/Seiten/default.aspx">Innovation Center for Agricultural System Transformation (IAT)</a> as part of the <a href="https://www.zalf.de/en/Pages/ZALF.aspx">Leibniz Centre for Agricultural Landscape Research (ZALF)</a>. Our mission is to support researchers and partners within the IAT with all things related to data and modelling. We have represented our three-pillared approach to this in the graphic below:</p>
-<div data-dml-concept-diagram="" data-lang="en" aria-label="Interactive concept diagram of the DML working group's three service pillars">
-  <div class="dml-concept-fallback">
-    <h3 class="anchored">Three pillars of our services</h3>
-    <ul>
+<main class="content column-page" id="quarto-document-content"><header id="title-block-header" class="quarto-title-block"></header><section id="data-and-modelling-infrastructure-team-manual" class="level1"><h1>Data and Modelling Infrastructure Team Manual</h1>
+<p>This manual serves as a living document to inform how we in the Data and Modelling Infrastructure (DML) Service Working Group (SWG) work, communicate, and share information. It is intended to be a resource for both current and future members of the SWG. The manual will be updated regularly to reflect changes in our processes and practices, and we welcome contributions from all members of the SWG to ensure that it remains relevant and useful.</p>
+<p>We strive to adapt approaches from agile project management, modern software development and Open Science to the context of providing support to researchers. Our aim is to use what works without adopting everything or being too rigid. For example, using Github will be a cornerstone of how we work, in terms of developing and managing the deliverables for our service requests. At the same time for many of our users we may need to provide them with the deliverables via a different means (e.g. file sharing) to meet their level of technical expertise.</p>
+<p>The major sections below cover:</p>
+<ul>
+<li><p><a href="#sec-conduct">How we create a respectful work environment</a></p></li>
+<li><p><a href="#sec-how_we_organise">How we organise our work</a></p></li>
+<li><p><a href="#sec-how_services">How we provide our services</a></p></li>
+<li><p><a href="#sec-how_communicate">How we communicate and stay informed</a></p></li>
+<li><p><a href="#sec-how_share_documents">How we share documents and data</a></p></li>
+</ul>
+<p>We use a tiered system for support, where we provide different levels of support based on the needs and preferences of our users. For example, for some users we may provide more hands-on support, while for others we may provide more self-service resources and documentation. We will also be flexible in our communication channels, using a combination of Github issues and Microsoft Teams Channels to communicate with our users and other IAT core groups (e.g. The IAT Coordination Team and Regional Network Managers).</p>
+<section id="sec-conduct" class="level2"><h2 class="anchored" data-anchor-id="sec-conduct">How we create a respectful work environment</h2>
+<p>We are committed to creating a respectful and inclusive work environment for all members of the SWG. We will treat each other with respect and kindness, and we will strive to create a culture of openness and collaboration. To this end we have developed a <a href="../code-of-conduct/code-of-conduct.qmd">code of conduct</a> that outlines our expectations for behaviour and communication both within the SWG and when interacting with service users. Like this team manual, the code of conduct is a living document that we will update as needed to ensure that it remains relevant and effective. We will also make sure that all members of the SWG are familiar with the code of conduct and that they understand their responsibilities in creating a positive and respectful work environment.</p>
+<p>We will also be mindful of our language and communication style, and we will avoid using language that is offensive or exclusionary.</p>
+</section><section id="sec-how_we_organise" class="level2"><h2 class="anchored" data-anchor-id="sec-how_we_organise">How we organise our work</h2>
+<section id="sec-github_as_foundation" class="level3"><h3 class="anchored" data-anchor-id="sec-github_as_foundation">Github as the foundation</h3>
+<p>We will use Github for project and knowledge management building upon the techniques proposed by the Open Science initiaitatives such as the Turing Way [<strong>CITATION</strong>] and the Openscapes project <span class="citation" data-cites="openscapescoreteam2024">[@openscapescoreteam2024]</span>, such as using issues and <a href="https://docs.github.com/en/issues/planning-and-tracking-with-projects/learning-about-projects/about-projects">GitHubs Projects</a> functionality for project management and communication, a wiki for building persistent knowledge, and using dedicated repositories for documentation and deliverables. This is to ensure that all our work is transparent and accessible to all members of the SWG, and to make it easier to track progress on our projects and service requests.</p>
+</section><section id="sec-documentation" class="level3"><h3 class="anchored" data-anchor-id="sec-documentation">Markdown for documentation</h3>
+<p>For all documentation use Quarto (.qmd) files with the Github Flavoured Markdown (gfm) format option in the yaml</p>
+</section><section id="sec-github_hygiene" class="level3"><h3 class="anchored" data-anchor-id="sec-github_hygiene">Good Github hygiene</h3>
+<ul>
+<li><p>Start all new repositories as <code>private</code> and migrate to <code>public</code> later where possible (e.g. for approved service request products).</p></li>
+<li><p>Use <a href="https://amydegregorio.com/2020/10/25/programming-case-types/">kebab-case</a> for repository names and file names (e.g. <code>service-desk</code> or <code>knowledge-management</code>). With full capitalization for acronyms (e.g. <code>DML-website</code>).</p></li>
+<li><p>Use our custom issue labels: <strong>TODO list them</strong></p></li>
+<li><p>Put a <code>README.md</code> in each repository to provide project level documentation as normal. For non-conventional repositories such as knowledge-mangement and templates include a <code>README.md</code> in each major directory within them containing a one sentence description both English and German (Deepl’d) of the purpose of the directory.</p></li>
+<li><p>Within issues, we encourage including <code>perma-links</code> to files or specific chunks in other repos in the issues to make it easier for others to find the relevant information (in the respective files click the ‘<code>...</code>’ icon and ‘<code>copy perma link</code>’).</p></li>
+</ul></section><section id="our-key-repositories" class="level3"><h3 class="anchored" data-anchor-id="our-key-repositories">Our key repositories</h3>
+<p>The image below gives an overview of our key repos and how thez are connected with each explained in more detail below.</p>
+</section></section></section><section id="todo-create-an-excalidrawn-diagram-to-show-the-repo-structure-and-connections-between-them." class="level1"><h1>TODO: Create an excalidrawn diagram to show the repo structure and connections between them.</h1>
+<p><a href="../assets/repo-structure.png" class="lightbox" data-gallery="quarto-lightbox-gallery-1"><img src="../assets/repo-structure.png" class="img-fluid"></a></p>
+<section id="service-desk-for-tracking-service-requests" class="level4"><h4 class="anchored" data-anchor-id="service-desk-for-tracking-service-requests">Service-desk for tracking service requests</h4>
+<p>The service-desk repo is for tracking incoming and on-going service activities and requests. Each service request is logged as a GitHub issue using a standardised issue template to capture key details about the request and to track progress on it. This is to ensure that all service activities are tracked and managed effectively and that we can easily report on our activities to the IAT and other stakeholders.</p>
+<p>The general process of receiving and engaging in service requests will be covered in more detail in <a href="#sec-how_services" class="quarto-xref">Kapitel 2.1</a>, but here we cover the technical aspect of how we use the service-desk repo to manage our service requests.</p>
+<section id="how-requests-reach-the-repo" class="level5"><h5 class="anchored" data-anchor-id="how-requests-reach-the-repo">How requests reach the repo</h5>
+<p>Whatever route a request takes, it ends up as a GitHub issue in the <a href="https://github.com/iat-dml/service-desk">service-desk repo</a>. There are three intake channels:</p>
+<ol type="1">
 <li>
-<strong class="text-support">Support</strong> — Helping researchers manage their research data and software across every stage of a project: data management plans, version control, FAIR archiving, training and consulting.</li>
-      <li>
-<strong class="text-integration">Integration</strong> — Connecting research data and methods across working groups: shared infrastructure, interoperable methods and models, cross-group workflows, common standards.</li>
-      <li>
-<strong class="text-transfer">Transfer</strong> — Closing the loop between science and practice: dashboards and web tools, stakeholder co-design, Living Lab feedback loops, open-science communication.</li>
-    </ul>
-</div>
-</div>
-<div style="text-align: center">
-<p><a href="./contact-form.html" class="btn-brand">Discuss your project with us</a></p>
-</div>
-<div class="button-row">
-<p><a href="./services.html" class="btn-ghost">Our services</a> <a href="./team.html" class="btn-ghost">Meet the team</a></p>
-</div>
-<div class="columns-divided">
-<div class="column" style="text-align: center">
-<section id="news" class="level2"><h2 class="anchored" data-anchor-id="news">News</h2>
-<div id="listing-news-listing" class="quarto-listing quarto-listing-container-grid">
-<div class="list grid quarto-listing-cols-1">
-<div class="g-col-1" data-index="0" data-categories="d29ya3Nob3AlMkNpRU1TcyUyQ3VwY29taW5n" data-listing-date-sort="1783814400000" data-listing-file-modified-sort="1784711992285" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="148">
-<a href="./news/2026-06-iemss-workshop.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-center">
-<p class="card-img-top">
-<img loading="lazy" src="./assets/iemss2026_logo.png" class="thumbnail-image card-img" style="height: 150px;"></p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-Upcoming Quarto Workshop at iEMSs 2026
-</h5>
-<div class="listing-categories">
-
-<div class="listing-category" onclick="window.quartoListingCategory('d29ya3Nob3A='); return false;">workshop</div>
-
-<div class="listing-category" onclick="window.quartoListingCategory('aUVNU3M='); return false;">iEMSs</div>
-
-<div class="listing-category" onclick="window.quartoListingCategory('dXBjb21pbmc='); return false;">upcoming</div>
-
-</div>
-<div class="card-text listing-description delink">
-<p>The DML group is organising a workshop at the iEMSs 2026 conference in Dublin</p>
-</div>
-<div class="card-attribution card-text-small end">
-<div class="listing-date">
-Jul 12, 2026
-</div>
-</div>
-</div>
-</div></a>
-</div>
-<div class="g-col-1" data-index="1" data-categories="cHJlc2VudGF0aW9uJTJDSUFUJTJDb3V0cmVhY2g=" data-listing-date-sort="1773792000000" data-listing-file-modified-sort="1784711992285" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="153">
-<a href="./news/2026-01-iat-kickoff.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-center">
-<p class="card-img-top">
-<img loading="lazy" src="./assets/concept-diagram.svg" class="thumbnail-image card-img" style="height: 150px;"></p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-DML Presents at IAT Kickoff Meeting
-</h5>
-<div class="listing-categories">
-
-<div class="listing-category" onclick="window.quartoListingCategory('cHJlc2VudGF0aW9u'); return false;">presentation</div>
-
-<div class="listing-category" onclick="window.quartoListingCategory('SUFU'); return false;">IAT</div>
-
-<div class="listing-category" onclick="window.quartoListingCategory('b3V0cmVhY2g='); return false;">outreach</div>
-
-</div>
-<div class="card-text listing-description delink">
-<p>Members of the DML working group presented at the IAT kickoff meeting, introducing our service concept for supporting researchers with data and modelling needs.</p>
-</div>
-<div class="card-attribution card-text-small end">
-<div class="listing-date">
-Mar 18, 2026
-</div>
-</div>
-</div>
-</div></a>
-</div>
-<div class="g-col-1" data-index="2" data-categories="RkFJUmFncm8lMkNGQUlSJTIwZGF0YSUyQ2NvbW11bml0eQ==" data-listing-date-sort="1772668800000" data-listing-file-modified-sort="1784711992285" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="124">
-<a href="./news/2026-03-fairagro-summit.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-center">
-<p class="card-img-top">
-<img loading="lazy" src="./assets/FAIRagro-summit.jpg" class="thumbnail-image card-img" style="height: 150px;"></p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-DML at the FAIRagro Community Summit
-</h5>
-<div class="listing-categories">
-
-<div class="listing-category" onclick="window.quartoListingCategory('RkFJUmFncm8='); return false;">FAIRagro</div>
-
-<div class="listing-category" onclick="window.quartoListingCategory('RkFJUiUyMGRhdGE='); return false;">FAIR data</div>
-
-<div class="listing-category" onclick="window.quartoListingCategory('Y29tbXVuaXR5'); return false;">community</div>
-
-</div>
-<div class="card-text listing-description delink">
-<p>DML working group members attended the FAIRagro community summit, engaging with the FAIR data community in Agricultural research.</p>
-</div>
-<div class="card-attribution card-text-small end">
-<div class="listing-date">
-Mar 5, 2026
-</div>
-</div>
-</div>
-</div></a>
-</div>
-</div>
-<div class="listing-no-matching d-none">No matching items</div>
-</div>
-<p><a href="./news.html" class="more-link">All news →</a></p>
-</section>
-</div>
-<div class="column" style="text-align: center">
-<section id="projects" class="level2"><h2 class="anchored" data-anchor-id="projects">Projects</h2>
-<div id="listing-projects-listing" class="quarto-listing quarto-listing-container-grid">
-<div class="list grid quarto-listing-cols-1">
-<div class="g-col-1" data-index="0" data-categories="ZGFzaGJvYXJkJTJDdmlzdWFsaXphdGlvbiUyQ2xpdmluZyUyMGxhYnMlMkN0cmFuc2ZlciUyQ1dJUA==" data-listing-date-sort="1782864000000" data-listing-file-modified-sort="1784711992285" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="50">
-<a href="./projects/living-lab-dashboards.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-center">
-<p class="card-img-top">
-<img loading="lazy" src="./assets/ll-explorer-screenshot.png" class="thumbnail-image card-img" style="height: 150px;"></p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-Living Lab Explorer
-</h5>
-<div class="listing-categories">
-
-<div class="listing-category" onclick="window.quartoListingCategory('ZGFzaGJvYXJk'); return false;">dashboard</div>
-
-<div class="listing-category" onclick="window.quartoListingCategory('dmlzdWFsaXphdGlvbg=='); return false;">visualization</div>
-
-<div class="listing-category" onclick="window.quartoListingCategory('bGl2aW5nJTIwbGFicw=='); return false;">living labs</div>
-
-<div class="listing-category" onclick="window.quartoListingCategory('dHJhbnNmZXI='); return false;">transfer</div>
-
-<div class="listing-category" onclick="window.quartoListingCategory('V0lQ'); return false;">WIP</div>
-
-</div>
-<div class="card-text listing-description delink">
-<p>Interactive dashboards for exploring environmentaL and socio-economic data from the five IAT Living Labs.</p>
-</div>
-<div class="card-attribution card-text-small end">
-<div class="listing-date">
-Jul 1, 2026
-</div>
-</div>
-</div>
-</div></a>
-</div>
-<div class="g-col-1" data-index="1" data-categories="Z3VpZGUlMkNtZXRob2RzJTJDbGl2aW5nJTIwbGFicyUyQ3RyYW5zZmVyJTJDV0lQ" data-listing-date-sort="1782864000000" data-listing-file-modified-sort="1784711992285" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="171">
-<a href="./projects/policy-lab-guide.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-center">
-<p class="card-img-top">
-<img loading="lazy" src="./assets/policy-labs-screenshot.png" class="thumbnail-image card-img" style="height: 150px;"></p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-A how-to guide for Policy Labs
-</h5>
-<div class="listing-categories">
-
-<div class="listing-category" onclick="window.quartoListingCategory('Z3VpZGU='); return false;">guide</div>
-
-<div class="listing-category" onclick="window.quartoListingCategory('bWV0aG9kcw=='); return false;">methods</div>
-
-<div class="listing-category" onclick="window.quartoListingCategory('bGl2aW5nJTIwbGFicw=='); return false;">living labs</div>
-
-<div class="listing-category" onclick="window.quartoListingCategory('dHJhbnNmZXI='); return false;">transfer</div>
-
-<div class="listing-category" onclick="window.quartoListingCategory('V0lQ'); return false;">WIP</div>
-
-</div>
-<div class="card-text listing-description delink">
-<p>An interactive guide for developing Policy Labs for Agri-environmental Measures within Living Labs.</p>
-</div>
-<div class="card-attribution card-text-small end">
-<div class="listing-date">
-Jul 1, 2026
-</div>
-</div>
-</div>
-</div></a>
-</div>
-<div class="g-col-1" data-index="2" data-categories="Y29sbGFib3JhdGlvbiUyQ3Jlc2VhcmNoJTIwcGxhdGZvcm0lMkNXSVAlMkN0cmFuc2Zlcg==" data-listing-date-sort="1780444800000" data-listing-file-modified-sort="1784711992285" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="191">
-<a href="./projects/monkshilllabs.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-center">
-<p class="card-img-top">
-<img loading="lazy" src="./assets/mhl-screenshot.png" class="thumbnail-image card-img" style="height: 150px;"></p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-MonksHillLab field ecophysiology handbook web version
-</h5>
-<div class="listing-categories">
-
-<div class="listing-category" onclick="window.quartoListingCategory('Y29sbGFib3JhdGlvbg=='); return false;">collaboration</div>
-
-<div class="listing-category" onclick="window.quartoListingCategory('cmVzZWFyY2glMjBwbGF0Zm9ybQ=='); return false;">research platform</div>
-
-<div class="listing-category" onclick="window.quartoListingCategory('V0lQ'); return false;">WIP</div>
-
-<div class="listing-category" onclick="window.quartoListingCategory('dHJhbnNmZXI='); return false;">transfer</div>
-
-</div>
-<div class="card-text listing-description delink">
-<p>The DML group helped broaden the reach of the MonksHillLab field ecophysiology handbook by moving from a PDF to an interactive web resource.</p>
-</div>
-<div class="card-attribution card-text-small end">
-<div class="listing-date">
-Jun 3, 2026
-</div>
-</div>
-</div>
-</div></a>
-</div>
-</div>
-<div class="listing-no-matching d-none">No matching items</div>
-</div>
-<p><a href="./projects.html" class="more-link">All projects →</a></p>
-</section>
-</div>
-</div>
-
-
-
-
-</main><!-- /main --><script id="quarto-html-after-body" type="application/javascript">
+<strong>Contact form (no GitHub account needed).</strong> Requesters fill in the <strong>DML service request</strong> <a href="https://forms.office.com/Pages/ResponsePage.aspx?id=Zo0M4kenHkul2ga1P95PoHFKJd1yMPxBpP7fDZSCehNUOFhRWTJBMEo1QVRNN1dKT1lZUjRJOUJRRi4u">Microsoft Form</a>, which we <strong>embed directly on the DML website</strong> so most requesters never touch GitHub. The form captures only the <em>Basic Information</em> of the template (requester details, service type, short description, rough timeline). A <a href="https://github.com/iat-dml/service-desk/blob/main/docs/POWER-AUTOMATE-SETUP.md">Power Automate</a> flow then creates a structured issue automatically and applies the matching service-type label(s).</li>
+<li>
+<strong>Email (no GitHub account needed).</strong> Requesters write to the DML shared mailbox. A second Power Automate flow converts each message into an issue labelled <code>needs-triage</code>, which we then structure into the template during triage.</li>
+<li>
+<strong>GitHub issue form.</strong> Requesters (or SWG members logging a request on someone’s behalf) with a GitHub account can open an issue directly using the <a href="https://github.com/iat-dml/service-desk/blob/main/.github/ISSUE_TEMPLATE/dml-service-request.yml"><strong>DML service request form</strong></a>.</li>
+</ol>
+<p>In every case only the <em>Basic Information</em> is needed up front. The <em>Detailed Information</em> section (request repo, detailed description, data and tooling, support tier, timeline) is filled in later, once the request has been discussed internally and/or with the requester and is actively being worked on. This lets us log incoming requests quickly and then follow up to get more details and set expectations. The issue then serves as a living document for the request. See the <a href="https://github.com/iat-dml/service-desk/blob/main/README.md">service-desk README</a> for a full overview of the workflow and what the template captures, and the <a href="https://github.com/iat-dml/service-desk/blob/main/docs/POWER-AUTOMATE-SETUP.md">Power Automate setup guide</a> for how the intake automation is built.</p>
+<p>Both automation flows post a notification to the <strong>service-requests</strong> channel in the <strong>IAT-DML</strong> Team in Microsoft Teams: a success message linking the newly created issue, or a failure warning if a flow errors (so a silently lost request gets noticed quickly).</p>
+</section><section id="once-an-issue-exists" class="level5"><h5 class="anchored" data-anchor-id="once-an-issue-exists">Once an issue exists</h5>
+<ol type="1">
+<li>Assign the issue to the relevant member/s of the DML team, based on their expertise and availability.</li>
+<li>Add our custom labels to the issue to categorize the requests and make it easier to find relevant information. We use labels to indicate the type of service request (e.g. support, integration, or transfer), the support tier (e.g. high, medium, low), and the status (e.g. backlog, in progress, done). Form submissions already arrive with their service-type label(s) applied; add the remaining labels during triage.</li>
+</ol>
+<p>Importantly, the issues can and should be updated over time, we wil be flexible as to whether we always add new information by ediitng the original issue or by adding comments or sub issues. But the key point is that the issue should be a living document that captures the progress and details of the request from reception to completion and we will use a <a href="https://github.com/iat-dml/dml-content-publisher">custom AI agent skill</a> to automate the writing of <a href="https://github.com/iat-dml/DML.github.io/tree/main/projects">blog style pages for each project</a> for the DML website based on the information in the issue.</p>
+</section></section><section id="knowledge-management-for-documentation" class="level4"><h4 class="anchored" data-anchor-id="knowledge-management-for-documentation">Knowledge-management for documentation</h4>
+</section><section id="project-management-for-tracking-projects-and-deliverables" class="level4"><h4 class="anchored" data-anchor-id="project-management-for-tracking-projects-and-deliverables">Project-management for tracking projects and deliverables</h4>
+</section><section id="wiki-for-general-information" class="level4"><h4 class="anchored" data-anchor-id="wiki-for-general-information">Wiki for general information</h4>
+</section><section id="training-for-our-educational-materials" class="level4"><h4 class="anchored" data-anchor-id="training-for-our-educational-materials">Training for our educational materials</h4>
+</section><section id="iat-dml.github.io-our-website" class="level4"><h4 class="anchored" data-anchor-id="iat-dml.github.io-our-website">iat-dml.github.io our website</h4>
+</section><section id="automations-and-ai-agents-skills" class="level3"><h3 class="anchored" data-anchor-id="automations-and-ai-agents-skills">Automations and AI agents + skills</h3>
+<p>TODO document dml-content-publisher and the other automations and AI agents + skills we are developing to support our work.</p>
+</section><section id="sec-how_services" class="level2"><h2 class="anchored" data-anchor-id="sec-how_services">How we provide our services</h2>
+<ul>
+<li><p>Ideally requests should be made via the contact form/email address provided on the DML webpages, in this case we will use an automation to convert them into issues. However, it should be requests will also happen informally via general emails or direct discussions with members of the SWG, in this case it is the responsibility of the SWG member to create an issue in the service-desk repo</p></li>
+<li><p>First meeting to discuss the request. Getting details, understanding needs and setting expectations.</p></li>
+<li><p>Possibly develop a tiered system for support, maybe only to be used internally to describe the level of effort/engagement/priority. Higher effort requests would perhaps require some kind of reciprocal benefits i.e. support for personnel from the requesting group, or co-authorship on a deliverable, etc.</p></li>
+<li><p>When creating a repo for the request, set the custom repository property <code>service-repo</code> to <code>true</code>. Custom properties are set in the repository settings on GitHub (Settings → Custom properties) and allow us to filter and identify all service-related repos across the organisation. In the README of the new repo, include a one-sentence description of the purpose of the repo and a link back to the corresponding issue in the service-desk repo (e.g. <code>https://github.com/iat-dml/service-desk/issues/&lt;issue-number&gt;</code>). This connects the working repo to the intake record so that anyone can trace the request back to its original context.</p></li>
+</ul></section><section id="sec-how_communicate" class="level2"><h2 class="anchored" data-anchor-id="sec-how_communicate">How we communicate and stay informed</h2>
+<section id="internal-channels-of-communication" class="level3"><h3 class="anchored" data-anchor-id="internal-channels-of-communication">Internal channels of communication</h3>
+<p>TODO: add details of MS teams set-up including the IAT-Core, IAT-All and IAT-DML teams and channels.</p>
+<p>We will use Github issues as a communication channel for the SWG. This is to ensure that all communication is transparent and accessible to all members of the SWG. We will use issues to discuss and track progress on tasks, share updates, and ask questions. We will also use labels to categorize issues and make it easier to find relevant information.</p>
+</section><section id="external-channels-of-communication" class="level3"><h3 class="anchored" data-anchor-id="external-channels-of-communication">External channels of communication</h3>
+<ul>
+<li>DML website</li>
+<li>ZALF Intranet</li>
+<li>ZALF website</li>
+<li>Zukunft Land</li>
+<li>LinkedIn</li>
+</ul></section></section><section id="document-templates" class="level2"><h2 class="anchored" data-anchor-id="document-templates">Document templates</h2>
+<p>We have a dedicated repository for document templates ‘templates’ where we will store templates for different types of documents including PDfs, presentations, and reports. This is to ensure consistency in the format and style of our documents and to make it easier for members to create new documents.</p>
+</section><section id="sec-how_share_documents" class="level2"><h2 class="anchored" data-anchor-id="sec-how_share_documents">How we share documents and data</h2>
+</section><section id="sharing-documents" class="level2"><h2 class="anchored" data-anchor-id="sharing-documents">Sharing documents</h2>
+<ul>
+<li>For sharing ZALF internal documents on github use Sharepoint links</li>
+<li>For collaboration with other SWGs, Admin and Coordination in the IAT we should use Sharepoint and/or Teams channels.</li>
+</ul></section></section></main><!-- /main --><script id="quarto-html-after-body" type="application/javascript">
   window.document.addEventListener("DOMContentLoaded", function (event) {
     // Ensure there is a toggle, if there isn't float one in the top right
     if (window.document.querySelector('.quarto-color-scheme-toggle') === null) {
@@ -673,12 +426,12 @@ Jun 3, 2026
       // flash "checked"
       button.classList.add('code-copy-button-checked');
       var currentTitle = button.getAttribute("title");
-      button.setAttribute("title", "Copied!");
+      button.setAttribute("title", "Kopiert");
       let tooltip;
       if (window.bootstrap) {
         button.setAttribute("data-bs-toggle", "tooltip");
         button.setAttribute("data-bs-placement", "left");
-        button.setAttribute("data-bs-title", "Copied!");
+        button.setAttribute("data-bs-title", "Kopiert");
         tooltip = new bootstrap.Tooltip(button, 
           { trigger: "manual", 
             customClass: "code-copy-button-tooltip",
@@ -721,7 +474,7 @@ Jun 3, 2026
     }
       var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
       var mailtoRegex = new RegExp(/^mailto:/);
-        var filterRegex = new RegExp("https:\/\/iat-dml\.github\.io");
+        var filterRegex = new RegExp("https:\/\/iat-dml\.github\.io\/de");
       var isInternal = (href) => {
           return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
       }
@@ -1075,6 +828,37 @@ Jun 3, 2026
       }
     }
   });
-</script>
+</script><script>var lightboxQuarto = GLightbox({"closeEffect":"zoom","descPosition":"bottom","loop":false,"openEffect":"zoom","selector":".lightbox"});
+(function() {
+  let previousOnload = window.onload;
+  window.onload = () => {
+    if (previousOnload) {
+      previousOnload();
+    }
+    lightboxQuarto.on('slide_before_load', (data) => {
+      const { slideIndex, slideNode, slideConfig, player, trigger } = data;
+      const href = trigger.getAttribute('href');
+      if (href !== null) {
+        const imgEl = window.document.querySelector(`a[href="${href}"] img`);
+        if (imgEl !== null) {
+          const srcAttr = imgEl.getAttribute("src");
+          if (srcAttr && srcAttr.startsWith("data:")) {
+            slideConfig.href = srcAttr;
+          }
+        }
+      } 
+    });
+  
+    lightboxQuarto.on('slide_after_load', (data) => {
+      const { slideIndex, slideNode, slideConfig, player, trigger } = data;
+      if (window.Quarto?.typesetMath) {
+        window.Quarto.typesetMath(slideNode);
+      }
+    });
+  
+  };
+  
+})();
+          </script>
 </body>
 </html>

@@ -28,165 +28,60 @@
     "text": "Projects\n\n\n\n\n\n\n\n\n\n\nLiving Lab Explorer\n\n\n\ndashboard\n\nvisualization\n\nliving labs\n\ntransfer\n\nWIP\n\n\n\nInteraktive Dashboards zur Auswertung von Umwelt- und sozioökonomischen Daten aus den fünf IAT-Living-Labs.\n\n\n\n01.07.2026\n\n\n\n\n\n\n\n\n\n\n\n\n\nEin Leitfaden für Policy Labs\n\n\n\nguide\n\nmethods\n\nliving labs\n\ntransfer\n\nWIP\n\n\n\nEin interaktiver Leitfaden zur Entwicklung von „Policy Labs“ für Agrarumweltmaßnahmen im Rahmen von „Living Labs“.\n\n\n\n01.07.2026\n\n\n\n\n\n\n\n\n\n\n\n\n\nMonksHillLab-Handbuch zur Feldökophysiologie – Webversion\n\n\n\ncollaboration\n\nresearch platform\n\nWIP\n\ntransfer\n\n\n\nDie DML-Gruppe trug dazu bei, die Reichweite des Handbuchs zur Feldökophysiologie von MonksHillLab zu vergrößern, indem sie es von einem PDF in eine interaktive Webressource…\n\n\n\n03.06.2026\n\n\n\n\n\n\nKeine Treffer\n\nAlle Projekte →"
   },
   {
-    "objectID": "resources.html",
-    "href": "resources.html",
-    "title": "Ressourcen",
+    "objectID": "team-manual.html",
+    "href": "team-manual.html",
+    "title": "Data and Modelling Infrastructure Team Manual",
     "section": "",
-    "text": "Dieses Repository soll ein lebendiges Dokument für SWG- und IAT-Mitglieder sein, um nützliche Informationen und Ressourcen in Bezug auf Open Science, Programmierung und Datenvisualisierung auszutauschen.\nEinige Dokumente, die Leitprinzipien enthalten:\nCheck out the Open Science Awesome List"
+    "text": "This manual serves as a living document to inform how we in the Data and Modelling Infrastructure (DML) Service Working Group (SWG) work, communicate, and share information. It is intended to be a resource for both current and future members of the SWG. The manual will be updated regularly to reflect changes in our processes and practices, and we welcome contributions from all members of the SWG to ensure that it remains relevant and useful.\nWe strive to adapt approaches from agile project management, modern software development and Open Science to the context of providing support to researchers. Our aim is to use what works without adopting everything or being too rigid. For example, using Github will be a cornerstone of how we work, in terms of developing and managing the deliverables for our service requests. At the same time for many of our users we may need to provide them with the deliverables via a different means (e.g. file sharing) to meet their level of technical expertise.\nThe major sections below cover:\n\nHow we create a respectful work environment\nHow we organise our work\nHow we provide our services\nHow we communicate and stay informed\nHow we share documents and data\n\nWe use a tiered system for support, where we provide different levels of support based on the needs and preferences of our users. For example, for some users we may provide more hands-on support, while for others we may provide more self-service resources and documentation. We will also be flexible in our communication channels, using a combination of Github issues and Microsoft Teams Channels to communicate with our users and other IAT core groups (e.g. The IAT Coordination Team and Regional Network Managers).\n\n\nWe are committed to creating a respectful and inclusive work environment for all members of the SWG. We will treat each other with respect and kindness, and we will strive to create a culture of openness and collaboration. To this end we have developed a code of conduct that outlines our expectations for behaviour and communication both within the SWG and when interacting with service users. Like this team manual, the code of conduct is a living document that we will update as needed to ensure that it remains relevant and effective. We will also make sure that all members of the SWG are familiar with the code of conduct and that they understand their responsibilities in creating a positive and respectful work environment.\nWe will also be mindful of our language and communication style, and we will avoid using language that is offensive or exclusionary.\n\n\n\n\n\nWe will use Github for project and knowledge management building upon the techniques proposed by the Open Science initiaitatives such as the Turing Way [CITATION] and the Openscapes project [@openscapescoreteam2024], such as using issues and GitHubs Projects functionality for project management and communication, a wiki for building persistent knowledge, and using dedicated repositories for documentation and deliverables. This is to ensure that all our work is transparent and accessible to all members of the SWG, and to make it easier to track progress on our projects and service requests.\n\n\n\nFor all documentation use Quarto (.qmd) files with the Github Flavoured Markdown (gfm) format option in the yaml\n\n\n\n\nStart all new repositories as private and migrate to public later where possible (e.g. for approved service request products).\nUse kebab-case for repository names and file names (e.g. service-desk or knowledge-management). With full capitalization for acronyms (e.g. DML-website).\nUse our custom issue labels: TODO list them\nPut a README.md in each repository to provide project level documentation as normal. For non-conventional repositories such as knowledge-mangement and templates include a README.md in each major directory within them containing a one sentence description both English and German (Deepl’d) of the purpose of the directory.\nWithin issues, we encourage including perma-links to files or specific chunks in other repos in the issues to make it easier for others to find the relevant information (in the respective files click the ‘...’ icon and ‘copy perma link’).\n\n\n\n\nThe image below gives an overview of our key repos and how thez are connected with each explained in more detail below."
   },
   {
-    "objectID": "resources.html#datenvisualisierung",
-    "href": "resources.html#datenvisualisierung",
-    "title": "Ressourcen",
-    "section": "Datenvisualisierung",
-    "text": "Datenvisualisierung\n\nFundamentals of Data Visualization\nOpen Visualisation Academy"
-  },
-  {
-    "objectID": "resources.html#r",
-    "href": "resources.html#r",
-    "title": "Ressourcen",
-    "section": "R",
-    "text": "R\nWhat they forgot to teach you about R: https://rstats.wtf/"
-  },
-  {
-    "objectID": "resources.html#quarto",
-    "href": "resources.html#quarto",
-    "title": "Ressourcen",
-    "section": "Quarto",
-    "text": "Quarto\n\nBeautiful slides with RevealJS and Quarto"
-  },
-  {
-    "objectID": "services.html",
-    "href": "services.html",
-    "title": "Dienstleistungen",
+    "objectID": "team-manual.html#sec-conduct",
+    "href": "team-manual.html#sec-conduct",
+    "title": "Data and Modelling Infrastructure Team Manual",
     "section": "",
-    "text": "Die Arbeitsgruppe bietet unterschiedliche Unterstützungsstufen an, abhängig vom Umfang der Anfrage, der erwarteten Zusammenarbeit und dem Aufwand für belastbare Ergebnisse."
+    "text": "We are committed to creating a respectful and inclusive work environment for all members of the SWG. We will treat each other with respect and kindness, and we will strive to create a culture of openness and collaboration. To this end we have developed a code of conduct that outlines our expectations for behaviour and communication both within the SWG and when interacting with service users. Like this team manual, the code of conduct is a living document that we will update as needed to ensure that it remains relevant and effective. We will also make sure that all members of the SWG are familiar with the code of conduct and that they understand their responsibilities in creating a positive and respectful work environment.\nWe will also be mindful of our language and communication style, and we will avoid using language that is offensive or exclusionary."
   },
   {
-    "objectID": "services.html#unterstützungsmodell",
-    "href": "services.html#unterstützungsmodell",
-    "title": "Dienstleistungen",
+    "objectID": "team-manual.html#sec-how_we_organise",
+    "href": "team-manual.html#sec-how_we_organise",
+    "title": "Data and Modelling Infrastructure Team Manual",
     "section": "",
-    "text": "Die Arbeitsgruppe bietet unterschiedliche Unterstützungsstufen an, abhängig vom Umfang der Anfrage, der erwarteten Zusammenarbeit und dem Aufwand für belastbare Ergebnisse."
+    "text": "We will use Github for project and knowledge management building upon the techniques proposed by the Open Science initiaitatives such as the Turing Way [CITATION] and the Openscapes project [@openscapescoreteam2024], such as using issues and GitHubs Projects functionality for project management and communication, a wiki for building persistent knowledge, and using dedicated repositories for documentation and deliverables. This is to ensure that all our work is transparent and accessible to all members of the SWG, and to make it easier to track progress on our projects and service requests.\n\n\n\nFor all documentation use Quarto (.qmd) files with the Github Flavoured Markdown (gfm) format option in the yaml\n\n\n\n\nStart all new repositories as private and migrate to public later where possible (e.g. for approved service request products).\nUse kebab-case for repository names and file names (e.g. service-desk or knowledge-management). With full capitalization for acronyms (e.g. DML-website).\nUse our custom issue labels: TODO list them\nPut a README.md in each repository to provide project level documentation as normal. For non-conventional repositories such as knowledge-mangement and templates include a README.md in each major directory within them containing a one sentence description both English and German (Deepl’d) of the purpose of the directory.\nWithin issues, we encourage including perma-links to files or specific chunks in other repos in the issues to make it easier for others to find the relevant information (in the respective files click the ‘...’ icon and ‘copy perma link’).\n\n\n\n\nThe image below gives an overview of our key repos and how thez are connected with each explained in more detail below."
   },
   {
-    "objectID": "team/DS.html",
-    "href": "team/DS.html",
-    "title": "Data Steward",
-    "section": "",
-    "text": "Wir werden bald einstellen"
+    "objectID": "team-manual.html#sec-how_services",
+    "href": "team-manual.html#sec-how_services",
+    "title": "Data and Modelling Infrastructure Team Manual",
+    "section": "How we provide our services",
+    "text": "How we provide our services\n\nIdeally requests should be made via the contact form/email address provided on the DML webpages, in this case we will use an automation to convert them into issues. However, it should be requests will also happen informally via general emails or direct discussions with members of the SWG, in this case it is the responsibility of the SWG member to create an issue in the service-desk repo\nFirst meeting to discuss the request. Getting details, understanding needs and setting expectations.\nPossibly develop a tiered system for support, maybe only to be used internally to describe the level of effort/engagement/priority. Higher effort requests would perhaps require some kind of reciprocal benefits i.e. support for personnel from the requesting group, or co-authorship on a deliverable, etc.\nWhen creating a repo for the request, set the custom repository property service-repo to true. Custom properties are set in the repository settings on GitHub (Settings → Custom properties) and allow us to filter and identify all service-related repos across the organisation. In the README of the new repo, include a one-sentence description of the purpose of the repo and a link back to the corresponding issue in the service-desk repo (e.g. https://github.com/iat-dml/service-desk/issues/&lt;issue-number&gt;). This connects the working repo to the intake record so that anyone can trace the request back to its original context."
   },
   {
-    "objectID": "projects.html",
-    "href": "projects.html",
-    "title": "Projekte",
-    "section": "",
-    "text": "Living Lab Explorer\n\n\n\ndashboard\n\nvisualization\n\nliving labs\n\ntransfer\n\nWIP\n\n\n\nInteraktive Dashboards zur Auswertung von Umwelt- und sozioökonomischen Daten aus den fünf IAT-Living-Labs.\n\n\n\n01.07.2026\n\n\n\n\n\n\n\n\n\n\n\n\n\nEin Leitfaden für Policy Labs\n\n\n\nguide\n\nmethods\n\nliving labs\n\ntransfer\n\nWIP\n\n\n\nEin interaktiver Leitfaden zur Entwicklung von „Policy Labs“ für Agrarumweltmaßnahmen im Rahmen von „Living Labs“.\n\n\n\n01.07.2026\n\n\n\n\n\n\n\n\n\n\n\n\n\nMonksHillLab-Handbuch zur Feldökophysiologie – Webversion\n\n\n\ncollaboration\n\nresearch platform\n\nWIP\n\ntransfer\n\n\n\nDie DML-Gruppe trug dazu bei, die Reichweite des Handbuchs zur Feldökophysiologie von MonksHillLab zu vergrößern, indem sie es von einem PDF in eine interaktive Webressource…\n\n\n\n03.06.2026\n\n\n\n\n\n\n\n\n\n\n\n\n\nIAT ZALF Templates\n\n\n\ninfrastructure\n\ncollaboration\n\nresearch platform\n\n\n\nVorlagen zur Erstellung von Präsentationen und Dokumenten, die dem Corporate Design von IAT und ZALF entsprechen.\n\n\n\n15.11.2024\n\n\n\n\n\n\nKeine Treffer"
+    "objectID": "team-manual.html#sec-how_communicate",
+    "href": "team-manual.html#sec-how_communicate",
+    "title": "Data and Modelling Infrastructure Team Manual",
+    "section": "How we communicate and stay informed",
+    "text": "How we communicate and stay informed\n\nInternal channels of communication\nTODO: add details of MS teams set-up including the IAT-Core, IAT-All and IAT-DML teams and channels.\nWe will use Github issues as a communication channel for the SWG. This is to ensure that all communication is transparent and accessible to all members of the SWG. We will use issues to discuss and track progress on tasks, share updates, and ask questions. We will also use labels to categorize issues and make it easier to find relevant information.\n\n\nExternal channels of communication\n\nDML website\nZALF Intranet\nZALF website\nZukunft Land\nLinkedIn"
   },
   {
-    "objectID": "projects/monkshilllabs.html",
-    "href": "projects/monkshilllabs.html",
-    "title": "MonksHillLab-Handbuch zur Feldökophysiologie – Webversion",
-    "section": "",
-    "text": "Die Initiative MonksHillLab – Teil der Arbeitsgruppe Ökophysiologie des Wasser- und Stoffkreislaufs am Leibniz-Zentrum für Agrarlandschaftsforschung (ZALF) – erstellt ein frei zugängliches Handbuch mit dem Titel Build-It-Yourself: Low-Cost Systems for Field Ecophysiology, das den Lesern eine Anleitung zum Bau und zur Kalibrierung kostengünstiger, selbstgebauter Sensorsysteme für die Umweltüberwachung bietet.\nDie DML-Gruppe hat gemeinsam mit dem MonksHillLab-Team daran gearbeitet, dieses Handbuch zugänglicher zu gestalten. Bislang lag es als PDF vor; wir haben dabei geholfen, eine Webversion zu erstellen, die mit Quarto erstellt und auf GitHub Pages gehostet wird. Diese bietet interaktive Funktionen (beispielsweise die Möglichkeit, Bilder zu vergrößern und Code-Blöcke zu kopieren) und macht das Handbuch für seine Zielgruppe – Forscher auf der ganzen Welt – attraktiver. Da es zudem als GitHub-Repository gehostet wird, eröffnet dies die Möglichkeit für Beiträge aus der Nutzergemeinschaft, wodurch das Handbuch im Laufe der Zeit wachsen und sich weiterentwickeln kann."
+    "objectID": "team-manual.html#document-templates",
+    "href": "team-manual.html#document-templates",
+    "title": "Data and Modelling Infrastructure Team Manual",
+    "section": "Document templates",
+    "text": "Document templates\nWe have a dedicated repository for document templates ‘templates’ where we will store templates for different types of documents including PDfs, presentations, and reports. This is to ensure consistency in the format and style of our documents and to make it easier for members to create new documents."
   },
   {
-    "objectID": "projects/monkshilllabs.html#entdecken-sie-das-handbuch",
-    "href": "projects/monkshilllabs.html#entdecken-sie-das-handbuch",
-    "title": "MonksHillLab-Handbuch zur Feldökophysiologie – Webversion",
-    "section": "Entdecken Sie das Handbuch",
-    "text": "Entdecken Sie das Handbuch\n\n\nDas Live-Handbuch ist unter monkshilllab-isolab.github.io/LCSfFE-handbook verfügbar. Es handelt sich um ein fortlaufend aktualisiertes Dokument, und das MonksHillLab-Team freut sich über Beiträge zur Verbesserung sowie über neue Kapitel – siehe den Abschnitt „Mitwirken“ im Handbuch oder wenden Sie sich an den Autor (mathias.hoffmann@zalf.de).\nDas Handbuch wird unter einer CC-BY 4.0-Lizenz veröffentlicht und auf Zenodo unter der DOI [10.5281/zenodo.15562591] (https://doi.org/10.5281/zenodo.15562591)."
+    "objectID": "team-manual.html#sec-how_share_documents",
+    "href": "team-manual.html#sec-how_share_documents",
+    "title": "Data and Modelling Infrastructure Team Manual",
+    "section": "How we share documents and data",
+    "text": "How we share documents and data"
   },
   {
-    "objectID": "projects/zalf-iat-templates.html",
-    "href": "projects/zalf-iat-templates.html",
-    "title": "IAT ZALF Templates",
-    "section": "",
-    "text": "Im Rahmen dieses Projekts wurde eine Sammlung wiederverwendbarer Dokument- und Präsentationsvorlagen für die IAT-Arbeitsgruppen erstellt, die sowohl technische Publikationspipelines (Erweiterungen für Quarto) als auch herkömmliche Office-Formate (PowerPoint) abdecken. Alle Vorlagen sind in einem öffentlichen GitHub-Repository unter https://github.com/iat-dml/templates verfügbar."
-  },
-  {
-    "objectID": "projects/zalf-iat-templates.html#quarto-erweiterungen",
-    "href": "projects/zalf-iat-templates.html#quarto-erweiterungen",
-    "title": "IAT ZALF Templates",
-    "section": "Quarto-Erweiterungen",
-    "text": "Quarto-Erweiterungen\nDie wichtigsten Ergebnisse sind vier Quarto-Erweiterungen, die direkt aus dem Repository installiert und in jedem Quarto-Projekt verwendet werden können. Sie sind in sich geschlossen – Logos, Farbpaletten und Schriftarten sind alle im Ordner _extensions/ enthalten, sodass Dokumente unabhängig von der lokalen Umgebung einheitlich dargestellt werden.\n\nInterne Dokumente der ZALF\nEine Erweiterung für Quarto Typst, die .qmd-Dateien als ZALF-PDF-Dokumente mit eigenem Branding rendert. Auf dem Deckblatt werden die Logos von ZALF und der Leibniz-Gemeinschaft oben bzw. unten platziert, während in der Mitte ein grauer Streifen den Dokumenttitel, das Datum und ein optionales Deckbild enthält. Die folgenden Seiten verwenden Laufkopfzeilen, formatierte H1–H4-Überschriften, farbige Aufzählungslisten und gestreifte Tabellen – allesamt in der offiziellen grünen ZALF-Farbpalette (#46A84F) gestaltet.\n\n\n\nTitelseite der ZALF-Vorlage für interne Dokumente\n\n\nquarto use template iat-dml/templates/zalf-internal-typst\n\n\nInterne Dokumente der IAT\nEine begleitende Typst-Erweiterung für interne PDF-Dokumente des IAT. Sie folgt demselben Layout für Deckblatt und Hauptteil wie die ZALF-Vorlage, verwendet jedoch die IAT-Markenpalette, das kombinierte ZALF/IAT-Logo sowie ein markenspezifisches Fußzeilenbanner mit den Logos von Partnern und Förderern.\n\n\n\nDeckblatt der Vorlage für interne IAT-Dokumente\n\n\nquarto use template iat-dml/templates/iat-internal-typst\n\n\nIAT-Präsentationen\nEine Quarto Revealjs-Erweiterung für IAT-HTML-Präsentationen mit Markenelementen. Die Titelfolie verfügt über ein tiefes, waldgrünes Hero-Panel mit weißen Überschriften und dem ZALF/IAT-Logo in der oberen rechten Ecke. Eine Fußzeile in voller Breite enthält die Logos der Partneruniversitäten und die Kennzeichen der Förderer, wodurch die Einhaltung der Anforderungen zur Danksagung bei Fördermitteln von Haus aus gewährleistet ist.\n\n\n\nTitelfolie der IAT-Revealjs-Präsentationsvorlage\n\n\nquarto use template iat-dml/templates/iat-revealjs\n\n\nDML-Präsentationen\nEine Revealjs-Erweiterung, die speziell für die Arbeitsgruppe „Data and Modelling Infrastructure“ (DML) gestaltet wurde. Das Design spiegelt die visuelle Identität von DML wider: „DM Serif Display“ für große Überschriften, „DM Sans“ für den Fließtext, einen warmen, cremefarbenen Papierhintergrund sowie eine dunkelblaugrüne Primärfarbe mit grünen und olivfarbenen Akzenten. In der unteren rechten Ecke jeder Inhaltsfolie erscheint ein dauerhaftes DML-Kreislogo, das bei PDF-Exporten automatisch ausgeblendet wird.\n\n\n\nTitelfolie der DML-Revealjs-Präsentationsvorlage\n\n\nquarto use template iat-dml/templates/dml-revealjs"
-  },
-  {
-    "objectID": "projects/zalf-iat-templates.html#powerpoint-vorlagen",
-    "href": "projects/zalf-iat-templates.html#powerpoint-vorlagen",
-    "title": "IAT ZALF Templates",
-    "section": "PowerPoint-Vorlagen",
-    "text": "PowerPoint-Vorlagen\nFür Nutzer, die traditionelle Präsentationssoftware bevorzugen, sind drei PowerPoint-Vorlagen mit Markenlogo enthalten:\n\nDML — dml-template-powerpoint.potx\nIAT — iat-template-powerpoint.pptx\nZALF — zalf-template-powerpoint-slides.pptx"
-  },
-  {
-    "objectID": "projects/zalf-iat-templates.html#tagesordnung-und-protokoll-der-sitzung",
-    "href": "projects/zalf-iat-templates.html#tagesordnung-und-protokoll-der-sitzung",
-    "title": "IAT ZALF Templates",
-    "section": "Tagesordnung und Protokoll der Sitzung",
-    "text": "Tagesordnung und Protokoll der Sitzung\nFür strukturierte, zweiwöchentliche Sitzungsprotokolle der Arbeitsgruppe „Service“ steht eine Markdown-Vorlage (agenda-minutes-template.md) zur Verfügung, die Informationen zu den aktuellen Entwicklungen in der Arbeitsgruppe, zu den aktuellen Entwicklungen in der Geschäftsleitung sowie zu den zu erledigenden Aufgaben enthält."
-  },
-  {
-    "objectID": "projects/policy-lab-guide.html",
-    "href": "projects/policy-lab-guide.html",
-    "title": "Ein Leitfaden für Policy Labs",
-    "section": "",
-    "text": "Die Policy Lab Guide ist ein noch in der Entwicklung befindliches Projekt, das Forschern und Praktikern als Leitfaden für die Entwicklung von Policy Labs für Agrarumweltmaßnahmen im Rahmen von Living Labs dienen soll. Der Leitfaden ist als praktische Ressource für diejenigen konzipiert, die politische Maßnahmen in Zusammenarbeit mit Interessengruppen gemeinsam gestalten, testen und bewerten möchten, und bietet empfohlene Methoden für jeden Schritt des Prozesses.\nEr bietet zwei Einstiegsmöglichkeiten: ein Konzeptdiagramm, das die Phasen des Policy Labs visuell darstellt, und eine durchsuchbare Methodenbibliothek, in der jede Methode nach Phase, Akteur, Aufwand und Kompetenzniveau gefiltert werden kann.\nDer Leitfaden wird gemeinsam mit Kollegen vom ZALF entwickelt: Bettina Matzdorf, Joana Iwaniw, Ben Black und Sebastian Rogga. In naher Zukunft hoffen wir jedoch, den Leitfaden für Beiträge der breiteren Gemeinschaft von Forschern und Praktikern zu öffnen, die im Bereich des Policy Co-Designs und der Living Labs tätig sind, insbesondere innerhalb des IAT. Bitte melden Sie sich bei uns, wenn Sie einen Beitrag leisten oder Feedback zum Leitfaden geben möchten"
-  },
-  {
-    "objectID": "projects/living-lab-dashboards.html",
-    "href": "projects/living-lab-dashboards.html",
-    "title": "Living Lab Explorer",
-    "section": "",
-    "text": "Der Living Lab Explorer ist ein noch in der Entwicklung befindliches Projekt, das auf den von den regionalen Netzwerkmanagern des IAT erstellten Factsheets aufbaut, um interaktive Dashboards zu erstellen, die es Praxispartnern und Forschern ermöglichen, sich ein Bild von den ökologischen und sozioökonomischen Bedingungen zu machen, die die fünf IAT-Living-Labs charakterisieren."
-  },
-  {
-    "objectID": "contact-form.html",
-    "href": "contact-form.html",
-    "title": "Support anfordern",
-    "section": "",
-    "text": "Verwenden Sie das untenstehende Formular, um uns eine Anfrage zu senden – es ist keinerlei Konto erforderlich."
-  },
-  {
-    "objectID": "contact-form.html#bevorzugen-sie-e-mail",
-    "href": "contact-form.html#bevorzugen-sie-e-mail",
-    "title": "Support anfordern",
-    "section": "Bevorzugen Sie E-Mail?",
-    "text": "Bevorzugen Sie E-Mail?\nSchreiben Sie uns an iat-dml@zalf.de mit einer kurzen Beschreibung Ihrer Anfrage – diese wird automatisch in unserem Tracking-System erfasst und wir melden uns bei Ihnen."
-  },
-  {
-    "objectID": "contact-form.html#haben-sie-bereits-ein-github-konto",
-    "href": "contact-form.html#haben-sie-bereits-ein-github-konto",
-    "title": "Support anfordern",
-    "section": "Haben Sie bereits ein GitHub-Konto?",
-    "text": "Haben Sie bereits ein GitHub-Konto?\nSie können eine Anfrage direkt in unserem Service Desk erstellen."
-  },
-  {
-    "objectID": "team/RSE.html",
-    "href": "team/RSE.html",
-    "title": "Research Software Engineer",
-    "section": "",
-    "text": "Wir werden bald einstellen"
-  },
-  {
-    "objectID": "team/Ben.html",
-    "href": "team/Ben.html",
-    "title": "Ben Black",
-    "section": "",
-    "text": "University of California, San Diego | San Diego, CA PhD in Mathematics | Sept 2011 - June 2015\nMacalester College | St. Paul, MN B.A in Economics | Sept 2007 - June 2011"
-  },
-  {
-    "objectID": "team/Ben.html#education",
-    "href": "team/Ben.html#education",
-    "title": "Ben Black",
-    "section": "",
-    "text": "University of California, San Diego | San Diego, CA PhD in Mathematics | Sept 2011 - June 2015\nMacalester College | St. Paul, MN B.A in Economics | Sept 2007 - June 2011"
-  },
-  {
-    "objectID": "team/Ben.html#experience",
-    "href": "team/Ben.html#experience",
-    "title": "Ben Black",
-    "section": "Experience",
-    "text": "Experience\nWengo Analytics | Head Data Scientist | April 2018 - present\nGeoScynce | Chief Analyst | Spet 2012 - April 2018 test"
+    "objectID": "team-manual.html#sharing-documents",
+    "href": "team-manual.html#sharing-documents",
+    "title": "Data and Modelling Infrastructure Team Manual",
+    "section": "Sharing documents",
+    "text": "Sharing documents\n\nFor sharing ZALF internal documents on github use Sharepoint links\nFor collaboration with other SWGs, Admin and Coordination in the IAT we should use Sharepoint and/or Teams channels."
   },
   {
     "objectID": "privacy-policy.html",
@@ -271,6 +166,167 @@
     "title": "Datenschutzerklärung",
     "section": "10. Kontakt",
     "text": "10. Kontakt\nBei Fragen zur Datenschutzerklärung kontaktieren Sie uns bitte:\n\nLeibniz-Zentrum für Agrarlandschaftsforschung (ZALF) e.V.\nArbeitsgruppe „Data and Modelling Infrastructure for Living Labs (DML)”\nE-mail: benjaminsamuel.black@zalf.de"
+  },
+  {
+    "objectID": "team/Ben.html",
+    "href": "team/Ben.html",
+    "title": "Ben Black",
+    "section": "",
+    "text": "University of California, San Diego | San Diego, CA PhD in Mathematics | Sept 2011 - June 2015\nMacalester College | St. Paul, MN B.A in Economics | Sept 2007 - June 2011"
+  },
+  {
+    "objectID": "team/Ben.html#education",
+    "href": "team/Ben.html#education",
+    "title": "Ben Black",
+    "section": "",
+    "text": "University of California, San Diego | San Diego, CA PhD in Mathematics | Sept 2011 - June 2015\nMacalester College | St. Paul, MN B.A in Economics | Sept 2007 - June 2011"
+  },
+  {
+    "objectID": "team/Ben.html#experience",
+    "href": "team/Ben.html#experience",
+    "title": "Ben Black",
+    "section": "Experience",
+    "text": "Experience\nWengo Analytics | Head Data Scientist | April 2018 - present\nGeoScynce | Chief Analyst | Spet 2012 - April 2018 test"
+  },
+  {
+    "objectID": "team/RSE.html",
+    "href": "team/RSE.html",
+    "title": "Research Software Engineer",
+    "section": "",
+    "text": "Wir werden bald einstellen"
+  },
+  {
+    "objectID": "contact-form.html",
+    "href": "contact-form.html",
+    "title": "Support anfordern",
+    "section": "",
+    "text": "Verwenden Sie das untenstehende Formular, um uns eine Anfrage zu senden – es ist keinerlei Konto erforderlich."
+  },
+  {
+    "objectID": "contact-form.html#bevorzugen-sie-e-mail",
+    "href": "contact-form.html#bevorzugen-sie-e-mail",
+    "title": "Support anfordern",
+    "section": "Bevorzugen Sie E-Mail?",
+    "text": "Bevorzugen Sie E-Mail?\nSchreiben Sie uns an iat-dml@zalf.de mit einer kurzen Beschreibung Ihrer Anfrage – diese wird automatisch in unserem Tracking-System erfasst und wir melden uns bei Ihnen."
+  },
+  {
+    "objectID": "contact-form.html#haben-sie-bereits-ein-github-konto",
+    "href": "contact-form.html#haben-sie-bereits-ein-github-konto",
+    "title": "Support anfordern",
+    "section": "Haben Sie bereits ein GitHub-Konto?",
+    "text": "Haben Sie bereits ein GitHub-Konto?\nSie können eine Anfrage direkt in unserem Service Desk erstellen."
+  },
+  {
+    "objectID": "projects/living-lab-dashboards.html",
+    "href": "projects/living-lab-dashboards.html",
+    "title": "Living Lab Explorer",
+    "section": "",
+    "text": "Der Living Lab Explorer ist ein noch in der Entwicklung befindliches Projekt, das auf den von den regionalen Netzwerkmanagern des IAT erstellten Factsheets aufbaut, um interaktive Dashboards zu erstellen, die es Praxispartnern und Forschern ermöglichen, sich ein Bild von den ökologischen und sozioökonomischen Bedingungen zu machen, die die fünf IAT-Living-Labs charakterisieren."
+  },
+  {
+    "objectID": "projects/policy-lab-guide.html",
+    "href": "projects/policy-lab-guide.html",
+    "title": "Ein Leitfaden für Policy Labs",
+    "section": "",
+    "text": "Die Policy Lab Guide ist ein noch in der Entwicklung befindliches Projekt, das Forschern und Praktikern als Leitfaden für die Entwicklung von Policy Labs für Agrarumweltmaßnahmen im Rahmen von Living Labs dienen soll. Der Leitfaden ist als praktische Ressource für diejenigen konzipiert, die politische Maßnahmen in Zusammenarbeit mit Interessengruppen gemeinsam gestalten, testen und bewerten möchten, und bietet empfohlene Methoden für jeden Schritt des Prozesses.\nEr bietet zwei Einstiegsmöglichkeiten: ein Konzeptdiagramm, das die Phasen des Policy Labs visuell darstellt, und eine durchsuchbare Methodenbibliothek, in der jede Methode nach Phase, Akteur, Aufwand und Kompetenzniveau gefiltert werden kann.\nDer Leitfaden wird gemeinsam mit Kollegen vom ZALF entwickelt: Bettina Matzdorf, Joana Iwaniw, Ben Black und Sebastian Rogga. In naher Zukunft hoffen wir jedoch, den Leitfaden für Beiträge der breiteren Gemeinschaft von Forschern und Praktikern zu öffnen, die im Bereich des Policy Co-Designs und der Living Labs tätig sind, insbesondere innerhalb des IAT. Bitte melden Sie sich bei uns, wenn Sie einen Beitrag leisten oder Feedback zum Leitfaden geben möchten"
+  },
+  {
+    "objectID": "projects/zalf-iat-templates.html",
+    "href": "projects/zalf-iat-templates.html",
+    "title": "IAT ZALF Templates",
+    "section": "",
+    "text": "Im Rahmen dieses Projekts wurde eine Sammlung wiederverwendbarer Dokument- und Präsentationsvorlagen für die IAT-Arbeitsgruppen erstellt, die sowohl technische Publikationspipelines (Erweiterungen für Quarto) als auch herkömmliche Office-Formate (PowerPoint) abdecken. Alle Vorlagen sind in einem öffentlichen GitHub-Repository unter https://github.com/iat-dml/templates verfügbar."
+  },
+  {
+    "objectID": "projects/zalf-iat-templates.html#quarto-erweiterungen",
+    "href": "projects/zalf-iat-templates.html#quarto-erweiterungen",
+    "title": "IAT ZALF Templates",
+    "section": "Quarto-Erweiterungen",
+    "text": "Quarto-Erweiterungen\nDie wichtigsten Ergebnisse sind vier Quarto-Erweiterungen, die direkt aus dem Repository installiert und in jedem Quarto-Projekt verwendet werden können. Sie sind in sich geschlossen – Logos, Farbpaletten und Schriftarten sind alle im Ordner _extensions/ enthalten, sodass Dokumente unabhängig von der lokalen Umgebung einheitlich dargestellt werden.\n\nInterne Dokumente der ZALF\nEine Erweiterung für Quarto Typst, die .qmd-Dateien als ZALF-PDF-Dokumente mit eigenem Branding rendert. Auf dem Deckblatt werden die Logos von ZALF und der Leibniz-Gemeinschaft oben bzw. unten platziert, während in der Mitte ein grauer Streifen den Dokumenttitel, das Datum und ein optionales Deckbild enthält. Die folgenden Seiten verwenden Laufkopfzeilen, formatierte H1–H4-Überschriften, farbige Aufzählungslisten und gestreifte Tabellen – allesamt in der offiziellen grünen ZALF-Farbpalette (#46A84F) gestaltet.\n\n\n\nTitelseite der ZALF-Vorlage für interne Dokumente\n\n\nquarto use template iat-dml/templates/zalf-internal-typst\n\n\nInterne Dokumente der IAT\nEine begleitende Typst-Erweiterung für interne PDF-Dokumente des IAT. Sie folgt demselben Layout für Deckblatt und Hauptteil wie die ZALF-Vorlage, verwendet jedoch die IAT-Markenpalette, das kombinierte ZALF/IAT-Logo sowie ein markenspezifisches Fußzeilenbanner mit den Logos von Partnern und Förderern.\n\n\n\nDeckblatt der Vorlage für interne IAT-Dokumente\n\n\nquarto use template iat-dml/templates/iat-internal-typst\n\n\nIAT-Präsentationen\nEine Quarto Revealjs-Erweiterung für IAT-HTML-Präsentationen mit Markenelementen. Die Titelfolie verfügt über ein tiefes, waldgrünes Hero-Panel mit weißen Überschriften und dem ZALF/IAT-Logo in der oberen rechten Ecke. Eine Fußzeile in voller Breite enthält die Logos der Partneruniversitäten und die Kennzeichen der Förderer, wodurch die Einhaltung der Anforderungen zur Danksagung bei Fördermitteln von Haus aus gewährleistet ist.\n\n\n\nTitelfolie der IAT-Revealjs-Präsentationsvorlage\n\n\nquarto use template iat-dml/templates/iat-revealjs\n\n\nDML-Präsentationen\nEine Revealjs-Erweiterung, die speziell für die Arbeitsgruppe „Data and Modelling Infrastructure“ (DML) gestaltet wurde. Das Design spiegelt die visuelle Identität von DML wider: „DM Serif Display“ für große Überschriften, „DM Sans“ für den Fließtext, einen warmen, cremefarbenen Papierhintergrund sowie eine dunkelblaugrüne Primärfarbe mit grünen und olivfarbenen Akzenten. In der unteren rechten Ecke jeder Inhaltsfolie erscheint ein dauerhaftes DML-Kreislogo, das bei PDF-Exporten automatisch ausgeblendet wird.\n\n\n\nTitelfolie der DML-Revealjs-Präsentationsvorlage\n\n\nquarto use template iat-dml/templates/dml-revealjs"
+  },
+  {
+    "objectID": "projects/zalf-iat-templates.html#powerpoint-vorlagen",
+    "href": "projects/zalf-iat-templates.html#powerpoint-vorlagen",
+    "title": "IAT ZALF Templates",
+    "section": "PowerPoint-Vorlagen",
+    "text": "PowerPoint-Vorlagen\nFür Nutzer, die traditionelle Präsentationssoftware bevorzugen, sind drei PowerPoint-Vorlagen mit Markenlogo enthalten:\n\nDML — dml-template-powerpoint.potx\nIAT — iat-template-powerpoint.pptx\nZALF — zalf-template-powerpoint-slides.pptx"
+  },
+  {
+    "objectID": "projects/zalf-iat-templates.html#tagesordnung-und-protokoll-der-sitzung",
+    "href": "projects/zalf-iat-templates.html#tagesordnung-und-protokoll-der-sitzung",
+    "title": "IAT ZALF Templates",
+    "section": "Tagesordnung und Protokoll der Sitzung",
+    "text": "Tagesordnung und Protokoll der Sitzung\nFür strukturierte, zweiwöchentliche Sitzungsprotokolle der Arbeitsgruppe „Service“ steht eine Markdown-Vorlage (agenda-minutes-template.md) zur Verfügung, die Informationen zu den aktuellen Entwicklungen in der Arbeitsgruppe, zu den aktuellen Entwicklungen in der Geschäftsleitung sowie zu den zu erledigenden Aufgaben enthält."
+  },
+  {
+    "objectID": "projects/monkshilllabs.html",
+    "href": "projects/monkshilllabs.html",
+    "title": "MonksHillLab-Handbuch zur Feldökophysiologie – Webversion",
+    "section": "",
+    "text": "Die Initiative MonksHillLab – Teil der Arbeitsgruppe Ökophysiologie des Wasser- und Stoffkreislaufs am Leibniz-Zentrum für Agrarlandschaftsforschung (ZALF) – erstellt ein frei zugängliches Handbuch mit dem Titel Build-It-Yourself: Low-Cost Systems for Field Ecophysiology, das den Lesern eine Anleitung zum Bau und zur Kalibrierung kostengünstiger, selbstgebauter Sensorsysteme für die Umweltüberwachung bietet.\nDie DML-Gruppe hat gemeinsam mit dem MonksHillLab-Team daran gearbeitet, dieses Handbuch zugänglicher zu gestalten. Bislang lag es als PDF vor; wir haben dabei geholfen, eine Webversion zu erstellen, die mit Quarto erstellt und auf GitHub Pages gehostet wird. Diese bietet interaktive Funktionen (beispielsweise die Möglichkeit, Bilder zu vergrößern und Code-Blöcke zu kopieren) und macht das Handbuch für seine Zielgruppe – Forscher auf der ganzen Welt – attraktiver. Da es zudem als GitHub-Repository gehostet wird, eröffnet dies die Möglichkeit für Beiträge aus der Nutzergemeinschaft, wodurch das Handbuch im Laufe der Zeit wachsen und sich weiterentwickeln kann."
+  },
+  {
+    "objectID": "projects/monkshilllabs.html#entdecken-sie-das-handbuch",
+    "href": "projects/monkshilllabs.html#entdecken-sie-das-handbuch",
+    "title": "MonksHillLab-Handbuch zur Feldökophysiologie – Webversion",
+    "section": "Entdecken Sie das Handbuch",
+    "text": "Entdecken Sie das Handbuch\n\n\nDas Live-Handbuch ist unter monkshilllab-isolab.github.io/LCSfFE-handbook verfügbar. Es handelt sich um ein fortlaufend aktualisiertes Dokument, und das MonksHillLab-Team freut sich über Beiträge zur Verbesserung sowie über neue Kapitel – siehe den Abschnitt „Mitwirken“ im Handbuch oder wenden Sie sich an den Autor (mathias.hoffmann@zalf.de).\nDas Handbuch wird unter einer CC-BY 4.0-Lizenz veröffentlicht und auf Zenodo unter der DOI [10.5281/zenodo.15562591] (https://doi.org/10.5281/zenodo.15562591)."
+  },
+  {
+    "objectID": "projects.html",
+    "href": "projects.html",
+    "title": "Projekte",
+    "section": "",
+    "text": "Living Lab Explorer\n\n\n\ndashboard\n\nvisualization\n\nliving labs\n\ntransfer\n\nWIP\n\n\n\nInteraktive Dashboards zur Auswertung von Umwelt- und sozioökonomischen Daten aus den fünf IAT-Living-Labs.\n\n\n\n01.07.2026\n\n\n\n\n\n\n\n\n\n\n\n\n\nEin Leitfaden für Policy Labs\n\n\n\nguide\n\nmethods\n\nliving labs\n\ntransfer\n\nWIP\n\n\n\nEin interaktiver Leitfaden zur Entwicklung von „Policy Labs“ für Agrarumweltmaßnahmen im Rahmen von „Living Labs“.\n\n\n\n01.07.2026\n\n\n\n\n\n\n\n\n\n\n\n\n\nMonksHillLab-Handbuch zur Feldökophysiologie – Webversion\n\n\n\ncollaboration\n\nresearch platform\n\nWIP\n\ntransfer\n\n\n\nDie DML-Gruppe trug dazu bei, die Reichweite des Handbuchs zur Feldökophysiologie von MonksHillLab zu vergrößern, indem sie es von einem PDF in eine interaktive Webressource…\n\n\n\n03.06.2026\n\n\n\n\n\n\n\n\n\n\n\n\n\nIAT ZALF Templates\n\n\n\ninfrastructure\n\ncollaboration\n\nresearch platform\n\n\n\nVorlagen zur Erstellung von Präsentationen und Dokumenten, die dem Corporate Design von IAT und ZALF entsprechen.\n\n\n\n15.11.2024\n\n\n\n\n\n\nKeine Treffer"
+  },
+  {
+    "objectID": "team/DS.html",
+    "href": "team/DS.html",
+    "title": "Data Steward",
+    "section": "",
+    "text": "Wir werden bald einstellen"
+  },
+  {
+    "objectID": "services.html",
+    "href": "services.html",
+    "title": "Dienstleistungen",
+    "section": "",
+    "text": "Die Arbeitsgruppe bietet unterschiedliche Unterstützungsstufen an, abhängig vom Umfang der Anfrage, der erwarteten Zusammenarbeit und dem Aufwand für belastbare Ergebnisse."
+  },
+  {
+    "objectID": "services.html#unterstützungsmodell",
+    "href": "services.html#unterstützungsmodell",
+    "title": "Dienstleistungen",
+    "section": "",
+    "text": "Die Arbeitsgruppe bietet unterschiedliche Unterstützungsstufen an, abhängig vom Umfang der Anfrage, der erwarteten Zusammenarbeit und dem Aufwand für belastbare Ergebnisse."
+  },
+  {
+    "objectID": "resources.html",
+    "href": "resources.html",
+    "title": "Ressourcen",
+    "section": "",
+    "text": "Dieses Repository soll ein lebendiges Dokument für SWG- und IAT-Mitglieder sein, um nützliche Informationen und Ressourcen in Bezug auf Open Science, Programmierung und Datenvisualisierung auszutauschen.\nEinige Dokumente, die Leitprinzipien enthalten:\nCheck out the Open Science Awesome List"
+  },
+  {
+    "objectID": "resources.html#datenvisualisierung",
+    "href": "resources.html#datenvisualisierung",
+    "title": "Ressourcen",
+    "section": "Datenvisualisierung",
+    "text": "Datenvisualisierung\n\nFundamentals of Data Visualization\nOpen Visualisation Academy"
+  },
+  {
+    "objectID": "resources.html#r",
+    "href": "resources.html#r",
+    "title": "Ressourcen",
+    "section": "R",
+    "text": "R\nWhat they forgot to teach you about R: https://rstats.wtf/"
+  },
+  {
+    "objectID": "resources.html#quarto",
+    "href": "resources.html#quarto",
+    "title": "Ressourcen",
+    "section": "Quarto",
+    "text": "Quarto\n\nBeautiful slides with RevealJS and Quarto"
   },
   {
     "objectID": "team.html",

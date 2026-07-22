@@ -49,6 +49,195 @@
     "text": "Click on each team members profile for further information.\n\n\n\n  \n    \n      \n        \n        \n          \n        \n        \n        \n        \n        \n          \n            \n              \n          \n            \n          \n              \n            \n              \n          \n            \n          \n              \n            \n              \n          \n            \n          \n              \n            \n              \n          \n            \n          \n              \n            \n          \n        \n        \n        \n        \n          \n          Ben Black\n          \n          \n          \n          Head of the working group\n          \n\n          \n          \n            Ben is the head of our working group, responsible for overseeing all projects and ensuring successful delivery. With a strong background in software engineering and team leadership, Ben has been instrumental in driving innovation and fostering a collaborative work environment.\n          \n          \n          \n          \n          \n            Expertise:\n            \n            \n              \n            R\n              \n            Quarto\n              \n            Team Leadership\n              \n            System Design\n              \n            \n          \n          \n          \n          \n          \n          \n            Projects:\n            \n              \n                \n                  \n              Living Labs Explorer\n                  \n                \n                  \n              Microservices Framework\n                  \n                \n                  \n              Developer Portal\n                  \n                \n              \n            \n          \n          \n        \n      \n    \n  \n\n  \n    \n      \n        \n        \n          \n        \n        \n        \n        \n        \n        \n          \n          Data Steward\n          \n          \n          \n          Data Steward\n          \n\n          \n          \n            \n          \n          \n          \n          \n          \n            Expertise:\n            \n            \n              \n            Research Data Management\n              \n            Metadata Standards\n              \n            Data Curation\n              \n            Data Protection and Privacy\n              \n            \n          \n          \n          \n          \n          \n        \n      \n    \n  \n\n  \n    \n      \n        \n        \n          \n        \n        \n        \n        \n        \n        \n          \n          Research Software Engineer\n          \n          \n          \n          Research Software Engineer\n          \n\n          \n          \n            \n          \n          \n          \n          \n          \n            Expertise:\n            \n            \n              \n            Python\n              \n            R\n              \n            Git\n              \n            Software Architecture\n              \n            CI/CD\n              \n            HPC\n              \n            Open Source Development\n              \n            \n          \n          \n          \n          \n          \n        \n      \n    \n  \n\n\nNo matching items"
   },
   {
+    "objectID": "resources.html",
+    "href": "resources.html",
+    "title": "Resources and tools",
+    "section": "",
+    "text": "This repo is intended to be a living document for SWG and IAT members to share useful information and resources related to Open Science, programming and Data Visualisation.\nSome documents that provide guiding principles:"
+  },
+  {
+    "objectID": "resources.html#open-science-communities-and-initiatives",
+    "href": "resources.html#open-science-communities-and-initiatives",
+    "title": "Resources and tools",
+    "section": "Open Science communities and Initiatives",
+    "text": "Open Science communities and Initiatives\n\nOpen Science Awesome List\nThe Turing Way’s Guide to Planning a Community - A guide to planning and building a community around open science, including tips on communication, governance, and sustainability.\nAG Open Science - German-speaking OKF working group “Open Science”. Connecting active members of the open science community and advocating for better framework conditions for research, collaboration, and publication.\nGerman Reproducibility Network (GRN) - A network of researchers and institutions in Germany working to improve the reproducibility of scientific research.\nReproducibility for Everyone (R4Everyone) - A community-driven initiative to promote reproducibility in scientific research through training, resources, and advocacy.\nFOSTER Open Science - A concluded European project that provides training and resources to support the adoption of open science practices."
+  },
+  {
+    "objectID": "resources.html#data-visualisation",
+    "href": "resources.html#data-visualisation",
+    "title": "Resources and tools",
+    "section": "Data visualisation",
+    "text": "Data visualisation\n\nFundamentals of Data Visualization\nOpen Visualisation Academy"
+  },
+  {
+    "objectID": "resources.html#r",
+    "href": "resources.html#r",
+    "title": "Resources and tools",
+    "section": "R",
+    "text": "R\n\nWhat they forgot to teach you about R"
+  },
+  {
+    "objectID": "resources.html#quarto",
+    "href": "resources.html#quarto",
+    "title": "Resources and tools",
+    "section": "Quarto",
+    "text": "Quarto\n\nBeautiful slides with RevealJS and Quarto"
+  },
+  {
+    "objectID": "resources.html#generative-ai",
+    "href": "resources.html#generative-ai",
+    "title": "Resources and tools",
+    "section": "Generative AI",
+    "text": "Generative AI\n\nDictionary of AI coding\ngettingstuffdoneai - Directory of Generative AI Tools and Models, categorized by use case and functionality.\nKI-campus - Numerous free courses on AI and related topics, including data science, machine learning, and ethical considerations in AI."
+  },
+  {
+    "objectID": "resources.html#tools-and-software",
+    "href": "resources.html#tools-and-software",
+    "title": "Resources and tools",
+    "section": "Tools and Software",
+    "text": "Tools and Software\n\nAcademic Cloud\nTIB AIsstant\nORKG Ask: Open Source scholarly search and exploration system powered by Vector Search, Large Language Models and Knowledge Graphs\nRspace: Interoperable research tools across domains, facilitating machine actionable passage of data and metadata through all stages of the research lifecycleinteroperable research tools across domains, facilitating machine actionable passage of data and metadata through all stages of the research lifecycle\nEU alternatives for software - A directory of software alternatives to popular proprietary software, with a focus on European users and organizations.\nInkscape - Open source vector graphics editor, alternative to Adobe products, useful for creating and editing figures for publications and presentations. Available via the ZALF baramundi client.\nSoRA Geolinking service for social science data"
+  },
+  {
+    "objectID": "resources.html#training",
+    "href": "resources.html#training",
+    "title": "Resources and tools",
+    "section": "Training",
+    "text": "Training\n\nDigital Research Academy - a trainer network focused on Open Science, Data Literacy, and Research Software Engineering (DRA’s [Zenodo collection] (https://zenodo.org/communities/digiresacademy/records?q=&l=list&p=1&s=10&sort=newest)).\nBERD academy\nBERD reproducible research course\nNFDI4Earth - Educational Portal\nAssured Training -Ensures the safe, legal, and ethical use of sensitive data through targeted training and certification.\nLiebniz Institute for the Social Sciences (GESIS)"
+  },
+  {
+    "objectID": "services.html",
+    "href": "services.html",
+    "title": "Services",
+    "section": "",
+    "text": "The working group offers different levels of support depending on the scope of the request, the expected collaboration, and the time needed to deliver useful results."
+  },
+  {
+    "objectID": "services.html#tiered-support-model",
+    "href": "services.html#tiered-support-model",
+    "title": "Services",
+    "section": "",
+    "text": "The working group offers different levels of support depending on the scope of the request, the expected collaboration, and the time needed to deliver useful results."
+  },
+  {
+    "objectID": "team/DS.html",
+    "href": "team/DS.html",
+    "title": "Data Steward",
+    "section": "",
+    "text": "We will be hiring soon!"
+  },
+  {
+    "objectID": "projects.html",
+    "href": "projects.html",
+    "title": "Projects",
+    "section": "",
+    "text": "Living Lab Explorer\n\n\n\ndashboard\n\nvisualization\n\nliving labs\n\ntransfer\n\nWIP\n\n\n\nInteractive dashboards for exploring environmentaL and socio-economic data from the five IAT Living Labs.\n\n\n\nJul 1, 2026\n\n\n\n\n\n\n\n\n\n\n\n\n\nA how-to guide for Policy Labs\n\n\n\nguide\n\nmethods\n\nliving labs\n\ntransfer\n\nWIP\n\n\n\nAn interactive guide for developing Policy Labs for Agri-environmental Measures within Living Labs.\n\n\n\nJul 1, 2026\n\n\n\n\n\n\n\n\n\n\n\n\n\nMonksHillLab field ecophysiology handbook web version\n\n\n\ncollaboration\n\nresearch platform\n\nWIP\n\ntransfer\n\n\n\nThe DML group helped broaden the reach of the MonksHillLab field ecophysiology handbook by moving from a PDF to an interactive web resource.\n\n\n\nJun 3, 2026\n\n\n\n\n\n\n\n\n\n\n\n\n\nIAT ZALF Templates\n\n\n\ninfrastructure\n\ncollaboration\n\nresearch platform\n\n\n\nTemplates for producing presentations and documents consistent with the IAT and ZALF branding.\n\n\n\nNov 15, 2024\n\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "projects/monkshilllabs.html",
+    "href": "projects/monkshilllabs.html",
+    "title": "MonksHillLab field ecophysiology handbook web version",
+    "section": "",
+    "text": "The MonksHillLab initiative — part of the Working Group Ecophysiology of Water and Matter Cycling at the Leibniz Centre for Agricultural Landscape Research (ZALF) — produces an open handbook, Build-It-Yourself: Low-Cost Systems for Field Ecophysiology, which guides readers through building and calibrating low-cost, DIY sensor systems for environmental monitoring.\nThe DML group worked with the MonksHillLab team to make this handbook more accessible. Previously it existed as a PDF; we helped create a web version built with Quarto and hosted on GitHub Pages that adds interactivity (for example being able to expand images and copy code blocks) making it more engaging to its intended audience of researchers around the world. Also becaus eit is hosted as a GitHub repository this opens up the door for contributions from the user community, allowing the handbook to grow and evolve over time."
+  },
+  {
+    "objectID": "projects/monkshilllabs.html#explore-the-handbook",
+    "href": "projects/monkshilllabs.html#explore-the-handbook",
+    "title": "MonksHillLab field ecophysiology handbook web version",
+    "section": "Explore the handbook",
+    "text": "Explore the handbook\n\n\nThe live handbook is available at monkshilllab-isolab.github.io/LCSfFE-handbook. It is a living document, and the MonksHillLab team welcomes contributions of improvements and new chapters — see the handbook’s contributing section, or contact the author (mathias.hoffmann@zalf.de).\nThe handbook is published under a CC-BY 4.0 licence and archived on Zenodo at DOI 10.5281/zenodo.15562591."
+  },
+  {
+    "objectID": "projects/zalf-iat-templates.html",
+    "href": "projects/zalf-iat-templates.html",
+    "title": "IAT ZALF Templates",
+    "section": "",
+    "text": "This project delivered a collection of reusable document and presentation templates for the IAT working groups, covering both technical publishing pipelines (Quarto extensions) and traditional office formats (PowerPoint). All templates are available in a public GitHub repository at https://github.com/iat-dml/templates."
+  },
+  {
+    "objectID": "projects/zalf-iat-templates.html#quarto-extensions",
+    "href": "projects/zalf-iat-templates.html#quarto-extensions",
+    "title": "IAT ZALF Templates",
+    "section": "Quarto Extensions",
+    "text": "Quarto Extensions\nThe core deliverables are four Quarto extensions that can be installed directly from the repository and used in any Quarto project. They are self-contained — logos, colour palettes, and fonts are all bundled inside the _extensions/ folder, so documents render consistently regardless of the local environment.\n\nZALF Internal Documents\nA Quarto Typst extension that renders .qmd files as branded ZALF PDF documents. The cover page places the ZALF and Leibniz Association logos at the top and bottom respectively, with a grey band across the middle carrying the document title, date, and an optional cover image. Subsequent pages use running headers, styled H1–H4 headings, coloured bullet lists, and striped tables — all drawn from the official ZALF green palette (#46A84F).\n\n\n\nCover page of the ZALF internal document template\n\n\nquarto use template iat-dml/templates/zalf-internal-typst\n\n\nIAT Internal Documents\nA companion Typst extension for IAT internal PDF documents. It follows the same cover-page and body layout as the ZALF template but swaps in the IAT brand palette, the combined ZALF/IAT logo, and a branded footer banner with partner and funder logos.\n\n\n\nCover page of the IAT internal document template\n\n\nquarto use template iat-dml/templates/iat-internal-typst\n\n\nIAT Presentations\nA Quarto Revealjs extension for branded IAT HTML slide decks. The title slide uses a deep forest-green hero panel with white headings and the ZALF/IAT logo in the top-right corner. A full-width footer bar carries partner university logos and funder marks, ensuring compliance with grant acknowledgement requirements out of the box.\n\n\n\nTitle slide of the IAT Revealjs presentation template\n\n\nquarto use template iat-dml/templates/iat-revealjs\n\n\nDML Presentations\nA Revealjs extension styled for the Data and Modelling Infrastructure (DML) working group. The theme reflects the DML visual identity: DM Serif Display for large headings, DM Sans for body text, a warm off-white paper background, and a teal-dark primary colour with green and olive accents. A persistent DML circular mark appears in the lower-right corner of every content slide and hides automatically in PDF exports.\n\n\n\nTitle slide of the DML Revealjs presentation template\n\n\nquarto use template iat-dml/templates/dml-revealjs"
+  },
+  {
+    "objectID": "projects/zalf-iat-templates.html#powerpoint-templates",
+    "href": "projects/zalf-iat-templates.html#powerpoint-templates",
+    "title": "IAT ZALF Templates",
+    "section": "PowerPoint Templates",
+    "text": "PowerPoint Templates\nThree branded PowerPoint templates are included for users who prefer traditional slide software:\n\nDML — dml-template-powerpoint.potx\nIAT — iat-template-powerpoint.pptx\nZALF — zalf-template-powerpoint-slides.pptx"
+  },
+  {
+    "objectID": "projects/zalf-iat-templates.html#meeting-agenda-minutes",
+    "href": "projects/zalf-iat-templates.html#meeting-agenda-minutes",
+    "title": "IAT ZALF Templates",
+    "section": "Meeting Agenda & Minutes",
+    "text": "Meeting Agenda & Minutes\nA Markdown template (agenda-minutes-template.md) is provided for structured bi-weekly service working group meeting notes, covering working group updates, management updates, and action items."
+  },
+  {
+    "objectID": "projects/policy-lab-guide.html",
+    "href": "projects/policy-lab-guide.html",
+    "title": "A how-to guide for Policy Labs",
+    "section": "",
+    "text": "The Policy Lab Guide is a work-in-progress project to guide researchers and practictioners in the development of Policy Labs for Agri-environmental Measures within the setting of Living Labs. The guide is designed to be a practical resource for those looking to co-design, test and evaluate policy interventions in collaboration with stakeholders, providing recommended methods for each step of the process.\nIt offers two ways in: a concept diagram that lays out the Policy Lab phases in a visual format, and a searchable methods library where every method can be filtered by phase, actor, effort, and skill level.\nThe guide is being developed collaboratively with colleagues at ZALF: Bettina Matzdorf, Joana Iwaniw, Ben Black, and Sebastian Rogga. But in the near future we hope to open the guide up for contributions from the wider community of researchers and practitioners working in the field of policy co-design and Living Labs especially within the IAT. Please get in touch if you would like to contribute or provide feedback on the guide"
+  },
+  {
+    "objectID": "projects/living-lab-dashboards.html",
+    "href": "projects/living-lab-dashboards.html",
+    "title": "Living Lab Explorer",
+    "section": "",
+    "text": "The Living Lab Explorer is a work-in-progress project building upon factsheets prepared by the IAT Regional Network Managers to create interactive dashboards to allow practice partners and researchers to gain an understanding of the environmental and socio-economic conditions that characterise the five IAT Living Labs."
+  },
+  {
+    "objectID": "contact-form.html",
+    "href": "contact-form.html",
+    "title": "Request Support",
+    "section": "",
+    "text": "Use the form below to send us a request — no account of any kind is required."
+  },
+  {
+    "objectID": "contact-form.html#prefer-email",
+    "href": "contact-form.html#prefer-email",
+    "title": "Request Support",
+    "section": "Prefer email?",
+    "text": "Prefer email?\nWrite to us at iat-dml@zalf.de with a short description of your request — it is logged automatically in our tracking system and we will get back to you."
+  },
+  {
+    "objectID": "contact-form.html#already-have-a-github-account",
+    "href": "contact-form.html#already-have-a-github-account",
+    "title": "Request Support",
+    "section": "Already have a GitHub account?",
+    "text": "Already have a GitHub account?\nYou can open a request directly in our service desk."
+  },
+  {
+    "objectID": "team/RSE.html",
+    "href": "team/RSE.html",
+    "title": "Research Software Engineer",
+    "section": "",
+    "text": "We will be hiring soon"
+  },
+  {
+    "objectID": "team/Ben.html",
+    "href": "team/Ben.html",
+    "title": "Ben Black",
+    "section": "",
+    "text": "University of California, San Diego | San Diego, CA PhD in Mathematics | Sept 2011 - June 2015\nMacalester College | St. Paul, MN B.A in Economics | Sept 2007 - June 2011"
+  },
+  {
+    "objectID": "team/Ben.html#education",
+    "href": "team/Ben.html#education",
+    "title": "Ben Black",
+    "section": "",
+    "text": "University of California, San Diego | San Diego, CA PhD in Mathematics | Sept 2011 - June 2015\nMacalester College | St. Paul, MN B.A in Economics | Sept 2007 - June 2011"
+  },
+  {
+    "objectID": "team/Ben.html#experience",
+    "href": "team/Ben.html#experience",
+    "title": "Ben Black",
+    "section": "Experience",
+    "text": "Experience\nWengo Analytics | Head Data Scientist | April 2018 - present\nGeoScynce | Chief Analyst | Spet 2012 - April 2018 test"
+  },
+  {
     "objectID": "privacy-policy.html",
     "href": "privacy-policy.html",
     "title": "Privacy policy",
@@ -133,193 +322,60 @@
     "text": "10. Contact\nIf you have questions about this privacy policy, please contact:\n\nLeibniz Centre for Agricultural Landscape Research (ZALF) e.V.\nData and Modelling Infrastructure for Living Labs (DML) Working Group\nE-mail: benjaminsamuel.black@zalf.de"
   },
   {
-    "objectID": "team/Ben.html",
-    "href": "team/Ben.html",
-    "title": "Ben Black",
+    "objectID": "team-manual.html",
+    "href": "team-manual.html",
+    "title": "Data and Modelling Infrastructure Team Manual",
     "section": "",
-    "text": "University of California, San Diego | San Diego, CA PhD in Mathematics | Sept 2011 - June 2015\nMacalester College | St. Paul, MN B.A in Economics | Sept 2007 - June 2011"
+    "text": "This manual serves as a living document to inform how we in the Data and Modelling Infrastructure (DML) Service Working Group (SWG) work, communicate, and share information. It is intended to be a resource for both current and future members of the SWG. The manual will be updated regularly to reflect changes in our processes and practices, and we welcome contributions from all members of the SWG to ensure that it remains relevant and useful.\nWe strive to adapt approaches from agile project management, modern software development and Open Science to the context of providing support to researchers. Our aim is to use what works without adopting everything or being too rigid. For example, using Github will be a cornerstone of how we work, in terms of developing and managing the deliverables for our service requests. At the same time for many of our users we may need to provide them with the deliverables via a different means (e.g. file sharing) to meet their level of technical expertise.\nThe major sections below cover:\n\nHow we create a respectful work environment\nHow we organise our work\nHow we provide our services\nHow we communicate and stay informed\nHow we share documents and data\n\nWe use a tiered system for support, where we provide different levels of support based on the needs and preferences of our users. For example, for some users we may provide more hands-on support, while for others we may provide more self-service resources and documentation. We will also be flexible in our communication channels, using a combination of Github issues and Microsoft Teams Channels to communicate with our users and other IAT core groups (e.g. The IAT Coordination Team and Regional Network Managers).\n\n\nWe are committed to creating a respectful and inclusive work environment for all members of the SWG. We will treat each other with respect and kindness, and we will strive to create a culture of openness and collaboration. To this end we have developed a code of conduct that outlines our expectations for behaviour and communication both within the SWG and when interacting with service users. Like this team manual, the code of conduct is a living document that we will update as needed to ensure that it remains relevant and effective. We will also make sure that all members of the SWG are familiar with the code of conduct and that they understand their responsibilities in creating a positive and respectful work environment.\nWe will also be mindful of our language and communication style, and we will avoid using language that is offensive or exclusionary.\n\n\n\n\n\nWe will use Github for project and knowledge management building upon the techniques proposed by the Open Science initiaitatives such as the Turing Way [CITATION] and the Openscapes project [@openscapescoreteam2024], such as using issues and GitHubs Projects functionality for project management and communication, a wiki for building persistent knowledge, and using dedicated repositories for documentation and deliverables. This is to ensure that all our work is transparent and accessible to all members of the SWG, and to make it easier to track progress on our projects and service requests.\n\n\n\nFor all documentation use Quarto (.qmd) files with the Github Flavoured Markdown (gfm) format option in the yaml\n\n\n\n\nStart all new repositories as private and migrate to public later where possible (e.g. for approved service request products).\nUse kebab-case for repository names and file names (e.g. service-desk or knowledge-management). With full capitalization for acronyms (e.g. DML-website).\nUse our custom issue labels: TODO list them\nPut a README.md in each repository to provide project level documentation as normal. For non-conventional repositories such as knowledge-mangement and templates include a README.md in each major directory within them containing a one sentence description both English and German (Deepl’d) of the purpose of the directory.\nWithin issues, we encourage including perma-links to files or specific chunks in other repos in the issues to make it easier for others to find the relevant information (in the respective files click the ‘...’ icon and ‘copy perma link’).\n\n\n\n\nThe image below gives an overview of our key repos and how thez are connected with each explained in more detail below."
   },
   {
-    "objectID": "team/Ben.html#education",
-    "href": "team/Ben.html#education",
-    "title": "Ben Black",
+    "objectID": "team-manual.html#sec-conduct",
+    "href": "team-manual.html#sec-conduct",
+    "title": "Data and Modelling Infrastructure Team Manual",
     "section": "",
-    "text": "University of California, San Diego | San Diego, CA PhD in Mathematics | Sept 2011 - June 2015\nMacalester College | St. Paul, MN B.A in Economics | Sept 2007 - June 2011"
+    "text": "We are committed to creating a respectful and inclusive work environment for all members of the SWG. We will treat each other with respect and kindness, and we will strive to create a culture of openness and collaboration. To this end we have developed a code of conduct that outlines our expectations for behaviour and communication both within the SWG and when interacting with service users. Like this team manual, the code of conduct is a living document that we will update as needed to ensure that it remains relevant and effective. We will also make sure that all members of the SWG are familiar with the code of conduct and that they understand their responsibilities in creating a positive and respectful work environment.\nWe will also be mindful of our language and communication style, and we will avoid using language that is offensive or exclusionary."
   },
   {
-    "objectID": "team/Ben.html#experience",
-    "href": "team/Ben.html#experience",
-    "title": "Ben Black",
-    "section": "Experience",
-    "text": "Experience\nWengo Analytics | Head Data Scientist | April 2018 - present\nGeoScynce | Chief Analyst | Spet 2012 - April 2018 test"
-  },
-  {
-    "objectID": "team/RSE.html",
-    "href": "team/RSE.html",
-    "title": "Research Software Engineer",
+    "objectID": "team-manual.html#sec-how_we_organise",
+    "href": "team-manual.html#sec-how_we_organise",
+    "title": "Data and Modelling Infrastructure Team Manual",
     "section": "",
-    "text": "We will be hiring soon"
+    "text": "We will use Github for project and knowledge management building upon the techniques proposed by the Open Science initiaitatives such as the Turing Way [CITATION] and the Openscapes project [@openscapescoreteam2024], such as using issues and GitHubs Projects functionality for project management and communication, a wiki for building persistent knowledge, and using dedicated repositories for documentation and deliverables. This is to ensure that all our work is transparent and accessible to all members of the SWG, and to make it easier to track progress on our projects and service requests.\n\n\n\nFor all documentation use Quarto (.qmd) files with the Github Flavoured Markdown (gfm) format option in the yaml\n\n\n\n\nStart all new repositories as private and migrate to public later where possible (e.g. for approved service request products).\nUse kebab-case for repository names and file names (e.g. service-desk or knowledge-management). With full capitalization for acronyms (e.g. DML-website).\nUse our custom issue labels: TODO list them\nPut a README.md in each repository to provide project level documentation as normal. For non-conventional repositories such as knowledge-mangement and templates include a README.md in each major directory within them containing a one sentence description both English and German (Deepl’d) of the purpose of the directory.\nWithin issues, we encourage including perma-links to files or specific chunks in other repos in the issues to make it easier for others to find the relevant information (in the respective files click the ‘...’ icon and ‘copy perma link’).\n\n\n\n\nThe image below gives an overview of our key repos and how thez are connected with each explained in more detail below."
   },
   {
-    "objectID": "contact-form.html",
-    "href": "contact-form.html",
-    "title": "Request Support",
-    "section": "",
-    "text": "Use the form below to send us a request — no account of any kind is required."
+    "objectID": "team-manual.html#sec-how_services",
+    "href": "team-manual.html#sec-how_services",
+    "title": "Data and Modelling Infrastructure Team Manual",
+    "section": "How we provide our services",
+    "text": "How we provide our services\n\nIdeally requests should be made via the contact form/email address provided on the DML webpages, in this case we will use an automation to convert them into issues. However, it should be requests will also happen informally via general emails or direct discussions with members of the SWG, in this case it is the responsibility of the SWG member to create an issue in the service-desk repo\nFirst meeting to discuss the request. Getting details, understanding needs and setting expectations.\nPossibly develop a tiered system for support, maybe only to be used internally to describe the level of effort/engagement/priority. Higher effort requests would perhaps require some kind of reciprocal benefits i.e. support for personnel from the requesting group, or co-authorship on a deliverable, etc.\nWhen creating a repo for the request, set the custom repository property service-repo to true. Custom properties are set in the repository settings on GitHub (Settings → Custom properties) and allow us to filter and identify all service-related repos across the organisation. In the README of the new repo, include a one-sentence description of the purpose of the repo and a link back to the corresponding issue in the service-desk repo (e.g. https://github.com/iat-dml/service-desk/issues/&lt;issue-number&gt;). This connects the working repo to the intake record so that anyone can trace the request back to its original context."
   },
   {
-    "objectID": "contact-form.html#prefer-email",
-    "href": "contact-form.html#prefer-email",
-    "title": "Request Support",
-    "section": "Prefer email?",
-    "text": "Prefer email?\nWrite to us at iat-dml@zalf.de with a short description of your request — it is logged automatically in our tracking system and we will get back to you."
+    "objectID": "team-manual.html#sec-how_communicate",
+    "href": "team-manual.html#sec-how_communicate",
+    "title": "Data and Modelling Infrastructure Team Manual",
+    "section": "How we communicate and stay informed",
+    "text": "How we communicate and stay informed\n\nInternal channels of communication\nTODO: add details of MS teams set-up including the IAT-Core, IAT-All and IAT-DML teams and channels.\nWe will use Github issues as a communication channel for the SWG. This is to ensure that all communication is transparent and accessible to all members of the SWG. We will use issues to discuss and track progress on tasks, share updates, and ask questions. We will also use labels to categorize issues and make it easier to find relevant information.\n\n\nExternal channels of communication\n\nDML website\nZALF Intranet\nZALF website\nZukunft Land\nLinkedIn"
   },
   {
-    "objectID": "contact-form.html#already-have-a-github-account",
-    "href": "contact-form.html#already-have-a-github-account",
-    "title": "Request Support",
-    "section": "Already have a GitHub account?",
-    "text": "Already have a GitHub account?\nYou can open a request directly in our service desk."
+    "objectID": "team-manual.html#document-templates",
+    "href": "team-manual.html#document-templates",
+    "title": "Data and Modelling Infrastructure Team Manual",
+    "section": "Document templates",
+    "text": "Document templates\nWe have a dedicated repository for document templates ‘templates’ where we will store templates for different types of documents including PDfs, presentations, and reports. This is to ensure consistency in the format and style of our documents and to make it easier for members to create new documents."
   },
   {
-    "objectID": "projects/living-lab-dashboards.html",
-    "href": "projects/living-lab-dashboards.html",
-    "title": "Living Lab Explorer",
-    "section": "",
-    "text": "The Living Lab Explorer is a work-in-progress project building upon factsheets prepared by the IAT Regional Network Managers to create interactive dashboards to allow practice partners and researchers to gain an understanding of the environmental and socio-economic conditions that characterise the five IAT Living Labs."
+    "objectID": "team-manual.html#sec-how_share_documents",
+    "href": "team-manual.html#sec-how_share_documents",
+    "title": "Data and Modelling Infrastructure Team Manual",
+    "section": "How we share documents and data",
+    "text": "How we share documents and data"
   },
   {
-    "objectID": "projects/policy-lab-guide.html",
-    "href": "projects/policy-lab-guide.html",
-    "title": "A how-to guide for Policy Labs",
-    "section": "",
-    "text": "The Policy Lab Guide is a work-in-progress project to guide researchers and practictioners in the development of Policy Labs for Agri-environmental Measures within the setting of Living Labs. The guide is designed to be a practical resource for those looking to co-design, test and evaluate policy interventions in collaboration with stakeholders, providing recommended methods for each step of the process.\nIt offers two ways in: a concept diagram that lays out the Policy Lab phases in a visual format, and a searchable methods library where every method can be filtered by phase, actor, effort, and skill level.\nThe guide is being developed collaboratively with colleagues at ZALF: Bettina Matzdorf, Joana Iwaniw, Ben Black, and Sebastian Rogga. But in the near future we hope to open the guide up for contributions from the wider community of researchers and practitioners working in the field of policy co-design and Living Labs especially within the IAT. Please get in touch if you would like to contribute or provide feedback on the guide"
-  },
-  {
-    "objectID": "projects/zalf-iat-templates.html",
-    "href": "projects/zalf-iat-templates.html",
-    "title": "IAT ZALF Templates",
-    "section": "",
-    "text": "This project delivered a collection of reusable document and presentation templates for the IAT working groups, covering both technical publishing pipelines (Quarto extensions) and traditional office formats (PowerPoint). All templates are available in a public GitHub repository at https://github.com/iat-dml/templates."
-  },
-  {
-    "objectID": "projects/zalf-iat-templates.html#quarto-extensions",
-    "href": "projects/zalf-iat-templates.html#quarto-extensions",
-    "title": "IAT ZALF Templates",
-    "section": "Quarto Extensions",
-    "text": "Quarto Extensions\nThe core deliverables are four Quarto extensions that can be installed directly from the repository and used in any Quarto project. They are self-contained — logos, colour palettes, and fonts are all bundled inside the _extensions/ folder, so documents render consistently regardless of the local environment.\n\nZALF Internal Documents\nA Quarto Typst extension that renders .qmd files as branded ZALF PDF documents. The cover page places the ZALF and Leibniz Association logos at the top and bottom respectively, with a grey band across the middle carrying the document title, date, and an optional cover image. Subsequent pages use running headers, styled H1–H4 headings, coloured bullet lists, and striped tables — all drawn from the official ZALF green palette (#46A84F).\n\n\n\nCover page of the ZALF internal document template\n\n\nquarto use template iat-dml/templates/zalf-internal-typst\n\n\nIAT Internal Documents\nA companion Typst extension for IAT internal PDF documents. It follows the same cover-page and body layout as the ZALF template but swaps in the IAT brand palette, the combined ZALF/IAT logo, and a branded footer banner with partner and funder logos.\n\n\n\nCover page of the IAT internal document template\n\n\nquarto use template iat-dml/templates/iat-internal-typst\n\n\nIAT Presentations\nA Quarto Revealjs extension for branded IAT HTML slide decks. The title slide uses a deep forest-green hero panel with white headings and the ZALF/IAT logo in the top-right corner. A full-width footer bar carries partner university logos and funder marks, ensuring compliance with grant acknowledgement requirements out of the box.\n\n\n\nTitle slide of the IAT Revealjs presentation template\n\n\nquarto use template iat-dml/templates/iat-revealjs\n\n\nDML Presentations\nA Revealjs extension styled for the Data and Modelling Infrastructure (DML) working group. The theme reflects the DML visual identity: DM Serif Display for large headings, DM Sans for body text, a warm off-white paper background, and a teal-dark primary colour with green and olive accents. A persistent DML circular mark appears in the lower-right corner of every content slide and hides automatically in PDF exports.\n\n\n\nTitle slide of the DML Revealjs presentation template\n\n\nquarto use template iat-dml/templates/dml-revealjs"
-  },
-  {
-    "objectID": "projects/zalf-iat-templates.html#powerpoint-templates",
-    "href": "projects/zalf-iat-templates.html#powerpoint-templates",
-    "title": "IAT ZALF Templates",
-    "section": "PowerPoint Templates",
-    "text": "PowerPoint Templates\nThree branded PowerPoint templates are included for users who prefer traditional slide software:\n\nDML — dml-template-powerpoint.potx\nIAT — iat-template-powerpoint.pptx\nZALF — zalf-template-powerpoint-slides.pptx"
-  },
-  {
-    "objectID": "projects/zalf-iat-templates.html#meeting-agenda-minutes",
-    "href": "projects/zalf-iat-templates.html#meeting-agenda-minutes",
-    "title": "IAT ZALF Templates",
-    "section": "Meeting Agenda & Minutes",
-    "text": "Meeting Agenda & Minutes\nA Markdown template (agenda-minutes-template.md) is provided for structured bi-weekly service working group meeting notes, covering working group updates, management updates, and action items."
-  },
-  {
-    "objectID": "projects/monkshilllabs.html",
-    "href": "projects/monkshilllabs.html",
-    "title": "MonksHillLab field ecophysiology handbook web version",
-    "section": "",
-    "text": "The MonksHillLab initiative — part of the Working Group Ecophysiology of Water and Matter Cycling at the Leibniz Centre for Agricultural Landscape Research (ZALF) — produces an open handbook, Build-It-Yourself: Low-Cost Systems for Field Ecophysiology, which guides readers through building and calibrating low-cost, DIY sensor systems for environmental monitoring.\nThe DML group worked with the MonksHillLab team to make this handbook more accessible. Previously it existed as a PDF; we helped create a web version built with Quarto and hosted on GitHub Pages that adds interactivity (for example being able to expand images and copy code blocks) making it more engaging to its intended audience of researchers around the world. Also becaus eit is hosted as a GitHub repository this opens up the door for contributions from the user community, allowing the handbook to grow and evolve over time."
-  },
-  {
-    "objectID": "projects/monkshilllabs.html#explore-the-handbook",
-    "href": "projects/monkshilllabs.html#explore-the-handbook",
-    "title": "MonksHillLab field ecophysiology handbook web version",
-    "section": "Explore the handbook",
-    "text": "Explore the handbook\n\n\nThe live handbook is available at monkshilllab-isolab.github.io/LCSfFE-handbook. It is a living document, and the MonksHillLab team welcomes contributions of improvements and new chapters — see the handbook’s contributing section, or contact the author (mathias.hoffmann@zalf.de).\nThe handbook is published under a CC-BY 4.0 licence and archived on Zenodo at DOI 10.5281/zenodo.15562591."
-  },
-  {
-    "objectID": "projects.html",
-    "href": "projects.html",
-    "title": "Projects",
-    "section": "",
-    "text": "Living Lab Explorer\n\n\n\ndashboard\n\nvisualization\n\nliving labs\n\ntransfer\n\nWIP\n\n\n\nInteractive dashboards for exploring environmentaL and socio-economic data from the five IAT Living Labs.\n\n\n\nJul 1, 2026\n\n\n\n\n\n\n\n\n\n\n\n\n\nA how-to guide for Policy Labs\n\n\n\nguide\n\nmethods\n\nliving labs\n\ntransfer\n\nWIP\n\n\n\nAn interactive guide for developing Policy Labs for Agri-environmental Measures within Living Labs.\n\n\n\nJul 1, 2026\n\n\n\n\n\n\n\n\n\n\n\n\n\nMonksHillLab field ecophysiology handbook web version\n\n\n\ncollaboration\n\nresearch platform\n\nWIP\n\ntransfer\n\n\n\nThe DML group helped broaden the reach of the MonksHillLab field ecophysiology handbook by moving from a PDF to an interactive web resource.\n\n\n\nJun 3, 2026\n\n\n\n\n\n\n\n\n\n\n\n\n\nIAT ZALF Templates\n\n\n\ninfrastructure\n\ncollaboration\n\nresearch platform\n\n\n\nTemplates for producing presentations and documents consistent with the IAT and ZALF branding.\n\n\n\nNov 15, 2024\n\n\n\n\n\n\nNo matching items"
-  },
-  {
-    "objectID": "team/DS.html",
-    "href": "team/DS.html",
-    "title": "Data Steward",
-    "section": "",
-    "text": "We will be hiring soon!"
-  },
-  {
-    "objectID": "services.html",
-    "href": "services.html",
-    "title": "Services",
-    "section": "",
-    "text": "The working group offers different levels of support depending on the scope of the request, the expected collaboration, and the time needed to deliver useful results."
-  },
-  {
-    "objectID": "services.html#tiered-support-model",
-    "href": "services.html#tiered-support-model",
-    "title": "Services",
-    "section": "",
-    "text": "The working group offers different levels of support depending on the scope of the request, the expected collaboration, and the time needed to deliver useful results."
-  },
-  {
-    "objectID": "resources.html",
-    "href": "resources.html",
-    "title": "Resources and tools",
-    "section": "",
-    "text": "This repo is intended to be a living document for SWG and IAT members to share useful information and resources related to Open Science, programming and Data Visualisation.\nSome documents that provide guiding principles:"
-  },
-  {
-    "objectID": "resources.html#open-science-communities-and-initiatives",
-    "href": "resources.html#open-science-communities-and-initiatives",
-    "title": "Resources and tools",
-    "section": "Open Science communities and Initiatives",
-    "text": "Open Science communities and Initiatives\n\nOpen Science Awesome List\nThe Turing Way’s Guide to Planning a Community - A guide to planning and building a community around open science, including tips on communication, governance, and sustainability.\nAG Open Science - German-speaking OKF working group “Open Science”. Connecting active members of the open science community and advocating for better framework conditions for research, collaboration, and publication.\nGerman Reproducibility Network (GRN) - A network of researchers and institutions in Germany working to improve the reproducibility of scientific research.\nReproducibility for Everyone (R4Everyone) - A community-driven initiative to promote reproducibility in scientific research through training, resources, and advocacy.\nFOSTER Open Science - A concluded European project that provides training and resources to support the adoption of open science practices."
-  },
-  {
-    "objectID": "resources.html#data-visualisation",
-    "href": "resources.html#data-visualisation",
-    "title": "Resources and tools",
-    "section": "Data visualisation",
-    "text": "Data visualisation\n\nFundamentals of Data Visualization\nOpen Visualisation Academy"
-  },
-  {
-    "objectID": "resources.html#r",
-    "href": "resources.html#r",
-    "title": "Resources and tools",
-    "section": "R",
-    "text": "R\n\nWhat they forgot to teach you about R"
-  },
-  {
-    "objectID": "resources.html#quarto",
-    "href": "resources.html#quarto",
-    "title": "Resources and tools",
-    "section": "Quarto",
-    "text": "Quarto\n\nBeautiful slides with RevealJS and Quarto"
-  },
-  {
-    "objectID": "resources.html#generative-ai",
-    "href": "resources.html#generative-ai",
-    "title": "Resources and tools",
-    "section": "Generative AI",
-    "text": "Generative AI\n\nDictionary of AI coding\ngettingstuffdoneai - Directory of Generative AI Tools and Models, categorized by use case and functionality.\nKI-campus - Numerous free courses on AI and related topics, including data science, machine learning, and ethical considerations in AI."
-  },
-  {
-    "objectID": "resources.html#tools-and-software",
-    "href": "resources.html#tools-and-software",
-    "title": "Resources and tools",
-    "section": "Tools and Software",
-    "text": "Tools and Software\n\nAcademic Cloud\nTIB AIsstant\nORKG Ask: Open Source scholarly search and exploration system powered by Vector Search, Large Language Models and Knowledge Graphs\nRspace: Interoperable research tools across domains, facilitating machine actionable passage of data and metadata through all stages of the research lifecycleinteroperable research tools across domains, facilitating machine actionable passage of data and metadata through all stages of the research lifecycle\nEU alternatives for software - A directory of software alternatives to popular proprietary software, with a focus on European users and organizations.\nInkscape - Open source vector graphics editor, alternative to Adobe products, useful for creating and editing figures for publications and presentations. Available via the ZALF baramundi client.\nSoRA Geolinking service for social science data"
-  },
-  {
-    "objectID": "resources.html#training",
-    "href": "resources.html#training",
-    "title": "Resources and tools",
-    "section": "Training",
-    "text": "Training\n\nDigital Research Academy - a trainer network focused on Open Science, Data Literacy, and Research Software Engineering (DRA’s [Zenodo collection] (https://zenodo.org/communities/digiresacademy/records?q=&l=list&p=1&s=10&sort=newest)).\nBERD academy\nBERD reproducible research course\nNFDI4Earth - Educational Portal\nAssured Training -Ensures the safe, legal, and ethical use of sensitive data through targeted training and certification.\nLiebniz Institute for the Social Sciences (GESIS)"
+    "objectID": "team-manual.html#sharing-documents",
+    "href": "team-manual.html#sharing-documents",
+    "title": "Data and Modelling Infrastructure Team Manual",
+    "section": "Sharing documents",
+    "text": "Sharing documents\n\nFor sharing ZALF internal documents on github use Sharepoint links\nFor collaboration with other SWGs, Admin and Coordination in the IAT we should use Sharepoint and/or Teams channels."
   },
   {
     "objectID": "code-of-conduct.html",
