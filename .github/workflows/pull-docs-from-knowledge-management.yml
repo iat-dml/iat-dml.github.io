@@ -52,9 +52,9 @@ jobs:
 
           tracked_paths=(
             references.bib
-            charter
             code-of-conduct
             resources
+            team-manual
           )
 
           if [[ -z "$previous_sha" ]]; then
@@ -139,8 +139,8 @@ jobs:
           copy_file source/resources/resources.qmd resources.qmd
           copy_file source/resources/resources.de.qmd resources.de.qmd
 
-          copy_file source/team_manual/team-manual.qmd team_manual.qmd
-          copy_file source/team_manual/team-manual.de.qmd team_manual.de.qmd
+          copy_file source/team-manual/team-manual.qmd team-manual.qmd
+          copy_file source/team-manual/team-manual.de.qmd team-manual.de.qmd
 
           if [[ "$missing" -ne 0 ]]; then
             echo "One or more expected source files were missing."
