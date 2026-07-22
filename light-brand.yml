@@ -117,3 +117,23 @@ typography:
     color: primary
     weight: 500
     decoration: underline
+
+# Mermaid diagrams are styled through Quarto's $mermaid-* SCSS variables, which
+# live in the same defaults layer that brand.yml writes into. Note: no leading
+# `$` here, and literal hex rather than $brand-* references — palette variables
+# land in this same layer, so referencing them depends on merge ordering.
+#
+# Omitted variables already derive correctly from the brand:
+#   $mermaid-bg-color   -> $body-bg                 (paper)
+#   $mermaid-fg-color   -> $body-color              (slate)
+#   $mermaid-font-family-> $font-family-sans-serif  (DM Sans)
+#
+# Consuming projects must NOT set `mermaid: theme:` in _quarto.yml — selecting
+# one of Mermaid's built-in themes overrides everything below.
+defaults:
+  bootstrap:
+    defaults:
+      mermaid-node-bg-color:  "#E8EFEA"   # soft teal tint, lifts nodes off paper
+      mermaid-node-fg-color:  "#356259"   # teal-dark
+      mermaid-label-bg-color: "#F5F3EE"   # paper
+      mermaid-edge-color:     "#356259"   # teal-dark

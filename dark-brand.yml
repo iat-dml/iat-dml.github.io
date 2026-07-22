@@ -107,3 +107,13 @@ typography:
     color: green-light
     weight: 500
     decoration: underline
+
+# See light-brand.yml for the full rationale. Values below are the dark-mode
+# counterparts; bg/fg/font still derive from the brand automatically.
+defaults:
+  bootstrap:
+    defaults:
+      mermaid-node-bg-color:  "#162520"   # dark-surface
+      mermaid-node-fg-color:  "#9EBC83"   # green-light
+      mermaid-label-bg-color: "#1F3530"   # dark-border
+      mermaid-edge-color:     "#80BDBD"   # green-mid
