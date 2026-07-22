@@ -8,9 +8,4 @@ format:
   html:
     include-after-body:
       - file: ../hero-article.html
-    include-in-header:
-      text: |
-        &lt;style&gt;
-        .quarto-title .description { display: none; }
-        &lt;/style&gt;
 
