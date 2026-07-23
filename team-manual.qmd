@@ -1,8 +1,10 @@
 # Data and Modelling Infrastructure Team Manual
 
-This manual serves as a living document to inform how we in the Data and Modelling Infrastructure (DML) Service Working Group (SWG) work, communicate, and share information. It is intended to be a resource for both current and future members of the SWG. The manual will be updated regularly to reflect changes in our processes and practices, and we welcome contributions from all members of the SWG to ensure that it remains relevant and useful.
+This manual serves as a living document to inform how we in the Data and Modelling Infrastructure (DML) Service Working Group (SWG) work, communicate, and share information. It is intended to be a resource for both current and future members of the SWG. The manual will be updated regularly to reflect changes in our processes and practices, and we welcome contributions from all members of the SWG to ensure that it remains relevant and useful (see [Updating this manual](#sec-updating_manual)).
 
 We strive to adapt approaches from agile project management, modern software development and Open Science to the context of providing support to researchers. Our aim is to use what works without adopting everything or being too rigid. For example, using Github will be a cornerstone of how we work, in terms of developing and managing the deliverables for our service requests. At the same time for many of our users we may need to provide them with the deliverables via a different means (e.g. file sharing) to meet their level of technical expertise.
+
+We use a tiered system for support, where we provide different levels of support based on the needs and preferences of our users. For example, for some users we may provide more hands-on support, while for others we may provide more self-service resources and documentation. We will also be flexible in our communication channels, using a combination of Github issues and Microsoft Teams Channels to communicate with our users and other IAT core groups (e.g. The IAT Coordination Team and Regional Network Managers).
 
 The major sections below cover:
 
@@ -16,7 +18,7 @@ The major sections below cover:
 
 - [How we share documents and data](#sec-how_share_documents)
 
-We use a tiered system for support, where we provide different levels of support based on the needs and preferences of our users. For example, for some users we may provide more hands-on support, while for others we may provide more self-service resources and documentation. We will also be flexible in our communication channels, using a combination of Github issues and Microsoft Teams Channels to communicate with our users and other IAT core groups (e.g. The IAT Coordination Team and Regional Network Managers).
+- [Updating this manual](#sec-updating_manual)
 
 ## How we create a respectful work environment {#sec-conduct}
 
@@ -26,35 +28,88 @@ We will also be mindful of our language and communication style, and we will avo
 
 ## How we organise our work {#sec-how_we_organise}
 
-### Github as the foundation {#sec-github_as_foundation}
+### `GitHub` as the foundation {#sec-github_as_foundation}
 
-We will use Github for project and knowledge management building upon the techniques proposed by the Open Science initiaitatives such as the Turing Way \[**CITATION**\] and the Openscapes project [@openscapescoreteam2024], such as using issues and [GitHubs Projects](https://docs.github.com/en/issues/planning-and-tracking-with-projects/learning-about-projects/about-projects) functionality for project management and communication, a wiki for building persistent knowledge, and using dedicated repositories for documentation and deliverables. This is to ensure that all our work is transparent and accessible to all members of the SWG, and to make it easier to track progress on our projects and service requests.
+We will use GitHub for project and knowledge management building upon the techniques proposed by the Open Science initiaitatives such as the Turing Way \[**CITATION**\] and the Openscapes project [@openscapescoreteam2024], such as using issues and [GitHubs Projects](https://docs.github.com/en/issues/planning-and-tracking-with-projects/learning-about-projects/about-projects) functionality for project management and communication, and using dedicated repositories for documentation and deliverables. This is to ensure that all our work is transparent and accessible to all DML members, and to make it easier to track progress on our projects and service requests.
 
-### Markdown for documentation {#sec-documentation}
+### `Markdown` for documentation {#sec-documentation}
 
 For all documentation use Quarto (.qmd) files with the Github Flavoured Markdown (gfm) format option in the yaml
 
-### Good Github hygiene {#sec-github_hygiene}
+### Good GitHub hygiene {#sec-github_hygiene}
 
 - Start all new repositories as `private` and migrate to `public` later where possible (e.g. for approved service request products).
 
 - Use [kebab-case](https://amydegregorio.com/2020/10/25/programming-case-types/) for repository names and file names (e.g. `service-desk` or `knowledge-management`). With full capitalization for acronyms (e.g. `DML-website`).
 
-- Use our custom issue labels: **TODO list them**
+- Use our custom issue labels. The label set differs per repository: see [`service-desk`](#sec-service_desk_labels) for the service request labels and [`project-management`](#sec-project_management) for the internal project labels.
 
 - Put a `README.md` in each repository to provide project level documentation as normal. For non-conventional repositories such as knowledge-mangement and templates include a `README.md` in each major directory within them containing a one sentence description both English and German (Deepl'd) of the purpose of the directory.
 
-- Within issues, we encourage including `perma-links` to files or specific chunks in other repos in the issues to make it easier for others to find the relevant information (in the respective files click the '`...`' icon and '`copy perma link`').
+- Within issues, we encourage linking to files or specific chunks in other repos to make it easier for others to find the relevant information. Link to the file on the `main` branch (e.g. `https://github.com/iat-dml/service-desk/blob/main/README.md`), optionally with a line range appended (e.g. `…/README.md#L10-L20`), so that the link always resolves to the current version of the file rather than a frozen snapshot.
 
 ### Our key repositories
 
-The image below gives an overview of our key repos and how thez are connected with each explained in more detail below.
+@fig-repo-structure gives an overview of our key repos and how they are connected, with each explained in more detail below. Solid arrows are content, requests or configuration moving between systems; dashed arrows are automations that run without anyone pressing a button.
 
-# TODO: Create an excalidrawn diagram to show the repo structure and connections between them.
+```{mermaid}
+%%| label: fig-repo-structure
+%%| fig-cap: "Our key repositories and how they connect. Dashed arrows are automated (Power Automate flows and GitHub Actions)."
+%%| fig-alt: "Flowchart of the DML repositories. Requests arrive via the Microsoft Form embedded on the website, the shared mailbox or the GitHub issue form; Power Automate turns them into issues in service-desk and notifies Microsoft Teams. knowledge-management is the source of truth for documents and is pulled nightly by the website and archived to Zenodo. dml-brand-yml supplies branding to the website and templates. The website is published to GitHub Pages."
 
-![](../assets/repo-structure.png)
+flowchart LR
+    subgraph intake["Intake channels"]
+        direction TB
+        form["Microsoft Form<br/>DML service request"]
+        mail["iat-dml@zalf.de<br/>shared mailbox"]
+        ghform["GitHub issue form"]
+        pa["Power Automate<br/>flows"]
+    end
 
-#### Service-desk for tracking service requests
+    subgraph repos["Our repositories"]
+        direction TB
+        sd["service-desk<br/>one issue per request"]
+        km["knowledge-management<br/>source of truth for documents"]
+        web["iat-dml.github.io<br/>the website"]
+        brand["dml-brand-yml<br/>colours, fonts, logos"]
+        tpl["templates<br/>branded document templates"]
+        pm["project-management<br/>internal planning, private"]
+        train["training<br/>educational materials"]
+        srv["service repos<br/>one per request"]
+        pub["dml-content-publisher<br/>AI authoring skill"]
+    end
+
+    subgraph out["Where it ends up"]
+        direction TB
+        pages["GitHub Pages<br/>iat-dml.github.io"]
+        zen["Zenodo<br/>citable DOI"]
+        teams["MS Teams<br/>service-requests channel"]
+    end
+
+    web -- "embeds" --> form
+    form --> pa
+    mail --> pa
+    pa -. "creates issue" .-> sd
+    pa -. "notifies" .-> teams
+    ghform --> sd
+
+    sd -- "request gets a working repo" --> srv
+    sd --> pub
+    srv --> pub
+    pub -. "drafts news and project pages, via PR" .-> web
+
+    km -. "pull-docs-from-knowledge-management.yml, nightly" .-> web
+    km -. "zenodo-publish.yml" .-> zen
+    web -. "publish.yml, babelquarto" .-> pages
+
+    brand -- "branding" --> web
+    brand -- "branding" --> tpl
+    tpl -- "agendas, minutes, reports" --> km
+    tpl -- "slides, handouts" --> train
+    pm -- "plans our own work" --> km
+```
+
+#### `service-desk` for tracking service requests {#sec-service_desk}
 
 The service-desk repo is for tracking incoming and on-going service activities and requests. Each service request is logged as a GitHub issue using a standardised issue template to capture key details about the request and to track progress on it. This is to ensure that all service activities are tracked and managed effectively and that we can easily report on our activities to the IAT and other stakeholders.
 
@@ -64,7 +119,7 @@ The general process of receiving and engaging in service requests will be covere
 
 Whatever route a request takes, it ends up as a GitHub issue in the [service-desk repo](https://github.com/iat-dml/service-desk). There are three intake channels:
 
-1.  **Contact form (no GitHub account needed).** Requesters fill in the **DML service request** [Microsoft Form](https://forms.office.com/Pages/ResponsePage.aspx?id=Zo0M4kenHkul2ga1P95PoHFKJd1yMPxBpP7fDZSCehNUOFhRWTJBMEo1QVRNN1dKT1lZUjRJOUJRRi4u), which we **embed directly on the DML website** so most requesters never touch GitHub. The form captures only the *Basic Information* of the template (requester details, service type, short description, rough timeline). A [Power Automate](https://github.com/iat-dml/service-desk/blob/main/docs/POWER-AUTOMATE-SETUP.md) flow then creates a structured issue automatically and applies the matching service-type label(s).
+1.  **Contact form (no GitHub account needed).** Requesters fill in the **DML service request** [Microsoft Form](https://forms.office.com/Pages/ResponsePage.aspx?id=Zo0M4kenHkul2ga1P95PoHFKJd1yMPxBpP7fDZSCehNUOFhRWTJBMEo1QVRNN1dKT1lZUjRJOUJRRi4u), which we **embed directly on the DML website** so most requesters never touch GitHub. The form captures only the *Basic Information* of the template (requester details, service type, short description, rough timeline). A [Power Automate](https://github.com/iat-dml/service-desk/blob/main/docs/POWER-AUTOMATE-SETUP.md) flow then creates a structured issue automatically and applies the labels itself: every issue gets `service-request`, plus one service-type label for each option ticked in the form's *Service Type* question (which allows multiple answers). The mapping is Research Data Management → `data-management`, Research Software Support → `software-support`, Science Transfer → `science-transfer`, Training/Workshop → `training-workshop`, and Other → `other`. See [our custom labels](#sec-service_desk_labels) for what each label means.
 2.  **Email (no GitHub account needed).** Requesters write to the DML shared mailbox. A second Power Automate flow converts each message into an issue labelled `needs-triage`, which we then structure into the template during triage.
 3.  **GitHub issue form.** Requesters (or SWG members logging a request on someone's behalf) with a GitHub account can open an issue directly using the [**DML service request form**](https://github.com/iat-dml/service-desk/blob/main/.github/ISSUE_TEMPLATE/dml-service-request.yml).
 
@@ -74,24 +129,159 @@ Both automation flows post a notification to the **service-requests** channel in
 
 ##### Once an issue exists
 
-1.  Assign the issue to the relevant member/s of the DML team, based on their expertise and availability.
-2.  Add our custom labels to the issue to categorize the requests and make it easier to find relevant information. We use labels to indicate the type of service request (e.g. support, integration, or transfer), the support tier (e.g. high, medium, low), and the status (e.g. backlog, in progress, done). Form submissions already arrive with their service-type label(s) applied; add the remaining labels during triage.
+1.  The issue will be assigned to the relevant member/s of the DML team, based on their expertise and availability. Ben will handle the assignment or it will be discussed in the next DML team meeting.
+2.  Add our custom labels to the issue to categorize the requests and make it easier to find relevant information — see [our custom labels](#sec-service_desk_labels) below for the full set. Form submissions already arrive with their service-type label(s) applied; check these are right and add any that are missing during triage. Support tier and status are tracked as fields on the GitHub Project board rather than as labels.
 
 Importantly, the issues can and should be updated over time, we wil be flexible as to whether we always add new information by ediitng the original issue or by adding comments or sub issues. But the key point is that the issue should be a living document that captures the progress and details of the request from reception to completion and we will use a [custom AI agent skill](https://github.com/iat-dml/dml-content-publisher) to automate the writing of [blog style pages for each project](https://github.com/iat-dml/DML.github.io/tree/main/projects) for the DML website based on the information in the issue.
 
-#### Knowledge-management for documentation
+##### Our custom labels {#sec-service_desk_labels}
 
-#### Project-management for tracking projects and deliverables
+Alongside the [default GitHub labels](https://docs.github.com/en/issues/using-labels-and-milestones-to-track-work/managing-labels#about-default-labels) (`bug`, `documentation`, `duplicate`, `enhancement`, `good first issue`, `help wanted`, `invalid`, `question`, `wontfix`), which stay available for their usual purposes, the service-desk repo uses the following custom labels:
 
-#### Wiki for general information
+| Label | Meaning |
+|------------------|------------------------------------------------------|
+| `service-request` | Marks the issue as an incoming service request. Applied to every issue by both intake flows. |
+| `data-management` | The request relates to research data management. |
+| `software-support` | The request relates to research software development. |
+| `science-transfer` | The request relates to support in research transfer, i.e. visualisation etc. |
+| `training-workshop` | The request relates to the development of a training or educational resource from DML. |
+| `other` | The request does not fit any of the four service types above. |
+| `needs-triage` | Applied by the email intake flow: the issue is unstructured and still needs to be worked into the request template. |
 
-#### Training for our educational materials
+The five service-type labels (`data-management` through `other`) are not mutually exclusive — a request can carry several, and the form intake flow applies all of them that the requester ticked. Because the flows apply labels *by exact name*, do not rename these labels without also updating the [Power Automate flows](https://github.com/iat-dml/service-desk/blob/main/docs/POWER-AUTOMATE-SETUP.md).
 
-#### iat-dml.github.io our website
+#### [`knowledge-management`](https://github.com/iat-dml/knowledge-management) for documentation {#sec-knowledge_management}
+
+The [knowledge-management repo](https://github.com/iat-dml/knowledge-management) is where we develop, organise and finalise the institutional knowledge of the DML group — this manual included. Documents here are the ***single source of truth***: they are drafted as Quarto (`.qmd`) files and then synced outwards to the [website](https://iat-dml.github.io) rather than being written there directly. `Issues` are used for brainstorming and discussion; `.qmd` files for the knowledge that should persist. The full set of working guidelines lives in the [repo README](https://github.com/iat-dml/knowledge-management/blob/main/README.qmd).
+
+As a rule, each new document gets its own directory with a `README.md` explaining its contents, and any assets belonging to that document (images, supplementary files) sit alongside it in the same directory. A handful of directories are exceptions to this rule and instead collect many documents of the same kind:
+
+``` text
+knowledge-management/
+├── .github/workflows/        # the automations described below
+├── assets/                   # logos, icons and other cross-document assets
+├── charter/                  # the DML working group charter
+├── docs/                     # documentation on how this repo works
+├── document-notes/           # notes/extracts from external documents
+├── meeting-notes-minutes/    # notes and minutes from meetings (topic + date in filename)
+├── onboarding/               # onboarding materials for new team members
+├── presentations/            # presentations, one sub-directory + README.md each
+├── team/                     # bio pages for each team member, plus role descriptions
+└── team-manual/              # this manual
+```
+
+Two GitHub Actions do the heavy lifting:
+
+-   [`render-readme.yml`](https://github.com/iat-dml/knowledge-management/blob/main/.github/workflows/render-readme.yml) renders `README.qmd` to `README.md` on every push to `main`. Only ever edit the `.qmd`; the `.md` is generated.
+-   [`zenodo-publish.yml`](https://github.com/iat-dml/knowledge-management/blob/main/.github/workflows/zenodo-publish.yml) (in development) archives major documents to Zenodo so they are citable and versioned via a DOI. See [`Publish-to-Zenodo.qmd`](https://github.com/iat-dml/knowledge-management/blob/main/docs/Publish-to-Zenodo.qmd).
+
+Publishing to the website is not driven from here: the website repo **pulls** a curated set of documents from this repo on a nightly schedule. See [`content-syncing.qmd`](https://github.com/iat-dml/knowledge-management/blob/main/docs/content-syncing.qmd) for the details.
+
+Where possible we produce English and German versions of major documents, rendered on the website with [`babelquarto`](https://docs.ropensci.org/babelquarto/): the German version is the same filename with a `.de` suffix (e.g. `news.qmd` and `news.de.qmd`). Contributions are credited through the [all-contributors bot](https://allcontributors.org/en/bot/usage/).
+
+#### [`project-management`](https://github.com/iat-dml/project-management) for tracking projects and deliverables {#sec-project_management}
+
+The [project-management repo](https://github.com/iat-dml/project-management) is used exclusively for internal project management by the DML group. It contains no code — it is simply a home for the issues and GitHub Projects that let us plan, track, and look back on our own work. This repo is **private and will remain private**; it is for internal planning only and is not intended for external visibility.
+
+The working principles are simple: everything is captured as an issue so it is searchable and traceable; every issue is assigned to one or more team members so ownership is clear; issues are added to the relevant GitHub Project so they appear on the right board and roadmap; and issues are **closed, never deleted**, so our history stays intact and decisions can be understood retrospectively.
+
+Alongside the standard GitHub labels, we use custom labels to classify issues: `admin` (an administrative task to be completed), `infrastructure` (our own DML infrastructure, i.e. knowledge base, templates, CI routines), `outreach` (external communication and event attendance), `project-idea` (a lead or idea for a potential DML project), and `training-offering` (a training offering to be developed).
+
+When writing issues, be descriptive enough that someone can understand the issue later without extra context, link to files on `main` (with a line range where useful) when referring to specific files or lines, break larger work into [sub-issues](https://docs.github.com/en/issues/tracking-your-work-with-issues/using-issues/adding-sub-issues), and record progress in comments as work proceeds (e.g. *"email sent to …"*) so the trail is captured on the issue itself. See the [project-management README](https://github.com/iat-dml/project-management/blob/main/README.md) for the full overview.
+
+#### `training` for our educational materials
+
+**In development**: To be decided whether we will centralise training materials under a single repo or create seperate repos for each training offering. 
+
+#### [`iat-dml.github.io`](https://github.com/iat-dml/iat-dml.github.io) our website {#sec-website}
+
+Our [website](https://iat-dml.github.io) is our main outward-facing communication channel: it is where anyone outside the group — IAT colleagues, ZALF staff, external partners — finds out what we do and how to reach us. It is a **static site**, built with [Quarto](https://quarto.org) and hosted on **GitHub Pages**, so there is no server, database or CMS to maintain; every page is a `.qmd` file in the repo, and publishing means pushing a commit.
+
+The content falls into three groups:
+
+-   **Who we are and what we offer** — `index.qmd` (the landing page, with the interactive concept diagram of our three service pillars), `services.qmd` (the tiered support model), `team.qmd` plus a page per team member in `team/`, and `resources.qmd`.
+-   **What we have been doing** — two Quarto [listing pages](https://quarto.org/docs/websites/website-listings.html), `news.qmd` and `projects.qmd`, which build a blog-style grid automatically from the `.qmd` files in `news/` and `projects/`. Adding a post means adding a file to the directory; the listing, the RSS feed, and the three most recent items on the landing page all update themselves.
+-   **How to reach us** — `contact-form.qmd` embeds the Microsoft Form for service requests in an `<iframe>`, alongside the [iat-dml@zalf.de](mailto:iat-dml@zalf.de) address and a direct link to the service-desk issue templates. All three routes end up as an issue in the [`service-desk` repo](#sec-service_desk); the form is the front end of the Power Automate intake flow described there.
+
+``` text
+iat-dml.github.io/
+├── .github/workflows/     # the two automations described below
+├── _extensions/           # Quarto extensions
+├── assets/                # images, logos, and the JS for the interactive diagrams
+├── news/                  # one .qmd per news post (+ _metadata.yml for the hero banner)
+├── projects/              # one .qmd per project page
+├── scss/                  # site styling
+├── team/                  # one .qmd per team member
+├── *.qmd                  # the top-level pages (index, services, resources, …)
+├── light-brand.yml        # brand colours, fonts and logos (from dml-brand-yml)
+├── dark-brand.yml
+└── _quarto.yml            # site configuration: navbar, footer, formats, babelquarto
+```
+
+As in the [knowledge-management repo](#sec-knowledge_management), pages are bilingual through [`babelquarto`](https://docs.ropensci.org/babelquarto/): the German version of a page is the same filename with a `.de` suffix (`news.qmd` / `news.de.qmd`), and the EN/DE switch in the navbar is generated from that. Styling and logos come from [`dml-brand-yml`](#sec-brand) rather than being defined here, so the site stays visually consistent with our presentations and documents.
+
+##### The two automations
+
+-   [`publish.yml`](https://github.com/iat-dml/iat-dml.github.io/blob/main/.github/workflows/publish.yml) renders and deploys the site. It runs on every push to `main`, nightly, and on manual dispatch. Because the site is multilingual it does not call `quarto render` directly but `babelquarto::render_website()` from R, which renders the English and German trees together; the result is published to the `gh-pages` branch, which is what GitHub Pages serves. **Never commit to `gh-pages` by hand** — it is overwritten on every run.
+-   [`pull-docs-from-knowledge-management.yml`](https://github.com/iat-dml/iat-dml.github.io/blob/main/.github/workflows/pull-docs-from-knowledge-management.yml) keeps the shared documents in step with their source of truth. It runs nightly (or on manual dispatch), checks out `knowledge-management`, and compares its current `HEAD` against the last synced commit recorded in `.github/sync-state/knowledge-management-source-sha.txt`. If any of the tracked documents changed, it copies them in — currently `references.bib`, the code of conduct, the resources page and this manual, in both languages — and commits the result, which in turn triggers `publish.yml`. Note the direction of travel: the website **pulls**, `knowledge-management` does not push to it.
+
+The practical consequence is that **any file arriving through that sync must be edited in `knowledge-management`, not here**. An edit made directly to `resources.qmd` or `team_manual.qmd` on the website will be silently overwritten the next night. Everything else — news posts, project pages, the landing page, styling — is authored in this repo.
+
+##### Adding news posts and project pages
+
+To assist in the writing of new content we have created the [`dml-content-publisher`](https://github.com/iat-dml/dml-content-publisher) Claude Code skill. It knows the frontmatter fields each listing expects, the file-naming convention, our voice and abbreviation conventions, and it drafts a companion LinkedIn post at the same time. Invoke it with `/dml-content-publisher news` or `/dml-content-publisher project`; for a project page it can synthesise the description from the working repo and the originating [service-desk issue](#sec-service_desk). It works on a branch and opens a pull request, so nothing reaches the site without review. If you do write a page manually, copy the frontmatter of an existing file in `news/` or `projects/` — the listings only pick up the fields they recognise (`title`, `date`, `image`, `categories`, `description`), and a missing `image` or `date` leaves a broken-looking card in the grid.
+
+#### [`dml-brand-yml`](https://github.com/iat-dml/dml-brand-yml) our brand assets {#sec-brand}
+
+The [dml-brand-yml repo](https://github.com/iat-dml/dml-brand-yml) is the source of truth for how our teams brand identity which shapes how our outputs look. It holds our [Quarto `_brand.yml`](https://quarto.org/docs/authoring/brand.html) configuration — colours, fonts and logos in one file — so that the website, our presentations, reports and this manual share the same visual identity without anyone re-picking a hex code by hand. Nothing in it is project-specific: it is deliberately a small, stable repo that other repos consume.
+
+``` text
+dml-brand-yml/
+├── light-brand.yml        # light mode: warm paper background, dark teal headings
+├── dark-brand.yml         # dark mode: teal-tinted near-black background, light headings
+└── logos/                 # SVG and PNG logo assets
+```
+
+The two brand files share one palette and one font stack; they differ only in which colour is assigned to which role. Headings are set in **DM Serif Display** and body and UI text in **DM Sans** (both from Google Fonts), with **Segoe UI Mono** for code. Note that `_brand.yml` needs bare family names rather than fallback stacks so that Quarto can emit the Google Fonts `@import` — if you need fallbacks, add them in your project's `scss/styles.scss`.
+
+The palette is built around `teal-dark` (`#356259`) as the primary brand colour, with `teal` (`#36AE6C`) as the accent and the ZALF greens alongside it. Three further tokens — `support` (`#2B5D45`), `transfer` (`#3E7775`) and `integration` (`#A4713D`) — correspond to the three strata of the DML logo and to our three service pillars, so they are the right choice whenever a figure or diagram needs to distinguish the pillars. Backgrounds are `paper` (`#F5F3EE`) in light mode and `black` (`#0F1B18`) in dark mode. The full table of tokens is in the [repo README](https://github.com/iat-dml/dml-brand-yml/blob/main/README.md).
+
+`logos/` carries the DML logo and wordmark lockups in light, dark, reversed and monochrome variants (SVG, plus PNG for the horizontal and stacked lockups and the favicon), together with the institutional logos we are obliged to use: ZALF, IAT, and the Leibniz Association.
+
+To use the brand in a new Quarto project, either copy the file you need into the project root as `_brand.yml`, or point at it from `_quarto.yml`:
+
+``` yaml
+brand: path/to/dml-brand-yml/light-brand.yml
+```
+
+Quarto 1.6 or later is required for `_brand.yml` support. **Change colours, fonts and logos here, not in the consuming project** — the [website](#sec-website), for instance, keeps its own copies of `light-brand.yml` and `dark-brand.yml` in the repo root, and a local tweak there would quietly drift away from everything else we publish.
+
+#### [`templates`](https://github.com/iat-dml/templates) for document templates {#sec-templates}
+
+The [templates repo](https://github.com/iat-dml/templates) collects the document templates used by the IAT service working groups, so that a new report, presentation or internal note starts from something already branded and correctly laid out rather than from a blank page. Where [`dml-brand-yml`](#sec-brand) defines *what* our outputs should look like, the templates are the ready-made containers that apply it. They exist at three levels of branding — DML, IAT and ZALF — because not everything we produce is a DML output: a working-group deliverable for the wider institute should carry IAT branding, and an institute-level document ZALF branding.
+
+``` text
+templates/
+├── iat-internal-typst/              # Quarto Typst extension → branded IAT PDF
+├── zalf-internal-typst/             # Quarto Typst extension → branded ZALF PDF
+├── iat-revealjs/                    # Quarto Revealjs extension → IAT slide deck (HTML)
+├── dml-revealjs/                    # Quarto Revealjs extension → DML slide deck (HTML)
+├── agenda-minutes-template.md       # bi-weekly SWG meeting agenda + minutes
+├── dml-template-powerpoint.potx     # PowerPoint, DML branding
+├── iat-template-powerpoint.pptx     # PowerPoint, IAT branding
+├── zalf-template-powerpoint-slides.pptx  # PowerPoint, ZALF branding
+└── assets/                          # screenshots of each template
+```
+
+The [Quarto](https://quarto.org) templates are distributed as **extensions**, which means you do not copy files around by hand: install the one you need into a Quarto project with `quarto add iat-dml/templates/<extension-name>` and then set it as the `format` in the document's YAML header. Two of them produce PDFs through [Typst](https://typst.app) — `zalf-internal-typst` gives a branded cover page, running page headers, and styled headings, tables, lists and code blocks in the official ZALF palette, and `iat-internal-typst` follows the same layout with the IAT palette, logo and footer banner. The other two, `iat-revealjs` and `dml-revealjs`, produce branded [Revealjs](https://quarto.org/docs/presentations/revealjs/) HTML slide decks. Screenshots of all four are in the [repo README](https://github.com/iat-dml/templates/blob/main/README.md).
+
+Not everything can be Quarto. For colleagues and collaborators who work in PowerPoint we also keep `.potx`/`.pptx` slide templates in the three brandings, and `agenda-minutes-template.md` is a plain Markdown skeleton for the bi-weekly service working group meetings, covering working group updates, management updates and action items — it is what the files in `meeting-notes-minutes/` in the [knowledge-management repo](#sec-knowledge_management) are built from.
+
+**If you find yourself restyling a document by hand, that is a signal the template needs improving** — fix it in this repo rather than in your copy, so everyone benefits and our outputs do not drift apart. New templates are welcome; add a short entry to the README and a screenshot in `assets/` so the next person can see what they are getting.
 
 ### Automations and AI agents + skills
 
-TODO document dml-content-publisher and the other automations and AI agents + skills we are developing to support our work.
+TODO: document dml-content-publisher and the other automations and AI agents + skills we are developing to support our work.
 
 ## How we provide our services {#sec-how_services}
 
@@ -119,9 +309,9 @@ We will use Github issues as a communication channel for the SWG. This is to ens
 - Zukunft Land
 - LinkedIn
 
-## Document templates
+### Document templates
 
-We have a dedicated repository for document templates 'templates' where we will store templates for different types of documents including PDfs, presentations, and reports. This is to ensure consistency in the format and style of our documents and to make it easier for members to create new documents.
+Anything we send outwards — a report, a slide deck, meeting minutes — should start from one of the branded templates in the [`templates` repo](#sec-templates) rather than from a blank page, so that our documents are consistent in format and style.
 
 ## How we share documents and data {#sec-how_share_documents}
 
@@ -129,3 +319,18 @@ We have a dedicated repository for document templates 'templates' where we will 
 
 - For sharing ZALF internal documents on github use Sharepoint links
 - For collaboration with other SWGs, Admin and Coordination in the IAT we should use Sharepoint and/or Teams channels.
+
+## Updating this manual {#sec-updating_manual}
+
+### When to update
+
+This manual should be updated when there are changes to our processes, policies, or procedures that affect how we provide our services or communicate with stakeholders.
+
+### How to update
+
+To update this manual, follow these steps:
+1.  Fork the `knowledge-management` repository and clone it to your local machine.
+2.  Make the necessary changes to the `team-manual.qmd` file in the `team-manual` directory.
+3.  Commit your changes and push them to your forked repository.
+4.  Create a pull request to the `main` branch of the original `knowledge-management` repository. Include a clear description of the changes you made and why they are necessary.
+

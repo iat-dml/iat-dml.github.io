@@ -28,7 +28,7 @@ We will also be mindful of our language and communication style, and we will avo
 
 ### Github as the foundation {#sec-github_as_foundation}
 
-We will use Github for project and knowledge management building upon the techniques proposed by the Open Science initiaitatives such as the Turing Way \[**CITATION**\] and the Openscapes project [@openscapescoreteam2024], such as using issues and [GitHubs Projects](https://docs.github.com/en/issues/planning-and-tracking-with-projects/learning-about-projects/about-projects) functionality for project management and communication, a wiki for building persistent knowledge, and using dedicated repositories for documentation and deliverables. This is to ensure that all our work is transparent and accessible to all members of the SWG, and to make it easier to track progress on our projects and service requests.
+We will use Github for project and knowledge management building upon the techniques proposed by the Open Science initiaitatives such as the Turing Way \[**CITATION**\] and the Openscapes project [@openscapescoreteam2024], such as using issues and [GitHubs Projects](https://docs.github.com/en/issues/planning-and-tracking-with-projects/learning-about-projects/about-projects) functionality for project management and communication, and using dedicated repositories for documentation and deliverables. This is to ensure that all our work is transparent and accessible to all members of the SWG, and to make it easier to track progress on our projects and service requests.
 
 ### Markdown for documentation {#sec-documentation}
 
@@ -82,8 +82,6 @@ Importantly, the issues can and should be updated over time, we wil be flexible 
 #### Knowledge-management for documentation
 
 #### Project-management for tracking projects and deliverables
-
-#### Wiki for general information
 
 #### Training for our educational materials
 
