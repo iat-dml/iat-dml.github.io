@@ -1,13 +1,5 @@
 [
   {
-    "listing": "/news.html",
-    "items": [
-      "/news/2026-06-iemss-workshop.html",
-      "/news/2026-01-iat-kickoff.html",
-      "/news/2026-03-fairagro-summit.html"
-    ]
-  },
-  {
     "listing": "/index.html",
     "items": [
       "/news/2026-06-iemss-workshop.html",
@@ -17,6 +9,14 @@
       "/projects/policy-lab-guide.html",
       "/projects/monkshilllabs.html",
       "/projects/zalf-iat-templates.html"
+    ]
+  },
+  {
+    "listing": "/news.html",
+    "items": [
+      "/news/2026-06-iemss-workshop.html",
+      "/news/2026-01-iat-kickoff.html",
+      "/news/2026-03-fairagro-summit.html"
     ]
   },
   {

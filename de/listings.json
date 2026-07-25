@@ -1,11 +1,5 @@
 [
   {
-    "listing": "/news.html",
-    "items": [
-      "/news/2026-03-fairagro-summit.html"
-    ]
-  },
-  {
     "listing": "/index.html",
     "items": [
       "/news/2026-03-fairagro-summit.html",
@@ -16,12 +10,9 @@
     ]
   },
   {
-    "listing": "/projects.html",
+    "listing": "/news.html",
     "items": [
-      "/projects/living-lab-dashboards.html",
-      "/projects/policy-lab-guide.html",
-      "/projects/monkshilllabs.html",
-      "/projects/zalf-iat-templates.html"
+      "/news/2026-03-fairagro-summit.html"
     ]
   },
   {
@@ -30,6 +21,15 @@
       "/team/Ben.html",
       "/team/DS.html",
       "/team/RSE.html"
+    ]
+  },
+  {
+    "listing": "/projects.html",
+    "items": [
+      "/projects/living-lab-dashboards.html",
+      "/projects/policy-lab-guide.html",
+      "/projects/monkshilllabs.html",
+      "/projects/zalf-iat-templates.html"
     ]
   }
 ]

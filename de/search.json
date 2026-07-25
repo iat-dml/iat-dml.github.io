@@ -1,10 +1,24 @@
 [
   {
-    "objectID": "news.html",
-    "href": "news.html",
-    "title": "Nachrichten",
+    "objectID": "contact-form.html",
+    "href": "contact-form.html",
+    "title": "Support anfordern",
     "section": "",
-    "text": "Eine Option zum Abonnieren des Newsletters wird bald verfügbar sein!\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nDML auf dem FAIRagro Community Summit\n\n\n\nFAIRagro\n\nFAIR data\n\ncommunity\n\n\n\nMitglieder der DML-Arbeitsgruppe nahmen am FAIRagro Community Summit teil und tauschten sich mit der FAIR-Daten-Community im Bereich der Agrarforschung aus.\n\n\n\n05.03.2026\n\n\n\n\n\n\nKeine Treffer"
+    "text": "Verwenden Sie das untenstehende Formular, um uns eine Anfrage zu senden – es ist keinerlei Konto erforderlich."
+  },
+  {
+    "objectID": "contact-form.html#bevorzugen-sie-e-mail",
+    "href": "contact-form.html#bevorzugen-sie-e-mail",
+    "title": "Support anfordern",
+    "section": "Bevorzugen Sie E-Mail?",
+    "text": "Bevorzugen Sie E-Mail?\nSchreiben Sie uns an iat-dml@zalf.de mit einer kurzen Beschreibung Ihrer Anfrage – diese wird automatisch in unserem Tracking-System erfasst und wir melden uns bei Ihnen."
+  },
+  {
+    "objectID": "contact-form.html#haben-sie-bereits-ein-github-konto",
+    "href": "contact-form.html#haben-sie-bereits-ein-github-konto",
+    "title": "Support anfordern",
+    "section": "Haben Sie bereits ein GitHub-Konto?",
+    "text": "Haben Sie bereits ein GitHub-Konto?\nSie können eine Anfrage direkt in unserem Service Desk erstellen."
   },
   {
     "objectID": "index.html",
@@ -26,62 +40,6 @@
     "title": "Startseite",
     "section": "Projects",
     "text": "Projects\n\n\n\n\n\n\n\n\n\n\nLiving Lab Explorer\n\n\n\ndashboard\n\nvisualization\n\nliving labs\n\ntransfer\n\nWIP\n\n\n\nInteraktive Dashboards zur Auswertung von Umwelt- und sozioökonomischen Daten aus den fünf IAT-Living-Labs.\n\n\n\n01.07.2026\n\n\n\n\n\n\n\n\n\n\n\n\n\nEin Leitfaden für Policy Labs\n\n\n\nguide\n\nmethods\n\nliving labs\n\ntransfer\n\nWIP\n\n\n\nEin interaktiver Leitfaden zur Entwicklung von „Policy Labs“ für Agrarumweltmaßnahmen im Rahmen von „Living Labs“.\n\n\n\n01.07.2026\n\n\n\n\n\n\n\n\n\n\n\n\n\nMonksHillLab-Handbuch zur Feldökophysiologie – Webversion\n\n\n\ncollaboration\n\nresearch platform\n\nWIP\n\ntransfer\n\n\n\nDie DML-Gruppe trug dazu bei, die Reichweite des Handbuchs zur Feldökophysiologie von MonksHillLab zu vergrößern, indem sie es von einem PDF in eine interaktive Webressource…\n\n\n\n03.06.2026\n\n\n\n\n\n\nKeine Treffer\n\nAlle Projekte →"
-  },
-  {
-    "objectID": "team-manual.html",
-    "href": "team-manual.html",
-    "title": "Data and Modelling Infrastructure Team Manual",
-    "section": "",
-    "text": "This manual serves as a living document to inform how we in the Data and Modelling Infrastructure (DML) Service Working Group (SWG) work, communicate, and share information. It is intended to be a resource for both current and future members of the SWG. The manual will be updated regularly to reflect changes in our processes and practices, and we welcome contributions from all members of the SWG to ensure that it remains relevant and useful.\nWe strive to adapt approaches from agile project management, modern software development and Open Science to the context of providing support to researchers. Our aim is to use what works without adopting everything or being too rigid. For example, using Github will be a cornerstone of how we work, in terms of developing and managing the deliverables for our service requests. At the same time for many of our users we may need to provide them with the deliverables via a different means (e.g. file sharing) to meet their level of technical expertise.\nThe major sections below cover:\n\nHow we create a respectful work environment\nHow we organise our work\nHow we provide our services\nHow we communicate and stay informed\nHow we share documents and data\n\nWe use a tiered system for support, where we provide different levels of support based on the needs and preferences of our users. For example, for some users we may provide more hands-on support, while for others we may provide more self-service resources and documentation. We will also be flexible in our communication channels, using a combination of Github issues and Microsoft Teams Channels to communicate with our users and other IAT core groups (e.g. The IAT Coordination Team and Regional Network Managers).\n\n\nWe are committed to creating a respectful and inclusive work environment for all members of the SWG. We will treat each other with respect and kindness, and we will strive to create a culture of openness and collaboration. To this end we have developed a code of conduct that outlines our expectations for behaviour and communication both within the SWG and when interacting with service users. Like this team manual, the code of conduct is a living document that we will update as needed to ensure that it remains relevant and effective. We will also make sure that all members of the SWG are familiar with the code of conduct and that they understand their responsibilities in creating a positive and respectful work environment.\nWe will also be mindful of our language and communication style, and we will avoid using language that is offensive or exclusionary.\n\n\n\n\n\nWe will use Github for project and knowledge management building upon the techniques proposed by the Open Science initiaitatives such as the Turing Way [CITATION] and the Openscapes project [@openscapescoreteam2024], such as using issues and GitHubs Projects functionality for project management and communication, and using dedicated repositories for documentation and deliverables. This is to ensure that all our work is transparent and accessible to all members of the SWG, and to make it easier to track progress on our projects and service requests.\n\n\n\nFor all documentation use Quarto (.qmd) files with the Github Flavoured Markdown (gfm) format option in the yaml\n\n\n\n\nStart all new repositories as private and migrate to public later where possible (e.g. for approved service request products).\nUse kebab-case for repository names and file names (e.g. service-desk or knowledge-management). With full capitalization for acronyms (e.g. DML-website).\nUse our custom issue labels: TODO list them\nPut a README.md in each repository to provide project level documentation as normal. For non-conventional repositories such as knowledge-mangement and templates include a README.md in each major directory within them containing a one sentence description both English and German (Deepl’d) of the purpose of the directory.\nWithin issues, we encourage including perma-links to files or specific chunks in other repos in the issues to make it easier for others to find the relevant information (in the respective files click the ‘...’ icon and ‘copy perma link’).\n\n\n\n\nThe image below gives an overview of our key repos and how thez are connected with each explained in more detail below."
-  },
-  {
-    "objectID": "team-manual.html#sec-conduct",
-    "href": "team-manual.html#sec-conduct",
-    "title": "Data and Modelling Infrastructure Team Manual",
-    "section": "",
-    "text": "We are committed to creating a respectful and inclusive work environment for all members of the SWG. We will treat each other with respect and kindness, and we will strive to create a culture of openness and collaboration. To this end we have developed a code of conduct that outlines our expectations for behaviour and communication both within the SWG and when interacting with service users. Like this team manual, the code of conduct is a living document that we will update as needed to ensure that it remains relevant and effective. We will also make sure that all members of the SWG are familiar with the code of conduct and that they understand their responsibilities in creating a positive and respectful work environment.\nWe will also be mindful of our language and communication style, and we will avoid using language that is offensive or exclusionary."
-  },
-  {
-    "objectID": "team-manual.html#sec-how_we_organise",
-    "href": "team-manual.html#sec-how_we_organise",
-    "title": "Data and Modelling Infrastructure Team Manual",
-    "section": "",
-    "text": "We will use Github for project and knowledge management building upon the techniques proposed by the Open Science initiaitatives such as the Turing Way [CITATION] and the Openscapes project [@openscapescoreteam2024], such as using issues and GitHubs Projects functionality for project management and communication, and using dedicated repositories for documentation and deliverables. This is to ensure that all our work is transparent and accessible to all members of the SWG, and to make it easier to track progress on our projects and service requests.\n\n\n\nFor all documentation use Quarto (.qmd) files with the Github Flavoured Markdown (gfm) format option in the yaml\n\n\n\n\nStart all new repositories as private and migrate to public later where possible (e.g. for approved service request products).\nUse kebab-case for repository names and file names (e.g. service-desk or knowledge-management). With full capitalization for acronyms (e.g. DML-website).\nUse our custom issue labels: TODO list them\nPut a README.md in each repository to provide project level documentation as normal. For non-conventional repositories such as knowledge-mangement and templates include a README.md in each major directory within them containing a one sentence description both English and German (Deepl’d) of the purpose of the directory.\nWithin issues, we encourage including perma-links to files or specific chunks in other repos in the issues to make it easier for others to find the relevant information (in the respective files click the ‘...’ icon and ‘copy perma link’).\n\n\n\n\nThe image below gives an overview of our key repos and how thez are connected with each explained in more detail below."
-  },
-  {
-    "objectID": "team-manual.html#sec-how_services",
-    "href": "team-manual.html#sec-how_services",
-    "title": "Data and Modelling Infrastructure Team Manual",
-    "section": "How we provide our services",
-    "text": "How we provide our services\n\nIdeally requests should be made via the contact form/email address provided on the DML webpages, in this case we will use an automation to convert them into issues. However, it should be requests will also happen informally via general emails or direct discussions with members of the SWG, in this case it is the responsibility of the SWG member to create an issue in the service-desk repo\nFirst meeting to discuss the request. Getting details, understanding needs and setting expectations.\nPossibly develop a tiered system for support, maybe only to be used internally to describe the level of effort/engagement/priority. Higher effort requests would perhaps require some kind of reciprocal benefits i.e. support for personnel from the requesting group, or co-authorship on a deliverable, etc.\nWhen creating a repo for the request, set the custom repository property service-repo to true. Custom properties are set in the repository settings on GitHub (Settings → Custom properties) and allow us to filter and identify all service-related repos across the organisation. In the README of the new repo, include a one-sentence description of the purpose of the repo and a link back to the corresponding issue in the service-desk repo (e.g. https://github.com/iat-dml/service-desk/issues/&lt;issue-number&gt;). This connects the working repo to the intake record so that anyone can trace the request back to its original context."
-  },
-  {
-    "objectID": "team-manual.html#sec-how_communicate",
-    "href": "team-manual.html#sec-how_communicate",
-    "title": "Data and Modelling Infrastructure Team Manual",
-    "section": "How we communicate and stay informed",
-    "text": "How we communicate and stay informed\n\nInternal channels of communication\nTODO: add details of MS teams set-up including the IAT-Core, IAT-All and IAT-DML teams and channels.\nWe will use Github issues as a communication channel for the SWG. This is to ensure that all communication is transparent and accessible to all members of the SWG. We will use issues to discuss and track progress on tasks, share updates, and ask questions. We will also use labels to categorize issues and make it easier to find relevant information.\n\n\nExternal channels of communication\n\nDML website\nZALF Intranet\nZALF website\nZukunft Land\nLinkedIn"
-  },
-  {
-    "objectID": "team-manual.html#document-templates",
-    "href": "team-manual.html#document-templates",
-    "title": "Data and Modelling Infrastructure Team Manual",
-    "section": "Document templates",
-    "text": "Document templates\nWe have a dedicated repository for document templates ‘templates’ where we will store templates for different types of documents including PDfs, presentations, and reports. This is to ensure consistency in the format and style of our documents and to make it easier for members to create new documents."
-  },
-  {
-    "objectID": "team-manual.html#sec-how_share_documents",
-    "href": "team-manual.html#sec-how_share_documents",
-    "title": "Data and Modelling Infrastructure Team Manual",
-    "section": "How we share documents and data",
-    "text": "How we share documents and data"
-  },
-  {
-    "objectID": "team-manual.html#sharing-documents",
-    "href": "team-manual.html#sharing-documents",
-    "title": "Data and Modelling Infrastructure Team Manual",
-    "section": "Sharing documents",
-    "text": "Sharing documents\n\nFor sharing ZALF internal documents on github use Sharepoint links\nFor collaboration with other SWGs, Admin and Coordination in the IAT we should use Sharepoint and/or Teams channels."
   },
   {
     "objectID": "privacy-policy.html",
@@ -168,6 +126,13 @@
     "text": "10. Kontakt\nBei Fragen zur Datenschutzerklärung kontaktieren Sie uns bitte:\n\nLeibniz-Zentrum für Agrarlandschaftsforschung (ZALF) e.V.\nArbeitsgruppe „Data and Modelling Infrastructure for Living Labs (DML)”\nE-mail: benjaminsamuel.black@zalf.de"
   },
   {
+    "objectID": "news/2026-03-fairagro-summit.html",
+    "href": "news/2026-03-fairagro-summit.html",
+    "title": "DML auf dem FAIRagro Community Summit",
+    "section": "",
+    "text": "Im März reisten Mitglieder der DML-Arbeitsgruppe nach Frankfurt, um am FAIRagro Community Summit teilzunehmen. Die Veranstaltung brachte die FAIRagro-Community zusammen, um die Dienste und Werkzeuge vorzustellen, die das Konsortium entwickelt hat, um offene und FAIR-konforme Datenpraktiken in der Agrarforschung voranzutreiben.\nFAIRagro ist ein NFDI-Konsortium, das seit 2023 die Agrarsystemforschung in Deutschland vertritt. Mit mehr als 30 Partnern baut es eine FAIR-konforme (Findable, Accessible, Interoperable, Reusable) Infrastruktur für das Forschungsdatenmanagement auf und entwickelt die Tools und Arbeitsabläufe, die zur Unterstützung von Open Science und einer nachhaltigen Pflanzenproduktion erforderlich sind.\nDer Gipfel bot eine hervorragende Gelegenheit, Ideen auszutauschen, sich über aktuelle Entwicklungen zu informieren und Kontakte zu anderen zu knüpfen, die sich mit Herausforderungen im Bereich Forschungsdaten in der Landwirtschaft beschäftigen. Wir freuen uns auf die zukünftige Zusammenarbeit mit dem FAIRagro-Konsortium!"
+  },
+  {
     "objectID": "team/Ben.html",
     "href": "team/Ben.html",
     "title": "Ben Black",
@@ -196,27 +161,6 @@
     "text": "Wir werden bald einstellen"
   },
   {
-    "objectID": "contact-form.html",
-    "href": "contact-form.html",
-    "title": "Support anfordern",
-    "section": "",
-    "text": "Verwenden Sie das untenstehende Formular, um uns eine Anfrage zu senden – es ist keinerlei Konto erforderlich."
-  },
-  {
-    "objectID": "contact-form.html#bevorzugen-sie-e-mail",
-    "href": "contact-form.html#bevorzugen-sie-e-mail",
-    "title": "Support anfordern",
-    "section": "Bevorzugen Sie E-Mail?",
-    "text": "Bevorzugen Sie E-Mail?\nSchreiben Sie uns an iat-dml@zalf.de mit einer kurzen Beschreibung Ihrer Anfrage – diese wird automatisch in unserem Tracking-System erfasst und wir melden uns bei Ihnen."
-  },
-  {
-    "objectID": "contact-form.html#haben-sie-bereits-ein-github-konto",
-    "href": "contact-form.html#haben-sie-bereits-ein-github-konto",
-    "title": "Support anfordern",
-    "section": "Haben Sie bereits ein GitHub-Konto?",
-    "text": "Haben Sie bereits ein GitHub-Konto?\nSie können eine Anfrage direkt in unserem Service Desk erstellen."
-  },
-  {
     "objectID": "projects/living-lab-dashboards.html",
     "href": "projects/living-lab-dashboards.html",
     "title": "Living Lab Explorer",
@@ -229,6 +173,27 @@
     "title": "Ein Leitfaden für Policy Labs",
     "section": "",
     "text": "Die Policy Lab Guide ist ein noch in der Entwicklung befindliches Projekt, das Forschern und Praktikern als Leitfaden für die Entwicklung von Policy Labs für Agrarumweltmaßnahmen im Rahmen von Living Labs dienen soll. Der Leitfaden ist als praktische Ressource für diejenigen konzipiert, die politische Maßnahmen in Zusammenarbeit mit Interessengruppen gemeinsam gestalten, testen und bewerten möchten, und bietet empfohlene Methoden für jeden Schritt des Prozesses.\nEr bietet zwei Einstiegsmöglichkeiten: ein Konzeptdiagramm, das die Phasen des Policy Labs visuell darstellt, und eine durchsuchbare Methodenbibliothek, in der jede Methode nach Phase, Akteur, Aufwand und Kompetenzniveau gefiltert werden kann.\nDer Leitfaden wird gemeinsam mit Kollegen vom ZALF entwickelt: Bettina Matzdorf, Joana Iwaniw, Ben Black und Sebastian Rogga. In naher Zukunft hoffen wir jedoch, den Leitfaden für Beiträge der breiteren Gemeinschaft von Forschern und Praktikern zu öffnen, die im Bereich des Policy Co-Designs und der Living Labs tätig sind, insbesondere innerhalb des IAT. Bitte melden Sie sich bei uns, wenn Sie einen Beitrag leisten oder Feedback zum Leitfaden geben möchten"
+  },
+  {
+    "objectID": "LICENSE.html",
+    "href": "LICENSE.html",
+    "title": "LICENSE",
+    "section": "",
+    "text": "The ZALF Living Labs Infrastructure Community makes all of our materials publicly available under open source licenses.\nDocuments and data are made available under a CC-BY license. Software are made available under an MIT license.\nThe license text listed below (describing both CC-BY and MIT licenses as well as their usage in the ZALF Living Labs Infrastructure community) is re-used under a CC-BY license from The Carpentries community materials. (Specifically from the Reproducible Science Curriculum).\nYou can read more about licenses in the book itself.\n\n\nAll documentation and materials in this repository are made available under the Creative Commons Attribution license. The following is a human-readable summary of (and not a substitute for) the full legal text of the CC BY 4.0 license.\nYou are free:\n\nto Share—copy and redistribute the material in any medium or format\nto Adapt—remix, transform, and build upon the material\n\nfor any purpose, even commercially.\nThe licensor cannot revoke these freedoms as long as you follow the license terms.\nUnder the following terms:\n\nAttribution—You must give appropriate credit (mentioning that your work is derived from work that is Copyright © ZALF Living Labs Infrastructure community and, where practical, linking to https://github.com/iat-dml), provide a link to the license, and indicate if changes were made. You may do so in any reasonable manner, but not in any way that suggests the licensor endorses you or your use.\nNo additional restrictions—You may not apply legal terms or technological measures that legally restrict others from doing anything the license permits.\n\nWith the understanding that:\n\nYou do not have to comply with the license for elements of the material in the public domain or where your use is permitted by an applicable exception or limitation.\nNo warranties are given. The license may not give you all of the permissions necessary for your intended use. For example, other rights such as publicity, privacy, or moral rights may limit how you use the material.\n\n\n\n\nExcept where otherwise noted, the software and infrastructure provided by the The ZALF Living Labs Infrastructure Community are made available under the OSI-approved MIT license.\n\nPermission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the “Software”), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:\nThe above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.\nTHE SOFTWARE IS PROVIDED “AS IS”, WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE."
+  },
+  {
+    "objectID": "LICENSE.html#process-documents-and-data",
+    "href": "LICENSE.html#process-documents-and-data",
+    "title": "LICENSE",
+    "section": "",
+    "text": "All documentation and materials in this repository are made available under the Creative Commons Attribution license. The following is a human-readable summary of (and not a substitute for) the full legal text of the CC BY 4.0 license.\nYou are free:\n\nto Share—copy and redistribute the material in any medium or format\nto Adapt—remix, transform, and build upon the material\n\nfor any purpose, even commercially.\nThe licensor cannot revoke these freedoms as long as you follow the license terms.\nUnder the following terms:\n\nAttribution—You must give appropriate credit (mentioning that your work is derived from work that is Copyright © ZALF Living Labs Infrastructure community and, where practical, linking to https://github.com/iat-dml), provide a link to the license, and indicate if changes were made. You may do so in any reasonable manner, but not in any way that suggests the licensor endorses you or your use.\nNo additional restrictions—You may not apply legal terms or technological measures that legally restrict others from doing anything the license permits.\n\nWith the understanding that:\n\nYou do not have to comply with the license for elements of the material in the public domain or where your use is permitted by an applicable exception or limitation.\nNo warranties are given. The license may not give you all of the permissions necessary for your intended use. For example, other rights such as publicity, privacy, or moral rights may limit how you use the material."
+  },
+  {
+    "objectID": "LICENSE.html#software",
+    "href": "LICENSE.html#software",
+    "title": "LICENSE",
+    "section": "",
+    "text": "Except where otherwise noted, the software and infrastructure provided by the The ZALF Living Labs Infrastructure Community are made available under the OSI-approved MIT license.\n\nPermission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the “Software”), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:\nThe above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.\nTHE SOFTWARE IS PROVIDED “AS IS”, WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE."
   },
   {
     "objectID": "projects/zalf-iat-templates.html",
@@ -273,11 +238,11 @@
     "text": "Entdecken Sie das Handbuch\n\n\nDas Live-Handbuch ist unter monkshilllab-isolab.github.io/LCSfFE-handbook verfügbar. Es handelt sich um ein fortlaufend aktualisiertes Dokument, und das MonksHillLab-Team freut sich über Beiträge zur Verbesserung sowie über neue Kapitel – siehe den Abschnitt „Mitwirken“ im Handbuch oder wenden Sie sich an den Autor (mathias.hoffmann@zalf.de).\nDas Handbuch wird unter einer CC-BY 4.0-Lizenz veröffentlicht und auf Zenodo unter der DOI [10.5281/zenodo.15562591] (https://doi.org/10.5281/zenodo.15562591)."
   },
   {
-    "objectID": "projects.html",
-    "href": "projects.html",
-    "title": "Projekte",
+    "objectID": "news.html",
+    "href": "news.html",
+    "title": "Nachrichten",
     "section": "",
-    "text": "Living Lab Explorer\n\n\n\ndashboard\n\nvisualization\n\nliving labs\n\ntransfer\n\nWIP\n\n\n\nInteraktive Dashboards zur Auswertung von Umwelt- und sozioökonomischen Daten aus den fünf IAT-Living-Labs.\n\n\n\n01.07.2026\n\n\n\n\n\n\n\n\n\n\n\n\n\nEin Leitfaden für Policy Labs\n\n\n\nguide\n\nmethods\n\nliving labs\n\ntransfer\n\nWIP\n\n\n\nEin interaktiver Leitfaden zur Entwicklung von „Policy Labs“ für Agrarumweltmaßnahmen im Rahmen von „Living Labs“.\n\n\n\n01.07.2026\n\n\n\n\n\n\n\n\n\n\n\n\n\nMonksHillLab-Handbuch zur Feldökophysiologie – Webversion\n\n\n\ncollaboration\n\nresearch platform\n\nWIP\n\ntransfer\n\n\n\nDie DML-Gruppe trug dazu bei, die Reichweite des Handbuchs zur Feldökophysiologie von MonksHillLab zu vergrößern, indem sie es von einem PDF in eine interaktive Webressource…\n\n\n\n03.06.2026\n\n\n\n\n\n\n\n\n\n\n\n\n\nIAT ZALF Templates\n\n\n\ninfrastructure\n\ncollaboration\n\nresearch platform\n\n\n\nVorlagen zur Erstellung von Präsentationen und Dokumenten, die dem Corporate Design von IAT und ZALF entsprechen.\n\n\n\n15.11.2024\n\n\n\n\n\n\nKeine Treffer"
+    "text": "Eine Option zum Abonnieren des Newsletters wird bald verfügbar sein!\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nDML auf dem FAIRagro Community Summit\n\n\n\nFAIRagro\n\nFAIR data\n\ncommunity\n\n\n\nMitglieder der DML-Arbeitsgruppe nahmen am FAIRagro Community Summit teil und tauschten sich mit der FAIR-Daten-Community im Bereich der Agrarforschung aus.\n\n\n\n05.03.2026\n\n\n\n\n\n\nKeine Treffer"
   },
   {
     "objectID": "team/DS.html",
@@ -285,20 +250,6 @@
     "title": "Data Steward",
     "section": "",
     "text": "Wir werden bald einstellen"
-  },
-  {
-    "objectID": "services.html",
-    "href": "services.html",
-    "title": "Dienstleistungen",
-    "section": "",
-    "text": "Die Arbeitsgruppe bietet unterschiedliche Unterstützungsstufen an, abhängig vom Umfang der Anfrage, der erwarteten Zusammenarbeit und dem Aufwand für belastbare Ergebnisse."
-  },
-  {
-    "objectID": "services.html#unterstützungsmodell",
-    "href": "services.html#unterstützungsmodell",
-    "title": "Dienstleistungen",
-    "section": "",
-    "text": "Die Arbeitsgruppe bietet unterschiedliche Unterstützungsstufen an, abhängig vom Umfang der Anfrage, der erwarteten Zusammenarbeit und dem Aufwand für belastbare Ergebnisse."
   },
   {
     "objectID": "resources.html",
@@ -336,31 +287,80 @@
     "text": "Klicken Sie auf das Profil jedes Teammitglieds, um weitere Informationen zu erhalten.\n\n\n\n  \n    \n      \n        \n        \n          \n        \n        \n        \n        \n        \n          \n            \n              \n          \n            \n          \n              \n            \n              \n          \n            \n          \n              \n            \n              \n          \n            \n          \n              \n            \n              \n          \n            \n          \n              \n            \n          \n        \n        \n        \n        \n          \n          Ben Black\n          \n          \n          \n          Leiter der Arbeitsgruppe\n          \n\n          \n          \n            Ben is the head of our working group, responsible for overseeing all projects and ensuring successful delivery. With a strong background in software engineering and team leadership, Ben has been instrumental in driving innovation and fostering a collaborative work environment.\n          \n          \n          \n          \n          \n            Expertise:\n            \n            \n              \n            R\n              \n            Quarto\n              \n            Team Leadership\n              \n            System Design\n              \n            \n          \n          \n          \n          \n          \n          \n            Projects:\n            \n              \n                \n                  \n              Living Lab Dashboards\n                  \n                \n                  \n              MonksHillLabs Initiative\n                  \n                \n              \n            \n          \n          \n        \n      \n    \n  \n\n  \n    \n      \n        \n        \n          \n        \n        \n        \n        \n        \n        \n          \n          Data Steward\n          \n          \n          \n          Data Steward\n          \n\n          \n          \n            \n          \n          \n          \n          \n          \n          \n        \n      \n    \n  \n\n  \n    \n      \n        \n        \n          \n        \n        \n        \n        \n        \n        \n          \n          Research Software Engineer\n          \n          \n          \n          Research Software Engineer\n          \n\n          \n          \n            \n          \n          \n          \n          \n          \n            Expertise:\n            \n            \n              \n            Python\n              \n            R\n              \n            Git\n              \n            Software Architecture\n              \n            CI/CD\n              \n            HPC\n              \n            Open Source Development\n              \n            \n          \n          \n          \n          \n          \n        \n      \n    \n  \n\n\nKeine Treffer"
   },
   {
-    "objectID": "news/2026-03-fairagro-summit.html",
-    "href": "news/2026-03-fairagro-summit.html",
-    "title": "DML auf dem FAIRagro Community Summit",
+    "objectID": "team-manual.html",
+    "href": "team-manual.html",
+    "title": "Data and Modelling Infrastructure Team Manual",
     "section": "",
-    "text": "Im März reisten Mitglieder der DML-Arbeitsgruppe nach Frankfurt, um am FAIRagro Community Summit teilzunehmen. Die Veranstaltung brachte die FAIRagro-Community zusammen, um die Dienste und Werkzeuge vorzustellen, die das Konsortium entwickelt hat, um offene und FAIR-konforme Datenpraktiken in der Agrarforschung voranzutreiben.\nFAIRagro ist ein NFDI-Konsortium, das seit 2023 die Agrarsystemforschung in Deutschland vertritt. Mit mehr als 30 Partnern baut es eine FAIR-konforme (Findable, Accessible, Interoperable, Reusable) Infrastruktur für das Forschungsdatenmanagement auf und entwickelt die Tools und Arbeitsabläufe, die zur Unterstützung von Open Science und einer nachhaltigen Pflanzenproduktion erforderlich sind.\nDer Gipfel bot eine hervorragende Gelegenheit, Ideen auszutauschen, sich über aktuelle Entwicklungen zu informieren und Kontakte zu anderen zu knüpfen, die sich mit Herausforderungen im Bereich Forschungsdaten in der Landwirtschaft beschäftigen. Wir freuen uns auf die zukünftige Zusammenarbeit mit dem FAIRagro-Konsortium!"
+    "text": "This manual serves as a living document to inform how we in the Data and Modelling Infrastructure (DML) Service Working Group (SWG) work, communicate, and share information. It is intended to be a resource for both current and future members of the SWG. The manual will be updated regularly to reflect changes in our processes and practices, and we welcome contributions from all members of the SWG to ensure that it remains relevant and useful.\nWe strive to adapt approaches from agile project management, modern software development and Open Science to the context of providing support to researchers. Our aim is to use what works without adopting everything or being too rigid. For example, using Github will be a cornerstone of how we work, in terms of developing and managing the deliverables for our service requests. At the same time for many of our users we may need to provide them with the deliverables via a different means (e.g. file sharing) to meet their level of technical expertise.\nThe major sections below cover:\n\nHow we create a respectful work environment\nHow we organise our work\nHow we provide our services\nHow we communicate and stay informed\nHow we share documents and data\n\nWe use a tiered system for support, where we provide different levels of support based on the needs and preferences of our users. For example, for some users we may provide more hands-on support, while for others we may provide more self-service resources and documentation. We will also be flexible in our communication channels, using a combination of Github issues and Microsoft Teams Channels to communicate with our users and other IAT core groups (e.g. The IAT Coordination Team and Regional Network Managers).\n\n\nWe are committed to creating a respectful and inclusive work environment for all members of the SWG. We will treat each other with respect and kindness, and we will strive to create a culture of openness and collaboration. To this end we have developed a code of conduct that outlines our expectations for behaviour and communication both within the SWG and when interacting with service users. Like this team manual, the code of conduct is a living document that we will update as needed to ensure that it remains relevant and effective. We will also make sure that all members of the SWG are familiar with the code of conduct and that they understand their responsibilities in creating a positive and respectful work environment.\nWe will also be mindful of our language and communication style, and we will avoid using language that is offensive or exclusionary.\n\n\n\n\n\nWe will use Github for project and knowledge management building upon the techniques proposed by the Open Science initiaitatives such as the Turing Way [CITATION] and the Openscapes project [@openscapescoreteam2024], such as using issues and GitHubs Projects functionality for project management and communication, and using dedicated repositories for documentation and deliverables. This is to ensure that all our work is transparent and accessible to all members of the SWG, and to make it easier to track progress on our projects and service requests.\n\n\n\nFor all documentation use Quarto (.qmd) files with the Github Flavoured Markdown (gfm) format option in the yaml\n\n\n\n\nStart all new repositories as private and migrate to public later where possible (e.g. for approved service request products).\nUse kebab-case for repository names and file names (e.g. service-desk or knowledge-management). With full capitalization for acronyms (e.g. DML-website).\nUse our custom issue labels: TODO list them\nPut a README.md in each repository to provide project level documentation as normal. For non-conventional repositories such as knowledge-mangement and templates include a README.md in each major directory within them containing a one sentence description both English and German (Deepl’d) of the purpose of the directory.\nWithin issues, we encourage including perma-links to files or specific chunks in other repos in the issues to make it easier for others to find the relevant information (in the respective files click the ‘...’ icon and ‘copy perma link’).\n\n\n\n\nThe image below gives an overview of our key repos and how thez are connected with each explained in more detail below."
   },
   {
-    "objectID": "LICENSE.html",
-    "href": "LICENSE.html",
-    "title": "LICENSE",
+    "objectID": "team-manual.html#sec-conduct",
+    "href": "team-manual.html#sec-conduct",
+    "title": "Data and Modelling Infrastructure Team Manual",
     "section": "",
-    "text": "The ZALF Living Labs Infrastructure Community makes all of our materials publicly available under open source licenses.\nDocuments and data are made available under a CC-BY license. Software are made available under an MIT license.\nThe license text listed below (describing both CC-BY and MIT licenses as well as their usage in the ZALF Living Labs Infrastructure community) is re-used under a CC-BY license from The Carpentries community materials. (Specifically from the Reproducible Science Curriculum).\nYou can read more about licenses in the book itself.\n\n\nAll documentation and materials in this repository are made available under the Creative Commons Attribution license. The following is a human-readable summary of (and not a substitute for) the full legal text of the CC BY 4.0 license.\nYou are free:\n\nto Share—copy and redistribute the material in any medium or format\nto Adapt—remix, transform, and build upon the material\n\nfor any purpose, even commercially.\nThe licensor cannot revoke these freedoms as long as you follow the license terms.\nUnder the following terms:\n\nAttribution—You must give appropriate credit (mentioning that your work is derived from work that is Copyright © ZALF Living Labs Infrastructure community and, where practical, linking to https://github.com/iat-dml), provide a link to the license, and indicate if changes were made. You may do so in any reasonable manner, but not in any way that suggests the licensor endorses you or your use.\nNo additional restrictions—You may not apply legal terms or technological measures that legally restrict others from doing anything the license permits.\n\nWith the understanding that:\n\nYou do not have to comply with the license for elements of the material in the public domain or where your use is permitted by an applicable exception or limitation.\nNo warranties are given. The license may not give you all of the permissions necessary for your intended use. For example, other rights such as publicity, privacy, or moral rights may limit how you use the material.\n\n\n\n\nExcept where otherwise noted, the software and infrastructure provided by the The ZALF Living Labs Infrastructure Community are made available under the OSI-approved MIT license.\n\nPermission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the “Software”), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:\nThe above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.\nTHE SOFTWARE IS PROVIDED “AS IS”, WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE."
+    "text": "We are committed to creating a respectful and inclusive work environment for all members of the SWG. We will treat each other with respect and kindness, and we will strive to create a culture of openness and collaboration. To this end we have developed a code of conduct that outlines our expectations for behaviour and communication both within the SWG and when interacting with service users. Like this team manual, the code of conduct is a living document that we will update as needed to ensure that it remains relevant and effective. We will also make sure that all members of the SWG are familiar with the code of conduct and that they understand their responsibilities in creating a positive and respectful work environment.\nWe will also be mindful of our language and communication style, and we will avoid using language that is offensive or exclusionary."
   },
   {
-    "objectID": "LICENSE.html#process-documents-and-data",
-    "href": "LICENSE.html#process-documents-and-data",
-    "title": "LICENSE",
+    "objectID": "team-manual.html#sec-how_we_organise",
+    "href": "team-manual.html#sec-how_we_organise",
+    "title": "Data and Modelling Infrastructure Team Manual",
     "section": "",
-    "text": "All documentation and materials in this repository are made available under the Creative Commons Attribution license. The following is a human-readable summary of (and not a substitute for) the full legal text of the CC BY 4.0 license.\nYou are free:\n\nto Share—copy and redistribute the material in any medium or format\nto Adapt—remix, transform, and build upon the material\n\nfor any purpose, even commercially.\nThe licensor cannot revoke these freedoms as long as you follow the license terms.\nUnder the following terms:\n\nAttribution—You must give appropriate credit (mentioning that your work is derived from work that is Copyright © ZALF Living Labs Infrastructure community and, where practical, linking to https://github.com/iat-dml), provide a link to the license, and indicate if changes were made. You may do so in any reasonable manner, but not in any way that suggests the licensor endorses you or your use.\nNo additional restrictions—You may not apply legal terms or technological measures that legally restrict others from doing anything the license permits.\n\nWith the understanding that:\n\nYou do not have to comply with the license for elements of the material in the public domain or where your use is permitted by an applicable exception or limitation.\nNo warranties are given. The license may not give you all of the permissions necessary for your intended use. For example, other rights such as publicity, privacy, or moral rights may limit how you use the material."
+    "text": "We will use Github for project and knowledge management building upon the techniques proposed by the Open Science initiaitatives such as the Turing Way [CITATION] and the Openscapes project [@openscapescoreteam2024], such as using issues and GitHubs Projects functionality for project management and communication, and using dedicated repositories for documentation and deliverables. This is to ensure that all our work is transparent and accessible to all members of the SWG, and to make it easier to track progress on our projects and service requests.\n\n\n\nFor all documentation use Quarto (.qmd) files with the Github Flavoured Markdown (gfm) format option in the yaml\n\n\n\n\nStart all new repositories as private and migrate to public later where possible (e.g. for approved service request products).\nUse kebab-case for repository names and file names (e.g. service-desk or knowledge-management). With full capitalization for acronyms (e.g. DML-website).\nUse our custom issue labels: TODO list them\nPut a README.md in each repository to provide project level documentation as normal. For non-conventional repositories such as knowledge-mangement and templates include a README.md in each major directory within them containing a one sentence description both English and German (Deepl’d) of the purpose of the directory.\nWithin issues, we encourage including perma-links to files or specific chunks in other repos in the issues to make it easier for others to find the relevant information (in the respective files click the ‘...’ icon and ‘copy perma link’).\n\n\n\n\nThe image below gives an overview of our key repos and how thez are connected with each explained in more detail below."
   },
   {
-    "objectID": "LICENSE.html#software",
-    "href": "LICENSE.html#software",
-    "title": "LICENSE",
+    "objectID": "team-manual.html#sec-how_services",
+    "href": "team-manual.html#sec-how_services",
+    "title": "Data and Modelling Infrastructure Team Manual",
+    "section": "How we provide our services",
+    "text": "How we provide our services\n\nIdeally requests should be made via the contact form/email address provided on the DML webpages, in this case we will use an automation to convert them into issues. However, it should be requests will also happen informally via general emails or direct discussions with members of the SWG, in this case it is the responsibility of the SWG member to create an issue in the service-desk repo\nFirst meeting to discuss the request. Getting details, understanding needs and setting expectations.\nPossibly develop a tiered system for support, maybe only to be used internally to describe the level of effort/engagement/priority. Higher effort requests would perhaps require some kind of reciprocal benefits i.e. support for personnel from the requesting group, or co-authorship on a deliverable, etc.\nWhen creating a repo for the request, set the custom repository property service-repo to true. Custom properties are set in the repository settings on GitHub (Settings → Custom properties) and allow us to filter and identify all service-related repos across the organisation. In the README of the new repo, include a one-sentence description of the purpose of the repo and a link back to the corresponding issue in the service-desk repo (e.g. https://github.com/iat-dml/service-desk/issues/&lt;issue-number&gt;). This connects the working repo to the intake record so that anyone can trace the request back to its original context."
+  },
+  {
+    "objectID": "team-manual.html#sec-how_communicate",
+    "href": "team-manual.html#sec-how_communicate",
+    "title": "Data and Modelling Infrastructure Team Manual",
+    "section": "How we communicate and stay informed",
+    "text": "How we communicate and stay informed\n\nInternal channels of communication\nTODO: add details of MS teams set-up including the IAT-Core, IAT-All and IAT-DML teams and channels.\nWe will use Github issues as a communication channel for the SWG. This is to ensure that all communication is transparent and accessible to all members of the SWG. We will use issues to discuss and track progress on tasks, share updates, and ask questions. We will also use labels to categorize issues and make it easier to find relevant information.\n\n\nExternal channels of communication\n\nDML website\nZALF Intranet\nZALF website\nZukunft Land\nLinkedIn"
+  },
+  {
+    "objectID": "team-manual.html#document-templates",
+    "href": "team-manual.html#document-templates",
+    "title": "Data and Modelling Infrastructure Team Manual",
+    "section": "Document templates",
+    "text": "Document templates\nWe have a dedicated repository for document templates ‘templates’ where we will store templates for different types of documents including PDfs, presentations, and reports. This is to ensure consistency in the format and style of our documents and to make it easier for members to create new documents."
+  },
+  {
+    "objectID": "team-manual.html#sec-how_share_documents",
+    "href": "team-manual.html#sec-how_share_documents",
+    "title": "Data and Modelling Infrastructure Team Manual",
+    "section": "How we share documents and data",
+    "text": "How we share documents and data"
+  },
+  {
+    "objectID": "team-manual.html#sharing-documents",
+    "href": "team-manual.html#sharing-documents",
+    "title": "Data and Modelling Infrastructure Team Manual",
+    "section": "Sharing documents",
+    "text": "Sharing documents\n\nFor sharing ZALF internal documents on github use Sharepoint links\nFor collaboration with other SWGs, Admin and Coordination in the IAT we should use Sharepoint and/or Teams channels."
+  },
+  {
+    "objectID": "projects.html",
+    "href": "projects.html",
+    "title": "Projekte",
     "section": "",
-    "text": "Except where otherwise noted, the software and infrastructure provided by the The ZALF Living Labs Infrastructure Community are made available under the OSI-approved MIT license.\n\nPermission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the “Software”), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:\nThe above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.\nTHE SOFTWARE IS PROVIDED “AS IS”, WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE."
+    "text": "Living Lab Explorer\n\n\n\ndashboard\n\nvisualization\n\nliving labs\n\ntransfer\n\nWIP\n\n\n\nInteraktive Dashboards zur Auswertung von Umwelt- und sozioökonomischen Daten aus den fünf IAT-Living-Labs.\n\n\n\n01.07.2026\n\n\n\n\n\n\n\n\n\n\n\n\n\nEin Leitfaden für Policy Labs\n\n\n\nguide\n\nmethods\n\nliving labs\n\ntransfer\n\nWIP\n\n\n\nEin interaktiver Leitfaden zur Entwicklung von „Policy Labs“ für Agrarumweltmaßnahmen im Rahmen von „Living Labs“.\n\n\n\n01.07.2026\n\n\n\n\n\n\n\n\n\n\n\n\n\nMonksHillLab-Handbuch zur Feldökophysiologie – Webversion\n\n\n\ncollaboration\n\nresearch platform\n\nWIP\n\ntransfer\n\n\n\nDie DML-Gruppe trug dazu bei, die Reichweite des Handbuchs zur Feldökophysiologie von MonksHillLab zu vergrößern, indem sie es von einem PDF in eine interaktive Webressource…\n\n\n\n03.06.2026\n\n\n\n\n\n\n\n\n\n\n\n\n\nIAT ZALF Templates\n\n\n\ninfrastructure\n\ncollaboration\n\nresearch platform\n\n\n\nVorlagen zur Erstellung von Präsentationen und Dokumenten, die dem Corporate Design von IAT und ZALF entsprechen.\n\n\n\n15.11.2024\n\n\n\n\n\n\nKeine Treffer"
+  },
+  {
+    "objectID": "services.html",
+    "href": "services.html",
+    "title": "Dienstleistungen",
+    "section": "",
+    "text": "Die Arbeitsgruppe bietet unterschiedliche Unterstützungsstufen an, abhängig vom Umfang der Anfrage, der erwarteten Zusammenarbeit und dem Aufwand für belastbare Ergebnisse."
+  },
+  {
+    "objectID": "services.html#unterstützungsmodell",
+    "href": "services.html#unterstützungsmodell",
+    "title": "Dienstleistungen",
+    "section": "",
+    "text": "Die Arbeitsgruppe bietet unterschiedliche Unterstützungsstufen an, abhängig vom Umfang der Anfrage, der erwarteten Zusammenarbeit und dem Aufwand für belastbare Ergebnisse."
   }
 ]

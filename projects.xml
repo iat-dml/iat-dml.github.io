@@ -9,7 +9,7 @@
 <link>https://iat-dml.github.io/projects.html</link>
 <atom:link href="https://iat-dml.github.io/projects.xml" rel="self" type="application/rss+xml"/>
 <description>This is the website of the Data and Modelling Infrastructure for Living Labs Working group (SWG) of the Innovation Center for Agricultural System Transformation (IAT) as part of the Leibniz Centre for Agricultural Landscape Research (ZALF).</description>
-<generator>quarto-1.9.38</generator>
+<generator>quarto-1.10.18</generator>
 <lastBuildDate>Wed, 01 Jul 2026 00:00:00 GMT</lastBuildDate>
 <item>
   <title>Living Lab Explorer</title>
