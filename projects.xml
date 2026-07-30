@@ -10,7 +10,70 @@
 <atom:link href="https://iat-dml.github.io/projects.xml" rel="self" type="application/rss+xml"/>
 <description>This is the website of the Data and Modelling Infrastructure for Living Labs Working group (SWG) of the Innovation Center for Agricultural System Transformation (IAT) as part of the Leibniz Centre for Agricultural Landscape Research (ZALF).</description>
 <generator>quarto-1.10.18</generator>
-<lastBuildDate>Wed, 01 Jul 2026 00:00:00 GMT</lastBuildDate>
+<lastBuildDate>Sun, 12 Jul 2026 00:00:00 GMT</lastBuildDate>
+<item>
+  <title>One Tool to Rule Them All: A Quarto Workshop</title>
+  <link>https://iat-dml.github.io/projects/quarto-workshop.html</link>
+  <description><![CDATA[ 
+
+
+
+
+
+<p><strong>Website: <a href="https://iat-dml.github.io/quarto-workshop/">iat-dml.github.io/quarto-workshop</a></strong></p>
+<p>The DML group prepared a guided workshop on <a href="https://quarto.org/">Quarto</a>, the open-source scientific and technical publishing system, and its application to typical scientific publishing tasks. The workshop can be followed top to bottom as a live session, or used later as a reference for a specific output format.</p>
+<p>It was first given at the <a href="https://conference.iemss.org/timetable/event/wsc1/">13th International Congress on Environmental Modelling and Software (2026)</a> in Dublin. The source for the workshop website is openly available at <a href="https://github.com/iat-dml/quarto-workshop">github.com/iat-dml/quarto-workshop</a>.</p>
+<section id="why-quarto-matters-for-researchers" class="level2">
+<h2 class="anchored" data-anchor-id="why-quarto-matters-for-researchers">Why Quarto matters for researchers</h2>
+<p>Academic work usually produces many related outputs: rough notes and exploratory analysis that evolve into polished text, figures, and tables; manuscripts for publication; talks for conferences; reports for stakeholders or project partners; and public outreach material. These activities are often done with tools that are not integrated or compatible, leading to a fragmented workflow and time lost to manual formatting.</p>
+<p>Quarto brings all of these activities into a single system. You write notes, code, and text in plain text files, then render them into different formats (HTML, PDF, DOCX, slides, dashboards) without switching tools or worrying about compatibility — write once, render everywhere.</p>
+</section>
+<section id="who-the-workshop-is-for" class="level2">
+<h2 class="anchored" data-anchor-id="who-the-workshop-is-for">Who the workshop is for</h2>
+<ul>
+<li>Early career researchers building their first durable workflow</li>
+<li>Experienced researchers who want fewer disconnected tools</li>
+<li>Teams that care about reproducibility, transparency, and reuse</li>
+<li>Anyone who wants websites, manuscripts, presentations, and notes to feel part of the same system</li>
+</ul>
+<p>Basic familiarity with at least one programming language such as R, Python, or Julia can help, but it is not required for most of the lessons.</p>
+</section>
+<section id="what-the-workshop-covers" class="level2">
+<h2 class="anchored" data-anchor-id="what-the-workshop-covers">What the workshop covers</h2>
+<p>The material is broken into six main sections, plus an advanced section for those who want to go deeper:</p>
+<ol type="1">
+<li><strong>Foundations</strong> — Markdown, YAML, and Quarto’s project model</li>
+<li><strong>Research Diary</strong> — Documenting research reproducibly from the outset</li>
+<li><strong>Manuscripts</strong> — Writing in plain text, rendering to PDF, HTML, or DOCX</li>
+<li><strong>Slides</strong> — Building reveal.js talks from the same source as your research</li>
+<li><strong>Websites</strong> — Project, lab, and personal websites for outreach</li>
+<li><strong>Dashboards</strong> — Interactive dashboards for exploring and communicating research</li>
+<li><strong>Advanced Topics</strong> — Templates and extensions, brand.yml, multi-lingual outputs, and AI assistance</li>
+</ol>
+<p>Each section has a companion page with a guided exercise to practice the workflow using an academic scenario.</p>
+</section>
+<section id="requirements" class="level2">
+<h2 class="anchored" data-anchor-id="requirements">Requirements</h2>
+<p>Quarto <code>≥ 1.5</code> must be installed, and <code>quarto check</code> should run cleanly in your terminal before starting.</p>
+</section>
+<section id="explore-the-workshop" class="level2">
+<h2 class="anchored" data-anchor-id="explore-the-workshop">Explore the workshop</h2>
+<iframe src="https://iat-dml.github.io/quarto-workshop/" width="100%" height="600" style="border: none;">
+</iframe>
+
+
+</section>
+
+ ]]></description>
+  <category>training</category>
+  <category>workshop</category>
+  <category>reproducibility</category>
+  <category>transfer</category>
+  <category>iEMSs</category>
+  <guid>https://iat-dml.github.io/projects/quarto-workshop.html</guid>
+  <pubDate>Sun, 12 Jul 2026 00:00:00 GMT</pubDate>
+  <media:content url="https://iat-dml.github.io/assets/iemss2026_logo.png" medium="image" type="image/png" height="78" width="144"/>
+</item>
 <item>
   <title>Living Lab Explorer</title>
   <link>https://iat-dml.github.io/projects/living-lab-dashboards.html</link>

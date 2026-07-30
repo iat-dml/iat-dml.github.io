@@ -3,6 +3,7 @@
     "listing": "/index.html",
     "items": [
       "/news/2026-03-fairagro-summit.html",
+      "/projects/quarto-workshop.html",
       "/projects/living-lab-dashboards.html",
       "/projects/policy-lab-guide.html",
       "/projects/monkshilllabs.html",
@@ -26,6 +27,7 @@
   {
     "listing": "/projects.html",
     "items": [
+      "/projects/quarto-workshop.html",
       "/projects/living-lab-dashboards.html",
       "/projects/policy-lab-guide.html",
       "/projects/monkshilllabs.html",

@@ -39,7 +39,7 @@
     "href": "index.html#projects",
     "title": "Startseite",
     "section": "Projects",
-    "text": "Projects\n\n\n\n\n\n\n\n\n\n\nLiving Lab Explorer\n\n\n\ndashboard\n\nvisualization\n\nliving labs\n\ntransfer\n\nWIP\n\n\n\nInteraktive Dashboards zur Auswertung von Umwelt- und sozioökonomischen Daten aus den fünf IAT-Living-Labs.\n\n\n\n01.07.2026\n\n\n\n\n\n\n\n\n\n\n\n\n\nEin Leitfaden für Policy Labs\n\n\n\nguide\n\nmethods\n\nliving labs\n\ntransfer\n\nWIP\n\n\n\nEin interaktiver Leitfaden zur Entwicklung von „Policy Labs“ für Agrarumweltmaßnahmen im Rahmen von „Living Labs“.\n\n\n\n01.07.2026\n\n\n\n\n\n\n\n\n\n\n\n\n\nMonksHillLab-Handbuch zur Feldökophysiologie – Webversion\n\n\n\ncollaboration\n\nresearch platform\n\nWIP\n\ntransfer\n\n\n\nDie DML-Gruppe trug dazu bei, die Reichweite des Handbuchs zur Feldökophysiologie von MonksHillLab zu vergrößern, indem sie es von einem PDF in eine interaktive Webressource…\n\n\n\n03.06.2026\n\n\n\n\n\n\nKeine Treffer\n\nAlle Projekte →"
+    "text": "Projects\n\n\n\n\n\n\n\n\n\n\nOne Tool to Rule Them All: Ein Quarto-Workshop\n\n\n\ntraining\n\nworkshop\n\nreproducibility\n\ntransfer\n\niEMSs\n\n\n\nEine Workshop-Website zu Quarto für Dokumentation, Präsentationen, Manuskripte und Öffentlichkeitsarbeit — erstmals auf der iEMSs 2026 durchgeführt.\n\n\n\n12.07.2026\n\n\n\n\n\n\n\n\n\n\n\n\n\nLiving Lab Explorer\n\n\n\ndashboard\n\nvisualization\n\nliving labs\n\ntransfer\n\nWIP\n\n\n\nInteraktive Dashboards zur Auswertung von Umwelt- und sozioökonomischen Daten aus den fünf IAT-Living-Labs.\n\n\n\n01.07.2026\n\n\n\n\n\n\n\n\n\n\n\n\n\nEin Leitfaden für Policy Labs\n\n\n\nguide\n\nmethods\n\nliving labs\n\ntransfer\n\nWIP\n\n\n\nEin interaktiver Leitfaden zur Entwicklung von „Policy Labs“ für Agrarumweltmaßnahmen im Rahmen von „Living Labs“.\n\n\n\n01.07.2026\n\n\n\n\n\n\nKeine Treffer\n\nAlle Projekte →"
   },
   {
     "objectID": "privacy-policy.html",
@@ -126,46 +126,95 @@
     "text": "10. Kontakt\nBei Fragen zur Datenschutzerklärung kontaktieren Sie uns bitte:\n\nLeibniz-Zentrum für Agrarlandschaftsforschung (ZALF) e.V.\nArbeitsgruppe „Data and Modelling Infrastructure for Living Labs (DML)”\nE-mail: benjaminsamuel.black@zalf.de"
   },
   {
-    "objectID": "news/2026-03-fairagro-summit.html",
-    "href": "news/2026-03-fairagro-summit.html",
-    "title": "DML auf dem FAIRagro Community Summit",
+    "objectID": "news/linkedin/2026-06-barcamp-openscience.html",
+    "href": "news/linkedin/2026-06-barcamp-openscience.html",
+    "title": "Arbeitsgruppe „Daten- und Modellierungsinfrastruktur für Living Labs“",
     "section": "",
-    "text": "Im März reisten Mitglieder der DML-Arbeitsgruppe nach Frankfurt, um am FAIRagro Community Summit teilzunehmen. Die Veranstaltung brachte die FAIRagro-Community zusammen, um die Dienste und Werkzeuge vorzustellen, die das Konsortium entwickelt hat, um offene und FAIR-konforme Datenpraktiken in der Agrarforschung voranzutreiben.\nFAIRagro ist ein NFDI-Konsortium, das seit 2023 die Agrarsystemforschung in Deutschland vertritt. Mit mehr als 30 Partnern baut es eine FAIR-konforme (Findable, Accessible, Interoperable, Reusable) Infrastruktur für das Forschungsdatenmanagement auf und entwickelt die Tools und Arbeitsabläufe, die zur Unterstützung von Open Science und einer nachhaltigen Pflanzenproduktion erforderlich sind.\nDer Gipfel bot eine hervorragende Gelegenheit, Ideen auszutauschen, sich über aktuelle Entwicklungen zu informieren und Kontakte zu anderen zu knüpfen, die sich mit Herausforderungen im Bereich Forschungsdaten in der Landwirtschaft beschäftigen. Wir freuen uns auf die zukünftige Zusammenarbeit mit dem FAIRagro-Konsortium!"
+    "text": "Career credit for open research is promised more often than it is delivered - and funder mandates are rarely checked. That was one of the honest conclusions from the session we moderated at the 12th Barcamp Open Science in Berlin.\nA barcamp is an un-conference: no fixed agenda, participants propose and lead the sessions themselves. Around 45 people from research institutions, libraries and infrastructure projects took part on 10 June at Wikimedia Deutschland, under the heading of navigating challenging times.\nOur session looked at “carrot and stick” approaches to incentivising Open Science across different institutional contexts. Participants described benefits that rarely materialise, mandates that are not enforced, and a reluctance to publish data for fear that imperfections become visible. The conclusion: both carrots and sticks are still needed, but neither works without cultural change - including accepting, in the spirit of George Box, that all data are imperfect but some data are useful.\nOther sessions covered open research and democratic values, the attribution of AI-generated data, and open educational resources. The organisers have now published a wrap-up of the whole event, which we contributed to:\nhttps://www.zbw-mediatalk.eu/2026/07/barcamp-open-science-2026-navigating-challenging-times/\nIf your institution has found an incentive that actually changes everyday practice, we would like to hear about it.\n#OpenScience #ResearchDataManagement #FAIRdata #ZALF #ScienceCommunication"
   },
   {
-    "objectID": "team/Ben.html",
-    "href": "team/Ben.html",
-    "title": "Ben Black",
+    "objectID": "resources.html",
+    "href": "resources.html",
+    "title": "Ressourcen",
     "section": "",
-    "text": "University of California, San Diego | San Diego, CA PhD in Mathematics | Sept 2011 - June 2015\nMacalester College | St. Paul, MN B.A in Economics | Sept 2007 - June 2011"
+    "text": "Dieses Repository soll ein lebendiges Dokument für SWG- und IAT-Mitglieder sein, um nützliche Informationen und Ressourcen in Bezug auf Open Science, Programmierung und Datenvisualisierung auszutauschen.\nEinige Dokumente, die Leitprinzipien enthalten:\nCheck out the Open Science Awesome List"
   },
   {
-    "objectID": "team/Ben.html#education",
-    "href": "team/Ben.html#education",
-    "title": "Ben Black",
-    "section": "",
-    "text": "University of California, San Diego | San Diego, CA PhD in Mathematics | Sept 2011 - June 2015\nMacalester College | St. Paul, MN B.A in Economics | Sept 2007 - June 2011"
+    "objectID": "resources.html#datenvisualisierung",
+    "href": "resources.html#datenvisualisierung",
+    "title": "Ressourcen",
+    "section": "Datenvisualisierung",
+    "text": "Datenvisualisierung\n\nFundamentals of Data Visualization\nOpen Visualisation Academy"
   },
   {
-    "objectID": "team/Ben.html#experience",
-    "href": "team/Ben.html#experience",
-    "title": "Ben Black",
-    "section": "Experience",
-    "text": "Experience\nWengo Analytics | Head Data Scientist | April 2018 - present\nGeoScynce | Chief Analyst | Spet 2012 - April 2018 test"
+    "objectID": "resources.html#r",
+    "href": "resources.html#r",
+    "title": "Ressourcen",
+    "section": "R",
+    "text": "R\nWhat they forgot to teach you about R: https://rstats.wtf/"
   },
   {
-    "objectID": "team/RSE.html",
-    "href": "team/RSE.html",
-    "title": "Research Software Engineer",
+    "objectID": "resources.html#quarto",
+    "href": "resources.html#quarto",
+    "title": "Ressourcen",
+    "section": "Quarto",
+    "text": "Quarto\n\nBeautiful slides with RevealJS and Quarto"
+  },
+  {
+    "objectID": "team/DS.html",
+    "href": "team/DS.html",
+    "title": "Data Steward",
     "section": "",
     "text": "Wir werden bald einstellen"
   },
   {
-    "objectID": "projects/living-lab-dashboards.html",
-    "href": "projects/living-lab-dashboards.html",
-    "title": "Living Lab Explorer",
+    "objectID": "news.html",
+    "href": "news.html",
+    "title": "Nachrichten",
     "section": "",
-    "text": "Der Living Lab Explorer ist ein noch in der Entwicklung befindliches Projekt, das auf den von den regionalen Netzwerkmanagern des IAT erstellten Factsheets aufbaut, um interaktive Dashboards zu erstellen, die es Praxispartnern und Forschern ermöglichen, sich ein Bild von den ökologischen und sozioökonomischen Bedingungen zu machen, die die fünf IAT-Living-Labs charakterisieren."
+    "text": "DML auf dem FAIRagro Community Summit\n\n\n\nFAIRagro\n\nFAIR data\n\ncommunity\n\n\n\nMitglieder der DML-Arbeitsgruppe nahmen am FAIRagro Community Summit teil und tauschten sich mit der FAIR-Daten-Community im Bereich der Agrarforschung aus.\n\n\n\n05.03.2026\n\n\n\n\n\n\nKeine Treffer"
+  },
+  {
+    "objectID": "projects/quarto-workshop.html",
+    "href": "projects/quarto-workshop.html",
+    "title": "One Tool to Rule Them All: Ein Quarto-Workshop",
+    "section": "",
+    "text": "Website: iat-dml.github.io/quarto-workshop\nDie DML-Arbeitsgruppe hat einen angeleiteten Workshop zu Quarto erstellt, dem Open-Source-System für wissenschaftliches und technisches Publizieren, und zu dessen Anwendung auf typische wissenschaftliche Publikationsaufgaben. Der Workshop kann von Anfang bis Ende als Live-Sitzung durchgearbeitet oder später als Nachschlagewerk für ein bestimmtes Ausgabeformat genutzt werden.\nEr wurde erstmals auf dem 13. International Congress on Environmental Modelling and Software (2026) in Dublin durchgeführt. Der Quellcode der Workshop-Website ist frei verfügbar unter github.com/iat-dml/quarto-workshop."
+  },
+  {
+    "objectID": "projects/quarto-workshop.html#warum-quarto-für-forschende-wichtig-ist",
+    "href": "projects/quarto-workshop.html#warum-quarto-für-forschende-wichtig-ist",
+    "title": "One Tool to Rule Them All: Ein Quarto-Workshop",
+    "section": "Warum Quarto für Forschende wichtig ist",
+    "text": "Warum Quarto für Forschende wichtig ist\nWissenschaftliche Arbeit erzeugt in der Regel viele zusammenhängende Ergebnisse: Notizen und explorative Analysen, aus denen ausgearbeitete Texte, Abbildungen und Tabellen entstehen; Manuskripte für Publikationen; Vorträge für Konferenzen; Berichte für Stakeholder oder Projektpartner; und Material für die Öffentlichkeitsarbeit. Diese Tätigkeiten werden häufig mit Werkzeugen erledigt, die weder integriert noch miteinander kompatibel sind — das führt zu fragmentierten Arbeitsabläufen und Zeitverlust durch manuelle Formatierung.\nQuarto führt all diese Tätigkeiten in einem einzigen System zusammen. Notizen, Code und Text werden in reinen Textdateien geschrieben und anschließend in verschiedene Formate (HTML, PDF, DOCX, Folien, Dashboards) gerendert — ohne Werkzeugwechsel und ohne Kompatibilitätsprobleme: einmal schreiben, überall rendern."
+  },
+  {
+    "objectID": "projects/quarto-workshop.html#für-wen-der-workshop-gedacht-ist",
+    "href": "projects/quarto-workshop.html#für-wen-der-workshop-gedacht-ist",
+    "title": "One Tool to Rule Them All: Ein Quarto-Workshop",
+    "section": "Für wen der Workshop gedacht ist",
+    "text": "Für wen der Workshop gedacht ist\n\nNachwuchswissenschaftler:innen, die sich einen belastbaren Arbeitsablauf aufbauen\nErfahrene Forschende, die mit weniger unverbundenen Werkzeugen arbeiten möchten\nTeams, denen Reproduzierbarkeit, Transparenz und Nachnutzbarkeit wichtig sind\nAlle, die möchten, dass Websites, Manuskripte, Präsentationen und Notizen Teil eines gemeinsamen Systems sind\n\nGrundkenntnisse in mindestens einer Programmiersprache wie R, Python oder Julia sind hilfreich, für die meisten Lektionen aber nicht erforderlich."
+  },
+  {
+    "objectID": "projects/quarto-workshop.html#inhalte-des-workshops",
+    "href": "projects/quarto-workshop.html#inhalte-des-workshops",
+    "title": "One Tool to Rule Them All: Ein Quarto-Workshop",
+    "section": "Inhalte des Workshops",
+    "text": "Inhalte des Workshops\nDas Material gliedert sich in sechs Hauptabschnitte sowie einen weiterführenden Abschnitt für alle, die tiefer einsteigen möchten:\n\nGrundlagen — Markdown, YAML und das Projektmodell von Quarto\nForschungstagebuch — Forschung von Anfang an reproduzierbar dokumentieren\nManuskripte — In reinem Text schreiben und nach PDF, HTML oder DOCX rendern\nFolien — reveal.js-Vorträge aus derselben Quelle wie die Forschung erstellen\nWebsites — Projekt-, Arbeitsgruppen- und persönliche Websites für die Öffentlichkeitsarbeit\nDashboards — Interaktive Dashboards zum Erkunden und Vermitteln von Forschung\nFortgeschrittene Themen — Templates und Extensions, brand.yml, mehrsprachige Ausgaben und KI-Unterstützung\n\nZu jedem Abschnitt gehört eine Begleitseite mit einer angeleiteten Übung, in der der Arbeitsablauf anhand eines wissenschaftlichen Szenarios eingeübt wird."
+  },
+  {
+    "objectID": "projects/quarto-workshop.html#voraussetzungen",
+    "href": "projects/quarto-workshop.html#voraussetzungen",
+    "title": "One Tool to Rule Them All: Ein Quarto-Workshop",
+    "section": "Voraussetzungen",
+    "text": "Voraussetzungen\nQuarto ≥ 1.5 muss installiert sein, und quarto check sollte vor dem Start im Terminal fehlerfrei durchlaufen."
+  },
+  {
+    "objectID": "projects/quarto-workshop.html#workshop-erkunden",
+    "href": "projects/quarto-workshop.html#workshop-erkunden",
+    "title": "One Tool to Rule Them All: Ein Quarto-Workshop",
+    "section": "Workshop erkunden",
+    "text": "Workshop erkunden"
   },
   {
     "objectID": "projects/policy-lab-guide.html",
@@ -238,46 +287,46 @@
     "text": "Entdecken Sie das Handbuch\n\n\nDas Live-Handbuch ist unter monkshilllab-isolab.github.io/LCSfFE-handbook verfügbar. Es handelt sich um ein fortlaufend aktualisiertes Dokument, und das MonksHillLab-Team freut sich über Beiträge zur Verbesserung sowie über neue Kapitel – siehe den Abschnitt „Mitwirken“ im Handbuch oder wenden Sie sich an den Autor (mathias.hoffmann@zalf.de).\nDas Handbuch wird unter einer CC-BY 4.0-Lizenz veröffentlicht und auf Zenodo unter der DOI [10.5281/zenodo.15562591] (https://doi.org/10.5281/zenodo.15562591)."
   },
   {
-    "objectID": "news.html",
-    "href": "news.html",
-    "title": "Nachrichten",
+    "objectID": "projects/living-lab-dashboards.html",
+    "href": "projects/living-lab-dashboards.html",
+    "title": "Living Lab Explorer",
     "section": "",
-    "text": "Eine Option zum Abonnieren des Newsletters wird bald verfügbar sein!\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nDML auf dem FAIRagro Community Summit\n\n\n\nFAIRagro\n\nFAIR data\n\ncommunity\n\n\n\nMitglieder der DML-Arbeitsgruppe nahmen am FAIRagro Community Summit teil und tauschten sich mit der FAIR-Daten-Community im Bereich der Agrarforschung aus.\n\n\n\n05.03.2026\n\n\n\n\n\n\nKeine Treffer"
+    "text": "Der Living Lab Explorer ist ein noch in der Entwicklung befindliches Projekt, das auf den von den regionalen Netzwerkmanagern des IAT erstellten Factsheets aufbaut, um interaktive Dashboards zu erstellen, die es Praxispartnern und Forschern ermöglichen, sich ein Bild von den ökologischen und sozioökonomischen Bedingungen zu machen, die die fünf IAT-Living-Labs charakterisieren."
   },
   {
-    "objectID": "team/DS.html",
-    "href": "team/DS.html",
-    "title": "Data Steward",
+    "objectID": "team/RSE.html",
+    "href": "team/RSE.html",
+    "title": "Research Software Engineer",
     "section": "",
     "text": "Wir werden bald einstellen"
   },
   {
-    "objectID": "resources.html",
-    "href": "resources.html",
-    "title": "Ressourcen",
+    "objectID": "team/Ben.html",
+    "href": "team/Ben.html",
+    "title": "Ben Black",
     "section": "",
-    "text": "Dieses Repository soll ein lebendiges Dokument für SWG- und IAT-Mitglieder sein, um nützliche Informationen und Ressourcen in Bezug auf Open Science, Programmierung und Datenvisualisierung auszutauschen.\nEinige Dokumente, die Leitprinzipien enthalten:\nCheck out the Open Science Awesome List"
+    "text": "University of California, San Diego | San Diego, CA PhD in Mathematics | Sept 2011 - June 2015\nMacalester College | St. Paul, MN B.A in Economics | Sept 2007 - June 2011"
   },
   {
-    "objectID": "resources.html#datenvisualisierung",
-    "href": "resources.html#datenvisualisierung",
-    "title": "Ressourcen",
-    "section": "Datenvisualisierung",
-    "text": "Datenvisualisierung\n\nFundamentals of Data Visualization\nOpen Visualisation Academy"
+    "objectID": "team/Ben.html#education",
+    "href": "team/Ben.html#education",
+    "title": "Ben Black",
+    "section": "",
+    "text": "University of California, San Diego | San Diego, CA PhD in Mathematics | Sept 2011 - June 2015\nMacalester College | St. Paul, MN B.A in Economics | Sept 2007 - June 2011"
   },
   {
-    "objectID": "resources.html#r",
-    "href": "resources.html#r",
-    "title": "Ressourcen",
-    "section": "R",
-    "text": "R\nWhat they forgot to teach you about R: https://rstats.wtf/"
+    "objectID": "team/Ben.html#experience",
+    "href": "team/Ben.html#experience",
+    "title": "Ben Black",
+    "section": "Experience",
+    "text": "Experience\nWengo Analytics | Head Data Scientist | April 2018 - present\nGeoScynce | Chief Analyst | Spet 2012 - April 2018 test"
   },
   {
-    "objectID": "resources.html#quarto",
-    "href": "resources.html#quarto",
-    "title": "Ressourcen",
-    "section": "Quarto",
-    "text": "Quarto\n\nBeautiful slides with RevealJS and Quarto"
+    "objectID": "news/2026-03-fairagro-summit.html",
+    "href": "news/2026-03-fairagro-summit.html",
+    "title": "DML auf dem FAIRagro Community Summit",
+    "section": "",
+    "text": "Im März reisten Mitglieder der DML-Arbeitsgruppe nach Frankfurt, um am FAIRagro Community Summit teilzunehmen. Die Veranstaltung brachte die FAIRagro-Community zusammen, um die Dienste und Werkzeuge vorzustellen, die das Konsortium entwickelt hat, um offene und FAIR-konforme Datenpraktiken in der Agrarforschung voranzutreiben.\nFAIRagro ist ein NFDI-Konsortium, das seit 2023 die Agrarsystemforschung in Deutschland vertritt. Mit mehr als 30 Partnern baut es eine FAIR-konforme (Findable, Accessible, Interoperable, Reusable) Infrastruktur für das Forschungsdatenmanagement auf und entwickelt die Tools und Arbeitsabläufe, die zur Unterstützung von Open Science und einer nachhaltigen Pflanzenproduktion erforderlich sind.\nDer Gipfel bot eine hervorragende Gelegenheit, Ideen auszutauschen, sich über aktuelle Entwicklungen zu informieren und Kontakte zu anderen zu knüpfen, die sich mit Herausforderungen im Bereich Forschungsdaten in der Landwirtschaft beschäftigen. Wir freuen uns auf die zukünftige Zusammenarbeit mit dem FAIRagro-Konsortium!"
   },
   {
     "objectID": "team.html",
@@ -347,7 +396,7 @@
     "href": "projects.html",
     "title": "Projekte",
     "section": "",
-    "text": "Living Lab Explorer\n\n\n\ndashboard\n\nvisualization\n\nliving labs\n\ntransfer\n\nWIP\n\n\n\nInteraktive Dashboards zur Auswertung von Umwelt- und sozioökonomischen Daten aus den fünf IAT-Living-Labs.\n\n\n\n01.07.2026\n\n\n\n\n\n\n\n\n\n\n\n\n\nEin Leitfaden für Policy Labs\n\n\n\nguide\n\nmethods\n\nliving labs\n\ntransfer\n\nWIP\n\n\n\nEin interaktiver Leitfaden zur Entwicklung von „Policy Labs“ für Agrarumweltmaßnahmen im Rahmen von „Living Labs“.\n\n\n\n01.07.2026\n\n\n\n\n\n\n\n\n\n\n\n\n\nMonksHillLab-Handbuch zur Feldökophysiologie – Webversion\n\n\n\ncollaboration\n\nresearch platform\n\nWIP\n\ntransfer\n\n\n\nDie DML-Gruppe trug dazu bei, die Reichweite des Handbuchs zur Feldökophysiologie von MonksHillLab zu vergrößern, indem sie es von einem PDF in eine interaktive Webressource…\n\n\n\n03.06.2026\n\n\n\n\n\n\n\n\n\n\n\n\n\nIAT ZALF Templates\n\n\n\ninfrastructure\n\ncollaboration\n\nresearch platform\n\n\n\nVorlagen zur Erstellung von Präsentationen und Dokumenten, die dem Corporate Design von IAT und ZALF entsprechen.\n\n\n\n15.11.2024\n\n\n\n\n\n\nKeine Treffer"
+    "text": "One Tool to Rule Them All: Ein Quarto-Workshop\n\n\n\ntraining\n\nworkshop\n\nreproducibility\n\ntransfer\n\niEMSs\n\n\n\nEine Workshop-Website zu Quarto für Dokumentation, Präsentationen, Manuskripte und Öffentlichkeitsarbeit — erstmals auf der iEMSs 2026 durchgeführt.\n\n\n\n12.07.2026\n\n\n\n\n\n\n\n\n\n\n\n\n\nLiving Lab Explorer\n\n\n\ndashboard\n\nvisualization\n\nliving labs\n\ntransfer\n\nWIP\n\n\n\nInteraktive Dashboards zur Auswertung von Umwelt- und sozioökonomischen Daten aus den fünf IAT-Living-Labs.\n\n\n\n01.07.2026\n\n\n\n\n\n\n\n\n\n\n\n\n\nEin Leitfaden für Policy Labs\n\n\n\nguide\n\nmethods\n\nliving labs\n\ntransfer\n\nWIP\n\n\n\nEin interaktiver Leitfaden zur Entwicklung von „Policy Labs“ für Agrarumweltmaßnahmen im Rahmen von „Living Labs“.\n\n\n\n01.07.2026\n\n\n\n\n\n\n\n\n\n\n\n\n\nMonksHillLab-Handbuch zur Feldökophysiologie – Webversion\n\n\n\ncollaboration\n\nresearch platform\n\nWIP\n\ntransfer\n\n\n\nDie DML-Gruppe trug dazu bei, die Reichweite des Handbuchs zur Feldökophysiologie von MonksHillLab zu vergrößern, indem sie es von einem PDF in eine interaktive Webressource…\n\n\n\n03.06.2026\n\n\n\n\n\n\n\n\n\n\n\n\n\nIAT ZALF Templates\n\n\n\ninfrastructure\n\ncollaboration\n\nresearch platform\n\n\n\nVorlagen zur Erstellung von Präsentationen und Dokumenten, die dem Corporate Design von IAT und ZALF entsprechen.\n\n\n\n15.11.2024\n\n\n\n\n\n\nKeine Treffer"
   },
   {
     "objectID": "services.html",

@@ -46,6 +46,44 @@
   <media:content url="https://iat-dml.github.io/assets/iemss2026_logo.png" medium="image" type="image/png" height="78" width="144"/>
 </item>
 <item>
+  <title>DML at Barcamp Open Science 2026</title>
+  <link>https://iat-dml.github.io/news/2026-06-barcamp-openscience.html</link>
+  <description><![CDATA[ 
+
+
+
+
+
+<script>window.__articleHeroImage = "../assets/barcamp-openscience.jpg";</script>
+<p>On 10 June we joined the 12th <a href="https://www.barcamp-open-science.eu/">Barcamp Open Science</a> at Wikimedia Deutschland in Berlin, together with around 45 other participants from research institutions, libraries and infrastructure projects. This year the event ran under the heading of navigating challenging times, in recognition of the growing political and geopolitical pressure on open research practices.</p>
+<p>A barcamp is an un-conference: the agenda is not fixed in advance, and participants propose and lead the sessions themselves. In practice this means far more discussion than presentation, which suits a topic like Open Science where practice differs so much between institutions and disciplines.</p>
+<p>We proposed and moderated a session on effective “carrot and stick” approaches to incentivising Open Science in different institutional contexts. The discussion was honest about how little the current incentives achieve. Career benefits that are promised for open practices rarely materialise, and funder mandates such as data management plans are often not checked for compliance. Participants also described a reluctance to publish data out of concern that imperfections would become visible. The conclusion was that both carrots and sticks are still needed, but that neither will work without a broader cultural shift — including, in the spirit of George Box, accepting that all data are imperfect but some data are useful.</p>
+<p>Other sessions covered the role of open research in supporting democratic values, the attribution of AI-generated data, and open educational resources. The organising team has now published a wrap-up of the whole event, which DML contributed to: <a href="https://www.zbw-mediatalk.eu/2026/07/barcamp-open-science-2026-navigating-challenging-times/">Barcamp Open Science 2026: Navigating Challenging Times</a>.</p>
+<p>We would like to thank the organising team from the Leibniz Strategy Forum Open Science and Wikimedia Deutschland for hosting, and we would recommend the barcamp format to anyone at IAT or in the Living Labs whose work touches on Open Science. We are looking forward to the next one.</p>
+<div class="quarto-layout-panel" data-layout-nrow="1">
+<div class="quarto-layout-row">
+<div class="quarto-layout-cell" style="flex-basis: 50.0%;justify-content: center;">
+<p><a href="../assets/barcamp-openscience-1.jpg" class="lightbox" data-gallery="barcamp"><img src="https://iat-dml.github.io/assets/barcamp-openscience-1.jpg" class="img-fluid" alt="A whiteboard session grid filled with pink sticky notes proposing sessions, one reading 'Attribution and Declaration of AI agents'."></a></p>
+</div>
+<div class="quarto-layout-cell" style="flex-basis: 50.0%;justify-content: center;">
+<p><a href="../assets/barcamp-openscience-2.jpg" class="lightbox" data-gallery="barcamp"><img src="https://iat-dml.github.io/assets/barcamp-openscience-2.jpg" class="img-fluid" alt="A Barcamp Open Science t-shirt in the foreground with participants talking in the background."></a></p>
+</div>
+</div>
+</div>
+<p><em>Photos from Barcamp Open Science 2026, attribution: Ralf Rebmann 2026.</em></p>
+
+
+
+ ]]></description>
+  <category>conference</category>
+  <category>open science</category>
+  <category>community</category>
+  <category>FAIR</category>
+  <guid>https://iat-dml.github.io/news/2026-06-barcamp-openscience.html</guid>
+  <pubDate>Wed, 10 Jun 2026 00:00:00 GMT</pubDate>
+  <media:content url="https://iat-dml.github.io/assets/barcamp-openscience.jpg" medium="image" type="image/jpeg"/>
+</item>
+<item>
   <title>DML Presents at IAT Kickoff Meeting</title>
   <link>https://iat-dml.github.io/news/2026-01-iat-kickoff.html</link>
   <description><![CDATA[ 
