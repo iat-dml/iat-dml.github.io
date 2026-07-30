@@ -1,0 +1,50 @@
+---
+title: "One Tool to Rule Them All: Ein Quarto-Workshop"
+image: ../assets/iemss2026_logo.png
+date: "2026-07-12"
+categories: [training, workshop, reproducibility, transfer, iEMSs]
+description: "Eine Workshop-Website zu Quarto für Dokumentation, Präsentationen, Manuskripte und Öffentlichkeitsarbeit — erstmals auf der iEMSs 2026 durchgeführt."
+---
+
+**Website: [iat-dml.github.io/quarto-workshop](https://iat-dml.github.io/quarto-workshop/)**
+
+Die DML-Arbeitsgruppe hat einen angeleiteten Workshop zu [Quarto](https://quarto.org/) erstellt, dem Open-Source-System für wissenschaftliches und technisches Publizieren, und zu dessen Anwendung auf typische wissenschaftliche Publikationsaufgaben. Der Workshop kann von Anfang bis Ende als Live-Sitzung durchgearbeitet oder später als Nachschlagewerk für ein bestimmtes Ausgabeformat genutzt werden.
+
+Er wurde erstmals auf dem [13. International Congress on Environmental Modelling and Software (2026)](https://conference.iemss.org/timetable/event/wsc1/) in Dublin durchgeführt. Der Quellcode der Workshop-Website ist frei verfügbar unter [github.com/iat-dml/quarto-workshop](https://github.com/iat-dml/quarto-workshop).
+
+## Warum Quarto für Forschende wichtig ist
+
+Wissenschaftliche Arbeit erzeugt in der Regel viele zusammenhängende Ergebnisse: Notizen und explorative Analysen, aus denen ausgearbeitete Texte, Abbildungen und Tabellen entstehen; Manuskripte für Publikationen; Vorträge für Konferenzen; Berichte für Stakeholder oder Projektpartner; und Material für die Öffentlichkeitsarbeit. Diese Tätigkeiten werden häufig mit Werkzeugen erledigt, die weder integriert noch miteinander kompatibel sind — das führt zu fragmentierten Arbeitsabläufen und Zeitverlust durch manuelle Formatierung.
+
+Quarto führt all diese Tätigkeiten in einem einzigen System zusammen. Notizen, Code und Text werden in reinen Textdateien geschrieben und anschließend in verschiedene Formate (HTML, PDF, DOCX, Folien, Dashboards) gerendert — ohne Werkzeugwechsel und ohne Kompatibilitätsprobleme: einmal schreiben, überall rendern.
+
+## Für wen der Workshop gedacht ist
+
+- Nachwuchswissenschaftler:innen, die sich einen belastbaren Arbeitsablauf aufbauen
+- Erfahrene Forschende, die mit weniger unverbundenen Werkzeugen arbeiten möchten
+- Teams, denen Reproduzierbarkeit, Transparenz und Nachnutzbarkeit wichtig sind
+- Alle, die möchten, dass Websites, Manuskripte, Präsentationen und Notizen Teil eines gemeinsamen Systems sind
+
+Grundkenntnisse in mindestens einer Programmiersprache wie R, Python oder Julia sind hilfreich, für die meisten Lektionen aber nicht erforderlich.
+
+## Inhalte des Workshops
+
+Das Material gliedert sich in sechs Hauptabschnitte sowie einen weiterführenden Abschnitt für alle, die tiefer einsteigen möchten:
+
+1. **Grundlagen** — Markdown, YAML und das Projektmodell von Quarto
+2. **Forschungstagebuch** — Forschung von Anfang an reproduzierbar dokumentieren
+3. **Manuskripte** — In reinem Text schreiben und nach PDF, HTML oder DOCX rendern
+4. **Folien** — reveal.js-Vorträge aus derselben Quelle wie die Forschung erstellen
+5. **Websites** — Projekt-, Arbeitsgruppen- und persönliche Websites für die Öffentlichkeitsarbeit
+6. **Dashboards** — Interaktive Dashboards zum Erkunden und Vermitteln von Forschung
+7. **Fortgeschrittene Themen** — Templates und Extensions, brand.yml, mehrsprachige Ausgaben und KI-Unterstützung
+
+Zu jedem Abschnitt gehört eine Begleitseite mit einer angeleiteten Übung, in der der Arbeitsablauf anhand eines wissenschaftlichen Szenarios eingeübt wird.
+
+## Voraussetzungen
+
+Quarto `≥ 1.5` muss installiert sein, und `quarto check` sollte vor dem Start im Terminal fehlerfrei durchlaufen.
+
+## Workshop erkunden
+
+<iframe src="https://iat-dml.github.io/quarto-workshop/" width="100%" height="600" style="border: none;"></iframe>

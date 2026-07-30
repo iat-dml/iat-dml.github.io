@@ -25,5 +25,3 @@ format:
       margin-width: 150px
       gutter-width: 1.5rem
 ---
-
-A newsletter subscription option is coming soon! 
