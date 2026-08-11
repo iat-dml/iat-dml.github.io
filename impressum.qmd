@@ -1,0 +1,34 @@
+---
+title: "Legal notice (Impressum)"
+---
+
+## Information pursuant to § 5 DDG
+
+Benjamin Black\
+Head of the Data and Modelling Infrastructure for Living Labs Service Working Group\
+Innovation Center for Agricultural System Transformation (IAT)\
+Leibniz Centre for Agricultural Landscape Research (ZALF) e.V.\
+Eberswalder Str. 84\
+15374 Müncheberg\
+Germany
+
+## Contact
+
+- **Telephone**: [+49 (0)151 42884607](tel:+4915142884607)
+- **E-mail**: [benjaminsamuel.black@zalf.de](mailto:benjaminsamuel.black@zalf.de)
+
+## Responsible for the content pursuant to § 18 (2) MStV
+
+Benjamin Black, address as above.
+
+## Liability for content and links
+
+This website contains links to external websites over whose content we have no
+control. Responsibility for the content of linked pages always lies with their
+respective provider or operator. Should we become aware of any legal
+infringement, we will remove such links without delay.
+
+## Data protection
+
+Information on the processing of personal data is available in our
+[privacy policy](/privacy-policy.qmd).

@@ -1,0 +1,34 @@
+---
+title: "Impressum"
+---
+
+## Angaben gemäß § 5 DDG
+
+Benjamin Black\
+Leiter der Service-Arbeitsgruppe „Daten- und Modellierungsinfrastruktur für Living Labs“\
+Innovationszentrum für Agrarsystemtransformation (IAT)\
+Leibniz-Zentrum für Agrarlandschaftsforschung (ZALF) e.V.\
+Eberswalder Str. 84\
+15374 Müncheberg\
+Deutschland
+
+## Kontakt
+
+- **Telefon**: [+49 (0)151 42884607](tel:+4915142884607)
+- **E-Mail**: [benjaminsamuel.black@zalf.de](mailto:benjaminsamuel.black@zalf.de)
+
+## Verantwortlich für den Inhalt nach § 18 Abs. 2 MStV
+
+Benjamin Black, Anschrift wie oben.
+
+## Haftung für Inhalte und Links
+
+Diese Website enthält Links zu externen Websites, auf deren Inhalte wir keinen
+Einfluss haben. Für die Inhalte der verlinkten Seiten ist stets der jeweilige
+Anbieter oder Betreiber verantwortlich. Bei Bekanntwerden von Rechtsverletzungen
+entfernen wir derartige Links umgehend.
+
+## Datenschutz
+
+Informationen zur Verarbeitung personenbezogener Daten finden Sie in unserer
+[Datenschutzerklärung](/privacy-policy.qmd).
