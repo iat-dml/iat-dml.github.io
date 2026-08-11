@@ -1,6 +1,6 @@
 ---
 title: "One Tool to Rule Them All: A Quarto Workshop"
-image: ../assets/iemss2026_logo.png
+image: ../assets/quarto-workshop-light.png
 date: "2026-07-12"
 categories: [training, workshop, reproducibility, transfer, iEMSs]
 description: "A guided workshop website teaching Quarto for documentation, presentations, manuscripts and outreach — first given at iEMSs 2026."
