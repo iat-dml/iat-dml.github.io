@@ -1,8 +1,7 @@
 [
   {
-    "listing": "/index.html",
+    "listing": "/projects.html",
     "items": [
-      "/news/2026-03-fairagro-summit.html",
       "/projects/quarto-workshop.html",
       "/projects/living-lab-dashboards.html",
       "/projects/policy-lab-guide.html",
@@ -19,19 +18,20 @@
     ]
   },
   {
-    "listing": "/news.html",
+    "listing": "/index.html",
     "items": [
-      "/news/2026-03-fairagro-summit.html"
-    ]
-  },
-  {
-    "listing": "/projects.html",
-    "items": [
+      "/news/2026-03-fairagro-summit.html",
       "/projects/quarto-workshop.html",
       "/projects/living-lab-dashboards.html",
       "/projects/policy-lab-guide.html",
       "/projects/monkshilllabs.html",
       "/projects/zalf-iat-templates.html"
+    ]
+  },
+  {
+    "listing": "/news.html",
+    "items": [
+      "/news/2026-03-fairagro-summit.html"
     ]
   }
 ]
