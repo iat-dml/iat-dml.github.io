@@ -1,0 +1,26 @@
+{
+  "name": "dml-site-video",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Remotion overview video for the DML working group website",
+  "scripts": {
+    "dev": "remotion studio",
+    "build": "remotion bundle",
+    "render": "remotion render",
+    "upgrade": "remotion upgrade"
+  },
+  "license": "UNLICENSED",
+  "dependencies": {
+    "@remotion/cli": "4.0.512",
+    "@remotion/google-fonts": "4.0.512",
+    "@remotion/transitions": "4.0.512",
+    "react": "19.0.0",
+    "react-dom": "19.0.0",
+    "remotion": "4.0.512"
+  },
+  "devDependencies": {
+    "@types/react": "19.0.0",
+    "@types/web": "0.0.166",
+    "typescript": "5.8.2"
+  }
+}
