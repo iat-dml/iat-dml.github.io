@@ -20,6 +20,8 @@ Some documents that provide guiding principles:
 
 - [Liebniz center Good Scientific Practice](https://www.leibniz-gemeinschaft.de/ueber-uns/leibniz-integritaet/gute-wissenschaftliche-praxis-und-ombudswesen)
 
+- [FAIR Research Data: A Practical Handbook for the Earth & Environmental Sciences](https://doi.org/10.60566/n2q3g-fd094)
+
 ## Open Science communities and Initiatives
 
 - [Open Science Awesome List](https://github.com/awesomelistsio/awesome-open-science)
