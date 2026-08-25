@@ -1,32 +1,89 @@
 ---
-title: "Ressourcen"
+title: „Ressourcen und Tools“
 ---
 
-Dieses Repository soll ein lebendiges Dokument für SWG- und IAT-Mitglieder sein, um nützliche Informationen und Ressourcen in Bezug auf Open Science, Programmierung und Datenvisualisierung auszutauschen.
+Dieses Repository soll als lebendiges Dokument dienen, in dem SWG- und IAT-Mitglieder nützliche Informationen und Ressourcen zu den Themen Open Science, Programmierung und Datenvisualisierung austauschen können.
 
-Einige Dokumente, die Leitprinzipien enthalten:
+Einige Dokumente, die Leitlinien enthalten:
 
--   [ZALF data policy]()
+- [Leitlinien zum Umgang mit Forschungsdaten am ZALF](https://zalf365.sharepoint.com/sites/dokumentencenter/Richtlinien/2023-01-richtlinie-zalf-data-policy.pdf?csf=1&web=1&e=irWOai)
 
--    [Previous ZALF evaluations](https://www.leibniz-gemeinschaft.de/ueber-uns/evaluierung/das-evaluierungsverfahren-der-leibniz-gemeinschaft/senatsstellungnahmen)
+- [Open-Access-Richtlinie des ZALF](https://zalf365.sharepoint.com/sites/vorstand/Freigegebene%20Dokumente/strategiedokumente/policy-open-access.pdf?csf=1&web=1&e=4bXvat)
 
--   [ZALF organisational policy](https://zalf365.sharepoint.com/sites/vorstand/Freigegebene%20Dokumente/Forms/AllItems.aspx?id=%2Fsites%2Fvorstand%2FFreigegebene%20Dokumente%2Fstrategiedokumente%2Forganizational%2Dpolicy%2Dzalf%2Epdf&parent=%2Fsites%2Fvorstand%2FFreigegebene%20Dokumente%2Fstrategiedokumente)
+- [BonaRes-Datenrichtlinie](https://doi.org/10.20387/BonaRes-RYCV-30RK)
 
--   [DFG research ethics](https://www.dfg.de/de/grundlagen-themen/grundlagen-und-prinzipien-der-foerderung/gwp)
+- [Frühere ZALF-Evaluierungen](https://www.leibniz-gemeinschaft.de/ueber-uns/evaluierung/das-evaluierungsverfahren-der-leibniz-gemeinschaft/senatsstellungnahmen)
 
--   [Liebniz center Good Scientific Practice](https://www.leibniz-gemeinschaft.de/ueber-uns/leibniz-integritaet/gute-wissenschaftliche-praxis-und-ombudswesen)
+- [Organisationsrichtlinie des ZALF](https://zalf365.sharepoint.com/sites/vorstand/Freigegebene%20Dokumente/Forms/AllItems.aspx?id=%2Fsites%2Fvorstand%2FFreigegebene%20Dokumente%2Fstrategiedokumente%2Forganizational%2Dpolicy% 2Dzalf%2Epdf&parent=%2Fsites%2Fvorstand%2FFreigegebene%20Dokumente%2Fstrategiedokumente)
 
-Check out the [Open Science Awesome List](https://github.com/awesomelistsio/awesome-open-science)
+- [Forschungsethik der DFG](https://www.dfg.de/de/grundlagen-themen/grundlagen-und-prinzipien-der-foerderung/gwp)
+
+- [Liebniz-Zentrum für gute wissenschaftliche Praxis](https://www.leibniz-gemeinschaft.de/ueber-uns/leibniz-integritaet/gute-wissenschaftliche-praxis-und-ombudswesen)
+
+## Open-Science-Communities und -Initiativen
+
+- [Open Science Awesome List](https://github.com/awesomelistsio/awesome-open-science)
+
+- [Leitfaden von The Turing Way zur Planung einer Community](https://book.the-turing-way.org/collaboration/new-community/new-community-guide/) - Ein Leitfaden zur Planung und zum Aufbau einer Community rund um Open Science, einschließlich Tipps zu Kommunikation, Governance und Nachhaltigkeit.
+
+- [AG Open Science](https://ag-openscience.de/) – Deutschsprachige OKF-Arbeitsgruppe „Open Science“. Vernetzt aktive Mitglieder der Open-Science-Community und setzt sich für bessere Rahmenbedingungen für Forschung, Zusammenarbeit und Veröffentlichung ein.
+
+- [German Reproducibility Network (GRN)](https://www.reproducibility-network.de/) – Ein Netzwerk von Forschenden und Institutionen in Deutschland, das sich für die Verbesserung der Reproduzierbarkeit wissenschaftlicher Forschung einsetzt.
+
+- [Reproducibility for Everyone (R4Everyone)](https://www.repro4everyone.org/) – Eine gemeinschaftsgetragene Initiative zur Förderung der Reproduzierbarkeit in der wissenschaftlichen Forschung durch Schulungen, Ressourcen und Interessenvertretung.
+
+- [FOSTER Open Science](https://openscience.eu/article/project/foster) – Ein bereits abgeschlossenes europäisches Projekt, das Schulungen und Ressourcen zur Unterstützung der Einführung von Open-Science-Praktiken bereitstellt.
 
 ## Datenvisualisierung
 
--   [Fundamentals of Data Visualization](https://clauswilke.com/dataviz/)
--   [Open Visualisation Academy](https://openvisualizationacademy.org/)
+- [Grundlagen der Datenvisualisierung](https://clauswilke.com/dataviz/)
+
+- [Open Visualisation Academy](https://openvisualizationacademy.org/)
+
+- [Dataviz-Inspiration: Eine von Yan Holtz kuratierte Sammlung einiger der besten verfügbaren Datenvisualisierungen](https://www.dataviz-inspiration.com/)
 
 ## R
 
-What they forgot to teach you about R: https://rstats.wtf/
+- [Was man dir über R nicht beigebracht hat](https://rstats.wtf/)
 
 ## Quarto
 
--   [Beautiful slides with RevealJS and Quarto](https://slidecrafting-book.com/)
+- [Wunderschöne Folien mit RevealJS und Quarto](https://slidecrafting-book.com/)
+
+## Generative KI
+
+- [Wörterbuch der KI-Programmierung](https://github.com/mattpocock/dictionary-of-ai-coding)
+
+- [gettingstuffdoneai](https://www.gettingstuffdone.ai/) – Verzeichnis generativer KI-Tools und -Modelle, kategorisiert nach Anwendungsfällen und Funktionen.
+
+- [KI-campus](https://ki-campus.org/en/learning-opportunities/courses) – Zahlreiche kostenlose Kurse zu KI und verwandten Themen, darunter Data Science, maschinelles Lernen und ethische Überlegungen zur KI.
+
+## Tools und Software
+
+- [Academic Cloud](https://academiccloud.de/)
+
+- [TIB Assistant]()
+
+- [ORKG Ask: Open-Source-System zur wissenschaftlichen Suche und Erkundung, basierend auf Vektorsuche, großen Sprachmodellen und Wissensgraphen](https://ask.orkg.org/https://ask.orkg.org/)
+
+- [Rspace: Domänenübergreifende, interoperable Forschungswerkzeuge, die den maschinell verarbeitbaren Austausch von Daten und Metadaten in allen Phasen des Forschungslebenszyklus ermöglichen](https://www.researchspace.com/about)
+
+- [EU-Alternativen für Software](https://european-alternatives.eu/categories) – Ein Verzeichnis von Software-Alternativen zu gängiger proprietärer Software, mit Schwerpunkt auf europäischen Nutzern und Organisationen.
+
+- [Inkscape](https://inkscape.org/) – Open-Source-Vektorgrafik-Editor, Alternative zu Adobe-Produkten, nützlich zum Erstellen und Bearbeiten von Abbildungen für Publikationen und Präsentationen. Verfügbar über den ZALF-baramundi-Client.
+
+- [SoRA-Geolinking-Dienst für sozialwissenschaftliche Daten](https://sora-service.org/en/)
+
+## Schulungen
+
+- [Digital Research Academy](https://digital-research.academy/) – ein Netzwerk von Schulungsanbietern mit den Schwerpunkten Open Science, Datenkompetenz und Research Software Engineering (DRA-\[Zenodo-Sammlung\] (https://zenodo.org/communities/digiresacademy/records?q=&l=list&p=1&s=10&sort=newest)).
+
+- [BERD-Akademie](https://www.berd-nfdi.de/berd-academy/)
+
+- [BERD-Kurs zu reproduzierbarer Forschung](https://berd-nfdi.github.io/BERD-reproducible-research-course/)
+
+- [NFDI4Earth – Bildungsportal](https://edutrain.nfdi4earth.de/)
+
+- [Assured Training](https://assured-training.org/) – Gewährleistet die sichere, rechtmäßige und ethische Nutzung sensibler Daten durch gezielte Schulungen und Zertifizierungen.
+
+- [Liebniz-Institut für Sozialwissenschaften (GESIS)](https://www.gesis.org/en/gesis-training)

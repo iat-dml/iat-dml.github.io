@@ -42,6 +42,8 @@ Some documents that provide guiding principles:
 
 - [Open Visualisation Academy](https://openvisualizationacademy.org/)
 
+- [Dataviz Inspiration: A collection curated by Yan Holtz of some of the best data visualizations available](https://www.dataviz-inspiration.com/)
+
 ## R
 
 - [What they forgot to teach you about R](https://rstats.wtf/)
