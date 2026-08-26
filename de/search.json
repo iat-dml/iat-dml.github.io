@@ -345,30 +345,58 @@
   {
     "objectID": "resources.html",
     "href": "resources.html",
-    "title": "Ressourcen",
+    "title": "„Ressourcen und Tools“",
     "section": "",
-    "text": "Dieses Repository soll ein lebendiges Dokument für SWG- und IAT-Mitglieder sein, um nützliche Informationen und Ressourcen in Bezug auf Open Science, Programmierung und Datenvisualisierung auszutauschen.\nEinige Dokumente, die Leitprinzipien enthalten:\nCheck out the Open Science Awesome List"
+    "text": "Dieses Repository soll als lebendiges Dokument dienen, in dem SWG- und IAT-Mitglieder nützliche Informationen und Ressourcen zu den Themen Open Science, Programmierung und Datenvisualisierung austauschen können.\nEinige Dokumente, die Leitlinien enthalten:"
+  },
+  {
+    "objectID": "resources.html#open-science-communities-und--initiativen",
+    "href": "resources.html#open-science-communities-und--initiativen",
+    "title": "„Ressourcen und Tools“",
+    "section": "Open-Science-Communities und -Initiativen",
+    "text": "Open-Science-Communities und -Initiativen\n\nOpen Science Awesome List\nLeitfaden von The Turing Way zur Planung einer Community - Ein Leitfaden zur Planung und zum Aufbau einer Community rund um Open Science, einschließlich Tipps zu Kommunikation, Governance und Nachhaltigkeit.\nAG Open Science – Deutschsprachige OKF-Arbeitsgruppe „Open Science“. Vernetzt aktive Mitglieder der Open-Science-Community und setzt sich für bessere Rahmenbedingungen für Forschung, Zusammenarbeit und Veröffentlichung ein.\nGerman Reproducibility Network (GRN) – Ein Netzwerk von Forschenden und Institutionen in Deutschland, das sich für die Verbesserung der Reproduzierbarkeit wissenschaftlicher Forschung einsetzt.\nReproducibility for Everyone (R4Everyone) – Eine gemeinschaftsgetragene Initiative zur Förderung der Reproduzierbarkeit in der wissenschaftlichen Forschung durch Schulungen, Ressourcen und Interessenvertretung.\nFOSTER Open Science – Ein bereits abgeschlossenes europäisches Projekt, das Schulungen und Ressourcen zur Unterstützung der Einführung von Open-Science-Praktiken bereitstellt."
   },
   {
     "objectID": "resources.html#datenvisualisierung",
     "href": "resources.html#datenvisualisierung",
-    "title": "Ressourcen",
+    "title": "„Ressourcen und Tools“",
     "section": "Datenvisualisierung",
-    "text": "Datenvisualisierung\n\nFundamentals of Data Visualization\nOpen Visualisation Academy"
+    "text": "Datenvisualisierung\n\nGrundlagen der Datenvisualisierung\nOpen Visualisation Academy\nDataviz-Inspiration: Eine von Yan Holtz kuratierte Sammlung einiger der besten verfügbaren Datenvisualisierungen"
   },
   {
     "objectID": "resources.html#r",
     "href": "resources.html#r",
-    "title": "Ressourcen",
+    "title": "„Ressourcen und Tools“",
     "section": "R",
-    "text": "R\nWhat they forgot to teach you about R: https://rstats.wtf/"
+    "text": "R\n\nWas man dir über R nicht beigebracht hat"
   },
   {
     "objectID": "resources.html#quarto",
     "href": "resources.html#quarto",
-    "title": "Ressourcen",
+    "title": "„Ressourcen und Tools“",
     "section": "Quarto",
-    "text": "Quarto\n\nBeautiful slides with RevealJS and Quarto"
+    "text": "Quarto\n\nWunderschöne Folien mit RevealJS und Quarto"
+  },
+  {
+    "objectID": "resources.html#generative-ki",
+    "href": "resources.html#generative-ki",
+    "title": "„Ressourcen und Tools“",
+    "section": "Generative KI",
+    "text": "Generative KI\n\nWörterbuch der KI-Programmierung\ngettingstuffdoneai – Verzeichnis generativer KI-Tools und -Modelle, kategorisiert nach Anwendungsfällen und Funktionen.\nKI-campus – Zahlreiche kostenlose Kurse zu KI und verwandten Themen, darunter Data Science, maschinelles Lernen und ethische Überlegungen zur KI."
+  },
+  {
+    "objectID": "resources.html#tools-und-software",
+    "href": "resources.html#tools-und-software",
+    "title": "„Ressourcen und Tools“",
+    "section": "Tools und Software",
+    "text": "Tools und Software\n\nAcademic Cloud\nTIB Assistant\nORKG Ask: Open-Source-System zur wissenschaftlichen Suche und Erkundung, basierend auf Vektorsuche, großen Sprachmodellen und Wissensgraphen\nRspace: Domänenübergreifende, interoperable Forschungswerkzeuge, die den maschinell verarbeitbaren Austausch von Daten und Metadaten in allen Phasen des Forschungslebenszyklus ermöglichen\nEU-Alternativen für Software – Ein Verzeichnis von Software-Alternativen zu gängiger proprietärer Software, mit Schwerpunkt auf europäischen Nutzern und Organisationen.\nInkscape – Open-Source-Vektorgrafik-Editor, Alternative zu Adobe-Produkten, nützlich zum Erstellen und Bearbeiten von Abbildungen für Publikationen und Präsentationen. Verfügbar über den ZALF-baramundi-Client.\nSoRA-Geolinking-Dienst für sozialwissenschaftliche Daten"
+  },
+  {
+    "objectID": "resources.html#schulungen",
+    "href": "resources.html#schulungen",
+    "title": "„Ressourcen und Tools“",
+    "section": "Schulungen",
+    "text": "Schulungen\n\nDigital Research Academy – ein Netzwerk von Schulungsanbietern mit den Schwerpunkten Open Science, Datenkompetenz und Research Software Engineering (DRA-[Zenodo-Sammlung] (https://zenodo.org/communities/digiresacademy/records?q=&l=list&p=1&s=10&sort=newest)).\nBERD-Akademie\nBERD-Kurs zu reproduzierbarer Forschung\nNFDI4Earth – Bildungsportal\nAssured Training – Gewährleistet die sichere, rechtmäßige und ethische Nutzung sensibler Daten durch gezielte Schulungen und Zertifizierungen.\nLiebniz-Institut für Sozialwissenschaften (GESIS)"
   },
   {
     "objectID": "index.html",
