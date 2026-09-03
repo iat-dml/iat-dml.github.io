@@ -14,7 +14,7 @@ Einige Dokumente, die Leitprinzipien enthalten:
 
 -   [DFG research ethics](https://www.dfg.de/de/grundlagen-themen/grundlagen-und-prinzipien-der-foerderung/gwp)
 
--   [Liebniz center Good Scientific Practice](https://www.leibniz-gemeinschaft.de/ueber-uns/leibniz-integritaet/gute-wissenschaftliche-praxis-und-ombudswesen)
+-   [Leibniz Centre Good Scientific Practice](https://www.leibniz-gemeinschaft.de/ueber-uns/leibniz-integritaet/gute-wissenschaftliche-praxis-und-ombudswesen)
 
 Check out the [Open Science Awesome List](https://github.com/awesomelistsio/awesome-open-science)
 

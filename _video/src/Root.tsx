@@ -1,86 +1,68 @@
 import { Composition, Folder } from "remotion";
-import { DmlSiteOverview } from "./DmlSiteOverview";
+import { DmlSiteTour } from "./DmlSiteTour";
+import { PolicyLabGuideTour } from "./PolicyLabGuideTour";
 import { ContactScene } from "./scenes/ContactScene";
-import { ExploreSiteScene } from "./scenes/ExploreSiteScene";
-import { MissionScene } from "./scenes/MissionScene";
-import { PillarsScene } from "./scenes/PillarsScene";
-import { ProjectsScene } from "./scenes/ProjectsScene";
-import { SupportTiersScene } from "./scenes/SupportTiersScene";
-import { TitleScene } from "./scenes/TitleScene";
-import { WhereWeSitScene } from "./scenes/WhereWeSitScene";
+import { HomeScene } from "./scenes/HomeScene";
+import { PolicyPageScene } from "./scenes/PolicyPageScene";
+import { PolicyToolScene } from "./scenes/PolicyToolScene";
+import { ResourcesScene } from "./scenes/ResourcesScene";
 
 export const Root: React.FC = () => {
   return (
     <>
       <Composition
-        id="DmlSiteOverview"
-        component={DmlSiteOverview}
-        durationInFrames={1305}
+        id="DmlSiteTour"
+        component={DmlSiteTour}
+        durationInFrames={1920}
+        fps={30}
+        width={1920}
+        height={1080}
+      />
+      <Composition
+        id="PolicyLabGuideTour"
+        component={PolicyLabGuideTour}
+        durationInFrames={780}
         fps={30}
         width={1920}
         height={1080}
       />
       <Folder name="Scenes">
         <Composition
-          id="Scene1-Title"
-          component={TitleScene}
-          durationInFrames={150}
+          id="Scene1-Home"
+          component={HomeScene}
+          durationInFrames={660}
           fps={30}
           width={1920}
           height={1080}
         />
         <Composition
-          id="Scene2-WhereWeSit"
-          component={WhereWeSitScene}
-          durationInFrames={120}
+          id="Scene2-PolicyPage"
+          component={PolicyPageScene}
+          durationInFrames={300}
           fps={30}
           width={1920}
           height={1080}
         />
         <Composition
-          id="Scene3-Mission"
-          component={MissionScene}
-          durationInFrames={90}
+          id="PolicyTool"
+          component={PolicyToolScene}
+          durationInFrames={780}
           fps={30}
           width={1920}
           height={1080}
         />
         <Composition
-          id="Scene4-Pillars"
-          component={PillarsScene}
-          durationInFrames={270}
+          id="Scene3-Resources"
+          component={ResourcesScene}
+          durationInFrames={480}
           fps={30}
           width={1920}
           height={1080}
         />
         <Composition
-          id="Scene5-SupportTiers"
-          component={SupportTiersScene}
-          durationInFrames={240}
-          fps={30}
-          width={1920}
-          height={1080}
-        />
-        <Composition
-          id="Scene6-ExploreSite"
-          component={ExploreSiteScene}
-          durationInFrames={180}
-          fps={30}
-          width={1920}
-          height={1080}
-        />
-        <Composition
-          id="Scene7-Projects"
-          component={ProjectsScene}
-          durationInFrames={210}
-          fps={30}
-          width={1920}
-          height={1080}
-        />
-        <Composition
-          id="Scene8-Contact"
+          id="Scene4-Contact"
           component={ContactScene}
-          durationInFrames={150}
+          durationInFrames={480}
           fps={30}
           width={1920}
           height={1080}

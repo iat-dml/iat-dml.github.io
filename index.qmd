@@ -3,7 +3,9 @@ title: "Home"
 title-de: "Startseite"
 listing:
   - id: news-listing
-    contents: "./news/*.qmd"
+    contents:
+      - "./news/*.qmd"
+      - "!./news/*.de.qmd"
     type: grid
     grid-columns: 1
     max-items: 3
@@ -11,7 +13,9 @@ listing:
     sort: "date desc"
     grid-item-align: center
   - id: projects-listing
-    contents: "./projects/*.qmd"
+    contents:
+      - "./projects/*.qmd"
+      - "!./projects/*.de.qmd"
     type: grid
     grid-columns: 1
     max-items: 3

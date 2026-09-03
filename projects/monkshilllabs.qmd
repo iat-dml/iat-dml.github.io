@@ -8,7 +8,7 @@ description: "The DML group helped broaden the reach of the MonksHillLab field e
 
 The **MonksHillLab** initiative — part of the [Working Group Ecophysiology of Water and Matter Cycling](https://www.zalf.de/en/struktur/pb1/ibg/Pages/default.aspx) at the [Leibniz Centre for Agricultural Landscape Research (ZALF)](https://www.zalf.de/en/Pages/ZALF.aspx) — produces an open handbook, [**Build-It-Yourself: Low-Cost Systems for Field Ecophysiology**](https://monkshilllab-isolab.github.io/LCSfFE-handbook/), which guides readers through building and calibrating low-cost, DIY sensor systems for environmental monitoring.
 
-The DML group worked with the MonksHillLab team to make this handbook more accessible. Previously it existed as a PDF; we helped create a web version built with [Quarto](https://quarto.org) and hosted on GitHub Pages that adds interactivity (for example being able to expand images and copy code blocks) making it more engaging to its intended audience of researchers around the world. Also becaus eit is hosted as a GitHub repository this opens up the door for contributions from the user community, allowing the handbook to grow and evolve over time.
+The DML group worked with the MonksHillLab team to make this handbook more accessible. Previously it existed as a PDF; we helped create a web version built with [Quarto](https://quarto.org) and hosted on GitHub Pages that adds interactivity (for example being able to expand images and copy code blocks) making it more engaging to its intended audience of researchers around the world. Also because it is hosted as a GitHub repository this opens up the door for contributions from the user community, allowing the handbook to grow and evolve over time.
 
 ## Explore the handbook
 

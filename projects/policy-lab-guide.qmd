@@ -6,7 +6,7 @@ categories: [guide, methods, living labs, transfer, WIP]
 description: "An interactive guide for developing Policy Labs for Agri-environmental Measures within Living Labs."
 ---
 
-The [Policy Lab Guide](https://iat-dml.github.io/policy-codesign-methods/) is a work-in-progress project to guide researchers and practictioners in the development of **Policy Labs for Agri-environmental Measures** within the setting of Living Labs. The guide is designed to be a practical resource for those looking to co-design, test and evaluate policy interventions in collaboration with stakeholders, providing recommended methods for each step of the process.
+The [Policy Lab Guide](https://iat-dml.github.io/policy-codesign-methods/) is a work-in-progress project to guide researchers and practitioners in the development of **Policy Labs for Agri-environmental Measures** within the setting of Living Labs. The guide is designed to be a practical resource for those looking to co-design, test and evaluate policy interventions in collaboration with stakeholders, providing recommended methods for each step of the process.
 
 It offers two ways in: a **concept diagram** that lays out the Policy Lab phases in a visual format, and a searchable **methods library** where every method can be filtered by phase, actor, effort, and skill level.
 

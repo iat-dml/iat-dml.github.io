@@ -10,6 +10,7 @@
   {
     "listing": "/projects.html",
     "items": [
+      "/projects/quarto-workshop.html",
       "/projects/living-lab-dashboards.html",
       "/projects/policy-lab-guide.html",
       "/projects/monkshilllabs.html",
@@ -20,20 +21,79 @@
     "listing": "/news.html",
     "items": [
       "/news/2026-06-iemss-workshop.html",
+      "/news/2026-06-barcamp-openscience.html",
       "/news/2026-01-iat-kickoff.html",
       "/news/2026-03-fairagro-summit.html"
+    ]
+  },
+  {
+    "listing": "/index.de.html",
+    "items": [
+      "/news/2026-06-iemss-workshop.html",
+      "/news/2026-06-barcamp-openscience.html",
+      "/news/2026-01-iat-kickoff.html",
+      "/news/2026-03-fairagro-summit.de.html",
+      "/news/2026-03-fairagro-summit.html",
+      "/projects/quarto-workshop.de.html",
+      "/projects/quarto-workshop.html",
+      "/projects/living-lab-dashboards.de.html",
+      "/projects/living-lab-dashboards.html",
+      "/projects/policy-lab-guide.de.html",
+      "/projects/policy-lab-guide.html",
+      "/projects/monkshilllabs.de.html",
+      "/projects/monkshilllabs.html",
+      "/projects/zalf-iat-templates.de.html",
+      "/projects/zalf-iat-templates.html"
     ]
   },
   {
     "listing": "/index.html",
     "items": [
       "/news/2026-06-iemss-workshop.html",
+      "/news/2026-06-barcamp-openscience.html",
       "/news/2026-01-iat-kickoff.html",
       "/news/2026-03-fairagro-summit.html",
+      "/projects/quarto-workshop.html",
       "/projects/living-lab-dashboards.html",
       "/projects/policy-lab-guide.html",
       "/projects/monkshilllabs.html",
       "/projects/zalf-iat-templates.html"
+    ]
+  },
+  {
+    "listing": "/news.de.html",
+    "items": [
+      "/news/2026-06-iemss-workshop.html",
+      "/news/2026-06-barcamp-openscience.html",
+      "/news/2026-01-iat-kickoff.html",
+      "/news/2026-03-fairagro-summit.de.html",
+      "/news/2026-03-fairagro-summit.html"
+    ]
+  },
+  {
+    "listing": "/projects.de.html",
+    "items": [
+      "/projects/quarto-workshop.de.html",
+      "/projects/quarto-workshop.html",
+      "/projects/living-lab-dashboards.de.html",
+      "/projects/living-lab-dashboards.html",
+      "/projects/policy-lab-guide.de.html",
+      "/projects/policy-lab-guide.html",
+      "/projects/monkshilllabs.de.html",
+      "/projects/monkshilllabs.html",
+      "/projects/zalf-iat-templates.de.html",
+      "/projects/zalf-iat-templates.html"
+    ]
+  },
+  {
+    "listing": "/team.de.html",
+    "items": [
+      "/team/Ben.de.html",
+      "/team/Ben.html",
+      "/team/DS.de.html",
+      "/team/DS.html",
+      "/team/RSE.de.html",
+      "/team/RSE.html"
     ]
   }
 ]

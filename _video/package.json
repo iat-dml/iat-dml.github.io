@@ -21,6 +21,7 @@
   "devDependencies": {
     "@types/react": "19.0.0",
     "@types/web": "0.0.166",
+    "puppeteer": "^25.8.0",
     "typescript": "5.8.2"
   }
 }

@@ -1,124 +1,116 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>/de/team.html</loc>
-    <lastmod>2026-07-02T14:52:36.503Z</lastmod>
-  </url>
-  <url>
-    <loc>/de/team/DS.html</loc>
-    <lastmod>2026-05-18T15:37:55.651Z</lastmod>
-  </url>
-  <url>
-    <loc>/de/services.html</loc>
-    <lastmod>2026-06-23T09:44:38.219Z</lastmod>
-  </url>
-  <url>
-    <loc>/de/projects.html</loc>
-    <lastmod>2026-07-02T14:52:34.728Z</lastmod>
-  </url>
-  <url>
-    <loc>/de/projects/policy-lab-guide.html</loc>
-    <lastmod>2026-07-02T11:12:16.443Z</lastmod>
-  </url>
-  <url>
-    <loc>/de/projects/living-lab-dashboards.html</loc>
-    <lastmod>2026-07-02T09:20:28.553Z</lastmod>
-  </url>
-  <url>
-    <loc>/de/news.html</loc>
-    <lastmod>2026-07-02T14:52:38.374Z</lastmod>
-  </url>
-  <url>
-    <loc>/de/LICENSE.html</loc>
-    <lastmod>2026-05-15T09:59:29.124Z</lastmod>
-  </url>
-  <url>
-    <loc>/de/code-of-conduct.html</loc>
-    <lastmod>2026-03-02T14:37:57.738Z</lastmod>
-  </url>
-  <url>
-    <loc>/de/charter.html</loc>
-    <lastmod>2026-06-23T09:44:38.307Z</lastmod>
-  </url>
-  <url>
-    <loc>/de/index.html</loc>
-    <lastmod>2026-07-02T14:52:33.069Z</lastmod>
-  </url>
-  <url>
-    <loc>/de/news/2026-03-fairagro-summit.html</loc>
-    <lastmod>2026-07-02T11:46:04.034Z</lastmod>
-  </url>
-  <url>
-    <loc>/de/privacy-policy.html</loc>
-    <lastmod>2026-04-29T07:45:46.276Z</lastmod>
-  </url>
-  <url>
-    <loc>/de/projects/monkshilllabs.html</loc>
-    <lastmod>2026-07-02T11:11:04.148Z</lastmod>
-  </url>
-  <url>
-    <loc>/de/projects/zalf-iat-templates.html</loc>
-    <lastmod>2026-07-02T11:09:52.374Z</lastmod>
-  </url>
-  <url>
-    <loc>/de/resources.html</loc>
-    <lastmod>2026-06-19T16:07:40.286Z</lastmod>
-  </url>
-  <url>
-    <loc>/de/team/Ben.html</loc>
-    <lastmod>2026-05-18T15:09:25.290Z</lastmod>
-  </url>
-  <url>
-    <loc>/de/team/RSE.html</loc>
-    <lastmod>2026-05-18T15:09:20.389Z</lastmod>
-  </url>
-  <url>
     <loc>https://iat-dml.github.io/team.html</loc>
     <lastmod>2026-07-02T14:59:42.804Z</lastmod>
+  </url>
+  <url>
+    <loc>https://iat-dml.github.io/team-manual.html</loc>
+    <lastmod>2026-07-30T07:19:50.168Z</lastmod>
+  </url>
+  <url>
+    <loc>https://iat-dml.github.io/team/RSE.html</loc>
+    <lastmod>2026-05-18T15:09:23.123Z</lastmod>
   </url>
   <url>
     <loc>https://iat-dml.github.io/team/DS.html</loc>
     <lastmod>2026-05-18T15:13:29.263Z</lastmod>
   </url>
   <url>
+    <loc>https://iat-dml.github.io/team/Ben.html</loc>
+    <lastmod>2026-05-18T15:09:06.361Z</lastmod>
+  </url>
+  <url>
     <loc>https://iat-dml.github.io/services.html</loc>
     <lastmod>2026-06-23T09:50:46.649Z</lastmod>
+  </url>
+  <url>
+    <loc>https://iat-dml.github.io/resources.html</loc>
+    <lastmod>2026-08-17T19:32:06.728Z</lastmod>
   </url>
   <url>
     <loc>https://iat-dml.github.io/projects.html</loc>
     <lastmod>2026-07-02T14:59:28.186Z</lastmod>
   </url>
   <url>
+    <loc>https://iat-dml.github.io/projects/zalf-iat-templates.html</loc>
+    <lastmod>2026-06-30T10:03:36.789Z</lastmod>
+  </url>
+  <url>
+    <loc>https://iat-dml.github.io/projects/quarto-workshop.html</loc>
+    <lastmod>2026-08-11T13:02:27.388Z</lastmod>
+  </url>
+  <url>
     <loc>https://iat-dml.github.io/projects/policy-lab-guide.html</loc>
-    <lastmod>2026-07-01T15:45:58.738Z</lastmod>
+    <lastmod>2026-08-17T14:35:04.556Z</lastmod>
+  </url>
+  <url>
+    <loc>https://iat-dml.github.io/projects/monkshilllabs.html</loc>
+    <lastmod>2026-08-17T14:35:08.392Z</lastmod>
   </url>
   <url>
     <loc>https://iat-dml.github.io/projects/living-lab-dashboards.html</loc>
-    <lastmod>2026-07-01T15:08:20.357Z</lastmod>
+    <lastmod>2026-08-17T14:35:06.823Z</lastmod>
+  </url>
+  <url>
+    <loc>https://iat-dml.github.io/privacy-policy.html</loc>
+    <lastmod>2026-04-29T07:45:46.276Z</lastmod>
   </url>
   <url>
     <loc>https://iat-dml.github.io/news.html</loc>
-    <lastmod>2026-07-02T14:59:42.787Z</lastmod>
+    <lastmod>2026-08-11T13:02:27.366Z</lastmod>
   </url>
   <url>
-    <loc>https://iat-dml.github.io/news/2026-01-iat-kickoff.html</loc>
-    <lastmod>2026-05-12T04:13:07.928Z</lastmod>
+    <loc>https://iat-dml.github.io/news/linkedin/2026-06-barcamp-openscience.html</loc>
+    <lastmod>2026-08-11T13:02:27.377Z</lastmod>
   </url>
   <url>
-    <loc>https://iat-dml.github.io/index.html</loc>
-    <lastmod>2026-07-02T14:40:44.892Z</lastmod>
+    <loc>https://iat-dml.github.io/news/2026-06-barcamp-openscience.html</loc>
+    <lastmod>2026-08-11T13:02:27.370Z</lastmod>
   </url>
   <url>
-    <loc>https://iat-dml.github.io/charter.html</loc>
-    <lastmod>2026-06-23T09:50:46.749Z</lastmod>
-  </url>
-  <url>
-    <loc>https://iat-dml.github.io/code-of-conduct.html</loc>
-    <lastmod>2026-06-23T09:50:46.730Z</lastmod>
+    <loc>https://iat-dml.github.io/news/2026-03-fairagro-summit.de.html</loc>
+    <lastmod>2026-07-02T11:46:04.034Z</lastmod>
   </url>
   <url>
     <loc>https://iat-dml.github.io/LICENSE.html</loc>
     <lastmod>2026-05-15T09:59:29.124Z</lastmod>
+  </url>
+  <url>
+    <loc>https://iat-dml.github.io/index.de.html</loc>
+    <lastmod>2026-07-20T11:34:19.895Z</lastmod>
+  </url>
+  <url>
+    <loc>https://iat-dml.github.io/impressum.de.html</loc>
+    <lastmod>2026-08-11T13:22:43.624Z</lastmod>
+  </url>
+  <url>
+    <loc>https://iat-dml.github.io/contact-form.de.html</loc>
+    <lastmod>2026-07-20T11:48:20.053Z</lastmod>
+  </url>
+  <url>
+    <loc>https://iat-dml.github.io/code-of-conduct.de.html</loc>
+    <lastmod>2026-03-02T14:37:57.738Z</lastmod>
+  </url>
+  <url>
+    <loc>https://iat-dml.github.io/code-of-conduct.html</loc>
+    <lastmod>2026-07-20T11:39:02.690Z</lastmod>
+  </url>
+  <url>
+    <loc>https://iat-dml.github.io/contact-form.html</loc>
+    <lastmod>2026-07-20T11:48:06.055Z</lastmod>
+  </url>
+  <url>
+    <loc>https://iat-dml.github.io/impressum.html</loc>
+    <lastmod>2026-08-11T13:22:38.897Z</lastmod>
+  </url>
+  <url>
+    <loc>https://iat-dml.github.io/index.html</loc>
+    <lastmod>2026-08-17T14:44:40.649Z</lastmod>
+  </url>
+  <url>
+    <loc>https://iat-dml.github.io/news/2026-01-iat-kickoff.html</loc>
+    <lastmod>2026-05-12T04:13:07.928Z</lastmod>
   </url>
   <url>
     <loc>https://iat-dml.github.io/news/2026-03-fairagro-summit.html</loc>
@@ -129,27 +121,63 @@
     <lastmod>2026-06-22T08:51:58.080Z</lastmod>
   </url>
   <url>
-    <loc>https://iat-dml.github.io/privacy-policy.html</loc>
+    <loc>https://iat-dml.github.io/news.de.html</loc>
+    <lastmod>2026-08-11T13:02:27.360Z</lastmod>
+  </url>
+  <url>
+    <loc>https://iat-dml.github.io/privacy-policy.de.html</loc>
     <lastmod>2026-04-29T07:45:46.276Z</lastmod>
   </url>
   <url>
-    <loc>https://iat-dml.github.io/projects/monkshilllabs.html</loc>
-    <lastmod>2026-07-01T16:17:52.493Z</lastmod>
+    <loc>https://iat-dml.github.io/projects/living-lab-dashboards.de.html</loc>
+    <lastmod>2026-07-02T09:20:28.553Z</lastmod>
   </url>
   <url>
-    <loc>https://iat-dml.github.io/projects/zalf-iat-templates.html</loc>
-    <lastmod>2026-06-30T10:03:36.789Z</lastmod>
+    <loc>https://iat-dml.github.io/projects/monkshilllabs.de.html</loc>
+    <lastmod>2026-07-02T11:11:04.148Z</lastmod>
   </url>
   <url>
-    <loc>https://iat-dml.github.io/resources.html</loc>
-    <lastmod>2026-06-23T10:38:54.720Z</lastmod>
+    <loc>https://iat-dml.github.io/projects/policy-lab-guide.de.html</loc>
+    <lastmod>2026-07-02T11:12:16.443Z</lastmod>
   </url>
   <url>
-    <loc>https://iat-dml.github.io/team/Ben.html</loc>
-    <lastmod>2026-05-18T15:09:06.361Z</lastmod>
+    <loc>https://iat-dml.github.io/projects/quarto-workshop.de.html</loc>
+    <lastmod>2026-08-11T13:02:27.382Z</lastmod>
   </url>
   <url>
-    <loc>https://iat-dml.github.io/team/RSE.html</loc>
-    <lastmod>2026-05-18T15:09:23.123Z</lastmod>
+    <loc>https://iat-dml.github.io/projects/zalf-iat-templates.de.html</loc>
+    <lastmod>2026-07-02T11:09:52.374Z</lastmod>
+  </url>
+  <url>
+    <loc>https://iat-dml.github.io/projects.de.html</loc>
+    <lastmod>2026-07-02T14:52:34.728Z</lastmod>
+  </url>
+  <url>
+    <loc>https://iat-dml.github.io/resources.de.html</loc>
+    <lastmod>2026-08-17T14:44:45.460Z</lastmod>
+  </url>
+  <url>
+    <loc>https://iat-dml.github.io/services.de.html</loc>
+    <lastmod>2026-06-23T09:44:38.219Z</lastmod>
+  </url>
+  <url>
+    <loc>https://iat-dml.github.io/team/Ben.de.html</loc>
+    <lastmod>2026-05-18T15:09:25.290Z</lastmod>
+  </url>
+  <url>
+    <loc>https://iat-dml.github.io/team/DS.de.html</loc>
+    <lastmod>2026-05-18T15:37:55.651Z</lastmod>
+  </url>
+  <url>
+    <loc>https://iat-dml.github.io/team/RSE.de.html</loc>
+    <lastmod>2026-05-18T15:09:20.389Z</lastmod>
+  </url>
+  <url>
+    <loc>https://iat-dml.github.io/team-manual.de.html</loc>
+    <lastmod>2026-07-30T07:19:50.164Z</lastmod>
+  </url>
+  <url>
+    <loc>https://iat-dml.github.io/team.de.html</loc>
+    <lastmod>2026-07-02T14:52:36.503Z</lastmod>
   </url>
 </urlset>

@@ -3,7 +3,7 @@ title: "Living Lab Explorer"
 image: ../assets/ll-explorer-screenshot.png
 date: "2026-07-01"
 categories: [dashboard, visualization, living labs, transfer, WIP]
-description: "Interactive dashboards for exploring environmentaL and socio-economic data from the five IAT Living Labs."
+description: "Interactive dashboards for exploring environmental and socio-economic data from the five IAT Living Labs."
 ---
 
 The [Living Lab Explorer](https://iat-dml.github.io/living-lab-explorer/) is a work-in-progress project building upon factsheets prepared by the IAT Regional Network Managers to create interactive dashboards to allow practice partners and researchers to gain an understanding of the environmental and socio-economic conditions that characterise the five IAT Living Labs.
