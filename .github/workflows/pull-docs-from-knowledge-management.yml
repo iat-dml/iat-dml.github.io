@@ -141,6 +141,7 @@ jobs:
 
           copy_file source/team-manual/team-manual.qmd team-manual.qmd
           copy_file source/team-manual/team-manual.de.qmd team-manual.de.qmd
+          copy_file source/repo-structure/repo-structure.html repo-structure.html
 
           if [[ "$missing" -ne 0 ]]; then
             echo "One or more expected source files were missing."
