@@ -6,7 +6,7 @@ This repo is intended to be a living document for SWG and IAT members to share u
 
 Some documents that provide guiding principles:
 
-- [Handling Research Data at ZALF Guidelines](https://zalf365.sharepoint.com/sites/dokumentencenter/Richtlinien/2023-01-richtlinie-zalf-data-policy.pdf?csf=1&web=1&e=irWOai)
+- [Handling Research Data at ZALF Guidelinbes](https://zalf365.sharepoint.com/sites/dokumentencenter/Richtlinien/2023-01-richtlinie-zalf-data-policy.pdf?csf=1&web=1&e=irWOai)
 
 - [ZALF open access policy](https://zalf365.sharepoint.com/sites/vorstand/Freigegebene%20Dokumente/strategiedokumente/policy-open-access.pdf?csf=1&web=1&e=4bXvat)
 
@@ -64,9 +64,11 @@ Some documents that provide guiding principles:
 
 - [Academic Cloud](https://academiccloud.de/)
 
-- [ORKG Ask](https://ask.orkg.org/) - Open source scholarly search and exploration system powered by vector search, large language models and knowledge graphs.
+- [TIB AIsstant]()
 
-- [Rspace](https://www.researchspace.com/about) - Interoperable research tools across domains, facilitating machine actionable passage of data and metadata through all stages of the research lifecycle.
+- [ORKG Ask: Open Source scholarly search and exploration system powered by Vector Search, Large Language Models and Knowledge Graphs](https://ask.orkg.org/https://ask.orkg.org/)
+
+- [Rspace: Interoperable research tools across domains, facilitating machine actionable passage of data and metadata through all stages of the research lifecycleinteroperable research tools across domains, facilitating machine actionable passage of data and metadata through all stages of the research lifecycle](https://www.researchspace.com/about)
 
 - [EU alternatives for software](https://european-alternatives.eu/categories) - A directory of software alternatives to popular proprietary software, with a focus on European users and organizations.
 
@@ -86,4 +88,4 @@ Some documents that provide guiding principles:
 
 - [Assured Training](https://assured-training.org/) -Ensures the safe, legal, and ethical use of sensitive data through targeted training and certification.
 
-- [Leibniz Institute for the Social Sciences (GESIS)](https://www.gesis.org/en/gesis-training)
+- [Liebniz Institute for the Social Sciences (GESIS)](https://www.gesis.org/en/gesis-training)

@@ -52,62 +52,33 @@ For all documentation use Quarto (.qmd) files with the Github Flavoured Markdown
 
 @fig-repo-structure gives an overview of our key repos and how they are connected, with each explained in more detail below. Solid arrows are content, requests or configuration moving between systems; dashed arrows are automations that run without anyone pressing a button.
 
-```{mermaid}
-%%| label: fig-repo-structure
-%%| fig-cap: "Our key repositories and how they connect. Dashed arrows are automated (Power Automate flows and GitHub Actions)."
-%%| fig-alt: "Flowchart of the DML repositories. Requests arrive via the Microsoft Form embedded on the website, the shared mailbox or the GitHub issue form; Power Automate turns them into issues in service-desk and notifies Microsoft Teams. knowledge-management is the source of truth for documents and is pulled nightly by the website and archived to Zenodo. dml-brand-yml supplies branding to the website and templates. The website is published to GitHub Pages."
+The diagram is interactive: click any repository to trace only its connections, and drag or scroll to pan and zoom. It is generated from [`repo-structure.architecture.json`](../repo-structure/repo-structure.architecture.json); see the [`repo-structure` README](../repo-structure/README.md) for how to regenerate it and re-apply our branding.
 
-flowchart LR
-    subgraph intake["Intake channels"]
-        direction TB
-        form["Microsoft Form<br/>DML service request"]
-        mail["iat-dml@zalf.de<br/>shared mailbox"]
-        ghform["GitHub issue form"]
-        pa["Power Automate<br/>flows"]
-    end
+::: {#fig-repo-structure .column-screen-inset}
+```{=html}
+<!-- embed=1 strips the viewer chrome (toolbar, guided views, cards) and leaves
+     the diagram surface. Remove it for the full viewer: guided views, search,
+     Present mode and PNG/SVG/WebM export.
+     theme=light matches the manual's light page; drop it to follow the OS.
 
-    subgraph repos["Our repositories"]
-        direction TB
-        sd["service-desk<br/>one issue per request"]
-        km["knowledge-management<br/>source of truth for documents"]
-        web["iat-dml.github.io<br/>the website"]
-        brand["dml-brand-yml<br/>colours, fonts, logos"]
-        tpl["templates<br/>branded document templates"]
-        pm["project-management<br/>internal planning, private"]
-        train["training<br/>educational materials"]
-        srv["service repos<br/>one per request"]
-        pub["dml-content-publisher<br/>AI authoring skill"]
-    end
-
-    subgraph out["Where it ends up"]
-        direction TB
-        pages["GitHub Pages<br/>iat-dml.github.io"]
-        zen["Zenodo<br/>citable DOI"]
-        teams["MS Teams<br/>service-requests channel"]
-    end
-
-    web -- "embeds" --> form
-    form --> pa
-    mail --> pa
-    pa -. "creates issue" .-> sd
-    pa -. "notifies" .-> teams
-    ghform --> sd
-
-    sd -- "request gets a working repo" --> srv
-    sd --> pub
-    srv --> pub
-    pub -. "drafts news and project pages, via PR" .-> web
-
-    km -. "pull-docs-from-knowledge-management.yml, nightly" .-> web
-    km -. "zenodo-publish.yml" .-> zen
-    web -. "publish.yml, babelquarto" .-> pages
-
-    brand -- "branding" --> web
-    brand -- "branding" --> tpl
-    tpl -- "agendas, minutes, reports" --> km
-    tpl -- "slides, handouts" --> train
-    pm -- "plans our own work" --> km
+     aspect-ratio, not a fixed height: embed mode removes the viewer's
+     max-width cap and sets overflow:hidden, so on a wide monitor a fixed
+     height silently CLIPS the bottom row and legend with no way to scroll.
+     2.4 is the diagram's own ratio (viewBox 1380x570 plus padding), verified
+     down to 1100px and up to 2400px. max-width matches the width the layout
+     was checked at. -->
+<iframe src="../repo-structure/repo-structure.html?&amp;theme=light"
+        title="Interactive diagram of the DML repositories and how they connect"
+        style="display:block; width:100%; max-width:1560px; aspect-ratio:2.4; height:auto; margin:0 auto; border:1px solid #E0DACF; border-radius:6px; background:#F5F3EE;"
+        loading="lazy"></iframe>
 ```
+
+Our key repositories and how they connect. Dashed arrows are automated (Power Automate flows and GitHub Actions). Requests arrive via the Microsoft Form embedded on the website, the shared mailbox or the GitHub issue form; Power Automate turns them into issues in `service-desk` and notifies Microsoft Teams. `knowledge-management` is the source of truth for documents and is pulled nightly by the website and archived to Zenodo. `dml-brand-yml` supplies branding to the website and templates. The website is published to GitHub Pages.
+:::
+
+::: {.content-visible unless-format="html"}
+The interactive diagram above only renders in the HTML version of this manual. Open [`repo-structure/repo-structure.html`](../repo-structure/repo-structure.html) directly to explore it.
+:::
 
 #### `service-desk` for tracking service requests {#sec-service_desk}
 
