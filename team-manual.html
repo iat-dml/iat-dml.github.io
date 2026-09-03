@@ -100,8 +100,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
     "search-submit-button-title": "Submit",
     "search-label": "Search"
   }
-}</script><script src="site_libs/quarto-diagram/mermaid.min.js"></script><script src="site_libs/quarto-diagram/mermaid-init.js"></script><link href="site_libs/quarto-diagram/mermaid.css" rel="stylesheet">
-<link rel="preconnect" href="https://fonts.googleapis.com">
+}</script><link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
 <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&amp;family=DM+Serif+Display&amp;display=swap" rel="stylesheet">
 <script src="./assets/js/dml-concept-diagram.js"></script><script src="./assets/js/dml-support-tiers.js"></script><script src="./assets/js/dml-contact-email.js"></script><script src="./assets/js/dml-category-colors.js"></script>
@@ -342,7 +341,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <!-- margin-sidebar -->
     
 <!-- main -->
-<main class="content column-page" id="quarto-document-content"><header id="title-block-header" class="quarto-title-block"></header><section id="data-and-modelling-infrastructure-team-manual" class="level1"><h1>Data and Modelling Infrastructure Team Manual</h1>
+<main class="content page-columns page-full column-body" id="quarto-document-content"><header id="title-block-header" class="quarto-title-block"></header><section id="data-and-modelling-infrastructure-team-manual" class="level1 page-columns page-full"><h1>Data and Modelling Infrastructure Team Manual</h1>
 <p>This manual serves as a living document to inform how we in the Data and Modelling Infrastructure (DML) Service Working Group (SWG) work, communicate, and share information. It is intended to be a resource for both current and future members of the SWG. The manual will be updated regularly to reflect changes in our processes and practices, and we welcome contributions from all members of the SWG to ensure that it remains relevant and useful (see <a href="#sec-updating_manual">Updating this manual</a>).</p>
 <p>We strive to adapt approaches from agile project management, modern software development and Open Science to the context of providing support to researchers. Our aim is to use what works without adopting everything or being too rigid. For example, using Github will be a cornerstone of how we work, in terms of developing and managing the deliverables for our service requests. At the same time for many of our users we may need to provide them with the deliverables via a different means (e.g. file sharing) to meet their level of technical expertise.</p>
 <p>We use a tiered system for support, where we provide different levels of support based on the needs and preferences of our users. For example, for some users we may provide more hands-on support, while for others we may provide more self-service resources and documentation. We will also be flexible in our communication channels, using a combination of Github issues and Microsoft Teams Channels to communicate with our users and other IAT core groups (e.g. The IAT Coordination Team and Regional Network Managers).</p>
@@ -358,7 +357,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <section id="sec-conduct" class="level2"><h2 class="anchored" data-anchor-id="sec-conduct">How we create a respectful work environment</h2>
 <p>We are committed to creating a respectful and inclusive work environment for all members of the SWG. We will treat each other with respect and kindness, and we will strive to create a culture of openness and collaboration. To this end we have developed a <a href="../code-of-conduct/code-of-conduct.qmd">code of conduct</a> that outlines our expectations for behaviour and communication both within the SWG and when interacting with service users. Like this team manual, the code of conduct is a living document that we will update as needed to ensure that it remains relevant and effective. We will also make sure that all members of the SWG are familiar with the code of conduct and that they understand their responsibilities in creating a positive and respectful work environment.</p>
 <p>We will also be mindful of our language and communication style, and we will avoid using language that is offensive or exclusionary.</p>
-</section><section id="sec-how_we_organise" class="level2"><h2 class="anchored" data-anchor-id="sec-how_we_organise">How we organise our work</h2>
+</section><section id="sec-how_we_organise" class="level2 page-columns page-full"><h2 class="anchored" data-anchor-id="sec-how_we_organise">How we organise our work</h2>
 <section id="sec-github_as_foundation" class="level3"><h3 class="anchored" data-anchor-id="sec-github_as_foundation">
 <code>GitHub</code> as the foundation</h3>
 <p>We will use GitHub for project and knowledge management building upon the techniques proposed by the Open Science initiaitatives such as the Turing Way [<strong>CITATION</strong>] and the Openscapes project <span class="citation" data-cites="openscapescoreteam2024">[@openscapescoreteam2024]</span>, such as using issues and <a href="https://docs.github.com/en/issues/planning-and-tracking-with-projects/learning-about-projects/about-projects">GitHubs Projects</a> functionality for project management and communication, and using dedicated repositories for documentation and deliverables. This is to ensure that all our work is transparent and accessible to all DML members, and to make it easier to track progress on our projects and service requests.</p>
@@ -372,71 +371,27 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <li><p>Use our custom issue labels. The label set differs per repository: see <a href="#sec-service_desk_labels"><code>service-desk</code></a> for the service request labels and <a href="#sec-project_management"><code>project-management</code></a> for the internal project labels.</p></li>
 <li><p>Put a <code>README.md</code> in each repository to provide project level documentation as normal. For non-conventional repositories such as knowledge-mangement and templates include a <code>README.md</code> in each major directory within them containing a one sentence description both English and German (Deepl’d) of the purpose of the directory.</p></li>
 <li><p>Within issues, we encourage linking to files or specific chunks in other repos to make it easier for others to find the relevant information. Link to the file on the <code>main</code> branch (e.g. <code>https://github.com/iat-dml/service-desk/blob/main/README.md</code>), optionally with a line range appended (e.g. <code>…/README.md#L10-L20</code>), so that the link always resolves to the current version of the file rather than a frozen snapshot.</p></li>
-</ul></section><section id="our-key-repositories" class="level3"><h3 class="anchored" data-anchor-id="our-key-repositories">Our key repositories</h3>
+</ul></section><section id="our-key-repositories" class="level3 page-columns page-full"><h3 class="anchored" data-anchor-id="our-key-repositories">Our key repositories</h3>
 <p><a href="#fig-repo-structure" class="quarto-xref">Figure 1</a> gives an overview of our key repos and how they are connected, with each explained in more detail below. Solid arrows are content, requests or configuration moving between systems; dashed arrows are automations that run without anyone pressing a button.</p>
-<div class="cell" data-layout-align="default">
-<div class="cell-output-display">
-<div id="fig-repo-structure" class="quarto-float quarto-figure quarto-figure-center anchored">
+<p>The diagram is interactive: click any repository to trace only its connections, and drag or scroll to pan and zoom. It is generated from <a href="../repo-structure/repo-structure.architecture.json"><code>repo-structure.architecture.json</code></a>; see the <a href="../repo-structure/README.md"><code>repo-structure</code> README</a> for how to regenerate it and re-apply our branding.</p>
+<div id="fig-repo-structure" class="column-screen-inset quarto-float quarto-figure quarto-figure-center anchored">
 <figure class="quarto-float quarto-float-fig figure"><div aria-describedby="fig-repo-structure-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-<div>
-<pre class="mermaid mermaid-js" data-label="fig-repo-structure">flowchart LR
-    subgraph intake["Intake channels"]
-        direction TB
-        form["Microsoft Form&lt;br/&gt;DML service request"]
-        mail["iat-dml@zalf.de&lt;br/&gt;shared mailbox"]
-        ghform["GitHub issue form"]
-        pa["Power Automate&lt;br/&gt;flows"]
-    end
+<!-- embed=1 strips the viewer chrome (toolbar, guided views, cards) and leaves
+     the diagram surface. Remove it for the full viewer: guided views, search,
+     Present mode and PNG/SVG/WebM export.
+     theme=light matches the manual's light page; drop it to follow the OS.
 
-    subgraph repos["Our repositories"]
-        direction TB
-        sd["service-desk&lt;br/&gt;one issue per request"]
-        km["knowledge-management&lt;br/&gt;source of truth for documents"]
-        web["iat-dml.github.io&lt;br/&gt;the website"]
-        brand["dml-brand-yml&lt;br/&gt;colours, fonts, logos"]
-        tpl["templates&lt;br/&gt;branded document templates"]
-        pm["project-management&lt;br/&gt;internal planning, private"]
-        train["training&lt;br/&gt;educational materials"]
-        srv["service repos&lt;br/&gt;one per request"]
-        pub["dml-content-publisher&lt;br/&gt;AI authoring skill"]
-    end
-
-    subgraph out["Where it ends up"]
-        direction TB
-        pages["GitHub Pages&lt;br/&gt;iat-dml.github.io"]
-        zen["Zenodo&lt;br/&gt;citable DOI"]
-        teams["MS Teams&lt;br/&gt;service-requests channel"]
-    end
-
-    web -- "embeds" --&gt; form
-    form --&gt; pa
-    mail --&gt; pa
-    pa -. "creates issue" .-&gt; sd
-    pa -. "notifies" .-&gt; teams
-    ghform --&gt; sd
-
-    sd -- "request gets a working repo" --&gt; srv
-    sd --&gt; pub
-    srv --&gt; pub
-    pub -. "drafts news and project pages, via PR" .-&gt; web
-
-    km -. "pull-docs-from-knowledge-management.yml, nightly" .-&gt; web
-    km -. "zenodo-publish.yml" .-&gt; zen
-    web -. "publish.yml, babelquarto" .-&gt; pages
-
-    brand -- "branding" --&gt; web
-    brand -- "branding" --&gt; tpl
-    tpl -- "agendas, minutes, reports" --&gt; km
-    tpl -- "slides, handouts" --&gt; train
-    pm -- "plans our own work" --&gt; km
-</pre>
-</div>
+     aspect-ratio, not a fixed height: embed mode removes the viewer's
+     max-width cap and sets overflow:hidden, so on a wide monitor a fixed
+     height silently CLIPS the bottom row and legend with no way to scroll.
+     2.4 is the diagram's own ratio (viewBox 1380x570 plus padding), verified
+     down to 1100px and up to 2400px. max-width matches the width the layout
+     was checked at. -->
+<iframe src="../repo-structure/repo-structure.html?&amp;theme=light" title="Interactive diagram of the DML repositories and how they connect" style="display:block; width:100%; max-width:1560px; aspect-ratio:2.4; height:auto; margin:0 auto; border:1px solid #E0DACF; border-radius:6px; background:#F5F3EE;" loading="lazy"></iframe>
 </div>
 <figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-repo-structure-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-Figure 1: Our key repositories and how they connect. Dashed arrows are automated (Power Automate flows and GitHub Actions).
+Figure 1: Our key repositories and how they connect. Dashed arrows are automated (Power Automate flows and GitHub Actions). Requests arrive via the Microsoft Form embedded on the website, the shared mailbox or the GitHub issue form; Power Automate turns them into issues in <code>service-desk</code> and notifies Microsoft Teams. <code>knowledge-management</code> is the source of truth for documents and is pulled nightly by the website and archived to Zenodo. <code>dml-brand-yml</code> supplies branding to the website and templates. The website is published to GitHub Pages.
 </figcaption></figure>
-</div>
-</div>
 </div>
 <section id="sec-service_desk" class="level4"><h4 class="anchored" data-anchor-id="sec-service_desk">
 <code>service-desk</code> for tracking service requests</h4>
