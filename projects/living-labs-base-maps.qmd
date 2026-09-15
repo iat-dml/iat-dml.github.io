@@ -1,6 +1,7 @@
 ---
 title: "Living Lab Workshop Maps"
-image: ../assets/base-maps-rheingau.png
+image: ../assets/base-maps-collage.jpg
+image-alt: "The five A3 Living Lab workshop maps laid out together: Havelland, Rheingau, Hessian Low Mountain Range, East Brandenburg and North Hessian Loess Plain"
 date: "2026-09-15"
 categories: [maps, workshop, living labs, transfer]
 description: "Print-ready A3 base maps of the five IAT Living Labs, made for drawing and writing on in workshops and events."
