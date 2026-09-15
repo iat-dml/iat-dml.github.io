@@ -2,6 +2,11 @@ project:
   type: website
   resources:
     - references.bib
+    # Linked from team-manual.qmd but not detected by Quarto (raw-HTML iframe,
+    # README isn't rendered, .json isn't a page), so copy explicitly.
+    - repo-structure/repo-structure.html
+    - repo-structure/repo-structure.architecture.json
+    - repo-structure/README.md
 website:
   favicon: assets/logos/dml-strata-deep-favicon.svg
   site-url: "https://iat-dml.github.io"
