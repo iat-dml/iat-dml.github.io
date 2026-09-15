@@ -10,7 +10,106 @@
 <atom:link href="https://iat-dml.github.io/de/projects.xml" rel="self" type="application/rss+xml"/>
 <description>„Dies ist die Website der Arbeitsgruppe „Daten- und Modellierungsinfrastruktur für Living Labs“ (SWG) des Innovationszentrums für Agrarsystemtransformation (IAT) als Teil des Leibniz-Zentrums für Agrarlandschaftsforschung (ZALF).“</description>
 <generator>quarto-1.10.18</generator>
-<lastBuildDate>Sun, 12 Jul 2026 00:00:00 GMT</lastBuildDate>
+<lastBuildDate>Tue, 15 Sep 2026 00:00:00 GMT</lastBuildDate>
+<item>
+  <title>Workshop-Karten für die Living Labs</title>
+  <link>https://iat-dml.github.io/de/projects/living-labs-base-maps.html</link>
+  <description><![CDATA[ 
+
+
+
+
+
+<p>In Living-Lab-Workshops muss oft eine einfache Frage auf Papier beantwortet werden: Wo? Wo wirtschaften die Beteiligten, wo zeigen sich Wasserprobleme, wo könnte eine neue Maßnahme erprobt werden? Dafür haben wir einen Satz druckfertiger A3-Grundkarten erstellt, eine für jedes der fünf IAT-Living-Labs. Mitarbeitende und Forschende des IAT können sie ausdrucken und zu Workshops, Treffen mit Praxispartnern und Veranstaltungen mitnehmen.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="../assets/base-maps-rheingau.png" class="lightbox" data-gallery="quarto-lightbox-gallery-1" title="Beispielblatt für das Living Lab 05 Rheingau, A3 quer"><img src="https://iat-dml.github.io/de/assets/base-maps-rheingau.png" class="img-fluid quarto-figure quarto-figure-center figure-img" alt="A3-Workshop-Karte des Living Labs Rheingau: eine blasse OpenStreetMap-Grundkarte mit der Living-Lab-Grenze in Orange, wenigen Orts- und Flussbeschriftungen, einer Kopfzeile mit dem Namen des Living Labs sowie Maßstabsleiste und Quellenangabe in der Fußzeile"></a></p>
+</figure>
+</div>
+<figcaption>Beispielblatt für das Living Lab 05 Rheingau, A3 quer</figcaption>
+</figure>
+</div>
+<section id="was-die-karten-zeigen" class="level2">
+<h2 class="anchored" data-anchor-id="was-die-karten-zeigen">Was die Karten zeigen</h2>
+<p>Die Karten sind bewusst zurückhaltend gestaltet, damit Platz zum Zeichnen und Schreiben bleibt. Jedes Blatt zeigt:</p>
+<ul>
+<li><strong>Eine Grundkarte aus OpenStreetMap</strong> mit Landnutzung, Wäldern, Gewässern, Bahnlinien und Straßen. Sie wird aus Vektordaten erzeugt und bleibt daher auch im A3-Druck scharf.</li>
+<li><strong>Die Grenze des Living Labs.</strong> Innerhalb der Grenze wird die Karte in voller Stärke dargestellt, in einem hellen Ring um die Grenze herum blendet sie aus.</li>
+<li><strong>Wenige Beschriftungen</strong>: Städte, größere Dörfer, Autobahn- und Bundesstraßennummern, große Flüsse, große Seen und die höchsten Gipfel. Beschriftungen, die sich gegenseitig verdrängen würden, werden weggelassen.</li>
+<li><strong>Eine Kopfzeile, Maßstabsleiste, Maßstabsangabe, Nordpfeil und Quellenangabe.</strong></li>
+</ul>
+<p>Jede Karte wird im Quer- oder Hochformat gedruckt, je nachdem, in welchem Format die Region im größeren Maßstab dargestellt werden kann. Die Blätter sind auf Deutsch oder Englisch erhältlich.</p>
+<div class="quarto-layout-panel" data-layout="[[1,1],[1],[1]]">
+<div class="quarto-layout-row">
+<div class="quarto-layout-cell" style="flex-basis: 50.0%;justify-content: flex-start;">
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="../assets/base-maps-east-brandenburg.png" class="lightbox" data-gallery="base-maps" title="01 Ostbrandenburg, hoch, ca. 1:274.000"><img src="https://iat-dml.github.io/de/assets/base-maps-east-brandenburg.png" class="img-fluid figure-img" alt="A3-Workshop-Karte im Hochformat des Living Labs Ostbrandenburg"></a></p>
+<figcaption>01 Ostbrandenburg, hoch, ca. 1:274.000</figcaption>
+</figure>
+</div>
+</div>
+<div class="quarto-layout-cell" style="flex-basis: 50.0%;justify-content: flex-start;">
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="../assets/base-maps-north-hessian-loess.png" class="lightbox" data-gallery="base-maps" title="03 Nordhessische Lössebene, hoch, ca. 1:310.000"><img src="https://iat-dml.github.io/de/assets/base-maps-north-hessian-loess.png" class="img-fluid figure-img" alt="A3-Workshop-Karte im Hochformat des Living Labs Nordhessische Lössebene"></a></p>
+<figcaption>03 Nordhessische Lössebene, hoch, ca. 1:310.000</figcaption>
+</figure>
+</div>
+</div>
+</div>
+<div class="quarto-layout-row">
+<div class="quarto-layout-cell" style="flex-basis: 100.0%;justify-content: flex-start;">
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="../assets/base-maps-havelland.png" class="lightbox" data-gallery="base-maps" title="02 Havelland, quer, ca. 1:212.000"><img src="https://iat-dml.github.io/de/assets/base-maps-havelland.png" class="img-fluid figure-img" alt="A3-Workshop-Karte im Querformat des Living Labs Havelland"></a></p>
+<figcaption>02 Havelland, quer, ca. 1:212.000</figcaption>
+</figure>
+</div>
+</div>
+</div>
+<div class="quarto-layout-row">
+<div class="quarto-layout-cell" style="flex-basis: 100.0%;justify-content: flex-start;">
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="../assets/base-maps-hessian-low-mountain.png" class="lightbox" data-gallery="base-maps" title="04 Hessisches Mittelgebirge, quer, ca. 1:335.000"><img src="https://iat-dml.github.io/de/assets/base-maps-hessian-low-mountain.png" class="img-fluid figure-img" alt="A3-Workshop-Karte im Querformat des Living Labs Hessisches Mittelgebirge"></a></p>
+<figcaption>04 Hessisches Mittelgebirge, quer, ca. 1:335.000</figcaption>
+</figure>
+</div>
+</div>
+</div>
+</div>
+</section>
+<section id="die-karten-in-ihrem-workshop-nutzen" class="level2">
+<h2 class="anchored" data-anchor-id="die-karten-in-ihrem-workshop-nutzen">Die Karten in Ihrem Workshop nutzen</h2>
+<p>Wenn Sie einen Workshop oder eine Veranstaltung planen, <a href="mailto:iat-dml@zalf.de">melden Sie sich bei uns</a>. Wir schicken Ihnen dann das Druckpaket für Ihr Living Lab. Es enthält die A3-PDFs, eine kurze Textdatei mit Druckhinweisen und die Daten, auf denen jede Karte beruht.</p>
+<p>Beim Drucken beachten Sie bitte zwei Dinge:</p>
+<ul>
+<li><strong>Auf A3 mit 100 % („Tatsächliche Größe“) drucken.</strong> Verwenden Sie nicht „An Seite anpassen“. Maßstabsleiste und Maßstabsangabe stimmen nur bei tatsächlicher Größe.</li>
+<li><strong>Die Quellenangabe auf der Karte belassen.</strong> Die Kartendaten stammen von © <a href="https://www.openstreetmap.org/copyright">OpenStreetMap-Mitwirkende</a> unter der ODbL, die Vektorkacheln von <a href="https://protomaps.com">Protomaps</a>. Diese Angabe muss auf jeder Kopie erhalten bleiben.</li>
+</ul>
+<p>Am besten eignet sich ein Farbdruck auf mattem Papier, da sich darauf leichter schreiben lässt.</p>
+</section>
+<section id="wie-die-karten-entstehen" class="level2">
+<h2 class="anchored" data-anchor-id="wie-die-karten-entstehen">Wie die Karten entstehen</h2>
+<p>Die Karten werden von einem einzigen R-Skript erzeugt, das im öffentlichen GitHub-Repository <a href="https://github.com/iat-dml/living-labs-base-maps">iat-dml/living-labs-base-maps</a> verfügbar ist. Für jedes Living Lab lädt das Skript einen regionalen Ausschnitt aktueller OpenStreetMap-Daten herunter, bestimmt Papierausrichtung und Maßstab, wählt sich nicht überlappende Beschriftungen aus und schreibt ein Vektor-PDF. Ein vollständiger Durchlauf für alle fünf Living Labs dauert etwa drei Minuten.</p>
+<p>Die Grenzen der Living Labs stammen aus dem <a href="../projects/living-lab-dashboards.html">Living Lab Explorer</a>, sodass die Workshop-Karten und die Online-Dashboards dieselben Gebiete zeigen. Neben jedem PDF speichert das Skript auch die Grenze, die platzierten Beschriftungen und den OpenStreetMap-Ausschnitt. Diese lassen sich zum Beispiel in QGIS öffnen, um eigene Ebenen hinzuzufügen oder eine Karte neu zu gestalten.</p>
+<p>Wenn Sie eine Karte für ein anderes Gebiet, in einem anderen Format oder mit zusätzlichen Informationen wie Untersuchungsflächen wünschen, <a href="mailto:iat-dml@zalf.de">sagen Sie uns gern Bescheid</a>.</p>
+
+
+</section>
+
+ ]]></description>
+  <category>maps</category>
+  <category>workshop</category>
+  <category>living labs</category>
+  <category>transfer</category>
+  <guid>https://iat-dml.github.io/de/projects/living-labs-base-maps.html</guid>
+  <pubDate>Tue, 15 Sep 2026 00:00:00 GMT</pubDate>
+  <media:content url="https://iat-dml.github.io/de/assets/base-maps-collage.jpg" medium="image" type="image/jpeg"/>
+</item>
 <item>
   <title>One Tool to Rule Them All: Ein Quarto-Workshop</title>
   <link>https://iat-dml.github.io/de/projects/quarto-workshop.html</link>
