@@ -1,0 +1,15 @@
+{
+  "//": "Type-checking only -- Netlify bundles these with esbuild, which strips types without looking at them, so a mistake here would otherwise surface as a runtime error on a deployed function. Run `npm run check` before deploying.",
+  "compilerOptions": {
+    "target": "ES2022",
+    "module": "NodeNext",
+    "moduleResolution": "NodeNext",
+    "allowImportingTsExtensions": true,
+    "noEmit": true,
+    "strict": true,
+    "skipLibCheck": true,
+    "lib": ["ES2022", "DOM"],
+    "types": ["node"]
+  },
+  "include": ["functions/**/*.mts"]
+}

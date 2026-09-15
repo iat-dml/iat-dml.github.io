@@ -1,0 +1,11 @@
+# Written by `netlify dev` / `netlify link`; holds the site id.
+.netlify
+
+# Local values for `netlify dev`. The real ones live in the Netlify
+# dashboard as environment variables and must never be committed.
+.env
+
+# Edge-functions scratch file from `netlify dev`; this site has none.
+deno.lock
+
+node_modules/

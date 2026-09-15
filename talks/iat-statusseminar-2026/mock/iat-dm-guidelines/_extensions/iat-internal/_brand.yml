@@ -1,0 +1,72 @@
+meta:
+  name:
+    short: IAT
+    full: Innovation Centre for Agricultural System Transformation (IAT)
+  link:
+    home: https://www.zalf.de/en/struktur/iat/Pages/default.aspx
+
+logo:
+  images:
+    logo-iat:
+      path: assets/logo-iat.png
+      alt: "IAT - Innovation Centre for Agricultural System Transformation"
+  medium: logo-iat
+  large: logo-iat
+  small: logo-iat
+
+color:
+  palette:
+    green: "#46A84F"
+    green-light: "#9EBC83"
+    green-mid: "#80BDBD"
+    teal: "#36AE6C"
+    teal-dark: "#356259"
+    olive: "#B1BE4D"
+    sage: "#657A4E"
+    transfer: "#458484"
+    support: "#2D6A4F"
+    integration: "#C18F59"
+    slate: "#465555"
+    white: "#FFFFFF"
+    black: "#1A1A1A"
+    paper: "#F5F3EE"
+    gray-light: "#F5F5F5"
+    gray: "#6C6C6C"
+  foreground: slate
+  background: white
+  primary: teal-dark
+  secondary: teal
+  tertiary: teal
+  success: teal-dark
+  info: green-mid
+  warning: olive
+  danger: "#C0392B"
+  light: paper
+  dark: slate
+
+typography:
+  fonts:
+    - family: "Segoe UI"
+      source: system
+    - family: "Segoe UI Mono"
+      source: system
+  base:
+    family: "Segoe UI, system-ui, Helvetica Neue, Arial, sans-serif"
+    weight: 400
+    size: 10pt
+    line-height: 1.5
+  headings:
+    family: "Segoe UI, system-ui, Helvetica Neue, Arial, sans-serif"
+    weight: 600
+    color: teal-dark
+    line-height: 1.25
+  monospace:
+    family: "Segoe UI Mono, ui-monospace, Consolas, monospace"
+    weight: 400
+    size: 0.9em
+  monospace-inline:
+    background-color: gray-light
+  link:
+    color: primary
+    weight: 600
+    decoration: underline

@@ -1,0 +1,58 @@
+---
+title: "IAT Data Management and Protection Guidelines"
+date: "2026-09-30"
+author:
+  - name: "Benjamin Black"
+    affiliations:
+      - name: "Data Management Lab, IAT"
+lang: en
+# Not decoration: the repo-root _quarto.yml sets a project bibliography, and
+# the relative path Quarto writes for it escapes Typst's project sandbox when
+# the .typ is compiled straight to PNG. See README.md.
+bibliography: []
+format:
+  iat-internal-typst: default
+---
+
+## Purpose and scope
+
+These guidelines set out how members of the Innovation Centre for Agricultural
+System Transformation manage the data they collect, generate and reuse, and how
+they protect data that is sensitive or personal. They apply to every IAT
+project, at ZALF and at the IAT partner universities, and to data at every
+stage of its life -- from the first field campaign to the archived record that
+outlives the project.
+
+They are written for researchers rather than for lawyers. Each topic below
+states what is expected, why, and where to get the template or the help that
+makes it straightforward.
+
+## What these guidelines cover
+
+- **Preparing and updating a Data Management Plan.** Every project starts with
+  one and revises it at each reporting milestone, using the IAT template.
+- **Working with sensitive data.** How to recognise personal, commercially
+  confidential and location-sensitive data, and what changes once you hold it.
+- **Publishing your data.** Depositing the data behind a publication in a
+  trustworthy repository, with a persistent identifier.
+- **Sharing and storing data securely.** Which storage is approved for which
+  class of data, and how data moves between partners.
+- **Documenting and describing your data.** The minimum metadata that makes a
+  dataset findable and reusable by someone who was not on the project.
+- **Choosing a repository and a licence.** Picking the most open licence the
+  consent and the contracts allow, and the repository that fits the discipline.
+- **Keeping personal data lawful.** Consent, purpose limitation, retention
+  periods, and when to involve the ZALF data protection officer.
+- **Where to get help.** The Data Management Lab, the data protection officer,
+  and the partner university contacts.
+
+## Who is responsible
+
+| Role | Responsibility |
+|------|----------------|
+| Project lead | Accountable for all data the project produces |
+| Data steward | Maintains the DMP and the dataset documentation |
+| Data Management Lab | Provides infrastructure, templates and advice |
+| Data protection officer | Consulted for all processing of personal data |
+
+: Roles under these guidelines {tbl-colwidths="[30,70]"}

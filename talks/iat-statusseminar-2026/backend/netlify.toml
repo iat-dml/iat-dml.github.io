@@ -1,0 +1,22 @@
+# The quiz relay: a Netlify site that exists only to run two functions.
+#
+# The deck itself is not here. It is served from GitHub Pages, on a
+# different origin, and reaches these functions by absolute URL --
+# js/quiz-config.js in the deck holds that URL. The functions already
+# send Access-Control-Allow-Origin and answer the OPTIONS preflight, so
+# the cross-origin call is expected, not a workaround.
+#
+# What the functions do: receive a vote or a slide-change from the
+# browser and relay it to AnyCable over the broadcast endpoint. That
+# endpoint is the reason this site has to exist at all -- it must not be
+# reachable from the deck's own JavaScript, so it lives in an
+# environment variable set in the Netlify dashboard and nowhere else:
+#
+#   ANYCABLE_BROADCAST_URL   the cable's https://.../_broadcast URL
+#   ANYCABLE_BROADCAST_KEY   only if that cable was given a secret
+#
+# Deploy from this folder:  npx netlify deploy --prod
+
+[build]
+  publish = "public"
+  functions = "functions"

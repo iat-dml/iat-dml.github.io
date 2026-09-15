@@ -1,0 +1,73 @@
+/* ============================================================
+   DML brand tokens.
+   Ported from presentations/cdp-27052026/_extensions/dml/_brand.yml
+   and the $brand-* SCSS defaults in that extension's custom.scss.
+   ============================================================ */
+
+@import url("../vendor/fonts/fonts.css");
+
+:root {
+  /* Primary greens */
+  --brand-green:        #46A84F;
+  --brand-green-light:  #9EBC83;
+  --brand-green-mid:    #80BDBD;
+  /* Teal family */
+  --brand-teal:         #36AE6C;
+  --brand-teal-dark:    #356259;
+  /* Accents */
+  --brand-olive:        #B1BE4D;
+  --brand-sage:         #657A4E;
+  /* Service colours — one per stratum */
+  --brand-support:      #2D6A4F;
+  --brand-transfer:     #458484;
+  --brand-integration:  #C18F59;
+  /* Text-safe tints of the same three. The band colours are chosen for
+     large filled shapes; set as 21px prose on paper, Transfer lands at
+     3.9:1 and Integration at 2.6:1. These are the same hues darkened
+     until they clear 4.5:1 (5.8, 4.6, 4.7), and are what .project-key
+     uses on a project slide. */
+  --brand-support-ink:      #2D6A4F;
+  --brand-transfer-ink:     #3E7777;
+  --brand-integration-ink:  #906436;
+  /* Neutrals */
+  --brand-slate:        #465555;
+  --brand-white:        #FFFFFF;
+  --brand-black:        #1A1A1A;
+  --brand-paper:        #F5F3EE;
+  --brand-gray-light:   #EAE6DF;
+  --brand-gray:         #6C6C6C;
+  --brand-muted:        #7A817E;
+
+  /* Type */
+  --font-body:     "DM Sans", "Segoe UI", system-ui, "Helvetica Neue", Arial, sans-serif;
+  --font-heading:  "DM Serif Display", Georgia, "Times New Roman", serif;
+  --font-mono:     "Segoe UI Mono", "Cascadia Mono", Consolas, monospace;
+
+  /* Semantic roles */
+  --deck-bg:       var(--brand-paper);
+  --deck-fg:       var(--brand-slate);
+  --deck-heading:  var(--brand-teal-dark);
+  --deck-link:     var(--brand-teal-dark);
+  --deck-link-hover: #2A4E47;
+
+  /* reveal *themes* publish the slide background as --r-background-color;
+     this deck paints it itself and never defined one. slide-quiz reads
+     that variable to decide whether a slide is light or dark, and picks
+     the QR code's module colour from the answer -- with nothing to read
+     it assumes dark and draws the code in white, which on this paper
+     ground is invisible and will not scan. Declaring it is the whole
+     fix. Keep it equal to --deck-bg. */
+  --r-background-color: #F5F3EE;
+}
+
+/* The strata diagram reads these custom properties directly
+   (see getColors() in js/strata-diagram.js). Keep the names in sync. */
+:root {
+  --dml-support:      var(--brand-support);
+  --dml-transfer:     var(--brand-transfer);
+  --dml-integration:  var(--brand-integration);
+  --dml-teal-dark:    var(--brand-teal-dark);
+  --dml-slate:        var(--brand-slate);
+  --dml-paper:        var(--brand-paper);
+  --dml-muted:        var(--brand-muted);
+}

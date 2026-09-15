@@ -1,0 +1,1417 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+  <title>DML Working Group &middot; IAT Statusseminar 2026</title>
+  <meta name="author" content="Benjamin Samuel Black">
+
+  <link rel="icon" href="assets/dml-strata-deep.svg">
+  <link rel="stylesheet" href="vendor/reveal/dist/reset.css">
+  <link rel="stylesheet" href="vendor/reveal/dist/reveal.css">
+  <link rel="stylesheet" href="vendor/slide-quiz/slide-quiz.css">
+  <link rel="stylesheet" href="css/brand.css">
+  <link rel="stylesheet" href="css/deck.css">
+  <link rel="stylesheet" href="css/stage.css">
+</head>
+
+<body>
+<div class="reveal">
+  <div class="slides">
+
+    <!-- ══ Title ═══════════════════════════════════════════ -->
+    <section class="title-slide-block" data-strata-layout="off">
+      <div class="title-slide__header">
+        <div class="title-slide__eyebrow">
+          Data and Modelling Infrastructure for Living Labs &middot; IAT &middot; ZALF
+        </div>
+      </div>
+
+      <div class="title-slide__hero">
+        <div class="title-slide__panel">
+          <h1 class="title">Data and Modelling Infrastructure for Living Labs</h1>
+          <p class="title-slide__subtitle">
+            Overview of our services
+          </p>
+          <div class="title-slide__authors">
+            <div>Ben Black</div>
+            <!-- <div class="title-slide__affiliation">Leibniz Centre for Agricultural Landscape Research (ZALF)</div> -->
+          </div>
+          <p class="title-slide__date">
+            IAT Statusseminar &middot; 24th September 2026
+          </p>
+        </div>
+        <div class="title-slide__logo-wrap">
+          <img src="assets/dml-strata-deep.svg" alt="DML logo" class="title-slide__logo">
+        </div>
+      </div>
+
+      <div class="title-slide__footer-band">
+        <img src="assets/footer-band.png" alt="" class="title-slide__footer-image">
+      </div>
+      <aside class="notes">
+        TODO: notes for the title slide.
+      </aside>
+    </section>
+
+    <!-- ══ Who am I ═══════════════════════════════════════ -->
+    <!-- Straight after the title, before the mission. The five
+         handles are the ones from the CV that a room can act on:
+         website, email, code, then the two research identities.
+         LinkedIn and Twitter are deliberately left off -- they are
+         on the website.
+         The marks are the same FontAwesome glyphs the CV uses, pasted
+         as inline <svg fill="currentColor"> so they take the link
+         colour; see the .intro-link svg note in css/deck.css. -->
+
+    <section class="intro-slide" data-strata-layout="off">
+      <div class="intro-grid">
+
+        <figure class="intro-portrait">
+          <img src="assets/Ben-portrait.jpg" alt="Portrait of Ben Black">
+        </figure>
+
+        <div class="intro-body">
+          <p class="eyebrow">Who am I</p>
+          <h2 class="intro-name">Ben Black</h2>
+          <p class="intro-role">
+            Head of the working group
+          </p>
+
+          <span class="intro-rule" aria-hidden="true"></span>
+
+          <p class="intro-bio">
+            Scientific background in socio-environmental systems modelling. Committed to open science,
+            communicating research beyond academia, and mentoring others in
+            modelling, data analysis and visualisation.
+          </p>
+          <!-- <p class="intro-meta">
+            Previously ETH Z&uuml;rich &mdash; PhD & Post-Doc on identifying effective
+            area-based conservation strategies under uncertainty.
+          </p> -->
+
+          <p class="intro-links">
+            <a class="intro-link" href="https://blenback.github.io/">
+              <svg role="img" aria-hidden="true" viewBox="0 0 576 512"><path d="M575.8 255.5c0 18-15 32.1-32 32.1h-32l.7 160.2c0 2.7-.2 5.4-.5 8.1V472c0 22.1-17.9 40-40 40H456c-1.1 0-2.2 0-3.3-.1c-1.4 .1-2.8 .1-4.2 .1H416 392c-22.1 0-40-17.9-40-40V448 384c0-17.7-14.3-32-32-32H256c-17.7 0-32 14.3-32 32v64 24c0 22.1-17.9 40-40 40H160 128.1c-1.5 0-3-.1-4.5-.2c-1.2 .1-2.4 .2-3.6 .2H104c-22.1 0-40-17.9-40-40V360c0-.9 0-1.9 .1-2.8V287.6H32c-18 0-32-14-32-32.1c0-9 3-17 10-24L266.4 8c7-7 15-8 22-8s15 2 21 7L564.8 231.5c8 7 12 15 11 24z"/></svg>
+              <span>blenback.github.io</span>
+            </a>
+            <a class="intro-link" href="mailto:benjaminsamuel.black@zalf.de">
+              <svg role="img" aria-hidden="true" viewBox="0 0 512 512"><path d="M64 112c-8.8 0-16 7.2-16 16v22.1L220.5 291.7c20.7 17 50.4 17 71.1 0L464 150.1V128c0-8.8-7.2-16-16-16H64zM48 212.2V384c0 8.8 7.2 16 16 16H448c8.8 0 16-7.2 16-16V212.2L322 328.8c-38.4 31.5-93.7 31.5-132 0L48 212.2zM0 128C0 92.7 28.7 64 64 64H448c35.3 0 64 28.7 64 64V384c0 35.3-28.7 64-64 64H64c-35.3 0-64-28.7-64-64V128z"/></svg>
+              <span>benjaminsamuel.black@zalf.de</span>
+            </a>
+            <a class="intro-link" href="https://github.com/blenback">
+              <svg role="img" aria-hidden="true" viewBox="0 0 496 512"><path d="M165.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3.3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6zm-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5.3-6.2 2.3zm44.2-1.7c-2.9.7-4.9 2.6-4.6 4.9.3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9zM244.8 8C106.1 8 0 113.3 0 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C428.2 457.8 496 362.9 496 252 496 113.3 383.5 8 244.8 8zM97.2 352.9c-1.3 1-1 3.3.7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1zm-10.8-8.1c-.7 1.3.3 2.9 2.3 3.9 1.6 1 3.6.7 4.3-.7.7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3.7zm32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3.7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1zm-11.4-14.7c-1.6 1-1.6 3.6 0 5.9 1.6 2.3 4.3 3.3 5.6 2.3 1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2z"/></svg>
+              <span>github.com/blenback</span>
+            </a>
+            <!-- <a class="intro-link" href="https://orcid.org/0000-0002-8113-2114">
+              <svg role="img" aria-hidden="true" viewBox="0 0 512 512"><path d="M294.75 188.19h-45.92V342h47.47c67.62 0 83.12-51.34 83.12-76.91 0-41.64-26.54-76.9-84.67-76.9zM256 8C119 8 8 119 8 256s111 248 248 248 248-111 248-248S393 8 256 8zm-80.79 360.76h-29.84v-207.5h29.84zm-14.92-231.14a19.57 19.57 0 1 1 19.57-19.57 19.64 19.64 0 0 1-19.57 19.57zM300 369h-81V161.26h80.6c76.73 0 110.44 54.83 110.44 103.85C410 318.39 368.38 369 300 369z"/></svg>
+              <span>orcid.org/0000-0002-8113-2114</span>
+            </a>
+            <a class="intro-link" href="https://www.researchgate.net/profile/Benjamin-Black-5">
+              <svg role="img" aria-hidden="true" viewBox="0 0 448 512"><path d="M0 32v448h448V32H0zm262.2 334.4c-6.6 3-33.2 6-50-14.2-9.2-10.6-25.3-33.3-42.2-63.6-8.9 0-14.7 0-21.4-.6v46.4c0 23.5 6 21.2 25.8 23.9v8.1c-6.9-.3-23.1-.8-35.6-.8-13.1 0-26.1.6-33.6.8v-8.1c15.5-2.9 22-1.3 22-23.9V225c0-22.6-6.4-21-22-23.9V193c25.8 1 53.1-.6 70.9-.6 31.7 0 55.9 14.4 55.9 45.6 0 21.1-16.7 42.2-39.2 47.5 13.6 24.2 30 45.6 42.2 58.9 7.2 7.8 17.2 14.7 27.2 14.7v7.3zm22.9-135c-23.3 0-32.2-15.7-32.2-32.2V167c0-12.2 8.8-30.4 34-30.4s30.4 17.9 30.4 17.9l-10.7 7.2s-5.5-12.5-19.7-12.5c-7.9 0-19.7 7.3-19.7 19.7v26.8c0 13.4 6.6 23.3 17.9 23.3 14.1 0 21.5-10.9 21.5-26.8h-17.9v-10.7h30.4c0 20.5 4.7 49.9-34 49.9zm-116.5 44.7c-9.4 0-13.6-.3-20-.8v-69.7c6.4-.6 15-.6 22.5-.6 23.3 0 37.2 12.2 37.2 34.5 0 21.9-15 36.6-39.7 36.6z"/></svg>
+              <span>researchgate.net/profile/Benjamin-Black-5</span>
+            </a> -->
+          </p>
+        </div>
+
+      </div>
+      <aside class="notes">
+        Thirty seconds, not two minutes: name, what the group is called,
+        where the background comes from. The handles are on screen so the
+        room can find you afterwards -- no need to read them out.
+      </aside>
+    </section>
+
+    <!-- ══ Mission ═══════════════════════════════════════ -->
+
+    <section class="centered-slide mission-slide is-dark"
+             data-background-color="#33645A"
+             data-strata-layout="off">
+      <p class="mission-eyebrow">Our mission as a service group</p>
+      <p class="mission-statement">
+        To support researchers in making their data, software and models
+        open, reproducible and connected<span class="fragment fade-in">
+        &mdash; and in communicating what they find so that it reaches
+        practice partners.</span>
+      </p>
+      <span class="mission-rule" aria-hidden="true"></span>
+      <aside class="notes">
+        TODO: your framing for the mission statement.
+      </aside>
+    </section>
+
+    <!-- ══ Icebreaker quiz ════════════════════════════════
+         The first of seven audience questions, and the only one that
+         has to earn the scan. Asked this early so phones are out and
+         quiz.html is open before the strata begin: each stratum then
+         opens on a question of its own, and the page follows along
+         without a rescan. That is why the hint says so in so many words.
+         Everything about how these slides work is in the "Live audience
+         quiz" comment further down, where the closing questions sit. -->
+
+    <section class="quiz-slide"
+             data-strata-layout="off"
+             data-strata-active="none"
+             data-quiz-results="icebreaker-data-afterlife"
+             data-quiz-question="Your project is finished and the paper is out. What happens to the data?"
+             data-quiz-options='[
+               {"label":"A","text":"It stays on my laptop or a hard drive"},
+               {"label":"B","text":"On a shared drive only my team knows"},
+               {"label":"C","text":"Archived in a repository with a DOI"},
+               {"label":"D","text":"Honestly, I am not sure"}
+             ]'>
+      <p class="quiz-kicker">Before we start &middot; a quick question</p>
+      <p class="quiz-hint">
+        Scan the code to vote &mdash; and <strong>keep that page open</strong>:
+        more questions will appear on it automatically as the talk goes on.
+      </p>
+      <aside class="notes">
+        Question 1 of 7, the icebreaker. Say it out loud as well as on screen:
+        scan once, leave the page open, the next questions arrive on their own
+        at the start of each stratum and at the end. Give it 30&ndash;40 seconds.
+        Read the room back: most answers usually land on A or B, which is the
+        cue for the mission &mdash; open, reproducible, connected.
+      </aside>
+    </section>
+
+    <!-- ══ The diagram: overview walkthrough ═══════════════ -->
+    <!-- Deliberately almost empty. The diagram draws its own heading,
+         caption and detail panel at the "full" layout, so repeating
+         them here would double up. The three spans are invisible
+         fragment markers: each advance lights the next stratum. -->
+    <section data-strata-layout="full" data-strata-active="none"
+             data-strata-variant="panel">
+      <span class="fragment strata-step" data-strata-active="support"></span>
+      <span class="fragment strata-step" data-strata-active="transfer"></span>
+      <span class="fragment strata-step" data-strata-active="integration"></span>
+      <aside class="notes">
+        Lands on the mark alone. Three advances, one stratum each:
+        Support, Transfer, Integration. In the horizon variant the bands
+        only appear on the first advance, so the opening view is the
+        diagram by itself. Back-navigation unwinds them one at a time.
+      </aside>
+    </section>
+
+    <!-- ══════════════════════════════════════════════════════
+         SUPPORT
+         ══════════════════════════════════════════════════════ -->
+
+    <!-- Every project slide below is the same shape: media, name, one
+         sentence, one handle. The sentence carries the summary, whoever
+         the work was for and the phrase that ties it to a stratum --
+         written as prose, with no field labels, because the moment
+         "Who:" appears the slide turns into a form. Two spans do the
+         work: .project-key tints the words that echo a stratum bullet,
+         .project-who gives the recipient weight without a second
+         colour. Where the answer to "who" is any researcher who wants
+         it, the recipient is simply left out and the audience places
+         itself. See the .project block in css/deck.css. -->
+
+    <!--<section class="divider is-dark"
+             data-background-color="#2D6A4F"
+             data-strata-layout="corner"
+             data-strata-active="support">
+      <p class="divider-kicker">Stratum one</p>
+      <h1>Support</h1>
+      <p class="divider-lede">
+        Helping researchers manage their data and software across every stage
+        of a project.
+      </p>
+    </section>-->
+
+    <!-- Each stratum opens on a question about it, laid out as a project
+         slide is: diagram parked at "aside" with the stratum lit, quiz in
+         the content column. So the mark does not move between the
+         question and the stratum's first project -- only the column's
+         content changes. .quiz-slide--aside in css/deck.css fits the
+         bars, cloud and QR code into that column. -->
+    <section class="quiz-slide quiz-slide--aside"
+             data-strata-layout="aside"
+             data-strata-active="support"
+             data-quiz-results="support-reproducibility"
+             data-quiz-question="Could a colleague reproduce the analysis in your last paper — figures and tables included — from your files alone?"
+             data-quiz-options='[
+               {"label":"A","text":"Yes, easily"},
+               {"label":"B","text":"With some help from me"},
+               {"label":"C","text":"Only with a lot of digging"},
+               {"label":"D","text":"Honestly, no"}
+             ]'>
+      <aside class="notes">
+        Question 2 of 7, opening Support. Anyone who kept the page open has
+        this already; newcomers can scan now. The honest answers here are
+        the case for everything that follows: research software, the
+        catalogue, the guidelines, Quarto and the templates.
+        Order of the projects that follow: IAT Data Management and
+        Protection guidelines, PB3 data catalogue, BirdNET-Passage, Living
+        Labs base maps, SEM survey visualisation, Quarto workshop, templates
+        (then the DML Team Manual). The logic: start with the macro (the
+        guidelines), move to the practical (the data catalogue and software
+        examples), then finish with tools.
+      </aside>
+    </section>
+
+    <section class="project"
+             data-strata-layout="aside"
+             data-strata-active="support">
+      <!-- The document as a spread: its cover, and a crop of the section
+           that lists what it covers. Both pages are rendered from the IAT
+           internal document template (Quarto + Typst); source, crop box and
+           render recipe in mock/iat-dm-guidelines/. See "Templates' other
+           sibling" in css/deck.css before moving anything here -- .tpl-page
+           needs its .is-spread geometry rule or the fill rule inflates it to
+           the whole card. -->
+      <div class="project-media tpl-ground is-spread">
+        <img class="tpl-page tpl-inside" src="assets/iat-dm-guidelines-inside.png"
+             alt="Inside page listing the topics the guidelines cover">
+        <img class="tpl-page tpl-cover" src="assets/iat-dm-guidelines-cover.png"
+             alt="Front page of the IAT Data Management and Protection Guidelines">
+      </div>
+      <h2>IAT Data Management and Protection guidelines</h2>
+      <p class="project-lede">
+        How IAT researchers meet their obligations for
+        <span class="project-key">archiving</span> and sensitive data, agreed
+        with <span class="project-who">IAT management</span>, the ZALF
+        executive and the IAT partner universities.
+      </p>
+      <!-- No public URL for this one (your note: NA), so no .project-link.
+           If it lands on SharePoint or the DML site, a handle goes here. -->
+      <aside class="notes">
+        TODO: notes for the IAT Data Management and Protection guidelines.
+      </aside>
+    </section>
+
+    <section class="project"
+             data-strata-layout="aside"
+             data-strata-active="support">
+      <div class="project-media">
+        <!-- The PB3 catalogue flow. Inline, not assets/*.svg, for the same
+             reason as the tracker figure below: an SVG behind an <img> is
+             an isolated document and could reach neither --font-body nor
+             the brand tokens. Everything but the paint servers is styled in
+             css/deck.css under .flow-pb3. The portable export of this is
+             assets/pb3-catalogue-flow-a.svg; change one and you have to
+             change the other.
+             Authored in 960x600 user units against the card's 16/10, and
+             drawn in the Support stratum's green because that is the band
+             this project sits in. SVG <text> does not wrap, so every label
+             here is measured by hand -- retitle one and you re-measure it. -->
+        <svg class="flow-pb3" viewBox="0 0 960 600" role="img"
+             aria-label="Researchers describe a dataset in Markdown and YAML; the record is pushed to GitHub, validated by automated Python checks and signed off by a Data Steward, after which it is published both as a static-site data catalogue and as an Obsidian knowledge graph linked on its keywords.">
+          <defs>
+            <linearGradient id="pb-paper" x1="0" y1="0" x2="0.62" y2="1">
+              <stop offset="0"    stop-color="#FBFAF7"/>
+              <stop offset="0.58" stop-color="#F5F3EE"/>
+              <stop offset="1"    stop-color="#EBE6DC"/>
+            </linearGradient>
+            <marker id="pb-arrow" viewBox="0 0 10 10" refX="9" refY="5"
+                    markerWidth="5.5" markerHeight="5.5" orient="auto-start-reverse">
+              <path class="pb-arrow-head" d="M0,0 L10,5 L0,10 Z"/>
+            </marker>
+            <filter id="pb-lift" x="-20%" y="-20%" width="140%" height="170%">
+              <feDropShadow dx="0" dy="4" stdDeviation="7" flood-color="#1A1A1A" flood-opacity="0.07"/>
+            </filter>
+            <filter id="pb-lift-hub" x="-20%" y="-20%" width="140%" height="170%">
+              <feDropShadow dx="0" dy="6" stdDeviation="10" flood-color="#2D6A4F" flood-opacity="0.16"/>
+            </filter>
+
+            <!-- A dataset record: a file whose first block is YAML front matter. -->
+            <symbol id="ic-record" viewBox="0 0 24 24">
+              <path d="M5.25 2.75h8.5l5 5v13.5a1 1 0 0 1-1 1H5.25a1 1 0 0 1-1-1V3.75a1 1 0 0 1 1-1z"/>
+              <path d="M13.5 2.9V8h4.6"/>
+              <path d="M7.25 11.5h4.5M7.25 14.5h9.5M7.25 17.5h6.5"/>
+            </symbol>
+
+            <!-- GitHub. Octocat mark, 256-unit grid, from assets/icons/github-logo.svg. -->
+            <symbol id="ic-github" viewBox="0 0 256 256">
+              <path d="M208.31,75.68A59.78,59.78,0,0,0,202.93,28,8,8,0,0,0,196,24a59.75,59.75,0,0,0-48,24H124A59.75,59.75,0,0,0,76,24a8,8,0,0,0-6.93,4,59.78,59.78,0,0,0-5.38,47.68A58.14,58.14,0,0,0,56,104v8a56.06,56.06,0,0,0,48.44,55.47A39.8,39.8,0,0,0,96,192v8H72a24,24,0,0,1-24-24A40,40,0,0,0,8,136a8,8,0,0,0,0,16,24,24,0,0,1,24,24,40,40,0,0,0,40,40H96v16a8,8,0,0,0,16,0V192a24,24,0,0,1,48,0v40a8,8,0,0,0,16,0V192a39.8,39.8,0,0,0-8.44-24.53A56.06,56.06,0,0,0,216,112v-8A58.14,58.14,0,0,0,208.31,75.68ZM200,112a40,40,0,0,1-40,40H112a40,40,0,0,1-40-40v-8a41.74,41.74,0,0,1,6.9-22.48A8,8,0,0,0,80,73.83a43.81,43.81,0,0,1,.79-33.58,43.88,43.88,0,0,1,32.32,20.06A8,8,0,0,0,119.82,64h32.35a8,8,0,0,0,6.74-3.69,43.87,43.87,0,0,1,32.32-20.06A43.81,43.81,0,0,1,192,73.83a8.09,8.09,0,0,0,1,7.65A41.72,41.72,0,0,1,200,104Z"/>
+            </symbol>
+
+            <!-- Obsidian. Mark from presentations/.../assets/obsidian-logo.svg. -->
+            <symbol id="ic-obsidian" viewBox="0 0 24 24">
+              <path d="M19.355 18.538a68.967 68.959 0 0 0 1.858 -2.954 0.81 0.81 0 0 0 -0.062 -0.9c-0.516 -0.685 -1.504 -2.075 -2.042 -3.362 -0.553 -1.321 -0.636 -3.375 -0.64 -4.377a1.707 1.707 0 0 0 -0.358 -1.05l-3.198 -4.064a3.744 3.744 0 0 1 -0.076 0.543c-0.106 0.503 -0.307 1.004 -0.536 1.5 -0.134 0.29 -0.29 0.6 -0.446 0.914l-0.31 0.626c-0.516 1.068 -0.997 2.227 -1.132 3.59 -0.124 1.26 0.046 2.73 0.815 4.481 0.128 0.011 0.257 0.025 0.386 0.044a6.363 6.363 0 0 1 3.326 1.505c0.916 0.79 1.744 1.922 2.415 3.5zM8.199 22.569c0.073 0.012 0.146 0.02 0.22 0.02 0.78 0.024 2.095 0.092 3.16 0.29 0.87 0.16 2.593 0.64 4.01 1.055 1.083 0.316 2.198 -0.548 2.355 -1.664 0.114 -0.814 0.33 -1.735 0.725 -2.58l-0.01 0.005c-0.67 -1.87 -1.522 -3.078 -2.416 -3.849a5.295 5.295 0 0 0 -2.778 -1.257c-1.54 -0.216 -2.952 0.19 -3.84 0.45 0.532 2.218 0.368 4.829 -1.425 7.531zM5.533 9.938c-0.023 0.1 -0.056 0.197 -0.098 0.29L2.82 16.059a1.602 1.602 0 0 0 0.313 1.772l4.116 4.24c2.103 -3.101 1.796 -6.02 0.836 -8.3 -0.728 -1.73 -1.832 -3.081 -2.55 -3.831zM9.32 14.01c0.615 -0.183 1.606 -0.465 2.745 -0.534 -0.683 -1.725 -0.848 -3.233 -0.716 -4.577 0.154 -1.552 0.7 -2.847 1.235 -3.95 0.113 -0.235 0.223 -0.454 0.328 -0.664 0.149 -0.297 0.288 -0.577 0.419 -0.86 0.217 -0.47 0.379 -0.885 0.46 -1.27 0.08 -0.38 0.08 -0.72 -0.014 -1.043 -0.095 -0.325 -0.297 -0.675 -0.68 -1.06a1.6 1.6 0 0 0 -1.475 0.36l-4.95 4.452a1.602 1.602 0 0 0 -0.513 0.952l-0.427 2.83c0.672 0.59 2.328 2.316 3.335 4.711 0.09 0.21 0.175 0.43 0.253 0.653z"/>
+            </symbol>
+
+            <!-- Automated checks: a CI window that has gone green. -->
+            <symbol id="ic-checks" viewBox="0 0 24 24">
+              <rect x="2.75" y="4.25" width="18.5" height="15.5" rx="2.25"/>
+              <path d="M2.75 8.5h18.5"/>
+              <path d="M5.5 6.4h0.01M7.9 6.4h0.01M10.3 6.4h0.01"/>
+              <path d="M7 14.2l2.6 2.6L17 9.4"/>
+            </symbol>
+
+            <!-- The Data Steward: a person carrying the approval. -->
+            <symbol id="ic-steward" viewBox="0 0 24 24">
+              <circle cx="9.25" cy="6.75" r="3.5"/>
+              <path d="M2.9 20.75a6.35 6.35 0 0 1 11.4 -3.85"/>
+              <circle cx="17.6" cy="17.4" r="4.35"/>
+              <path d="M15.75 17.5l1.35 1.35 2.5 -2.7"/>
+            </symbol>
+
+            <!-- The catalogue: a browser window listing records. -->
+            <symbol id="ic-catalogue" viewBox="0 0 24 24">
+              <rect x="2.75" y="3.75" width="18.5" height="16.5" rx="2.25"/>
+              <path d="M2.75 8h18.5"/>
+              <path d="M6.4 11.6h4.6M6.4 15.6h4.6M14 11.6h3.6M14 15.6h3.6"/>
+            </symbol>
+
+          </defs>
+
+          <rect width="960" height="600" fill="url(#pb-paper)"/>
+
+          <!-- Chain across the top, then one trunk down to a bus that feeds both
+               surfaces. Same skeleton as the IAT project tracker figure, so the two
+               diagrams read as a pair. -->
+          <g class="pb-flow">
+            <path d="M 231 142 H 257" marker-end="url(#pb-arrow)"/>
+            <path d="M 467 142 H 493" marker-end="url(#pb-arrow)"/>
+            <path d="M 703 142 H 729" marker-end="url(#pb-arrow)"/>
+            <path d="M 834 224 V 278 Q 834 290 822 290 H 266 Q 254 290 254 302 V 330"/>
+            <path d="M 254 320 V 350" marker-end="url(#pb-arrow)"/>
+            <path d="M 706 290 V 350" marker-end="url(#pb-arrow)"/>
+          </g>
+
+          <!-- 1. Describe -->
+          <rect class="pb-card" x="26" y="64" width="200" height="156" rx="8" filter="url(#pb-lift)"/>
+          <use class="pb-ico" href="#ic-record" x="106" y="88" width="40" height="40"/>
+          <text class="pb-title" x="126" y="170" text-anchor="middle">Describe</text>
+          <text class="pb-sub"   x="126" y="194" text-anchor="middle">Markdown + YAML</text>
+
+          <!-- 2. Push -->
+          <rect class="pb-card" x="262" y="64" width="200" height="156" rx="8" filter="url(#pb-lift)"/>
+          <use class="pb-logo" href="#ic-github" x="342" y="88" width="40" height="40"/>
+          <text class="pb-title" x="362" y="170" text-anchor="middle">Push</text>
+          <text class="pb-sub"   x="362" y="194" text-anchor="middle">GitHub</text>
+
+          <!-- 3. Validate -->
+          <rect class="pb-card" x="498" y="64" width="200" height="156" rx="8" filter="url(#pb-lift)"/>
+          <use class="pb-ico" href="#ic-checks" x="578" y="88" width="40" height="40"/>
+          <text class="pb-title" x="598" y="170" text-anchor="middle">Validate</text>
+          <text class="pb-sub"   x="598" y="194" text-anchor="middle">Python checks</text>
+
+          <!-- 4. Sign off. The one human gate, so it is the node drawn in the
+               Support stratum's colour rather than in slate. -->
+          <rect class="pb-card-hub" x="734" y="64" width="200" height="156" rx="8" filter="url(#pb-lift-hub)"/>
+          <use class="pb-ico-hub" href="#ic-steward" x="814" y="88" width="40" height="40"/>
+          <text class="pb-title-hub" x="834" y="170" text-anchor="middle">Sign off</text>
+          <text class="pb-sub"       x="834" y="194" text-anchor="middle">Data Steward</text>
+
+          <!-- Payoff, left: the catalogue -->
+          <rect class="pb-card" x="40" y="356" width="428" height="200" rx="8" filter="url(#pb-lift)"/>
+          <use class="pb-ico" href="#ic-catalogue" x="68" y="386" width="34" height="34"/>
+          <text class="pb-out-title" x="118" y="404">Data catalogue</text>
+          <text class="pb-sub"       x="118" y="428">Static site, one page per dataset</text>
+          <rect class="pb-rule" x="68" y="450" width="372" height="1"/>
+          <g>
+            <rect class="pb-bar"  x="68"  y="470" width="180" height="9" rx="4.5"/>
+            <rect class="pb-chip" x="264" y="466" width="82" height="17" rx="8.5"/>
+            <rect class="pb-chip" x="356" y="466" width="58" height="17" rx="8.5"/>
+            <rect class="pb-bar"  x="68"  y="500" width="150" height="9" rx="4.5"/>
+            <rect class="pb-chip" x="264" y="496" width="60" height="17" rx="8.5"/>
+            <rect class="pb-chip" x="334" y="496" width="80" height="17" rx="8.5"/>
+            <rect class="pb-bar"  x="68"  y="530" width="196" height="9" rx="4.5"/>
+            <rect class="pb-chip" x="280" y="526" width="66" height="17" rx="8.5"/>
+            <rect class="pb-chip" x="356" y="526" width="58" height="17" rx="8.5"/>
+          </g>
+
+          <!-- Payoff, right: the graph -->
+          <rect class="pb-card" x="492" y="356" width="428" height="200" rx="8" filter="url(#pb-lift)"/>
+          <use class="pb-logo" href="#ic-obsidian" x="520" y="386" width="34" height="34"/>
+          <text class="pb-out-title" x="570" y="404">Knowledge graph</text>
+          <text class="pb-sub"       x="570" y="428">Obsidian, linked on keywords</text>
+          <rect class="pb-rule" x="520" y="450" width="372" height="1"/>
+          <g class="pb-edge">
+            <path d="M 578 476 L 534 524"/>
+            <path d="M 578 476 L 642 512"/>
+            <path d="M 578 476 L 758 472"/>
+            <path d="M 700 534 L 642 512"/>
+            <path d="M 700 534 L 758 472"/>
+            <path d="M 700 534 L 880 528"/>
+            <path d="M 826 478 L 758 472"/>
+            <path d="M 826 478 L 880 528"/>
+            <path d="M 826 478 L 642 512"/>
+            <path d="M 534 524 L 642 512"/>
+          </g>
+          <g>
+            <circle class="pb-node" cx="578" cy="476" r="9"/>
+            <circle class="pb-node" cx="700" cy="534" r="9"/>
+            <circle class="pb-node" cx="826" cy="478" r="9"/>
+            <circle class="pb-node-key" cx="534" cy="524" r="6"/>
+            <circle class="pb-node-key" cx="642" cy="512" r="6"/>
+            <circle class="pb-node-key" cx="758" cy="472" r="6"/>
+            <circle class="pb-node-key" cx="880" cy="528" r="6"/>
+          </g>
+        </svg>
+      </div>
+      <h2>PB3 Data Catalogue</h2>
+      <p class="project-lede">
+        A lightweight, version-controlled
+        <span class="project-key">data management</span> catalogue for the
+        research datasets of ZALF's
+        <span class="project-who">Agricultural Landscape Systems</span>
+        research area.
+      </p>
+      <p class="project-link">
+        <a href="https://github.com/iat-dml/PB3-data-catalogue">github.com/iat-dml/PB3-data-catalogue</a>
+      </p>
+      <!-- Your note cross-references the IAT Data Management guidelines and
+           the IAT DMP. Those are other slides rather than URLs, and the
+           prose layout has no slot for a "related to" line -- if the links
+           matter to the telling, they belong in the speaker notes. -->
+      <aside class="notes">
+        TODO: notes for the PB3 Data Catalogue. Cross-reference the IAT Data
+        Management guidelines and the IAT DMP here if needed.
+      </aside>
+    </section>
+
+    <section class="project"
+             data-strata-layout="aside"
+             data-strata-active="support">
+      <div class="project-media">
+        <!-- The BirdNET-Passage pipeline. Inline, not assets/*.svg, for the
+             same reason as the two flows above: an SVG behind an <img> is an
+             isolated document and could reach neither --font-body nor the
+             brand tokens. Everything but the paint servers is styled in
+             css/deck.css under .flow-birdnet, including why this is a flow
+             and not the project's mark, and why it is drawn in Support green
+             rather than in the mark's own colours.
+             Authored in 960x600 user units against the card's 16/10. SVG
+             <text> does not wrap, so every label here is measured by hand --
+             retitle one and you re-measure it. The three species are stand-ins
+             for what a run returns, not results from one. -->
+        <svg class="flow-birdnet" viewBox="0 0 960 600" role="img"
+             aria-label="Thousands of sensor recordings are fanned out across four parallel BirdNET workers and merged into a single detections table. A processing record notes the outcome of every file - classified, retried after a transient read error, or quarantined as unreadable - so a stopped run resumes from the record rather than from the start.">
+          <defs>
+            <linearGradient id="bp-paper" x1="0" y1="0" x2="0.62" y2="1">
+              <stop offset="0"    stop-color="#FBFAF7"/>
+              <stop offset="0.58" stop-color="#F5F3EE"/>
+              <stop offset="1"    stop-color="#EBE6DC"/>
+            </linearGradient>
+            <marker id="bp-arrow" viewBox="0 0 10 10" refX="9" refY="5"
+                    markerWidth="5.5" markerHeight="5.5" orient="auto-start-reverse">
+              <path class="bp-arrow-head" d="M0,0 L10,5 L0,10 Z"/>
+            </marker>
+            <filter id="bp-lift" x="-20%" y="-20%" width="140%" height="170%">
+              <feDropShadow dx="0" dy="4" stdDeviation="7" flood-color="#1A1A1A" flood-opacity="0.07"/>
+            </filter>
+            <filter id="bp-lift-hub" x="-20%" y="-20%" width="140%" height="170%">
+              <feDropShadow dx="0" dy="6" stdDeviation="10" flood-color="#2D6A4F" flood-opacity="0.16"/>
+            </filter>
+
+            <!-- One input file. -->
+            <symbol id="bp-ic-file" viewBox="0 0 24 24">
+              <path d="M6 2.75h7.5l4.5 4.5v14a1 1 0 0 1-1 1H6a1 1 0 0 1-1-1V3.75a1 1 0 0 1 1-1z"/>
+              <path d="M13.2 2.9V7.6h4.6"/>
+            </symbol>
+
+            <!-- A worker, drawn as the mark's own gate: the bird passes
+                 through, which is the "passage" the project is named for. -->
+            <symbol id="bp-ic-passage" viewBox="0 0 24 24">
+              <rect x="10.2" y="0.5" width="3.6" height="8" rx="1.8"/>
+              <rect x="10.2" y="15.5" width="3.6" height="8" rx="1.8"/>
+              <path d="M12,0 L-12,-8 L-5,0 L-12,8 Z" transform="translate(12 12) scale(0.56)"/>
+            </symbol>
+
+            <!-- The merged output: one table for the whole run. -->
+            <symbol id="bp-ic-table" viewBox="0 0 24 24">
+              <rect x="2.75" y="3.75" width="18.5" height="16.5" rx="2.25"/>
+              <path d="M2.75 9h18.5"/>
+              <path d="M9 9v11.25"/>
+            </symbol>
+
+            <!-- The record itself: a checked-off clipboard. -->
+            <symbol id="bp-ic-clipboard" viewBox="0 0 24 24">
+              <path d="M9.4 4h-2.4a1.6 1.6 0 0 0-1.6 1.6v14a1.6 1.6 0 0 0 1.6 1.6h10a1.6 1.6 0 0 0 1.6-1.6v-14a1.6 1.6 0 0 0-1.6-1.6h-2.4"/>
+              <rect x="9.4" y="2.4" width="5.2" height="3.4" rx="1.2"/>
+              <path d="M8.9 13.2l2.6 2.6 4.6-5.1"/>
+            </symbol>
+
+            <!-- The three states a file can end in. -->
+            <symbol id="bp-ic-ok" viewBox="0 0 24 24">
+              <circle cx="12" cy="12" r="9"/>
+              <path d="M8 12.4l2.8 2.8 5.4-5.8"/>
+            </symbol>
+            <symbol id="bp-ic-retry" viewBox="0 0 24 24">
+              <path d="M20.4 12a8.4 8.4 0 1 1-2.46-5.94"/>
+              <path d="M20.4 3.2V7.4h-4.2"/>
+            </symbol>
+            <symbol id="bp-ic-flag" viewBox="0 0 24 24">
+              <path d="M6.4 21.4V3.4"/>
+              <path d="M6.4 4.6h11.4l-2.3 4.3 2.3 4.3H6.4"/>
+            </symbol>
+          </defs>
+
+          <rect width="960" height="600" fill="url(#bp-paper)"/>
+
+          <!-- The project's mark signs the corner. It is an image element rather than
+               inline, because unlike the h2 marks it is not asked to take a
+               colour from us: it carries its own, and a mark should. Sized so
+               its wordmark still resolves at card scale; shrink it and the
+               word turns to mush. -->
+          <image href="assets/birdnet-passage-vertical.svg"
+                 x="804" y="20" width="130" height="129"/>
+
+          <!-- Fan out of the input, four lanes across, fan back in. The fan is
+               the figure: the software's job is to get thousands of files
+               through the classifier at once and account for every one. -->
+          <g class="bp-flow">
+            <path d="M 218 166 C 246 166, 254 96, 282 96" marker-end="url(#bp-arrow)"/>
+            <path d="M 218 166 C 246 166, 254 132, 282 132" marker-end="url(#bp-arrow)"/>
+            <path d="M 218 166 C 246 166, 254 168, 282 168" marker-end="url(#bp-arrow)"/>
+            <path d="M 218 166 C 246 166, 254 204, 282 204" marker-end="url(#bp-arrow)"/>
+            <path d="M 578 96 C 598 96, 594 234, 612 234"/>
+            <path d="M 578 132 C 598 132, 594 234, 612 234"/>
+            <path d="M 578 168 C 598 168, 594 234, 612 234"/>
+            <path d="M 578 204 C 598 204, 594 234, 612 234"/>
+            <path d="M 606 234 H 640" marker-end="url(#bp-arrow)"/>
+            <path d="M 430 306 V 326" marker-end="url(#bp-arrow)"/>
+          </g>
+
+          <!-- Input: thousands of files, drawn as a grid that fades out rather
+               than as one file or one stack. -->
+          <rect class="bp-card" x="26" y="60" width="188" height="240" rx="8" filter="url(#bp-lift)"/>
+          <use class="bp-ico" href="#bp-ic-file" x="67" y="96" width="26" height="26"/>
+          <use class="bp-ico" href="#bp-ic-file" x="107" y="96" width="26" height="26"/>
+          <use class="bp-ico" href="#bp-ic-file" x="147" y="96" width="26" height="26"/>
+          <use class="bp-ico" href="#bp-ic-file" x="67" y="134" width="26" height="26"/>
+          <use class="bp-ico" href="#bp-ic-file" x="107" y="134" width="26" height="26"/>
+          <use class="bp-ico" href="#bp-ic-file" x="147" y="134" width="26" height="26"/>
+          <use class="bp-ico" href="#bp-ic-file" x="67" y="172" width="26" height="26" opacity="0.78"/>
+          <use class="bp-ico" href="#bp-ic-file" x="107" y="172" width="26" height="26" opacity="0.78"/>
+          <use class="bp-ico" href="#bp-ic-file" x="147" y="172" width="26" height="26" opacity="0.78"/>
+          <use class="bp-ico" href="#bp-ic-file" x="67" y="210" width="26" height="26" opacity="0.5"/>
+          <use class="bp-ico" href="#bp-ic-file" x="107" y="210" width="26" height="26" opacity="0.5"/>
+          <use class="bp-ico" href="#bp-ic-file" x="147" y="210" width="26" height="26" opacity="0.5"/>
+          <text class="bp-title" x="120" y="266" text-anchor="middle">Recordings</text>
+          <text class="bp-sub"   x="120" y="288" text-anchor="middle">Thousands of files</text>
+
+          <!-- The parallel run. This is the node the project exists for, so it
+               is the one drawn in the Support stratum's colour. -->
+          <rect class="bp-card-hub" x="266" y="60" width="328" height="240" rx="8" filter="url(#bp-lift-hub)"/>
+          <g>
+            <g>
+              <rect class="bp-lane" x="286" y="84" width="288" height="24" rx="12"/>
+              <path class="bp-bird" d="M12,0 L-12,-8 L-5,0 L-12,8 Z" transform="translate(294 96) scale(0.42)" opacity="0.45"/>
+              <use class="bp-glyph-hub" href="#bp-ic-passage" x="304" y="84" width="24" height="24"/>
+              <path class="bp-bird" d="M12,0 L-12,-8 L-5,0 L-12,8 Z" transform="translate(348 96) scale(0.5)"/>
+              <path class="bp-bird" d="M12,0 L-12,-8 L-5,0 L-12,8 Z" transform="translate(386 96) scale(0.5)" opacity="0.6"/>
+              <path class="bp-bird" d="M12,0 L-12,-8 L-5,0 L-12,8 Z" transform="translate(424 96) scale(0.5)"/>
+              <path class="bp-bird" d="M12,0 L-12,-8 L-5,0 L-12,8 Z" transform="translate(462 96) scale(0.5)" opacity="0.75"/>
+              <path class="bp-bird" d="M12,0 L-12,-8 L-5,0 L-12,8 Z" transform="translate(500 96) scale(0.5)"/>
+              <path class="bp-bird" d="M12,0 L-12,-8 L-5,0 L-12,8 Z" transform="translate(538 96) scale(0.5)" opacity="0.55"/>
+            </g>
+            <g>
+              <rect class="bp-lane" x="286" y="120" width="288" height="24" rx="12"/>
+              <path class="bp-bird" d="M12,0 L-12,-8 L-5,0 L-12,8 Z" transform="translate(294 132) scale(0.42)" opacity="0.45"/>
+              <use class="bp-glyph-hub" href="#bp-ic-passage" x="304" y="120" width="24" height="24"/>
+              <path class="bp-bird" d="M12,0 L-12,-8 L-5,0 L-12,8 Z" transform="translate(352 132) scale(0.5)" opacity="0.75"/>
+              <path class="bp-bird" d="M12,0 L-12,-8 L-5,0 L-12,8 Z" transform="translate(392 132) scale(0.5)"/>
+              <path class="bp-bird" d="M12,0 L-12,-8 L-5,0 L-12,8 Z" transform="translate(436 132) scale(0.5)" opacity="0.55"/>
+              <path class="bp-bird" d="M12,0 L-12,-8 L-5,0 L-12,8 Z" transform="translate(480 132) scale(0.5)"/>
+              <path class="bp-bird" d="M12,0 L-12,-8 L-5,0 L-12,8 Z" transform="translate(524 132) scale(0.5)" opacity="0.8"/>
+            </g>
+            <g>
+              <rect class="bp-lane" x="286" y="156" width="288" height="24" rx="12"/>
+              <path class="bp-bird" d="M12,0 L-12,-8 L-5,0 L-12,8 Z" transform="translate(294 168) scale(0.42)" opacity="0.45"/>
+              <use class="bp-glyph-hub" href="#bp-ic-passage" x="304" y="156" width="24" height="24"/>
+              <path class="bp-bird" d="M12,0 L-12,-8 L-5,0 L-12,8 Z" transform="translate(346 168) scale(0.5)"/>
+              <path class="bp-bird" d="M12,0 L-12,-8 L-5,0 L-12,8 Z" transform="translate(382 168) scale(0.5)" opacity="0.55"/>
+              <path class="bp-bird" d="M12,0 L-12,-8 L-5,0 L-12,8 Z" transform="translate(418 168) scale(0.5)" opacity="0.9"/>
+              <path class="bp-bird" d="M12,0 L-12,-8 L-5,0 L-12,8 Z" transform="translate(454 168) scale(0.5)"/>
+              <path class="bp-bird" d="M12,0 L-12,-8 L-5,0 L-12,8 Z" transform="translate(490 168) scale(0.5)" opacity="0.6"/>
+              <path class="bp-bird" d="M12,0 L-12,-8 L-5,0 L-12,8 Z" transform="translate(526 168) scale(0.5)"/>
+              <path class="bp-bird" d="M12,0 L-12,-8 L-5,0 L-12,8 Z" transform="translate(558 168) scale(0.5)" opacity="0.7"/>
+            </g>
+            <g>
+              <rect class="bp-lane" x="286" y="192" width="288" height="24" rx="12"/>
+              <path class="bp-bird" d="M12,0 L-12,-8 L-5,0 L-12,8 Z" transform="translate(294 204) scale(0.42)" opacity="0.45"/>
+              <use class="bp-glyph-hub" href="#bp-ic-passage" x="304" y="192" width="24" height="24"/>
+              <path class="bp-bird" d="M12,0 L-12,-8 L-5,0 L-12,8 Z" transform="translate(356 204) scale(0.5)" opacity="0.6"/>
+              <path class="bp-bird" d="M12,0 L-12,-8 L-5,0 L-12,8 Z" transform="translate(398 204) scale(0.5)"/>
+              <path class="bp-bird" d="M12,0 L-12,-8 L-5,0 L-12,8 Z" transform="translate(444 204) scale(0.5)" opacity="0.75"/>
+              <path class="bp-bird" d="M12,0 L-12,-8 L-5,0 L-12,8 Z" transform="translate(490 204) scale(0.5)"/>
+              <path class="bp-bird" d="M12,0 L-12,-8 L-5,0 L-12,8 Z" transform="translate(534 204) scale(0.5)" opacity="0.55"/>
+            </g>
+          </g>
+          <text class="bp-title-hub" x="430" y="266" text-anchor="middle">Parallel workers</text>
+          <text class="bp-sub"       x="430" y="288" text-anchor="middle">One BirdNET process per shard</text>
+
+          <!-- Output. Shorter than its neighbours and starting lower, to leave
+               the mark its corner. -->
+          <rect class="bp-card" x="646" y="168" width="288" height="132" rx="8" filter="url(#bp-lift)"/>
+          <use class="bp-ico" href="#bp-ic-table" x="775" y="192" width="30" height="30"/>
+          <text class="bp-title" x="790" y="254" text-anchor="middle">Detections</text>
+          <text class="bp-sub"   x="790" y="276" text-anchor="middle">Merged from every shard</text>
+
+          <!-- The other half of the argument: the run keeps a record, so a
+               failure is a recorded state rather than a gap in the results. -->
+          <rect class="bp-card" x="26" y="332" width="908" height="232" rx="8" filter="url(#bp-lift)"/>
+          <use class="bp-ico" href="#bp-ic-clipboard" x="54" y="352" width="34" height="34"/>
+          <text class="bp-out-title" x="104" y="372">Processing record</text>
+          <text class="bp-sub"       x="104" y="396">Every file ends in one recorded state, so a stopped run resumes from the record and not from the start</text>
+          <rect class="bp-rule" x="54" y="416" width="852" height="1"/>
+          <g>
+            <use class="bp-ico-ok" href="#bp-ic-ok" x="58" y="435" width="22" height="22"/>
+            <text class="bp-status" x="94" y="452">classified</text>
+            <text class="bp-sub"    x="252" y="452">detections written to the run's output</text>
+          </g>
+          <g>
+            <use class="bp-ico" href="#bp-ic-retry" x="58" y="477" width="22" height="22"/>
+            <text class="bp-status" x="94" y="494">retried</text>
+            <text class="bp-sub"    x="252" y="494">transient read error, then classified</text>
+          </g>
+          <g>
+            <use class="bp-ico" href="#bp-ic-flag" x="58" y="519" width="22" height="22"/>
+            <text class="bp-status" x="94" y="536">quarantined</text>
+            <text class="bp-sub"    x="252" y="536">unreadable file, recorded and reported</text>
+          </g>
+        </svg>
+      </div>
+      <h2>BirdNET-Passage</h2>
+      <p class="project-lede">
+        <span class="project-key">Research software</span> built with
+        <span class="project-who">Marie Perennes</span> for robust,
+        high-throughput AI classification of bird species from acoustic
+        sensor data.
+      </p>
+      <p class="project-link">
+        <a href="https://github.com/iat-dml/birdnet-passage">github.com/iat-dml/birdnet-passage</a>
+      </p>
+      <aside class="notes">
+        TODO: notes for BirdNET-Passage.
+      </aside>
+    </section>
+
+    <section class="project"
+             data-strata-layout="aside"
+             data-strata-active="support">
+      <div class="project-media">
+        <!-- A baked collage of the five A3 workshop maps from
+             living-labs-base-maps/docs/example-*.png, on the .tpl-ground
+             paper so it matches the composed cards. 16:10, so it fills the
+             card uncropped. -->
+        <img src="assets/living-labs-base-maps-collage.jpg"
+             alt="Five A3 workshop base maps, one per Living Lab: Havelland, Rheingau, Hessisches Mittelgebirge, Ost-Brandenburg and Nordhessische Lössebene.">
+      </div>
+      <h2>Living Labs Base Maps</h2>
+      <p class="project-lede">
+        These maps were produced as material for the Open Space session at
+        the IAT Statusseminar: <span class="project-key">Agroforestry as a
+        lever for transformation in the Living Labs</span>.
+      </p>
+      <p class="project-link">
+        <a href="https://github.com/iat-dml/living-labs-base-maps">github.com/iat-dml/living-labs-base-maps</a>
+      </p>
+      <aside class="notes">
+        TODO: notes for Living Labs Base Maps.
+      </aside>
+    </section>
+
+    <section class="project"
+             data-strata-layout="aside"
+             data-strata-active="support">
+      <div class="project-media">
+        <!-- Recorded from sem-survey-visualisation/out/index.html: all 11
+             beats with the live morphs between them, 16:10 to fill the card. -->
+        <img src="assets/sem-survey-visualisation.gif"
+             alt="The survey visualisation stepping through its scenes: invitations, Living Labs map, participants, themes, use cases, the lab by use-case matrix, participation and monitoring interest.">
+
+      </div>
+      <h2>IAT Monitoring Survey Visualisation</h2>
+      <p class="project-lede">
+        <span class="project-key">Data visualisation</span> that turns the IAT
+        monitoring survey into a story, with the
+        <span class="project-who">Social-ecological monitoring for living labs</span>
+        group.
+      </p>
+      <p class="project-link">
+        <a href="https://github.com/iat-dml/sem-survey-visualisation">github.com/iat-dml/sem-survey-visualisation</a>
+      </p>
+      <!-- CLASH resolved: this slide was headed "BirdNET-Analyzer" while its
+           lede read "Story-driven data visualisation" -- the heading looked
+           like a copy-paste from the slide above, so it now carries the
+           project your notes describe. Say the word if that was wrong.
+           Your note links the recipient group's ZALF page; with multiplex
+           running that could be a second hyperlink on the group name
+           itself, though it puts an underline mid-sentence next to the
+           tint. Left plain for now. -->
+      <aside class="notes">
+        TODO: notes for the IAT Monitoring Survey Visualisation.
+      </aside>
+    </section>
+
+    <section class="project"
+             data-strata-layout="aside"
+             data-strata-active="support">
+      <div class="project-media">
+        <img src="assets/quarto-workshop-screenshot.png" alt="Quarto workshop site">
+      </div>
+      <h2><svg class="h2-logo" role="img" aria-label="Quarto" fill="currentColor" viewBox="42 16 416 93" xmlns="http://www.w3.org/2000/svg"><g transform="translate(-390 -316)"><path d="M80.9428 244.218 80.9428 207.86C61.6393 209.22 46.2445 224.814 45.2148 244.218L80.9428 244.218Z" transform="matrix(1.00034 0 0 1 390 128.393)"/><path d="M85.7612 244.218 122.179 244.218C121.149 224.585 105.415 208.83 85.7612 207.8L85.7612 244.218 85.7612 244.218Z" transform="matrix(1.00034 0 0 1 390 128.393)"/><path d="M80.9428 249.066 45.2748 249.066C46.6343 268.16 61.8692 283.395 80.9428 284.734L80.9428 249.066Z" transform="matrix(1.00034 0 0 1 390 128.393)"/><path d="M85.7612 249.066 85.7612 284.794C105.175 283.765 120.759 268.37 122.119 249.066L85.7612 249.066Z" transform="matrix(1.00034 0 0 1 390 128.393)"/><path d="M445.77 222.645 447.11 222.645 447.11 219.646 448.099 219.646 449.929 222.645 451.328 222.645 449.429 219.546C449.929 219.486 450.339 219.306 450.678 218.986 450.998 218.667 451.178 218.187 451.178 217.547 451.178 216.837 450.958 216.297 450.549 215.907 450.139 215.518 449.469 215.348 448.589 215.348L445.77 215.348 445.77 222.655ZM447.13 216.457 448.119 216.457C448.339 216.457 448.529 216.457 448.749 216.477 448.969 216.497 449.139 216.517 449.309 216.607 449.479 216.667 449.609 216.777 449.719 216.907 449.829 217.037 449.869 217.227 449.869 217.467 449.869 217.707 449.829 217.897 449.719 218.027 449.609 218.157 449.479 218.267 449.309 218.327 449.139 218.387 448.969 218.437 448.749 218.457 448.529 218.477 448.339 218.477 448.119 218.477L447.13 218.477 447.13 216.447ZM442.341 221.526C442.681 222.305 443.141 222.965 443.721 223.555 444.301 224.135 444.97 224.585 445.75 224.934 446.53 225.274 447.35 225.454 448.229 225.454 449.109 225.454 449.929 225.284 450.708 224.934 451.488 224.585 452.148 224.135 452.738 223.555 453.318 222.975 453.767 222.305 454.117 221.526 454.467 220.746 454.637 219.926 454.637 219.046 454.637 218.167 454.467 217.347 454.117 216.567 453.777 215.787 453.318 215.128 452.738 214.538 452.158 213.958 451.488 213.508 450.708 213.158 449.929 212.818 449.109 212.639 448.229 212.639 447.35 212.639 446.53 212.808 445.75 213.158 444.97 213.508 444.311 213.958 443.721 214.538 443.141 215.118 442.691 215.787 442.341 216.567 442.001 217.347 441.821 218.167 441.821 219.046 441.841 219.906 441.991 220.746 442.341 221.526ZM443.371 216.977C443.651 216.327 444.021 215.767 444.491 215.298 444.96 214.828 445.52 214.438 446.17 214.178 446.82 213.898 447.48 213.768 448.219 213.768 448.959 213.768 449.619 213.898 450.269 214.178 450.918 214.458 451.478 214.828 451.948 215.298 452.418 215.767 452.808 216.327 453.068 216.977 453.348 217.627 453.478 218.287 453.478 219.026 453.478 219.766 453.348 220.426 453.068 221.076 452.788 221.725 452.418 222.285 451.948 222.755 451.478 223.225 450.918 223.615 450.269 223.875 449.619 224.155 448.959 224.285 448.219 224.285 447.48 224.285 446.82 224.155 446.17 223.875 445.52 223.595 444.96 223.225 444.491 222.755 444.021 222.285 443.631 221.725 443.371 221.076 443.091 220.426 442.961 219.766 442.961 219.026 442.961 218.287 443.111 217.627 443.371 216.977Z" transform="matrix(1.00034 0 0 1 390 128.393)"/><path d="M190.106 223.875 190.106 232.902C186.137 225.964 179.09 221.456 169.853 221.456 155.198 221.456 144.961 232.572 144.961 247.657 144.961 262.742 155.198 273.748 169.853 273.748 179.1 273.748 186.147 269.349 190.106 262.412L190.106 291.482C190.106 292.472 190.776 293.141 191.766 293.141L194.525 293.141C195.514 293.141 196.184 292.472 196.184 291.482L196.184 223.865C196.184 222.875 195.514 222.205 194.525 222.205L191.766 222.205C190.756 222.205 190.106 222.875 190.106 223.865ZM170.493 267.92C158.707 267.92 150.779 259.563 150.779 247.667 150.779 235.771 158.707 227.194 170.493 227.194 182.279 227.194 190.076 235.791 190.076 247.667 190.076 259.543 182.379 267.92 170.493 267.92Z" transform="matrix(1.00034 0 0 1 390 128.393)"/><path d="M247.817 223.875 247.817 252.835C247.817 262.852 240.989 268.46 232.192 268.46 223.395 268.46 216.567 262.832 216.567 252.835L216.567 223.875C216.567 222.885 215.897 222.215 214.908 222.215L212.149 222.215C211.159 222.215 210.489 222.885 210.489 223.875L210.489 253.595C210.489 267.47 220.406 273.748 230.852 273.748 237.58 273.748 244.058 271.099 247.807 265.391L247.807 271.229C247.807 272.218 248.476 272.888 249.466 272.888L252.225 272.888C253.215 272.888 253.885 272.218 253.885 271.229L253.885 223.865C253.885 222.875 253.215 222.205 252.225 222.205L249.466 222.205C248.476 222.225 247.807 222.895 247.807 223.885Z" transform="matrix(1.00034 0 0 1 390 128.393)"/><path d="M312.005 223.875 312.005 232.792C308.036 225.854 300.989 221.456 291.752 221.456 277.097 221.456 266.86 232.362 266.86 247.547 266.86 262.732 277.097 273.748 291.752 273.748 300.999 273.748 308.046 269.239 312.005 262.302L312.005 271.219C312.005 272.208 312.675 272.878 313.665 272.878L316.424 272.878C317.413 272.878 318.083 272.208 318.083 271.219L318.083 223.855C318.083 222.865 317.413 222.195 316.424 222.195L313.665 222.195C312.675 222.195 312.005 222.865 312.005 223.855ZM292.392 267.92C280.606 267.92 272.678 259.453 272.678 247.557 272.678 235.661 280.606 227.194 292.392 227.194 304.178 227.194 311.975 235.661 311.975 247.557 311.975 259.453 304.308 267.92 292.392 267.92Z" transform="matrix(1.00034 0 0 1 390 128.393)"/><path d="M338.426 231.572 338.426 223.855C338.426 222.865 337.756 222.195 336.767 222.195L334.008 222.195C333.018 222.195 332.348 222.865 332.348 223.855L332.348 271.219C332.348 272.208 333.018 272.878 334.008 272.878L336.767 272.878C337.756 272.878 338.426 272.208 338.426 271.219L338.426 244.218C338.426 233.202 346.354 228.033 354.721 227.264 355.71 227.154 356.27 226.484 356.27 225.494L356.27 223.085C356.27 221.985 355.71 221.426 354.611 221.536 347.913 222.115 341.855 225.414 338.426 231.582Z" transform="matrix(1.00034 0 0 1 390 128.393)"/><path d="M389.979 225.404 389.979 223.855C389.979 222.865 389.309 222.195 388.319 222.195L377.303 222.195 377.303 208.43C377.303 207.44 376.633 206.77 375.644 206.77L372.865 206.77C371.875 206.77 371.205 207.44 371.205 208.43L371.205 222.195 365.577 222.195C364.587 222.195 363.918 222.865 363.918 223.855L363.918 225.404C363.918 226.394 364.587 227.064 365.577 227.064L371.205 227.064 371.205 261.632C371.205 268.79 375.604 272.858 382.541 272.858L387.71 272.858C388.699 272.858 389.369 272.189 389.369 271.199L389.369 269.429C389.369 268.44 388.699 267.77 387.71 267.77L384.411 267.77C380.552 267.77 377.253 266.001 377.253 260.832L377.253 227.024 388.269 227.024C389.329 227.064 389.969 226.394 389.969 225.404Z" transform="matrix(1.00034 0 0 1 390 128.393)"/><path d="M422.798 273.868C437.993 273.868 448.329 262.642 448.329 247.557 448.329 232.472 437.983 221.356 422.798 221.356 407.613 221.356 397.156 232.372 397.156 247.557 397.156 262.742 407.603 273.868 422.798 273.868ZM422.798 267.92C411.122 267.92 403.214 259.213 403.214 247.557 403.214 235.901 411.142 227.194 422.798 227.194 434.454 227.194 442.171 235.901 442.171 247.557 442.171 259.233 434.474 267.92 422.798 267.92Z" transform="matrix(1.00034 0 0 1 390 128.393)"/></g></svg> for Reproducible Academic Outputs</h2>
+      <p class="project-lede">
+        A hands-on <span class="project-key">workshop</span> for
+        <span class="project-who">researchers</span>: presentations,
+        dashboards, manuscripts and websites, all from the same source files.
+      </p>
+      <p class="project-link">
+        <a href="https://iat-dml.github.io/quarto-workshop/">iat-dml.github.io/quarto-workshop</a>
+      </p>
+      <aside class="notes">
+        TODO: notes for the Quarto workshop.
+      </aside>
+    </section>
+
+    <section class="project"
+             data-strata-layout="aside"
+             data-strata-active="support">
+      <!-- A composition rather than one screenshot: the software on the
+           left, the two front pages it produces on the right. The pages
+           were cut out of the old templates-software.png collage, which
+           this replaces; the marks are one-colour so they place the work
+           without competing with it. See "Media that is a composition"
+           in css/deck.css before moving anything here. -->
+      <div class="project-media tpl-ground is-collage">
+        <span class="tpl-marks">
+          <img class="m-typst"  src="assets/typst-mark.svg"    alt="Typst">
+          <img class="m-quarto" src="assets/quarto-mark.svg"   alt="Quarto">
+          <img class="m-reveal" src="assets/revealjs-mark.png" alt="Reveal.js">
+        </span>
+        <img class="tpl-page tpl-slide" src="assets/template-slide-front.png"
+             alt="IAT presentation template, title slide">
+        <img class="tpl-page tpl-doc" src="assets/template-doc-front.png"
+             alt="IAT document template, front page">
+      </div>
+      <h2>Templates</h2>
+      <p class="project-lede">
+        <span class="project-key">Reproducible</span> document formats for the
+        <span class="project-who">IAT service working groups</span>, built on
+        Open Source software: Typst, Quarto and Reveal.js.
+      </p>
+      <p class="project-link">
+        <a href="https://github.com/iat-dml/templates">github.com/iat-dml/templates</a>
+      </p>
+      <aside class="notes">
+        TODO: notes for Templates.
+      </aside>
+    </section>
+
+    <section class="project"
+             data-strata-layout="aside"
+             data-strata-active="support">
+      <div class="project-media">
+        <!-- Playwright screen capture of the team manual site: section list →
+             "How we organise our work" → Figure 1, hovering service-desk.
+             Muted and looping so it
+             can run under the prose without asking for attention; data-autoplay
+             starts it on slide entry, the same contract as the tour slides. -->
+        <video muted loop playsinline data-autoplay preload="metadata"
+               aria-label="Screen recording of the DML Team Manual site">
+          <source src="assets/dml-team-manual.webm" type="video/webm">
+        </video>
+      </div>
+      <h2>DML Team Manual</h2>
+      <p class="project-lede">
+        A living account of how we work and the tools and techniques we use. A basis for how IAT groups can develop together as <span class="project-key">Open Science communities of practice</span>
+      </p>
+      <p class="project-link">
+        <a href="https://iat-dml.github.io/team-manual">iat-dml.github.io/team-manual</a>
+      </p>
+      <aside class="notes">
+        TODO: notes for the DML Team Manual.
+      </aside>
+    </section>
+
+    <!-- ══════════════════════════════════════════════════════
+         TRANSFER
+         ══════════════════════════════════════════════════════ -->
+
+    <!--<section class="divider is-dark"
+             data-background-color="#458484"
+             data-strata-layout="corner"
+             data-strata-active="transfer">
+      <p class="divider-kicker">Stratum two</p>
+      <h1>Transfer</h1>
+      <p class="divider-lede">
+        Closing the loop between science and practice.
+      </p>
+    </section>-->
+
+    <section class="quiz-slide quiz-slide--aside"
+             data-strata-layout="aside"
+             data-strata-active="transfer"
+             data-quiz-results="transfer-practice-partners"
+             data-quiz-question="How do your results currently reach practice partners?"
+             data-quiz-options='[
+               {"label":"A","text":"Reports and PDFs"},
+               {"label":"B","text":"Talks and workshops"},
+               {"label":"C","text":"Websites or dashboards"},
+               {"label":"D","text":"They mostly do not, yet"}
+             ]'>
+      <aside class="notes">
+        Question 3 of 7, opening Transfer. C and D are the two answers the
+        next slides speak to: the project websites and the Living Lab
+        Explorer.
+      </aside>
+    </section>
+
+    <section class="project"
+             data-strata-layout="aside"
+             data-strata-active="transfer">
+      <!-- A composition, not one shot: both sites cascading, each with its
+           project's mark lapping a corner. Built the way the Templates
+           slide is -- DOM elements over the card, geometry in
+           css/deck.css under "Media that is a composition" -- so the
+           marks stay crisp and the shots can be swapped one at a time.
+           Read that block before moving anything here.
+           Screenshots captured 2026-09-07 at 1440x900 and cropped to the
+           top of each page; recapture if either site changes.
+           NOTE: this replaces the live iframe that used to sit here,
+           which pointed at iat-dml.github.io/LCSfFE-handbook while the
+           handle below gives monkshilllab-isolab.github.io. The shot is
+           of the monkshilllab host, per the handle. Two hosts for one
+           handbook is still worth resolving. -->
+      <div class="project-media tpl-ground is-cascade">
+        <img class="tpl-page tpl-lcsffe" src="assets/lcsffe-site.jpg"
+             alt="LCSfFE handbook website">
+        <img class="tpl-page tpl-transect" src="assets/transect-site.jpg"
+             alt="TRANSECT project website">
+        <img class="tpl-mhl" src="assets/mhl-logo-circle.png"
+             alt="MonksHillLab">
+        <span class="tpl-plate">
+          <img src="assets/transect-mark.png" alt="TRANSECT">
+        </span>
+      </div>
+      <h2>Project Websites</h2>
+      <p class="project-lede">
+        <span class="project-key">Accessible dissemination</span> of research:
+        websites built and maintained with the
+        <span class="project-who">MonksHillLab initiative</span> and the
+        <span class="project-who">Participatory resilience assessment</span> group.
+      </p>
+      <p class="project-link">
+        <a href="https://monkshilllab-isolab.github.io/LCSfFE-handbook/">monkshilllab-isolab.github.io/LCSfFE-handbook</a>
+        <a href="http://www.transect.de/">transect.de</a>
+      </p>
+      <aside class="notes">
+        TODO: notes for Project Websites.
+      </aside>
+    </section>
+
+    <!-- The handoff, part one: the project card holds the demo's opening
+         frame rather than a live iframe, so the next slide has something
+         to grow FROM. Paused on purpose -- no data-autoplay here.
+         js/handoff.js measures the card at runtime, so moving it to the
+         top of the column costs the animation nothing. -->
+    <section class="project"
+             data-strata-layout="aside"
+             data-strata-active="transfer">
+      <div class="project-media">
+        <img src="assets/ll-explorer-demo-poster.jpg" alt="Living Lab Explorer">
+        <video muted playsinline preload="metadata"
+               data-handoff="ll-explorer"
+               poster="assets/ll-explorer-demo-poster.jpg">
+          <source src="assets/ll-explorer-demo.mp4" type="video/mp4">
+        </video>
+      </div>
+      <h2>Living Lab Explorer</h2>
+      <p class="project-lede">
+        A <span class="project-key">dashboard</span> built with the
+        <span class="project-who">Regional Network Managers</span> to
+        <span class="project-key">co-design</span> research planning around
+        socio-environmental data for the IAT Living Labs.
+      </p>
+      <p class="project-link">
+        <a href="https://iat-dml.github.io/living-lab-explorer/">iat-dml.github.io/living-lab-explorer</a>
+      </p>
+      <aside class="notes">
+        TODO: notes for the Living Lab Explorer. The next slide plays the demo.
+      </aside>
+    </section>
+
+    <!-- The handoff, part two: diagram fades out where it stands and the
+         same frame grows out of the card to fill the slide (js/handoff.js). -->
+    <section class="video-slide"
+             data-transition="fade"
+             data-strata-layout="off"
+             data-strata-active="transfer">
+      <video controls muted playsinline data-autoplay preload="metadata"
+             data-grow-from="ll-explorer"
+             poster="assets/ll-explorer-demo-poster.jpg">
+        <source src="assets/ll-explorer-demo.mp4" type="video/mp4">
+      </video>
+      <aside class="notes">
+        Living Lab Explorer demo. Grows out of the card, autoplays on entry,
+        pauses on exit.
+      </aside>
+    </section>
+
+    <!-- ══════════════════════════════════════════════════════
+         INTEGRATION
+         ══════════════════════════════════════════════════════ -->
+
+    <!--<section class="divider is-dark"
+             data-background-color="#C18F59"
+             data-strata-layout="corner"
+             data-strata-active="integration">
+      <p class="divider-kicker">Stratum three</p>
+      <h1>Integration</h1>
+      <p class="divider-lede">
+        Connecting research data and methods across the IAT.
+      </p>
+    </section>-->
+
+    <section class="quiz-slide quiz-slide--aside"
+             data-strata-layout="aside"
+             data-strata-active="integration"
+             data-quiz-results="integration-reusable-assets"
+             data-quiz-type="text"
+             data-quiz-question="Name a dataset, model or tool from your project that others in IAT could reuse.">
+      <aside class="notes">
+        Question 4 of 7, opening Integration, free text into a word cloud.
+        The cloud is the argument for this stratum: assets the room did not
+        know the room had. Answers are anonymous, so this is a starting list
+        for the project tracker and a future catalogue, not a register.
+      </aside>
+    </section>
+
+    <section class="project"
+             data-strata-layout="aside"
+             data-strata-active="integration">
+      <div class="project-media">
+        <!-- The tracker flow. Inline, not assets/*.svg, so it can read
+             --font-body and the brand tokens; everything but the paint
+             servers is styled in css/deck.css under .flow-tracker.
+             Authored in 960x600 user units against the card's 16/10.
+             SVG <text> does not wrap, so the two-line label on the
+             automation node is broken by hand -- retitle it and you have
+             to re-break it. -->
+        <svg class="flow-tracker" viewBox="0 0 960 600" role="img"
+             aria-label="ZALF PAP feeds the ZALF intranet; a Power Automate flow extracts the IAT projects into a Microsoft List; Coordination, Data and Modelling, and Socio-ecological Monitoring each add a field of their own to it.">
+          <defs>
+            <linearGradient id="ft-paper" x1="0" y1="0" x2="0.62" y2="1">
+              <stop offset="0"    stop-color="#FBFAF7"/>
+              <stop offset="0.58" stop-color="#F5F3EE"/>
+              <stop offset="1"    stop-color="#EBE6DC"/>
+            </linearGradient>
+            <marker id="ft-arrow" viewBox="0 0 10 10" refX="9" refY="5"
+                    markerWidth="5.5" markerHeight="5.5" orient="auto-start-reverse">
+              <path class="ft-arrow-head" d="M0,0 L10,5 L0,10 Z"/>
+            </marker>
+            <filter id="ft-lift" x="-20%" y="-20%" width="140%" height="170%">
+              <feDropShadow dx="0" dy="4" stdDeviation="7"
+                            flood-color="#1A1A1A" flood-opacity="0.07"/>
+            </filter>
+            <filter id="ft-lift-hub" x="-20%" y="-20%" width="140%" height="170%">
+              <feDropShadow dx="0" dy="6" stdDeviation="10"
+                            flood-color="#906436" flood-opacity="0.16"/>
+            </filter>
+          </defs>
+
+          <rect width="960" height="600" fill="url(#ft-paper)"/>
+
+          <!-- Chain across the top, then one trunk down to a bus that
+               feeds all three teams. -->
+          <g class="ft-flow">
+            <path d="M 216 138 H 251" marker-end="url(#ft-arrow)"/>
+            <path d="M 441 138 H 476" marker-end="url(#ft-arrow)"/>
+            <path d="M 666 138 H 701" marker-end="url(#ft-arrow)"/>
+            <path d="M 817 222 V 284 Q 817 292 809 292 H 176 Q 168 292 168 300 V 318"/>
+            <path d="M 168 304 V 346" marker-end="url(#ft-arrow)"/>
+            <path d="M 480 294 V 346" marker-end="url(#ft-arrow)"/>
+            <path d="M 792 294 V 346" marker-end="url(#ft-arrow)"/>
+          </g>
+
+          <!-- ZALF PAP -->
+          <rect class="ft-card" x="32" y="56" width="178" height="164" rx="8" filter="url(#ft-lift)"/>
+          <image href="assets/zalf-pap.png" x="98" y="92.4" width="46" height="33"/>
+          <text class="ft-title" x="121" y="157.4" text-anchor="middle">ZALF PAP</text>
+          <text class="ft-sub"   x="121" y="179.9" text-anchor="middle">Project database</text>
+
+          <!-- ZALF Intranet -->
+          <rect class="ft-card" x="257" y="56" width="178" height="164" rx="8" filter="url(#ft-lift)"/>
+          <image href="assets/sharepoint-logo.svg" x="324" y="87.4" width="44" height="43"/>
+          <text class="ft-title" x="346" y="162.4" text-anchor="middle">ZALF Intranet</text>
+          <text class="ft-sub"   x="346" y="184.9" text-anchor="middle">SharePoint</text>
+
+          <!-- The automation -->
+          <rect class="ft-card" x="482" y="56" width="178" height="164" rx="8" filter="url(#ft-lift)"/>
+          <image href="assets/power-automate-logo.svg" x="549" y="74.3" width="44" height="44"/>
+          <text class="ft-title" x="571" y="150.3" text-anchor="middle">Extract</text>
+          <text class="ft-title" x="571" y="175.5" text-anchor="middle">IAT projects</text>
+          <text class="ft-sub"   x="571" y="198.0" text-anchor="middle">Power Automate</text>
+
+          <!-- The list everything lands in -->
+          <rect class="ft-card-hub" x="707" y="56" width="220" height="164" rx="8" filter="url(#ft-lift-hub)"/>
+          <image href="assets/microsoft-list-logo.svg" x="794" y="85.9" width="46" height="46"/>
+          <text class="ft-title-hub" x="817" y="163.9" text-anchor="middle">IAT project list</text>
+          <text class="ft-sub"       x="817" y="186.4" text-anchor="middle">Microsoft Lists</text>
+
+          <!-- Who adds what -->
+          <rect class="ft-card" x="32" y="352" width="272" height="180" rx="8" filter="url(#ft-lift)"/>
+          <text class="ft-code" x="56" y="397.4">COORD</text>
+          <text class="ft-team" x="56" y="427.2">Coordination</text>
+          <rect class="ft-rule" x="56" y="443.4" width="224" height="1"/>
+          <text class="ft-adds" x="56" y="474.4"><tspan class="ft-plus">+</tspan><tspan dx="7">Practice partners</tspan></text>
+
+          <rect class="ft-card" x="344" y="352" width="272" height="180" rx="8" filter="url(#ft-lift)"/>
+          <text class="ft-code" x="368" y="397.4">DML</text>
+          <text class="ft-team" x="368" y="427.2">Data and Modelling</text>
+          <rect class="ft-rule" x="368" y="443.4" width="224" height="1"/>
+          <text class="ft-adds" x="368" y="474.4"><tspan class="ft-plus">+</tspan><tspan dx="7">Data management plan</tspan></text>
+
+          <rect class="ft-card" x="656" y="352" width="272" height="180" rx="8" filter="url(#ft-lift)"/>
+          <text class="ft-code" x="680" y="397.4">SEM</text>
+          <text class="ft-team" x="680" y="427.2">Socio-ecological Monitoring</text>
+          <rect class="ft-rule" x="680" y="443.4" width="224" height="1"/>
+          <text class="ft-adds" x="680" y="474.4"><tspan class="ft-plus">+</tspan><tspan dx="7">Indicators</tspan></text>
+        </svg>
+      </div>
+      <h2>IAT Project Tracker</h2>
+      <p class="project-lede">
+        A <span class="project-key">cross-group workflow</span> keeping the
+        project lists of <span class="project-who">IAT coordination,
+        management and the service working groups</span> in step with ZALF's
+        own project database.
+      </p>
+      <p class="project-link">
+        <a href="https://github.com/iat-dml/iat-project-tracker">github.com/iat-dml/iat-project-tracker</a>
+      </p>
+      <aside class="notes">
+        TODO: notes for the IAT Project Tracker.
+      </aside>
+    </section>
+
+    <section class="project"
+             data-strata-layout="aside"
+             data-strata-active="integration">
+      <div class="project-media is-contain">
+        <!-- Screen recording of the DMP demo app running in Teams: project list,
+             new plan, a few form sections. Nothing was saved. Muted and looping
+             under the prose, like the Team Manual slide. -->
+        <video muted loop playsinline data-autoplay preload="metadata"
+               aria-label="Screen recording of the ZALF RDM app: opening a project and filling in a new data management plan">
+          <source src="assets/zalf-rdm-dmp-form.webm" type="video/webm">
+        </video>
+      </div>
+      <h2>IAT Data Management Plan Template</h2>
+      <p class="project-lede">
+        A <span class="project-key">Common standard</span> for reporting
+        research data: a template and form-based entry and tracking system that makes every IAT
+        project's data management plan comparable.
+      </p>
+      <!-- No public URL (your note: NA), so no .project-link. "All IAT
+           researchers" is deliberately not named.
+           CLASH: this slide takes the place of the old "TODO: Integration
+           project / An IAT model catalogue?" placeholder. The model
+           catalogue itself is still unplaced -- in your notes it appears
+           only as a cross-reference from the Policy Labs guide, with no
+           summary, recipient or URL of its own. If it should be a slide,
+           it needs its own entry. -->
+      <aside class="notes">
+        TODO: notes for the IAT Data Management Plan Template.
+      </aside>
+    </section>
+
+    <!-- The handoff, part one: as with the Living Lab Explorer above, the
+         card parks the tour's opening frame rather than playing it, so
+         the next slide has something to grow FROM. Paused on purpose --
+         no data-autoplay here. -->
+    <section class="project"
+             data-strata-layout="aside"
+             data-strata-active="integration">
+      <div class="project-media">
+        <video muted playsinline preload="metadata"
+               data-handoff="policy-lab"
+               poster="assets/policy-lab-guide-tour-poster.jpg"
+               aria-label="Screen recording of the Policy Labs how-to guide">
+          <source src="assets/policy-lab-guide-tour.mp4" type="video/mp4">
+        </video>
+      </div>
+      <h2>A How-To Guide for Policy Labs</h2>
+      <p class="project-lede">
+        <span class="project-key">Interoperable methods</span> written up with
+        <span class="project-who">Bettina Matzdorf, Sebastian Rogga and Joana
+        Iwaniw</span>: a practical guide to building Policy Labs for
+        agri-environmental measures inside Living Labs.
+      </p>
+      <p class="project-link">
+        <a href="https://github.com/iat-dml/policy-codesign-methods">github.com/iat-dml/policy-codesign-methods</a>
+      </p>
+      <!-- Heading typo fixed: "Poliy Lab guide" -> the title from your notes. -->
+      <aside class="notes">
+        TODO: notes for the Policy Labs guide. The next slide plays the tour.
+      </aside>
+    </section>
+
+    <!-- The handoff, part two: the same frame grows out of the card to
+         fill the slide (js/handoff.js), then autoplays. -->
+    <section class="video-slide"
+             data-transition="fade"
+             data-strata-layout="off"
+             data-strata-active="integration">
+      <video controls muted playsinline data-autoplay preload="metadata"
+             data-grow-from="policy-lab"
+             poster="assets/policy-lab-guide-tour-poster.jpg">
+        <source src="assets/policy-lab-guide-tour.mp4" type="video/mp4">
+      </video>
+      <aside class="notes">
+        Policy Labs guide, cut from the website tour. Grows out of the
+        card, autoplays on entry, pauses on exit.
+      </aside>
+    </section>
+
+<!-- ══════════════════════════════════════════════════════
+  Request support
+  ══════════════════════════════════════════════════════ -->
+
+    <section class="divider is-dark"
+             data-background-color="#356259"
+             data-strata-layout="off">
+      <p class="divider-kicker"></p>
+      <h1>Our website</h1>
+      <p class="divider-lede">
+        Learn more about work and request support
+      </p>
+      <aside class="notes">
+        TODO: notes for the website divider. The next slide plays the site tour.
+      </aside>
+    </section>
+
+    <!-- Website tour: full-slide video, autoplays on advance like the
+         Living Lab Explorer demo above. -->
+    <section class="video-slide"
+             data-transition="fade"
+             data-strata-layout="off"
+             data-strata-active="none">
+      <video controls muted playsinline data-autoplay preload="metadata">
+        <source src="assets/dml-site-tour.mp4" type="video/mp4">
+      </video>
+      <aside class="notes">
+        Tour of the DML website. Autoplays on entry, pauses on exit.
+      </aside>
+    </section>
+
+    <section class="team-slide" data-strata-layout="off" data-strata-active="none">
+      <h2>Growing Our Team</h2>
+      <div class="team-grid team-grid--slide">
+        <div class="quarto-grid-item card h-100 card-team card-center">
+          <p class="card-img-top team-image-container">
+            <img src="assets/Ben-portrait.jpg" class="thumbnail-image card-img team-image" alt="Photo of Ben Black">
+          </p>
+          <div class="card-body post-contents">
+            <h5 class="no-anchor card-title listing-title">Ben Black</h5>
+            <div class="card-subtitle listing-subtitle team-job-title">Head of the working group</div>
+            <div class="card-text listing-description team-description">
+              Coordinates the group, shapes shared infrastructure, and connects delivery across IAT and the CDP groups.
+            </div>
+            <div class="team-card-meta">
+              <div class="team-card-meta-value">In post</div>
+            </div>
+            <div class="listing-skills">
+              <div class="skills-label">Expertise</div>
+              <div class="skills-list">
+                <div class="listing-skill">R</div>
+                <div class="listing-skill">Quarto</div>
+                <div class="listing-skill">System Design</div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="quarto-grid-item card h-100 card-team card-center">
+          <p class="card-img-top team-image-container">
+            <img src="assets/user.svg" class="thumbnail-image card-img team-image is-placeholder" alt="Placeholder portrait for the Data Steward">
+          </p>
+          <div class="card-body post-contents">
+            <h5 class="no-anchor card-title listing-title">Data Steward</h5>
+            <div class="card-subtitle listing-subtitle team-job-title">Planned position</div>
+            <div class="card-text listing-description team-description">
+              Project-facing data management, metadata and curation, from DMPs through publication-ready datasets.
+            </div>
+            <div class="team-card-meta">
+              <div class="team-card-meta-value">Applications open Oct 2026</div>
+            </div>
+            <div class="listing-skills">
+              <div class="skills-label">Expertise</div>
+              <div class="skills-list">
+                <div class="listing-skill">RDM</div>
+                <div class="listing-skill">Metadata</div>
+                <div class="listing-skill">Data Curation</div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="quarto-grid-item card h-100 card-team card-center">
+          <p class="card-img-top team-image-container">
+            <img src="assets/user.svg" class="thumbnail-image card-img team-image is-placeholder" alt="Placeholder portrait for the Research Software Engineer">
+          </p>
+          <div class="card-body post-contents">
+            <h5 class="no-anchor card-title listing-title">Research Software Engineer</h5>
+            <div class="card-subtitle listing-subtitle team-job-title">Planned position</div>
+            <div class="card-text listing-description team-description">
+              Builds reusable tools and workflows for scientific programming, automation and open-source practice.
+            </div>
+            <div class="team-card-meta">
+              <div class="team-card-meta-value">First quarter 2027</div>
+            </div>
+            <div class="listing-skills">
+              <div class="skills-label">Expertise</div>
+              <div class="skills-list">
+                <div class="listing-skill">Python</div>
+                <div class="listing-skill">Git</div>
+                <div class="listing-skill">CI/CD</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <aside class="notes">
+        TODO: notes for Growing Our Team. Data Steward applications open
+        October 2026; the RSE post follows in the first quarter of 2027.
+      </aside>
+    </section>
+
+<!-- ══════════════════════════════════════════════════════
+  What's Next including survey and Q&A
+  ══════════════════════════════════════════════════════ -->
+
+    <section class="divider is-dark"
+             data-background-color="#356259"
+             data-strata-layout="off">
+      <p class="divider-kicker"></p>
+      <h1>Have your say</h1>
+      <p class="divider-lede">
+        Help shape our services and ask any questions
+      </p>
+      <aside class="notes">
+        TODO: notes for the Have your say divider. Three closing questions follow.
+      </aside>
+    </section>
+
+    <!-- ══ Live audience quiz ═══════════════════════════
+         Seven questions across the deck, one slide each -- slide-quiz
+         renders one quiz per section. An icebreaker after the mission,
+         one opening each stratum, and the three below. All are *results*
+         slides (data-quiz-results rather than data-quiz-id), so the
+         question, the QR code and the live tally share the slide and the
+         room can keep voting while it fills in. Between quiz slides the
+         audience page reads "Waiting for the next question", which is why
+         the icebreaker asks people to leave it open.
+
+         Option text sits inside a single-quoted JSON attribute, so it
+         cannot contain an apostrophe -- write "do not", not "don't".
+
+         The plugin appends its own UI to whatever the section already
+         holds, so the two lines below survive and sit above it.
+
+         Cable settings come from js/quiz-config.js. With the placeholder
+         wsUrl still in place both slides draw in full -- question, empty
+         bars, QR code -- and only the WebSocket fails, so the deck is safe
+         to rehearse and to present offline. See README.md, "Live audience
+         quiz", for what has to be set up before the talk.
+         ═══════════════════════════════════════════════ -->
+
+    <section class="quiz-slide"
+             data-strata-layout="off"
+             data-strata-active="none"
+             data-quiz-results="strata-priority"
+             data-quiz-question="Which stratum matters most to you — or where is support missing?"
+             data-quiz-options='[
+               {"label":"A","text":"Support — RDM, software practice, training"},
+               {"label":"B","text":"Transfer — dashboards, web tools, co-design"},
+               {"label":"C","text":"Integration — shared infrastructure and standards"},
+               {"label":"D","text":"All three equally"}
+             ]'>
+      <p class="quiz-kicker">Gathering further ideas for training and support</p>
+      <p class="quiz-hint">Same page as before, or scan the code now — you can change your answer while this slide is up.</p>
+      <aside class="notes">
+        Question 5 of 7. Scan, vote, bars fill live. Give it 30&ndash;40 seconds
+        before reading the room back to itself; people keep arriving on the
+        page and can change their vote while this slide is up.
+      </aside>
+    </section>
+
+    <section class="quiz-slide"
+             data-strata-layout="off"
+             data-strata-active="none"
+             data-quiz-results="training-needs"
+             data-quiz-type="text"
+             data-quiz-question="Which aspect of data or modelling do you want support or training in?">
+      <p class="quiz-kicker">Gathering further ideas for training and support</p>
+      <p class="quiz-hint">Two or three words each — same page, no need to rescan.</p>
+      <aside class="notes">
+        Question 6 of 7, free text into a word cloud. Same QR, same page —
+        anyone already voting is carried straight here. Short answers
+        cloud better; say &ldquo;two or three words&rdquo; out loud.
+        This is the list that seeds next year&rsquo;s training programme.
+      </aside>
+    </section>
+
+    <section class="quiz-slide"
+             data-strata-layout="off"
+             data-strata-active="none"
+             data-quiz-results="training-format"
+             data-quiz-question="Which training format works best for you?"
+             data-quiz-options='[
+               {"label":"A","text":"Half-day hands-on workshop"},
+               {"label":"B","text":"Short lunchtime sessions"},
+               {"label":"C","text":"Written guides I can follow alone"},
+               {"label":"D","text":"One-to-one drop-in help"}
+             ]'>
+      <p class="quiz-kicker">Gathering further ideas for training and support</p>
+      <p class="quiz-hint">Last one &mdash; thank you for keeping the page open.</p>
+      <aside class="notes">
+        Question 7 of 7. The word cloud said what to teach; this says how.
+        Press E before leaving the deck to download every answer as a CSV
+        (the relay keeps its own copy too &mdash; see README.md).
+      </aside>
+    </section>
+
+    <!-- ══ Close ═══════════════════════════════════════════ -->
+     
+    <section class="centered-slide closing-slide is-dark"
+             data-background-color="#356259"
+             data-strata-layout="off">
+      <img src="assets/dml-strata-reversed.svg" alt="" class="closing-mark">
+      <h1>Discuss your project with us</h1>
+      <!-- TODO: Add QR code to the DML website -->
+      <p class="closing-links">
+        <a class="closing-pill is-filled" href="https://iat-dml.github.io/">iat-dml.github.io</a>
+        <a class="closing-pill" href="mailto:iat-dml@zalf.de">iat-dml@zalf.de</a>
+      </p>
+      <p class="closing-footnote">IAT &middot; ZALF &middot; Leibniz Association</p>
+      <aside class="notes">
+        TODO: notes for the closing slide.
+      </aside>
+    </section>
+
+  </div><!-- /.slides -->
+
+  <!-- ══ The stage ═══════════════════════════════════════════
+       Outside .slides on purpose: the diagram must survive slide
+       changes so it can shrink, travel and fade as one continuous
+       motion. Driven entirely by js/director.js. -->
+       <!--data-variant picks the diagram's design for the whole deck:
+         "panel"    the mark with a detail card beside it (default)
+         "horizon"  the strata continue out of the mark and divide the
+                    slide into three bands, title left and bullets right
+       Any slide may override it with data-strata-variant. -->
+  <div id="stage" data-layout="full" data-variant="panel"
+       data-visible="false" aria-hidden="true">
+    <div id="strata-bands"></div>
+    <div id="strata"></div>
+  </div>
+</div><!-- /.reveal -->
+
+<img src="assets/dml-strata-deep.svg" alt="" class="deck-logo">
+
+<script src="vendor/reveal/dist/reveal.js"></script>
+<script src="vendor/reveal/plugin/markdown/markdown.js"></script>
+<script src="vendor/reveal/plugin/notes/notes.js"></script>
+<script src="vendor/reveal/plugin/highlight/highlight.js"></script>
+<script src="js/quiz-config.js"></script>
+<script src="vendor/slide-quiz/slide-quiz.umd.js"></script>
+<script src="js/strata-diagram.js"></script>
+<script src="js/director.js"></script>
+<script src="js/handoff.js"></script>
+<script src="js/quiz-capture.js"></script>
+<script src="js/deck.js"></script>
+</body>
+</html>

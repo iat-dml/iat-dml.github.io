@@ -1,0 +1,137 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+  <title>Have your say &middot; DML at the IAT Statusseminar 2026</title>
+  <meta name="robots" content="noindex">
+
+  <link rel="icon" href="assets/dml-strata-deep.svg">
+  <link rel="stylesheet" href="vendor/slide-quiz/participant.css">
+  <link rel="stylesheet" href="css/brand.css">
+
+  <style>
+    /* The audience meets this page on a phone, so it cannot inherit
+       anything from index.html and carries the brand itself.
+
+       slide-quiz's participant widget ships a dark full-bleed design of
+       its own -- min-height:100dvh on a near-black ground. Everything
+       in it is driven by --sq-p-* custom properties, so the whole
+       palette is relit here for paper, and the widget's own page-filling
+       geometry is relaxed so the header above it stays visible. */
+    :root {
+      --sq-p-bg:            var(--brand-paper);
+      --sq-p-text:          var(--brand-slate);
+      --sq-p-text-muted:    var(--brand-muted);
+      --sq-p-text-dim:      var(--brand-muted);
+      --sq-p-text-faint:    #A3ABA8;
+      --sq-p-accent:        var(--brand-teal-dark);
+      --sq-p-accent-bright: var(--brand-teal-dark);
+      --sq-p-brand:         var(--brand-muted);
+      --sq-p-status-text:   var(--brand-slate);
+      --sq-p-btn-border:    rgba(70, 85, 85, 0.28);
+      --sq-p-btn-bg:        #FFFFFF;
+      --sq-p-btn-selected-bg: rgba(53, 98, 89, 0.1);
+      --sq-p-btn-selected-glow: 0 0 0 2px rgba(53, 98, 89, 0.35);
+      --sq-p-font:          var(--font-body);
+      --sq-p-border-radius: 0.6rem;
+    }
+
+    body {
+      margin: 0;
+      min-height: 100dvh;
+      padding: 1.4rem 1.1rem calc(1.4rem + env(safe-area-inset-bottom));
+      box-sizing: border-box;
+      background: var(--brand-paper);
+      color: var(--brand-slate);
+      font-family: var(--font-body);
+      -webkit-text-size-adjust: 100%;
+    }
+
+    .quiz-page { max-width: 30rem; margin: 0 auto; }
+
+    .quiz-page__header {
+      display: flex;
+      align-items: center;
+      gap: 0.75rem;
+      margin-bottom: 0.4rem;
+    }
+
+    .quiz-page__logo { width: 2.6rem; height: 2.6rem; flex: none; }
+
+    .quiz-page__eyebrow {
+      font-size: 0.68rem;
+      font-weight: 700;
+      letter-spacing: 0.16em;
+      text-transform: uppercase;
+      color: var(--brand-muted);
+      margin: 0 0 0.15rem;
+    }
+
+    .quiz-page__title {
+      font-family: var(--font-heading);
+      font-size: 1.2rem;
+      font-weight: 400;
+      line-height: 1.15;
+      color: var(--brand-teal-dark);
+      margin: 0;
+    }
+
+    /* Let the widget sit inside the page rather than replace it. */
+    #quiz-root .sq-participant {
+      min-height: 0;
+      padding: 0;
+      gap: 1.4rem;
+      background: transparent;
+    }
+
+    #quiz-root .sq-participant__submit { color: var(--brand-paper); }
+
+    /* The questions are spread through the whole talk, and between them
+       the widget only says it is waiting -- which reads as "done" unless
+       something says otherwise. */
+    .quiz-page__keep-open {
+      margin: 0.6rem 0 1.2rem;
+      padding: 0.55rem 0.75rem;
+      border-left: 3px solid var(--brand-teal-dark);
+      background: rgba(53, 98, 89, 0.07);
+      font-size: 0.85rem;
+      line-height: 1.4;
+      color: var(--brand-slate);
+    }
+  </style>
+</head>
+
+<body>
+  <main class="quiz-page">
+    <header class="quiz-page__header">
+      <img src="assets/dml-strata-deep.svg" alt="" class="quiz-page__logo">
+      <div>
+        <p class="quiz-page__eyebrow">IAT Statusseminar 2026</p>
+        <h1 class="quiz-page__title">Data &amp; Modelling &mdash; have your say</h1>
+      </div>
+    </header>
+
+    <p class="quiz-page__keep-open">
+      <strong>Keep this page open.</strong> Questions appear here throughout
+      the talk &mdash; no need to scan again.
+    </p>
+
+    <!-- The widget mounts here. Questions arrive over the cable from the
+         deck itself, so none of them are repeated on this page: whichever
+         quiz slide the presenter is on is what you see. -->
+    <div id="quiz-root"></div>
+  </main>
+
+  <script src="js/quiz-config.js"></script>
+  <script src="vendor/slide-quiz/participant.umd.js"></script>
+  <script>
+    SlideQuizParticipant.createParticipantUI("#quiz-root", {
+      wsUrl: window.DML_QUIZ.wsUrl,
+      quizGroupId: window.DML_QUIZ.quizGroupId,
+      endpoints: window.DML_QUIZ.endpoints,
+      footerText: "iat-dml.github.io \u00b7 iat-dml@zalf.de \u00b7 powered by AnyCable"
+    });
+  </script>
+</body>
+</html>
