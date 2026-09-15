@@ -33,7 +33,9 @@ jobs:
             any::tidyverse
             any::mapview
             github::quarto-dev/quarto-r
-            github::ropensci-review-tools/babelquarto
+            # Pinned: upstream 8329821 (#134) labels the switcher button with the
+            # target language instead of the current one (EN page shows DE/DE).
+            github::ropensci-review-tools/babelquarto@318d11b
       - name: Render website with Babelquarto
         run: Rscript -e 'babelquarto::render_website()'
       - name: Publish
