@@ -1,0 +1,52 @@
+---
+title: "Workshop-Karten für die Living Labs"
+image: ../assets/base-maps-collage.jpg
+image-alt: "Die fünf A3-Workshop-Karten der Living Labs nebeneinander: Havelland, Rheingau, Hessisches Mittelgebirge, Ostbrandenburg und Nordhessische Lössebene"
+date: "2026-09-15"
+categories: [maps, workshop, living labs, transfer]
+description: "Druckfertige A3-Grundkarten der fünf IAT-Living-Labs, zum Zeichnen und Beschriften in Workshops und Veranstaltungen."
+---
+
+In Living-Lab-Workshops muss oft eine einfache Frage auf Papier beantwortet werden: Wo? Wo wirtschaften die Beteiligten, wo zeigen sich Wasserprobleme, wo könnte eine neue Maßnahme erprobt werden? Dafür haben wir einen Satz druckfertiger A3-Grundkarten erstellt, eine für jedes der fünf IAT-Living-Labs. Mitarbeitende und Forschende des IAT können sie ausdrucken und zu Workshops, Treffen mit Praxispartnern und Veranstaltungen mitnehmen.
+
+![Beispielblatt für das Living Lab 05 Rheingau, A3 quer](../assets/base-maps-rheingau.png){fig-alt="A3-Workshop-Karte des Living Labs Rheingau: eine blasse OpenStreetMap-Grundkarte mit der Living-Lab-Grenze in Orange, wenigen Orts- und Flussbeschriftungen, einer Kopfzeile mit dem Namen des Living Labs sowie Maßstabsleiste und Quellenangabe in der Fußzeile" fig-align="center"}
+
+## Was die Karten zeigen
+
+Die Karten sind bewusst zurückhaltend gestaltet, damit Platz zum Zeichnen und Schreiben bleibt. Jedes Blatt zeigt:
+
+- **Eine Grundkarte aus OpenStreetMap** mit Landnutzung, Wäldern, Gewässern, Bahnlinien und Straßen. Sie wird aus Vektordaten erzeugt und bleibt daher auch im A3-Druck scharf.
+- **Die Grenze des Living Labs.** Innerhalb der Grenze wird die Karte in voller Stärke dargestellt, in einem hellen Ring um die Grenze herum blendet sie aus.
+- **Wenige Beschriftungen**: Städte, größere Dörfer, Autobahn- und Bundesstraßennummern, große Flüsse, große Seen und die höchsten Gipfel. Beschriftungen, die sich gegenseitig verdrängen würden, werden weggelassen.
+- **Eine Kopfzeile, Maßstabsleiste, Maßstabsangabe, Nordpfeil und Quellenangabe.**
+
+Jede Karte wird im Quer- oder Hochformat gedruckt, je nachdem, in welchem Format die Region im größeren Maßstab dargestellt werden kann. Die Blätter sind auf Deutsch oder Englisch erhältlich.
+
+::: {layout="[[1,1],[1],[1]]"}
+![01 Ostbrandenburg, hoch, ca. 1:274.000](../assets/base-maps-east-brandenburg.png){fig-alt="A3-Workshop-Karte im Hochformat des Living Labs Ostbrandenburg" group="base-maps"}
+
+![03 Nordhessische Lössebene, hoch, ca. 1:310.000](../assets/base-maps-north-hessian-loess.png){fig-alt="A3-Workshop-Karte im Hochformat des Living Labs Nordhessische Lössebene" group="base-maps"}
+
+![02 Havelland, quer, ca. 1:212.000](../assets/base-maps-havelland.png){fig-alt="A3-Workshop-Karte im Querformat des Living Labs Havelland" group="base-maps"}
+
+![04 Hessisches Mittelgebirge, quer, ca. 1:335.000](../assets/base-maps-hessian-low-mountain.png){fig-alt="A3-Workshop-Karte im Querformat des Living Labs Hessisches Mittelgebirge" group="base-maps"}
+:::
+
+## Die Karten in Ihrem Workshop nutzen
+
+Wenn Sie einen Workshop oder eine Veranstaltung planen, [melden Sie sich bei uns](mailto:iat-dml@zalf.de). Wir schicken Ihnen dann das Druckpaket für Ihr Living Lab. Es enthält die A3-PDFs, eine kurze Textdatei mit Druckhinweisen und die Daten, auf denen jede Karte beruht.
+
+Beim Drucken beachten Sie bitte zwei Dinge:
+
+- **Auf A3 mit 100 % („Tatsächliche Größe“) drucken.** Verwenden Sie nicht „An Seite anpassen“. Maßstabsleiste und Maßstabsangabe stimmen nur bei tatsächlicher Größe.
+- **Die Quellenangabe auf der Karte belassen.** Die Kartendaten stammen von © [OpenStreetMap-Mitwirkende](https://www.openstreetmap.org/copyright) unter der ODbL, die Vektorkacheln von [Protomaps](https://protomaps.com). Diese Angabe muss auf jeder Kopie erhalten bleiben.
+
+Am besten eignet sich ein Farbdruck auf mattem Papier, da sich darauf leichter schreiben lässt.
+
+## Wie die Karten entstehen
+
+Die Karten werden von einem einzigen R-Skript erzeugt, das im öffentlichen GitHub-Repository [iat-dml/living-labs-base-maps](https://github.com/iat-dml/living-labs-base-maps) verfügbar ist. Für jedes Living Lab lädt das Skript einen regionalen Ausschnitt aktueller OpenStreetMap-Daten herunter, bestimmt Papierausrichtung und Maßstab, wählt sich nicht überlappende Beschriftungen aus und schreibt ein Vektor-PDF. Ein vollständiger Durchlauf für alle fünf Living Labs dauert etwa drei Minuten.
+
+Die Grenzen der Living Labs stammen aus dem [Living Lab Explorer](living-lab-dashboards.qmd), sodass die Workshop-Karten und die Online-Dashboards dieselben Gebiete zeigen. Neben jedem PDF speichert das Skript auch die Grenze, die platzierten Beschriftungen und den OpenStreetMap-Ausschnitt. Diese lassen sich zum Beispiel in QGIS öffnen, um eigene Ebenen hinzuzufügen oder eine Karte neu zu gestalten.
+
+Wenn Sie eine Karte für ein anderes Gebiet, in einem anderen Format oder mit zusätzlichen Informationen wie Untersuchungsflächen wünschen, [sagen Sie uns gern Bescheid](mailto:iat-dml@zalf.de).
