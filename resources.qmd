@@ -2,7 +2,7 @@
 title: "Resources and tools"
 ---
 
-This repo is intended to be a living document for SWG and IAT members to share useful information and resources related to Open Science, programming and Data Visualisation.
+This page is intended to be a living document for SWG and IAT members to share useful information and resources related to Open Science, programming and Data Visualisation. Know of something that should be here? Suggest it via a [GitHub pull request](https://github.com/iat-dml/iat-dml.github.io/edit/main/resources.qmd) or by emailing [iat-dml@zalf.de](mailto:iat-dml@zalf.de).
 
 Some documents that provide guiding principles:
 

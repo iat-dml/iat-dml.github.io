@@ -53,7 +53,6 @@ jobs:
           tracked_paths=(
             references.bib
             code-of-conduct
-            resources
             team-manual
           )
 
@@ -135,9 +134,6 @@ jobs:
 
           copy_file source/code-of-conduct/code-of-conduct.qmd code-of-conduct.qmd
           copy_file source/code-of-conduct/code-of-conduct.de.qmd code-of-conduct.de.qmd
-
-          copy_file source/resources/resources.qmd resources.qmd
-          copy_file source/resources/resources.de.qmd resources.de.qmd
 
           copy_file source/team-manual/team-manual.qmd team-manual.qmd
           copy_file source/team-manual/team-manual.de.qmd team-manual.de.qmd
