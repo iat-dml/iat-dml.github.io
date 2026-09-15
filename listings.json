@@ -11,6 +11,7 @@
   {
     "listing": "/projects.html",
     "items": [
+      "/projects/living-labs-base-maps.html",
       "/projects/quarto-workshop.html",
       "/projects/living-lab-dashboards.html",
       "/projects/policy-lab-guide.html",
@@ -25,6 +26,7 @@
       "/news/2026-06-barcamp-openscience.html",
       "/news/2026-01-iat-kickoff.html",
       "/news/2026-03-fairagro-summit.html",
+      "/projects/living-labs-base-maps.html",
       "/projects/quarto-workshop.html",
       "/projects/living-lab-dashboards.html",
       "/projects/policy-lab-guide.html",

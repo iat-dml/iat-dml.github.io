@@ -10,7 +10,106 @@
 <atom:link href="https://iat-dml.github.io/projects.xml" rel="self" type="application/rss+xml"/>
 <description>This is the website of the Data and Modelling Infrastructure for Living Labs Working group (SWG) of the Innovation Center for Agricultural System Transformation (IAT) as part of the Leibniz Centre for Agricultural Landscape Research (ZALF).</description>
 <generator>quarto-1.10.18</generator>
-<lastBuildDate>Sun, 12 Jul 2026 00:00:00 GMT</lastBuildDate>
+<lastBuildDate>Tue, 15 Sep 2026 00:00:00 GMT</lastBuildDate>
+<item>
+  <title>Living Lab Workshop Maps</title>
+  <link>https://iat-dml.github.io/projects/living-labs-base-maps.html</link>
+  <description><![CDATA[ 
+
+
+
+
+
+<p>Living Lab workshops often need a simple question answered on paper: where? Where do stakeholders farm, where are water problems felt, where could a new measure be tested? To support this, we built a set of print-ready A3 base maps, one for each of the five IAT Living Labs. IAT staff and researchers can print them and bring them to workshops, stakeholder meetings and events.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="../assets/base-maps-rheingau.png" class="lightbox" data-gallery="quarto-lightbox-gallery-1" title="Example sheet for Living Lab 05 Rheingau, A3 landscape"><img src="https://iat-dml.github.io/assets/base-maps-rheingau.png" class="img-fluid quarto-figure quarto-figure-center figure-img" alt="A3 workshop map of the Rheingau Living Lab: a pale OpenStreetMap basemap with the Living Lab boundary in orange, a small number of place and river labels, a header with the Living Lab name, and a scale bar and attribution in the footer"></a></p>
+</figure>
+</div>
+<figcaption>Example sheet for Living Lab 05 Rheingau, A3 landscape</figcaption>
+</figure>
+</div>
+<section id="what-each-map-shows" class="level2">
+<h2 class="anchored" data-anchor-id="what-each-map-shows">What each map shows</h2>
+<p>The maps are kept deliberately quiet, so that there is room to draw and write on them. Each sheet shows:</p>
+<ul>
+<li><strong>A basemap from OpenStreetMap</strong>, with land use, forests, water, railways and roads. It is drawn from vector data, so it stays sharp when printed at A3.</li>
+<li><strong>The Living Lab boundary.</strong> The map is shown at full strength inside the boundary and fades out in a light ring around it.</li>
+<li><strong>A small number of labels</strong>: cities and towns, larger villages, motorway and federal road numbers, major rivers, large lakes and the highest peaks. Labels that would crowd each other are left out.</li>
+<li><strong>A header, scale bar, scale statement, north arrow and data attribution.</strong></li>
+</ul>
+<p>Each map is printed in landscape or portrait format, whichever shows the region at the larger scale. The sheets are available in German or English.</p>
+<div class="quarto-layout-panel" data-layout="[[1,1],[1],[1]]">
+<div class="quarto-layout-row">
+<div class="quarto-layout-cell" style="flex-basis: 50.0%;justify-content: flex-start;">
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="../assets/base-maps-east-brandenburg.png" class="lightbox" data-gallery="base-maps" title="01 East Brandenburg, portrait, approx. 1:274,000"><img src="https://iat-dml.github.io/assets/base-maps-east-brandenburg.png" class="img-fluid figure-img" alt="A3 portrait workshop map of the East Brandenburg Living Lab"></a></p>
+<figcaption>01 East Brandenburg, portrait, approx. 1:274,000</figcaption>
+</figure>
+</div>
+</div>
+<div class="quarto-layout-cell" style="flex-basis: 50.0%;justify-content: flex-start;">
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="../assets/base-maps-north-hessian-loess.png" class="lightbox" data-gallery="base-maps" title="03 North Hessian Loess Plain, portrait, approx. 1:310,000"><img src="https://iat-dml.github.io/assets/base-maps-north-hessian-loess.png" class="img-fluid figure-img" alt="A3 portrait workshop map of the North Hessian Loess Plain Living Lab"></a></p>
+<figcaption>03 North Hessian Loess Plain, portrait, approx. 1:310,000</figcaption>
+</figure>
+</div>
+</div>
+</div>
+<div class="quarto-layout-row">
+<div class="quarto-layout-cell" style="flex-basis: 100.0%;justify-content: flex-start;">
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="../assets/base-maps-havelland.png" class="lightbox" data-gallery="base-maps" title="02 Havelland, landscape, approx. 1:212,000"><img src="https://iat-dml.github.io/assets/base-maps-havelland.png" class="img-fluid figure-img" alt="A3 landscape workshop map of the Havelland Living Lab"></a></p>
+<figcaption>02 Havelland, landscape, approx. 1:212,000</figcaption>
+</figure>
+</div>
+</div>
+</div>
+<div class="quarto-layout-row">
+<div class="quarto-layout-cell" style="flex-basis: 100.0%;justify-content: flex-start;">
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="../assets/base-maps-hessian-low-mountain.png" class="lightbox" data-gallery="base-maps" title="04 Hessian Low Mountain Range, landscape, approx. 1:335,000"><img src="https://iat-dml.github.io/assets/base-maps-hessian-low-mountain.png" class="img-fluid figure-img" alt="A3 landscape workshop map of the Hessian Low Mountain Range Living Lab"></a></p>
+<figcaption>04 Hessian Low Mountain Range, landscape, approx. 1:335,000</figcaption>
+</figure>
+</div>
+</div>
+</div>
+</div>
+</section>
+<section id="using-the-maps-in-your-workshop" class="level2">
+<h2 class="anchored" data-anchor-id="using-the-maps-in-your-workshop">Using the maps in your workshop</h2>
+<p>If you are planning a workshop or event, <a href="mailto:iat-dml@zalf.de">get in touch with us</a> and we will send you the print package for your Living Lab. It contains the A3 PDFs, a short text file with printing instructions, and the data behind each map.</p>
+<p>When printing, please keep two things in mind:</p>
+<ul>
+<li><strong>Print on A3 at 100 % (“actual size”).</strong> Do not use “fit to page”. The scale bar and scale statement are only correct at actual size.</li>
+<li><strong>Keep the attribution on the map.</strong> The map data comes from © <a href="https://www.openstreetmap.org/copyright">OpenStreetMap contributors</a> under the ODbL, with vector tiles from <a href="https://protomaps.com">Protomaps</a>. This must stay on any copy.</li>
+</ul>
+<p>Colour printing on matte paper works best, as it is easier to write on.</p>
+</section>
+<section id="how-the-maps-are-made" class="level2">
+<h2 class="anchored" data-anchor-id="how-the-maps-are-made">How the maps are made</h2>
+<p>The maps are produced by a single R script, available in the public GitHub repository <a href="https://github.com/iat-dml/living-labs-base-maps">iat-dml/living-labs-base-maps</a>. For each Living Lab, the script downloads a regional extract of current OpenStreetMap data, chooses the paper orientation and scale, selects labels that do not overlap, and writes a vector PDF. A full run for all five Living Labs takes about three minutes.</p>
+<p>The Living Lab boundaries come from the <a href="../projects/living-lab-dashboards.html">Living Lab Explorer</a>, so the workshop maps and the online dashboards show the same areas. Alongside each PDF, the script also saves the boundary, the placed labels and the OpenStreetMap extract. These can be opened in QGIS, for example to add your own layers or restyle a map.</p>
+<p>If you would like a map for a different area, in a different format, or with additional information such as study sites, please <a href="mailto:iat-dml@zalf.de">let us know</a>.</p>
+
+
+</section>
+
+ ]]></description>
+  <category>maps</category>
+  <category>workshop</category>
+  <category>living labs</category>
+  <category>transfer</category>
+  <guid>https://iat-dml.github.io/projects/living-labs-base-maps.html</guid>
+  <pubDate>Tue, 15 Sep 2026 00:00:00 GMT</pubDate>
+  <media:content url="https://iat-dml.github.io/assets/base-maps-collage.jpg" medium="image" type="image/jpeg"/>
+</item>
 <item>
   <title>One Tool to Rule Them All: A Quarto Workshop</title>
   <link>https://iat-dml.github.io/projects/quarto-workshop.html</link>
