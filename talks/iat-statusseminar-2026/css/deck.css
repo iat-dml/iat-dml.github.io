@@ -234,9 +234,10 @@ html[data-theme="iat"] .theme-dml-only { display: none !important; }
    `display: block` INLINE on the visible section, which silently beats
    any stylesheet `display: flex` (learned the hard way). Vertical
    centring is already handled by reveal's own `center: true`, so block
-   layout plus text-align is all that is needed. The one exception is
+   layout plus text-align is all that is needed. The exceptions are
    the title slide below, which forces flex with !important because it
-   has to pin a footer band to the bottom edge. */
+   has to pin a footer band to the bottom edge, and the closing slide,
+   which does the same to park its QR code in the corner. */
 
 .reveal .slides section.centered-slide { text-align: center; }
 
@@ -1440,10 +1441,20 @@ html[data-theme="iat"] .theme-dml-only { display: none !important; }
 
 /* -- Closing slide ---------------------------------------- */
 /* Reversed strata mark, serif call to action, two contact pills and a
-   quiet affiliation line. Block layout on purpose -- see the
-   .centered-slide note above; only the pill row is a flex container. */
+   quiet affiliation line, with the slides QR code parked bottom right.
+   Under reveal's centring a section is only as tall as its content, so
+   a corner has nothing to pin to; like the title slide, this one takes
+   the full slide height and centres its own content with a forced flex
+   column (see the .centered-slide note above). */
 
-.reveal section.closing-slide { box-sizing: border-box; padding: 20px 6%; }
+.reveal section.closing-slide {
+  display: flex !important;
+  flex-direction: column;
+  justify-content: center;
+  box-sizing: border-box;
+  height: var(--slide-height, 720px);
+  padding: 20px 6%;
+}
 
 .reveal section.closing-slide .closing-mark {
   display: block;
@@ -1462,15 +1473,21 @@ html[data-theme="iat"] .theme-dml-only { display: none !important; }
 /* The deck's one QR code, to the public copy of these slides. A static
    SVG (assets/qr-slides.svg) rather than one drawn from
    window.location, so it is right when the deck runs from disk too.
-   The white quiet zone is part of the image -- scanners need it. */
+   The white quiet zone is part of the image -- scanners need it.
+   Out of the flow, so the call to action and its links stay together. */
 .reveal section.closing-slide .closing-qr {
-  margin: 1.6rem auto 0;
-  width: 190px;
+  position: absolute;
+  right: 40px;
+  bottom: 28px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0;
 }
 
 .reveal section.closing-slide .closing-qr img {
   display: block;
-  width: 100%;
+  width: 150px;
   height: auto;
   margin: 0;
   border-radius: 6px;
@@ -1482,6 +1499,8 @@ html[data-theme="iat"] .theme-dml-only { display: none !important; }
   font-size: 0.42em;
   font-weight: 700;
   font-style: normal;
+  white-space: nowrap;
+  text-align: center;
   letter-spacing: 0.14em;
   text-transform: uppercase;
   color: var(--brand-paper);
