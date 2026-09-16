@@ -7,12 +7,28 @@
   <meta name="author" content="Benjamin Samuel Black">
 
   <link rel="icon" href="assets/dml-strata-deep.svg">
+
+  <!-- Theme: DML (default) or the IAT-ZALF corporate design. One deck,
+       two skins: `?theme=iat` (or iat.html, which redirects here) sets
+       data-theme on <html>, and css/theme-iat.css does the rest. It runs
+       here, before anything paints and before the strata diagram reads
+       its colours and fonts, so there is no flash and no re-render.
+       Press T during the talk to switch. -->
+  <script>
+    (function () {
+      if (new URLSearchParams(location.search).get("theme") !== "iat") return;
+      document.documentElement.setAttribute("data-theme", "iat");
+      document.querySelector('link[rel="icon"]').href = "assets/iat/logo-iat.png";
+    })();
+  </script>
+
   <link rel="stylesheet" href="vendor/reveal/dist/reset.css">
   <link rel="stylesheet" href="vendor/reveal/dist/reveal.css">
   <link rel="stylesheet" href="vendor/slide-quiz/slide-quiz.css">
   <link rel="stylesheet" href="css/brand.css">
   <link rel="stylesheet" href="css/deck.css">
   <link rel="stylesheet" href="css/stage.css">
+  <link rel="stylesheet" href="css/theme-iat.css">
 </head>
 
 <body>
@@ -20,10 +36,22 @@
   <div class="slides">
 
     <!-- ══ Title ═══════════════════════════════════════════ -->
+    <!-- Shared by both themes; .theme-dml-only / .theme-iat-only pick
+         the pieces that differ. The IAT version takes the corporate
+         header (institution left, logos right) and partner footer, and
+         carries the DML mark in the header, not on the green block. -->
     <section class="title-slide-block" data-strata-layout="off">
       <div class="title-slide__header">
-        <div class="title-slide__eyebrow">
+        <div class="title-slide__eyebrow theme-dml-only">
           Data and Modelling Infrastructure for Living Labs &middot; IAT &middot; ZALF
+        </div>
+        <div class="title-slide__institution theme-iat-only">
+          Leibniz-Zentrum f&uuml;r Agrarlandschaftsforschung (ZALF) e.&nbsp;V.
+        </div>
+        <div class="title-slide__logos theme-iat-only">
+          <img src="assets/dml-strata-deep.svg" alt="DML logo" class="title-slide__logo-dml">
+          <span class="title-slide__logo-divider" aria-hidden="true"></span>
+          <img src="assets/iat/logo-iat.png" alt="ZALF IAT logo" class="title-slide__logo-iat">
         </div>
       </div>
 
@@ -41,13 +69,14 @@
             IAT Statusseminar &middot; 24th September 2026
           </p>
         </div>
-        <div class="title-slide__logo-wrap">
+        <div class="title-slide__logo-wrap theme-dml-only">
           <img src="assets/dml-strata-deep.svg" alt="DML logo" class="title-slide__logo">
         </div>
       </div>
 
       <div class="title-slide__footer-band">
-        <img src="assets/footer-band.png" alt="" class="title-slide__footer-image">
+        <img src="assets/footer-band.png" alt="" class="title-slide__footer-image theme-dml-only">
+        <img src="assets/iat/footer-light.png" alt="IAT partners and funders" class="title-slide__footer-image theme-iat-only">
       </div>
       <aside class="notes">
         TODO: notes for the title slide.
@@ -1371,7 +1400,10 @@
              data-strata-layout="off">
       <img src="assets/dml-strata-reversed.svg" alt="" class="closing-mark">
       <h1>Discuss your project with us</h1>
-      <!-- TODO: Add QR code to the DML website -->
+      <figure class="closing-qr">
+        <img src="assets/qr-slides.svg" alt="QR code linking to these slides on iat-dml.github.io">
+        <figcaption>Scan for the slides</figcaption>
+      </figure>
       <p class="closing-links">
         <a class="closing-pill is-filled" href="https://iat-dml.github.io/">iat-dml.github.io</a>
         <a class="closing-pill" href="mailto:iat-dml@zalf.de">iat-dml@zalf.de</a>
@@ -1400,7 +1432,8 @@
   </div>
 </div><!-- /.reveal -->
 
-<img src="assets/dml-strata-deep.svg" alt="" class="deck-logo">
+<img src="assets/dml-strata-deep.svg" alt="" class="deck-logo theme-dml-only">
+<img src="assets/iat/logo-iat.png" alt="" class="deck-logo theme-iat-only">
 
 <script src="vendor/reveal/dist/reveal.js"></script>
 <script src="vendor/reveal/plugin/markdown/markdown.js"></script>

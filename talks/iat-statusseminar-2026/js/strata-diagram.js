@@ -211,6 +211,17 @@
     };
   }
 
+  /* Type, from the deck's own tokens, so a theme that swaps the fonts
+     (css/theme-iat.css) reaches the diagram too. */
+  function getFonts(root) {
+    var style = getComputedStyle(root);
+    return {
+      body: cssVar(style, "--font-body", '"DM Sans", "Segoe UI", system-ui, sans-serif'),
+      heading: cssVar(style, "--font-heading", '"DM Serif Display", Georgia, serif'),
+      headingWeight: cssVar(style, "--font-heading-weight", "400")
+    };
+  }
+
   /* ---- colour utilities (theme-aware light/dark surfaces) ---- */
 
   function parseColor(str) {
@@ -469,6 +480,7 @@
     var shadowId = uid + "Shadow";
 
     var colors = getColors(root);
+    var fonts = getFonts(root);
     var content = {
       title: CONTENT.title,
       pillars: CONTENT.pillars.map(function (pillar) {
@@ -498,7 +510,7 @@
     svg.style.display = "block";
     svg.style.width = "100%";
     svg.style.height = "auto";
-    svg.style.fontFamily = '"DM Sans", "Segoe UI", system-ui, sans-serif';
+    svg.style.fontFamily = fonts.body;
     root.appendChild(svg);
 
     function pillarFor(key) {
@@ -521,7 +533,7 @@
       var wash = washOf(p.color, 0.07, theme.isDark);
       var w = PANEL_W;
 
-      var wrap = htmlEl("div", 'font-family:"DM Sans","Segoe UI",system-ui,sans-serif;');
+      var wrap = htmlEl("div", "font-family:" + fonts.body + ";");
 
       /* Seam-curved top edge. Same shape as the mark's own seam, at a
          gentle amplitude so a 332px card does not look corrugated. */
@@ -545,7 +557,7 @@
         : "padding:20px 22px 22px 20px;");
 
       var tagline = htmlEl("div",
-        'font-family:"DM Serif Display",Georgia,serif;font-size:19px;color:' + theme.ink + ";" +
+        "font-family:" + fonts.heading + ";font-weight:" + fonts.headingWeight + ";font-size:19px;color:" + theme.ink + ";" +
         "line-height:1.34;", p.tagline);
 
       var list = htmlEl("div", "display:flex;flex-direction:column;gap:7px;margin-top:18px;");
@@ -607,7 +619,7 @@
         var head = svgText({
           x: 54, y: 72,
           "font-size": 44,
-          "font-family": '"DM Serif Display", Georgia, serif',
+          "font-family": fonts.heading, "font-weight": fonts.headingWeight,
           fill: theme.ink
         }, content.title);
         bands.appendChild(head);
@@ -744,7 +756,7 @@
           x: PANEL_MARGIN,
           y: 72,
           "font-size": 44,
-          "font-family": '"DM Serif Display", Georgia, serif',
+          "font-family": fonts.heading, "font-weight": fonts.headingWeight,
           fill: theme.ink
         }, content.title));
       }
@@ -842,7 +854,7 @@
           x: 100,
           y: LABEL_Y[p.key] + 5,
           "text-anchor": "middle",
-          "font-family": '"DM Serif Display", Georgia, serif',
+          "font-family": fonts.heading, "font-weight": fonts.headingWeight,
           "font-size": 14,
           fill: "#FFFFFF",
           opacity: dim ? 0.4 : 1

@@ -1,5 +1,11 @@
 project:
   type: website
+  render:
+    - "*.qmd"
+    - "*.md"
+    # Hand-rolled reveal.js deck: nothing in it is a Quarto page, and its
+    # mock/ holds a Typst .qmd with its own extension that would break the build.
+    - "!talks/iat-statusseminar-2026/"
   resources:
     - references.bib
     # Linked from team-manual.qmd but not detected by Quarto (raw-HTML iframe,
@@ -7,6 +13,16 @@ project:
     - repo-structure/repo-structure.html
     - repo-structure/repo-structure.architecture.json
     - repo-structure/README.md
+    # IAT Statusseminar 2026 deck (talks/iat-statusseminar-2026/). Quarto won't
+    # walk a plain index.html to find its assets, so copy the deck verbatim.
+    # backend/ (separate Netlify site) and mock/ (screenshot source) are left out.
+    - talks/iat-statusseminar-2026/index.html
+    - talks/iat-statusseminar-2026/iat.html
+    - talks/iat-statusseminar-2026/quiz.html
+    - talks/iat-statusseminar-2026/css/**
+    - talks/iat-statusseminar-2026/js/**
+    - talks/iat-statusseminar-2026/assets/**
+    - talks/iat-statusseminar-2026/vendor/**
 website:
   favicon: assets/logos/dml-strata-deep-favicon.svg
   site-url: "https://iat-dml.github.io"

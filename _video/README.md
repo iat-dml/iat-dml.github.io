@@ -4,7 +4,7 @@ Two [Remotion](https://remotion.dev) videos that show the DML website itself,
 both built for use as full-bleed background video on a reveal.js slide:
 
 - **`DmlSiteTour`** — a 64-second guided tour of the site.
-- **`PolicyLabGuideTour`** — 26 seconds on the Policy Lab Guide tool alone, for
+- **`PolicyLabGuideTour`** — 38 seconds on the Policy Lab Guide tool alone, for
   the slide that is about that tool rather than about the site.
 
 It is *footage of the real site*, not a re-drawing of it: `capture/capture.mjs`
@@ -51,13 +51,20 @@ diagram during a scroll and does not stop on it.
 
 ## The Policy Lab Guide video
 
-780 frames — 26 seconds, full frame throughout, no browser chrome. There is no
+1140 frames — 38 seconds, full frame throughout, no browser chrome. There is no
 navigation to imply: the whole point is the tool.
 
 | Composition | Frames | Content |
 | --- | --- | --- |
-| `PolicyLabGuideTour` | 780 | The tool full frame: phase diagram, then the method library narrowing 14 methods to 2 |
-| `PolicyTool` | 780 | The same scene on its own, for iterating in Studio |
+| `PolicyLabGuideTour` | 1140 | The tool full frame: the phase diagram and one phase opened out, then the method library narrowing to two cards |
+| `PolicyTool` | 1140 | The same scene on its own, for iterating in Studio |
+
+Most of the running time is the concept diagram, because that is where the tool
+explains itself. Clicking a phase opens a panel, and the frame then pushes to
+zoom 1.6 with `focusX` 990 — the far right edge of what that zoom allows on a
+1600px capture — which holds the diagram, the context-layer tooltip listing its
+actors, and the phase panel's objectives and recommended methods on screen
+together, all readable.
 
 The site tour keeps the project page that embeds this tool — its camera drops
 onto the live embed and cuts away. The overlap is intentional: the tour shows

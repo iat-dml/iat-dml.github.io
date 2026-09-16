@@ -9,10 +9,18 @@ skills:
   - Team Leadership
   - System Design
 projects:
-  - title: "Living Lab Dashboards"
-    url: "/projects/living-lab-dashboards"
-  - title: "MonksHillLabs Initiative"
-    url: "/projects/monkshilllabs"
+  - title: "Living Lab Explorer"
+    url: "projects/living-lab-dashboards"
+  - title: "Workshop-Karten für die Living Labs"
+    url: "projects/living-labs-base-maps"
+  - title: "Leitfaden für Policy Labs"
+    url: "projects/policy-lab-guide"
+  - title: "MonksHillLab-Handbuch"
+    url: "projects/monkshilllabs"
+  - title: "Quarto-Workshop"
+    url: "projects/quarto-workshop"
+  - title: "IAT ZALF Templates"
+    url: "projects/zalf-iat-templates"
 description: "Ben is the head of our working group, responsible for overseeing all projects and ensuring successful delivery. With a strong background in software engineering and team leadership, Ben has been instrumental in driving innovation and fostering a collaborative work environment."
 links:
     - icon: envelope

@@ -49,4 +49,20 @@ Reveal.initialize({
   DeckDirector.init();
   DeckHandoff.init();
   DeckQuizCapture.init();
+
+  /* T flips between the DML and IAT themes. A reload rather than a live
+     swap: the strata diagram reads its colours and fonts once, at mount.
+     The hash keeps the current slide. */
+  Reveal.addKeyBinding(
+    { keyCode: 84, key: "T", description: "Switch theme (DML / IAT)" },
+    function () {
+      var url = new URL(window.location.href);
+      if (document.documentElement.getAttribute("data-theme") === "iat") {
+        url.searchParams.delete("theme");
+      } else {
+        url.searchParams.set("theme", "iat");
+      }
+      window.location.replace(url.href);
+    }
+  );
 });

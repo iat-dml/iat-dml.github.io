@@ -88,6 +88,11 @@
 .reveal-viewport:has(section.title-slide-block.present) .deck-logo,
 .reveal-viewport:has(section.is-dark.present) .deck-logo { opacity: 0; }
 
+/* Theme-specific markup: index.html carries both versions of anything
+   that differs between the DML and IAT themes (see css/theme-iat.css). */
+html:not([data-theme="iat"]) .theme-iat-only,
+html[data-theme="iat"] .theme-dml-only { display: none !important; }
+
 /* -- Lists, quotes, tables -------------------------------- */
 
 .reveal ul,
@@ -1451,6 +1456,34 @@
   font-size: 2em;
   margin: 0;
   max-width: 14em;
+  color: var(--brand-paper);
+}
+
+/* The deck's one QR code, to the public copy of these slides. A static
+   SVG (assets/qr-slides.svg) rather than one drawn from
+   window.location, so it is right when the deck runs from disk too.
+   The white quiet zone is part of the image -- scanners need it. */
+.reveal section.closing-slide .closing-qr {
+  margin: 1.6rem auto 0;
+  width: 190px;
+}
+
+.reveal section.closing-slide .closing-qr img {
+  display: block;
+  width: 100%;
+  height: auto;
+  margin: 0;
+  border-radius: 6px;
+}
+
+.reveal section.closing-slide .closing-qr figcaption {
+  margin-top: 0.5rem;
+  font-family: var(--font-body);
+  font-size: 0.42em;
+  font-weight: 700;
+  font-style: normal;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
   color: var(--brand-paper);
 }
 

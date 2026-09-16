@@ -1,33 +1,36 @@
-import {
-  AbsoluteFill,
-  Easing,
-  Interactive,
-  interpolate,
-  useCurrentFrame,
-} from "remotion";
+import { AbsoluteFill, Easing, interpolate, useCurrentFrame } from "remotion";
 import { Caption } from "../Caption";
 import { Cursor } from "../Cursor";
 import { PageShot } from "../PageShot";
-import { sans, serif } from "../fonts";
 
 /**
  * The Policy Lab Guide tool, full frame — the whole of PolicyLabGuideTour.
  *
- * Beat 1: the concept diagram of the Policy Lab phases. Click Co-Design, then
- *         pull back so the detail panels it opens are all on screen.
- * Beat 2: the method library, narrowing 14 methods to 2 as the phase, actor and
+ * Beat 1: the concept diagram of the Policy Lab phases, wide.
+ * Beat 2: click Co-Design, pull back so the panels it opens are all on screen,
+ *         then push into them. This is the long beat of the video: at zoom 1.6
+ *         the frame holds the diagram on the left, the context-layer tooltip
+ *         with its actors in the middle and the phase panel — objectives, then
+ *         recommended methods — on the right, which is the three things the
+ *         caption names, all readable at once.
+ * Beat 3: the method library, narrowing to two cards as the phase, actor and
  *         effort filters go on.
- * Beat 3: push into the two surviving method cards so their names are readable.
+ * Beat 4: push into the two surviving method cards so their names are readable.
  *
  * Layering: each captured state fades in on top of the previous one and stays,
  * so there is never a frame where two half-transparent shots let the background
  * through. Fades are only 6 frames because clicking a phase re-lays-out the
  * whole app — a slow cross-dissolve ghosts two different layouts over each other.
  *
- * Measured tool coordinates (1600 CSS-px viewport): tabs "Concept diagram"
- * (660,18) and "Method library" (811,18); phase Co-Design (836,412) 168x79;
- * filter chips Co-Design (28,243), Researchers (28,416), Low effort (28,523);
- * results count (1490,110) 74x22; method cards 300x192 at x316 and x632, y153.
+ * The cursor is hidden through beat 2's reading pause: it presses nothing there,
+ * and a pointer drifting over a panel is noise rather than direction.
+ *
+ * Measured tool coordinates (1600 CSS-px viewport, page 1050 tall in the
+ * diagram states): tabs "Concept diagram" (660,18) and "Method library"
+ * (811,18); phase Co-Design (836,412) 168x79 at rest, which the open panel
+ * shifts left to (603,412); the phase panel occupies x1142-1600; filter chips
+ * Co-Design (28,243), Researchers (28,416), Low effort (28,523); method cards
+ * 300x192 at x316 and x632, y153.
  */
 export const PolicyToolScene: React.FC = () => {
   const frame = useCurrentFrame();
@@ -35,13 +38,18 @@ export const PolicyToolScene: React.FC = () => {
   // Full-bleed, so the camera's viewport is the whole composition. zoom 1.2 is
   // the floor here, not a choice: the capture is 1600 CSS px wide, so anything
   // less than 1920/1600 leaves the frame edges uncovered.
+  //
+  // The panel beat's focusX of 990 is the far end of what zoom 1.6 allows: half
+  // a frame is 600 page px at that zoom, so 990 puts the right edge at page
+  // 1590, ten px inside the capture. Any further right and the frame runs off
+  // the shot.
   const camera = {
     viewportWidth: 1920,
     viewportHeight: 1080,
     zoom: interpolate(
       frame,
-      [0, 60, 110, 130, 180, 600, 720],
-      [1.2, 1.2, 1.55, 1.55, 1.2, 1.2, 2.0],
+      [0, 110, 170, 195, 245, 330, 400, 500, 560, 620, 955, 1075],
+      [1.2, 1.2, 1.55, 1.55, 1.2, 1.2, 1.6, 1.6, 1.6, 1.2, 1.2, 2.0],
       {
         extrapolateLeft: "clamp",
         extrapolateRight: "clamp",
@@ -50,8 +58,8 @@ export const PolicyToolScene: React.FC = () => {
     ),
     focusX: interpolate(
       frame,
-      [0, 60, 110, 130, 180, 600, 720],
-      [800, 800, 920, 920, 800, 800, 624],
+      [0, 110, 170, 195, 245, 330, 400, 500, 560, 620, 955, 1075],
+      [800, 800, 920, 920, 800, 800, 990, 990, 990, 800, 800, 624],
       {
         extrapolateLeft: "clamp",
         extrapolateRight: "clamp",
@@ -60,8 +68,12 @@ export const PolicyToolScene: React.FC = () => {
     ),
     focusY: interpolate(
       frame,
-      [0, 60, 110, 130, 180, 600, 720],
-      [450, 450, 548, 548, 450, 450, 285],
+      // At zoom 1.6 focusY is bounded to 337-712: below that the top of the app
+      // lifts clear of the frame, above it the bottom does. The 430-to-560
+      // drift walks down the panel's list of recommended methods inside that
+      // window.
+      [0, 110, 170, 195, 245, 330, 400, 500, 560, 620, 955, 1075],
+      [450, 450, 548, 548, 450, 450, 430, 430, 560, 450, 450, 285],
       {
         extrapolateLeft: "clamp",
         extrapolateRight: "clamp",
@@ -76,7 +88,7 @@ export const PolicyToolScene: React.FC = () => {
       <PageShot
         shot="policy-tool-diagram-active"
         camera={camera}
-        opacity={interpolate(frame, [146, 152], [0, 1], {
+        opacity={interpolate(frame, [206, 212], [0, 1], {
           extrapolateLeft: "clamp",
           extrapolateRight: "clamp",
         })}
@@ -84,7 +96,7 @@ export const PolicyToolScene: React.FC = () => {
       <PageShot
         shot="policy-tool-methods"
         camera={camera}
-        opacity={interpolate(frame, [290, 296], [0, 1], {
+        opacity={interpolate(frame, [645, 651], [0, 1], {
           extrapolateLeft: "clamp",
           extrapolateRight: "clamp",
         })}
@@ -92,7 +104,7 @@ export const PolicyToolScene: React.FC = () => {
       <PageShot
         shot="policy-tool-methods-f1"
         camera={camera}
-        opacity={interpolate(frame, [386, 392], [0, 1], {
+        opacity={interpolate(frame, [741, 747], [0, 1], {
           extrapolateLeft: "clamp",
           extrapolateRight: "clamp",
         })}
@@ -100,7 +112,7 @@ export const PolicyToolScene: React.FC = () => {
       <PageShot
         shot="policy-tool-methods-f2"
         camera={camera}
-        opacity={interpolate(frame, [446, 452], [0, 1], {
+        opacity={interpolate(frame, [801, 807], [0, 1], {
           extrapolateLeft: "clamp",
           extrapolateRight: "clamp",
         })}
@@ -108,123 +120,18 @@ export const PolicyToolScene: React.FC = () => {
       <PageShot
         shot="policy-tool-methods-f3"
         camera={camera}
-        opacity={interpolate(frame, [516, 522], [0, 1], {
+        opacity={interpolate(frame, [871, 877], [0, 1], {
           extrapolateLeft: "clamp",
           extrapolateRight: "clamp",
         })}
       />
 
-      {/* The tool's own results count renders at ~17px once the whole app is on
-          screen — too small to read from a room, so it gets a ring and a large
-          readout beside it. Positions assume the zoom-1.2 framing held from
-          frame 180 to 600, which is the only window these are visible in. */}
-      <Interactive.Div
-        name="Results count ring"
-        style={{
-          position: "absolute",
-          left: 1780,
-          top: 124,
-          width: 105,
-          height: 43,
-          border: "4px solid #B1BE4D",
-          borderRadius: 12,
-          opacity: interpolate(frame, [300, 318, 560, 585], [0, 1, 1, 0], {
-            extrapolateLeft: "clamp",
-            extrapolateRight: "clamp",
-            easing: Easing.bezier(0.16, 1, 0.3, 1),
-          }),
-        }}
-      />
-
-      <Interactive.Div
-        name="Count 14"
-        style={{
-          position: "absolute",
-          right: 35,
-          top: 186,
-          fontFamily: serif,
-          fontSize: 78,
-          color: "#356259",
-          textAlign: "right",
-          opacity: interpolate(frame, [300, 318, 386, 398], [0, 1, 1, 0], {
-            extrapolateLeft: "clamp",
-            extrapolateRight: "clamp",
-            easing: Easing.bezier(0.16, 1, 0.3, 1),
-          }),
-        }}
-      >
-        14 methods
-      </Interactive.Div>
-
-      <Interactive.Div
-        name="Count 5"
-        style={{
-          position: "absolute",
-          right: 35,
-          top: 186,
-          fontFamily: serif,
-          fontSize: 78,
-          color: "#356259",
-          textAlign: "right",
-          opacity: interpolate(frame, [386, 398, 516, 528], [0, 1, 1, 0], {
-            extrapolateLeft: "clamp",
-            extrapolateRight: "clamp",
-            easing: Easing.bezier(0.16, 1, 0.3, 1),
-          }),
-        }}
-      >
-        5 methods
-      </Interactive.Div>
-
-      <Interactive.Div
-        name="Count 2"
-        style={{
-          position: "absolute",
-          right: 35,
-          top: 186,
-          fontFamily: serif,
-          fontSize: 78,
-          color: "#A4713D",
-          textAlign: "right",
-          opacity: interpolate(frame, [516, 528, 560, 585], [0, 1, 1, 0], {
-            extrapolateLeft: "clamp",
-            extrapolateRight: "clamp",
-            easing: Easing.bezier(0.16, 1, 0.3, 1),
-          }),
-        }}
-      >
-        2 methods
-      </Interactive.Div>
-
-      <Interactive.Div
-        name="Count label"
-        style={{
-          position: "absolute",
-          right: 35,
-          top: 278,
-          fontFamily: sans,
-          fontSize: 27,
-          fontWeight: 600,
-          letterSpacing: 3,
-          textTransform: "uppercase",
-          color: "#6C6C6C",
-          textAlign: "right",
-          opacity: interpolate(frame, [310, 330, 560, 585], [0, 1, 1, 0], {
-            extrapolateLeft: "clamp",
-            extrapolateRight: "clamp",
-            easing: Easing.bezier(0.16, 1, 0.3, 1),
-          }),
-        }}
-      >
-        matching the filters
-      </Interactive.Div>
-
       <Cursor
         camera={camera}
         cssX={interpolate(
           frame,
-          [70, 110, 250, 285, 300, 380, 400, 440, 460, 512],
-          [1150, 920, 920, 876, 876, 76, 76, 73, 73, 67],
+          [120, 170, 275, 610, 640, 655, 735, 755, 795, 815, 867],
+          [1150, 920, 920, 876, 876, 876, 76, 76, 73, 73, 67],
           {
             extrapolateLeft: "clamp",
             extrapolateRight: "clamp",
@@ -233,8 +140,8 @@ export const PolicyToolScene: React.FC = () => {
         )}
         cssY={interpolate(
           frame,
-          [70, 110, 250, 285, 300, 380, 400, 440, 460, 512],
-          [700, 451, 451, 34, 34, 257, 257, 430, 430, 537],
+          [120, 170, 275, 610, 640, 655, 735, 755, 795, 815, 867],
+          [700, 451, 451, 120, 34, 34, 257, 257, 430, 430, 537],
           {
             extrapolateLeft: "clamp",
             extrapolateRight: "clamp",
@@ -243,54 +150,73 @@ export const PolicyToolScene: React.FC = () => {
         )}
         click={interpolate(
           frame,
-          [130, 148, 149, 285, 303, 304, 385, 403, 404, 445, 463, 464, 515, 533],
+          [190, 208, 209, 640, 658, 659, 740, 758, 759, 800, 818, 819, 870, 888],
           [0, 1, 0, 0, 1, 0, 0, 1, 0, 0, 1, 0, 0, 1],
           { extrapolateLeft: "clamp", extrapolateRight: "clamp" },
         )}
-        opacity={interpolate(frame, [60, 80, 530, 556], [0, 1, 1, 0], {
-          extrapolateLeft: "clamp",
-          extrapolateRight: "clamp",
-        })}
+        // Off through beat 2's reading pause between the phase click and the tab
+        // click — there is nothing for it to point at in between.
+        opacity={interpolate(
+          frame,
+          [110, 130, 250, 275, 590, 610, 885, 911],
+          [0, 1, 1, 0, 0, 1, 1, 0],
+          { extrapolateLeft: "clamp", extrapolateRight: "clamp" },
+        )}
       />
 
       <Caption
-        opacity={interpolate(frame, [10, 32, 104, 126], [0, 1, 1, 0], {
+        // Two lines at 36px, so it is lifted clear of the frame edge: the pill
+        // is anchored at y986 and a second line would otherwise run past 1080.
+        translateY={-46}
+        opacity={interpolate(frame, [10, 34, 180, 202], [0, 1, 1, 0], {
           extrapolateLeft: "clamp",
           extrapolateRight: "clamp",
           easing: Easing.bezier(0.16, 1, 0.3, 1),
         })}
       >
-        Policy Lab Guide — the tool embedded in its project page
+        A living document to guide researchers in establishing policy labs within
+        Agricultural Living Labs.
       </Caption>
 
       <Caption
-        opacity={interpolate(frame, [136, 158, 242, 262], [0, 1, 1, 0], {
+        opacity={interpolate(frame, [212, 234, 330, 352], [0, 1, 1, 0], {
           extrapolateLeft: "clamp",
           extrapolateRight: "clamp",
           easing: Easing.bezier(0.16, 1, 0.3, 1),
         })}
       >
-        Two ways in — a concept diagram of the Policy Lab phases…
+        Two different 'views': a concept diagram of the Policy Lab phases…
       </Caption>
 
       <Caption
-        opacity={interpolate(frame, [272, 294, 578, 600], [0, 1, 1, 0], {
+        opacity={interpolate(frame, [380, 402, 566, 588], [0, 1, 1, 0], {
           extrapolateLeft: "clamp",
           extrapolateRight: "clamp",
           easing: Easing.bezier(0.16, 1, 0.3, 1),
         })}
       >
-        …and a method library, filtered by phase, actor, effort and skill
+        Explore the goals of each phase, the typical actors involved and
+        applicable methods
       </Caption>
 
       <Caption
-        opacity={interpolate(frame, [616, 638], [0, 1], {
+        opacity={interpolate(frame, [600, 622, 933, 955], [0, 1, 1, 0], {
           extrapolateLeft: "clamp",
           extrapolateRight: "clamp",
           easing: Easing.bezier(0.16, 1, 0.3, 1),
         })}
       >
-        Two methods match: Co-Design · Researchers · Low effort
+        …and a method library, filterable by phase, actor, effort and skill
+      </Caption>
+
+      <Caption
+        opacity={interpolate(frame, [971, 993], [0, 1], {
+          extrapolateLeft: "clamp",
+          extrapolateRight: "clamp",
+          easing: Easing.bezier(0.16, 1, 0.3, 1),
+        })}
+      >
+        We plan to expand the methods library with additions from the IAT community
       </Caption>
     </AbsoluteFill>
   );

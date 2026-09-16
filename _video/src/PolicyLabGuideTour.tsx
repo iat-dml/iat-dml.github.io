@@ -2,7 +2,7 @@ import { Series } from "remotion";
 import { PolicyToolScene } from "./scenes/PolicyToolScene";
 
 /**
- * 780 frames at 30fps — 26 seconds. The Policy Lab Guide tool on its own,
+ * 1140 frames at 30fps — 38 seconds. The Policy Lab Guide tool on its own,
  * lifted out of the site tour so it can carry its own slide.
  *
  * Full frame throughout: no browser chrome, because there is no navigation to
@@ -20,7 +20,7 @@ import { PolicyToolScene } from "./scenes/PolicyToolScene";
 export const PolicyLabGuideTour: React.FC = () => {
   return (
     <Series>
-      <Series.Sequence durationInFrames={780} name="Policy Lab tool">
+      <Series.Sequence durationInFrames={1140} name="Policy Lab tool">
         <PolicyToolScene />
       </Series.Sequence>
     </Series>

@@ -25,7 +25,34 @@ they still draw their question, their empty bars and a QR code, so the deck neve
 -- the code just points somewhere that is not serving.
 
 Keys: arrows or space to advance, `S` for speaker view with notes, `F` for fullscreen,
-`ESC` for the slide overview.
+`ESC` for the slide overview, `T` to switch theme.
+
+### Two designs: DML and IAT
+
+The deck comes in two skins over the same slides:
+
+| Version | Open | Look |
+|---|---|---|
+| DML (default) | `index.html` | DML group branding: paper ground, DM Sans / DM Serif Display, olive accents |
+| IAT-ZALF | `iat.html`, or `index.html?theme=iat` | IAT corporate design: white ground, Segoe UI, the IAT green hero gradient, ZALF green accents |
+
+`iat.html` is not a copy — it redirects to `index.html?theme=iat`, keeping any `#/n` slide
+hash, so the two can never drift apart. `T` flips between them on the current slide (it
+reloads, because the diagram reads its colours and fonts once). PDF export works the same
+way: `index.html?theme=iat&print-pdf`.
+
+The IAT title slide follows the [iat Quarto extension](C:/git/templates/iat-revealjs):
+white header with the institution and logos, the green hero block, the partner and funder
+footer. The DML mark sits in the header beside the ZALF-IAT logo rather than on the green.
+Every other slide keeps its layout and only takes the IAT palette and type — the
+extension's teal banner across the top of each slide is deliberately not used.
+
+How it works: a snippet at the top of `index.html` sets `data-theme="iat"` on `<html>`, and
+`css/theme-iat.css` — every rule scoped to that attribute — overrides the tokens in
+`css/brand.css` plus the handful of places that differ. Markup that differs between the
+two (the title slide's header and footer, the corner logo) is written out twice with
+`theme-dml-only` / `theme-iat-only`. The IAT assets are copies of the extension's, in
+`assets/iat/`. `quiz.html` stays DML-styled in both versions.
 
 ## How it is built
 
@@ -37,7 +64,9 @@ imperatively.
 
 ```
 index.html          slides; the deck is authored here
+iat.html            opens index.html in the IAT-ZALF theme
 css/brand.css       brand tokens, ported from the dml Quarto extension's _brand.yml
+css/theme-iat.css   the IAT-ZALF theme, applied under ?theme=iat
 css/deck.css        typography and slide styling, plain-CSS port of its custom.scss
 css/stage.css       the persistent diagram layer and its layout states
 js/strata-diagram.js  the diagram, refactored from the website's dml-concept-diagram.js
@@ -309,6 +338,10 @@ Copy this folder into `iat-dml.github.io` and let Pages serve it. Two things to 
   `iat-dml.github.io/talks/statusseminar-2026/`. Nothing needs configuring: the QR code is
   built from `window.location`, so it resolves `quiz.html` against wherever the deck
   actually is.
+- **The closing slide's QR code is static.** `assets/qr-slides.svg` encodes
+  `https://iat-dml.github.io/talks/iat-statusseminar-2026/` so it is right even when the
+  deck runs from disk. If the folder moves, regenerate it, e.g.
+  `python -c "import segno; segno.make('<new url>', error='m').save('assets/qr-slides.svg', scale=1, border=2, dark='#1f3a35')"`.
 
 ### Checking it worked
 

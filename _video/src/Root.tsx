@@ -21,7 +21,7 @@ export const Root: React.FC = () => {
       <Composition
         id="PolicyLabGuideTour"
         component={PolicyLabGuideTour}
-        durationInFrames={780}
+        durationInFrames={1140}
         fps={30}
         width={1920}
         height={1080}
@@ -46,7 +46,7 @@ export const Root: React.FC = () => {
         <Composition
           id="PolicyTool"
           component={PolicyToolScene}
-          durationInFrames={780}
+          durationInFrames={1140}
           fps={30}
           width={1920}
           height={1080}
