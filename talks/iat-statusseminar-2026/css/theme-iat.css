@@ -1,0 +1,234 @@
+/* ============================================================
+   IAT-ZALF theme.
+
+   The corporate-design skin of this deck, loaded always but scoped to
+   html[data-theme="iat"] -- set by the snippet at the top of index.html
+   from `?theme=iat`. Without that attribute nothing here applies and the
+   deck is the DML design.
+
+   Ported from the iat Quarto revealjs extension
+   (C:\git\templates\iat-revealjs\_extensions\iat): its _brand.yml for
+   colour and type, its title-slide.html and custom.scss for the title
+   slide. Its teal banner on every other slide is deliberately NOT
+   carried over -- the body slides keep this deck's uncluttered layouts
+   and only take the IAT palette and type:
+
+     - white ground instead of DML paper
+     - Segoe UI throughout, headings semibold, instead of DM Sans /
+       DM Serif Display
+     - the IAT hero's green-to-slate gradient on every dark slide
+     - ZALF green where DML uses olive as the accent
+
+   The strata colours are unchanged: the IAT brand palette already
+   carries support/transfer/integration under the same values.
+   Assets are copies of the extension's, in assets/iat/.
+   ============================================================ */
+
+html[data-theme="iat"] {
+  /* Sampled from assets/iat/title-background-block.png, left to right. */
+  --iat-deep:       #326158;
+  --iat-deep-mid:   #35554D;
+  --iat-deep-end:   #39463E;
+  --iat-gradient:   linear-gradient(90deg, var(--iat-deep) 0%, var(--iat-deep-mid) 50%, var(--iat-deep-end) 100%);
+  --iat-ink:        #111111;
+
+  --brand-paper:      #FFFFFF;
+  --brand-gray-light: #F0F0F0;
+
+  --font-body:    "Segoe UI", system-ui, "Helvetica Neue", Arial, sans-serif;
+  --font-heading: "Segoe UI", system-ui, "Helvetica Neue", Arial, sans-serif;
+  --font-heading-weight: 600;
+
+  --deck-bg: #FFFFFF;
+  /* Keep equal to --deck-bg; see the note in css/brand.css. */
+  --r-background-color: #FFFFFF;
+}
+
+/* -- Type ------------------------------------------------- */
+/* Segoe at the DML serif's sizes reads a size larger, so the headings
+   step down slightly and tighten. */
+
+html[data-theme="iat"] .reveal h1,
+html[data-theme="iat"] .reveal h2,
+html[data-theme="iat"] .reveal h3,
+html[data-theme="iat"] .reveal h4,
+html[data-theme="iat"] .reveal h5,
+html[data-theme="iat"] .reveal h6 {
+  font-weight: 600;
+  letter-spacing: -0.005em;
+}
+
+html[data-theme="iat"] .reveal h2 { font-size: 1.28em; }
+html[data-theme="iat"] .reveal section.project h2 { font-size: 1.05em; }
+html[data-theme="iat"] .reveal section.intro-slide .intro-name { font-size: 1.8em; }
+html[data-theme="iat"] .reveal section.divider h1 { font-size: 2.3em; }
+html[data-theme="iat"] .reveal section.closing-slide h1 { font-size: 1.8em; }
+
+html[data-theme="iat"] .reveal section.mission-slide .mission-statement {
+  font-weight: 600;
+  font-size: 1.4em;
+  line-height: 1.3;
+}
+
+html[data-theme="iat"] .reveal .team-grid--slide .listing-title {
+  font-weight: 600;
+  font-size: 0.8em;
+}
+
+html[data-theme="iat"] .strata-bands__title { font-weight: 600; font-size: 22px; }
+
+html[data-theme="iat"] .reveal section.quiz-slide {
+  --sq-heading-font-weight: 600;
+}
+
+/* -- Dark slides ------------------------------------------ */
+/* reveal copies each section's classes onto its .slide-background, so
+   every .is-dark slide (mission, dividers, close) picks up the IAT hero
+   gradient over whatever data-background-color the markup sets. */
+
+html[data-theme="iat"] .reveal .slide-background.is-dark .slide-background-content {
+  background-image: var(--iat-gradient);
+}
+
+/* Olive is a DML accent. On the IAT ground the accent is ZALF green --
+   light green where it is small type on the dark gradient, because the
+   full-strength green only reaches ~2.3:1 there. */
+html[data-theme="iat"] .reveal section.mission-slide .mission-eyebrow { color: var(--brand-green-light); }
+html[data-theme="iat"] .reveal section.mission-slide .mission-rule,
+html[data-theme="iat"] .reveal section.intro-slide .intro-rule { background: var(--brand-green); }
+
+/* A white pill, not a green one: neither teal nor white text clears
+   3:1 on ZALF green. */
+html[data-theme="iat"] .reveal section.closing-slide .closing-pill.is-filled {
+  background: var(--brand-white);
+  border-color: var(--brand-white);
+  color: var(--iat-deep);
+}
+
+html[data-theme="iat"] .reveal section.closing-slide .closing-footnote { color: rgba(255, 255, 255, 0.55); }
+
+/* -- Surfaces --------------------------------------------- */
+/* The DML warm off-whites become neutral on a white ground. */
+
+html[data-theme="iat"] .reveal .team-grid--slide { --team-card-bg: #FFFFFF; }
+
+html[data-theme="iat"] .reveal section.project .project-media.tpl-ground {
+  background: linear-gradient(148deg, #FAFAFA 0%, #F2F2F2 58%, #E6E6E6 100%);
+}
+
+/* The corner mark is the ZALF-IAT logo; it is squarer than the DML
+   disc, so a touch smaller and at full strength. */
+html[data-theme="iat"] .deck-logo { height: 40px; opacity: 1; }
+
+/* ...which also means it would sit on a fullscreen video's controls. */
+html[data-theme="iat"] .reveal-viewport:has(section.video-slide.present) .deck-logo { opacity: 0; }
+
+/* -- Title slide ------------------------------------------ */
+/* The IAT extension's title slide at 1280x720: white header with the
+   institution left and the logos right, the green hero block at the
+   template's own 721:221 aspect, partner and funder footer below. The
+   DML mark sits in the header lockup beside the ZALF-IAT logo rather
+   than on the green, and the hero's right half stays empty. */
+
+html[data-theme="iat"] .reveal section.title-slide-block {
+  background: var(--brand-white);
+  color: var(--iat-ink);
+}
+
+html[data-theme="iat"] .title-slide__header {
+  flex: 0 0 auto;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  gap: 2rem;
+  height: 152px;
+  box-sizing: border-box;
+  padding: 0 44px;
+}
+
+html[data-theme="iat"] .title-slide__institution {
+  font-family: var(--font-body);
+  font-size: 26px;
+  font-weight: 400;
+  line-height: 1.2;
+  color: var(--iat-ink);
+}
+
+html[data-theme="iat"] .title-slide__logos {
+  display: flex;
+  align-items: center;
+  gap: 22px;
+  flex: none;
+}
+
+html[data-theme="iat"] .reveal section.title-slide-block .title-slide__logos img {
+  display: block;
+  width: auto;
+  margin: 0;
+  border-radius: 0;
+}
+
+html[data-theme="iat"] .reveal section.title-slide-block .title-slide__logo-dml { height: 74px; }
+html[data-theme="iat"] .reveal section.title-slide-block .title-slide__logo-iat { height: 88px; }
+
+html[data-theme="iat"] .title-slide__logo-divider {
+  width: 1px;
+  height: 64px;
+  background: rgba(70, 85, 85, 0.25);
+}
+
+html[data-theme="iat"] .title-slide__hero {
+  flex: 0 0 auto;
+  grid-template-columns: minmax(0, 3fr) minmax(0, 2fr);
+  gap: 0;
+  aspect-ratio: 721 / 221;
+  padding: 0;
+  background: url("../assets/iat/title-background-block.png") center / 100% 100% no-repeat,
+              var(--iat-gradient);
+}
+
+html[data-theme="iat"] .title-slide__panel {
+  align-self: stretch;
+  padding: 0 0 0 44px;
+}
+
+html[data-theme="iat"] .reveal section.title-slide-block .title {
+  font-family: var(--font-heading);
+  font-weight: 700;
+  font-size: 50px;
+  line-height: 1.1;
+  letter-spacing: -0.005em;
+  color: var(--brand-white);
+  max-width: none;
+}
+
+html[data-theme="iat"] .title-slide__subtitle {
+  margin-top: 14px;
+  font-size: 26px;
+  color: rgba(255, 255, 255, 0.92);
+  opacity: 1;
+}
+
+html[data-theme="iat"] .title-slide__authors {
+  margin-top: 26px;
+  font-size: 22px;
+  font-weight: 600;
+  color: var(--brand-white);
+}
+
+html[data-theme="iat"] .title-slide__date {
+  margin-top: 6px;
+  font-size: 18px;
+  font-weight: 400;
+  letter-spacing: 0;
+  text-transform: none;
+  color: rgba(255, 255, 255, 0.85);
+}
+
+html[data-theme="iat"] .title-slide__footer-band {
+  display: flex;
+  align-items: center;
+  flex: 1 1 auto;
+  box-sizing: border-box;
+  padding: 0 34px;
+}

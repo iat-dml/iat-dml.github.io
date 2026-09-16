@@ -6,8 +6,9 @@
     ]
   },
   {
-    "listing": "/projects.html",
+    "listing": "/index.html",
     "items": [
+      "/news/2026-03-fairagro-summit.html",
       "/projects/living-labs-base-maps.html",
       "/projects/quarto-workshop.html",
       "/projects/living-lab-dashboards.html",
@@ -17,9 +18,8 @@
     ]
   },
   {
-    "listing": "/index.html",
+    "listing": "/projects.html",
     "items": [
-      "/news/2026-03-fairagro-summit.html",
       "/projects/living-labs-base-maps.html",
       "/projects/quarto-workshop.html",
       "/projects/living-lab-dashboards.html",

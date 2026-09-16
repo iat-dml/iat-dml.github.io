@@ -1,0 +1,527 @@
+{
+  "schema_version": 1,
+  "diagram_type": "architecture",
+  "meta": {
+    "title": "DML repositories and how they connect",
+    "quality_profile": "showcase",
+    "viewBox": [
+      1380,
+      570
+    ],
+    "views": [
+      {
+        "id": "intake",
+        "label": "How a request arrives",
+        "focus": [
+          "form",
+          "mail",
+          "ghform",
+          "pa",
+          "sd",
+          "teams"
+        ],
+        "note": "Three intake channels converge on one issue in service-desk."
+      },
+      {
+        "id": "service",
+        "label": "Working a request",
+        "focus": [
+          "sd",
+          "srv",
+          "pub",
+          "web"
+        ],
+        "note": "An accepted request gets its own repo; the publisher drafts the public pages."
+      },
+      {
+        "id": "documents",
+        "label": "Documents and branding",
+        "focus": [
+          "brand",
+          "tpl",
+          "train",
+          "pm",
+          "km"
+        ],
+        "note": "Branding feeds templates, templates produce documents, knowledge-management holds them."
+      },
+      {
+        "id": "publishing",
+        "label": "Where it ends up",
+        "focus": [
+          "km",
+          "web",
+          "pages",
+          "zen"
+        ],
+        "note": "Automated publication to GitHub Pages and archiving to Zenodo."
+      }
+    ],
+    "visual_preset": "editorial",
+    "animation": "trace"
+  },
+  "components": [
+    {
+      "id": "teams",
+      "type": "external",
+      "label": "Microsoft Teams",
+      "sublabel": "service-requests channel",
+      "pos": [
+        295,
+        60
+      ],
+      "size": [
+        190,
+        56
+      ]
+    },
+    {
+      "id": "srv",
+      "type": "backend",
+      "label": "service repos",
+      "sublabel": "one per request",
+      "pos": [
+        565,
+        60
+      ],
+      "size": [
+        190,
+        56
+      ]
+    },
+    {
+      "id": "pub",
+      "type": "backend",
+      "label": "dml-content-publisher",
+      "sublabel": "AI authoring skill",
+      "pos": [
+        835,
+        60
+      ],
+      "size": [
+        190,
+        56
+      ]
+    },
+    {
+      "id": "pages",
+      "type": "cloud",
+      "label": "GitHub Pages",
+      "sublabel": "published site",
+      "pos": [
+        1105,
+        60
+      ],
+      "size": [
+        190,
+        56
+      ]
+    },
+    {
+      "id": "form",
+      "type": "external",
+      "label": "DML service request",
+      "sublabel": "Microsoft Form",
+      "pos": [
+        25,
+        160
+      ],
+      "size": [
+        190,
+        56
+      ]
+    },
+    {
+      "id": "pa",
+      "type": "messagebus",
+      "label": "Power Automate",
+      "sublabel": "intake flows",
+      "pos": [
+        295,
+        160
+      ],
+      "size": [
+        190,
+        56
+      ]
+    },
+    {
+      "id": "sd",
+      "type": "backend",
+      "label": "service-desk",
+      "sublabel": "one issue per request",
+      "pos": [
+        565,
+        160
+      ],
+      "size": [
+        190,
+        56
+      ]
+    },
+    {
+      "id": "web",
+      "type": "frontend",
+      "label": "iat-dml.github.io",
+      "sublabel": "the website",
+      "pos": [
+        1105,
+        160
+      ],
+      "size": [
+        190,
+        56
+      ]
+    },
+    {
+      "id": "mail",
+      "type": "external",
+      "label": "iat-dml@zalf.de",
+      "sublabel": "shared mailbox",
+      "pos": [
+        25,
+        260
+      ],
+      "size": [
+        190,
+        56
+      ]
+    },
+    {
+      "id": "brand",
+      "type": "backend",
+      "label": "dml-brand-yml",
+      "sublabel": "colours, fonts, logos",
+      "pos": [
+        295,
+        360
+      ],
+      "size": [
+        190,
+        56
+      ]
+    },
+    {
+      "id": "tpl",
+      "type": "backend",
+      "label": "templates",
+      "sublabel": "branded document templates",
+      "pos": [
+        565,
+        360
+      ],
+      "size": [
+        190,
+        56
+      ]
+    },
+    {
+      "id": "km",
+      "type": "database",
+      "label": "knowledge-management",
+      "sublabel": "source of truth for documents",
+      "pos": [
+        835,
+        360
+      ],
+      "size": [
+        190,
+        56
+      ]
+    },
+    {
+      "id": "zen",
+      "type": "cloud",
+      "label": "Zenodo",
+      "sublabel": "citable DOI",
+      "pos": [
+        1105,
+        360
+      ],
+      "size": [
+        190,
+        56
+      ]
+    },
+    {
+      "id": "ghform",
+      "type": "external",
+      "label": "GitHub issue form",
+      "sublabel": "issue template",
+      "pos": [
+        25,
+        460
+      ],
+      "size": [
+        190,
+        56
+      ]
+    },
+    {
+      "id": "train",
+      "type": "backend",
+      "label": "training",
+      "sublabel": "educational materials",
+      "pos": [
+        565,
+        460
+      ],
+      "size": [
+        190,
+        56
+      ]
+    },
+    {
+      "id": "pm",
+      "type": "backend",
+      "label": "project-management",
+      "sublabel": "internal planning, private",
+      "pos": [
+        835,
+        460
+      ],
+      "size": [
+        190,
+        56
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "id": "web-embeds-form",
+      "from": "web",
+      "to": "form",
+      "label": "embeds the form",
+      "fromSide": "right",
+      "toSide": "top",
+      "via": [
+        [
+          1330,
+          188
+        ],
+        [
+          1330,
+          25
+        ],
+        [
+          120,
+          25
+        ]
+      ],
+      "labelSegment": 2
+    },
+    {
+      "id": "form-to-pa",
+      "from": "form",
+      "to": "pa",
+      "label": "submission",
+      "fromSide": "right",
+      "toSide": "left"
+    },
+    {
+      "id": "mail-to-pa",
+      "from": "mail",
+      "to": "pa",
+      "label": "new message",
+      "fromSide": "right",
+      "toSide": "bottom",
+      "via": [
+        [
+          390,
+          288
+        ]
+      ]
+    },
+    {
+      "id": "pa-notifies",
+      "from": "pa",
+      "to": "teams",
+      "label": "notifies",
+      "variant": "dashed",
+      "fromSide": "top",
+      "toSide": "bottom"
+    },
+    {
+      "id": "pa-creates-issue",
+      "from": "pa",
+      "to": "sd",
+      "label": "creates issue",
+      "variant": "dashed",
+      "fromSide": "right",
+      "toSide": "left"
+    },
+    {
+      "id": "ghform-to-sd",
+      "from": "ghform",
+      "to": "sd",
+      "label": "opens issue",
+      "fromSide": "right",
+      "toSide": "bottom",
+      "via": [
+        [
+          250,
+          488
+        ],
+        [
+          250,
+          300
+        ],
+        [
+          660,
+          300
+        ]
+      ],
+      "labelSegment": 2
+    },
+    {
+      "id": "sd-to-srv",
+      "from": "sd",
+      "to": "srv",
+      "label": "gets its own repo",
+      "variant": "emphasis",
+      "fromSide": "top",
+      "toSide": "bottom"
+    },
+    {
+      "id": "sd-to-pub",
+      "from": "sd",
+      "to": "pub",
+      "label": "request context",
+      "fromSide": "right",
+      "toSide": "bottom",
+      "via": [
+        [
+          930,
+          188
+        ]
+      ]
+    },
+    {
+      "id": "srv-to-pub",
+      "from": "srv",
+      "to": "pub",
+      "label": "work to publish",
+      "fromSide": "right",
+      "toSide": "left"
+    },
+    {
+      "id": "pub-to-web",
+      "from": "pub",
+      "to": "web",
+      "label": "drafts pages, via PR",
+      "variant": "dashed",
+      "fromSide": "right",
+      "toSide": "left",
+      "via": [
+        [
+          1065,
+          88
+        ],
+        [
+          1065,
+          188
+        ]
+      ]
+    },
+    {
+      "id": "web-to-pages",
+      "from": "web",
+      "to": "pages",
+      "label": "publish.yml, babelquarto",
+      "variant": "dashed",
+      "fromSide": "top",
+      "toSide": "bottom"
+    },
+    {
+      "id": "brand-to-web",
+      "from": "brand",
+      "to": "web",
+      "label": "branding",
+      "fromSide": "top",
+      "labelDx": -300
+    },
+    {
+      "id": "km-to-web",
+      "from": "km",
+      "to": "web",
+      "label": "pull-docs, nightly",
+      "variant": "dashed",
+      "fromSide": "top"
+    },
+    {
+      "id": "km-to-zen",
+      "from": "km",
+      "to": "zen",
+      "label": "zenodo-publish.yml",
+      "variant": "dashed",
+      "fromSide": "right",
+      "toSide": "left",
+      "labelDy": 52
+    },
+    {
+      "id": "brand-to-tpl",
+      "from": "brand",
+      "to": "tpl",
+      "label": "branding",
+      "fromSide": "right",
+      "toSide": "left"
+    },
+    {
+      "id": "tpl-to-km",
+      "from": "tpl",
+      "to": "km",
+      "label": "agendas, minutes, reports",
+      "fromSide": "right",
+      "toSide": "left",
+      "labelDy": -50,
+      "labelDx": 0
+    },
+    {
+      "id": "tpl-to-train",
+      "from": "tpl",
+      "to": "train",
+      "label": "slides, handouts",
+      "fromSide": "bottom",
+      "toSide": "top",
+      "labelDy": 24
+    },
+    {
+      "id": "pm-to-km",
+      "from": "pm",
+      "to": "km",
+      "label": "plans our own work",
+      "fromSide": "top",
+      "toSide": "bottom"
+    }
+  ],
+  "cards": [
+    {
+      "dot": "cyan",
+      "title": "Intake",
+      "items": [
+        "Form, mailbox and GitHub issue form all become one service-desk issue"
+      ]
+    },
+    {
+      "dot": "emerald",
+      "title": "Doing the work",
+      "items": [
+        "Each request gets its own repo; the publisher drafts pages as pull requests"
+      ]
+    },
+    {
+      "dot": "violet",
+      "title": "Documents",
+      "items": [
+        "Branding feeds templates; knowledge-management is the source of truth"
+      ]
+    },
+    {
+      "dot": "amber",
+      "title": "Publication",
+      "items": [
+        "Nightly pull to the website, GitHub Pages build, Zenodo DOI"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,220 @@
+/* ============================================================
+   The stage — a persistent layer holding the strata diagram.
+
+   The diagram lives OUTSIDE .slides so it survives slide changes.
+   That is the whole point: it can shrink, travel and fade as one
+   continuous motion across slide boundaries instead of being
+   torn down and rebuilt per slide.
+
+   Alignment: reveal 5.x publishes --slide-width, --slide-height and
+   --slide-scale on .reveal-viewport, and positions .slides with
+   `left:50%; top:50%; transform: translate(-50%,-50%) scale(N)`.
+   Mirroring those three variables reproduces that transform exactly,
+   so the stage stays registered with slide content at every viewport
+   size with no JS and no resize handler.
+   ============================================================ */
+
+#stage {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  width: var(--slide-width, 1280px);
+  height: var(--slide-height, 720px);
+  transform: translate(-50%, -50%) scale(var(--slide-scale, 1));
+  transform-origin: 50% 50%;
+
+  /* Above the slide-background layer (z-index 1), below slide content
+     (.slides is z-index 1 in the same stacking context but comes later
+     in the DOM, so an explicit order is set in deck.css). */
+  z-index: 1;
+  pointer-events: none;
+  overflow: visible;
+}
+
+/* Slide content always wins an overlap with the diagram. */
+.reveal .slides { z-index: 2; }
+
+/* ------------------------------------------------------------
+   The diagram itself.
+
+   #strata is a 1260x720 box matching the diagram's viewBox, with
+   transform-origin at its top-left so each layout below is a plain
+   `translate(Tx, Ty) scale(s)` and the arithmetic stays legible:
+   a point (px, py) in diagram coordinates lands at
+   (Tx + s*px, Ty + s*py) on the 1280x720 slide.
+
+   The disc sits centred on (630, 372) in diagram coordinates. Its box
+   is 440 wide there at every layout but the panel variant's "full",
+   where js/strata-diagram.js draws it at 550 (FULL_MARK_SCALE) so the
+   overview matches the horizon variant. Rendered size is that box * s.
+   ------------------------------------------------------------ */
+
+#strata {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 1260px;
+  height: 720px;
+  transform-origin: 0 0;
+  pointer-events: none;
+  will-change: transform, opacity;
+  transition:
+    transform 0.7s cubic-bezier(0.45, 0.05, 0.2, 1),
+    opacity   0.4s ease;
+}
+
+#strata svg { display: block; width: 100%; height: auto; }
+
+/* Respect a reduced-motion preference: state still changes, it just
+   does not travel. */
+@media (prefers-reduced-motion: reduce) {
+  #strata { transition: opacity 0.2s ease; }
+}
+
+/* Invisible fragment markers. They carry data-strata-* for the director
+   and must never affect slide layout. */
+.reveal .strata-step {
+  position: absolute;
+  width: 0;
+  height: 0;
+  overflow: hidden;
+}
+
+/* -- Layout: full ------------------------------------------ */
+/* Centred at s=1, so the diagram's own coordinates are slide pixels.
+   The only layout that shows the header, caption and detail panel.
+   The mark is drawn at 550px in those coordinates, which puts its box
+   at (365, 97) - exactly where the horizon variant below puts it, so
+   switching variant moves the chrome and not the mark. */
+#stage[data-layout="full"] #strata {
+  transform: translate(10px, 0) scale(1);
+}
+
+/* -- Layout: aside ----------------------------------------- */
+/* Parked left so a project slide's media column (right 54%) is clear.
+   s = 550/440 = 1.25 -> disc diameter 550px, centre (300, 360).
+   The circle inside is 76% of that box, so it renders 418px across and
+   still clears the media column, which starts at 46% (589px). */
+#stage[data-layout="aside"] #strata {
+  transform: translate(-487.5px, -105px) scale(1.25);
+}
+
+/* Parked right, mirrored about the slide centre: disc centre (980, 360).
+   Transfer's project slides use this, so their content sits left and
+   breaks up a run of otherwise identical layouts. Same scale, so moving
+   between the two parks is a pure translate. */
+#stage[data-layout="aside"][data-park="right"] #strata {
+  transform: translate(192.5px, -105px) scale(1.25);
+}
+
+/* -- Layout: corner ---------------------------------------- */
+/* A small locator while other content holds the slide.
+   s = 150/440 = 0.341 -> disc diameter 150px, centre (140, 580). */
+#stage[data-layout="corner"] #strata {
+  transform: translate(-75px, 453px) scale(0.341);
+}
+
+/* -- Variant: horizon -------------------------------------- */
+/* The mark is drawn at 550px here, the same size it is at "aside", so
+   between the overview and a project slide it travels without also
+   resizing. 365 = -147.5 + 1.25 * 410 puts its box at (365, 97). */
+#stage[data-variant="horizon"][data-layout="full"] #strata {
+  transform: translate(-147.5px, -93px) scale(1.25);
+}
+
+/* ------------------------------------------------------------
+   The band layer.
+
+   Deliberately NOT transformed: the bands run the full width of the
+   slide, so they are authored in slide coordinates. Keeping them out
+   of #strata's transform is what lets the mark travel and the bands
+   swap independently of each other.
+   ------------------------------------------------------------ */
+
+#strata-bands {
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+  opacity: 1;
+  transition: opacity 0.4s ease;
+}
+
+#stage[data-visible="false"] #strata-bands,
+#stage:not([data-variant="horizon"]) #strata-bands { opacity: 0; }
+
+/* Below the mark, which is painted over the seams it continues. */
+#strata-bands { z-index: 0; }
+#strata { z-index: 1; }
+
+/* The profile fades in when a stratum is first made active, and again
+   as the active band moves, which reads as the section re-cutting
+   rather than as three separate diagrams. */
+.strata-bands__group { animation: strata-band-in 0.45s ease both; }
+
+@keyframes strata-band-in {
+  from { opacity: 0; }
+  to   { opacity: 1; }
+}
+
+/* Title left of the mark, bullets right, both inside the band. */
+.strata-bands__title,
+.strata-bands__list {
+  position: absolute;
+  transform: translateY(-50%);
+  animation: strata-band-in 0.45s ease both;
+}
+
+.strata-bands__title {
+  font-family: var(--font-heading);
+  font-size: 24px;
+  line-height: 1.3;
+  text-wrap: pretty;
+}
+
+.strata-bands__list {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+/* 17px is the ceiling, not a preference: 18px overruns the Transfer
+   band, which is the thin one. Line-height is 1.3 to pay for the size
+   -- every bullet is a single line, so that only sets row height and
+   the gap above still separates them. */
+.strata-bands__item {
+  display: flex;
+  gap: 12px;
+  align-items: baseline;
+  font-family: var(--font-body);
+  font-size: 17px;
+  font-weight: 500;
+  line-height: 1.3;
+}
+
+.strata-bands__dot {
+  width: 7px;
+  height: 7px;
+  flex: 0 0 auto;
+  transform: translateY(-2px);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .strata-bands__group,
+  .strata-bands__title,
+  .strata-bands__list { animation: none; }
+}
+
+/* -- Visibility -------------------------------------------- */
+/* Deliberately separate from layout: hiding keeps the current
+   transform, so the diagram fades out where it stands rather than
+   flying back to centre on its way off screen. */
+#stage[data-visible="false"] #strata { opacity: 0; }
+#stage[data-visible="true"]  #strata { opacity: 1; }
+
+/* -- Print -------------------------------------------------- */
+/* reveal's print layout makes .slides static and paginates it; a
+   positioned overlay cannot follow that, so the diagram is dropped
+   from PDF export. The deck is built to be presented live. */
+@media print {
+  #stage { display: none; }
+}

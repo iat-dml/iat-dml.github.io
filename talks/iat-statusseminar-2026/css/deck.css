@@ -1,0 +1,1768 @@
+/* ============================================================
+   Deck styling.
+   Plain-CSS port of the brand-relevant subset of
+   presentations/cdp-27052026/_extensions/dml/custom.scss.
+   Quarto-only blocks (callouts, quarto-title-block,
+   quarto-figure) and the old petal-diagram layout are deliberately
+   not carried over.
+   ============================================================ */
+
+/* -- Base ------------------------------------------------- */
+
+.reveal {
+  font-family: var(--font-body);
+  color: var(--deck-fg);
+  font-size: 32px;
+}
+
+.reveal-viewport { background: var(--deck-bg); }
+
+.reveal h1, .reveal h2, .reveal h3,
+.reveal h4, .reveal h5, .reveal h6 {
+  font-family: var(--font-heading);
+  font-weight: 400;
+  letter-spacing: -0.01em;
+  text-transform: none;
+  color: var(--deck-heading);
+  line-height: 1.15;
+  text-wrap: balance;
+}
+
+.reveal h1 { font-size: 1.9em; }
+.reveal h2 { font-size: 1.4em; margin-bottom: 0.6em; }
+.reveal h3 { font-size: 1.1em; }
+.reveal h4 { font-size: 0.95em; }
+
+.reveal p,
+.reveal li { line-height: 1.45; }
+
+.reveal strong { font-weight: 700; color: var(--brand-teal-dark); }
+.reveal em     { font-style: italic; }
+
+.reveal a       { color: var(--deck-link); font-weight: 500; text-decoration: underline; }
+.reveal a:hover { color: var(--deck-link-hover); }
+.reveal ::selection { background: rgba(54, 174, 108, 0.25); color: var(--brand-slate); }
+
+/* reveal defaults `.slides` to `text-align: center` and gives sections
+   `padding: 20px 0`, so prose lands centred and flush to the edge.
+   Left-align and gutter every slide; .centered-slide and .video-slide
+   opt back into centring, the title and video slides back out of the
+   padding. */
+.reveal .slides section {
+  padding: 20px 40px;
+  text-align: left;
+}
+
+/* -- Slide chrome ----------------------------------------- */
+
+.reveal .progress { color: var(--brand-teal-dark); height: 4px; }
+
+/* Bottom-LEFT, because the corner mark below owns the bottom-right. */
+.reveal .slide-number {
+  font-family: var(--font-body);
+  font-size: 0.55em;
+  font-weight: 500;
+  color: rgba(70, 85, 85, 0.65);
+  background: transparent;
+  letter-spacing: 0.04em;
+  right: auto;
+  left: 20px;
+}
+
+.reveal-viewport:has(section.is-dark.present) .slide-number { color: rgba(255, 255, 255, 0.55); }
+
+/* Persistent corner mark on body slides. */
+.deck-logo {
+  position: fixed;
+  bottom: 14px;
+  right: 20px;
+  height: 44px;
+  width: auto;
+  opacity: 0.7;
+  pointer-events: none;
+  z-index: 40;
+  transition: opacity 0.35s ease;
+}
+
+/* Suppress it where the slide has its own identity or a dark ground. */
+.reveal-viewport:has(section.title-slide-block.present) .deck-logo,
+.reveal-viewport:has(section.is-dark.present) .deck-logo { opacity: 0; }
+
+/* Theme-specific markup: index.html carries both versions of anything
+   that differs between the DML and IAT themes (see css/theme-iat.css). */
+html:not([data-theme="iat"]) .theme-iat-only,
+html[data-theme="iat"] .theme-dml-only { display: none !important; }
+
+/* -- Lists, quotes, tables -------------------------------- */
+
+.reveal ul,
+.reveal ol { display: block; margin-left: 1.2em; }
+
+.reveal ul li::marker { color: var(--brand-teal); }
+.reveal ol li::marker { color: var(--brand-teal-dark); font-weight: 600; }
+.reveal li + li { margin-top: 0.25em; }
+
+.reveal blockquote {
+  border-left: 3px solid var(--brand-teal);
+  padding: 0.4em 1em;
+  margin: 0.8em 0;
+  background: rgba(54, 174, 108, 0.06);
+  font-style: italic;
+  color: var(--brand-slate);
+  box-shadow: none;
+  width: auto;
+}
+
+.reveal table { margin: 0.6em 0; border-collapse: collapse; font-size: 0.8em; }
+
+.reveal table th {
+  background: rgba(53, 98, 89, 0.08);
+  color: var(--brand-teal-dark);
+  font-weight: 600;
+  text-align: left;
+  padding: 0.5em 0.8em;
+  border-bottom: 2px solid var(--brand-teal-dark);
+}
+
+.reveal table td { padding: 0.45em 0.8em; border-bottom: 1px solid rgba(0, 0, 0, 0.06); }
+.reveal table tr:last-child td { border-bottom: none; }
+
+/* -- Code ------------------------------------------------- */
+
+.reveal code {
+  font-family: var(--font-mono);
+  color: var(--brand-teal-dark);
+  background: var(--brand-gray-light);
+  padding: 0.08em 0.35em;
+  border-radius: 3px;
+  font-size: 0.85em;
+}
+
+.reveal pre { box-shadow: none; width: 100%; margin: 0.6em 0; }
+
+.reveal pre code {
+  display: block;
+  padding: 0.9em 1.1em;
+  background: var(--brand-gray-light);
+  border: 1px solid rgba(0, 0, 0, 0.06);
+  border-radius: 6px;
+  color: var(--brand-slate);
+  font-size: 0.7em;
+  line-height: 1.5;
+  max-height: 70vh;
+}
+
+/* -- Figures ---------------------------------------------- */
+
+.reveal figure { margin: 0.6em 0; }
+
+.reveal section img {
+  border: none;
+  box-shadow: none;
+  background: transparent;
+  border-radius: 4px;
+}
+
+.reveal figcaption {
+  font-size: 0.55em;
+  color: var(--brand-gray);
+  text-align: center;
+  margin-top: 0.4em;
+  font-style: italic;
+}
+
+/* -- Text utilities --------------------------------------- */
+
+.reveal .text-support     { color: var(--brand-support);     font-weight: 700; }
+.reveal .text-integration { color: var(--brand-integration); font-weight: 700; }
+.reveal .text-transfer    { color: var(--brand-transfer);    font-weight: 700; }
+.reveal .text-teal        { color: var(--brand-teal-dark);   font-weight: 700; }
+.reveal .text-muted       { color: var(--brand-gray); }
+
+.reveal .eyebrow {
+  display: inline-block;
+  font-family: var(--font-body);
+  font-size: 0.5em;
+  font-weight: 700;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+  color: var(--brand-teal);
+  margin: 0 0 0.6em 0;
+}
+
+/* -- Section dividers ------------------------------------- */
+/* A full-bleed coloured slide announcing a stratum. Reveal paints the
+   ground via data-background-color; this handles the type on top. */
+
+.reveal section.is-dark h1,
+.reveal section.is-dark h2,
+.reveal section.is-dark h3,
+.reveal section.is-dark p,
+.reveal section.is-dark li { color: var(--brand-white); }
+
+.reveal section.is-dark .eyebrow { color: rgba(255, 255, 255, 0.72); }
+.reveal section.is-dark strong   { color: var(--brand-white); }
+.reveal section.is-dark a        { color: var(--brand-white); }
+
+.reveal section.divider { text-align: left; }
+
+.reveal section.divider h1 { font-size: 2.6em; margin: 0; }
+
+.reveal section.divider .divider-kicker {
+  font-family: var(--font-body);
+  font-size: 0.5em;
+  font-weight: 700;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  color: rgba(255, 255, 255, 0.7);
+  margin: 0 0 0.8em 0;
+}
+
+.reveal section.divider .divider-lede {
+  font-size: 0.78em;
+  line-height: 1.5;
+  max-width: 20em;
+  margin-top: 1.1rem;
+  color: rgba(255, 255, 255, 0.88);
+}
+
+/* The corner-parked diagram sits low-left and the divider text is
+   vertically centred, so they do not collide and the text stays left. */
+
+/* -- Centred slide helper --------------------------------- */
+/* Note: no flexbox on slide sections anywhere in this file. reveal sets
+   `display: block` INLINE on the visible section, which silently beats
+   any stylesheet `display: flex` (learned the hard way). Vertical
+   centring is already handled by reveal's own `center: true`, so block
+   layout plus text-align is all that is needed. The one exception is
+   the title slide below, which forces flex with !important because it
+   has to pin a footer band to the bottom edge. */
+
+.reveal .slides section.centered-slide { text-align: center; }
+
+.reveal .slides section.centered-slide > * { margin-left: auto; margin-right: auto; }
+
+.reveal .slides section.centered-slide h1,
+.reveal .slides section.centered-slide h2,
+.reveal .slides section.centered-slide h3,
+.reveal .slides section.centered-slide p { text-align: center; }
+
+.reveal .slides section.centered-slide ul,
+.reveal .slides section.centered-slide ol {
+  display: inline-block;
+  margin-left: 0;
+  padding-left: 1.2em;
+  text-align: left;
+}
+
+.reveal .slide-note {
+  max-width: 920px;
+  margin: 1.25rem auto 0;
+  font-size: 1rem;
+  line-height: 1.5;
+  color: var(--brand-gray);
+  text-align: center;
+}
+
+/* -- Mission statement ------------------------------------ */
+/* A full-bleed dark-green statement slide: kicker, serif statement,
+   short olive rule. Ground comes from data-background-color; .is-dark
+   already whitens the type, so this only sets rhythm and the accents.
+   Block layout on purpose -- see the .centered-slide note above. */
+
+/* border-box because reveal's sections are content-box: `width: 100%`
+   plus horizontal padding makes the content box wider than the slide and
+   starts it at the left padding, so centred children land off-centre by
+   exactly that padding. */
+.reveal section.mission-slide { box-sizing: border-box; padding: 20px 6%; }
+
+.reveal section.mission-slide .mission-eyebrow {
+  font-family: var(--font-body);
+  font-size: 0.5em;
+  font-weight: 700;
+  letter-spacing: 0.22em;
+  text-transform: uppercase;
+  color: var(--brand-olive);
+  margin: 0 0 1.1rem;
+}
+
+.reveal section.mission-slide .mission-statement {
+  font-family: var(--font-heading);
+  font-weight: 400;
+  font-size: 1.55em;
+  line-height: 1.25;
+  letter-spacing: -0.01em;
+  color: var(--brand-white);
+  max-width: 17.5em;
+  margin: 0 auto;
+  text-wrap: balance;
+}
+
+.reveal section.mission-slide .mission-rule {
+  display: block;
+  width: 6.4em;
+  height: 5px;
+  margin: 2rem auto 0;
+  background: var(--brand-olive);
+  border-radius: 2px;
+}
+
+/* -- Chip row --------------------------------------------- */
+
+.reveal .pillars-row {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  flex-wrap: wrap;
+  margin-top: 1.5rem;
+  font-size: 1rem;
+}
+
+.reveal .pillars-row span {
+  padding: 0.5rem 0.85rem;
+  border-radius: 999px;
+  background: rgba(255, 255, 255, 0.65);
+  border: 1px solid rgba(36, 70, 63, 0.12);
+}
+
+.reveal .pillars-row .support     { color: var(--brand-support); }
+.reveal .pillars-row .integration { color: var(--brand-integration); }
+.reveal .pillars-row .transfer    { color: var(--brand-transfer); }
+
+/* -- Title slide ------------------------------------------ */
+
+/* The only flex section in the deck. !important is load-bearing: reveal
+   writes `display: block` inline on the present slide. The explicit
+   height makes reveal's vertical centring a no-op, so the footer band
+   lands flush with the bottom edge instead of overflowing it. */
+.reveal section.title-slide-block {
+  display: flex !important;
+  flex-direction: column;
+  height: var(--slide-height, 720px);
+  padding: 0;
+  background: var(--brand-paper);
+  color: var(--brand-slate);
+  overflow: hidden;
+  text-align: left;
+}
+
+.title-slide__header {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  padding: 2.4rem 3rem 0.6rem;
+}
+
+.title-slide__eyebrow {
+  margin: 0;
+  color: var(--brand-teal);
+  font-family: var(--font-body);
+  font-size: 0.7rem;
+  font-weight: 700;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+  line-height: 1.4;
+  text-align: center;
+}
+
+.title-slide__hero {
+  display: grid;
+  grid-template-columns: minmax(0, 1.25fr) minmax(220px, 0.75fr);
+  align-items: center;
+  gap: 2.5rem;
+  flex: 1;
+  padding: 1.4rem 3rem 2rem;
+}
+
+.title-slide__panel {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: left;
+}
+
+.reveal section.title-slide-block .title {
+  font-family: var(--font-heading);
+  font-weight: 400;
+  margin: 0;
+  color: var(--brand-teal-dark);
+  font-size: 2.4em;
+  line-height: 1.08;
+  letter-spacing: -0.015em;
+  text-transform: none;
+  text-wrap: balance;
+  max-width: 11em;
+}
+
+.title-slide__subtitle {
+  margin: 0.7rem 0 0;
+  color: var(--brand-slate);
+  font-family: var(--font-body);
+  font-size: 1.05em;
+  font-weight: 400;
+  line-height: 1.4;
+  max-width: 22em;
+  text-wrap: balance;
+  opacity: 0.85;
+}
+
+.title-slide__authors {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin: 1.6rem 0 0;
+  gap: 0.4rem;
+  font-size: 0.72em;
+}
+
+.title-slide__affiliation { color: var(--brand-gray); font-size: 0.8em; }
+
+.title-slide__date {
+  font-family: var(--font-body);
+  margin-top: 1.2rem;
+  color: var(--brand-gray);
+  font-size: 0.6em;
+  font-weight: 500;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+}
+
+.title-slide__logo-wrap {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100%;
+}
+
+.title-slide__logo {
+  width: min(72%, 320px);
+  height: auto;
+  object-fit: contain;
+  filter: drop-shadow(0 2px 8px rgba(53, 98, 89, 0.12));
+}
+
+.title-slide__footer-band { width: 100%; margin-top: auto; line-height: 0; }
+
+.title-slide__footer-image { display: block; width: 100%; height: auto; margin: 0; padding: 0; }
+
+/* -- Speaker intro slide ---------------------------------- */
+/* The who-am-I slide, straight after the title. A circular
+   portrait beside name, role, two sentences and four handles.
+
+   Block layout on the section, grid on a child div -- see the
+   .centered-slide note above for why no section here is ever a flex
+   or grid container. */
+
+/* border-box because reveal's sections are content-box -- see the note
+   on .mission-slide above. */
+.reveal section.intro-slide {
+  box-sizing: border-box;
+  padding: 20px 4.5%;
+  text-align: left;
+}
+
+/* Both tracks are given a width and the pair is centred, rather than
+   letting a 1fr text column swallow the slack: with the measure capped
+   further down the column, `1fr` grew the TRACK and left the prose
+   sitting in it with ~330px of dead paper to its right. Fixing the
+   track at the measure and centring the pair splits what is left over
+   evenly, so the block reads as inset rather than shunted left.
+
+   660px at .intro-bio's 21.8px is about 76 characters -- long for a
+   page, right for four lines read from the back of a room. Change the
+   measure HERE, not on the paragraphs; they inherit it from the track,
+   which is what keeps their right edges flush. */
+.reveal section.intro-slide .intro-grid {
+  display: grid;
+  grid-template-columns: 400px minmax(0, 660px);
+  justify-content: center;
+  align-items: center;
+  gap: 4rem;
+}
+
+/* The portrait. assets/Ben-portrait.jpg is already square and framed
+   for a circle -- cropped from the 2020x2271 original at 1820px around
+   the face, which fills the disc without cutting the collar, then sized
+   at 800px for a 400px slot on a retina screen. 78KB against the
+   original's 5.9MB, which matters on the second slide of a deck.
+   assets/Ben.png is kept as the source to re-crop from. */
+.reveal section.intro-slide .intro-portrait {
+  margin: 0;
+  width: 400px;
+  aspect-ratio: 1;
+  border-radius: 50%;
+  overflow: hidden;
+
+  /* First shadow is a soft teal halo standing in for a ring: a real
+     border would sit inside the overflow clip and get antialiased
+     against the photo edge. The other two are the deck's card shadow,
+     so the portrait sits above the paper the same way a project card
+     does. */
+  box-shadow: 0 0 0 8px rgba(53, 98, 89, 0.07),
+              0 12px 32px rgba(0, 0, 0, 0.10),
+              0 2px 6px rgba(0, 0, 0, 0.05);
+}
+
+/* Beats the deck-wide `.reveal section img { border-radius: 4px }`. */
+.reveal section.intro-slide .intro-portrait img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  border-radius: 0;
+  box-shadow: none;
+  object-fit: cover;
+}
+
+.reveal section.intro-slide .intro-name {
+  font-size: 2em;
+  margin: 0;
+}
+
+.reveal section.intro-slide .intro-role {
+  font-size: 0.66em;
+  line-height: 1.45;
+  color: var(--brand-slate);
+  margin: 0.5em 0 0;
+}
+
+/* The mission slide's olive rule, left-aligned and half the width:
+   the same accent doing the same job of closing off a statement. */
+.reveal section.intro-slide .intro-rule {
+  display: block;
+  width: 3.2em;
+  height: 4px;
+  margin: 1.1rem 0 1.1rem;
+  background: var(--brand-olive);
+  border-radius: 2px;
+}
+
+.reveal section.intro-slide .intro-bio {
+  font-size: 0.68em;
+  line-height: 1.55;
+  color: var(--brand-slate);
+  margin: 0;
+}
+
+.reveal section.intro-slide .intro-meta {
+  font-size: 0.5em;
+  line-height: 1.4;
+  color: var(--brand-gray);
+  margin: 0.85em 0 0;
+}
+
+/* One handle per row, hyperlinked and typeable, for the reason given
+   on .project-link: the room can read it off the screen or a photo of
+   it. Single column rather than two because the ResearchGate profile
+   path is 40 characters and will not share a line honestly. */
+.reveal section.intro-slide .intro-links {
+  display: grid;
+  gap: 0.6em;
+  justify-items: start;
+  margin: 1.6rem 0 0;
+}
+
+/* Grid, not flex, so the fixed first track lines every handle up on
+   the same left edge no matter how wide its icon draws. */
+.reveal section.intro-slide .intro-link {
+  display: grid;
+  grid-template-columns: 1.5em auto;
+  align-items: center;
+  gap: 0.6em;
+  font-family: var(--font-mono);
+  font-size: 0.54em;
+  font-weight: 500;
+  line-height: 1.3;
+  letter-spacing: 0.01em;
+  color: var(--brand-teal-dark);
+  text-decoration: none;
+}
+
+.reveal section.intro-slide .intro-link:hover { text-decoration: underline; }
+
+/* Inline <svg fill="currentColor">, not <img>, so the marks take the
+   link's colour and follow it on hover -- the same reason the h2 marks
+   on the Quarto slide are inline. Sized in em off the row's own
+   font-size, and each keeps its native viewBox aspect. */
+.reveal section.intro-slide .intro-link svg {
+  height: 1.05em;
+  width: auto;
+  max-width: 100%;
+  justify-self: center;
+  fill: currentColor;
+  opacity: 0.85;
+}
+
+/* -- Team cards ------------------------------------------- */
+/* Plain-CSS port of the CDP deck's .team-grid--slide block, adapted to
+   this deck's flatter cards: no coloured top stripe, no coloured card
+   border, and the same radius/shadow language as .project-media.
+
+   UNITS, and this is the whole ballgame on a slide. Every FONT-SIZE
+   here is `em`, which resolves against `.reveal`'s 32px base, so the
+   numbers are directly comparable to .project-lede (0.66em) and
+   .intro-bio (0.68em) -- the deck's own reading sizes. The CDP block
+   these rules came from sized its type in `rem` instead, against the
+   16px document root, which made every value silently half the size it
+   looked: its 0.66rem description rendered at 10.6px, unreadable past
+   the second row of a seminar room. SPACING stays in rem/px, as it does
+   elsewhere in this file. Do not reintroduce rem on a font-size.
+
+   Every box in the card hugs its content. The card carries NO
+   min-height and the description does NOT grow: an earlier pass gave
+   the description `flex: 1` over a min-height and centred its text in
+   it, which on short copy left dead paper above the sentence and again
+   below it. The grid's own `align-items: stretch` equalises the card
+   heights instead, and the only flexible gap left is the one above the
+   skills row, which takes up whatever slack the shortest card has. */
+
+.reveal section.team-slide {
+  box-sizing: border-box;
+  padding: 20px 3%;
+  text-align: center;
+}
+
+.reveal section.team-slide h2 {
+  font-size: 1.3em;
+  margin-top: 0;
+  margin-bottom: 0.85rem;
+  text-align: center;
+}
+
+.reveal .team-grid--slide {
+  --team-card-bg: #FBFAF7;
+  --team-card-shadow: 0 12px 32px rgba(0, 0, 0, 0.10), 0 2px 6px rgba(0, 0, 0, 0.05);
+  --team-card-title: var(--brand-teal-dark);
+  --team-card-text: var(--brand-slate);
+  --team-card-muted: var(--brand-gray);
+  --team-card-panel: rgba(53, 98, 89, 0.07);
+  --team-card-chip-bg: rgba(53, 98, 89, 0.07);
+  --team-card-chip-border: rgba(70, 85, 85, 0.12);
+  --team-card-chip-text: var(--brand-teal-dark);
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 1.15rem;
+  align-items: stretch;
+  width: min(100%, 1200px);
+  margin: 0 auto;
+}
+
+.reveal .team-grid--slide .quarto-grid-item.card-team {
+  position: relative;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  border: 0;
+  border-radius: 10px;
+  background:
+    linear-gradient(180deg, rgba(255, 255, 255, 0.74), rgba(255, 255, 255, 0.16)),
+    var(--team-card-bg);
+  box-shadow: var(--team-card-shadow);
+  text-align: center;
+}
+
+.reveal .team-grid--slide .card-body {
+  display: flex;
+  flex: 1 1 auto;
+  flex-direction: column;
+  padding: 0.5rem 1.05rem 1rem;
+}
+
+.reveal .team-grid--slide .team-image-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem 1rem 0.3rem;
+  margin: 0;
+}
+
+.reveal .team-grid--slide .team-image {
+  width: 132px;
+  height: 132px;
+  border: 0;
+  border-radius: 50%;
+  object-fit: cover;
+  background: var(--brand-white);
+  box-shadow: 0 0 0 7px rgba(53, 98, 89, 0.06),
+              0 8px 18px rgba(15, 27, 24, 0.12);
+}
+
+/* The two open positions carry a silhouette, not a portrait. `cover`
+   scales that 849x1236 portrait graphic to the disc by WIDTH and then
+   centres it, which slices the top off the head -- the flat crown.
+   Shown whole instead, anchored to the bottom of the disc so the
+   shoulders rest on its lower edge, with padding-top for headroom.
+   (Padding works here because object-fit lays the graphic out in the
+   CONTENT box, so the figure is contained inside the inset.) */
+.reveal .team-grid--slide .team-image.is-placeholder {
+  box-sizing: border-box;
+  padding: 0.8rem 0 0;
+  object-fit: contain;
+  object-position: bottom;
+}
+
+/* A two-line box, centred, because "Research Software Engineer" wraps
+   at this size and the other two names do not: without the fixed height
+   that third card's role, description and status panel all sit a line
+   lower than its neighbours'. Centring means the one-line names get
+   even space above and below rather than a hole underneath. */
+.reveal .team-grid--slide .listing-title {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 2.24em;
+  font-family: var(--font-heading);
+  font-weight: 400;
+  font-size: 0.88em;
+  line-height: 1.12;
+  letter-spacing: -0.01em;
+  margin: 0.3rem 0 0.2rem;
+  color: var(--team-card-title);
+  text-wrap: balance;
+}
+
+.reveal .team-grid--slide .team-job-title {
+  font-family: var(--font-body);
+  font-size: 0.46em;
+  font-weight: 700;
+  line-height: 1.25;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: var(--team-card-muted);
+  margin-bottom: 0.7rem;
+}
+
+/* A three-line floor, and the copy in index.html is written to fit it:
+   the meta panels below only read as a row if every description above
+   them is the same height, and a fourth line on one card alone drops
+   that card's panel out of line with the other two. */
+.reveal .team-grid--slide .team-description {
+  flex: 0 0 auto;
+  min-height: 4.5em;
+  margin: 0;
+  font-size: 0.6em;
+  line-height: 1.5;
+  color: var(--team-card-text);
+  text-align: center;
+  text-wrap: pretty;
+}
+
+/* Status for the post that is filled, expected timing for the two that
+   are not -- the whole point of the slide, so it sits on its own tinted
+   panel rather than reading as a third line of prose. */
+.reveal .team-grid--slide .team-card-meta {
+  margin: 0.85rem 0 0;
+  padding: 0.55rem 0.7rem;
+  border-radius: 8px;
+  background: var(--team-card-panel);
+}
+
+.reveal .team-grid--slide .team-card-meta-label {
+  font-size: 0.42em;
+  font-weight: 700;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: var(--team-card-muted);
+}
+
+.reveal .team-grid--slide .team-card-meta-value {
+  margin-top: 0.2rem;
+  font-size: 0.58em;
+  font-weight: 700;
+  line-height: 1.3;
+  color: var(--brand-teal-dark);
+}
+
+/* `margin-top: auto` is the one flexible gap in the card: it absorbs
+   whatever height the tallest card forces on this one, so the chip rows
+   stay on a common baseline across all three. */
+.reveal .team-grid--slide .listing-skills {
+  display: flex;
+  flex-direction: column;
+  gap: 0.4rem;
+  margin-top: auto;
+  padding-top: 0.95rem;
+}
+
+.reveal .team-grid--slide .skills-label {
+  font-size: 0.42em;
+  font-weight: 700;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: var(--team-card-muted);
+}
+
+.reveal .team-grid--slide .skills-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 0.4rem;
+}
+
+.reveal .team-grid--slide .listing-skill {
+  padding: 0.28rem 0.6rem;
+  border: 1px solid var(--team-card-chip-border);
+  border-radius: 999px;
+  background-color: var(--team-card-chip-bg);
+  color: var(--team-card-chip-text);
+  font-size: 0.44em;
+  font-weight: 700;
+  line-height: 1.15;
+  letter-spacing: 0.07em;
+  text-transform: uppercase;
+}
+
+/* -- Project slides --------------------------------------- */
+/* Paired with stage layout "aside": the diagram parks on the left,
+   this column holds the project media on the right. */
+
+.reveal section.project { text-align: left; }
+
+/* A fixed left margin rather than `margin-left: auto`, so a child that
+   sets its own `margin` shorthand cannot silently un-indent itself. */
+.reveal section.project > * {
+  width: 50%;
+  margin-left: 46%;
+  margin-right: 4%;
+}
+
+/* Mirrored when the mark parks right, which by default is Transfer's
+   projects: content on the left, mark on the right. js/director.js
+   writes data-strata-park onto the slide, so the rule for which
+   stratum goes where lives in one place rather than two. */
+.reveal section.project[data-strata-park="right"] > * {
+  margin-left: 4%;
+  margin-right: 46%;
+}
+
+/* Reading order is media, name, sentence, link. The image leads because
+   for most of these projects the image IS the deliverable, and the
+   sentence underneath carries the summary, whoever the work was for and
+   the phrase tying it to a stratum -- all as prose, in one pass of
+   reading. There are no field labels anywhere on a project slide, and
+   deliberately so: the moment "Who:" appears the slide becomes a form.
+
+   Note the margin LONGHANDS throughout, for the reason given on the
+   `> *` rule above: a `margin` shorthand here would reset margin-left
+   and un-indent the child out of its column.
+
+   Vertical budget, at 600px of column and a 16/10 card: 375 media + 23
+   + 42 name + 12 + prose + 17 + 20 link. The 680px of usable slide
+   height leaves room for five lines of prose; aim for three. */
+
+.reveal section.project h2 {
+  font-size: 1.15em;
+  margin-top: 0.62em;
+  margin-bottom: 0;
+}
+
+/* A brand mark standing in for the project's name inside its own h2:
+   sized off the heading's own font-size so it tracks the type rather
+   than a fixed pixel height, and nudged onto the baseline. Keep the
+   word it replaces in role="img" aria-label -- the heading still has
+   to read as a sentence to a screen reader.
+
+   The mark is INLINE <svg fill="currentColor">, not <img>, so it takes
+   --deck-heading from the h2 and inverts with it on .is-dark slides.
+   An <img> cannot: an SVG referenced that way is an isolated document
+   and its currentColor resolves to its own black, not to ours. */
+.reveal section.project h2 .h2-logo {
+  height: 1.05em;
+  width: auto;
+  vertical-align: -0.16em;
+  margin-right: 0.1em;
+}
+
+.reveal section.project .project-lede {
+  font-size: 0.66em;
+  line-height: 1.5;
+  color: var(--brand-slate);
+  margin-top: 0.55em;
+  margin-bottom: 0;
+}
+
+/* The words inside that sentence which echo one of the stratum's own
+   bullets, tinted with that stratum's colour. This is the entire link
+   between a project and its stratum -- no tag, chip or label. Keep it
+   to two or three words: a whole tinted clause reads as highlighting.
+   The -ink tokens, not the band colours -- see css/brand.css. */
+.reveal section.project .project-key { font-weight: 600; }
+
+.reveal section.project[data-strata-active="support"] .project-key {
+  color: var(--brand-support-ink);
+}
+.reveal section.project[data-strata-active="transfer"] .project-key {
+  color: var(--brand-transfer-ink);
+}
+.reveal section.project[data-strata-active="integration"] .project-key {
+  color: var(--brand-integration-ink);
+}
+
+/* Whoever the work was for. Weight only, no second colour, so it is
+   findable in the sentence without competing with the tint. Left out
+   entirely where the answer is "any researcher who wants it" -- the
+   audience can place themselves. */
+.reveal section.project .project-who {
+  font-weight: 600;
+  color: var(--brand-slate);
+}
+
+/* One handle per project, hyperlinked, no QR code. With multiplex the
+   audience already has the link on their own screen, so a per-slide QR
+   only serves the room -- and for that a typeable handle does the same
+   job in a tenth of the space, and survives a photo of the screen. The
+   deck's one QR belongs on the closing slide.
+   Flex so a project with two products can carry two handles. */
+.reveal section.project .project-link {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.35em 1.5em;
+  font-family: var(--font-mono);
+  font-size: 0.47em;
+  line-height: 1.3;
+  letter-spacing: 0.01em;
+  margin-top: 1.15em;
+  margin-bottom: 0;
+}
+
+.reveal section.project .project-media {
+  position: relative;
+  aspect-ratio: 16 / 10;
+  border-radius: 8px;
+  overflow: hidden;
+  background: var(--brand-gray-light);
+  box-shadow: 0 12px 32px rgba(0, 0, 0, 0.10), 0 2px 6px rgba(0, 0, 0, 0.05);
+}
+
+/* Media that is a mark or a document rather than a screenshot: shown
+   whole on a light ground instead of cropped to fill. */
+.reveal section.project .project-media.is-contain { background: var(--brand-white); }
+
+.reveal section.project .project-media.is-contain > img,
+.reveal section.project .project-media.is-contain > video {
+  object-fit: contain;
+  box-sizing: border-box;
+  padding: 7%;
+}
+
+/* -- Media that is a composition, not one shot ------------- */
+/* For a project whose deliverable is several artefacts at once. Used by
+   the Templates slide: the Open Source marks on the left, the two front
+   pages they produce on the right.
+
+   Note the selector weights. The fill rule further down
+   (`.reveal section.project .project-media > img`) stretches any child
+   image to the whole card, so .tpl-page has to carry one more class than
+   it does to undo that, and every geometry rule below carries the card's
+   own modifier class on top of THAT so it can set width/height again.
+   Add a new composition the same way -- modifier on .project-media,
+   never a bare `.tpl-*` selector, or the fill rule wins and the artefact
+   inflates to the whole card. */
+
+/* An artefact as a sheet of paper: shown whole, hairline edge, and a
+   shadow so it sits above the ground rather than being printed on it. */
+.reveal section.project .project-media > img.tpl-page {
+  position: absolute;
+  inset: auto;
+  width: auto;
+  height: auto;
+  max-width: none;
+  max-height: none;
+  object-fit: contain;
+  background: var(--brand-white);
+  border: 1px solid rgba(70, 85, 85, 0.14);
+  box-shadow: 0 6px 18px rgba(26, 26, 26, 0.16), 0 1px 3px rgba(26, 26, 26, 0.10);
+}
+
+/* Not the flat grey of an empty card: the deck's own paper, lit from the
+   top left, so the sheets above it read as sheets. */
+.reveal section.project .project-media.tpl-ground {
+  background: linear-gradient(148deg, #FBFAF7 0%, var(--brand-paper) 58%, #EBE6DC 100%);
+}
+
+/* A column of software marks, all one colour so they place the work
+   without competing with it. Slate is baked into typst-mark.svg,
+   quarto-mark.svg and revealjs-mark.png rather than inherited: these
+   grounds are always light, and an SVG referenced by <img> is an
+   isolated document whose currentColor resolves to its own black, not to
+   ours -- the same reason the h2 marks are inline.
+   Sized by WIDTH, not height: the three wordmarks have different
+   x-heights, and matching their boxes makes typst look oversized. */
+.reveal section.project .project-media .tpl-marks {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.reveal section.project .project-media .tpl-marks img {
+  display: block;
+  opacity: 0.82;
+}
+
+/* Templates slide: marks left, front pages right, the A4 page lapping
+   the corner of the slide page so the two read as a stack. */
+.reveal section.project .project-media.is-collage > .tpl-marks {
+  left: 5%;
+  top: 12%;
+  bottom: 12%;
+  width: 24%;
+}
+
+.reveal section.project .project-media.is-collage > .tpl-marks img {
+  width: 66%;
+  height: auto;
+}
+
+/* The one exception to the shared width: quarto's mark carries a symbol
+   as well as the word, so at 66% it out-measures the other two. */
+.reveal section.project .project-media.is-collage > .tpl-marks .m-quarto { width: 58%; }
+
+.reveal section.project .project-media.is-collage > img.tpl-slide {
+  right: 5%;
+  top: 9%;
+  width: 62%;
+}
+
+.reveal section.project .project-media.is-collage > img.tpl-doc {
+  right: 5%;
+  bottom: 8%;
+  height: 46%;
+}
+
+/* Templates' sibling: two WEBSITES cascading, each with its project's
+   mark lapping a corner. Used by the LCSfFE/TRANSECT slide.
+
+   Same construction rules as .is-collage above -- .tpl-page carries the
+   sheet treatment, every geometry rule below carries .is-cascade on top
+   of it so the fill rule cannot inflate a child to the whole card.
+
+   Both shots are HERO CROPS (the top of each page, not the whole
+   thing). The card renders about 590px wide on a 1280 slide, and a
+   whole page scaled into a 375px sheet turns its body text into grey
+   texture -- the crop is what keeps both site titles legible from the
+   back of the room. Recrop, don't rescale, if either site changes.
+
+   The two marks are what make this a composition rather than two
+   screenshots: each is centred on a CORNER of its own sheet, on the
+   diagonal the cascade already runs -- badge on the handbook's
+   top-right, plate on TRANSECT's bottom-left. Keep them cornered. */
+.reveal section.project .project-media.is-cascade > img.tpl-lcsffe {
+  left: 3%;
+  top: 15.3%;
+  width: 63.6%;
+}
+
+.reveal section.project .project-media.is-cascade > img.tpl-transect {
+  left: 35.7%;
+  top: 40.4%;
+  width: 61.4%;
+}
+
+/* The MonksHillLab badge, trimmed to the circle its artwork already
+   drew: mhl-logo.png is that badge on a square of the same green, so
+   the corners were only padding. It needs no plate -- it IS a filled
+   disc, and reads on paper or on a sheet. Sized and placed so its
+   centre lands on the handbook sheet's top-right corner (66.6%, 15.3%). */
+.reveal section.project .project-media.is-cascade > img.tpl-mhl {
+  position: absolute;
+  left: 59.1%;
+  top: 3.3%;
+  width: 15%;
+  height: auto;
+  max-width: none;
+  object-fit: contain;
+  border-radius: 50%;
+  box-shadow: 0 6px 18px rgba(26, 26, 26, 0.24), 0 1px 3px rgba(26, 26, 26, 0.14);
+}
+
+/* The TRANSECT wordmark does need a plate: it is dark green line art on
+   transparency, and the corner it belongs to sits over that site's own
+   photograph. White, with .tpl-page's edge and shadow, so it reads as
+   the same family of object as the sheets. */
+.reveal section.project .project-media.is-cascade > .tpl-plate {
+  position: absolute;
+  left: 22%;
+  top: 79.3%;
+  width: 27.3%;
+  height: 16%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: var(--brand-white);
+  border: 1px solid rgba(70, 85, 85, 0.14);
+  border-radius: 8px;
+  box-shadow: 0 8px 20px rgba(26, 26, 26, 0.20), 0 1px 3px rgba(26, 26, 26, 0.12);
+}
+
+.reveal section.project .project-media.is-cascade > .tpl-plate img {
+  display: block;
+  width: 78%;
+  height: auto;
+}
+
+/* Templates' other sibling: ONE document, shown as its cover next to a
+   crop of what is inside it. Used by the IAT Data Management and
+   Protection guidelines slide.
+
+   Why a spread and not the cover alone. An A4 page contained in this
+   card fits by HEIGHT, so it lands 243px wide in a 640px card -- 38% of
+   the width, the other 62% empty, and the page white on white with no
+   edge to find. Two sheets fill a 16/10 card the way one portrait page
+   never will, and the second one says what the document is actually
+   about.
+
+   The inside sheet is a HERO CROP, on the same reasoning as .is-cascade
+   above: the section heading and the eight topic leads under it, not
+   the whole page. Scaled whole, the topics would be grey texture.
+   Recrop rather than rescale if the document changes -- the crop box is
+   recorded in mock/iat-dm-guidelines/README.md.
+
+   Geometry, as percentages of the 640x400 card: the cover spans 4-40.2%
+   and the excerpt 38-96%, so they lap by about 14px, and the cover sits
+   in front on the diagonal the pair already runs. Both carry .tpl-page
+   for the sheet edge and shadow; the card carries .tpl-ground so they
+   read as paper on a desk rather than white on white.
+
+   That 14px lap is measured against the excerpt's own left margin,
+   which is 27px: the crop keeps the page's real margins, so the cover
+   laps the excerpt's white edge and stops short of its text. Widen the
+   cover, or recrop tighter, and the cover starts eating words. */
+.reveal section.project .project-media.is-spread > img.tpl-cover {
+  left: 4%;
+  top: 9%;
+  height: 82%;
+  z-index: 1;
+}
+
+/* Width, not height: the excerpt is a crop, so its height follows
+   whatever aspect the crop box gives it. */
+.reveal section.project .project-media.is-spread > img.tpl-inside {
+  right: 4%;
+  top: 21%;
+  width: 58%;
+  z-index: 0;
+}
+
+/* A media slot with nothing in it yet. Visible in the deck on purpose,
+   so it cannot be presented by accident; delete the <p> when the asset
+   lands. */
+.reveal section.project .project-media .media-todo {
+  position: absolute;
+  inset: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0;
+  padding: 0 11%;
+  font-size: 0.44em;
+  line-height: 1.5;
+  font-weight: 500;
+  letter-spacing: 0.02em;
+  text-align: center;
+  color: var(--brand-gray);
+}
+
+/* -- Media that is a diagram ------------------------------- */
+/* A flowchart in the media slot is inline <svg>, never an
+   <img src="*.svg">: an SVG referenced by <img> is an isolated
+   document, so it could reach neither --font-body nor the brand
+   tokens and would fall back to its own defaults -- the same reason
+   the h2 marks are inline. It paints its own ground edge to edge, so
+   it wants the fill geometry the raster children get below and none
+   of their object-fit cropping. */
+.reveal section.project .project-media > svg {
+  position: absolute;
+  inset: 0;
+  display: block;
+  width: 100%;
+  height: 100%;
+  max-width: none;
+  max-height: none;
+  z-index: 0;
+}
+
+/* The IAT project tracker flow. Colour and type live here rather than
+   in the markup, so the diagram follows a palette change; the paint
+   servers it names -- gradient, arrowhead marker, drop shadows -- stay
+   on the elements, because a url(#id) written in an external
+   stylesheet is not reliably resolved against the document.
+   Sizes below are the svg's own 960x600 user units and the card is
+   640x400, so every number here lands on screen at two thirds of what
+   it reads. */
+.flow-tracker { font-family: var(--font-body); }
+
+.flow-tracker .ft-card {
+  fill: var(--brand-white);
+  stroke: rgba(70, 85, 85, 0.14);
+  stroke-width: 1;
+}
+
+/* The list is where the slide's sentence lands, so it is the one node
+   drawn in the stratum's own colour rather than in slate. */
+.flow-tracker .ft-card-hub {
+  fill: var(--brand-white);
+  stroke: rgba(193, 143, 89, 0.55);
+  stroke-width: 1.5;
+}
+
+.flow-tracker .ft-flow {
+  fill: none;
+  stroke: var(--brand-integration);
+  stroke-width: 2.2;
+  stroke-linecap: round;
+}
+
+.flow-tracker .ft-arrow-head { fill: var(--brand-integration); }
+
+.flow-tracker .ft-title     { font-size: 21px; font-weight: 500; fill: var(--brand-slate); }
+.flow-tracker .ft-title-hub { font-size: 21px; font-weight: 700; fill: var(--brand-integration-ink); }
+.flow-tracker .ft-sub       { font-size: 15px; fill: var(--brand-muted); }
+.flow-tracker .ft-code      { font-size: 26px; font-weight: 700; letter-spacing: 0.06em; fill: var(--brand-slate); }
+.flow-tracker .ft-team      { font-size: 15px; fill: var(--brand-muted); }
+.flow-tracker .ft-rule      { fill: rgba(70, 85, 85, 0.14); }
+
+/* The one clause that carries the argument: each team ADDS a field of
+   its own. Integration ink, not the band colour -- see css/brand.css.
+   The teams themselves are deliberately not colour-coded: support,
+   transfer and integration already mean the three strata in this deck,
+   and a second three-colour code would fight that one. */
+.flow-tracker .ft-adds { font-size: 18px; font-weight: 500; fill: var(--brand-integration-ink); }
+.flow-tracker .ft-plus { font-weight: 700; }
+
+/* The PB3 catalogue flow, on the same terms as the tracker above: colour
+   and type here, paint servers on the elements. It is drawn in
+   --brand-support, not --brand-integration, because PB3 sits in the
+   Support stratum -- if you ever move the slide between bands, this
+   block and the slide's data-strata-active have to move together.
+   Sizes are the svg's own 960x600 user units against a 640x400 card, so
+   again every number lands on screen at two thirds of what it reads.
+   Keep in sync with assets/pb3-catalogue-flow-a.svg, which is the
+   portable export of the same drawing and carries its own copy of these
+   rules inlined with hard fallbacks. */
+.flow-pb3 { font-family: var(--font-body); }
+
+.flow-pb3 .pb-card {
+  fill: var(--brand-white);
+  stroke: rgba(70, 85, 85, 0.14);
+  stroke-width: 1;
+}
+
+/* Sign-off is the one human gate in an otherwise automated chain, and the
+   clause the slide is really about, so it is the node drawn in the
+   stratum's own colour rather than in slate. */
+.flow-pb3 .pb-card-hub {
+  fill: var(--brand-white);
+  stroke: rgba(45, 106, 79, 0.55);
+  stroke-width: 1.5;
+}
+
+.flow-pb3 .pb-flow {
+  fill: none;
+  stroke: var(--brand-support);
+  stroke-width: 2.2;
+  stroke-linecap: round;
+}
+
+.flow-pb3 .pb-arrow-head { fill: var(--brand-support); }
+
+.flow-pb3 .pb-title     { font-size: 22px; font-weight: 500; fill: var(--brand-slate); }
+.flow-pb3 .pb-title-hub { font-size: 22px; font-weight: 700; fill: var(--brand-support-ink); }
+.flow-pb3 .pb-out-title { font-size: 24px; font-weight: 700; fill: var(--brand-slate); }
+.flow-pb3 .pb-sub       { font-size: 15px; fill: var(--brand-muted); }
+.flow-pb3 .pb-rule      { fill: rgba(70, 85, 85, 0.14); }
+
+/* Icons are drawn on one 24px stroke grid and placed with <use>, not
+   dropped in as <image href="assets/*.svg"> the way the tracker's vendor
+   marks are: a referenced SVG is its own document and could not take a
+   colour from here. The two real marks (GitHub, Obsidian) are fill-based
+   and stay monochrome -- their brand colours would put a fourth and fifth
+   hue on a slide whose colour already means something. */
+.flow-pb3 .pb-ico {
+  fill: none;
+  stroke: var(--brand-slate);
+  stroke-width: 1.5;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+}
+
+.flow-pb3 .pb-ico-hub {
+  fill: none;
+  stroke: var(--brand-support);
+  stroke-width: 1.5;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+}
+
+.flow-pb3 .pb-logo { fill: var(--brand-slate); stroke: none; }
+
+/* Stand-ins inside the two payoff panels: catalogue rows with their
+   keyword chips on the left, and on the right the same keywords as the
+   edges that link one dataset record to another. */
+.flow-pb3 .pb-bar      { fill: rgba(70, 85, 85, 0.20); }
+.flow-pb3 .pb-chip     { fill: rgba(45, 106, 79, 0.12); }
+.flow-pb3 .pb-node     { fill: var(--brand-support); }
+.flow-pb3 .pb-node-key { fill: var(--brand-white); stroke: var(--brand-support); stroke-width: 1.6; }
+.flow-pb3 .pb-edge     { fill: none; stroke: rgba(45, 106, 79, 0.38); stroke-width: 1.4; }
+
+/* The BirdNET-Passage run, on the same terms as the two flows above:
+   colour and type here, paint servers on the elements, 960x600 user
+   units against a 640x400 card, so every number lands on screen at two
+   thirds of what it reads.
+
+   What the figure argues. The project is not a four-step audio pipeline
+   -- it is throughput and bookkeeping: get thousands of sensor files
+   through the classifier at once, and account for every one of them.
+   So the drawing is a FAN (input grid -> four lanes -> one merged
+   table) over a LEDGER, and the two halves are the two claims. If you
+   retitle a card, check it still says one of those two things.
+
+   Why a flow and not the project's mark alone. The mark is a VERTICAL
+   lockup, 175x174, and contained in this card it fits by height to
+   346x344 -- 46% of the card empty. It is still here, at full size,
+   signing the top-right corner, which is why the output card is
+   shorter than its neighbours and starts lower: that stagger is the
+   mark's room, not an accident.
+
+   Colour. The diagram is drawn in --brand-support because this slide
+   sits in the Support band; the mark keeps its own #458484/#C18F59,
+   because those are Transfer and Integration here and a mark is the one
+   thing entitled to ignore that. Nothing else on the slide may. */
+.flow-birdnet { font-family: var(--font-body); }
+
+.flow-birdnet .bp-card {
+  fill: var(--brand-white);
+  stroke: rgba(70, 85, 85, 0.14);
+  stroke-width: 1;
+}
+
+/* The parallel run is the node the project exists for, so it is the one
+   drawn in the stratum's own colour rather than in slate. */
+.flow-birdnet .bp-card-hub {
+  fill: var(--brand-white);
+  stroke: rgba(45, 106, 79, 0.55);
+  stroke-width: 1.5;
+}
+
+.flow-birdnet .bp-flow {
+  fill: none;
+  stroke: var(--brand-support);
+  stroke-width: 2.2;
+  stroke-linecap: round;
+}
+
+.flow-birdnet .bp-arrow-head { fill: var(--brand-support); }
+
+.flow-birdnet .bp-title     { font-size: 22px; font-weight: 500; fill: var(--brand-slate); }
+.flow-birdnet .bp-title-hub { font-size: 22px; font-weight: 700; fill: var(--brand-support-ink); }
+.flow-birdnet .bp-out-title { font-size: 24px; font-weight: 700; fill: var(--brand-slate); }
+.flow-birdnet .bp-sub       { font-size: 15px; fill: var(--brand-muted); }
+.flow-birdnet .bp-status    { font-size: 16px; font-weight: 600; fill: var(--brand-slate); }
+.flow-birdnet .bp-rule      { fill: rgba(70, 85, 85, 0.14); }
+
+/* Icons on one 24px stroke grid, placed with <use> for the same reason
+   the PB3 ones are: a referenced SVG is its own document and could not
+   take a colour from here. The corner lockup is the exception, and is
+   an <image> precisely because it is not asked to. */
+.flow-birdnet .bp-ico {
+  fill: none;
+  stroke: var(--brand-slate);
+  stroke-width: 1.5;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+}
+
+/* The one outcome in the record that is not an exception. */
+.flow-birdnet .bp-ico-ok {
+  fill: none;
+  stroke: var(--brand-support);
+  stroke-width: 1.5;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+}
+
+/* A worker's track. Faint enough to be a lane rather than a card: four
+   of them at once is the whole point, and four cards would read as four
+   steps. */
+.flow-birdnet .bp-lane { fill: rgba(45, 106, 79, 0.055); }
+
+/* The mark draws its gate as filled shapes rather than strokes, so the
+   worker glyph needs a fill rule and not .bp-ico. */
+.flow-birdnet .bp-glyph-hub { fill: var(--brand-support); stroke: none; }
+
+/* Files in flight, drawn with the mark's bird-arrow so what moves through
+   the lanes is made of the element the project is named for. Opacity
+   varies per glyph in the markup, to keep the lanes from reading as a
+   printed pattern. */
+.flow-birdnet .bp-bird { fill: var(--brand-support); }
+
+.reveal section.project .project-media > iframe,
+.reveal section.project .project-media > video,
+.reveal section.project .project-media > img {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  max-width: none;
+  max-height: none;
+  margin: 0;
+  border: 0;
+  border-radius: 0;
+  box-shadow: none;
+  object-fit: cover;
+}
+
+/* Offline fallback: the screenshot sits under the iframe, so a blocked
+   or slow-loading iframe degrades to a still rather than to blank. */
+.reveal section.project .project-media > img { z-index: 0; }
+.reveal section.project .project-media > iframe,
+.reveal section.project .project-media > video { z-index: 1; background: transparent; }
+
+/* -- Fullscreen video ------------------------------------- */
+
+.reveal section.video-slide { text-align: center; padding: 0; }
+
+.reveal section.video-slide video {
+  max-width: 100%;
+  max-height: var(--slide-height, 720px);
+  width: auto;
+  height: auto;
+  border-radius: 6px;
+  box-shadow: 0 12px 32px rgba(0, 0, 0, 0.10), 0 2px 6px rgba(0, 0, 0, 0.05);
+
+  /* js/handoff.js animates transform and border-radius from the project
+     card's geometry; both are declared here so the start state has
+     something to interpolate from. */
+  transform-origin: 0 0;
+  will-change: transform;
+}
+
+/* -- Closing slide ---------------------------------------- */
+/* Reversed strata mark, serif call to action, two contact pills and a
+   quiet affiliation line. Block layout on purpose -- see the
+   .centered-slide note above; only the pill row is a flex container. */
+
+.reveal section.closing-slide { box-sizing: border-box; padding: 20px 6%; }
+
+.reveal section.closing-slide .closing-mark {
+  display: block;
+  width: 108px;
+  height: auto;
+  margin: 0 auto 2.2rem;
+}
+
+.reveal section.closing-slide h1 {
+  font-size: 2em;
+  margin: 0;
+  max-width: 14em;
+  color: var(--brand-paper);
+}
+
+/* The deck's one QR code, to the public copy of these slides. A static
+   SVG (assets/qr-slides.svg) rather than one drawn from
+   window.location, so it is right when the deck runs from disk too.
+   The white quiet zone is part of the image -- scanners need it. */
+.reveal section.closing-slide .closing-qr {
+  margin: 1.6rem auto 0;
+  width: 190px;
+}
+
+.reveal section.closing-slide .closing-qr img {
+  display: block;
+  width: 100%;
+  height: auto;
+  margin: 0;
+  border-radius: 6px;
+}
+
+.reveal section.closing-slide .closing-qr figcaption {
+  margin-top: 0.5rem;
+  font-family: var(--font-body);
+  font-size: 0.42em;
+  font-weight: 700;
+  font-style: normal;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: var(--brand-paper);
+}
+
+.reveal section.closing-slide .closing-links {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 0.75rem;
+  margin: 2rem auto 0;
+}
+
+/* Pills are links, so the deck-wide underline and .is-dark link colour
+   both have to be turned back off here. */
+.reveal section.closing-slide .closing-pill {
+  font-family: var(--font-body);
+  font-size: 0.78em;
+  font-weight: 500;
+  letter-spacing: 0.01em;
+  line-height: 1;
+  padding: 0.72em 1.35em;
+  border-radius: 999px;
+  border: 2px solid var(--brand-paper);
+  color: var(--brand-paper);
+  text-decoration: none;
+  transition: background 0.2s ease, color 0.2s ease;
+}
+
+.reveal section.closing-slide .closing-pill.is-filled {
+  background: var(--brand-olive);
+  border-color: var(--brand-olive);
+  color: var(--brand-teal-dark);
+}
+
+.reveal section.closing-slide .closing-pill:hover {
+  background: var(--brand-paper);
+  color: var(--brand-teal-dark);
+}
+
+.reveal section.closing-slide .closing-pill.is-filled:hover {
+  background: var(--brand-paper);
+  border-color: var(--brand-paper);
+}
+
+.reveal section.closing-slide .closing-footnote {
+  margin: 1.6rem 0 0;
+  font-family: var(--font-body);
+  font-size: 0.42em;
+  font-weight: 700;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  color: rgba(245, 243, 238, 0.45);
+}
+
+/* -- Live audience quiz ----------------------------------- */
+/* slide-quiz ships its own stylesheet built around --sq-* custom
+   properties which normally inherit from a reveal *theme*'s --r-*
+   variables. This deck is hand-rolled and sets no --r-* at all, so the
+   plugin would otherwise fall back to its amber default on an
+   `inherit` text colour. Map the whole set onto the brand tokens
+   instead; the participant page repeats the --sq-p-* half of this. */
+.reveal section.quiz-slide {
+  --sq-accent:      var(--brand-teal-dark);
+  --sq-text:        var(--brand-slate);
+  --sq-text-muted:  var(--brand-muted);
+  --sq-font:        var(--font-body);
+  --sq-heading-font: var(--font-heading);
+  --sq-mono:        var(--font-mono);
+  --sq-heading-font-weight: 400;
+  --sq-heading-letter-spacing: 0;
+  --sq-heading-line-height: 1.15;
+  --sq-bar-track:   var(--brand-gray-light);
+  --sq-bar-fill:    var(--brand-transfer);
+  --sq-bar-correct: var(--brand-teal-dark);
+  --sq-border-radius: 0.35rem;
+
+  /* reveal sizes sections to exactly the 1280x720 stage but leaves them
+     content-box, so this deck's 40px side padding hangs off the right
+     edge. Nothing else notices -- prose wraps long before it -- but the
+     QR code is pinned to the far right and would be clipped in half.
+     Border-box on this slide alone keeps the change contained. */
+  box-sizing: border-box;
+  gap: 0.75rem;
+}
+
+/* Vertically centre the quiz. reveal writes `display: block` inline on
+   the slide it is showing, so the flex context has to be reclaimed with
+   !important -- and only on .present, or hidden slides would show. */
+.reveal .slides section.quiz-slide.present {
+  display: flex !important;
+  flex-direction: column;
+  justify-content: center;
+  height: 100%;
+}
+
+.reveal section.quiz-slide .quiz-kicker {
+  margin: 0;
+  font-family: var(--font-body);
+  font-size: 0.42em;
+  font-weight: 700;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  color: var(--brand-muted);
+}
+
+/* Kicker and hint are one unit above the question, so pull the hint
+   back inside the flex gap rather than letting it float between them. */
+.reveal section.quiz-slide .quiz-hint {
+  margin: -0.45rem 0 0.35rem;
+  font-family: var(--font-body);
+  font-size: 0.44em;
+  line-height: 1.4;
+  color: var(--brand-muted);
+}
+
+/* The question is the slide's heading, so give it the deck's h2 size
+   rather than the plugin's smaller clamp, and left-align it with
+   everything else on the slide. */
+.reveal section.quiz-slide .sq-results__title,
+.reveal section.quiz-slide .sq-wordcloud__title {
+  margin: 0;
+  font-size: 1.15em;
+  color: var(--deck-heading);
+  text-align: left;
+}
+
+.reveal section.quiz-slide .sq-results,
+.reveal section.quiz-slide .sq-wordcloud { gap: 1.4rem; }
+
+/* Four options at this deck's phrasing need more than the plugin's
+   12rem label column, and the count column can give a little back. */
+.reveal section.quiz-slide .sq-result-bar {
+  grid-template-columns: 21rem 1fr 5.5rem;
+  gap: 0.9rem;
+}
+
+.reveal section.quiz-slide .sq-result-bar__track { height: 1.9rem; }
+
+.reveal section.quiz-slide .sq-result-bar__letter {
+  color: var(--brand-transfer-ink);
+}
+
+/* A 160px QR reads at the back of a lecture room only just; the plugin
+   hard-codes that size, so scale the img up in CSS. Nearest-neighbour
+   keeps the modules square rather than blurring them. */
+.reveal section.quiz-slide .sq-qr {
+  width: 13rem;
+  height: 13rem;
+  image-rendering: pixelated;
+}
+
+.reveal section.quiz-slide .sq-results__qr-url {
+  font-size: 0.7rem;
+  max-width: 13rem;
+}
+
+.reveal section.quiz-slide .sq-wordcloud__cloud { min-height: 12rem; }
+
+/* -- Quiz beside the diagram ------------------------------ */
+/* The question opening each stratum sits at stage layout "aside", so the
+   mark is parked and lit exactly as it is on that stratum's project
+   slides and does not move when the first project follows. Everything
+   here fits the quiz into the project column instead of the full slide.
+
+   Geometry is the project slide's, deliberately: back to content-box
+   (undoing the full-width quiz's border-box) and the same 46% / 50% / 4%
+   column, so kicker, question and bars start on the very line the
+   project media will. That was the only reason for border-box above --
+   the QR code pinned to the far right -- and here it sits inside the
+   column instead. */
+.reveal section.quiz-slide.quiz-slide--aside { box-sizing: content-box; }
+
+.reveal section.quiz-slide.quiz-slide--aside > * {
+  width: 50%;
+  margin-left: 46%;
+  margin-right: 4%;
+}
+
+.reveal section.quiz-slide.quiz-slide--aside[data-strata-park="right"] > * {
+  margin-left: 4%;
+  margin-right: 46%;
+}
+
+/* No kicker or hint on these: the lit stratum beside the question
+   already says where we are, so the question is the first line. */
+
+/* 640px of column: the question at the project h2's weight but smaller,
+   so the longest one (Support, ~110 characters) holds to three lines. */
+.reveal section.quiz-slide--aside .sq-results__title,
+.reveal section.quiz-slide--aside .sq-wordcloud__title {
+  font-size: 0.95em;
+  line-height: 1.2;
+}
+
+.reveal section.quiz-slide--aside .sq-results,
+.reveal section.quiz-slide--aside .sq-wordcloud { gap: 1.1rem; }
+
+.reveal section.quiz-slide--aside .sq-results__body { gap: 1.25rem; }
+
+/* Bars and QR side by side still fit once both give ground: these
+   options are short, and by the second question most of the room is
+   already on the page, so the code only has to serve late arrivals. */
+.reveal section.quiz-slide--aside .sq-result-bar {
+  grid-template-columns: 15.5rem 1fr 3.8rem;
+  gap: 0.7rem;
+}
+
+.reveal section.quiz-slide--aside .sq-result-bar__track { height: 1.6rem; }
+
+.reveal section.quiz-slide--aside .sq-results__bars { gap: 0.8rem; }
+
+.reveal section.quiz-slide--aside .sq-qr {
+  width: 8.5rem;
+  height: 8.5rem;
+}
+
+.reveal section.quiz-slide--aside .sq-results__qr-url {
+  font-size: 0.55rem;
+  max-width: 8.5rem;
+}
+
+.reveal section.quiz-slide--aside .sq-wordcloud__cloud { min-height: 9rem; }
+
+/* Bars in the stratum's own colour, matching the lit band beside them. */
+.reveal section.quiz-slide--aside[data-strata-active="support"] {
+  --sq-bar-fill: var(--brand-support);
+}
+.reveal section.quiz-slide--aside[data-strata-active="transfer"] {
+  --sq-bar-fill: var(--brand-transfer);
+}
+.reveal section.quiz-slide--aside[data-strata-active="integration"] {
+  --sq-bar-fill: var(--brand-integration);
+}
+.reveal section.quiz-slide--aside[data-strata-active="support"] .sq-result-bar__letter {
+  color: var(--brand-support-ink);
+}
+.reveal section.quiz-slide--aside[data-strata-active="integration"] .sq-result-bar__letter {
+  color: var(--brand-integration-ink);
+}
+.reveal section.quiz-slide--aside[data-strata-active="integration"] .sq-wordcloud__word--top {
+  color: var(--brand-integration-ink);
+}
+
+/* The cloud is empty until the first answer lands, which on a projector
+   reads as a broken slide rather than an invitation. */
+.reveal section.quiz-slide .sq-wordcloud__cloud:empty::before {
+  content: "Answers appear here as they arrive.";
+  font-family: var(--font-body);
+  font-size: 0.5em;
+  color: var(--brand-muted);
+}
+
+/* Acknowledgement for the answer export (js/quiz-capture.js). A file
+   landing silently in a downloads folder is indistinguishable from a
+   keypress that did nothing, and this one gets pressed once, under mild
+   pressure, at the end of a talk. */
+.quiz-capture-toast {
+  position: fixed;
+  left: 50%;
+  bottom: 2.2rem;
+  transform: translate(-50%, 0.6rem);
+  z-index: 200;
+  padding: 0.7rem 1.3rem;
+  border-radius: 0.4rem;
+  background: var(--brand-teal-dark);
+  color: var(--brand-paper);
+  font-family: var(--font-body);
+  font-size: 0.85rem;
+  font-weight: 500;
+  letter-spacing: 0.01em;
+  box-shadow: 0 6px 22px rgba(26, 26, 26, 0.22);
+  opacity: 0;
+  transition: opacity 0.28s ease, transform 0.28s ease;
+}
+
+.quiz-capture-toast.is-in {
+  opacity: 1;
+  transform: translate(-50%, 0);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .quiz-capture-toast { transition: opacity 0.28s ease; }
+}
