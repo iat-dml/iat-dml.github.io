@@ -1,0 +1,267 @@
+{
+ "meta": {
+  "schema_version": "1.0",
+  "question": "One goal of IAT monitoring is to collect a shared set of data across all five Living Labs, so that we can compare different agroecosystems. Which data do you think are most important to collect in every Living Lab?",
+  "source": [
+   "wordcloud-responses.csv",
+   "wordcloud-dimensions.csv"
+  ]
+ },
+ "dimensions": [
+  {
+   "id": "economic",
+   "name": "Economic",
+   "n": 10,
+   "colour": "lab-1",
+   "terms": [
+    {
+     "id": "economic|performance",
+     "text": "performance",
+     "n": 2
+    },
+    {
+     "id": "economic|drivers",
+     "text": "drivers",
+     "n": 1
+    },
+    {
+     "id": "economic|farm",
+     "text": "farm",
+     "n": 1
+    },
+    {
+     "id": "economic|income",
+     "text": "income",
+     "n": 1
+    },
+    {
+     "id": "economic|input-costs",
+     "text": "input costs",
+     "n": 1
+    },
+    {
+     "id": "economic|profit",
+     "text": "profit",
+     "n": 1
+    }
+   ]
+  },
+  {
+   "id": "environment",
+   "name": "Environment",
+   "n": 68,
+   "colour": "lab-3",
+   "terms": [
+    {
+     "id": "environment|soil",
+     "text": "soil",
+     "n": 16
+    },
+    {
+     "id": "environment|climate",
+     "text": "climate",
+     "n": 13
+    },
+    {
+     "id": "environment|biodiversity",
+     "text": "biodiversity",
+     "n": 12
+    },
+    {
+     "id": "environment|land-use-and-management",
+     "text": "land use and management",
+     "n": 10
+    },
+    {
+     "id": "environment|ghg-emissions",
+     "text": "GHG emissions",
+     "n": 3
+    },
+    {
+     "id": "environment|hydrology",
+     "text": "hydrology",
+     "n": 3
+    },
+    {
+     "id": "environment|climate-resilience",
+     "text": "climate resilience",
+     "n": 1
+    },
+    {
+     "id": "environment|density-of-natural-areas",
+     "text": "density of natural areas",
+     "n": 1
+    },
+    {
+     "id": "environment|evapotranspiration",
+     "text": "evapotranspiration",
+     "n": 1
+    }
+   ]
+  },
+  {
+   "id": "productivity",
+   "name": "Productivity",
+   "n": 42,
+   "colour": "lab-0",
+   "terms": [
+    {
+     "id": "productivity|farm-management",
+     "text": "farm management",
+     "n": 13
+    },
+    {
+     "id": "productivity|yield",
+     "text": "yield",
+     "n": 8
+    },
+    {
+     "id": "productivity|animal-health-and-welfare",
+     "text": "animal health and welfare",
+     "n": 2
+    },
+    {
+     "id": "productivity|historical-management",
+     "text": "historical management",
+     "n": 2
+    },
+    {
+     "id": "productivity|irrigation",
+     "text": "irrigation",
+     "n": 2
+    },
+    {
+     "id": "productivity|livestock-numbers",
+     "text": "livestock numbers",
+     "n": 2
+    },
+    {
+     "id": "productivity|livestock-productivity",
+     "text": "livestock productivity",
+     "n": 1
+    },
+    {
+     "id": "productivity|number-of-farms",
+     "text": "number of farms",
+     "n": 1
+    },
+    {
+     "id": "productivity|spatial-temporal-variability-of-field-crops",
+     "text": "spatial/temporal variability of field crops",
+     "n": 1
+    },
+    {
+     "id": "productivity|wildlife-occurrence",
+     "text": "wildlife occurrence",
+     "n": 1
+    }
+   ]
+  },
+  {
+   "id": "social",
+   "name": "Social",
+   "n": 25,
+   "colour": "lab-2",
+   "terms": [
+    {
+     "id": "social|perceptions",
+     "text": "perceptions",
+     "n": 9
+    },
+    {
+     "id": "social|attitudes---beliefs",
+     "text": "attitudes & beliefs",
+     "n": 2
+    },
+    {
+     "id": "social|values",
+     "text": "values",
+     "n": 2
+    },
+    {
+     "id": "social|consumer-awareness",
+     "text": "consumer awareness",
+     "n": 1
+    },
+    {
+     "id": "social|decision-making",
+     "text": "decision-making",
+     "n": 1
+    },
+    {
+     "id": "social|labor-needs",
+     "text": "labor needs",
+     "n": 1
+    },
+    {
+     "id": "social|social-data",
+     "text": "social data",
+     "n": 1
+    }
+   ]
+  },
+  {
+   "id": "transformation-capacity",
+   "name": "Transformation Capacity",
+   "n": 34,
+   "colour": "lab-4",
+   "terms": [
+    {
+     "id": "transformation-capacity|actor-participation",
+     "text": "actor participation",
+     "n": 4
+    },
+    {
+     "id": "transformation-capacity|collaboration",
+     "text": "collaboration",
+     "n": 3
+    },
+    {
+     "id": "transformation-capacity|regulations---institutions",
+     "text": "regulations & institutions",
+     "n": 2
+    },
+    {
+     "id": "transformation-capacity|stakeholder---power-mapping",
+     "text": "stakeholder & power mapping",
+     "n": 2
+    },
+    {
+     "id": "transformation-capacity|value-chains",
+     "text": "value chains",
+     "n": 2
+    },
+    {
+     "id": "transformation-capacity|actor-needs",
+     "text": "actor needs",
+     "n": 1
+    },
+    {
+     "id": "transformation-capacity|current-sustainability-actions",
+     "text": "current sustainability actions",
+     "n": 1
+    },
+    {
+     "id": "transformation-capacity|factors-disrupting-sustainable-land-use",
+     "text": "factors disrupting sustainable land use",
+     "n": 1
+    },
+    {
+     "id": "transformation-capacity|governance-and-institutions",
+     "text": "governance and institutions",
+     "n": 1
+    },
+    {
+     "id": "transformation-capacity|processing-facility-ownership",
+     "text": "processing facility ownership",
+     "n": 1
+    },
+    {
+     "id": "transformation-capacity|researcher-experiments--activities--disciplines",
+     "text": "researcher experiments, activities, disciplines",
+     "n": 1
+    }
+   ]
+  }
+ ]
+}

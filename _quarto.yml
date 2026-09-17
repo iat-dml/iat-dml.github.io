@@ -23,6 +23,15 @@ project:
     - talks/iat-statusseminar-2026/js/**
     - talks/iat-statusseminar-2026/assets/**
     - talks/iat-statusseminar-2026/vendor/**
+    # IAT baseline survey deck (projects/iat-baseline-survey/), built in
+    # iat-dml/sem-survey-visualisation (out/). Plain index.html that fetch()es
+    # data/*.json, so copy it verbatim. lab.html, icons.html and mockups/ are left out.
+    - projects/iat-baseline-survey/index.html
+    - projects/iat-baseline-survey/css/**
+    - projects/iat-baseline-survey/js/**
+    - projects/iat-baseline-survey/data/**
+    - projects/iat-baseline-survey/assets/**
+    - projects/iat-baseline-survey/vendor/**
 website:
   favicon: assets/logos/dml-strata-deep-favicon.svg
   site-url: "https://iat-dml.github.io"
