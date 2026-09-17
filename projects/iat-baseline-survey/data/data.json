@@ -1,0 +1,4594 @@
+{
+  "meta": {
+    "schema_version": "1.4",
+    "n_respondents": 53,
+    "generated_from": "MS Forms xlsx export",
+    "pii_removed": true
+  },
+  "living_labs": [
+    {
+      "id": "lab-0",
+      "name": "East Brandenburg",
+      "short": "East Brandenburg",
+      "slug": "east-brandenburg",
+      "nuts3": [
+        "DE409"
+      ]
+    },
+    {
+      "id": "lab-1",
+      "name": "Havelland",
+      "short": "Havelland",
+      "slug": "havelland",
+      "nuts3": [
+        "DE408"
+      ]
+    },
+    {
+      "id": "lab-2",
+      "name": "North Hesse",
+      "short": "North Hesse",
+      "slug": "north-hessian-loess",
+      "nuts3": [
+        "DE734",
+        "DE737"
+      ]
+    },
+    {
+      "id": "lab-3",
+      "name": "The Hessian Low Mountain Range",
+      "short": "Hessian Low Mtn Range",
+      "slug": "hessian-low-mountain",
+      "nuts3": [
+        "DE722",
+        "DE723",
+        "DE725"
+      ]
+    },
+    {
+      "id": "lab-4",
+      "name": "Rheingau",
+      "short": "Rheingau",
+      "slug": "rheingau",
+      "nuts3": [
+        "DE71D"
+      ]
+    }
+  ],
+  "use_cases": [
+    {
+      "id": "uc-0",
+      "name": "Agriphotovoltaic systems",
+      "short": "Agri-PV"
+    },
+    {
+      "id": "uc-1",
+      "name": "Agroforestry systems",
+      "short": "Agroforestry"
+    },
+    {
+      "id": "uc-2",
+      "name": "Climate resilient (mixed) cropping systems",
+      "short": "Climate-resilient cropping"
+    },
+    {
+      "id": "uc-3",
+      "name": "Sustainable livestock systems",
+      "short": "Sustainable livestock"
+    },
+    {
+      "id": "uc-4",
+      "name": "New (regional) value networks",
+      "short": "Regional value networks"
+    },
+    {
+      "id": "uc-5",
+      "name": "Landscape water management",
+      "short": "Landscape water mgmt"
+    }
+  ],
+  "themes": [
+    {
+      "id": "th-0",
+      "name": "Behaviour and decision-making",
+      "short": "Behaviour & decisions"
+    },
+    {
+      "id": "th-1",
+      "name": "Biodiversity",
+      "short": "Biodiversity"
+    },
+    {
+      "id": "th-2",
+      "name": "Biogeochemistry",
+      "short": "Biogeochemistry"
+    },
+    {
+      "id": "th-3",
+      "name": "Climate science (GHG fluxes, micrometeorology)",
+      "short": "Climate science"
+    },
+    {
+      "id": "th-4",
+      "name": "Crop and livestock management (incl. animal welfare)",
+      "short": "Crop & livestock mgmt"
+    },
+    {
+      "id": "th-5",
+      "name": "Demography, labour, and rural livlihoods",
+      "short": "Demography & livelihoods"
+    },
+    {
+      "id": "th-6",
+      "name": "Farm economics, value chains and income diversification",
+      "short": "Farm economics"
+    },
+    {
+      "id": "th-7",
+      "name": "Governance, policy, and institutional analysis",
+      "short": "Governance & policy"
+    },
+    {
+      "id": "th-8",
+      "name": "Hydrology and water management",
+      "short": "Hydrology"
+    },
+    {
+      "id": "th-9",
+      "name": "Innovation research",
+      "short": "Innovation research"
+    },
+    {
+      "id": "th-10",
+      "name": "Landscape ecology (spatial patterns, connectivity, land mosaics)",
+      "short": "Landscape ecology"
+    },
+    {
+      "id": "th-11",
+      "name": "Resource use efficiency (water, nutrients, energy)",
+      "short": "Resource use efficiency"
+    },
+    {
+      "id": "th-12",
+      "name": "Social justice, equity, and societal perceptions",
+      "short": "Social justice & equity"
+    },
+    {
+      "id": "th-13",
+      "name": "Soil health",
+      "short": "Soil health"
+    },
+    {
+      "id": "th-14",
+      "name": "Sustainability assessment and ecosystem services frameworks",
+      "short": "Sustainability assessment"
+    },
+    {
+      "id": "th-15",
+      "name": "Technology, digitalization and innovation adoption",
+      "short": "Tech & digitalization"
+    }
+  ],
+  "stakeholder_groups": [
+    {
+      "id": "sg-0",
+      "name": "Agri-landscape related professional associations",
+      "short": "Professional bodies"
+    },
+    {
+      "id": "sg-1",
+      "name": "Agricultural advisors & consultants (e.g., private or public)",
+      "short": "Advisors & consultants"
+    },
+    {
+      "id": "sg-2",
+      "name": "Agricultural cooperatives",
+      "short": "Cooperatives"
+    },
+    {
+      "id": "sg-3",
+      "name": "Agricultural trade, storage, and logistics",
+      "short": "Trade & logistics"
+    },
+    {
+      "id": "sg-4",
+      "name": "Consumers or consumer organizations",
+      "short": "Consumers"
+    },
+    {
+      "id": "sg-5",
+      "name": "Environmental and conservation actors (e.g., protected areas, fisheries, foresters, animal welfare organizations)",
+      "short": "Conservation actors"
+    },
+    {
+      "id": "sg-6",
+      "name": "Finance, insurance, investors",
+      "short": "Finance & insurance"
+    },
+    {
+      "id": "sg-7",
+      "name": "Food processors (e.g., meat, grain, produce, dairy, beverages, feed)",
+      "short": "Food processors"
+    },
+    {
+      "id": "sg-8",
+      "name": "Food retail and distribution",
+      "short": "Retail & distribution"
+    },
+    {
+      "id": "sg-9",
+      "name": "Government, policy, regulation (e.g., across all scales - EU, Federal, State, Regional, District, Local)",
+      "short": "Government & policy"
+    },
+    {
+      "id": "sg-10",
+      "name": "Pre-production actors and suppliers (e.g., fertilizer, seed, equipment suppliers, soil testing facilities)",
+      "short": "Input suppliers"
+    },
+    {
+      "id": "sg-11",
+      "name": "Producers (e.g., crop/livestock farmers, winegrowers, beekeepers)",
+      "short": "Producers"
+    },
+    {
+      "id": "sg-12",
+      "name": "Renewable energy producers & operators",
+      "short": "Renewable energy"
+    },
+    {
+      "id": "sg-13",
+      "name": "Rural development actors (e.g., LEADER groups, business development agencies, citizen initiatives, tourism)",
+      "short": "Rural development"
+    }
+  ],
+  "scales": {
+    "use_case_experience": [
+      "No experience",
+      "Moderate experience",
+      "A lot of experience"
+    ],
+    "use_case_interest": [
+      "Not interested",
+      "Somewhat interested",
+      "Very interested"
+    ],
+    "participatory": [
+      "Not at all like me",
+      "Not like me",
+      "Unsure",
+      "Like me",
+      "Very much like me"
+    ],
+    "regional_scale": [
+      "No experience",
+      "Some experience",
+      "Considerable experience"
+    ],
+    "monitoring_interest": [
+      "Not at all interested",
+      "Somewhat interested",
+      "Very interested"
+    ]
+  },
+  "participatory_statements": [
+    {
+      "key": "no_practitioners",
+      "kind": "filter",
+      "rung": null,
+      "short": "no practitioners",
+      "label": "Does not work with practitioners (but would like to)"
+    },
+    {
+      "key": "values_no_convo",
+      "kind": "broken",
+      "rung": null,
+      "short": "values, rarely converses",
+      "label": "Values practitioners, rarely converses"
+    },
+    {
+      "key": "indepth_convo",
+      "kind": "ladder",
+      "rung": 1,
+      "short": "conversations",
+      "label": "In-depth conversations guide agenda"
+    },
+    {
+      "key": "codesign",
+      "kind": "ladder",
+      "rung": 2,
+      "short": "co-design",
+      "label": "Involves practitioners in study design"
+    },
+    {
+      "key": "cointerpret",
+      "kind": "ladder",
+      "rung": 3,
+      "short": "co-interpretation",
+      "label": "Co-interprets findings"
+    },
+    {
+      "key": "uses_pract_data",
+      "kind": "mode",
+      "rung": null,
+      "short": "uses their data",
+      "label": "Uses practitioner/citizen-collected data"
+    },
+    {
+      "key": "advises",
+      "kind": "mode",
+      "rung": null,
+      "short": "advises",
+      "label": "Advises practitioners on decisions"
+    },
+    {
+      "key": "brokers",
+      "kind": "mode",
+      "rung": null,
+      "short": "brokers",
+      "label": "Brokers researcher-practitioner connections"
+    }
+  ],
+  "invitations": {
+    "invited_total": 179,
+    "as_of": "2026-09-02",
+    "institutions": [
+      {
+        "name": "Leibniz Centre for Agricultural Landscape Research (ZALF)",
+        "short": "ZALF",
+        "slug": "zalf",
+        "opaque_bg": false
+      },
+      {
+        "name": "Justus Liebig University Gießen (JLU)",
+        "short": "JLU Gießen",
+        "slug": "jlu-giessen",
+        "opaque_bg": false
+      },
+      {
+        "name": "University of Kassel",
+        "short": "Uni Kassel",
+        "slug": "uni-kassel",
+        "opaque_bg": false
+      },
+      {
+        "name": "University of Münster",
+        "short": "Uni Münster",
+        "slug": "uni-muenster",
+        "opaque_bg": false
+      },
+      {
+        "name": "Hochschule Geisenheim University",
+        "short": "Geisenheim",
+        "slug": "geisenheim",
+        "opaque_bg": true
+      },
+      {
+        "name": "Hochschule Weihenstephan-Triesdorf",
+        "short": "HS Weihenstephan",
+        "slug": "weihenstephan-triesdorf",
+        "opaque_bg": false
+      },
+      {
+        "name": "Karlsruhe Transformation Center for Sustainability and Cultural Change (KAT)",
+        "short": "KAT Karlsruhe",
+        "slug": "kat-karlsruhe",
+        "opaque_bg": false
+      },
+      {
+        "name": "Senckenberg Society for Nature Research",
+        "short": "Senckenberg",
+        "slug": "senckenberg",
+        "opaque_bg": true
+      },
+      {
+        "name": "Institut de Recherche pour le Développement (IRD)",
+        "short": "IRD",
+        "slug": "ird",
+        "opaque_bg": false
+      },
+      {
+        "name": "Hessisches Ministerium für Landwirtschaft und Umwelt, Weinbau, Forsten, Jagd und Heimat",
+        "short": "HMLU Hessen",
+        "slug": "hessen-ministry",
+        "opaque_bg": false
+      },
+      {
+        "name": "Landesbetrieb Landwirtschaft Hessen",
+        "short": "LLH Hessen",
+        "slug": "llh-hessen",
+        "opaque_bg": false
+      },
+      {
+        "name": "Landesamt für Umwelt Brandenburg (LfU)",
+        "short": "LfU Brandenburg",
+        "slug": "lfu-brandenburg",
+        "opaque_bg": false
+      },
+      {
+        "name": "Landesbetrieb Forst Brandenburg (LFB)",
+        "short": "LFB Brandenburg",
+        "slug": "lfb-brandenburg",
+        "opaque_bg": true
+      },
+      {
+        "name": "Landkreis Märkisch-Oderland",
+        "short": "LK Märkisch-Oderland",
+        "slug": "landkreis-maerkisch-oderland",
+        "opaque_bg": false
+      },
+      {
+        "name": "Landkreis Oder-Spree",
+        "short": "LK Oder-Spree",
+        "slug": "landkreis-oder-spree",
+        "opaque_bg": true
+      },
+      {
+        "name": "LAG Märkische Seen e.V.",
+        "short": "LAG Märkische Seen",
+        "slug": "lag-maerkische-seen",
+        "opaque_bg": true
+      }
+    ]
+  },
+  "monitoring_topics": [
+    {
+      "key": "farmer_panel",
+      "label": "Recurring farmer panel survey",
+      "short": "Farmer panel"
+    },
+    {
+      "key": "farmer_apps",
+      "label": "Farmer-focused apps & digital data collection",
+      "short": "Farmer apps"
+    },
+    {
+      "key": "sampling_design",
+      "label": "Optimising landscape-scale sampling designs",
+      "short": "Sampling design"
+    },
+    {
+      "key": "secondary_integration",
+      "label": "Integrating plot-level with secondary datasets",
+      "short": "Data integration"
+    },
+    {
+      "key": "cross_scale_validation",
+      "label": "Cross-scale validation of low-cost methods",
+      "short": "Cross-scale validation"
+    }
+  ],
+  "respondents": [
+    {
+      "id": "R005",
+      "living_labs": [
+        "North Hesse"
+      ],
+      "no_lab": false,
+      "institutions": [
+        "University of Kassel"
+      ],
+      "themes": [
+        "Crop and livestock management (incl. animal welfare)",
+        "Resource use efficiency (water, nutrients, energy)",
+        "Climate science (GHG fluxes, micrometeorology)"
+      ],
+      "data_types": [
+        "Product Quality"
+      ],
+      "practitioner_groups": [
+        "Agricultural advisors & consultants (e.g., private or public)",
+        "Food processors (e.g., meat, grain, produce, dairy, beverages, feed)",
+        "Producers (e.g., crop/livestock farmers, winegrowers, beekeepers)"
+      ],
+      "regional_scale_experience": 1,
+      "use_cases": [
+        {
+          "use_case": "Agriphotovoltaic systems",
+          "experience": 0,
+          "interest": 0
+        },
+        {
+          "use_case": "Agroforestry systems",
+          "experience": 1,
+          "interest": 1
+        },
+        {
+          "use_case": "Climate resilient (mixed) cropping systems",
+          "experience": 0,
+          "interest": 1
+        },
+        {
+          "use_case": "Sustainable livestock systems",
+          "experience": 2,
+          "interest": 2
+        },
+        {
+          "use_case": "New (regional) value networks",
+          "experience": 1,
+          "interest": 1
+        },
+        {
+          "use_case": "Landscape water management",
+          "experience": 0,
+          "interest": 0
+        }
+      ],
+      "participatory": {
+        "no_practitioners": 3,
+        "values_no_convo": 1,
+        "indepth_convo": 1,
+        "codesign": 2,
+        "cointerpret": 0,
+        "uses_pract_data": 2,
+        "advises": 2,
+        "brokers": 1
+      },
+      "engagement_level": 0,
+      "monitoring_interest": {
+        "farmer_panel": 0,
+        "farmer_apps": 0,
+        "sampling_design": 0,
+        "secondary_integration": 0,
+        "cross_scale_validation": 0
+      },
+      "flags": []
+    },
+    {
+      "id": "R006",
+      "living_labs": [
+        "North Hesse"
+      ],
+      "no_lab": false,
+      "institutions": [
+        "University of Kassel"
+      ],
+      "themes": [
+        "Farm economics, value chains and income diversification",
+        "Technology, digitalization and innovation adoption",
+        "Demography, labour, and rural livlihoods",
+        "Behaviour and decision-making",
+        "Sustainability assessment and ecosystem services frameworks"
+      ],
+      "data_types": [
+        "Social and behavioural change (e.g., stakeholder attitudes, adoption patterns, social norms)",
+        "Value chains and market change (e.g., market access, price dynamics, supply chain shifts)"
+      ],
+      "practitioner_groups": [
+        "Agricultural advisors & consultants (e.g., private or public)",
+        "Rural development actors (e.g., LEADER groups, business development agencies, citizen initiatives, tourism)",
+        "Producers (e.g., crop/livestock farmers, winegrowers, beekeepers)",
+        "Government, policy, regulation (e.g., across all scales - EU, Federal, State, Regional, District, Local)",
+        "Food retail and distribution",
+        "Food processors (e.g., meat, grain, produce, dairy, beverages, feed)",
+        "Environmental and conservation actors (e.g., protected areas, fisheries, foresters, animal welfare organizations)"
+      ],
+      "regional_scale_experience": 2,
+      "use_cases": [
+        {
+          "use_case": "Agriphotovoltaic systems",
+          "experience": 1,
+          "interest": 0
+        },
+        {
+          "use_case": "Agroforestry systems",
+          "experience": 2,
+          "interest": 2
+        },
+        {
+          "use_case": "Climate resilient (mixed) cropping systems",
+          "experience": 1,
+          "interest": 1
+        },
+        {
+          "use_case": "Sustainable livestock systems",
+          "experience": 0,
+          "interest": 0
+        },
+        {
+          "use_case": "New (regional) value networks",
+          "experience": 1,
+          "interest": 1
+        },
+        {
+          "use_case": "Landscape water management",
+          "experience": 1,
+          "interest": 1
+        }
+      ],
+      "participatory": {
+        "no_practitioners": 0,
+        "values_no_convo": 0,
+        "indepth_convo": 3,
+        "codesign": 3,
+        "cointerpret": 3,
+        "uses_pract_data": 2,
+        "advises": 2,
+        "brokers": 4
+      },
+      "engagement_level": 3,
+      "monitoring_interest": {
+        "farmer_panel": 1,
+        "farmer_apps": 0,
+        "sampling_design": 0,
+        "secondary_integration": 1,
+        "cross_scale_validation": 0
+      },
+      "flags": []
+    },
+    {
+      "id": "R007",
+      "living_labs": [
+        "Rheingau"
+      ],
+      "no_lab": false,
+      "institutions": [
+        "Hochschule Geisenheim University"
+      ],
+      "themes": [
+        "Crop and livestock management (incl. animal welfare)",
+        "Resource use efficiency (water, nutrients, energy)",
+        "Sustainability assessment and ecosystem services frameworks"
+      ],
+      "data_types": [
+        "Environmental and ecological change (e.g., biodiversity, hydrology/micrometeorology, soil health, greenhouse gas emissions)"
+      ],
+      "practitioner_groups": [
+        "Agricultural advisors & consultants (e.g., private or public)",
+        "Agricultural cooperatives",
+        "Producers (e.g., crop/livestock farmers, winegrowers, beekeepers)",
+        "Agri-landscape related professional associations"
+      ],
+      "regional_scale_experience": 2,
+      "use_cases": [
+        {
+          "use_case": "Agriphotovoltaic systems",
+          "experience": 2,
+          "interest": 2
+        },
+        {
+          "use_case": "Agroforestry systems",
+          "experience": 1,
+          "interest": 2
+        },
+        {
+          "use_case": "Climate resilient (mixed) cropping systems",
+          "experience": 1,
+          "interest": 2
+        },
+        {
+          "use_case": "Sustainable livestock systems",
+          "experience": 1,
+          "interest": 1
+        },
+        {
+          "use_case": "New (regional) value networks",
+          "experience": 1,
+          "interest": 1
+        },
+        {
+          "use_case": "Landscape water management",
+          "experience": 1,
+          "interest": 1
+        }
+      ],
+      "participatory": {
+        "no_practitioners": 1,
+        "values_no_convo": 2,
+        "indepth_convo": 2,
+        "codesign": 3,
+        "cointerpret": 2,
+        "uses_pract_data": 3,
+        "advises": 2,
+        "brokers": 2
+      },
+      "engagement_level": 2,
+      "monitoring_interest": {
+        "farmer_panel": 1,
+        "farmer_apps": 1,
+        "sampling_design": 1,
+        "secondary_integration": 1,
+        "cross_scale_validation": 1
+      },
+      "flags": []
+    },
+    {
+      "id": "R008",
+      "living_labs": [
+        "East Brandenburg"
+      ],
+      "no_lab": false,
+      "institutions": [
+        "ZALF"
+      ],
+      "themes": [
+        "Farm economics, value chains and income diversification",
+        "Soil health",
+        "Demography, labour, and rural livlihoods",
+        "Governance, policy, and institutional analysis"
+      ],
+      "data_types": [],
+      "practitioner_groups": [
+        "Government, policy, regulation (e.g., across all scales - EU, Federal, State, Regional, District, Local)",
+        "Rural development actors (e.g., LEADER groups, business development agencies, citizen initiatives, tourism)",
+        "Agri-landscape related professional associations",
+        "Renewable energy producers & operators",
+        "Food processors (e.g., meat, grain, produce, dairy, beverages, feed)"
+      ],
+      "regional_scale_experience": 0,
+      "use_cases": [
+        {
+          "use_case": "Agriphotovoltaic systems",
+          "experience": 2,
+          "interest": 2
+        },
+        {
+          "use_case": "Agroforestry systems",
+          "experience": 1,
+          "interest": 2
+        },
+        {
+          "use_case": "Climate resilient (mixed) cropping systems",
+          "experience": 1,
+          "interest": 1
+        },
+        {
+          "use_case": "Sustainable livestock systems",
+          "experience": 0,
+          "interest": 1
+        },
+        {
+          "use_case": "New (regional) value networks",
+          "experience": 1,
+          "interest": 2
+        },
+        {
+          "use_case": "Landscape water management",
+          "experience": 0,
+          "interest": 2
+        }
+      ],
+      "participatory": {
+        "no_practitioners": 0,
+        "values_no_convo": 2,
+        "indepth_convo": 3,
+        "codesign": 3,
+        "cointerpret": 3,
+        "uses_pract_data": 3,
+        "advises": 4,
+        "brokers": 4
+      },
+      "engagement_level": 3,
+      "monitoring_interest": {
+        "farmer_panel": 1,
+        "farmer_apps": 2,
+        "sampling_design": 1,
+        "secondary_integration": 1,
+        "cross_scale_validation": 1
+      },
+      "flags": []
+    },
+    {
+      "id": "R009",
+      "living_labs": [
+        "North Hesse"
+      ],
+      "no_lab": false,
+      "institutions": [
+        "University of Kassel"
+      ],
+      "themes": [
+        "Crop and livestock management (incl. animal welfare)",
+        "Farm economics, value chains and income diversification",
+        "Biodiversity",
+        "Landscape ecology (spatial patterns, connectivity, land mosaics)",
+        "Behaviour and decision-making",
+        "Social justice, equity, and societal perceptions",
+        "Sustainability assessment and ecosystem services frameworks"
+      ],
+      "data_types": [
+        "Value chains and market change (e.g., market access, price dynamics, supply chain shifts)"
+      ],
+      "practitioner_groups": [
+        "Agricultural advisors & consultants (e.g., private or public)",
+        "Agri-landscape related professional associations",
+        "Environmental and conservation actors (e.g., protected areas, fisheries, foresters, animal welfare organizations)",
+        "Government, policy, regulation (e.g., across all scales - EU, Federal, State, Regional, District, Local)",
+        "Producers (e.g., crop/livestock farmers, winegrowers, beekeepers)",
+        "Renewable energy producers & operators",
+        "Rural development actors (e.g., LEADER groups, business development agencies, citizen initiatives, tourism)"
+      ],
+      "regional_scale_experience": 1,
+      "use_cases": [
+        {
+          "use_case": "Agriphotovoltaic systems",
+          "experience": 1,
+          "interest": 1
+        },
+        {
+          "use_case": "Agroforestry systems",
+          "experience": 1,
+          "interest": 1
+        },
+        {
+          "use_case": "Climate resilient (mixed) cropping systems",
+          "experience": 0,
+          "interest": 1
+        },
+        {
+          "use_case": "Sustainable livestock systems",
+          "experience": 1,
+          "interest": 1
+        },
+        {
+          "use_case": "New (regional) value networks",
+          "experience": 1,
+          "interest": 2
+        },
+        {
+          "use_case": "Landscape water management",
+          "experience": 0,
+          "interest": 0
+        }
+      ],
+      "participatory": {
+        "no_practitioners": 0,
+        "values_no_convo": 0,
+        "indepth_convo": 4,
+        "codesign": 4,
+        "cointerpret": 4,
+        "uses_pract_data": 3,
+        "advises": 4,
+        "brokers": 4
+      },
+      "engagement_level": 3,
+      "monitoring_interest": {
+        "farmer_panel": 1,
+        "farmer_apps": 1,
+        "sampling_design": 1,
+        "secondary_integration": 1,
+        "cross_scale_validation": 1
+      },
+      "flags": []
+    },
+    {
+      "id": "R010",
+      "living_labs": [
+        "North Hesse"
+      ],
+      "no_lab": false,
+      "institutions": [
+        "University of Kassel"
+      ],
+      "themes": [
+        "Crop and livestock management (incl. animal welfare)",
+        "Resource use efficiency (water, nutrients, energy)",
+        "Biodiversity",
+        "Soil health",
+        "Biogeochemistry",
+        "Climate science (GHG fluxes, micrometeorology)"
+      ],
+      "data_types": [],
+      "practitioner_groups": [
+        "Agricultural advisors & consultants (e.g., private or public)",
+        "Agricultural cooperatives",
+        "Government, policy, regulation (e.g., across all scales - EU, Federal, State, Regional, District, Local)",
+        "Producers (e.g., crop/livestock farmers, winegrowers, beekeepers)",
+        "Renewable energy producers & operators"
+      ],
+      "regional_scale_experience": 2,
+      "use_cases": [
+        {
+          "use_case": "Agriphotovoltaic systems",
+          "experience": 1,
+          "interest": 1
+        },
+        {
+          "use_case": "Agroforestry systems",
+          "experience": 2,
+          "interest": 2
+        },
+        {
+          "use_case": "Climate resilient (mixed) cropping systems",
+          "experience": 2,
+          "interest": 2
+        },
+        {
+          "use_case": "Sustainable livestock systems",
+          "experience": 1,
+          "interest": 1
+        },
+        {
+          "use_case": "New (regional) value networks",
+          "experience": 1,
+          "interest": 1
+        },
+        {
+          "use_case": "Landscape water management",
+          "experience": 1,
+          "interest": 1
+        }
+      ],
+      "participatory": {
+        "no_practitioners": 1,
+        "values_no_convo": 1,
+        "indepth_convo": 3,
+        "codesign": 3,
+        "cointerpret": 3,
+        "uses_pract_data": 2,
+        "advises": 3,
+        "brokers": 2
+      },
+      "engagement_level": 3,
+      "monitoring_interest": {
+        "farmer_panel": 1,
+        "farmer_apps": 1,
+        "sampling_design": 1,
+        "secondary_integration": 1,
+        "cross_scale_validation": 1
+      },
+      "flags": []
+    },
+    {
+      "id": "R011",
+      "living_labs": [],
+      "no_lab": true,
+      "institutions": [
+        "ZALF"
+      ],
+      "themes": [],
+      "data_types": [],
+      "practitioner_groups": [],
+      "regional_scale_experience": 0,
+      "use_cases": [
+        {
+          "use_case": "Agriphotovoltaic systems",
+          "experience": 0,
+          "interest": 0
+        },
+        {
+          "use_case": "Agroforestry systems",
+          "experience": 0,
+          "interest": 0
+        },
+        {
+          "use_case": "Climate resilient (mixed) cropping systems",
+          "experience": 0,
+          "interest": 0
+        },
+        {
+          "use_case": "Sustainable livestock systems",
+          "experience": 0,
+          "interest": 0
+        },
+        {
+          "use_case": "New (regional) value networks",
+          "experience": 0,
+          "interest": 0
+        },
+        {
+          "use_case": "Landscape water management",
+          "experience": 0,
+          "interest": 0
+        }
+      ],
+      "participatory": {
+        "no_practitioners": 0,
+        "values_no_convo": 0,
+        "indepth_convo": 0,
+        "codesign": 0,
+        "cointerpret": 0,
+        "uses_pract_data": 0,
+        "advises": 0,
+        "brokers": 0
+      },
+      "engagement_level": 0,
+      "monitoring_interest": {
+        "farmer_panel": 0,
+        "farmer_apps": 0,
+        "sampling_design": 0,
+        "secondary_integration": 0,
+        "cross_scale_validation": 0
+      },
+      "flags": []
+    },
+    {
+      "id": "R012",
+      "living_labs": [
+        "East Brandenburg"
+      ],
+      "no_lab": false,
+      "institutions": [
+        "ZALF"
+      ],
+      "themes": [
+        "Social justice, equity, and societal perceptions"
+      ],
+      "data_types": [
+        "Social and behavioural change (e.g., stakeholder attitudes, adoption patterns, social norms)",
+        "Value chains and market change (e.g., market access, price dynamics, supply chain shifts)"
+      ],
+      "practitioner_groups": [
+        "Food processors (e.g., meat, grain, produce, dairy, beverages, feed)",
+        "Producers (e.g., crop/livestock farmers, winegrowers, beekeepers)",
+        "Rural development actors (e.g., LEADER groups, business development agencies, citizen initiatives, tourism)",
+        "Government, policy, regulation (e.g., across all scales - EU, Federal, State, Regional, District, Local)"
+      ],
+      "regional_scale_experience": 2,
+      "use_cases": [
+        {
+          "use_case": "Agriphotovoltaic systems",
+          "experience": 0,
+          "interest": 1
+        },
+        {
+          "use_case": "Agroforestry systems",
+          "experience": 0,
+          "interest": 2
+        },
+        {
+          "use_case": "Climate resilient (mixed) cropping systems",
+          "experience": 0,
+          "interest": 2
+        },
+        {
+          "use_case": "Sustainable livestock systems",
+          "experience": 0,
+          "interest": 1
+        },
+        {
+          "use_case": "New (regional) value networks",
+          "experience": 2,
+          "interest": 1
+        },
+        {
+          "use_case": "Landscape water management",
+          "experience": 0,
+          "interest": 2
+        }
+      ],
+      "participatory": {
+        "no_practitioners": 0,
+        "values_no_convo": 1,
+        "indepth_convo": 3,
+        "codesign": 3,
+        "cointerpret": 3,
+        "uses_pract_data": 2,
+        "advises": 3,
+        "brokers": 1
+      },
+      "engagement_level": 3,
+      "monitoring_interest": {
+        "farmer_panel": 1,
+        "farmer_apps": 0,
+        "sampling_design": 0,
+        "secondary_integration": 1,
+        "cross_scale_validation": 0
+      },
+      "flags": []
+    },
+    {
+      "id": "R013",
+      "living_labs": [
+        "East Brandenburg"
+      ],
+      "no_lab": false,
+      "institutions": [
+        "ZALF"
+      ],
+      "themes": [
+        "Biodiversity",
+        "Biogeochemistry",
+        "Landscape ecology (spatial patterns, connectivity, land mosaics)",
+        "Hydrology and water management",
+        "Climate science (GHG fluxes, micrometeorology)"
+      ],
+      "data_types": [
+        "Environmental and ecological change (e.g., biodiversity, hydrology/micrometeorology, soil health, greenhouse gas emissions)",
+        "Land use and landscape change (e.g., land-use / cover change, landscape structure, spatial planning)"
+      ],
+      "practitioner_groups": [
+        "Producers (e.g., crop/livestock farmers, winegrowers, beekeepers)"
+      ],
+      "regional_scale_experience": 1,
+      "use_cases": [
+        {
+          "use_case": "Agriphotovoltaic systems",
+          "experience": 1,
+          "interest": 1
+        },
+        {
+          "use_case": "Agroforestry systems",
+          "experience": 1,
+          "interest": 2
+        },
+        {
+          "use_case": "Climate resilient (mixed) cropping systems",
+          "experience": 1,
+          "interest": 1
+        },
+        {
+          "use_case": "Sustainable livestock systems",
+          "experience": 0,
+          "interest": 1
+        },
+        {
+          "use_case": "New (regional) value networks",
+          "experience": 1,
+          "interest": 1
+        },
+        {
+          "use_case": "Landscape water management",
+          "experience": 1,
+          "interest": 2
+        }
+      ],
+      "participatory": {
+        "no_practitioners": 4,
+        "values_no_convo": 1,
+        "indepth_convo": 3,
+        "codesign": 4,
+        "cointerpret": 4,
+        "uses_pract_data": 4,
+        "advises": 4,
+        "brokers": 4
+      },
+      "engagement_level": 3,
+      "monitoring_interest": {
+        "farmer_panel": 1,
+        "farmer_apps": 0,
+        "sampling_design": 1,
+        "secondary_integration": 1,
+        "cross_scale_validation": 1
+      },
+      "flags": [
+        "claims_no_practitioner_work_but_endorses_engagement"
+      ]
+    },
+    {
+      "id": "R014",
+      "living_labs": [
+        "North Hesse"
+      ],
+      "no_lab": false,
+      "institutions": [
+        "University of Kassel"
+      ],
+      "themes": [
+        "Farm economics, value chains and income diversification",
+        "Behaviour and decision-making",
+        "Social justice, equity, and societal perceptions"
+      ],
+      "data_types": [
+        "Social and behavioural change (e.g., stakeholder attitudes, adoption patterns, social norms)",
+        "Value chains and market change (e.g., market access, price dynamics, supply chain shifts)"
+      ],
+      "practitioner_groups": [
+        "Consumers or consumer organizations",
+        "Food processors (e.g., meat, grain, produce, dairy, beverages, feed)",
+        "Food retail and distribution",
+        "Producers (e.g., crop/livestock farmers, winegrowers, beekeepers)"
+      ],
+      "regional_scale_experience": 1,
+      "use_cases": [
+        {
+          "use_case": "Agriphotovoltaic systems",
+          "experience": 0,
+          "interest": 0
+        },
+        {
+          "use_case": "Agroforestry systems",
+          "experience": 0,
+          "interest": 1
+        },
+        {
+          "use_case": "Climate resilient (mixed) cropping systems",
+          "experience": 1,
+          "interest": 2
+        },
+        {
+          "use_case": "Sustainable livestock systems",
+          "experience": 0,
+          "interest": 2
+        },
+        {
+          "use_case": "New (regional) value networks",
+          "experience": 2,
+          "interest": 2
+        },
+        {
+          "use_case": "Landscape water management",
+          "experience": 0,
+          "interest": 0
+        }
+      ],
+      "participatory": {
+        "no_practitioners": 0,
+        "values_no_convo": 3,
+        "indepth_convo": 2,
+        "codesign": 2,
+        "cointerpret": 3,
+        "uses_pract_data": 3,
+        "advises": 4,
+        "brokers": 1
+      },
+      "engagement_level": 3,
+      "monitoring_interest": {
+        "farmer_panel": 2,
+        "farmer_apps": 0,
+        "sampling_design": 0,
+        "secondary_integration": 1,
+        "cross_scale_validation": 0
+      },
+      "flags": []
+    },
+    {
+      "id": "R015",
+      "living_labs": [
+        "The Hessian Low Mountain Range"
+      ],
+      "no_lab": false,
+      "institutions": [
+        "Justus Liebig University Giessen"
+      ],
+      "themes": [
+        "Resource use efficiency (water, nutrients, energy)",
+        "Biogeochemistry",
+        "Hydrology and water management",
+        "Climate science (GHG fluxes, micrometeorology)",
+        "Sustainability assessment and ecosystem services frameworks"
+      ],
+      "data_types": [
+        "Environmental and ecological change (e.g., biodiversity, hydrology/micrometeorology, soil health, greenhouse gas emissions)",
+        "Land use and landscape change (e.g., land-use / cover change, landscape structure, spatial planning)"
+      ],
+      "practitioner_groups": [
+        "Producers (e.g., crop/livestock farmers, winegrowers, beekeepers)"
+      ],
+      "regional_scale_experience": 1,
+      "use_cases": [
+        {
+          "use_case": "Agriphotovoltaic systems",
+          "experience": 1,
+          "interest": 2
+        },
+        {
+          "use_case": "Agroforestry systems",
+          "experience": 2,
+          "interest": 2
+        },
+        {
+          "use_case": "Climate resilient (mixed) cropping systems",
+          "experience": 1,
+          "interest": 1
+        },
+        {
+          "use_case": "Sustainable livestock systems",
+          "experience": 1,
+          "interest": 1
+        },
+        {
+          "use_case": "New (regional) value networks",
+          "experience": 0,
+          "interest": 0
+        },
+        {
+          "use_case": "Landscape water management",
+          "experience": 2,
+          "interest": 2
+        }
+      ],
+      "participatory": {
+        "no_practitioners": 3,
+        "values_no_convo": 3,
+        "indepth_convo": 0,
+        "codesign": 0,
+        "cointerpret": 0,
+        "uses_pract_data": 2,
+        "advises": 0,
+        "brokers": 0
+      },
+      "engagement_level": 0,
+      "monitoring_interest": {
+        "farmer_panel": 0,
+        "farmer_apps": 0,
+        "sampling_design": 1,
+        "secondary_integration": 1,
+        "cross_scale_validation": 2
+      },
+      "flags": []
+    },
+    {
+      "id": "R016",
+      "living_labs": [
+        "North Hesse",
+        "The Hessian Low Mountain Range"
+      ],
+      "no_lab": false,
+      "institutions": [
+        "Landesbetrieb Landwirtschaft Hessen"
+      ],
+      "themes": [
+        "Resource use efficiency (water, nutrients, energy)",
+        "Crop and livestock management (incl. animal welfare)",
+        "Technology, digitalization and innovation adoption",
+        "Soil health",
+        "Hydrology and water management",
+        "Climate science (GHG fluxes, micrometeorology)"
+      ],
+      "data_types": [
+        "Environmental and ecological change (e.g., biodiversity, hydrology/micrometeorology, soil health, greenhouse gas emissions)"
+      ],
+      "practitioner_groups": [
+        "Agricultural advisors & consultants (e.g., private or public)",
+        "Agricultural trade, storage, and logistics",
+        "Environmental and conservation actors (e.g., protected areas, fisheries, foresters, animal welfare organizations)",
+        "Agricultural cooperatives",
+        "Agri-landscape related professional associations",
+        "Government, policy, regulation (e.g., across all scales - EU, Federal, State, Regional, District, Local)",
+        "Producers (e.g., crop/livestock farmers, winegrowers, beekeepers)"
+      ],
+      "regional_scale_experience": 1,
+      "use_cases": [
+        {
+          "use_case": "Agriphotovoltaic systems",
+          "experience": 0,
+          "interest": 1
+        },
+        {
+          "use_case": "Agroforestry systems",
+          "experience": 0,
+          "interest": 1
+        },
+        {
+          "use_case": "Climate resilient (mixed) cropping systems",
+          "experience": 2,
+          "interest": 2
+        },
+        {
+          "use_case": "Sustainable livestock systems",
+          "experience": 1,
+          "interest": 2
+        },
+        {
+          "use_case": "New (regional) value networks",
+          "experience": 0,
+          "interest": 1
+        },
+        {
+          "use_case": "Landscape water management",
+          "experience": 1,
+          "interest": 2
+        }
+      ],
+      "participatory": {
+        "no_practitioners": 1,
+        "values_no_convo": 1,
+        "indepth_convo": 3,
+        "codesign": 3,
+        "cointerpret": 3,
+        "uses_pract_data": 3,
+        "advises": 3,
+        "brokers": 3
+      },
+      "engagement_level": 3,
+      "monitoring_interest": {
+        "farmer_panel": 1,
+        "farmer_apps": 2,
+        "sampling_design": 1,
+        "secondary_integration": 2,
+        "cross_scale_validation": 2
+      },
+      "flags": []
+    },
+    {
+      "id": "R017",
+      "living_labs": [
+        "Havelland"
+      ],
+      "no_lab": false,
+      "institutions": [
+        "ZALF"
+      ],
+      "themes": [
+        "Biodiversity",
+        "Farm economics, value chains and income diversification",
+        "Landscape ecology (spatial patterns, connectivity, land mosaics)",
+        "Behaviour and decision-making",
+        "Social justice, equity, and societal perceptions",
+        "Governance, policy, and institutional analysis"
+      ],
+      "data_types": [],
+      "practitioner_groups": [
+        "Agri-landscape related professional associations",
+        "Environmental and conservation actors (e.g., protected areas, fisheries, foresters, animal welfare organizations)",
+        "Producers (e.g., crop/livestock farmers, winegrowers, beekeepers)"
+      ],
+      "regional_scale_experience": 0,
+      "use_cases": [
+        {
+          "use_case": "Agriphotovoltaic systems",
+          "experience": 0,
+          "interest": 0
+        },
+        {
+          "use_case": "Agroforestry systems",
+          "experience": 0,
+          "interest": 0
+        },
+        {
+          "use_case": "Climate resilient (mixed) cropping systems",
+          "experience": 1,
+          "interest": 1
+        },
+        {
+          "use_case": "Sustainable livestock systems",
+          "experience": 1,
+          "interest": 0
+        },
+        {
+          "use_case": "New (regional) value networks",
+          "experience": 1,
+          "interest": 1
+        },
+        {
+          "use_case": "Landscape water management",
+          "experience": 1,
+          "interest": 1
+        }
+      ],
+      "participatory": {
+        "no_practitioners": 1,
+        "values_no_convo": 1,
+        "indepth_convo": 3,
+        "codesign": 4,
+        "cointerpret": 0,
+        "uses_pract_data": 3,
+        "advises": 3,
+        "brokers": 3
+      },
+      "engagement_level": 2,
+      "monitoring_interest": {
+        "farmer_panel": 2,
+        "farmer_apps": 1,
+        "sampling_design": 0,
+        "secondary_integration": 1,
+        "cross_scale_validation": 1
+      },
+      "flags": []
+    },
+    {
+      "id": "R019",
+      "living_labs": [
+        "East Brandenburg"
+      ],
+      "no_lab": false,
+      "institutions": [
+        "ZALF"
+      ],
+      "themes": [
+        "Farm economics, value chains and income diversification",
+        "Resource use efficiency (water, nutrients, energy)",
+        "Behaviour and decision-making",
+        "Governance, policy, and institutional analysis",
+        "Sustainability assessment and ecosystem services frameworks"
+      ],
+      "data_types": [
+        "Environmental and ecological change (e.g., biodiversity, hydrology/micrometeorology, soil health, greenhouse gas emissions)",
+        "Land use and landscape change (e.g., land-use / cover change, landscape structure, spatial planning)",
+        "Socioeconomic and livelihood change (e.g., income, employment, rural demographics)",
+        "Value chains and market change (e.g., market access, price dynamics, supply chain shifts)",
+        "Governance and institutional change (e.g., policy shifts, regional institutions, multi-level governance)",
+        "Social and behavioural change (e.g., stakeholder attitudes, adoption patterns, social norms)"
+      ],
+      "practitioner_groups": [
+        "Agricultural advisors & consultants (e.g., private or public)",
+        "Government, policy, regulation (e.g., across all scales - EU, Federal, State, Regional, District, Local)",
+        "Producers (e.g., crop/livestock farmers, winegrowers, beekeepers)",
+        "Renewable energy producers & operators",
+        "Rural development actors (e.g., LEADER groups, business development agencies, citizen initiatives, tourism)"
+      ],
+      "regional_scale_experience": 2,
+      "use_cases": [
+        {
+          "use_case": "Agriphotovoltaic systems",
+          "experience": 2,
+          "interest": 2
+        },
+        {
+          "use_case": "Agroforestry systems",
+          "experience": 2,
+          "interest": 2
+        },
+        {
+          "use_case": "Climate resilient (mixed) cropping systems",
+          "experience": 1,
+          "interest": 1
+        },
+        {
+          "use_case": "Sustainable livestock systems",
+          "experience": 1,
+          "interest": 1
+        },
+        {
+          "use_case": "New (regional) value networks",
+          "experience": 1,
+          "interest": 2
+        },
+        {
+          "use_case": "Landscape water management",
+          "experience": 0,
+          "interest": 1
+        }
+      ],
+      "participatory": {
+        "no_practitioners": 0,
+        "values_no_convo": 3,
+        "indepth_convo": 3,
+        "codesign": 3,
+        "cointerpret": 3,
+        "uses_pract_data": 2,
+        "advises": 2,
+        "brokers": 4
+      },
+      "engagement_level": 3,
+      "monitoring_interest": {
+        "farmer_panel": 1,
+        "farmer_apps": 2,
+        "sampling_design": 0,
+        "secondary_integration": 0,
+        "cross_scale_validation": 1
+      },
+      "flags": []
+    },
+    {
+      "id": "R020",
+      "living_labs": [
+        "East Brandenburg"
+      ],
+      "no_lab": false,
+      "institutions": [
+        "ZALF"
+      ],
+      "themes": [
+        "Biodiversity",
+        "Technology, digitalization and innovation adoption",
+        "Landscape ecology (spatial patterns, connectivity, land mosaics)"
+      ],
+      "data_types": [
+        "Environmental and ecological change (e.g., biodiversity, hydrology/micrometeorology, soil health, greenhouse gas emissions)"
+      ],
+      "practitioner_groups": [
+        "Agricultural advisors & consultants (e.g., private or public)",
+        "Agricultural cooperatives",
+        "Environmental and conservation actors (e.g., protected areas, fisheries, foresters, animal welfare organizations)",
+        "Government, policy, regulation (e.g., across all scales - EU, Federal, State, Regional, District, Local)"
+      ],
+      "regional_scale_experience": 1,
+      "use_cases": [
+        {
+          "use_case": "Agriphotovoltaic systems",
+          "experience": 0,
+          "interest": 2
+        },
+        {
+          "use_case": "Agroforestry systems",
+          "experience": 1,
+          "interest": 2
+        },
+        {
+          "use_case": "Climate resilient (mixed) cropping systems",
+          "experience": 1,
+          "interest": 2
+        },
+        {
+          "use_case": "Sustainable livestock systems",
+          "experience": 0,
+          "interest": 1
+        },
+        {
+          "use_case": "New (regional) value networks",
+          "experience": 0,
+          "interest": 1
+        },
+        {
+          "use_case": "Landscape water management",
+          "experience": 0,
+          "interest": 0
+        }
+      ],
+      "participatory": {
+        "no_practitioners": 2,
+        "values_no_convo": 2,
+        "indepth_convo": 1,
+        "codesign": 3,
+        "cointerpret": 2,
+        "uses_pract_data": 3,
+        "advises": 1,
+        "brokers": 0
+      },
+      "engagement_level": 2,
+      "monitoring_interest": {
+        "farmer_panel": 1,
+        "farmer_apps": 2,
+        "sampling_design": 2,
+        "secondary_integration": 1,
+        "cross_scale_validation": 2
+      },
+      "flags": []
+    },
+    {
+      "id": "R021",
+      "living_labs": [
+        "North Hesse",
+        "The Hessian Low Mountain Range"
+      ],
+      "no_lab": false,
+      "institutions": [
+        "University of Kassel"
+      ],
+      "themes": [
+        "Crop and livestock management (incl. animal welfare)",
+        "Resource use efficiency (water, nutrients, energy)",
+        "Biodiversity",
+        "Innovation research"
+      ],
+      "data_types": [],
+      "practitioner_groups": [
+        "Agricultural advisors & consultants (e.g., private or public)",
+        "Environmental and conservation actors (e.g., protected areas, fisheries, foresters, animal welfare organizations)",
+        "Renewable energy producers & operators"
+      ],
+      "regional_scale_experience": 0,
+      "use_cases": [
+        {
+          "use_case": "Agriphotovoltaic systems",
+          "experience": 1,
+          "interest": 1
+        },
+        {
+          "use_case": "Agroforestry systems",
+          "experience": 2,
+          "interest": 2
+        },
+        {
+          "use_case": "Climate resilient (mixed) cropping systems",
+          "experience": 2,
+          "interest": 2
+        },
+        {
+          "use_case": "Sustainable livestock systems",
+          "experience": 0,
+          "interest": 1
+        },
+        {
+          "use_case": "New (regional) value networks",
+          "experience": 0,
+          "interest": 1
+        },
+        {
+          "use_case": "Landscape water management",
+          "experience": 0,
+          "interest": 2
+        }
+      ],
+      "participatory": {
+        "no_practitioners": 0,
+        "values_no_convo": 0,
+        "indepth_convo": 3,
+        "codesign": 3,
+        "cointerpret": 3,
+        "uses_pract_data": 3,
+        "advises": 4,
+        "brokers": 3
+      },
+      "engagement_level": 3,
+      "monitoring_interest": {
+        "farmer_panel": 0,
+        "farmer_apps": 0,
+        "sampling_design": 0,
+        "secondary_integration": 1,
+        "cross_scale_validation": 0
+      },
+      "flags": []
+    },
+    {
+      "id": "R022",
+      "living_labs": [
+        "East Brandenburg"
+      ],
+      "no_lab": false,
+      "institutions": [
+        "ZALF"
+      ],
+      "themes": [
+        "Biodiversity",
+        "Social justice, equity, and societal perceptions",
+        "Innovation research",
+        "Sustainability assessment and ecosystem services frameworks",
+        "Governance, policy, and institutional analysis",
+        "Technology, digitalization and innovation adoption"
+      ],
+      "data_types": [
+        "Land use and landscape change (e.g., land-use / cover change, landscape structure, spatial planning)",
+        "Socioeconomic and livelihood change (e.g., income, employment, rural demographics)",
+        "Governance and institutional change (e.g., policy shifts, regional institutions, multi-level governance)",
+        "Social and behavioural change (e.g., stakeholder attitudes, adoption patterns, social norms)"
+      ],
+      "practitioner_groups": [
+        "Agricultural advisors & consultants (e.g., private or public)",
+        "Agricultural cooperatives",
+        "Environmental and conservation actors (e.g., protected areas, fisheries, foresters, animal welfare organizations)",
+        "Government, policy, regulation (e.g., across all scales - EU, Federal, State, Regional, District, Local)",
+        "Producers (e.g., crop/livestock farmers, winegrowers, beekeepers)",
+        "Rural development actors (e.g., LEADER groups, business development agencies, citizen initiatives, tourism)"
+      ],
+      "regional_scale_experience": 2,
+      "use_cases": [
+        {
+          "use_case": "Agriphotovoltaic systems",
+          "experience": 0,
+          "interest": 2
+        },
+        {
+          "use_case": "Agroforestry systems",
+          "experience": 1,
+          "interest": 2
+        },
+        {
+          "use_case": "Climate resilient (mixed) cropping systems",
+          "experience": 1,
+          "interest": 1
+        },
+        {
+          "use_case": "Sustainable livestock systems",
+          "experience": 1,
+          "interest": 1
+        },
+        {
+          "use_case": "New (regional) value networks",
+          "experience": 2,
+          "interest": 2
+        },
+        {
+          "use_case": "Landscape water management",
+          "experience": 2,
+          "interest": 1
+        }
+      ],
+      "participatory": {
+        "no_practitioners": 0,
+        "values_no_convo": 0,
+        "indepth_convo": 3,
+        "codesign": 3,
+        "cointerpret": 4,
+        "uses_pract_data": 3,
+        "advises": 3,
+        "brokers": 4
+      },
+      "engagement_level": 3,
+      "monitoring_interest": {
+        "farmer_panel": 1,
+        "farmer_apps": 1,
+        "sampling_design": 2,
+        "secondary_integration": 2,
+        "cross_scale_validation": 1
+      },
+      "flags": []
+    },
+    {
+      "id": "R023",
+      "living_labs": [
+        "East Brandenburg"
+      ],
+      "no_lab": false,
+      "institutions": [
+        "ZALF"
+      ],
+      "themes": [
+        "Biogeochemistry",
+        "Landscape ecology (spatial patterns, connectivity, land mosaics)",
+        "Climate science (GHG fluxes, micrometeorology)",
+        "Technology, digitalization and innovation adoption"
+      ],
+      "data_types": [
+        "Land use and landscape change (e.g., land-use / cover change, landscape structure, spatial planning)",
+        "Environmental and ecological change (e.g., biodiversity, hydrology/micrometeorology, soil health, greenhouse gas emissions)"
+      ],
+      "practitioner_groups": [
+        "Renewable energy producers & operators",
+        "Producers (e.g., crop/livestock farmers, winegrowers, beekeepers)"
+      ],
+      "regional_scale_experience": 1,
+      "use_cases": [
+        {
+          "use_case": "Agriphotovoltaic systems",
+          "experience": 2,
+          "interest": 2
+        },
+        {
+          "use_case": "Agroforestry systems",
+          "experience": 1,
+          "interest": 1
+        },
+        {
+          "use_case": "Climate resilient (mixed) cropping systems",
+          "experience": 0,
+          "interest": 1
+        },
+        {
+          "use_case": "Sustainable livestock systems",
+          "experience": 0,
+          "interest": 0
+        },
+        {
+          "use_case": "New (regional) value networks",
+          "experience": 0,
+          "interest": 0
+        },
+        {
+          "use_case": "Landscape water management",
+          "experience": 0,
+          "interest": 1
+        }
+      ],
+      "participatory": {
+        "no_practitioners": 1,
+        "values_no_convo": 1,
+        "indepth_convo": 4,
+        "codesign": 2,
+        "cointerpret": 3,
+        "uses_pract_data": 3,
+        "advises": 4,
+        "brokers": 3
+      },
+      "engagement_level": 3,
+      "monitoring_interest": {
+        "farmer_panel": 0,
+        "farmer_apps": 1,
+        "sampling_design": 1,
+        "secondary_integration": 1,
+        "cross_scale_validation": 2
+      },
+      "flags": []
+    },
+    {
+      "id": "R024",
+      "living_labs": [
+        "The Hessian Low Mountain Range"
+      ],
+      "no_lab": false,
+      "institutions": [
+        "ZALF"
+      ],
+      "themes": [
+        "Farm economics, value chains and income diversification",
+        "Biodiversity",
+        "Demography, labour, and rural livlihoods",
+        "Governance, policy, and institutional analysis"
+      ],
+      "data_types": [
+        "Socioeconomic and livelihood change (e.g., income, employment, rural demographics)"
+      ],
+      "practitioner_groups": [
+        "Government, policy, regulation (e.g., across all scales - EU, Federal, State, Regional, District, Local)",
+        "Agricultural cooperatives"
+      ],
+      "regional_scale_experience": 1,
+      "use_cases": [
+        {
+          "use_case": "Agriphotovoltaic systems",
+          "experience": 0,
+          "interest": 0
+        },
+        {
+          "use_case": "Agroforestry systems",
+          "experience": 1,
+          "interest": 2
+        },
+        {
+          "use_case": "Climate resilient (mixed) cropping systems",
+          "experience": 0,
+          "interest": 1
+        },
+        {
+          "use_case": "Sustainable livestock systems",
+          "experience": 0,
+          "interest": 0
+        },
+        {
+          "use_case": "New (regional) value networks",
+          "experience": 1,
+          "interest": 2
+        },
+        {
+          "use_case": "Landscape water management",
+          "experience": 0,
+          "interest": 0
+        }
+      ],
+      "participatory": {
+        "no_practitioners": 1,
+        "values_no_convo": 3,
+        "indepth_convo": 1,
+        "codesign": 0,
+        "cointerpret": 0,
+        "uses_pract_data": 0,
+        "advises": 3,
+        "brokers": 0
+      },
+      "engagement_level": 0,
+      "monitoring_interest": {
+        "farmer_panel": 1,
+        "farmer_apps": 2,
+        "sampling_design": 1,
+        "secondary_integration": 0,
+        "cross_scale_validation": 0
+      },
+      "flags": []
+    },
+    {
+      "id": "R025",
+      "living_labs": [
+        "The Hessian Low Mountain Range"
+      ],
+      "no_lab": false,
+      "institutions": [
+        "University of Kassel"
+      ],
+      "themes": [
+        "Resource use efficiency (water, nutrients, energy)",
+        "Technology, digitalization and innovation adoption",
+        "Soil health",
+        "Biogeochemistry",
+        "Hydrology and water management",
+        "Climate science (GHG fluxes, micrometeorology)",
+        "Sustainability assessment and ecosystem services frameworks",
+        "Behaviour and decision-making"
+      ],
+      "data_types": [
+        "Environmental and ecological change (e.g., biodiversity, hydrology/micrometeorology, soil health, greenhouse gas emissions)",
+        "Land use and landscape change (e.g., land-use / cover change, landscape structure, spatial planning)"
+      ],
+      "practitioner_groups": [],
+      "regional_scale_experience": 2,
+      "use_cases": [
+        {
+          "use_case": "Agriphotovoltaic systems",
+          "experience": 1,
+          "interest": 2
+        },
+        {
+          "use_case": "Agroforestry systems",
+          "experience": 1,
+          "interest": 2
+        },
+        {
+          "use_case": "Climate resilient (mixed) cropping systems",
+          "experience": 1,
+          "interest": 2
+        },
+        {
+          "use_case": "Sustainable livestock systems",
+          "experience": 0,
+          "interest": 0
+        },
+        {
+          "use_case": "New (regional) value networks",
+          "experience": 0,
+          "interest": 0
+        },
+        {
+          "use_case": "Landscape water management",
+          "experience": 2,
+          "interest": 2
+        }
+      ],
+      "participatory": {
+        "no_practitioners": 4,
+        "values_no_convo": 4,
+        "indepth_convo": 0,
+        "codesign": 0,
+        "cointerpret": 0,
+        "uses_pract_data": 0,
+        "advises": 0,
+        "brokers": 0
+      },
+      "engagement_level": 0,
+      "monitoring_interest": {
+        "farmer_panel": 2,
+        "farmer_apps": 2,
+        "sampling_design": 2,
+        "secondary_integration": 2,
+        "cross_scale_validation": 2
+      },
+      "flags": []
+    },
+    {
+      "id": "R026",
+      "living_labs": [
+        "East Brandenburg"
+      ],
+      "no_lab": false,
+      "institutions": [
+        "ZALF"
+      ],
+      "themes": [
+        "Soil health",
+        "Hydrology and water management",
+        "Sustainability assessment and ecosystem services frameworks"
+      ],
+      "data_types": [
+        "Environmental and ecological change (e.g., biodiversity, hydrology/micrometeorology, soil health, greenhouse gas emissions)",
+        "Land use and landscape change (e.g., land-use / cover change, landscape structure, spatial planning)"
+      ],
+      "practitioner_groups": [],
+      "regional_scale_experience": 1,
+      "use_cases": [
+        {
+          "use_case": "Agriphotovoltaic systems",
+          "experience": 0,
+          "interest": 0
+        },
+        {
+          "use_case": "Agroforestry systems",
+          "experience": 0,
+          "interest": 1
+        },
+        {
+          "use_case": "Climate resilient (mixed) cropping systems",
+          "experience": 0,
+          "interest": 1
+        },
+        {
+          "use_case": "Sustainable livestock systems",
+          "experience": 0,
+          "interest": 0
+        },
+        {
+          "use_case": "New (regional) value networks",
+          "experience": 0,
+          "interest": 0
+        },
+        {
+          "use_case": "Landscape water management",
+          "experience": 1,
+          "interest": 1
+        }
+      ],
+      "participatory": {
+        "no_practitioners": 0,
+        "values_no_convo": 1,
+        "indepth_convo": 3,
+        "codesign": 3,
+        "cointerpret": 3,
+        "uses_pract_data": 3,
+        "advises": 2,
+        "brokers": 2
+      },
+      "engagement_level": 3,
+      "monitoring_interest": {
+        "farmer_panel": 1,
+        "farmer_apps": 1,
+        "sampling_design": 2,
+        "secondary_integration": 1,
+        "cross_scale_validation": 2
+      },
+      "flags": []
+    },
+    {
+      "id": "R027",
+      "living_labs": [
+        "Havelland"
+      ],
+      "no_lab": false,
+      "institutions": [
+        "ZALF"
+      ],
+      "themes": [
+        "Biodiversity",
+        "Soil health",
+        "Biogeochemistry",
+        "Landscape ecology (spatial patterns, connectivity, land mosaics)",
+        "Hydrology and water management",
+        "Climate science (GHG fluxes, micrometeorology)"
+      ],
+      "data_types": [
+        "Environmental and ecological change (e.g., biodiversity, hydrology/micrometeorology, soil health, greenhouse gas emissions)"
+      ],
+      "practitioner_groups": [
+        "Environmental and conservation actors (e.g., protected areas, fisheries, foresters, animal welfare organizations)",
+        "Government, policy, regulation (e.g., across all scales - EU, Federal, State, Regional, District, Local)"
+      ],
+      "regional_scale_experience": 1,
+      "use_cases": [
+        {
+          "use_case": "Agriphotovoltaic systems",
+          "experience": 0,
+          "interest": 1
+        },
+        {
+          "use_case": "Agroforestry systems",
+          "experience": 1,
+          "interest": 1
+        },
+        {
+          "use_case": "Climate resilient (mixed) cropping systems",
+          "experience": 0,
+          "interest": 1
+        },
+        {
+          "use_case": "Sustainable livestock systems",
+          "experience": 0,
+          "interest": 0
+        },
+        {
+          "use_case": "New (regional) value networks",
+          "experience": 0,
+          "interest": 0
+        },
+        {
+          "use_case": "Landscape water management",
+          "experience": 1,
+          "interest": 2
+        }
+      ],
+      "participatory": {
+        "no_practitioners": 1,
+        "values_no_convo": 3,
+        "indepth_convo": 2,
+        "codesign": 4,
+        "cointerpret": 1,
+        "uses_pract_data": 0,
+        "advises": 2,
+        "brokers": 0
+      },
+      "engagement_level": 2,
+      "monitoring_interest": {
+        "farmer_panel": 0,
+        "farmer_apps": 0,
+        "sampling_design": 2,
+        "secondary_integration": 1,
+        "cross_scale_validation": 1
+      },
+      "flags": []
+    },
+    {
+      "id": "R028",
+      "living_labs": [
+        "East Brandenburg"
+      ],
+      "no_lab": false,
+      "institutions": [
+        "ZALF"
+      ],
+      "themes": [
+        "Technology, digitalization and innovation adoption",
+        "Biodiversity",
+        "Landscape ecology (spatial patterns, connectivity, land mosaics)",
+        "Hydrology and water management",
+        "Climate science (GHG fluxes, micrometeorology)",
+        "Sustainability assessment and ecosystem services frameworks",
+        "Innovation research"
+      ],
+      "data_types": [
+        "Environmental and ecological change (e.g., biodiversity, hydrology/micrometeorology, soil health, greenhouse gas emissions)",
+        "Land use and landscape change (e.g., land-use / cover change, landscape structure, spatial planning)"
+      ],
+      "practitioner_groups": [
+        "Environmental and conservation actors (e.g., protected areas, fisheries, foresters, animal welfare organizations)"
+      ],
+      "regional_scale_experience": 2,
+      "use_cases": [
+        {
+          "use_case": "Agriphotovoltaic systems",
+          "experience": 1,
+          "interest": 2
+        },
+        {
+          "use_case": "Agroforestry systems",
+          "experience": 1,
+          "interest": 2
+        },
+        {
+          "use_case": "Climate resilient (mixed) cropping systems",
+          "experience": 1,
+          "interest": 2
+        },
+        {
+          "use_case": "Sustainable livestock systems",
+          "experience": 1,
+          "interest": 2
+        },
+        {
+          "use_case": "New (regional) value networks",
+          "experience": 1,
+          "interest": 2
+        },
+        {
+          "use_case": "Landscape water management",
+          "experience": 1,
+          "interest": 2
+        }
+      ],
+      "participatory": {
+        "no_practitioners": 4,
+        "values_no_convo": 4,
+        "indepth_convo": 4,
+        "codesign": 4,
+        "cointerpret": 4,
+        "uses_pract_data": 4,
+        "advises": 4,
+        "brokers": 4
+      },
+      "engagement_level": 3,
+      "monitoring_interest": {
+        "farmer_panel": 2,
+        "farmer_apps": 2,
+        "sampling_design": 2,
+        "secondary_integration": 2,
+        "cross_scale_validation": 2
+      },
+      "flags": [
+        "claims_no_practitioner_work_but_endorses_engagement"
+      ]
+    },
+    {
+      "id": "R029",
+      "living_labs": [],
+      "no_lab": true,
+      "institutions": [
+        "Hochschule Geisenheim University"
+      ],
+      "themes": [
+        "Sustainability assessment and ecosystem services frameworks",
+        "Governance, policy, and institutional analysis"
+      ],
+      "data_types": [
+        "Social and behavioural change (e.g., stakeholder attitudes, adoption patterns, social norms)"
+      ],
+      "practitioner_groups": [
+        "Producers (e.g., crop/livestock farmers, winegrowers, beekeepers)"
+      ],
+      "regional_scale_experience": 1,
+      "use_cases": [
+        {
+          "use_case": "Agriphotovoltaic systems",
+          "experience": 0,
+          "interest": 1
+        },
+        {
+          "use_case": "Agroforestry systems",
+          "experience": 1,
+          "interest": 2
+        },
+        {
+          "use_case": "Climate resilient (mixed) cropping systems",
+          "experience": 1,
+          "interest": 2
+        },
+        {
+          "use_case": "Sustainable livestock systems",
+          "experience": 0,
+          "interest": 0
+        },
+        {
+          "use_case": "New (regional) value networks",
+          "experience": 0,
+          "interest": 2
+        },
+        {
+          "use_case": "Landscape water management",
+          "experience": 0,
+          "interest": 1
+        }
+      ],
+      "participatory": {
+        "no_practitioners": 0,
+        "values_no_convo": 1,
+        "indepth_convo": 2,
+        "codesign": 2,
+        "cointerpret": 2,
+        "uses_pract_data": 1,
+        "advises": 0,
+        "brokers": 1
+      },
+      "engagement_level": 0,
+      "monitoring_interest": {
+        "farmer_panel": 1,
+        "farmer_apps": 1,
+        "sampling_design": 0,
+        "secondary_integration": 0,
+        "cross_scale_validation": 0
+      },
+      "flags": []
+    },
+    {
+      "id": "R030",
+      "living_labs": [],
+      "no_lab": true,
+      "institutions": [
+        "ZALF"
+      ],
+      "themes": [
+        "Farm economics, value chains and income diversification",
+        "Technology, digitalization and innovation adoption",
+        "Landscape ecology (spatial patterns, connectivity, land mosaics)",
+        "Demography, labour, and rural livlihoods",
+        "Behaviour and decision-making",
+        "Social justice, equity, and societal perceptions",
+        "Governance, policy, and institutional analysis",
+        "Sustainability assessment and ecosystem services frameworks",
+        "Innovation research"
+      ],
+      "data_types": [
+        "Socioeconomic and livelihood change (e.g., income, employment, rural demographics)",
+        "Value chains and market change (e.g., market access, price dynamics, supply chain shifts)",
+        "Governance and institutional change (e.g., policy shifts, regional institutions, multi-level governance)",
+        "Social and behavioural change (e.g., stakeholder attitudes, adoption patterns, social norms)"
+      ],
+      "practitioner_groups": [
+        "Agricultural cooperatives",
+        "Government, policy, regulation (e.g., across all scales - EU, Federal, State, Regional, District, Local)",
+        "Pre-production actors and suppliers (e.g., fertilizer, seed, equipment suppliers, soil testing facilities)",
+        "Producers (e.g., crop/livestock farmers, winegrowers, beekeepers)",
+        "Renewable energy producers & operators",
+        "Rural development actors (e.g., LEADER groups, business development agencies, citizen initiatives, tourism)"
+      ],
+      "regional_scale_experience": 1,
+      "use_cases": [
+        {
+          "use_case": "Agriphotovoltaic systems",
+          "experience": 1,
+          "interest": 1
+        },
+        {
+          "use_case": "Agroforestry systems",
+          "experience": 2,
+          "interest": 1
+        },
+        {
+          "use_case": "Climate resilient (mixed) cropping systems",
+          "experience": 1,
+          "interest": 1
+        },
+        {
+          "use_case": "Sustainable livestock systems",
+          "experience": 1,
+          "interest": 0
+        },
+        {
+          "use_case": "New (regional) value networks",
+          "experience": 1,
+          "interest": 1
+        },
+        {
+          "use_case": "Landscape water management",
+          "experience": 0,
+          "interest": 0
+        }
+      ],
+      "participatory": {
+        "no_practitioners": 3,
+        "values_no_convo": 4,
+        "indepth_convo": 3,
+        "codesign": 4,
+        "cointerpret": 2,
+        "uses_pract_data": 1,
+        "advises": 4,
+        "brokers": 4
+      },
+      "engagement_level": 2,
+      "monitoring_interest": {
+        "farmer_panel": 1,
+        "farmer_apps": 1,
+        "sampling_design": 1,
+        "secondary_integration": 1,
+        "cross_scale_validation": 1
+      },
+      "flags": [
+        "claims_no_practitioner_work_but_endorses_engagement"
+      ]
+    },
+    {
+      "id": "R031",
+      "living_labs": [
+        "North Hesse"
+      ],
+      "no_lab": false,
+      "institutions": [
+        "University of Kassel"
+      ],
+      "themes": [
+        "Farm economics, value chains and income diversification",
+        "Biodiversity"
+      ],
+      "data_types": [
+        "Land use and landscape change (e.g., land-use / cover change, landscape structure, spatial planning)"
+      ],
+      "practitioner_groups": [
+        "Agricultural advisors & consultants (e.g., private or public)",
+        "Producers (e.g., crop/livestock farmers, winegrowers, beekeepers)"
+      ],
+      "regional_scale_experience": 1,
+      "use_cases": [
+        {
+          "use_case": "Agriphotovoltaic systems",
+          "experience": 0,
+          "interest": 0
+        },
+        {
+          "use_case": "Agroforestry systems",
+          "experience": 1,
+          "interest": 2
+        },
+        {
+          "use_case": "Climate resilient (mixed) cropping systems",
+          "experience": 0,
+          "interest": 0
+        },
+        {
+          "use_case": "Sustainable livestock systems",
+          "experience": 0,
+          "interest": 0
+        },
+        {
+          "use_case": "New (regional) value networks",
+          "experience": 0,
+          "interest": 2
+        },
+        {
+          "use_case": "Landscape water management",
+          "experience": 0,
+          "interest": 0
+        }
+      ],
+      "participatory": {
+        "no_practitioners": 4,
+        "values_no_convo": 4,
+        "indepth_convo": 1,
+        "codesign": 0,
+        "cointerpret": 0,
+        "uses_pract_data": 2,
+        "advises": 0,
+        "brokers": 0
+      },
+      "engagement_level": 0,
+      "monitoring_interest": {
+        "farmer_panel": 0,
+        "farmer_apps": 1,
+        "sampling_design": 0,
+        "secondary_integration": 1,
+        "cross_scale_validation": 0
+      },
+      "flags": []
+    },
+    {
+      "id": "R032",
+      "living_labs": [
+        "East Brandenburg"
+      ],
+      "no_lab": false,
+      "institutions": [
+        "ZALF"
+      ],
+      "themes": [
+        "Crop and livestock management (incl. animal welfare)",
+        "Technology, digitalization and innovation adoption",
+        "Biodiversity",
+        "Soil health",
+        "Landscape ecology (spatial patterns, connectivity, land mosaics)"
+      ],
+      "data_types": [
+        "Environmental and ecological change (e.g., biodiversity, hydrology/micrometeorology, soil health, greenhouse gas emissions)",
+        "Land use and landscape change (e.g., land-use / cover change, landscape structure, spatial planning)"
+      ],
+      "practitioner_groups": [
+        "Agricultural advisors & consultants (e.g., private or public)",
+        "Agri-landscape related professional associations"
+      ],
+      "regional_scale_experience": 2,
+      "use_cases": [
+        {
+          "use_case": "Agriphotovoltaic systems",
+          "experience": 2,
+          "interest": 2
+        },
+        {
+          "use_case": "Agroforestry systems",
+          "experience": 2,
+          "interest": 2
+        },
+        {
+          "use_case": "Climate resilient (mixed) cropping systems",
+          "experience": 1,
+          "interest": 2
+        },
+        {
+          "use_case": "Sustainable livestock systems",
+          "experience": 0,
+          "interest": 1
+        },
+        {
+          "use_case": "New (regional) value networks",
+          "experience": 0,
+          "interest": 1
+        },
+        {
+          "use_case": "Landscape water management",
+          "experience": 0,
+          "interest": 2
+        }
+      ],
+      "participatory": {
+        "no_practitioners": 1,
+        "values_no_convo": 1,
+        "indepth_convo": 3,
+        "codesign": 3,
+        "cointerpret": 1,
+        "uses_pract_data": 1,
+        "advises": 2,
+        "brokers": 2
+      },
+      "engagement_level": 2,
+      "monitoring_interest": {
+        "farmer_panel": 2,
+        "farmer_apps": 1,
+        "sampling_design": 1,
+        "secondary_integration": 1,
+        "cross_scale_validation": 1
+      },
+      "flags": []
+    },
+    {
+      "id": "R033",
+      "living_labs": [
+        "East Brandenburg"
+      ],
+      "no_lab": false,
+      "institutions": [
+        "ZALF"
+      ],
+      "themes": [
+        "Resource use efficiency (water, nutrients, energy)",
+        "Soil health",
+        "Biogeochemistry",
+        "Hydrology and water management",
+        "Climate science (GHG fluxes, micrometeorology)"
+      ],
+      "data_types": [
+        "Environmental and ecological change (e.g., biodiversity, hydrology/micrometeorology, soil health, greenhouse gas emissions)"
+      ],
+      "practitioner_groups": [
+        "Agri-landscape related professional associations",
+        "Agricultural cooperatives",
+        "Producers (e.g., crop/livestock farmers, winegrowers, beekeepers)"
+      ],
+      "regional_scale_experience": 2,
+      "use_cases": [
+        {
+          "use_case": "Agriphotovoltaic systems",
+          "experience": 0,
+          "interest": 0
+        },
+        {
+          "use_case": "Agroforestry systems",
+          "experience": 0,
+          "interest": 0
+        },
+        {
+          "use_case": "Climate resilient (mixed) cropping systems",
+          "experience": 0,
+          "interest": 0
+        },
+        {
+          "use_case": "Sustainable livestock systems",
+          "experience": 0,
+          "interest": 0
+        },
+        {
+          "use_case": "New (regional) value networks",
+          "experience": 0,
+          "interest": 0
+        },
+        {
+          "use_case": "Landscape water management",
+          "experience": 1,
+          "interest": 1
+        }
+      ],
+      "participatory": {
+        "no_practitioners": 0,
+        "values_no_convo": 4,
+        "indepth_convo": 3,
+        "codesign": 3,
+        "cointerpret": 3,
+        "uses_pract_data": 1,
+        "advises": 3,
+        "brokers": 3
+      },
+      "engagement_level": 3,
+      "monitoring_interest": {
+        "farmer_panel": 0,
+        "farmer_apps": 0,
+        "sampling_design": 1,
+        "secondary_integration": 2,
+        "cross_scale_validation": 2
+      },
+      "flags": []
+    },
+    {
+      "id": "R034",
+      "living_labs": [
+        "East Brandenburg",
+        "The Hessian Low Mountain Range"
+      ],
+      "no_lab": false,
+      "institutions": [
+        "Justus Liebig University Giessen",
+        "ZALF"
+      ],
+      "themes": [
+        "Technology, digitalization and innovation adoption",
+        "Biodiversity",
+        "Soil health",
+        "Landscape ecology (spatial patterns, connectivity, land mosaics)",
+        "Behaviour and decision-making",
+        "Sustainability assessment and ecosystem services frameworks"
+      ],
+      "data_types": [
+        "Environmental and ecological change (e.g., biodiversity, hydrology/micrometeorology, soil health, greenhouse gas emissions)",
+        "Land use and landscape change (e.g., land-use / cover change, landscape structure, spatial planning)",
+        "Governance and institutional change (e.g., policy shifts, regional institutions, multi-level governance)"
+      ],
+      "practitioner_groups": [
+        "Agricultural advisors & consultants (e.g., private or public)",
+        "Environmental and conservation actors (e.g., protected areas, fisheries, foresters, animal welfare organizations)",
+        "Government, policy, regulation (e.g., across all scales - EU, Federal, State, Regional, District, Local)"
+      ],
+      "regional_scale_experience": 2,
+      "use_cases": [
+        {
+          "use_case": "Agriphotovoltaic systems",
+          "experience": 0,
+          "interest": 0
+        },
+        {
+          "use_case": "Agroforestry systems",
+          "experience": 2,
+          "interest": 2
+        },
+        {
+          "use_case": "Climate resilient (mixed) cropping systems",
+          "experience": 1,
+          "interest": 2
+        },
+        {
+          "use_case": "Sustainable livestock systems",
+          "experience": 1,
+          "interest": 0
+        },
+        {
+          "use_case": "New (regional) value networks",
+          "experience": 1,
+          "interest": 1
+        },
+        {
+          "use_case": "Landscape water management",
+          "experience": 1,
+          "interest": 1
+        }
+      ],
+      "participatory": {
+        "no_practitioners": 0,
+        "values_no_convo": 4,
+        "indepth_convo": 3,
+        "codesign": 3,
+        "cointerpret": 2,
+        "uses_pract_data": 3,
+        "advises": 1,
+        "brokers": 0
+      },
+      "engagement_level": 2,
+      "monitoring_interest": {
+        "farmer_panel": 0,
+        "farmer_apps": 2,
+        "sampling_design": 2,
+        "secondary_integration": 2,
+        "cross_scale_validation": 2
+      },
+      "flags": []
+    },
+    {
+      "id": "R035",
+      "living_labs": [
+        "North Hesse"
+      ],
+      "no_lab": false,
+      "institutions": [
+        "University of Kassel"
+      ],
+      "themes": [
+        "Biodiversity",
+        "Landscape ecology (spatial patterns, connectivity, land mosaics)"
+      ],
+      "data_types": [
+        "Environmental and ecological change (e.g., biodiversity, hydrology/micrometeorology, soil health, greenhouse gas emissions)",
+        "Land use and landscape change (e.g., land-use / cover change, landscape structure, spatial planning)"
+      ],
+      "practitioner_groups": [
+        "Environmental and conservation actors (e.g., protected areas, fisheries, foresters, animal welfare organizations)"
+      ],
+      "regional_scale_experience": 1,
+      "use_cases": [
+        {
+          "use_case": "Agriphotovoltaic systems",
+          "experience": 0,
+          "interest": 0
+        },
+        {
+          "use_case": "Agroforestry systems",
+          "experience": 1,
+          "interest": 2
+        },
+        {
+          "use_case": "Climate resilient (mixed) cropping systems",
+          "experience": 1,
+          "interest": 2
+        },
+        {
+          "use_case": "Sustainable livestock systems",
+          "experience": 0,
+          "interest": 0
+        },
+        {
+          "use_case": "New (regional) value networks",
+          "experience": 0,
+          "interest": 0
+        },
+        {
+          "use_case": "Landscape water management",
+          "experience": 0,
+          "interest": 1
+        }
+      ],
+      "participatory": {
+        "no_practitioners": 3,
+        "values_no_convo": 3,
+        "indepth_convo": 1,
+        "codesign": 2,
+        "cointerpret": 1,
+        "uses_pract_data": 2,
+        "advises": 1,
+        "brokers": 2
+      },
+      "engagement_level": 0,
+      "monitoring_interest": {
+        "farmer_panel": 1,
+        "farmer_apps": 0,
+        "sampling_design": 2,
+        "secondary_integration": 2,
+        "cross_scale_validation": 2
+      },
+      "flags": []
+    },
+    {
+      "id": "R036",
+      "living_labs": [
+        "Rheingau",
+        "East Brandenburg",
+        "Havelland",
+        "North Hesse",
+        "The Hessian Low Mountain Range"
+      ],
+      "no_lab": false,
+      "institutions": [
+        "ZALF"
+      ],
+      "themes": [
+        "Governance, policy, and institutional analysis",
+        "Innovation research",
+        "Sustainability assessment and ecosystem services frameworks"
+      ],
+      "data_types": [
+        "Governance and institutional change (e.g., policy shifts, regional institutions, multi-level governance)"
+      ],
+      "practitioner_groups": [
+        "Agricultural cooperatives",
+        "Producers (e.g., crop/livestock farmers, winegrowers, beekeepers)",
+        "Government, policy, regulation (e.g., across all scales - EU, Federal, State, Regional, District, Local)",
+        "Agricultural advisors & consultants (e.g., private or public)",
+        "Environmental and conservation actors (e.g., protected areas, fisheries, foresters, animal welfare organizations)"
+      ],
+      "regional_scale_experience": 1,
+      "use_cases": [
+        {
+          "use_case": "Agriphotovoltaic systems",
+          "experience": 0,
+          "interest": 0
+        },
+        {
+          "use_case": "Agroforestry systems",
+          "experience": 0,
+          "interest": 1
+        },
+        {
+          "use_case": "Climate resilient (mixed) cropping systems",
+          "experience": 0,
+          "interest": 0
+        },
+        {
+          "use_case": "Sustainable livestock systems",
+          "experience": 0,
+          "interest": 0
+        },
+        {
+          "use_case": "New (regional) value networks",
+          "experience": 1,
+          "interest": 2
+        },
+        {
+          "use_case": "Landscape water management",
+          "experience": 0,
+          "interest": 0
+        }
+      ],
+      "participatory": {
+        "no_practitioners": 0,
+        "values_no_convo": 0,
+        "indepth_convo": 3,
+        "codesign": 3,
+        "cointerpret": 3,
+        "uses_pract_data": 2,
+        "advises": 0,
+        "brokers": 2
+      },
+      "engagement_level": 3,
+      "monitoring_interest": {
+        "farmer_panel": 1,
+        "farmer_apps": 1,
+        "sampling_design": 0,
+        "secondary_integration": 0,
+        "cross_scale_validation": 0
+      },
+      "flags": []
+    },
+    {
+      "id": "R037",
+      "living_labs": [
+        "The Hessian Low Mountain Range"
+      ],
+      "no_lab": false,
+      "institutions": [
+        "Justus Liebig University Giessen"
+      ],
+      "themes": [
+        "Crop and livestock management (incl. animal welfare)",
+        "Resource use efficiency (water, nutrients, energy)",
+        "Biodiversity",
+        "Soil health",
+        "Biogeochemistry",
+        "Climate science (GHG fluxes, micrometeorology)",
+        "Sustainability assessment and ecosystem services frameworks"
+      ],
+      "data_types": [
+        "Environmental and ecological change (e.g., biodiversity, hydrology/micrometeorology, soil health, greenhouse gas emissions)"
+      ],
+      "practitioner_groups": [
+        "Agricultural advisors & consultants (e.g., private or public)",
+        "Agricultural cooperatives",
+        "Agri-landscape related professional associations",
+        "Government, policy, regulation (e.g., across all scales - EU, Federal, State, Regional, District, Local)",
+        "Producers (e.g., crop/livestock farmers, winegrowers, beekeepers)"
+      ],
+      "regional_scale_experience": 1,
+      "use_cases": [
+        {
+          "use_case": "Agriphotovoltaic systems",
+          "experience": 0,
+          "interest": 2
+        },
+        {
+          "use_case": "Agroforestry systems",
+          "experience": 2,
+          "interest": 2
+        },
+        {
+          "use_case": "Climate resilient (mixed) cropping systems",
+          "experience": 2,
+          "interest": 2
+        },
+        {
+          "use_case": "Sustainable livestock systems",
+          "experience": 2,
+          "interest": 2
+        },
+        {
+          "use_case": "New (regional) value networks",
+          "experience": 0,
+          "interest": 1
+        },
+        {
+          "use_case": "Landscape water management",
+          "experience": 0,
+          "interest": 1
+        }
+      ],
+      "participatory": {
+        "no_practitioners": 1,
+        "values_no_convo": 1,
+        "indepth_convo": 3,
+        "codesign": 1,
+        "cointerpret": 1,
+        "uses_pract_data": 2,
+        "advises": 3,
+        "brokers": 3
+      },
+      "engagement_level": 1,
+      "monitoring_interest": {
+        "farmer_panel": 0,
+        "farmer_apps": 1,
+        "sampling_design": 1,
+        "secondary_integration": 1,
+        "cross_scale_validation": 2
+      },
+      "flags": []
+    },
+    {
+      "id": "R038",
+      "living_labs": [
+        "The Hessian Low Mountain Range"
+      ],
+      "no_lab": false,
+      "institutions": [
+        "Justus Liebig University Giessen"
+      ],
+      "themes": [
+        "Resource use efficiency (water, nutrients, energy)",
+        "Biogeochemistry",
+        "Hydrology and water management"
+      ],
+      "data_types": [
+        "Environmental and ecological change (e.g., biodiversity, hydrology/micrometeorology, soil health, greenhouse gas emissions)"
+      ],
+      "practitioner_groups": [],
+      "regional_scale_experience": 1,
+      "use_cases": [
+        {
+          "use_case": "Agriphotovoltaic systems",
+          "experience": 0,
+          "interest": 1
+        },
+        {
+          "use_case": "Agroforestry systems",
+          "experience": 1,
+          "interest": 2
+        },
+        {
+          "use_case": "Climate resilient (mixed) cropping systems",
+          "experience": 0,
+          "interest": 2
+        },
+        {
+          "use_case": "Sustainable livestock systems",
+          "experience": 0,
+          "interest": 2
+        },
+        {
+          "use_case": "New (regional) value networks",
+          "experience": 0,
+          "interest": 0
+        },
+        {
+          "use_case": "Landscape water management",
+          "experience": 1,
+          "interest": 2
+        }
+      ],
+      "participatory": {
+        "no_practitioners": 3,
+        "values_no_convo": 4,
+        "indepth_convo": 1,
+        "codesign": 1,
+        "cointerpret": 1,
+        "uses_pract_data": 3,
+        "advises": 2,
+        "brokers": 2
+      },
+      "engagement_level": 0,
+      "monitoring_interest": {
+        "farmer_panel": 0,
+        "farmer_apps": 1,
+        "sampling_design": 2,
+        "secondary_integration": 1,
+        "cross_scale_validation": 2
+      },
+      "flags": []
+    },
+    {
+      "id": "R039",
+      "living_labs": [
+        "North Hesse"
+      ],
+      "no_lab": false,
+      "institutions": [
+        "University of Kassel"
+      ],
+      "themes": [
+        "Resource use efficiency (water, nutrients, energy)",
+        "Biodiversity",
+        "Soil health"
+      ],
+      "data_types": [
+        "Environmental and ecological change (e.g., biodiversity, hydrology/micrometeorology, soil health, greenhouse gas emissions)",
+        "Value chains and market change (e.g., market access, price dynamics, supply chain shifts)"
+      ],
+      "practitioner_groups": [
+        "Agricultural advisors & consultants (e.g., private or public)",
+        "Food processors (e.g., meat, grain, produce, dairy, beverages, feed)"
+      ],
+      "regional_scale_experience": 1,
+      "use_cases": [
+        {
+          "use_case": "Agriphotovoltaic systems",
+          "experience": 0,
+          "interest": 2
+        },
+        {
+          "use_case": "Agroforestry systems",
+          "experience": 0,
+          "interest": 2
+        },
+        {
+          "use_case": "Climate resilient (mixed) cropping systems",
+          "experience": 2,
+          "interest": 2
+        },
+        {
+          "use_case": "Sustainable livestock systems",
+          "experience": 0,
+          "interest": 2
+        },
+        {
+          "use_case": "New (regional) value networks",
+          "experience": 1,
+          "interest": 2
+        },
+        {
+          "use_case": "Landscape water management",
+          "experience": 1,
+          "interest": 2
+        }
+      ],
+      "participatory": {
+        "no_practitioners": 0,
+        "values_no_convo": 1,
+        "indepth_convo": 4,
+        "codesign": 3,
+        "cointerpret": 3,
+        "uses_pract_data": 2,
+        "advises": 4,
+        "brokers": 3
+      },
+      "engagement_level": 3,
+      "monitoring_interest": {
+        "farmer_panel": 0,
+        "farmer_apps": 0,
+        "sampling_design": 1,
+        "secondary_integration": 1,
+        "cross_scale_validation": 1
+      },
+      "flags": []
+    },
+    {
+      "id": "R040",
+      "living_labs": [
+        "East Brandenburg",
+        "The Hessian Low Mountain Range"
+      ],
+      "no_lab": false,
+      "institutions": [
+        "ZALF"
+      ],
+      "themes": [
+        "Crop and livestock management (incl. animal welfare)",
+        "Farm economics, value chains and income diversification",
+        "Biodiversity",
+        "Soil health",
+        "Behaviour and decision-making",
+        "Governance, policy, and institutional analysis",
+        "Social justice, equity, and societal perceptions",
+        "Sustainability assessment and ecosystem services frameworks"
+      ],
+      "data_types": [
+        "Environmental and ecological change (e.g., biodiversity, hydrology/micrometeorology, soil health, greenhouse gas emissions)",
+        "Social and behavioural change (e.g., stakeholder attitudes, adoption patterns, social norms)",
+        "Governance and institutional change (e.g., policy shifts, regional institutions, multi-level governance)"
+      ],
+      "practitioner_groups": [
+        "Agricultural advisors & consultants (e.g., private or public)",
+        "Agri-landscape related professional associations",
+        "Environmental and conservation actors (e.g., protected areas, fisheries, foresters, animal welfare organizations)",
+        "Producers (e.g., crop/livestock farmers, winegrowers, beekeepers)"
+      ],
+      "regional_scale_experience": 1,
+      "use_cases": [
+        {
+          "use_case": "Agriphotovoltaic systems",
+          "experience": 0,
+          "interest": 1
+        },
+        {
+          "use_case": "Agroforestry systems",
+          "experience": 1,
+          "interest": 2
+        },
+        {
+          "use_case": "Climate resilient (mixed) cropping systems",
+          "experience": 0,
+          "interest": 2
+        },
+        {
+          "use_case": "Sustainable livestock systems",
+          "experience": 2,
+          "interest": 2
+        },
+        {
+          "use_case": "New (regional) value networks",
+          "experience": 0,
+          "interest": 1
+        },
+        {
+          "use_case": "Landscape water management",
+          "experience": 1,
+          "interest": 0
+        }
+      ],
+      "participatory": {
+        "no_practitioners": 0,
+        "values_no_convo": 0,
+        "indepth_convo": 3,
+        "codesign": 3,
+        "cointerpret": 3,
+        "uses_pract_data": 3,
+        "advises": 3,
+        "brokers": 4
+      },
+      "engagement_level": 3,
+      "monitoring_interest": {
+        "farmer_panel": 2,
+        "farmer_apps": 0,
+        "sampling_design": 1,
+        "secondary_integration": 2,
+        "cross_scale_validation": 0
+      },
+      "flags": []
+    },
+    {
+      "id": "R041",
+      "living_labs": [
+        "East Brandenburg",
+        "Havelland"
+      ],
+      "no_lab": false,
+      "institutions": [
+        "ZALF"
+      ],
+      "themes": [
+        "Sustainability assessment and ecosystem services frameworks",
+        "Governance, policy, and institutional analysis",
+        "Social justice, equity, and societal perceptions",
+        "Demography, labour, and rural livlihoods",
+        "Farm economics, value chains and income diversification"
+      ],
+      "data_types": [
+        "Environmental and ecological change (e.g., biodiversity, hydrology/micrometeorology, soil health, greenhouse gas emissions)",
+        "Land use and landscape change (e.g., land-use / cover change, landscape structure, spatial planning)",
+        "Socioeconomic and livelihood change (e.g., income, employment, rural demographics)",
+        "Value chains and market change (e.g., market access, price dynamics, supply chain shifts)",
+        "Social and behavioural change (e.g., stakeholder attitudes, adoption patterns, social norms)"
+      ],
+      "practitioner_groups": [
+        "Agricultural advisors & consultants (e.g., private or public)",
+        "Agricultural cooperatives",
+        "Environmental and conservation actors (e.g., protected areas, fisheries, foresters, animal welfare organizations)",
+        "Producers (e.g., crop/livestock farmers, winegrowers, beekeepers)",
+        "Rural development actors (e.g., LEADER groups, business development agencies, citizen initiatives, tourism)"
+      ],
+      "regional_scale_experience": 1,
+      "use_cases": [
+        {
+          "use_case": "Agriphotovoltaic systems",
+          "experience": 0,
+          "interest": 0
+        },
+        {
+          "use_case": "Agroforestry systems",
+          "experience": 1,
+          "interest": 2
+        },
+        {
+          "use_case": "Climate resilient (mixed) cropping systems",
+          "experience": 1,
+          "interest": 1
+        },
+        {
+          "use_case": "Sustainable livestock systems",
+          "experience": 1,
+          "interest": 2
+        },
+        {
+          "use_case": "New (regional) value networks",
+          "experience": 1,
+          "interest": 1
+        },
+        {
+          "use_case": "Landscape water management",
+          "experience": 0,
+          "interest": 1
+        }
+      ],
+      "participatory": {
+        "no_practitioners": 1,
+        "values_no_convo": 1,
+        "indepth_convo": 3,
+        "codesign": 2,
+        "cointerpret": 3,
+        "uses_pract_data": 2,
+        "advises": 2,
+        "brokers": 2
+      },
+      "engagement_level": 3,
+      "monitoring_interest": {
+        "farmer_panel": 1,
+        "farmer_apps": 0,
+        "sampling_design": 1,
+        "secondary_integration": 1,
+        "cross_scale_validation": 2
+      },
+      "flags": []
+    },
+    {
+      "id": "R042",
+      "living_labs": [],
+      "no_lab": true,
+      "institutions": [
+        "Justus Liebig University Giessen"
+      ],
+      "themes": [
+        "Social justice, equity, and societal perceptions",
+        "Sustainability assessment and ecosystem services frameworks"
+      ],
+      "data_types": [],
+      "practitioner_groups": [
+        "Consumers or consumer organizations",
+        "Producers (e.g., crop/livestock farmers, winegrowers, beekeepers)",
+        "Rural development actors (e.g., LEADER groups, business development agencies, citizen initiatives, tourism)"
+      ],
+      "regional_scale_experience": 0,
+      "use_cases": [
+        {
+          "use_case": "Agriphotovoltaic systems",
+          "experience": 0,
+          "interest": 0
+        },
+        {
+          "use_case": "Agroforestry systems",
+          "experience": 0,
+          "interest": 0
+        },
+        {
+          "use_case": "Climate resilient (mixed) cropping systems",
+          "experience": 0,
+          "interest": 0
+        },
+        {
+          "use_case": "Sustainable livestock systems",
+          "experience": 0,
+          "interest": 0
+        },
+        {
+          "use_case": "New (regional) value networks",
+          "experience": 0,
+          "interest": 1
+        },
+        {
+          "use_case": "Landscape water management",
+          "experience": 0,
+          "interest": 0
+        }
+      ],
+      "participatory": {
+        "no_practitioners": 0,
+        "values_no_convo": 0,
+        "indepth_convo": 3,
+        "codesign": 2,
+        "cointerpret": 3,
+        "uses_pract_data": 2,
+        "advises": 3,
+        "brokers": 3
+      },
+      "engagement_level": 3,
+      "monitoring_interest": {
+        "farmer_panel": 1,
+        "farmer_apps": 0,
+        "sampling_design": 0,
+        "secondary_integration": 0,
+        "cross_scale_validation": 0
+      },
+      "flags": []
+    },
+    {
+      "id": "R043",
+      "living_labs": [
+        "East Brandenburg"
+      ],
+      "no_lab": false,
+      "institutions": [
+        "ZALF"
+      ],
+      "themes": [
+        "Resource use efficiency (water, nutrients, energy)",
+        "Technology, digitalization and innovation adoption",
+        "Soil health",
+        "Biodiversity",
+        "Landscape ecology (spatial patterns, connectivity, land mosaics)"
+      ],
+      "data_types": [
+        "Environmental and ecological change (e.g., biodiversity, hydrology/micrometeorology, soil health, greenhouse gas emissions)"
+      ],
+      "practitioner_groups": [
+        "Agricultural advisors & consultants (e.g., private or public)",
+        "Agricultural cooperatives",
+        "Consumers or consumer organizations"
+      ],
+      "regional_scale_experience": 2,
+      "use_cases": [
+        {
+          "use_case": "Agriphotovoltaic systems",
+          "experience": 1,
+          "interest": 2
+        },
+        {
+          "use_case": "Agroforestry systems",
+          "experience": 1,
+          "interest": 2
+        },
+        {
+          "use_case": "Climate resilient (mixed) cropping systems",
+          "experience": 2,
+          "interest": 2
+        },
+        {
+          "use_case": "Sustainable livestock systems",
+          "experience": 0,
+          "interest": 0
+        },
+        {
+          "use_case": "New (regional) value networks",
+          "experience": 0,
+          "interest": 0
+        },
+        {
+          "use_case": "Landscape water management",
+          "experience": 1,
+          "interest": 2
+        }
+      ],
+      "participatory": {
+        "no_practitioners": 1,
+        "values_no_convo": 1,
+        "indepth_convo": 3,
+        "codesign": 3,
+        "cointerpret": 4,
+        "uses_pract_data": 2,
+        "advises": 4,
+        "brokers": 4
+      },
+      "engagement_level": 3,
+      "monitoring_interest": {
+        "farmer_panel": 0,
+        "farmer_apps": 1,
+        "sampling_design": 2,
+        "secondary_integration": 1,
+        "cross_scale_validation": 2
+      },
+      "flags": []
+    },
+    {
+      "id": "R044",
+      "living_labs": [
+        "East Brandenburg",
+        "Havelland",
+        "North Hesse",
+        "The Hessian Low Mountain Range",
+        "Rheingau"
+      ],
+      "no_lab": false,
+      "institutions": [
+        "ZALF"
+      ],
+      "themes": [
+        "Demography, labour, and rural livlihoods",
+        "Behaviour and decision-making",
+        "Social justice, equity, and societal perceptions",
+        "Governance, policy, and institutional analysis",
+        "Sustainability assessment and ecosystem services frameworks",
+        "Technology, digitalization and innovation adoption"
+      ],
+      "data_types": [
+        "Socioeconomic and livelihood change (e.g., income, employment, rural demographics)",
+        "Governance and institutional change (e.g., policy shifts, regional institutions, multi-level governance)",
+        "Social and behavioural change (e.g., stakeholder attitudes, adoption patterns, social norms)",
+        "Land use and landscape change (e.g., land-use / cover change, landscape structure, spatial planning)"
+      ],
+      "practitioner_groups": [
+        "Agricultural advisors & consultants (e.g., private or public)",
+        "Rural development actors (e.g., LEADER groups, business development agencies, citizen initiatives, tourism)"
+      ],
+      "regional_scale_experience": 2,
+      "use_cases": [
+        {
+          "use_case": "Agriphotovoltaic systems",
+          "experience": 0,
+          "interest": 1
+        },
+        {
+          "use_case": "Agroforestry systems",
+          "experience": 1,
+          "interest": 2
+        },
+        {
+          "use_case": "Climate resilient (mixed) cropping systems",
+          "experience": 0,
+          "interest": 1
+        },
+        {
+          "use_case": "Sustainable livestock systems",
+          "experience": 0,
+          "interest": 1
+        },
+        {
+          "use_case": "New (regional) value networks",
+          "experience": 1,
+          "interest": 1
+        },
+        {
+          "use_case": "Landscape water management",
+          "experience": 0,
+          "interest": 2
+        }
+      ],
+      "participatory": {
+        "no_practitioners": 2,
+        "values_no_convo": 3,
+        "indepth_convo": 1,
+        "codesign": 2,
+        "cointerpret": 2,
+        "uses_pract_data": 1,
+        "advises": 1,
+        "brokers": 1
+      },
+      "engagement_level": 0,
+      "monitoring_interest": {
+        "farmer_panel": 2,
+        "farmer_apps": 1,
+        "sampling_design": 0,
+        "secondary_integration": 1,
+        "cross_scale_validation": 1
+      },
+      "flags": []
+    },
+    {
+      "id": "R045",
+      "living_labs": [
+        "Rheingau"
+      ],
+      "no_lab": false,
+      "institutions": [
+        "ZALF"
+      ],
+      "themes": [
+        "Governance, policy, and institutional analysis",
+        "Behaviour and decision-making"
+      ],
+      "data_types": [
+        "Governance and institutional change (e.g., policy shifts, regional institutions, multi-level governance)",
+        "Socioeconomic and livelihood change (e.g., income, employment, rural demographics)",
+        "Social and behavioural change (e.g., stakeholder attitudes, adoption patterns, social norms)"
+      ],
+      "practitioner_groups": [
+        "Agri-landscape related professional associations",
+        "Environmental and conservation actors (e.g., protected areas, fisheries, foresters, animal welfare organizations)",
+        "Government, policy, regulation (e.g., across all scales - EU, Federal, State, Regional, District, Local)",
+        "Producers (e.g., crop/livestock farmers, winegrowers, beekeepers)",
+        "Consumers or consumer organizations"
+      ],
+      "regional_scale_experience": 2,
+      "use_cases": [
+        {
+          "use_case": "Agriphotovoltaic systems",
+          "experience": 0,
+          "interest": 0
+        },
+        {
+          "use_case": "Agroforestry systems",
+          "experience": 1,
+          "interest": 1
+        },
+        {
+          "use_case": "Climate resilient (mixed) cropping systems",
+          "experience": 0,
+          "interest": 0
+        },
+        {
+          "use_case": "Sustainable livestock systems",
+          "experience": 0,
+          "interest": 0
+        },
+        {
+          "use_case": "New (regional) value networks",
+          "experience": 0,
+          "interest": 0
+        },
+        {
+          "use_case": "Landscape water management",
+          "experience": 1,
+          "interest": 2
+        }
+      ],
+      "participatory": {
+        "no_practitioners": 0,
+        "values_no_convo": 3,
+        "indepth_convo": 1,
+        "codesign": 3,
+        "cointerpret": 0,
+        "uses_pract_data": 0,
+        "advises": 1,
+        "brokers": 1
+      },
+      "engagement_level": 2,
+      "monitoring_interest": {
+        "farmer_panel": 2,
+        "farmer_apps": 1,
+        "sampling_design": 0,
+        "secondary_integration": 1,
+        "cross_scale_validation": 0
+      },
+      "flags": []
+    },
+    {
+      "id": "R046",
+      "living_labs": [
+        "East Brandenburg"
+      ],
+      "no_lab": false,
+      "institutions": [
+        "ZALF"
+      ],
+      "themes": [
+        "Resource use efficiency (water, nutrients, energy)",
+        "Crop and livestock management (incl. animal welfare)",
+        "Farm economics, value chains and income diversification",
+        "Sustainability assessment and ecosystem services frameworks",
+        "Biodiversity"
+      ],
+      "data_types": [
+        "Land use and landscape change (e.g., land-use / cover change, landscape structure, spatial planning)"
+      ],
+      "practitioner_groups": [
+        "Agricultural advisors & consultants (e.g., private or public)",
+        "Food processors (e.g., meat, grain, produce, dairy, beverages, feed)",
+        "Pre-production actors and suppliers (e.g., fertilizer, seed, equipment suppliers, soil testing facilities)",
+        "Producers (e.g., crop/livestock farmers, winegrowers, beekeepers)",
+        "Government, policy, regulation (e.g., across all scales - EU, Federal, State, Regional, District, Local)"
+      ],
+      "regional_scale_experience": 1,
+      "use_cases": [
+        {
+          "use_case": "Agriphotovoltaic systems",
+          "experience": 1,
+          "interest": 1
+        },
+        {
+          "use_case": "Agroforestry systems",
+          "experience": 1,
+          "interest": 1
+        },
+        {
+          "use_case": "Climate resilient (mixed) cropping systems",
+          "experience": 2,
+          "interest": 2
+        },
+        {
+          "use_case": "Sustainable livestock systems",
+          "experience": 0,
+          "interest": 1
+        },
+        {
+          "use_case": "New (regional) value networks",
+          "experience": 1,
+          "interest": 2
+        },
+        {
+          "use_case": "Landscape water management",
+          "experience": 1,
+          "interest": 0
+        }
+      ],
+      "participatory": {
+        "no_practitioners": 0,
+        "values_no_convo": 0,
+        "indepth_convo": 4,
+        "codesign": 4,
+        "cointerpret": 4,
+        "uses_pract_data": 3,
+        "advises": 3,
+        "brokers": 3
+      },
+      "engagement_level": 3,
+      "monitoring_interest": {
+        "farmer_panel": 1,
+        "farmer_apps": 1,
+        "sampling_design": 0,
+        "secondary_integration": 1,
+        "cross_scale_validation": 0
+      },
+      "flags": []
+    },
+    {
+      "id": "R047",
+      "living_labs": [
+        "The Hessian Low Mountain Range",
+        "North Hesse"
+      ],
+      "no_lab": false,
+      "institutions": [
+        "Justus Liebig University Giessen"
+      ],
+      "themes": [
+        "Crop and livestock management (incl. animal welfare)",
+        "Technology, digitalization and innovation adoption",
+        "Biodiversity"
+      ],
+      "data_types": [],
+      "practitioner_groups": [
+        "Agricultural advisors & consultants (e.g., private or public)",
+        "Agricultural cooperatives",
+        "Agri-landscape related professional associations",
+        "Environmental and conservation actors (e.g., protected areas, fisheries, foresters, animal welfare organizations)",
+        "Food processors (e.g., meat, grain, produce, dairy, beverages, feed)",
+        "Producers (e.g., crop/livestock farmers, winegrowers, beekeepers)"
+      ],
+      "regional_scale_experience": 2,
+      "use_cases": [
+        {
+          "use_case": "Agriphotovoltaic systems",
+          "experience": 0,
+          "interest": 0
+        },
+        {
+          "use_case": "Agroforestry systems",
+          "experience": 0,
+          "interest": 0
+        },
+        {
+          "use_case": "Climate resilient (mixed) cropping systems",
+          "experience": 0,
+          "interest": 0
+        },
+        {
+          "use_case": "Sustainable livestock systems",
+          "experience": 2,
+          "interest": 2
+        },
+        {
+          "use_case": "New (regional) value networks",
+          "experience": 0,
+          "interest": 1
+        },
+        {
+          "use_case": "Landscape water management",
+          "experience": 0,
+          "interest": 0
+        }
+      ],
+      "participatory": {
+        "no_practitioners": 0,
+        "values_no_convo": 4,
+        "indepth_convo": 4,
+        "codesign": 4,
+        "cointerpret": 3,
+        "uses_pract_data": 2,
+        "advises": 4,
+        "brokers": 3
+      },
+      "engagement_level": 3,
+      "monitoring_interest": {
+        "farmer_panel": 1,
+        "farmer_apps": 1,
+        "sampling_design": 0,
+        "secondary_integration": 1,
+        "cross_scale_validation": 2
+      },
+      "flags": []
+    },
+    {
+      "id": "R048",
+      "living_labs": [
+        "Rheingau"
+      ],
+      "no_lab": false,
+      "institutions": [
+        "Hochschule Geisenheim University"
+      ],
+      "themes": [
+        "Biodiversity",
+        "Demography, labour, and rural livlihoods",
+        "Behaviour and decision-making",
+        "Governance, policy, and institutional analysis"
+      ],
+      "data_types": [
+        "Socioeconomic and livelihood change (e.g., income, employment, rural demographics)",
+        "Governance and institutional change (e.g., policy shifts, regional institutions, multi-level governance)"
+      ],
+      "practitioner_groups": [
+        "Environmental and conservation actors (e.g., protected areas, fisheries, foresters, animal welfare organizations)",
+        "Government, policy, regulation (e.g., across all scales - EU, Federal, State, Regional, District, Local)",
+        "Producers (e.g., crop/livestock farmers, winegrowers, beekeepers)",
+        "Rural development actors (e.g., LEADER groups, business development agencies, citizen initiatives, tourism)"
+      ],
+      "regional_scale_experience": 1,
+      "use_cases": [
+        {
+          "use_case": "Agriphotovoltaic systems",
+          "experience": 1,
+          "interest": 2
+        },
+        {
+          "use_case": "Agroforestry systems",
+          "experience": 1,
+          "interest": 2
+        },
+        {
+          "use_case": "Climate resilient (mixed) cropping systems",
+          "experience": 0,
+          "interest": 1
+        },
+        {
+          "use_case": "Sustainable livestock systems",
+          "experience": 0,
+          "interest": 0
+        },
+        {
+          "use_case": "New (regional) value networks",
+          "experience": 0,
+          "interest": 1
+        },
+        {
+          "use_case": "Landscape water management",
+          "experience": 1,
+          "interest": 2
+        }
+      ],
+      "participatory": {
+        "no_practitioners": 1,
+        "values_no_convo": 1,
+        "indepth_convo": 2,
+        "codesign": 2,
+        "cointerpret": 2,
+        "uses_pract_data": 2,
+        "advises": 3,
+        "brokers": 2
+      },
+      "engagement_level": 0,
+      "monitoring_interest": {
+        "farmer_panel": 1,
+        "farmer_apps": 0,
+        "sampling_design": 0,
+        "secondary_integration": 0,
+        "cross_scale_validation": 0
+      },
+      "flags": []
+    },
+    {
+      "id": "R049",
+      "living_labs": [
+        "Rheingau"
+      ],
+      "no_lab": false,
+      "institutions": [
+        "Hochschule Geisenheim University"
+      ],
+      "themes": [
+        "Resource use efficiency (water, nutrients, energy)",
+        "Biodiversity",
+        "Soil health",
+        "Biogeochemistry",
+        "Landscape ecology (spatial patterns, connectivity, land mosaics)",
+        "Climate science (GHG fluxes, micrometeorology)",
+        "Hydrology and water management"
+      ],
+      "data_types": [
+        "Environmental and ecological change (e.g., biodiversity, hydrology/micrometeorology, soil health, greenhouse gas emissions)"
+      ],
+      "practitioner_groups": [],
+      "regional_scale_experience": 1,
+      "use_cases": [
+        {
+          "use_case": "Agriphotovoltaic systems",
+          "experience": 1,
+          "interest": 2
+        },
+        {
+          "use_case": "Agroforestry systems",
+          "experience": 0,
+          "interest": 2
+        },
+        {
+          "use_case": "Climate resilient (mixed) cropping systems",
+          "experience": 2,
+          "interest": 2
+        },
+        {
+          "use_case": "Sustainable livestock systems",
+          "experience": 1,
+          "interest": 1
+        },
+        {
+          "use_case": "New (regional) value networks",
+          "experience": 0,
+          "interest": 0
+        },
+        {
+          "use_case": "Landscape water management",
+          "experience": 1,
+          "interest": 2
+        }
+      ],
+      "participatory": {
+        "no_practitioners": 3,
+        "values_no_convo": 4,
+        "indepth_convo": 1,
+        "codesign": 1,
+        "cointerpret": 1,
+        "uses_pract_data": 2,
+        "advises": 2,
+        "brokers": 1
+      },
+      "engagement_level": 0,
+      "monitoring_interest": {
+        "farmer_panel": 0,
+        "farmer_apps": 0,
+        "sampling_design": 1,
+        "secondary_integration": 1,
+        "cross_scale_validation": 2
+      },
+      "flags": []
+    },
+    {
+      "id": "R050",
+      "living_labs": [
+        "East Brandenburg"
+      ],
+      "no_lab": false,
+      "institutions": [
+        "ZALF"
+      ],
+      "themes": [
+        "Resource use efficiency (water, nutrients, energy)",
+        "Biodiversity",
+        "Farm economics, value chains and income diversification"
+      ],
+      "data_types": [],
+      "practitioner_groups": [
+        "Agricultural advisors & consultants (e.g., private or public)",
+        "Consumers or consumer organizations"
+      ],
+      "regional_scale_experience": 2,
+      "use_cases": [
+        {
+          "use_case": "Agriphotovoltaic systems",
+          "experience": 0,
+          "interest": 1
+        },
+        {
+          "use_case": "Agroforestry systems",
+          "experience": 0,
+          "interest": 1
+        },
+        {
+          "use_case": "Climate resilient (mixed) cropping systems",
+          "experience": 2,
+          "interest": 2
+        },
+        {
+          "use_case": "Sustainable livestock systems",
+          "experience": 0,
+          "interest": 0
+        },
+        {
+          "use_case": "New (regional) value networks",
+          "experience": 2,
+          "interest": 2
+        },
+        {
+          "use_case": "Landscape water management",
+          "experience": 1,
+          "interest": 1
+        }
+      ],
+      "participatory": {
+        "no_practitioners": 0,
+        "values_no_convo": 1,
+        "indepth_convo": 1,
+        "codesign": 3,
+        "cointerpret": 3,
+        "uses_pract_data": 2,
+        "advises": 2,
+        "brokers": 2
+      },
+      "engagement_level": 3,
+      "monitoring_interest": {
+        "farmer_panel": 2,
+        "farmer_apps": 0,
+        "sampling_design": 1,
+        "secondary_integration": 2,
+        "cross_scale_validation": 2
+      },
+      "flags": []
+    },
+    {
+      "id": "R051",
+      "living_labs": [
+        "North Hesse"
+      ],
+      "no_lab": false,
+      "institutions": [
+        "University of Kassel"
+      ],
+      "themes": [
+        "Biodiversity",
+        "Soil health",
+        "Landscape ecology (spatial patterns, connectivity, land mosaics)"
+      ],
+      "data_types": [
+        "Environmental and ecological change (e.g., biodiversity, hydrology/micrometeorology, soil health, greenhouse gas emissions)",
+        "Value chains and market change (e.g., market access, price dynamics, supply chain shifts)",
+        "Land use and landscape change (e.g., land-use / cover change, landscape structure, spatial planning)"
+      ],
+      "practitioner_groups": [
+        "Agricultural advisors & consultants (e.g., private or public)",
+        "Agricultural cooperatives",
+        "Agricultural trade, storage, and logistics",
+        "Environmental and conservation actors (e.g., protected areas, fisheries, foresters, animal welfare organizations)",
+        "Pre-production actors and suppliers (e.g., fertilizer, seed, equipment suppliers, soil testing facilities)",
+        "Producers (e.g., crop/livestock farmers, winegrowers, beekeepers)"
+      ],
+      "regional_scale_experience": 1,
+      "use_cases": [
+        {
+          "use_case": "Agriphotovoltaic systems",
+          "experience": 0,
+          "interest": 0
+        },
+        {
+          "use_case": "Agroforestry systems",
+          "experience": 1,
+          "interest": 2
+        },
+        {
+          "use_case": "Climate resilient (mixed) cropping systems",
+          "experience": 1,
+          "interest": 2
+        },
+        {
+          "use_case": "Sustainable livestock systems",
+          "experience": 2,
+          "interest": 2
+        },
+        {
+          "use_case": "New (regional) value networks",
+          "experience": 2,
+          "interest": 2
+        },
+        {
+          "use_case": "Landscape water management",
+          "experience": 0,
+          "interest": 1
+        }
+      ],
+      "participatory": {
+        "no_practitioners": 0,
+        "values_no_convo": 0,
+        "indepth_convo": 4,
+        "codesign": 4,
+        "cointerpret": 4,
+        "uses_pract_data": 4,
+        "advises": 4,
+        "brokers": 4
+      },
+      "engagement_level": 3,
+      "monitoring_interest": {
+        "farmer_panel": 1,
+        "farmer_apps": 1,
+        "sampling_design": 0,
+        "secondary_integration": 0,
+        "cross_scale_validation": 0
+      },
+      "flags": []
+    },
+    {
+      "id": "R052",
+      "living_labs": [
+        "East Brandenburg"
+      ],
+      "no_lab": false,
+      "institutions": [
+        "ZALF"
+      ],
+      "themes": [
+        "Farm economics, value chains and income diversification",
+        "Biodiversity",
+        "Governance, policy, and institutional analysis",
+        "Sustainability assessment and ecosystem services frameworks"
+      ],
+      "data_types": [],
+      "practitioner_groups": [
+        "Agricultural advisors & consultants (e.g., private or public)",
+        "Finance, insurance, investors",
+        "Food retail and distribution"
+      ],
+      "regional_scale_experience": 0,
+      "use_cases": [
+        {
+          "use_case": "Agriphotovoltaic systems",
+          "experience": 0,
+          "interest": 0
+        },
+        {
+          "use_case": "Agroforestry systems",
+          "experience": 1,
+          "interest": 2
+        },
+        {
+          "use_case": "Climate resilient (mixed) cropping systems",
+          "experience": 0,
+          "interest": 0
+        },
+        {
+          "use_case": "Sustainable livestock systems",
+          "experience": 0,
+          "interest": 0
+        },
+        {
+          "use_case": "New (regional) value networks",
+          "experience": 2,
+          "interest": 2
+        },
+        {
+          "use_case": "Landscape water management",
+          "experience": 0,
+          "interest": 1
+        }
+      ],
+      "participatory": {
+        "no_practitioners": 1,
+        "values_no_convo": 4,
+        "indepth_convo": 1,
+        "codesign": 3,
+        "cointerpret": 1,
+        "uses_pract_data": 0,
+        "advises": 0,
+        "brokers": 3
+      },
+      "engagement_level": 2,
+      "monitoring_interest": {
+        "farmer_panel": 0,
+        "farmer_apps": 2,
+        "sampling_design": 1,
+        "secondary_integration": 0,
+        "cross_scale_validation": 0
+      },
+      "flags": []
+    },
+    {
+      "id": "R053",
+      "living_labs": [
+        "East Brandenburg"
+      ],
+      "no_lab": false,
+      "institutions": [
+        "ZALF"
+      ],
+      "themes": [
+        "Resource use efficiency (water, nutrients, energy)",
+        "Technology, digitalization and innovation adoption",
+        "Biogeochemistry",
+        "Climate science (GHG fluxes, micrometeorology)"
+      ],
+      "data_types": [
+        "Environmental and ecological change (e.g., biodiversity, hydrology/micrometeorology, soil health, greenhouse gas emissions)",
+        "Land use and landscape change (e.g., land-use / cover change, landscape structure, spatial planning)"
+      ],
+      "practitioner_groups": [
+        "Agricultural cooperatives",
+        "Government, policy, regulation (e.g., across all scales - EU, Federal, State, Regional, District, Local)"
+      ],
+      "regional_scale_experience": 1,
+      "use_cases": [
+        {
+          "use_case": "Agriphotovoltaic systems",
+          "experience": 0,
+          "interest": 1
+        },
+        {
+          "use_case": "Agroforestry systems",
+          "experience": 1,
+          "interest": 1
+        },
+        {
+          "use_case": "Climate resilient (mixed) cropping systems",
+          "experience": 1,
+          "interest": 2
+        },
+        {
+          "use_case": "Sustainable livestock systems",
+          "experience": 0,
+          "interest": 0
+        },
+        {
+          "use_case": "New (regional) value networks",
+          "experience": 0,
+          "interest": 0
+        },
+        {
+          "use_case": "Landscape water management",
+          "experience": 1,
+          "interest": 1
+        }
+      ],
+      "participatory": {
+        "no_practitioners": 1,
+        "values_no_convo": 3,
+        "indepth_convo": 1,
+        "codesign": 3,
+        "cointerpret": 1,
+        "uses_pract_data": 1,
+        "advises": 1,
+        "brokers": 0
+      },
+      "engagement_level": 2,
+      "monitoring_interest": {
+        "farmer_panel": 0,
+        "farmer_apps": 1,
+        "sampling_design": 1,
+        "secondary_integration": 1,
+        "cross_scale_validation": 2
+      },
+      "flags": []
+    },
+    {
+      "id": "R054",
+      "living_labs": [
+        "The Hessian Low Mountain Range"
+      ],
+      "no_lab": false,
+      "institutions": [
+        "Justus Liebig University Giessen"
+      ],
+      "themes": [
+        "Crop and livestock management (incl. animal welfare)",
+        "Resource use efficiency (water, nutrients, energy)",
+        "Farm economics, value chains and income diversification",
+        "Biodiversity",
+        "Soil health",
+        "Landscape ecology (spatial patterns, connectivity, land mosaics)",
+        "Social justice, equity, and societal perceptions",
+        "Governance, policy, and institutional analysis",
+        "Sustainability assessment and ecosystem services frameworks",
+        "Behaviour and decision-making"
+      ],
+      "data_types": [
+        "Land use and landscape change (e.g., land-use / cover change, landscape structure, spatial planning)",
+        "Socioeconomic and livelihood change (e.g., income, employment, rural demographics)",
+        "Governance and institutional change (e.g., policy shifts, regional institutions, multi-level governance)",
+        "Social and behavioural change (e.g., stakeholder attitudes, adoption patterns, social norms)"
+      ],
+      "practitioner_groups": [
+        "Producers (e.g., crop/livestock farmers, winegrowers, beekeepers)"
+      ],
+      "regional_scale_experience": 2,
+      "use_cases": [
+        {
+          "use_case": "Agriphotovoltaic systems",
+          "experience": 0,
+          "interest": 1
+        },
+        {
+          "use_case": "Agroforestry systems",
+          "experience": 1,
+          "interest": 2
+        },
+        {
+          "use_case": "Climate resilient (mixed) cropping systems",
+          "experience": 1,
+          "interest": 2
+        },
+        {
+          "use_case": "Sustainable livestock systems",
+          "experience": 2,
+          "interest": 2
+        },
+        {
+          "use_case": "New (regional) value networks",
+          "experience": 1,
+          "interest": 2
+        },
+        {
+          "use_case": "Landscape water management",
+          "experience": 0,
+          "interest": 1
+        }
+      ],
+      "participatory": {
+        "no_practitioners": 4,
+        "values_no_convo": 1,
+        "indepth_convo": 4,
+        "codesign": 2,
+        "cointerpret": 2,
+        "uses_pract_data": 1,
+        "advises": 1,
+        "brokers": 1
+      },
+      "engagement_level": 1,
+      "monitoring_interest": {
+        "farmer_panel": 1,
+        "farmer_apps": 1,
+        "sampling_design": 1,
+        "secondary_integration": 2,
+        "cross_scale_validation": 0
+      },
+      "flags": [
+        "claims_no_practitioner_work_but_endorses_engagement"
+      ]
+    },
+    {
+      "id": "R055",
+      "living_labs": [
+        "Rheingau"
+      ],
+      "no_lab": false,
+      "institutions": [
+        "Hochschule Geisenheim University"
+      ],
+      "themes": [
+        "Biodiversity",
+        "Landscape ecology (spatial patterns, connectivity, land mosaics)"
+      ],
+      "data_types": [
+        "Environmental and ecological change (e.g., biodiversity, hydrology/micrometeorology, soil health, greenhouse gas emissions)"
+      ],
+      "practitioner_groups": [],
+      "regional_scale_experience": 1,
+      "use_cases": [
+        {
+          "use_case": "Agriphotovoltaic systems",
+          "experience": 0,
+          "interest": 2
+        },
+        {
+          "use_case": "Agroforestry systems",
+          "experience": 0,
+          "interest": 2
+        },
+        {
+          "use_case": "Climate resilient (mixed) cropping systems",
+          "experience": 0,
+          "interest": 1
+        },
+        {
+          "use_case": "Sustainable livestock systems",
+          "experience": 0,
+          "interest": 0
+        },
+        {
+          "use_case": "New (regional) value networks",
+          "experience": 0,
+          "interest": 2
+        },
+        {
+          "use_case": "Landscape water management",
+          "experience": 0,
+          "interest": 1
+        }
+      ],
+      "participatory": {
+        "no_practitioners": 1,
+        "values_no_convo": 3,
+        "indepth_convo": 3,
+        "codesign": 0,
+        "cointerpret": 0,
+        "uses_pract_data": 0,
+        "advises": 2,
+        "brokers": 2
+      },
+      "engagement_level": 1,
+      "monitoring_interest": {
+        "farmer_panel": 0,
+        "farmer_apps": 0,
+        "sampling_design": 1,
+        "secondary_integration": 1,
+        "cross_scale_validation": 0
+      },
+      "flags": []
+    },
+    {
+      "id": "R056",
+      "living_labs": [
+        "North Hesse",
+        "The Hessian Low Mountain Range"
+      ],
+      "no_lab": false,
+      "institutions": [
+        "University of Kassel"
+      ],
+      "themes": [
+        "Technology, digitalization and innovation adoption",
+        "Crop and livestock management (incl. animal welfare)",
+        "Biodiversity"
+      ],
+      "data_types": [],
+      "practitioner_groups": [],
+      "regional_scale_experience": 0,
+      "use_cases": [
+        {
+          "use_case": "Agriphotovoltaic systems",
+          "experience": 0,
+          "interest": 1
+        },
+        {
+          "use_case": "Agroforestry systems",
+          "experience": 0,
+          "interest": 1
+        },
+        {
+          "use_case": "Climate resilient (mixed) cropping systems",
+          "experience": 0,
+          "interest": 1
+        },
+        {
+          "use_case": "Sustainable livestock systems",
+          "experience": 1,
+          "interest": 2
+        },
+        {
+          "use_case": "New (regional) value networks",
+          "experience": 0,
+          "interest": 2
+        },
+        {
+          "use_case": "Landscape water management",
+          "experience": 0,
+          "interest": 1
+        }
+      ],
+      "participatory": {
+        "no_practitioners": 2,
+        "values_no_convo": 4,
+        "indepth_convo": 1,
+        "codesign": 1,
+        "cointerpret": 1,
+        "uses_pract_data": 2,
+        "advises": 0,
+        "brokers": 1
+      },
+      "engagement_level": 0,
+      "monitoring_interest": {
+        "farmer_panel": 1,
+        "farmer_apps": 2,
+        "sampling_design": 1,
+        "secondary_integration": 2,
+        "cross_scale_validation": 2
+      },
+      "flags": []
+    },
+    {
+      "id": "R057",
+      "living_labs": [
+        "East Brandenburg",
+        "Havelland",
+        "North Hesse",
+        "The Hessian Low Mountain Range",
+        "Rheingau"
+      ],
+      "no_lab": false,
+      "institutions": [
+        "ZALF"
+      ],
+      "themes": [
+        "Biodiversity",
+        "Soil health",
+        "Behaviour and decision-making",
+        "Governance, policy, and institutional analysis",
+        "Sustainability assessment and ecosystem services frameworks"
+      ],
+      "data_types": [
+        "Social and behavioural change (e.g., stakeholder attitudes, adoption patterns, social norms)"
+      ],
+      "practitioner_groups": [
+        "Agricultural advisors & consultants (e.g., private or public)",
+        "Agricultural cooperatives",
+        "Consumers or consumer organizations",
+        "Environmental and conservation actors (e.g., protected areas, fisheries, foresters, animal welfare organizations)",
+        "Government, policy, regulation (e.g., across all scales - EU, Federal, State, Regional, District, Local)"
+      ],
+      "regional_scale_experience": 1,
+      "use_cases": [
+        {
+          "use_case": "Agriphotovoltaic systems",
+          "experience": 0,
+          "interest": 1
+        },
+        {
+          "use_case": "Agroforestry systems",
+          "experience": 2,
+          "interest": 2
+        },
+        {
+          "use_case": "Climate resilient (mixed) cropping systems",
+          "experience": 2,
+          "interest": 2
+        },
+        {
+          "use_case": "Sustainable livestock systems",
+          "experience": 0,
+          "interest": 1
+        },
+        {
+          "use_case": "New (regional) value networks",
+          "experience": 1,
+          "interest": 2
+        },
+        {
+          "use_case": "Landscape water management",
+          "experience": 0,
+          "interest": 1
+        }
+      ],
+      "participatory": {
+        "no_practitioners": 0,
+        "values_no_convo": 3,
+        "indepth_convo": 4,
+        "codesign": 4,
+        "cointerpret": 4,
+        "uses_pract_data": 1,
+        "advises": 4,
+        "brokers": 4
+      },
+      "engagement_level": 3,
+      "monitoring_interest": {
+        "farmer_panel": 2,
+        "farmer_apps": 1,
+        "sampling_design": 2,
+        "secondary_integration": 2,
+        "cross_scale_validation": 2
+      },
+      "flags": []
+    },
+    {
+      "id": "R058",
+      "living_labs": [
+        "The Hessian Low Mountain Range"
+      ],
+      "no_lab": false,
+      "institutions": [
+        "Justus Liebig University Giessen"
+      ],
+      "themes": [
+        "Resource use efficiency (water, nutrients, energy)",
+        "Technology, digitalization and innovation adoption",
+        "Soil health",
+        "Climate science (GHG fluxes, micrometeorology)",
+        "Innovation research"
+      ],
+      "data_types": [
+        "Environmental and ecological change (e.g., biodiversity, hydrology/micrometeorology, soil health, greenhouse gas emissions)",
+        "Land use and landscape change (e.g., land-use / cover change, landscape structure, spatial planning)",
+        "Value chains and market change (e.g., market access, price dynamics, supply chain shifts)"
+      ],
+      "practitioner_groups": [
+        "Agri-landscape related professional associations",
+        "Rural development actors (e.g., LEADER groups, business development agencies, citizen initiatives, tourism)",
+        "Renewable energy producers & operators",
+        "Producers (e.g., crop/livestock farmers, winegrowers, beekeepers)",
+        "Agricultural advisors & consultants (e.g., private or public)"
+      ],
+      "regional_scale_experience": 2,
+      "use_cases": [
+        {
+          "use_case": "Agriphotovoltaic systems",
+          "experience": 0,
+          "interest": 2
+        },
+        {
+          "use_case": "Agroforestry systems",
+          "experience": 1,
+          "interest": 2
+        },
+        {
+          "use_case": "Climate resilient (mixed) cropping systems",
+          "experience": 1,
+          "interest": 2
+        },
+        {
+          "use_case": "Sustainable livestock systems",
+          "experience": 1,
+          "interest": 1
+        },
+        {
+          "use_case": "New (regional) value networks",
+          "experience": 1,
+          "interest": 2
+        },
+        {
+          "use_case": "Landscape water management",
+          "experience": 1,
+          "interest": 2
+        }
+      ],
+      "participatory": {
+        "no_practitioners": 0,
+        "values_no_convo": 4,
+        "indepth_convo": 4,
+        "codesign": 4,
+        "cointerpret": 4,
+        "uses_pract_data": 4,
+        "advises": 4,
+        "brokers": 4
+      },
+      "engagement_level": 3,
+      "monitoring_interest": {
+        "farmer_panel": 1,
+        "farmer_apps": 2,
+        "sampling_design": 2,
+        "secondary_integration": 1,
+        "cross_scale_validation": 2
+      },
+      "flags": []
+    }
+  ],
+  "quality": {
+    "rows_in_export": 54,
+    "excluded_no_consent": 1,
+    "contradictory_responses": 4,
+    "respondents_with_no_lab": 4,
+    "respondents_with_multiple_labs": 10,
+    "response_rate": 0.2961,
+    "free_text_other": {
+      "Financial accounting data of farms": 1,
+      "long-term data on farmland birds and butterflies at 60 ha": 1,
+      "crop yields and soil data on several farms across Hesse / partially Thuringia": 1,
+      "data management": 1,
+      "agricultural yield simulations (crop model)": 1,
+      "Hochschule Weihenstephan-Triesdorf": 1,
+      "soil erosion": 1,
+      "Landscape Functioning": 1,
+      "microbial ecology, grassland research": 1,
+      "world-wide, less in Germany": 1,
+      "project partners from industry (processing agroforestry products into textiles)": 1,
+      "scientists": 1,
+      "farmers": 1,
+      "Beekeeping": 1,
+      "Resilience": 1,
+      "Adaptation and resilience": 1,
+      "Health and productivity in livestock": 1,
+      "crop production": 1,
+      "Agronomic data (e.g. yield, plant traits)": 1,
+      "low-cost sensor development": 1,
+      "Human-nature relations": 1,
+      "gender": 1,
+      "(not necessarily \"change\" - see above)": 1
+    },
+    "unanswered": {}
+  }
+}

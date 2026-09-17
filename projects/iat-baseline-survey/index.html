@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<link rel="alternate" hreflang="en" href="https://iat-dml.github.io/projects/iat-baseline-survey/index.html" />
+<link rel="alternate" hreflang="de" href="https://iat-dml.github.io/de/projects/iat-baseline-survey/index.de.html" />
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta charset="utf-8">
+<title>IAT baseline survey</title>
+<link rel="stylesheet" href="css/theme.css">
+<style>
+/* ==========================================================================
+   The presentation. SPEC section 2: the SVG lives in #stage, a fixed
+   container outside any slide DOM, and persists for the whole talk.
+
+   Keys: → / PageDown / Space next · ← / PageUp previous · Home / End
+         F fullscreen · B or . blank · H beat readout
+   Rehearsal: index.html#4.3 opens on that beat. ?projector=1 for a beamer.
+   ========================================================================= */
+body { overflow: hidden; }
+
+/* A 16:9 frame, as large as the viewport allows and centred. The HUD is
+   positioned inside it rather than against the viewport, so it sits on the
+   stage at any screen ratio instead of drifting into the letterbox. The colour
+   legend is drawn inside the SVG by stage.js. 1cqw is 1/100 of the frame
+   width, so N viewBox units = N/19.2 cqw. */
+#stage { display: grid; place-items: center; background: var(--paper); }
+#frame {
+  position: relative;
+  width: min(100vw, calc(100vh * 16 / 9));
+  aspect-ratio: 16 / 9;
+  container-type: inline-size;
+}
+#frame svg { display: block; width: 100%; height: 100%; }
+
+/* Presenter-only readout of which beat is up. Hidden unless H is pressed. */
+#hud {
+  position: absolute; right: calc(24cqw / 19.2); bottom: calc(16cqw / 19.2);
+  font: 600 calc(18cqw / 19.2) var(--font-mono); color: var(--ink-mute);
+  white-space: pre;
+}
+
+/* Blank screen. Paper, not black: black is a louder change than the slide
+   it replaces. */
+#blank { position: fixed; inset: 0; background: var(--paper); display: none;
+  z-index: 10; }
+body.blank #blank { display: block; }
+
+#err {
+  position: fixed; inset: 24px; display: none; padding: 20px; z-index: 20;
+  background: #fff; border: 2px solid var(--flag); color: var(--flag);
+  font: 14px var(--font-mono); white-space: pre-wrap; overflow: auto;
+}
+</style>
+</head>
+<body>
+
+<div id="stage">
+  <div id="frame">
+    <svg id="deckStage" viewbox="0 0 1920 1080" preserveaspectratio="xMidYMid meet"></svg><div id="hud" hidden></div>
+  </div>
+</div>
+<div id="blank"></div>
+<div id="err"></div>
+
+<script src="vendor/d3.v7.min.js"></script><script>
+// Classic script, before the module: a module that fails to EVALUATE (syntax
+// error, temporal dead zone) never reaches its own error handling, and the
+// room would see a blank paper stage with no clue why. See lab.html.
+(function () {
+  function show(what, detail) {
+    var box = document.getElementById('err');
+    box.style.display = 'block';
+    box.textContent = what + '\n\n' + detail +
+      '\n\nServe the out/ folder over HTTP: python -m http.server 8000';
+  }
+  window.addEventListener('error', function (e) {
+    show('Uncaught ' + (e.error && e.error.name || 'error'),
+         (e.error && e.error.stack) || e.message);
+  });
+  window.addEventListener('unhandledrejection', function (e) {
+    show('Unhandled promise rejection',
+         (e.reason && e.reason.stack) || String(e.reason));
+  });
+}());
+</script><script type="module" src="js/deck.js"></script>
+</body>
+</html>

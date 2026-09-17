@@ -1,0 +1,197 @@
+/* ============================================================================
+   IAT Baseline Survey Visualisation -- brand theme
+   SPEC section 7.
+
+   Chrome (background, ink, rules, type) comes from iat-brand-yml/_brand.yml.
+   The five Living Lab categorical hues come from the Zukunft Land ramp used by
+   living-lab-explorer, because the IAT palette is four-fifths green and cannot
+   carry five distinguishable categories on a projector.
+
+   TWO VARIANTS. Default is the screen/monitor palette. Adding class
+   "projector" to <body> swaps in the higher-contrast presentation variant:
+   colours that read fine on a monitor collapse on a washed-out beamer.
+   Toggle it at runtime -- there is no separate stylesheet to keep in sync.
+
+   Colour is never the ONLY encoding for the five labs: each lab also owns a
+   fixed screen anchor, so position is always redundant with hue.
+   ========================================================================= */
+
+:root {
+  /* --- IAT chrome ------------------------------------------------------- */
+  --ink:          #356259;   /* teal-dark   -- primary brand, headings      */
+  --ink-body:     #465555;   /* slate       -- body text                    */
+  --ink-mute:     #6C6C6C;   /* gray        -- captions, axis labels        */
+  --paper:        #F5F3EE;   /* warm off-white body background              */
+  --paper-raised: #FFFFFF;
+  --rule:         #D8D5CC;   /* hairlines, panel borders                    */
+
+  /* --- map recession ladder (SPEC 6.4) ---------------------------------- */
+  --map-fill:       #DDE6E0;  /* scene 1: filled, full colour               */
+  --map-fill-mute:  #D0D9D3;  /* scene 2: filled, desaturated. Darkened after
+                                the 16 Sept 2026 review: #E8EAE5 vanished
+                                through a projector.                        */
+  --map-stroke:     #9FAFA6;  /* scene 3: outline only, light grey          */
+  --map-stroke-fine:#C3CDC6;  /* NUTS3 underlay hairline                    */
+
+  /* --- five Living Labs, in data.json lab-N order ----------------------- */
+  --lab-0: #EB5B25;   /* East Brandenburg               vivid orange   warm */
+  --lab-1: #008581;   /* Havelland                      teal           cool */
+  --lab-2: #9BC72D;   /* North Hesse                    lime           warm */
+  --lab-3: #225E43;   /* The Hessian Low Mountain Range dark green     cool */
+  --lab-4: #C18F59;   /* Rheingau                       terracotta     warm */
+
+  /* Respondents with no lab affiliation ("None of the above").
+     Deliberately achromatic -- they are an absence, not a sixth category. */
+  --lab-none: #8A8F8C;
+
+  /* --- semantic accents ------------------------------------------------- */
+  --accent:      #EB5B25;   /* bridges, gaps, medians -- structural callouts */
+  --accent-soft: #FCE3DA;
+
+  /* Emphasis for "this is the big one": the top themes in scene 3, the lead
+     use case in scene 4. Deliberately a DEEPER BRAND GREEN rather than the
+     orange accent -- the orange fought the teal-dark labels around it and read
+     as a different kind of mark instead of the same mark turned up. Ring,
+     inner number and label all take this one token so they cannot drift.
+     Emphasis is carried mostly by stroke width and font weight; the colour
+     shift is the quieter half. */
+  --emphasis:    #0E5C3A;
+  --flag:        #C0392B;   /* internally inconsistent responses (SPEC 4.3) */
+  --gain:        #36AE6C;   /* interest exceeds experience (beat 4.4)       */
+  --loss:        #C18F59;   /* experience exceeds interest                  */
+
+  /* --- link ink (SPEC 6.5) --------------------------------------------- */
+  --link:         #465555;
+  --link-opacity: 0.12;     /* 0.10-0.15; overridden live in the layout lab */
+  --link-dull:    0.05;     /* scene 3 beat 3.1: dulled, not removed        */
+
+  /* --- typography ------------------------------------------------------- */
+  --font: "Segoe UI", system-ui, "Helvetica Neue", Arial, sans-serif;
+  --font-mono: "Segoe UI Mono", ui-monospace, Consolas, monospace;
+
+  /* Type scale in viewBox units for a 1920x1080 stage. SPEC section 7 sets
+     a 24 px floor at 1920 wide; --fs-min sits above it. Nothing smaller may
+     appear on a slide. Raised ~15% across the board after the review of
+     16 September 2026: the old sizes were too small for a large room. */
+  --fs-title: 72px;
+  --fs-head:  50px;
+  --fs-body:  36px;
+  --fs-label: 30px;
+  --fs-min:   28px;
+}
+
+/* --- higher-contrast presentation variant (SPEC 7) -----------------------
+   Saturation up, category lightness pulled apart, chrome pushed to near-black
+   on pure white. lab-1 and lab-3 are the risky pair (both dark cool greens),
+   so they separate hardest here. */
+body.projector {
+  --ink:          #1F3F38;
+  --ink-body:     #23302E;
+  --ink-mute:     #4A5350;
+  --paper:        #FFFFFF;
+  --paper-raised: #FFFFFF;
+  --rule:         #B9B5AA;
+
+  --map-fill:       #CFDCD4;
+  --map-fill-mute:  #C3CEC7;
+  --map-stroke:     #7C8F85;
+  --map-stroke-fine:#AEBAB2;
+
+  --lab-0: #E5410B;   /* deeper, hotter orange                             */
+  --lab-1: #00A8A3;   /* lifted to bright cyan-teal                        */
+  --lab-2: #A8DB1E;   /* brighter lime                                     */
+  --lab-3: #0B5C36;   /* darker, more saturated -- pulls away from lab-1   */
+  --lab-4: #C9803A;   /* more saturated terracotta                         */
+  --lab-none: #757B78;
+
+  --accent:      #E5410B;
+  /* Pushed darker and more saturated: through a beamer the emphasis ring has
+     to separate from the ordinary #1F3F38 ink around it. */
+  --emphasis:    #04512F;
+  --flag:        #B02A1B;
+  --gain:        #12924F;
+
+  --link:         #23302E;
+  --link-opacity: 0.18;     /* thin ink disappears through a beamer         */
+  --link-dull:    0.08;
+}
+
+/* ========================================================================
+   Stage
+   ======================================================================= */
+
+* { box-sizing: border-box; }
+
+html, body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  background: var(--paper);
+  color: var(--ink-body);
+  font-family: var(--font);
+  -webkit-font-smoothing: antialiased;
+}
+
+/* The persistent SVG lives OUTSIDE the slide DOM, in a fixed container
+   behind it (SPEC 2.1). Scene content may come and go; this never does.
+
+   RESERVED ID. #stage is position:fixed inset:0, so anything given this id
+   covers the entire viewport and intercepts all pointer events. Only the
+   presentation shell may use it -- the layout lab uses #labStage. */
+#stage {
+  position: fixed;
+  inset: 0;
+  z-index: 0;
+}
+
+#stage svg {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+
+/* ========================================================================
+   Shared SVG classes -- used by both the layout lab and the scenes, so the
+   two cannot drift apart visually.
+   ======================================================================= */
+
+.map-outline  { fill: none; stroke: var(--map-stroke); stroke-width: 1.25; }
+.lab-poly     { stroke: var(--paper); stroke-width: 1.5; }
+.nuts3-poly   { fill: none; stroke: var(--map-stroke-fine); stroke-width: 0.75;
+                stroke-dasharray: 3 3; }
+
+/* stroke and stroke-opacity here are the DEFAULT look only. A stylesheet
+   declaration beats a presentation attribute, so anything that paints links
+   per element -- the lab does, by lab colour and by beat 3.1's dulling -- has
+   to set them as an inline style, not with setAttribute. */
+.link         { fill: none; stroke: var(--link); stroke-opacity: var(--link-opacity); }
+.link--dull   { stroke-opacity: var(--link-dull); }
+
+.node--respondent { stroke: var(--paper); stroke-width: 1; }
+.node--lab        { stroke: var(--paper); stroke-width: 2.5; }
+.node--theme      { fill: var(--paper-raised); stroke: var(--ink); stroke-width: 2; }
+.node--usecase    { fill: var(--paper-raised); stroke: var(--ink); stroke-width: 2.5; }
+
+/* Bridging researchers (multi-lab) and flagged responses read as outlines,
+   not fills -- so they stack with the lab hue underneath. */
+.node--bridge { stroke: var(--accent); stroke-width: 2.5; }
+.node--flag   { stroke: var(--flag);   stroke-width: 2; stroke-dasharray: 2 2; }
+
+/* NO `fill` HERE. A `fill` declaration in a CSS rule beats a `fill=""`
+   presentation attribute -- presentation attributes are the lowest-priority
+   author declarations in SVG, below every selector. A blanket `text { fill }`
+   therefore silently flattens every per-element colour the scenes set with
+   d3's .attr('fill', ...): white lab numbers, muted labels, emphasis greens,
+   flag reds all rendered as --ink and nothing warned about it.
+
+   Every <text> in the scenes sets its own fill explicitly. If a default is
+   ever wanted back, set it with `style` (inline styles DO beat presentation
+   attributes) or on a class the scenes opt into -- never on the bare element. */
+text {
+  font-family: var(--font);
+}
+.label        { font-size: var(--fs-label); font-weight: 600; }
+/* Opt-in classes, so these DO win over a presentation attribute by design. */
+.label--muted { fill: var(--ink-mute); font-weight: 400; }
+.readout      { font-size: var(--fs-body); font-weight: 600; }
+.title        { font-size: var(--fs-title); font-weight: 600; fill: var(--ink); }
