@@ -7,11 +7,11 @@ categories: [research software, collaboration, reproducibility, WIP]
 description: "Research software for fast, reliable AI classification of bird species across thousands of acoustic sensor recordings."
 ---
 
-::: {.callout-note}
-**Coming soon.** The BirdNET-Passage codebase is being prepared for its first versioned release, which we expect very soon. Until then, the code is not yet publicly accessible. If you are interested in using it, please [get in touch](mailto:iat-dml@zalf.de) and we will let you know when it is available.
+::: {.callout-note title="Coming soon"}
+The BirdNET-Passage codebase is being prepared for its first versioned release, which we expect very soon. Until then, the code is not yet publicly accessible. If you are interested in using it, please [get in touch](mailto:iat-dml@zalf.de) and we will let you know when it is available.
 :::
 
-BirdNET-Passage is research software that runs [BirdNET-Analyzer](https://github.com/birdnet-team/BirdNET-Analyzer) over very large collections of audio recordings. BirdNET is an AI model that recognises bird species from their calls and songs. BirdNET-Passage does not change the model. Instead, it makes sure that thousands of files pass through it quickly, and that every file is accounted for. We are developing it together with Marie Perennes and her group.
+BirdNET-Passage is research software, developed by the DML group for [Marie Perennes](https://www.zalf.de/de/ueber_uns/mitarbeiter/Seiten/perennes_m.aspx), that runs, [BirdNET-Analyzer](https://github.com/birdnet-team/BirdNET-Analyzer), an AI model that identifies bird species from their calls and songs, over very large collections of audio recordings. The aim of BirdNET-Passage is not just to make sure that thousands of files can be processed quickly, but also robustly in the sense that it records the status of each file, handles errors gracefully and allow for recovery and resumption. 
 
 ![How BirdNET-Passage processes a batch of recordings](../assets/birdnet-passage-flow.svg){fig-alt="Thousands of sensor recordings are fanned out across four parallel BirdNET workers and merged into a single detections table. A processing record notes the outcome of every file: classified, retried after a transient read error, or quarantined as unreadable. A stopped run resumes from the record rather than from the start." fig-align="center"}
 

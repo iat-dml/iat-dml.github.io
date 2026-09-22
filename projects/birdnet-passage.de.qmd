@@ -7,11 +7,11 @@ categories: [research software, collaboration, reproducibility, WIP]
 description: "Forschungssoftware für die schnelle und zuverlässige KI-Bestimmung von Vogelarten in Tausenden akustischen Sensoraufnahmen."
 ---
 
-::: {.callout-note}
-**Bald verfügbar.** Der Code von BirdNET-Passage wird derzeit für die erste versionierte Veröffentlichung vorbereitet, die wir in Kürze erwarten. Bis dahin ist der Code noch nicht öffentlich zugänglich. Wenn Sie Interesse an der Nutzung haben, [melden Sie sich gern bei uns](mailto:iat-dml@zalf.de). Wir geben Ihnen Bescheid, sobald er verfügbar ist.
+::: {.callout-note title="Bald verfügbar"}
+Der Code von BirdNET-Passage wird derzeit für die erste versionierte Veröffentlichung vorbereitet, die wir in Kürze erwarten. Bis dahin ist der Code noch nicht öffentlich zugänglich. Wenn Sie Interesse an der Nutzung haben, [melden Sie sich gern bei uns](mailto:iat-dml@zalf.de). Wir geben Ihnen Bescheid, sobald er verfügbar ist.
 :::
 
-BirdNET-Passage ist eine Forschungssoftware, die [BirdNET-Analyzer](https://github.com/birdnet-team/BirdNET-Analyzer) auf sehr große Sammlungen von Audioaufnahmen anwendet. BirdNET ist ein KI-Modell, das Vogelarten anhand ihrer Rufe und Gesänge erkennt. BirdNET-Passage verändert das Modell nicht. Stattdessen sorgt die Software dafür, dass Tausende Dateien schnell durch das Modell laufen und dass für jede Datei nachvollziehbar ist, was mit ihr geschehen ist. Wir entwickeln sie gemeinsam mit Marie Perennes und ihrer Gruppe.
+BirdNET-Passage ist eine Forschungssoftware, die die DML-Gruppe für [Marie Perennes](https://www.zalf.de/de/ueber_uns/mitarbeiter/Seiten/perennes_m.aspx) entwickelt. Sie wendet [BirdNET-Analyzer](https://github.com/birdnet-team/BirdNET-Analyzer), ein KI-Modell, das Vogelarten anhand ihrer Rufe und Gesänge erkennt, auf sehr große Sammlungen von Audioaufnahmen an. Ziel von BirdNET-Passage ist nicht nur, dass Tausende Dateien schnell verarbeitet werden, sondern auch robust: Die Software hält den Zustand jeder Datei fest, geht kontrolliert mit Fehlern um und ermöglicht es, einen unterbrochenen Lauf wiederherzustellen und fortzusetzen.
 
 ![So verarbeitet BirdNET-Passage einen Stapel von Aufnahmen](../assets/birdnet-passage-flow-de.svg){fig-alt="Tausende Sensoraufnahmen werden auf vier parallele BirdNET-Prozesse verteilt und zu einer einzigen Tabelle mit Detektionen zusammengeführt. Ein Verarbeitungsprotokoll hält das Ergebnis jeder Datei fest: klassifiziert, nach einem vorübergehenden Lesefehler wiederholt oder als unlesbar in Quarantäne. Ein gestoppter Lauf setzt am Protokoll wieder an, statt von vorn zu beginnen." fig-align="center"}
 

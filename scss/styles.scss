@@ -1591,3 +1591,79 @@ body.quarto-dark {
     padding: 0.12em 0.35em;
   }
 }
+
+/* ============================================
+   Callouts
+   Bootstrap's blue callouts clash with the brand, so they are redrawn as
+   the site's own card: white surface, hairline border, a brand-coloured
+   left rule and a small uppercase label in place of the icon. Quarto's
+   icons are baked-in SVGs with a fixed fill, so they are hidden; the
+   collapse chevron is redrawn as a mask so it can take the accent colour.
+   ============================================ */
+
+.callout {
+  --dml-callout-accent: #{$brand-teal-dark};
+  --dml-callout-surface: #{$white};
+  --dml-callout-border: rgba(0, 0, 0, 0.08);
+
+  margin: 1.75rem 0 !important;
+  background-color: var(--dml-callout-surface) !important;
+  border: 1px solid var(--dml-callout-border) !important;
+  border-left: 3px solid var(--dml-callout-accent) !important;
+  border-radius: 8px !important;
+  box-shadow: none !important;
+  overflow: hidden;
+
+  .callout-icon-container { display: none; }
+
+  > .callout-header {
+    background-color: transparent !important;
+    border: 0 !important;
+    padding: 0.95rem 1.2rem 0 !important;
+
+    &.collapsed { padding-bottom: 0.95rem !important; }
+  }
+
+  .callout-title-container {
+    font-size: 0.72rem;
+    font-weight: 600;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    color: var(--dml-callout-accent);
+  }
+
+  .callout-toggle::before {
+    background-image: none !important;
+    background-color: var(--dml-callout-accent);
+    -webkit-mask: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>') center / contain no-repeat;
+    mask: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>') center / contain no-repeat;
+  }
+
+  .callout-body-container {
+    padding: 0.4rem 1.2rem 1rem !important;
+    font-size: 0.95rem;
+    line-height: 1.6;
+
+    > :last-child { margin-bottom: 0; }
+  }
+
+  &:not(.callout-titled) .callout-body-container { padding-top: 1rem !important; }
+}
+
+/* Accent per callout type, drawn from the service strata. */
+.callout-tip       { --dml-callout-accent: #{$brand-support}; }
+.callout-important { --dml-callout-accent: #{$brand-transfer}; }
+.callout-warning,
+.callout-caution   { --dml-callout-accent: #{$brand-integration}; }
+
+body.quarto-dark {
+  .callout {
+    --dml-callout-accent: #9EBC83;
+    --dml-callout-surface: rgba(255, 255, 255, 0.04);
+    --dml-callout-border: rgba(255, 255, 255, 0.1);
+  }
+
+  .callout-important { --dml-callout-accent: #80BDBD; }
+  .callout-warning,
+  .callout-caution   { --dml-callout-accent: #D4A373; }
+}
