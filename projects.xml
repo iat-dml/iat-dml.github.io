@@ -10,7 +10,74 @@
 <atom:link href="https://iat-dml.github.io/projects.xml" rel="self" type="application/rss+xml"/>
 <description>This is the website of the Data and Modelling Infrastructure for Living Labs Working group (SWG) of the Innovation Center for Agricultural System Transformation (IAT) as part of the Leibniz Centre for Agricultural Landscape Research (ZALF).</description>
 <generator>quarto-1.10.18</generator>
-<lastBuildDate>Tue, 15 Sep 2026 00:00:00 GMT</lastBuildDate>
+<lastBuildDate>Tue, 22 Sep 2026 00:00:00 GMT</lastBuildDate>
+<item>
+  <title>BirdNET-Passage</title>
+  <link>https://iat-dml.github.io/projects/birdnet-passage.html</link>
+  <description><![CDATA[ 
+
+
+
+
+
+<div class="callout callout-style-default callout-note callout-titled" title="Coming soon">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Note</span>Coming soon
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>The BirdNET-Passage codebase is being prepared for its first versioned release, which we expect very soon. Until then, the code is not yet publicly accessible. If you are interested in using it, please <a href="mailto:iat-dml@zalf.de">get in touch</a> and we will let you know when it is available.</p>
+</div>
+</div>
+<p>BirdNET-Passage is research software, developed by the DML group for <a href="https://www.zalf.de/de/ueber_uns/mitarbeiter/Seiten/perennes_m.aspx">Marie Perennes</a>, that runs, <a href="https://github.com/birdnet-team/BirdNET-Analyzer">BirdNET-Analyzer</a>, an AI model that identifies bird species from their calls and songs, over very large collections of audio recordings. The aim of BirdNET-Passage is not just to make sure that thousands of files can be processed quickly, but also robustly in the sense that it records the status of each file, handles errors gracefully and allow for recovery and resumption.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="../assets/birdnet-passage-flow.svg" class="lightbox" data-gallery="quarto-lightbox-gallery-1" title="How BirdNET-Passage processes a batch of recordings"><img src="https://iat-dml.github.io/assets/birdnet-passage-flow.svg" class="img-fluid quarto-figure quarto-figure-center figure-img" alt="Thousands of sensor recordings are fanned out across four parallel BirdNET workers and merged into a single detections table. A processing record notes the outcome of every file: classified, retried after a transient read error, or quarantined as unreadable. A stopped run resumes from the record rather than from the start."></a></p>
+</figure>
+</div>
+<figcaption>How BirdNET-Passage processes a batch of recordings</figcaption>
+</figure>
+</div>
+<section id="the-challenge" class="level2">
+<h2 class="anchored" data-anchor-id="the-challenge">The challenge</h2>
+<p>Acoustic sensors are a simple way to monitor birds across a landscape. Placed at several field sites, they record around the clock and produce several terabytes of short audio files every month. Each of these files needs to be classified before the data can say anything about which species are present, where and when.</p>
+<p>Until now, the recordings were processed in batches through the BirdNET desktop application. This works, but it runs one batch at a time, and a single collection could take one to two weeks to finish. If a run stopped partway through, it was hard to tell which files were already done and which were not.</p>
+</section>
+<section id="what-dml-contributed" class="level2">
+<h2 class="anchored" data-anchor-id="what-dml-contributed">What DML contributed</h2>
+<p>We built BirdNET-Passage as an R-first pipeline, so that it fits the tools the group already uses. A single configuration file describes the run, and one command processes the whole collection. The software:</p>
+<ul>
+<li><strong>Runs in parallel.</strong> The collection is split into shards, and each shard is classified by its own BirdNET process at the same time.</li>
+<li><strong>Keeps a processing record.</strong> Every file ends in one recorded state: classified, retried after a temporary read error, or set aside as unreadable.</li>
+<li><strong>Resumes where it stopped.</strong> If a run is interrupted, it continues from the record instead of starting again, and it does not spend time on files that are already done.</li>
+<li><strong>Allows controlled reruns.</strong> Selected files can be processed again on purpose, for example with new settings, without touching the rest.</li>
+<li><strong>Merges the results.</strong> Detections from all shards are combined into one table for the whole run.</li>
+</ul>
+</section>
+<section id="status" class="level2">
+<h2 class="anchored" data-anchor-id="status">Status</h2>
+<p>The desktop pipeline is implemented and tested. We are now bringing up support for the ZALF high-performance computing (HPC) cluster, so that large collections can be spread across many more processors than a single computer offers.</p>
+<p>Alongside the processing, we are also discussing with the group how the raw recordings can be archived for the long term. We will share more on both once the first release is out.</p>
+<p>If your group works with acoustic monitoring data, or faces a similar problem of running a model over many files, please <a href="mailto:iat-dml@zalf.de">let us know</a>.</p>
+
+
+</section>
+
+ ]]></description>
+  <category>research software</category>
+  <category>collaboration</category>
+  <category>reproducibility</category>
+  <category>WIP</category>
+  <guid>https://iat-dml.github.io/projects/birdnet-passage.html</guid>
+  <pubDate>Tue, 22 Sep 2026 00:00:00 GMT</pubDate>
+  <media:content url="https://iat-dml.github.io/assets/birdnet-passage-flow.svg" medium="image" type="image/svg+xml"/>
+</item>
 <item>
   <title>Living Lab Workshop Maps</title>
   <link>https://iat-dml.github.io/projects/living-labs-base-maps.html</link>

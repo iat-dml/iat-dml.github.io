@@ -1,5 +1,13 @@
 [
   {
+    "listing": "/team.html",
+    "items": [
+      "/team/Ben.html",
+      "/team/DS.html",
+      "/team/RSE.html"
+    ]
+  },
+  {
     "listing": "/news.html",
     "items": [
       "/news/2026-03-fairagro-summit.html"
@@ -9,6 +17,7 @@
     "listing": "/index.html",
     "items": [
       "/news/2026-03-fairagro-summit.html",
+      "/projects/birdnet-passage.html",
       "/projects/living-labs-base-maps.html",
       "/projects/quarto-workshop.html",
       "/projects/living-lab-dashboards.html",
@@ -20,20 +29,13 @@
   {
     "listing": "/projects.html",
     "items": [
+      "/projects/birdnet-passage.html",
       "/projects/living-labs-base-maps.html",
       "/projects/quarto-workshop.html",
       "/projects/living-lab-dashboards.html",
       "/projects/policy-lab-guide.html",
       "/projects/monkshilllabs.html",
       "/projects/zalf-iat-templates.html"
-    ]
-  },
-  {
-    "listing": "/team.html",
-    "items": [
-      "/team/Ben.html",
-      "/team/DS.html",
-      "/team/RSE.html"
     ]
   }
 ]

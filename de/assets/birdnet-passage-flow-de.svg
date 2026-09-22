@@ -1,0 +1,193 @@
+<svg xmlns="http://www.w3.org/2000/svg" class="flow-birdnet" viewBox="0 0 960 600" width="960" height="600" role="img"
+     aria-label="Tausende Sensoraufnahmen werden auf vier parallele BirdNET-Prozesse verteilt und zu einer einzigen Tabelle mit Detektionen zusammengeführt. Ein Verarbeitungsprotokoll hält das Ergebnis jeder Datei fest - klassifiziert, nach einem vorübergehenden Lesefehler wiederholt oder als unlesbar in Quarantäne -, sodass ein gestoppter Lauf am Protokoll wieder ansetzt statt von vorn zu beginnen.">
+  <style>
+  .flow-birdnet { font-family: "DM Sans", "Segoe UI", system-ui, "Helvetica Neue", Arial, sans-serif; }
+  .bp-card { fill: #FFFFFF; stroke: rgba(70, 85, 85, 0.14); stroke-width: 1; }
+  .bp-card-hub { fill: #FFFFFF; stroke: rgba(45, 106, 79, 0.55); stroke-width: 1.5; }
+  .bp-flow { fill: none; stroke: #2D6A4F; stroke-width: 2.2; stroke-linecap: round; }
+  .bp-arrow-head { fill: #2D6A4F; }
+  .bp-title     { font-size: 22px; font-weight: 500; fill: #465555; }
+  .bp-title-hub { font-size: 22px; font-weight: 700; fill: #2D6A4F; }
+  .bp-out-title { font-size: 24px; font-weight: 700; fill: #465555; }
+  .bp-sub       { font-size: 15px; fill: #7A817E; }
+  .bp-status    { font-size: 16px; font-weight: 600; fill: #465555; }
+  .bp-rule      { fill: rgba(70, 85, 85, 0.14); }
+  .bp-ico, .bp-ico-ok { fill: none; stroke: #465555; stroke-width: 1.5; stroke-linecap: round; stroke-linejoin: round; }
+  .bp-ico-ok { stroke: #2D6A4F; }
+  .bp-lane { fill: rgba(45, 106, 79, 0.055); }
+  .bp-glyph-hub { fill: #2D6A4F; stroke: none; }
+  .bp-bird { fill: #2D6A4F; }
+</style>
+<defs>
+    <linearGradient id="bp-paper" x1="0" y1="0" x2="0.62" y2="1">
+      <stop offset="0"    stop-color="#FBFAF7"/>
+      <stop offset="0.58" stop-color="#F5F3EE"/>
+      <stop offset="1"    stop-color="#EBE6DC"/>
+    </linearGradient>
+    <marker id="bp-arrow" viewBox="0 0 10 10" refX="9" refY="5"
+            markerWidth="5.5" markerHeight="5.5" orient="auto-start-reverse">
+      <path class="bp-arrow-head" d="M0,0 L10,5 L0,10 Z"/>
+    </marker>
+    <filter id="bp-lift" x="-20%" y="-20%" width="140%" height="170%">
+      <feDropShadow dx="0" dy="4" stdDeviation="7" flood-color="#1A1A1A" flood-opacity="0.07"/>
+    </filter>
+    <filter id="bp-lift-hub" x="-20%" y="-20%" width="140%" height="170%">
+      <feDropShadow dx="0" dy="6" stdDeviation="10" flood-color="#2D6A4F" flood-opacity="0.16"/>
+    </filter>
+    <symbol id="bp-ic-file" viewBox="0 0 24 24">
+      <path d="M6 2.75h7.5l4.5 4.5v14a1 1 0 0 1-1 1H6a1 1 0 0 1-1-1V3.75a1 1 0 0 1 1-1z"/>
+      <path d="M13.2 2.9V7.6h4.6"/>
+    </symbol>
+    <symbol id="bp-ic-passage" viewBox="0 0 24 24">
+      <rect x="10.2" y="0.5" width="3.6" height="8" rx="1.8"/>
+      <rect x="10.2" y="15.5" width="3.6" height="8" rx="1.8"/>
+      <path d="M12,0 L-12,-8 L-5,0 L-12,8 Z" transform="translate(12 12) scale(0.56)"/>
+    </symbol>
+    <symbol id="bp-ic-table" viewBox="0 0 24 24">
+      <rect x="2.75" y="3.75" width="18.5" height="16.5" rx="2.25"/>
+      <path d="M2.75 9h18.5"/>
+      <path d="M9 9v11.25"/>
+    </symbol>
+    <symbol id="bp-ic-clipboard" viewBox="0 0 24 24">
+      <path d="M9.4 4h-2.4a1.6 1.6 0 0 0-1.6 1.6v14a1.6 1.6 0 0 0 1.6 1.6h10a1.6 1.6 0 0 0 1.6-1.6v-14a1.6 1.6 0 0 0-1.6-1.6h-2.4"/>
+      <rect x="9.4" y="2.4" width="5.2" height="3.4" rx="1.2"/>
+      <path d="M8.9 13.2l2.6 2.6 4.6-5.1"/>
+    </symbol>
+    <symbol id="bp-ic-ok" viewBox="0 0 24 24">
+      <circle cx="12" cy="12" r="9"/>
+      <path d="M8 12.4l2.8 2.8 5.4-5.8"/>
+    </symbol>
+    <symbol id="bp-ic-retry" viewBox="0 0 24 24">
+      <path d="M20.4 12a8.4 8.4 0 1 1-2.46-5.94"/>
+      <path d="M20.4 3.2V7.4h-4.2"/>
+    </symbol>
+    <symbol id="bp-ic-flag" viewBox="0 0 24 24">
+      <path d="M6.4 21.4V3.4"/>
+      <path d="M6.4 4.6h11.4l-2.3 4.3 2.3 4.3H6.4"/>
+    </symbol>
+  </defs>
+
+  <rect width="960" height="600" fill="url(#bp-paper)"/>
+  <svg x="804" y="20" width="130" height="129" viewBox="0 0 175.19 174.22">
+  <g transform="translate(21.59,0.00) scale(1.100000)">
+    <path d="M12,0 L-12,-8 L-5,0 L-12,8 Z" transform="translate(20,20) rotate(30) scale(0.74)" fill="#458484"/>
+    <path d="M12,0 L-12,-8 L-5,0 L-12,8 Z" transform="translate(26,52) rotate(8) scale(0.8)" fill="#458484"/>
+    <path d="M12,0 L-12,-8 L-5,0 L-12,8 Z" transform="translate(30,84) rotate(-22) scale(0.74)" fill="#458484"/>
+    <path d="M12,0 L-12,-8 L-5,0 L-12,8 Z" transform="translate(8,36) rotate(22) scale(0.54)" fill="#458484" opacity="0.55"/>
+    <path d="M12,0 L-12,-8 L-5,0 L-12,8 Z" transform="translate(10,68) rotate(-8) scale(0.58)" fill="#458484" opacity="0.55"/>
+    <path d="M12,0 L-12,-8 L-5,0 L-12,8 Z" transform="translate(14,100) rotate(-30) scale(0.54)" fill="#458484" opacity="0.55"/>
+    <rect x="54" y="6" width="8" height="40" rx="4" fill="#C18F59"/>
+    <rect x="54" y="74" width="8" height="40" rx="4" fill="#C18F59"/>
+    <path d="M12,0 L-12,-8 L-5,0 L-12,8 Z" transform="translate(60,60) scale(0.82)" fill="#356259"/>
+    <path d="M12,0 L-12,-8 L-5,0 L-12,8 Z" transform="translate(84,30) scale(0.62)" fill="#356259"/>
+    <path d="M12,0 L-12,-8 L-5,0 L-12,8 Z" transform="translate(84,60) scale(0.62)" fill="#356259"/>
+    <path d="M12,0 L-12,-8 L-5,0 L-12,8 Z" transform="translate(84,90) scale(0.62)" fill="#356259"/>
+    <path d="M12,0 L-12,-8 L-5,0 L-12,8 Z" transform="translate(104,30) scale(0.62)" fill="#356259"/>
+    <path d="M12,0 L-12,-8 L-5,0 L-12,8 Z" transform="translate(104,60) scale(0.62)" fill="#356259"/>
+    <path d="M12,0 L-12,-8 L-5,0 L-12,8 Z" transform="translate(104,90) scale(0.62)" fill="#356259"/>
+  </g>
+  <g transform="translate(0.00,0)">
+    <path d="M1.63 167.40V152.00H7.04Q8.67 152.00 9.74 152.52Q10.81 153.03 11.33 153.93Q11.86 154.82 11.86 155.92Q11.86 157.10 11.34 157.90Q10.83 158.69 10.00 159.11Q9.18 159.52 8.25 159.61L8.56 159.39Q9.55 159.41 10.39 159.92Q11.22 160.43 11.72 161.28Q12.21 162.14 12.21 163.20Q12.21 164.36 11.64 165.32Q11.07 166.28 9.96 166.84Q8.85 167.40 7.22 167.40ZM3.48 165.86H7.02Q8.58 165.86 9.45 165.12Q10.32 164.39 10.32 163.07Q10.32 161.77 9.43 160.99Q8.54 160.21 6.98 160.21H3.48ZM3.48 158.73H6.91Q8.41 158.73 9.19 158.03Q9.97 157.32 9.97 156.11Q9.97 154.95 9.19 154.24Q8.41 153.54 6.85 153.54H3.48Z M14.52 167.40V156.45H16.37V167.40ZM15.45 154.05Q14.90 154.05 14.53 153.68Q14.17 153.32 14.17 152.77Q14.17 152.22 14.53 151.88Q14.90 151.54 15.45 151.54Q15.97 151.54 16.35 151.88Q16.72 152.22 16.72 152.77Q16.72 153.32 16.35 153.68Q15.97 154.05 15.45 154.05Z M19.14 167.40V156.45H20.81L20.97 158.57Q21.32 157.82 21.90 157.29Q22.47 156.76 23.27 156.48Q24.07 156.19 25.09 156.19V158.13H24.55Q23.83 158.13 23.18 158.31Q22.53 158.50 22.04 158.92Q21.54 159.33 21.27 160.06Q20.99 160.78 20.99 161.86V167.40Z M31.65 167.66Q30.03 167.66 28.81 166.91Q27.59 166.16 26.92 164.86Q26.25 163.56 26.25 161.91Q26.25 160.25 26.92 158.96Q27.59 157.67 28.82 156.93Q30.05 156.19 31.67 156.19Q33.02 156.19 34.06 156.74Q35.10 157.29 35.65 158.28V151.56H37.50V167.40H35.83L35.65 165.59Q35.30 166.12 34.75 166.60Q34.20 167.07 33.43 167.37Q32.66 167.66 31.65 167.66ZM31.85 166.06Q32.95 166.06 33.80 165.54Q34.64 165.02 35.11 164.09Q35.58 163.17 35.58 161.93Q35.58 160.69 35.11 159.76Q34.64 158.83 33.80 158.32Q32.95 157.80 31.85 157.80Q30.78 157.80 29.93 158.32Q29.09 158.83 28.61 159.76Q28.14 160.69 28.14 161.93Q28.14 163.17 28.61 164.09Q29.09 165.02 29.93 165.54Q30.78 166.06 31.85 166.06Z M40.22 167.40V152.00H42.07L50.27 164.34V152.00H52.12V167.40H50.27L42.07 155.06V167.40Z M54.94 167.40V152.00H64.46V153.52H56.79V158.89H63.80V160.38H56.79V165.88H64.46V167.40Z M70.51 167.40V153.52H65.91V152.00H76.96V153.52H72.36V167.40Z M78.76 161.77V160.21H87.47V161.77Z" fill="#7A817E"/>
+    <path d="M90.56 167.40V152.00H96.35Q98.21 152.00 99.44 152.63Q100.66 153.26 101.26 154.33Q101.86 155.41 101.86 156.78Q101.86 158.05 101.28 159.13Q100.70 160.21 99.48 160.87Q98.26 161.53 96.35 161.53H93.53V167.40ZM93.53 159.13H96.16Q97.58 159.13 98.21 158.49Q98.83 157.85 98.83 156.78Q98.83 155.67 98.21 155.04Q97.58 154.42 96.16 154.42H93.53Z M107.29 167.66Q105.90 167.66 105.00 167.22Q104.09 166.78 103.65 166.02Q103.21 165.27 103.21 164.36Q103.21 163.36 103.73 162.59Q104.25 161.83 105.30 161.40Q106.36 160.96 107.95 160.96H110.70Q110.70 160.16 110.47 159.64Q110.25 159.13 109.78 158.86Q109.31 158.60 108.57 158.60Q107.72 158.60 107.12 158.98Q106.51 159.35 106.37 160.11H103.49Q103.61 158.91 104.29 158.04Q104.97 157.16 106.09 156.68Q107.20 156.19 108.58 156.19Q110.14 156.19 111.28 156.71Q112.43 157.24 113.05 158.23Q113.67 159.22 113.67 160.66V167.40H111.16L110.83 165.71Q110.60 166.14 110.27 166.49Q109.93 166.85 109.49 167.11Q109.06 167.38 108.51 167.52Q107.96 167.66 107.29 167.66ZM108.00 165.37Q108.58 165.37 109.04 165.16Q109.49 164.96 109.81 164.60Q110.14 164.24 110.33 163.78Q110.51 163.31 110.58 162.79V162.78H108.29Q107.61 162.78 107.18 162.95Q106.75 163.12 106.55 163.42Q106.34 163.72 106.34 164.11Q106.34 164.52 106.55 164.80Q106.75 165.08 107.13 165.22Q107.50 165.37 108.00 165.37Z M120.46 167.66Q118.99 167.66 117.88 167.18Q116.76 166.70 116.10 165.85Q115.44 165.01 115.33 163.92H118.29Q118.39 164.33 118.67 164.66Q118.94 165.00 119.39 165.20Q119.83 165.39 120.42 165.39Q121.01 165.39 121.39 165.23Q121.76 165.06 121.94 164.79Q122.12 164.52 122.12 164.23Q122.12 163.77 121.85 163.54Q121.59 163.30 121.07 163.15Q120.56 162.99 119.85 162.83Q119.13 162.66 118.38 162.44Q117.64 162.22 117.03 161.88Q116.42 161.53 116.05 160.99Q115.68 160.46 115.68 159.65Q115.68 158.68 116.21 157.89Q116.74 157.10 117.75 156.65Q118.75 156.19 120.15 156.19Q122.13 156.19 123.31 157.09Q124.48 158.00 124.68 159.58H121.89Q121.78 159.06 121.32 158.77Q120.87 158.48 120.14 158.48Q119.37 158.48 118.97 158.76Q118.56 159.04 118.56 159.47Q118.56 159.77 118.84 160.01Q119.13 160.24 119.64 160.40Q120.15 160.56 120.84 160.73Q122.04 161.00 123.00 161.32Q123.95 161.65 124.53 162.27Q125.10 162.88 125.10 164.06Q125.12 165.10 124.55 165.91Q123.98 166.73 122.94 167.20Q121.90 167.66 120.46 167.66Z M131.66 167.66Q130.19 167.66 129.07 167.18Q127.96 166.70 127.30 165.85Q126.64 165.01 126.52 163.92H129.49Q129.59 164.33 129.87 164.66Q130.14 165.00 130.59 165.20Q131.03 165.39 131.61 165.39Q132.21 165.39 132.59 165.23Q132.96 165.06 133.14 164.79Q133.32 164.52 133.32 164.23Q133.32 163.77 133.05 163.54Q132.78 163.30 132.27 163.15Q131.76 162.99 131.05 162.83Q130.33 162.66 129.58 162.44Q128.84 162.22 128.23 161.88Q127.62 161.53 127.25 160.99Q126.88 160.46 126.88 159.65Q126.88 158.68 127.41 157.89Q127.94 157.10 128.94 156.65Q129.95 156.19 131.35 156.19Q133.33 156.19 134.50 157.09Q135.68 158.00 135.88 159.58H133.09Q132.97 159.06 132.52 158.77Q132.07 158.48 131.34 158.48Q130.57 158.48 130.16 158.76Q129.76 159.04 129.76 159.47Q129.76 159.77 130.04 160.01Q130.32 160.24 130.84 160.40Q131.35 160.56 132.03 160.73Q133.24 161.00 134.20 161.32Q135.15 161.65 135.72 162.27Q136.30 162.88 136.29 164.06Q136.31 165.10 135.75 165.91Q135.18 166.73 134.14 167.20Q133.10 167.66 131.66 167.66Z M142.07 167.66Q140.68 167.66 139.78 167.22Q138.87 166.78 138.43 166.02Q137.99 165.27 137.99 164.36Q137.99 163.36 138.51 162.59Q139.03 161.83 140.08 161.40Q141.14 160.96 142.73 160.96H145.48Q145.48 160.16 145.25 159.64Q145.03 159.13 144.56 158.86Q144.09 158.60 143.35 158.60Q142.51 158.60 141.90 158.98Q141.29 159.35 141.16 160.11H138.27Q138.39 158.91 139.07 158.04Q139.75 157.16 140.87 156.68Q141.99 156.19 143.36 156.19Q144.93 156.19 146.07 156.71Q147.21 157.24 147.83 158.23Q148.45 159.22 148.45 160.66V167.40H145.95L145.62 165.71Q145.39 166.14 145.05 166.49Q144.71 166.85 144.28 167.11Q143.84 167.38 143.29 167.52Q142.74 167.66 142.07 167.66ZM142.78 165.37Q143.37 165.37 143.82 165.16Q144.27 164.96 144.59 164.60Q144.92 164.24 145.11 163.78Q145.30 163.31 145.36 162.79V162.78H143.07Q142.40 162.78 141.96 162.95Q141.53 163.12 141.33 163.42Q141.13 163.72 141.13 164.11Q141.13 164.52 141.33 164.80Q141.54 165.08 141.91 165.22Q142.28 165.37 142.78 165.37Z M155.46 172.50Q153.89 172.50 152.72 172.12Q151.54 171.73 150.89 170.95Q150.25 170.18 150.25 169.02Q150.25 168.26 150.65 167.59Q151.04 166.91 151.80 166.35Q152.57 165.79 153.69 165.39L154.79 166.86Q153.80 167.19 153.36 167.69Q152.92 168.18 152.92 168.73Q152.92 169.24 153.26 169.58Q153.60 169.92 154.18 170.09Q154.75 170.26 155.46 170.26Q156.14 170.26 156.66 170.09Q157.17 169.91 157.46 169.57Q157.75 169.24 157.75 168.78Q157.75 168.19 157.34 167.82Q156.92 167.45 155.70 167.36Q154.58 167.27 153.72 167.11Q152.85 166.94 152.20 166.71Q151.55 166.48 151.10 166.20Q150.64 165.92 150.36 165.63V165.13L152.71 162.58L154.80 163.26L152.07 166.00L152.92 164.55Q153.15 164.70 153.38 164.82Q153.62 164.94 153.97 165.03Q154.31 165.12 154.87 165.21Q155.42 165.29 156.28 165.36Q157.73 165.49 158.66 165.90Q159.59 166.32 160.03 167.02Q160.47 167.72 160.47 168.71Q160.47 169.69 159.93 170.55Q159.39 171.42 158.29 171.96Q157.18 172.50 155.46 172.50ZM155.48 164.17Q154.09 164.17 153.09 163.63Q152.09 163.09 151.55 162.19Q151.02 161.29 151.02 160.18Q151.02 159.07 151.55 158.17Q152.09 157.27 153.09 156.73Q154.09 156.19 155.48 156.19Q156.87 156.19 157.87 156.73Q158.87 157.27 159.40 158.17Q159.93 159.07 159.93 160.18Q159.93 161.29 159.40 162.19Q158.87 163.09 157.87 163.63Q156.87 164.17 155.48 164.17ZM155.48 161.90Q156.31 161.90 156.85 161.46Q157.38 161.02 157.38 160.19Q157.38 159.37 156.85 158.93Q156.31 158.49 155.48 158.49Q154.64 158.49 154.10 158.93Q153.56 159.37 153.56 160.19Q153.56 161.02 154.10 161.46Q154.63 161.90 155.48 161.90ZM157.27 158.55 156.79 156.45H161.36V158.21Z M168.72 167.66Q167.05 167.66 165.76 166.95Q164.48 166.24 163.75 164.97Q163.03 163.70 163.03 162.03Q163.03 160.31 163.74 159.00Q164.45 157.69 165.74 156.94Q167.02 156.19 168.73 156.19Q170.37 156.19 171.60 156.90Q172.84 157.61 173.54 158.83Q174.24 160.05 174.24 161.60Q174.24 161.82 174.23 162.09Q174.22 162.36 174.19 162.65H165.15V160.84H171.23Q171.16 159.82 170.47 159.20Q169.77 158.59 168.74 158.59Q167.97 158.59 167.33 158.93Q166.70 159.28 166.32 159.96Q165.95 160.64 165.95 161.69V162.33Q165.95 163.22 166.30 163.87Q166.65 164.53 167.28 164.88Q167.90 165.24 168.70 165.24Q169.51 165.24 170.06 164.88Q170.61 164.52 170.89 163.95H173.92Q173.61 164.99 172.88 165.84Q172.15 166.68 171.09 167.17Q170.03 167.66 168.72 167.66Z" fill="#356259"/>
+  </g>
+</svg>
+  <g class="bp-flow">
+    <path d="M 218 166 C 246 166, 254 96, 282 96" marker-end="url(#bp-arrow)"/>
+    <path d="M 218 166 C 246 166, 254 132, 282 132" marker-end="url(#bp-arrow)"/>
+    <path d="M 218 166 C 246 166, 254 168, 282 168" marker-end="url(#bp-arrow)"/>
+    <path d="M 218 166 C 246 166, 254 204, 282 204" marker-end="url(#bp-arrow)"/>
+    <path d="M 578 96 C 598 96, 594 234, 612 234"/>
+    <path d="M 578 132 C 598 132, 594 234, 612 234"/>
+    <path d="M 578 168 C 598 168, 594 234, 612 234"/>
+    <path d="M 578 204 C 598 204, 594 234, 612 234"/>
+    <path d="M 606 234 H 640" marker-end="url(#bp-arrow)"/>
+    <path d="M 430 306 V 326" marker-end="url(#bp-arrow)"/>
+  </g>
+  <rect class="bp-card" x="26" y="60" width="188" height="240" rx="8" filter="url(#bp-lift)"/>
+  <use class="bp-ico" href="#bp-ic-file" x="67" y="96" width="26" height="26"/>
+  <use class="bp-ico" href="#bp-ic-file" x="107" y="96" width="26" height="26"/>
+  <use class="bp-ico" href="#bp-ic-file" x="147" y="96" width="26" height="26"/>
+  <use class="bp-ico" href="#bp-ic-file" x="67" y="134" width="26" height="26"/>
+  <use class="bp-ico" href="#bp-ic-file" x="107" y="134" width="26" height="26"/>
+  <use class="bp-ico" href="#bp-ic-file" x="147" y="134" width="26" height="26"/>
+  <use class="bp-ico" href="#bp-ic-file" x="67" y="172" width="26" height="26" opacity="0.78"/>
+  <use class="bp-ico" href="#bp-ic-file" x="107" y="172" width="26" height="26" opacity="0.78"/>
+  <use class="bp-ico" href="#bp-ic-file" x="147" y="172" width="26" height="26" opacity="0.78"/>
+  <use class="bp-ico" href="#bp-ic-file" x="67" y="210" width="26" height="26" opacity="0.5"/>
+  <use class="bp-ico" href="#bp-ic-file" x="107" y="210" width="26" height="26" opacity="0.5"/>
+  <use class="bp-ico" href="#bp-ic-file" x="147" y="210" width="26" height="26" opacity="0.5"/>
+  <text class="bp-title" x="120" y="266" text-anchor="middle">Aufnahmen</text>
+  <text class="bp-sub"   x="120" y="288" text-anchor="middle">Tausende Dateien</text>
+  <rect class="bp-card-hub" x="266" y="60" width="328" height="240" rx="8" filter="url(#bp-lift-hub)"/>
+  <g>
+    <g>
+      <rect class="bp-lane" x="286" y="84" width="288" height="24" rx="12"/>
+      <path class="bp-bird" d="M12,0 L-12,-8 L-5,0 L-12,8 Z" transform="translate(294 96) scale(0.42)" opacity="0.45"/>
+      <use class="bp-glyph-hub" href="#bp-ic-passage" x="304" y="84" width="24" height="24"/>
+      <path class="bp-bird" d="M12,0 L-12,-8 L-5,0 L-12,8 Z" transform="translate(348 96) scale(0.5)"/>
+      <path class="bp-bird" d="M12,0 L-12,-8 L-5,0 L-12,8 Z" transform="translate(386 96) scale(0.5)" opacity="0.6"/>
+      <path class="bp-bird" d="M12,0 L-12,-8 L-5,0 L-12,8 Z" transform="translate(424 96) scale(0.5)"/>
+      <path class="bp-bird" d="M12,0 L-12,-8 L-5,0 L-12,8 Z" transform="translate(462 96) scale(0.5)" opacity="0.75"/>
+      <path class="bp-bird" d="M12,0 L-12,-8 L-5,0 L-12,8 Z" transform="translate(500 96) scale(0.5)"/>
+      <path class="bp-bird" d="M12,0 L-12,-8 L-5,0 L-12,8 Z" transform="translate(538 96) scale(0.5)" opacity="0.55"/>
+    </g>
+    <g>
+      <rect class="bp-lane" x="286" y="120" width="288" height="24" rx="12"/>
+      <path class="bp-bird" d="M12,0 L-12,-8 L-5,0 L-12,8 Z" transform="translate(294 132) scale(0.42)" opacity="0.45"/>
+      <use class="bp-glyph-hub" href="#bp-ic-passage" x="304" y="120" width="24" height="24"/>
+      <path class="bp-bird" d="M12,0 L-12,-8 L-5,0 L-12,8 Z" transform="translate(352 132) scale(0.5)" opacity="0.75"/>
+      <path class="bp-bird" d="M12,0 L-12,-8 L-5,0 L-12,8 Z" transform="translate(392 132) scale(0.5)"/>
+      <path class="bp-bird" d="M12,0 L-12,-8 L-5,0 L-12,8 Z" transform="translate(436 132) scale(0.5)" opacity="0.55"/>
+      <path class="bp-bird" d="M12,0 L-12,-8 L-5,0 L-12,8 Z" transform="translate(480 132) scale(0.5)"/>
+      <path class="bp-bird" d="M12,0 L-12,-8 L-5,0 L-12,8 Z" transform="translate(524 132) scale(0.5)" opacity="0.8"/>
+    </g>
+    <g>
+      <rect class="bp-lane" x="286" y="156" width="288" height="24" rx="12"/>
+      <path class="bp-bird" d="M12,0 L-12,-8 L-5,0 L-12,8 Z" transform="translate(294 168) scale(0.42)" opacity="0.45"/>
+      <use class="bp-glyph-hub" href="#bp-ic-passage" x="304" y="156" width="24" height="24"/>
+      <path class="bp-bird" d="M12,0 L-12,-8 L-5,0 L-12,8 Z" transform="translate(346 168) scale(0.5)"/>
+      <path class="bp-bird" d="M12,0 L-12,-8 L-5,0 L-12,8 Z" transform="translate(382 168) scale(0.5)" opacity="0.55"/>
+      <path class="bp-bird" d="M12,0 L-12,-8 L-5,0 L-12,8 Z" transform="translate(418 168) scale(0.5)" opacity="0.9"/>
+      <path class="bp-bird" d="M12,0 L-12,-8 L-5,0 L-12,8 Z" transform="translate(454 168) scale(0.5)"/>
+      <path class="bp-bird" d="M12,0 L-12,-8 L-5,0 L-12,8 Z" transform="translate(490 168) scale(0.5)" opacity="0.6"/>
+      <path class="bp-bird" d="M12,0 L-12,-8 L-5,0 L-12,8 Z" transform="translate(526 168) scale(0.5)"/>
+      <path class="bp-bird" d="M12,0 L-12,-8 L-5,0 L-12,8 Z" transform="translate(558 168) scale(0.5)" opacity="0.7"/>
+    </g>
+    <g>
+      <rect class="bp-lane" x="286" y="192" width="288" height="24" rx="12"/>
+      <path class="bp-bird" d="M12,0 L-12,-8 L-5,0 L-12,8 Z" transform="translate(294 204) scale(0.42)" opacity="0.45"/>
+      <use class="bp-glyph-hub" href="#bp-ic-passage" x="304" y="192" width="24" height="24"/>
+      <path class="bp-bird" d="M12,0 L-12,-8 L-5,0 L-12,8 Z" transform="translate(356 204) scale(0.5)" opacity="0.6"/>
+      <path class="bp-bird" d="M12,0 L-12,-8 L-5,0 L-12,8 Z" transform="translate(398 204) scale(0.5)"/>
+      <path class="bp-bird" d="M12,0 L-12,-8 L-5,0 L-12,8 Z" transform="translate(444 204) scale(0.5)" opacity="0.75"/>
+      <path class="bp-bird" d="M12,0 L-12,-8 L-5,0 L-12,8 Z" transform="translate(490 204) scale(0.5)"/>
+      <path class="bp-bird" d="M12,0 L-12,-8 L-5,0 L-12,8 Z" transform="translate(534 204) scale(0.5)" opacity="0.55"/>
+    </g>
+  </g>
+  <text class="bp-title-hub" x="430" y="266" text-anchor="middle">Parallele Prozesse</text>
+  <text class="bp-sub"       x="430" y="288" text-anchor="middle">Ein BirdNET-Prozess je Teilpaket</text>
+  <rect class="bp-card" x="646" y="168" width="288" height="132" rx="8" filter="url(#bp-lift)"/>
+  <use class="bp-ico" href="#bp-ic-table" x="775" y="192" width="30" height="30"/>
+  <text class="bp-title" x="790" y="254" text-anchor="middle">Detektionen</text>
+  <text class="bp-sub"   x="790" y="276" text-anchor="middle">Aus allen Teilpaketen vereint</text>
+  <rect class="bp-card" x="26" y="332" width="908" height="232" rx="8" filter="url(#bp-lift)"/>
+  <use class="bp-ico" href="#bp-ic-clipboard" x="54" y="352" width="34" height="34"/>
+  <text class="bp-out-title" x="104" y="372">Verarbeitungsprotokoll</text>
+  <text class="bp-sub"       x="104" y="396">Jede Datei endet in einem festen Zustand, ein gestoppter Lauf setzt dort wieder an</text>
+  <rect class="bp-rule" x="54" y="416" width="852" height="1"/>
+  <g>
+    <use class="bp-ico-ok" href="#bp-ic-ok" x="58" y="435" width="22" height="22"/>
+    <text class="bp-status" x="94" y="452">klassifiziert</text>
+    <text class="bp-sub"    x="252" y="452">Detektionen in die Ausgabe des Laufs geschrieben</text>
+  </g>
+  <g>
+    <use class="bp-ico" href="#bp-ic-retry" x="58" y="477" width="22" height="22"/>
+    <text class="bp-status" x="94" y="494">wiederholt</text>
+    <text class="bp-sub"    x="252" y="494">vorübergehender Lesefehler, danach klassifiziert</text>
+  </g>
+  <g>
+    <use class="bp-ico" href="#bp-ic-flag" x="58" y="519" width="22" height="22"/>
+    <text class="bp-status" x="94" y="536">in Quarantäne</text>
+    <text class="bp-sub"    x="252" y="536">unlesbare Datei, protokolliert und gemeldet</text>
+  </g>
+</svg>

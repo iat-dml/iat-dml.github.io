@@ -10,7 +10,74 @@
 <atom:link href="https://iat-dml.github.io/de/projects.xml" rel="self" type="application/rss+xml"/>
 <description>„Dies ist die Website der Arbeitsgruppe „Daten- und Modellierungsinfrastruktur für Living Labs“ (SWG) des Innovationszentrums für Agrarsystemtransformation (IAT) als Teil des Leibniz-Zentrums für Agrarlandschaftsforschung (ZALF).“</description>
 <generator>quarto-1.10.18</generator>
-<lastBuildDate>Tue, 15 Sep 2026 00:00:00 GMT</lastBuildDate>
+<lastBuildDate>Tue, 22 Sep 2026 00:00:00 GMT</lastBuildDate>
+<item>
+  <title>BirdNET-Passage</title>
+  <link>https://iat-dml.github.io/de/projects/birdnet-passage.html</link>
+  <description><![CDATA[ 
+
+
+
+
+
+<div class="callout callout-style-default callout-note callout-titled" title="Bald verfügbar">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Hinweis</span>Bald verfügbar
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>Der Code von BirdNET-Passage wird derzeit für die erste versionierte Veröffentlichung vorbereitet, die wir in Kürze erwarten. Bis dahin ist der Code noch nicht öffentlich zugänglich. Wenn Sie Interesse an der Nutzung haben, <a href="mailto:iat-dml@zalf.de">melden Sie sich gern bei uns</a>. Wir geben Ihnen Bescheid, sobald er verfügbar ist.</p>
+</div>
+</div>
+<p>BirdNET-Passage ist eine Forschungssoftware, die die DML-Gruppe für <a href="https://www.zalf.de/de/ueber_uns/mitarbeiter/Seiten/perennes_m.aspx">Marie Perennes</a> entwickelt. Sie wendet <a href="https://github.com/birdnet-team/BirdNET-Analyzer">BirdNET-Analyzer</a>, ein KI-Modell, das Vogelarten anhand ihrer Rufe und Gesänge erkennt, auf sehr große Sammlungen von Audioaufnahmen an. Ziel von BirdNET-Passage ist nicht nur, dass Tausende Dateien schnell verarbeitet werden, sondern auch robust: Die Software hält den Zustand jeder Datei fest, geht kontrolliert mit Fehlern um und ermöglicht es, einen unterbrochenen Lauf wiederherzustellen und fortzusetzen.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="../assets/birdnet-passage-flow-de.svg" class="lightbox" data-gallery="quarto-lightbox-gallery-1" title="So verarbeitet BirdNET-Passage einen Stapel von Aufnahmen"><img src="https://iat-dml.github.io/de/assets/birdnet-passage-flow-de.svg" class="img-fluid quarto-figure quarto-figure-center figure-img" alt="Tausende Sensoraufnahmen werden auf vier parallele BirdNET-Prozesse verteilt und zu einer einzigen Tabelle mit Detektionen zusammengeführt. Ein Verarbeitungsprotokoll hält das Ergebnis jeder Datei fest: klassifiziert, nach einem vorübergehenden Lesefehler wiederholt oder als unlesbar in Quarantäne. Ein gestoppter Lauf setzt am Protokoll wieder an, statt von vorn zu beginnen."></a></p>
+</figure>
+</div>
+<figcaption>So verarbeitet BirdNET-Passage einen Stapel von Aufnahmen</figcaption>
+</figure>
+</div>
+<section id="die-herausforderung" class="level2">
+<h2 class="anchored" data-anchor-id="die-herausforderung">Die Herausforderung</h2>
+<p>Akustische Sensoren sind ein einfacher Weg, Vögel in einer Landschaft zu erfassen. An mehreren Untersuchungsstandorten aufgestellt, nehmen sie rund um die Uhr auf und erzeugen jeden Monat mehrere Terabyte kurzer Audiodateien. Jede dieser Dateien muss klassifiziert werden, bevor die Daten etwas darüber aussagen, welche Arten wann und wo vorkommen.</p>
+<p>Bisher wurden die Aufnahmen stapelweise mit der BirdNET-Desktopanwendung verarbeitet. Das funktioniert, läuft aber immer nur einen Stapel nach dem anderen ab, und eine einzelne Sammlung konnte ein bis zwei Wochen dauern. Brach ein Lauf mittendrin ab, ließ sich nur schwer feststellen, welche Dateien bereits verarbeitet waren und welche nicht.</p>
+</section>
+<section id="was-dml-beigetragen-hat" class="level2">
+<h2 class="anchored" data-anchor-id="was-dml-beigetragen-hat">Was DML beigetragen hat</h2>
+<p>Wir haben BirdNET-Passage als R-basierte Pipeline entwickelt, damit sie zu den Werkzeugen passt, die die Gruppe bereits nutzt. Eine einzige Konfigurationsdatei beschreibt den Lauf, und ein einziger Befehl verarbeitet die gesamte Sammlung. Die Software:</p>
+<ul>
+<li><strong>Arbeitet parallel.</strong> Die Sammlung wird in Teilpakete aufgeteilt, und jedes Teilpaket wird gleichzeitig von einem eigenen BirdNET-Prozess klassifiziert.</li>
+<li><strong>Führt ein Verarbeitungsprotokoll.</strong> Jede Datei endet in einem festgehaltenen Zustand: klassifiziert, nach einem vorübergehenden Lesefehler wiederholt oder als unlesbar zurückgestellt.</li>
+<li><strong>Setzt dort wieder an, wo sie aufgehört hat.</strong> Wird ein Lauf unterbrochen, geht es anhand des Protokolls weiter, statt von vorn zu beginnen. Bereits verarbeitete Dateien kosten keine Zeit mehr.</li>
+<li><strong>Ermöglicht gezielte Wiederholungen.</strong> Ausgewählte Dateien können bewusst erneut verarbeitet werden, zum Beispiel mit neuen Einstellungen, ohne den Rest zu berühren.</li>
+<li><strong>Führt die Ergebnisse zusammen.</strong> Die Detektionen aus allen Teilpaketen werden zu einer Tabelle für den gesamten Lauf vereint.</li>
+</ul>
+</section>
+<section id="stand" class="level2">
+<h2 class="anchored" data-anchor-id="stand">Stand</h2>
+<p>Die Pipeline für den Desktop-Rechner ist umgesetzt und getestet. Derzeit richten wir die Unterstützung für den Hochleistungsrechner-Cluster (HPC) des ZALF ein, damit große Sammlungen auf deutlich mehr Prozessoren verteilt werden können, als ein einzelner Computer bietet.</p>
+<p>Neben der Verarbeitung besprechen wir mit der Gruppe auch, wie die Rohaufnahmen langfristig archiviert werden können. Zu beidem berichten wir mehr, sobald die erste Version veröffentlicht ist.</p>
+<p>Wenn Ihre Gruppe mit akustischen Monitoringdaten arbeitet oder vor einer ähnlichen Aufgabe steht, ein Modell auf sehr viele Dateien anzuwenden, <a href="mailto:iat-dml@zalf.de">sagen Sie uns gern Bescheid</a>.</p>
+
+
+</section>
+
+ ]]></description>
+  <category>research software</category>
+  <category>collaboration</category>
+  <category>reproducibility</category>
+  <category>WIP</category>
+  <guid>https://iat-dml.github.io/de/projects/birdnet-passage.html</guid>
+  <pubDate>Tue, 22 Sep 2026 00:00:00 GMT</pubDate>
+  <media:content url="https://iat-dml.github.io/de/assets/birdnet-passage-flow-de.svg" medium="image" type="image/svg+xml"/>
+</item>
 <item>
   <title>Workshop-Karten für die Living Labs</title>
   <link>https://iat-dml.github.io/de/projects/living-labs-base-maps.html</link>
