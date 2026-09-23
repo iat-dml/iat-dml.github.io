@@ -69,6 +69,25 @@ export function createStage(svgEl, { model }) {
     .attr('width', T.STAGE.w).attr('height', T.STAGE.h)
     .attr('fill', T.paper());
 
+  // The closing slide's ground: the IAT hero gradient, painted over the paper
+  // rather than instead of it, so the scene arrives by fading the dark ground
+  // UP while the word cloud shrinks away. A fill cannot tween from a colour to
+  // a url(), which is why this is a second rect and not a swapped attribute.
+  svg.append('defs').append('linearGradient')
+    .attr('id', 'iat-hero')
+    .attr('x1', '0').attr('y1', '0').attr('x2', '1').attr('y2', '0')
+    .selectAll('stop')
+    .data(T.iatHero().map((c, i) => ({ c, o: i / 2 })))
+    .join('stop')
+    .attr('offset', d => d.o)
+    .attr('stop-color', d => d.c);
+
+  L.ground.append('rect').attr('class', 'hero-ground')
+    .attr('x', 0).attr('y', 0)
+    .attr('width', T.STAGE.w).attr('height', T.STAGE.h)
+    .attr('fill', 'url(#iat-hero)')
+    .attr('opacity', 0);
+
   // ===========================================================================
   // multi-lab dots are PIES, not rings
   // ===========================================================================
@@ -255,7 +274,8 @@ export function createStage(svgEl, { model }) {
       // slots rather than at their labs.
       people: view !== 'invite' && view !== 'map'
         && view !== 'matrix' && view !== 'swarm' && view !== 'spine'
-        && view !== 'part' && view !== 'mon' && view !== 'cloud',
+        && view !== 'part' && view !== 'mon' && view !== 'cloud'
+        && view !== 'thanks',
       themes: view === 'themes',
       stake: view === 'stake',
       uc: view === 'uc',
@@ -269,10 +289,15 @@ export function createStage(svgEl, { model }) {
       // Scene 7 draws no people at all: the answers were coded by hand, so
       // there is no dot to carry over, and every dot leaves.
       cloud: view === 'cloud',
+      // The closing slide. Nothing but the dark ground and one sentence: every
+      // other layer is empty by exclusion, the way scene 7 empties the dots.
+      thanks: view === 'thanks',
     };
 
     drawLegend();
     L.ground.select('rect').attr('fill', T.paper());
+    anim(L.ground.select('rect.hero-ground'))
+      .attr('opacity', show.thanks ? 1 : 0);
 
     // ---- map layers -------------------------------------------------------
     const mapVisible = view === 'map' || view === 'people' || view === 'themes';
@@ -776,6 +801,7 @@ export function createStage(svgEl, { model }) {
     // the words away.
     drawWordCloud(show, morph);
     if (show.cloud) drawWordCloudCaption();
+    if (show.thanks) drawThanks(morph);
 
     renderedView = view;
   }
@@ -1349,7 +1375,7 @@ export function createStage(svgEl, { model }) {
     // picture claiming a position they no longer have.
     if (view !== 'invite' && view !== 'matrix' && view !== 'swarm'
         && view !== 'spine' && view !== 'part' && view !== 'mon'
-        && view !== 'cloud') {
+        && view !== 'cloud' && view !== 'thanks') {
       for (const l of model.labs) {
         const p = labPt(l.id);
         // Scene 1 a small anchor; scene 2 sized by cohort with the count inside;
@@ -2247,6 +2273,45 @@ export function createStage(svgEl, { model }) {
         : 'Free-text answers, coded into five dimensions · size = number of responses');
   }
 
+  // The closing slide, in the IAT corporate design the statusseminar deck
+  // closes on (talks/iat-statusseminar-2026, section.closing-slide under
+  // html[data-theme="iat"]): the hero gradient, and one centred sentence in
+  // Segoe UI semibold on white. The mark, the QR code, the contact pills and
+  // the affiliation line are deliberately left off -- this slide is a full
+  // stop, not a call to action.
+  //
+  // Sized from the original: 1.8em of a 32 px root on a 1280-wide slide is
+  // 57.6 px, which is 86.4 units on this 1920-wide stage. The break is hand
+  // set, the way every other header in this deck is, so it cannot rewrap in
+  // front of the room.
+  const THANKS_LINES = ['Thank you for your attention',
+                        'and we welcome any questions'];
+
+  function drawThanks(morph) {
+    const size = 86.4;
+    const gap = size * 1.15;              // the closing slide's line-height
+    const cap = size * 0.72;
+    const n = THANKS_LINES.length;
+    const top = T.STAGE.h / 2 - ((n - 1) * gap + cap) / 2;
+
+    const t = L.chrome.append('text')
+      .attr('text-anchor', 'middle')
+      .attr('font-size', size)
+      .attr('font-weight', 600)
+      .attr('letter-spacing', -0.005 * size)
+      .attr('fill', T.paperRaised())
+      .attr('opacity', morph ? 0 : 1);
+    THANKS_LINES.forEach((ln, i) => t.append('tspan')
+      .attr('x', T.STAGE.w / 2)
+      .attr('y', Math.round(top + cap + i * gap))
+      .text(ln));
+    // After the outgoing scene has cleared, like every other arriving mark.
+    if (morph) {
+      t.transition().delay(params.stageDelayMs).duration(params.morphMs)
+        .attr('opacity', 1);
+    }
+  }
+
   // Scene 5.2's callout: in each lab, the activity with the most researchers
   // on BOTH sides -- experienced ("like me") and not yet -- i.e. the largest
   // min(solid, hollow). That is where the most people could be paired up to
@@ -2482,7 +2547,7 @@ export function createStage(svgEl, { model }) {
     // Scene 7 borrows the lab hues for its five dimensions, so a lab key
     // there would assert a meaning the colours no longer carry.
     if (view === 'invite' || view === 'map' || view === 'matrix'
-        || view === 'part' || view === 'cloud') return null;
+        || view === 'part' || view === 'cloud' || view === 'thanks') return null;
     const foot = { x: 960, y: LEGEND_FOOT_Y, anchor: 'middle' };
     if (view === 'people') {
       const rows = layout.stateRows ?? [];
