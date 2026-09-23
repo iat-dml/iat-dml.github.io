@@ -1,0 +1,372 @@
+/* ============================================================
+   Backup slides: how the IAT data documents fit together.
+
+   Copied from iat-data-policy/communication/document-linkages-slides
+   (css/linkages.css), with every rule scoped to section.lk so it cannot
+   reach the talk's own slides -- the unscoped original restyles .card
+   (the team slide), section.divider and anything carrying data-at.
+   Only the backup slides at the end of index.html carry .lk. Motion
+   hangs off the classes js/steps.js toggles.
+   ============================================================ */
+
+.reveal section.lk {
+  /* One colour per document, used for its node, chip and icon everywhere. */
+  --c-rv:   #465555;  /* Rahmenvereinbarung */
+  --c-dr:   #326158;  /* IAT-Datenrichtlinie */
+  --c-jca:  #3E7777;  /* Joint Controllership Agreement */
+  --c-tom:  #906436;  /* IAT TOM */
+  --c-hr:   #357A3C;  /* Handreichung */
+
+  --c-lead:    #C18F59;
+  --c-block:   #B5473A;
+  --c-personal:#C18F59;
+  --c-line:    rgba(70, 85, 85, 0.28);
+  --c-soft:    #F3F5F4;
+  --c-muted:   #6C7372;
+  --ink:       #1F2A2A;
+}
+
+/* -- Slide frame ------------------------------------------ */
+
+.reveal .slides section.lk.body { padding: 26px 40px 0; box-sizing: border-box; height: 720px; }
+
+.reveal section.lk .hd { margin: 0 0 14px; }
+.reveal section.lk .hd .eyebrow { margin: 0 0 6px; font-size: 15px; }
+.reveal section.lk .hd h2 { margin: 0; font-size: 38px; line-height: 1.12; color: var(--iat-deep, #326158); }
+.reveal section.lk .hd .lede { margin: 8px 0 0; font-size: 19px; line-height: 1.4; color: var(--c-muted); max-width: 60em; }
+
+.reveal section.lk svg.dg { display: block; width: 1200px; height: auto; overflow: visible; font-family: var(--font-body); }
+
+/* Divider slides are top-aligned like the rest, so they carry their own offset. */
+.reveal .slides section.lk.divider { padding: 190px 90px 0; box-sizing: border-box; height: 720px; }
+.reveal section.lk.divider .divider-icon { width: 64px; height: 64px; color: rgba(255,255,255,0.85); margin-bottom: 18px; }
+.reveal section.lk.divider h1 { font-size: 60px; line-height: 1.1; max-width: 17em; }
+.reveal section.lk.divider .divider-lede { max-width: 34em; font-size: 24px; }
+
+/* -- Icons ------------------------------------------------ */
+
+.reveal section.lk use.i,
+.reveal section.lk svg.ico {
+  fill: none;
+  stroke: currentColor;
+  stroke-width: 2;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+}
+.reveal section.lk svg.ico { width: 1em; height: 1em; vertical-align: -0.14em; flex: none; }
+
+/* -- SVG type and shapes ---------------------------------- */
+
+.dg text { fill: var(--ink); }
+.dg .t-h    { font-size: 21px; font-weight: 600; }
+.dg .t-hs   { font-size: 18px; font-weight: 600; }
+.dg .t-b    { font-size: 15.5px; }
+.dg .t-s    { font-size: 13.5px; fill: var(--c-muted); }
+.dg .t-xs   { font-size: 12px; fill: var(--c-muted); letter-spacing: 0.02em; }
+.dg .t-cap  { font-size: 12px; font-weight: 700; letter-spacing: 0.14em; text-transform: uppercase; fill: var(--c-muted); }
+.dg .t-w    { fill: #fff; }
+.dg .t-mid  { text-anchor: middle; }
+.dg .t-end  { text-anchor: end; }
+
+.dg .box      { fill: #fff; stroke: var(--c-line); stroke-width: 1.5; }
+.dg .box-soft { fill: var(--c-soft); stroke: none; }
+.dg .zone     { fill: none; stroke: var(--c-line); stroke-width: 2; stroke-dasharray: 2 7; stroke-linecap: round; }
+.dg .rule     { stroke: var(--c-line); stroke-width: 1.5; fill: none; }
+
+/* A document node: set --c on the group. */
+.dg .doc .box      { stroke: var(--c); stroke-width: 2; }
+.dg .doc .band     { fill: var(--c); }
+.dg .doc .i        { color: var(--c); }
+.dg .doc .t-h      { fill: var(--c); }
+.dg .doc-rv  { --c: var(--c-rv); }
+.dg .doc-dr  { --c: var(--c-dr); }
+.dg .doc-jca { --c: var(--c-jca); }
+.dg .doc-tom { --c: var(--c-tom); }
+.dg .doc-hr  { --c: var(--c-hr); }
+
+.dg .ln        { fill: none; stroke: #5B6868; stroke-width: 2; }
+.dg .ln-dash   { fill: none; stroke: #5B6868; stroke-width: 2; stroke-dasharray: 6 6; }
+.dg .ah        { fill: #5B6868; }
+.dg .ln-block  { fill: none; stroke: var(--c-block); stroke-width: 2.5; stroke-dasharray: 6 6; }
+.dg .blocked   { color: var(--c-block); }
+.dg .fill-block{ fill: var(--c-block); }
+
+/* Data in motion: marching dashes plus a travelling packet. */
+.dg .flow {
+  fill: none;
+  stroke: var(--c-dr);
+  stroke-width: 3;
+  stroke-dasharray: 8 8;
+  stroke-linecap: round;
+  animation: lk-flow-march 0.9s linear infinite;
+}
+.dg .flow.personal { stroke: var(--c-personal); }
+.dg .packet { fill: var(--c-dr); }
+.dg .packet.personal { fill: var(--c-personal); }
+@keyframes lk-flow-march { to { stroke-dashoffset: -16; } }
+
+/* -- Step motion ------------------------------------------ */
+/* Everything with data-at starts hidden; js/steps.js adds .is-on.
+   --d staggers siblings that arrive on the same step. */
+
+.lk [data-at] {
+  opacity: 0;
+  transition: opacity 0.45s ease var(--d, 0s), transform 0.6s cubic-bezier(0.2, 0.7, 0.2, 1) var(--d, 0s);
+}
+.lk [data-at].is-on { opacity: 1; }
+
+.lk svg [data-at] { transform-box: fill-box; transform-origin: center; }
+.lk .rise[data-at]          { transform: translateY(16px); }
+.lk .rise[data-at].is-on    { transform: none; }
+.lk .pop[data-at]           { transform: scale(0.85); }
+.lk .pop[data-at].is-on     { transform: none; }
+.lk .grow-up[data-at]       { transform: scaleY(0); transform-origin: bottom; }
+.lk .grow-up[data-at].is-on { transform: none; }
+.lk .from-left[data-at]       { transform: translateX(-24px); }
+.lk .from-left[data-at].is-on { transform: none; }
+
+/* A line that draws itself: pathLength="1" on the path. The arrowhead
+   is a separate element in the same group and arrives as the line lands. */
+.lk .draw[data-at] { opacity: 1; }
+.lk .draw[data-at] .ln,
+.lk .draw[data-at] .ln-dash-draw {
+  stroke-dasharray: 1 1;
+  stroke-dashoffset: 1;
+  transition: stroke-dashoffset 0.8s ease var(--d, 0s);
+}
+.lk .draw[data-at].is-on .ln,
+.lk .draw[data-at].is-on .ln-dash-draw { stroke-dashoffset: 0; }
+.lk .draw[data-at] .ah,
+.lk .draw[data-at] .after { opacity: 0; transition: opacity 0.3s ease calc(var(--d, 0s) + 0.6s); }
+.lk .draw[data-at].is-on .ah,
+.lk .draw[data-at].is-on .after { opacity: 1; }
+
+.lk .is-dim { opacity: 0.28 !important; transition: opacity 0.45s ease; }
+.lk [data-dim-after] { transition: opacity 0.45s ease; }
+
+.lk .is-focus .box, .is-focus.box { stroke-width: 3; }
+
+/* A soft pulse for "you are here" style markers. */
+.lk .pulse { animation: lk-pulse 1.8s ease-out infinite; transform-box: fill-box; transform-origin: center; }
+@keyframes lk-pulse {
+  0%   { transform: scale(0.6); opacity: 0.7; }
+  100% { transform: scale(1.9); opacity: 0; }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .lk [data-at], .lk .draw[data-at] .ln { transition: none !important; }
+  .flow, .pulse { animation: none; }
+}
+
+/* -- Document chips (HTML) -------------------------------- */
+
+.reveal section.lk .chip {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  padding: 2px 10px 2px 8px;
+  border-radius: 999px;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 1.5;
+  color: #fff;
+  background: var(--c);
+  white-space: nowrap;
+  vertical-align: 0.1em;
+}
+.reveal section.lk .chip.rv  { --c: var(--c-rv); }
+.reveal section.lk .chip.dr  { --c: var(--c-dr); }
+.reveal section.lk .chip.jca { --c: var(--c-jca); }
+.reveal section.lk .chip.tom { --c: var(--c-tom); }
+.reveal section.lk .chip.hr  { --c: var(--c-hr); }
+.reveal section.lk .chip.ghost { background: transparent; color: var(--c); box-shadow: inset 0 0 0 1.5px var(--c); }
+
+/* -- Captions under a scenario diagram -------------------- */
+/* One line per step, stacked in the same box and swapped by data-at /
+   data-until, so the diagram carries the picture and the caption the
+   sentence the presenter would otherwise have to say. */
+
+.reveal section.lk .captions { position: relative; height: 70px; margin-top: 8px; }
+.reveal section.lk .captions p {
+  position: absolute;
+  inset: 0;
+  margin: 0;
+  padding: 12px 18px;
+  font-size: 19px;
+  line-height: 1.4;
+  background: var(--c-soft);
+  border-left: 4px solid var(--iat-deep, #326158);
+  border-radius: 0 8px 8px 0;
+  color: var(--ink);
+}
+.reveal section.lk .captions p .num {
+  display: inline-grid; place-items: center;
+  width: 26px; height: 26px; margin-right: 10px;
+  border-radius: 50%;
+  background: var(--iat-deep, #326158); color: #fff;
+  font-size: 14px; font-weight: 700; vertical-align: 2px;
+}
+
+/* -- Cards ------------------------------------------------ */
+
+.reveal section.lk .cards { display: grid; grid-template-columns: repeat(4, 1fr); gap: 18px; margin-top: 10px; }
+.reveal section.lk .card {
+  --c: var(--c-dr);
+  border-radius: 14px;
+  background: #fff;
+  box-shadow: inset 0 0 0 1.5px rgba(70,85,85,0.18);
+  overflow: hidden;
+  display: flex; flex-direction: column;
+  min-height: 486px;
+}
+.reveal section.lk .card.rv  { --c: var(--c-rv); }
+.reveal section.lk .card.dr  { --c: var(--c-dr); }
+.reveal section.lk .card.jca { --c: var(--c-jca); }
+.reveal section.lk .card.tom { --c: var(--c-tom); }
+.reveal section.lk .card.hr  { --c: var(--c-hr); }
+.reveal section.lk .card .card-top { background: var(--c); color: #fff; padding: 16px 18px 14px; }
+.reveal section.lk .card .card-top .ico { width: 30px; height: 30px; }
+.reveal section.lk .card .card-name { font-size: 20px; font-weight: 600; margin-top: 6px; line-height: 1.2; }
+.reveal section.lk .card .card-kind { font-size: 13px; opacity: 0.85; letter-spacing: 0.04em; }
+.reveal section.lk .card .card-q { padding: 14px 18px 4px; font-size: 21px; font-weight: 600; line-height: 1.25; color: var(--c); }
+.reveal section.lk .card ul { margin: 6px 18px 14px 36px; padding: 0; font-size: 15.5px; line-height: 1.4; }
+.reveal section.lk .card li + li { margin-top: 6px; }
+.reveal section.lk .card .card-foot {
+  margin-top: auto; padding: 10px 18px; font-size: 13.5px; line-height: 1.35;
+  background: var(--c-soft); color: var(--c-muted);
+}
+.reveal section.lk .card .card-foot b { color: var(--ink); font-weight: 600; }
+
+/* -- JCA entry sheet -------------------------------------- */
+
+.reveal section.lk .entry-wrap { display: grid; grid-template-columns: 1fr 330px; gap: 22px; }
+.reveal section.lk .entry {
+  border-radius: 14px; overflow: hidden;
+  box-shadow: inset 0 0 0 2px var(--c-jca);
+  background: #fff;
+}
+.reveal section.lk .entry-head {
+  display: flex; align-items: center; gap: 12px;
+  background: var(--c-jca); color: #fff; padding: 10px 18px;
+  font-size: 19px; font-weight: 600;
+}
+.reveal section.lk .entry-head .ico { width: 24px; height: 24px; }
+.reveal section.lk .entry-head .tag {
+  margin-left: auto; font-size: 12px; font-weight: 700; letter-spacing: 0.1em; text-transform: uppercase;
+  padding: 3px 9px; border-radius: 999px; background: rgba(255,255,255,0.18);
+}
+.reveal section.lk .entry-grid { display: grid; grid-template-columns: 1fr 1fr; }
+.reveal section.lk .entry-group { padding: 16px 20px 18px; border-top: 1px solid rgba(70,85,85,0.12); }
+.reveal section.lk .entry-group:nth-child(odd) { border-right: 1px solid rgba(70,85,85,0.12); }
+.reveal section.lk .entry-group h4 {
+  display: flex; align-items: center; gap: 8px;
+  margin: 0 0 6px; font-size: 13px; font-weight: 700; letter-spacing: 0.12em; text-transform: uppercase;
+  color: var(--c-jca);
+}
+.reveal section.lk .entry-group dl { margin: 0; font-size: 16.5px; line-height: 1.38; }
+.reveal section.lk .entry-group dt { font-weight: 600; color: var(--ink); margin-top: 5px; }
+.reveal section.lk .entry-group dd { margin: 0; color: #3b4747; }
+.reveal section.lk .tbd { color: var(--c-tom); font-weight: 600; }
+
+.reveal section.lk .side {
+  border-radius: 14px; background: var(--c-soft); padding: 16px 18px; font-size: 16px; line-height: 1.4;
+}
+.reveal section.lk .side h4 { margin: 0 0 8px; font-size: 13px; font-weight: 700; letter-spacing: 0.12em; text-transform: uppercase; color: var(--c-muted); }
+.reveal section.lk .side .row { display: grid; grid-template-columns: 26px 1fr; gap: 8px; margin-top: 9px; }
+.reveal section.lk .side .row .ico { width: 22px; height: 22px; color: var(--c-jca); margin-top: 1px; }
+.reveal section.lk .validate {
+  margin-top: 12px; border-radius: 12px; padding: 10px 14px; font-size: 14.5px; line-height: 1.35;
+  box-shadow: inset 0 0 0 2px var(--c-tom); color: #4a3a28; background: #fbf6f0;
+}
+.reveal section.lk .validate b { color: var(--c-tom); }
+
+/* -- Research journey columns ----------------------------- */
+
+.reveal section.lk .journey { display: grid; grid-template-columns: repeat(5, 1fr); gap: 14px; margin-top: 4px; }
+.reveal section.lk .journey .stop { font-size: 14.5px; line-height: 1.36; }
+.reveal section.lk .journey .stop h4 { margin: 0 0 6px; font-size: 18px; font-weight: 600; color: var(--iat-deep, #326158); }
+.reveal section.lk .journey .stop ul { margin: 0 0 8px 16px; padding: 0; }
+.reveal section.lk .journey .stop li + li { margin-top: 4px; }
+.reveal section.lk .journey .stop .chips { display: flex; flex-wrap: wrap; gap: 5px; }
+.reveal section.lk .journey .stop .chip { font-size: 12.5px; }
+
+/* -- Consequence list ------------------------------------- */
+
+.reveal section.lk .conseq { list-style: none; margin: 0; padding: 0; }
+.reveal section.lk .conseq li {
+  display: grid; grid-template-columns: 44px 1fr; gap: 14px; align-items: start;
+  margin: 0 0 14px; font-size: 18px; line-height: 1.38;
+}
+.reveal section.lk .conseq li .bullet {
+  width: 44px; height: 44px; border-radius: 12px; display: grid; place-items: center;
+  background: var(--c-soft); color: var(--iat-deep, #326158);
+}
+.reveal section.lk .conseq li .bullet .ico { width: 24px; height: 24px; }
+.reveal section.lk .conseq li b { color: var(--ink); font-weight: 600; }
+.reveal section.lk .conseq li.caveat .bullet { background: #fbf6f0; color: var(--c-tom); }
+
+/* -- Comparison table ------------------------------------- */
+
+.reveal section.lk .cmp { display: grid; grid-template-columns: 250px 1fr 1fr; font-size: 18px; line-height: 1.36; }
+.reveal section.lk .cmp > div { padding: 14px 14px; border-bottom: 1px solid rgba(70,85,85,0.14); }
+.reveal section.lk .cmp .h { font-size: 13px; font-weight: 700; letter-spacing: 0.12em; text-transform: uppercase; color: var(--c-muted); border-bottom: 2px solid var(--iat-deep, #326158); display: flex; align-items: center; gap: 8px; }
+.reveal section.lk .cmp .h .ico { width: 20px; height: 20px; color: var(--iat-deep, #326158); }
+.reveal section.lk .cmp .docname { display: flex; align-items: center; }
+.reveal section.lk .cmp .none { color: var(--c-jca); font-weight: 600; }
+
+/* -- Question columns ------------------------------------- */
+
+.reveal section.lk .qcols { display: grid; grid-template-columns: 1fr 1fr; gap: 26px; }
+.reveal section.lk .qcol { border-radius: 14px; background: var(--c-soft); padding: 16px 22px 8px; }
+.reveal section.lk .qcol h3 { display: flex; align-items: center; gap: 10px; margin: 0 0 4px; font-size: 22px; color: var(--iat-deep, #326158); }
+.reveal section.lk .qcol h3 .ico { width: 26px; height: 26px; }
+.reveal section.lk .qcol .who { font-size: 14px; color: var(--c-muted); margin: 0 0 8px; }
+.reveal section.lk .qcol ol { margin: 0 0 8px 22px; font-size: 17px; line-height: 1.38; }
+.reveal section.lk .qcol li + li { margin-top: 8px; }
+.reveal section.lk .qcol li .chip { font-size: 12px; }
+
+/* -- Closing ---------------------------------------------- */
+
+.reveal .slides section.lk.closing { padding: 190px 90px 0; box-sizing: border-box; height: 720px; text-align: left; }
+.reveal section.lk.closing h1 { font-size: 58px; margin: 0 0 18px; }
+.reveal section.lk.closing p { font-size: 24px; color: rgba(255,255,255,0.9); max-width: 34em; }
+.reveal section.lk.closing .contact { display: flex; gap: 14px; margin-top: 30px; }
+.reveal section.lk.closing .pill {
+  display: inline-flex; align-items: center; gap: 10px; padding: 10px 20px; border-radius: 999px;
+  font-size: 20px; font-weight: 600; color: #fff; box-shadow: inset 0 0 0 2px rgba(255,255,255,0.7); text-decoration: none;
+}
+.reveal section.lk.closing .pill.is-filled { background: #fff; color: var(--iat-deep, #326158); box-shadow: none; }
+.reveal section.lk.closing .closing-logo { position: absolute; right: 90px; top: 190px; width: 170px; }
+
+/* -- Print ------------------------------------------------ */
+
+@media print {
+  .dg .flow { animation: none; }
+  .lk .pulse { display: none; }
+}
+
+/* -- SVG chips and half-width diagrams --------------------- */
+
+.dg .svgchip rect { fill: var(--c); }
+.dg .svgchip text { fill: #fff; font-size: 12.5px; font-weight: 600; }
+.dg .svgchip.rv  { --c: var(--c-rv); }
+.dg .svgchip.dr  { --c: var(--c-dr); }
+.dg .svgchip.jca { --c: var(--c-jca); }
+.dg .svgchip.tom { --c: var(--c-tom); }
+.dg .svgchip.hr  { --c: var(--c-hr); }
+.dg .svgchip.lead { --c: #906436; }
+
+.reveal section.lk svg.dg.dg-half { width: 470px; }
+.reveal section.lk .split { display: grid; grid-template-columns: 470px 1fr; gap: 40px; align-items: start; }
+
+/* The researcher's position on the journey slide follows the step. */
+.dg .walker { transition: transform 0.9s cubic-bezier(0.45, 0.05, 0.2, 1); }
+section[data-step="2"] .dg .walker { transform: translateX(240px); }
+section[data-step="3"] .dg .walker { transform: translateX(480px); }
+section[data-step="4"] .dg .walker { transform: translateX(720px); }
+section[data-step="5"] .dg .walker { transform: translateX(960px); }
+
+.reveal section.lk .footnote { margin: 6px 0 0; font-size: 15px; color: var(--c-muted); }
+.reveal section.lk .notes2 { display: grid; grid-template-columns: 1fr 1fr; gap: 22px; margin-top: 6px; }
+.reveal section.lk .notes2 > div { border-radius: 12px; background: var(--c-soft); padding: 14px 18px; font-size: 17px; line-height: 1.4; display: grid; grid-template-columns: 30px 1fr; gap: 10px; }
+.reveal section.lk .notes2 .ico { width: 24px; height: 24px; color: var(--iat-deep, #326158); margin-top: 2px; }

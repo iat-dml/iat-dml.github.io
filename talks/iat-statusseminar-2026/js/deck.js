@@ -50,6 +50,9 @@ Reveal.initialize({
   DeckHandoff.init();
   DeckQuizCapture.init();
 
+  /* Step builds on the backup slides (data-steps / data-at, js/steps.js). */
+  DeckSteps.init(Reveal);
+
   /* T flips between the DML and IAT themes. A reload rather than a live
      swap: the strata diagram reads its colours and fonts once, at mount.
      The hash keeps the current slide. */
