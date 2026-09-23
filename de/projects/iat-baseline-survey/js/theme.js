@@ -35,11 +35,18 @@ export const ink        = () => raw('--ink');
 export const inkBody    = () => raw('--ink-body');
 export const inkMute    = () => raw('--ink-mute');
 export const paper      = () => raw('--paper');
+export const paperRaised = () => raw('--paper-raised');
 export const rule       = () => raw('--rule');
 
 export const mapFill      = () => raw('--map-fill');
 export const mapFillMute  = () => raw('--map-fill-mute');
 export const mapStroke    = () => raw('--map-stroke');
+
+/* The three stops of the IAT hero gradient, in left-to-right order. The
+   closing slide paints them into an SVG <linearGradient>; nothing else
+   uses them. */
+export const iatHero = () => [raw('--iat-deep'), raw('--iat-deep-mid'),
+                              raw('--iat-deep-end')];
 
 export const accent  = () => raw('--accent');
 export const emphasis = () => raw('--emphasis');

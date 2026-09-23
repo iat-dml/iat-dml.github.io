@@ -60,6 +60,18 @@
   --gain:        #36AE6C;   /* interest exceeds experience (beat 4.4)       */
   --loss:        #C18F59;   /* experience exceeds interest                  */
 
+  /* --- IAT hero ground (closing slide) ---------------------------------
+     The green-to-slate gradient the IAT corporate design puts behind its
+     title and closing slides, sampled left to right from the extension's
+     title-background-block.png -- the same three stops the statusseminar
+     deck uses for every dark slide (talks/iat-statusseminar-2026,
+     css/theme-iat.css). Unchanged in the projector variant: it is already
+     a dark ground under white text, and lightening it to "raise contrast"
+     would only wash the type out. */
+  --iat-deep:     #326158;
+  --iat-deep-mid: #35554D;
+  --iat-deep-end: #39463E;
+
   /* --- link ink (SPEC 6.5) --------------------------------------------- */
   --link:         #465555;
   --link-opacity: 0.12;     /* 0.10-0.15; overridden live in the layout lab */

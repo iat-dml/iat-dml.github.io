@@ -107,6 +107,11 @@ export const BEATS = [
   { id: '7.1', view: 'cloud', title: 'Shared data: dimensions' },
   { id: '7.2', view: 'cloud', title: 'Shared data: codes',
     opts: { cloudTerms: true } },
+
+  // The close (23 September 2026). Carries the IAT corporate design the
+  // statusseminar deck closes on, stripped to the sentence: no mark, no QR
+  // code, no links.
+  { id: '8', view: 'thanks', title: 'Thank you' },
 ];
 
 /** The full opts object the stage draws beat `i` with. */
