@@ -1250,7 +1250,9 @@ export function createStage(svgEl, { model }) {
         });
       }
     }
-    if (show.matrix) {
+    // Beat 4.5a0 is the grid and the empty cohort bubbles: the room reads the
+    // two axes and how big each lab is before it is asked to count anyone.
+    if (show.matrix && opts.matrixDots) {
       // One dot per (researcher, lab, use case) with experience. Keyed by
       // person, so these are the elements that morph in and out of the network
       // and the beeswarm rather than being redrawn.
@@ -1273,7 +1275,7 @@ export function createStage(svgEl, { model }) {
         });
       }
     }
-    if (show.part && layout.part) {
+    if (show.part && opts.partCells && layout.part) {
       // Solid = "Like me" / "Very much like me"; hollow = "Unsure" or lower.
       // Same marks as scene 4.5, so the slide reads as its sibling.
       for (const [key, d] of Object.entries(layout.part.dots)) {
@@ -1723,7 +1725,12 @@ export function createStage(svgEl, { model }) {
     spine: 'Participation and Co-design',
     part: 'Participation and Co-design',
     mon: 'Monitoring interest',
-    cloud: 'Data to collect in every Living Lab',
+    // The survey's own question, in full, so the room reads what was asked
+    // rather than a summary of it. Hand-set on two lines: one line runs
+    // 1713 units at the head size, nearly the whole stage, and the cloud's
+    // top-right codes start only 168 units down.
+    cloud: ['Which data do you think are most important',
+            'to collect in every Living Lab?'],
   };
 
   function drawSceneHeader() {
@@ -1732,13 +1739,17 @@ export function createStage(svgEl, { model }) {
       ? 'Where we want to gain experience'
       : SCENE_HEADERS[view];
     if (!text) return;
-    L.chrome.append('text')
-      .attr('x', 1856).attr('y', 92)
+    const lines = Array.isArray(text) ? text : [text];
+    // A wrapped header drops to the body size so its second line clears the
+    // scene below; a one-line header keeps the head size it always had.
+    const size = lines.length > 1 ? T.fs.body() : T.fs.head();
+    lines.forEach((ln, i) => L.chrome.append('text')
+      .attr('x', 1856).attr('y', 92 + i * size * 1.08)
       .attr('text-anchor', 'end')
-      .attr('font-size', T.fs.head())
+      .attr('font-size', size)
       .attr('font-weight', 600)
       .attr('fill', T.ink())
-      .text(text);
+      .text(ln));
   }
 
   // --- scene 3's corner stat ----------------------------------------------------
@@ -2275,8 +2286,11 @@ export function createStage(svgEl, { model }) {
     const lh = min * 1.08;
     const lead = opts.highlight ? partLeaders().keys : new Set();
 
+    // Beat 5.2a is the empty grid: the two axes are read first, and the
+    // cohorts and their dots land on the next press. An empty join, not a
+    // skipped one, so the bubbles left over from the matrix still exit.
     L.bubbles.selectAll('circle')
-      .data(Object.entries(P.cells), d => d[0])
+      .data(opts.partCells ? Object.entries(P.cells) : [], d => d[0])
       .join('circle')
       .attr('cx', d => d[1].x).attr('cy', d => d[1].y).attr('r', d => d[1].r)
       .attr('fill', T.inkMute()).attr('fill-opacity', 0.13)
@@ -2327,12 +2341,16 @@ export function createStage(svgEl, { model }) {
         .text(`n = ${lab.n}`);
     }
 
+    // The dot key would name marks that are not on stage yet, so 5.2a says
+    // what the grid is instead.
     const below = Math.min(1062,
       (d3.max(Object.values(P.cells), c => c.y + c.r) ?? 900) + 50);
     g.append('text').attr('x', 960).attr('y', below)
       .attr('text-anchor', 'middle').attr('font-size', min)
       .attr('fill', T.inkMute())
-      .text(opts.highlight
+      .text(!opts.partCells
+        ? 'Each Living Lab against six ways of working with practitioners'
+        : opts.highlight
         ? 'Ringed: where each lab has the most researchers with AND without '
           + 'this experience, to pair up'
         : 'Solid = like me / very much like me · hollow = unsure or not like me');
@@ -2438,7 +2456,10 @@ export function createStage(svgEl, { model }) {
     g.append('text').attr('x', 960).attr('y', below)
       .attr('text-anchor', 'middle').attr('font-size', T.fs.min())
       .attr('fill', T.inkMute())
-      .text(opts.demand
+      .text(!opts.matrixDots
+        ? `Each Living Lab against six innovation fields · `
+          + `bubble = the lab's cohort`
+        : opts.demand
         ? `Solid = has experience · hollow = wants it and has none · `
           + `${short} of 30 cells want more than they have`
         : `Bubble = the lab's cohort · one dot per researcher with experience · `

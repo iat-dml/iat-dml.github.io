@@ -30,6 +30,13 @@ export const DECK_OPTS = Object.freeze({
   // Callouts (top/bottom rings, bold labels, row leaders) arrive on their own
   // press, one after the diagram (review of 16 September 2026).
   highlight: false,
+  // Scene 4.5's second press: the researcher dots land in cohort bubbles that
+  // are already on stage, so the room reads the grid and the size of each
+  // cohort before it is asked to count anything inside them.
+  matrixDots: false,
+  // Scene 5.2's second press: the cohort bubbles and their dots arrive on the
+  // empty grid, so the room reads the two axes before the picture fills in.
+  partCells: false,
   // Scene 6's second press: the research themes come in around the bubbles.
   monThemes: false,
   // Scene 7's second press: the tier-1 codes around their dimensions.
@@ -53,22 +60,39 @@ export const BEATS = [
   { id: '2', view: 'people', title: 'Participants' },
   { id: '3', view: 'themes', title: 'Research themes' },
   { id: '3+', view: 'themes', title: 'Research themes: highlights', opts: HL },
-  { id: '3.5', view: 'stake', title: 'Stakeholder groups' },
-  { id: '3.5+', view: 'stake', title: 'Stakeholder groups: highlights', opts: HL },
 
   { id: '4.2', view: 'uc', title: 'Innovation fields: experience' },
   { id: '4.2+', view: 'uc', title: 'Innovation fields: highlights', opts: HL },
 
-  { id: '4.5a', view: 'matrix', title: 'Lab × innovation field' },
-  { id: '4.5a+', view: 'matrix', title: 'Lab × innovation field: highlights', opts: HL },
-  { id: '4.5b', view: 'matrix', title: 'Unmet demand', opts: { demand: true } },
+  // Split on review (23 September 2026): the grid and the empty cohort bubbles
+  // first, then the researchers inside them. `4.5a` still lands on the full
+  // picture, so every rehearsal link written before the split still works.
+  { id: '4.5a0', view: 'matrix', title: 'Lab × innovation field: the grid' },
+  { id: '4.5a', view: 'matrix', title: 'Lab × innovation field',
+    opts: { matrixDots: true } },
+  { id: '4.5a+', view: 'matrix', title: 'Lab × innovation field: highlights',
+    opts: { matrixDots: true, ...HL } },
+  { id: '4.5b', view: 'matrix', title: 'Unmet demand',
+    opts: { matrixDots: true, demand: true } },
   { id: '4.5b+', view: 'matrix', title: 'Unmet demand: highlights',
-    opts: { demand: true, ...HL } },
+    opts: { matrixDots: true, demand: true, ...HL } },
+
+  // Moved on review (23 September 2026): who the labs work WITH now leads
+  // straight into HOW they work with them, instead of sitting back with the
+  // research themes. Both are network scenes, so the dots converge out of the
+  // matrix and straight on into the participation grid.
+  { id: '3.5', view: 'stake', title: 'Stakeholder groups' },
+  { id: '3.5+', view: 'stake', title: 'Stakeholder groups: highlights', opts: HL },
 
   // Rebuilt on review (16 September 2026): the ladder wall became a lab x
   // activity matrix mirroring 4.5. The wall is still in the lab as `spine`.
-  { id: '5.2', view: 'part', title: 'Participation and Co-design' },
-  { id: '5.2+', view: 'part', title: 'Participation: who can pair up', opts: HL },
+  // Split on review (23 September 2026): the grid and its axis labels alone
+  // first, then the cohorts and their dots.
+  { id: '5.2a', view: 'part', title: 'Participation and Co-design: the grid' },
+  { id: '5.2b', view: 'part', title: 'Participation and Co-design',
+    opts: { partCells: true } },
+  { id: '5.2+', view: 'part', title: 'Participation: who can pair up',
+    opts: { partCells: true, ...HL } },
 
   // Rebuilt on review (17 September 2026): topics as bubbles of participant
   // dots, then the themes, then the theme x topic lines.
