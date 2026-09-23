@@ -27,6 +27,7 @@
 <link rel="stylesheet" href="css/deck.css">
 <link rel="stylesheet" href="css/stage.css">
 <link rel="stylesheet" href="css/theme-iat.css">
+<link rel="stylesheet" href="css/linkages.css">
 </head>
 <body>
 <div class="reveal">
@@ -709,6 +710,409 @@
       <p class="closing-footnote">IAT · ZALF · Leibniz Association</p>
       <aside class="notes">
         TODO: notes for the closing slide.
+      </aside></section><!-- ══════════════════════════════════════════════════════
+         BACKUP · How the IAT data documents fit together
+         ══════════════════════════════════════════════════════
+         After the close on purpose: only shown if questions turn to the
+         data policy documents. Copied from
+         iat-data-policy/communication/document-linkages-slides (slides
+         2-17; its title and closing slides are left out). Every section
+         carries .lk, which scopes css/linkages.css to these slides.
+         data-steps / data-at drive the builds (js/steps.js); icons are the
+         Lucide sprite in js/icons.js. Re-copy from the source deck when the
+         drafts change rather than editing here. --><section class="divider is-dark" data-background-color="#356259" data-strata-layout="off"><p class="divider-kicker">Backup</p>
+      <h1>How the IAT data documents fit together</h1>
+      <p class="divider-lede">
+        The framework agreement, its annexes and the Handreichung, with two
+        worked examples
+      </p>
+      <aside class="notes">
+        Backup section, not part of the talk. Jump here if questions turn
+        to the IAT-Datenrichtlinie, the JCA or data protection. All texts are
+        working draft 0.1 and have not had legal review.
+      </aside></section><!-- ══ 2 · Who signs ═════════════════════════════════════ --><section class="lk body" data-steps="3"><header class="hd"><p class="eyebrow">Starting point</p>
+        <h2>The documents bind the Parties, not “the IAT”</h2>
+      </header><svg class="dg" viewbox="0 0 1200 540" role="img" aria-label="ZALF and three partner universities inside the IAT partnership"><!-- Step 1: the partnership ring --><g data-at="1"><rect class="zone" x="75" y="40" width="1050" height="252" rx="36"></rect><rect x="95" y="22" width="398" height="36" rx="18" fill="#fff"></rect><text class="t-hs" x="112" y="46" fill="#326158">IAT: a partnership, not a legal person</text></g><!-- Step 0: the four Parties --><g><rect class="box" x="115" y="86" width="220" height="120" rx="14"></rect><image href="assets/logos/zalf.png" x="130" y="104" width="190" height="84" preserveaspectratio="xMidYMid meet"></image><text class="t-s t-mid" x="225" y="232">Main organisation</text><rect class="box" x="365" y="86" width="220" height="120" rx="14"></rect><image href="assets/logos/jlu.png" x="385" y="104" width="180" height="84" preserveaspectratio="xMidYMid meet"></image><text class="t-s t-mid" x="475" y="232">Partner university</text><rect class="box" x="615" y="86" width="220" height="120" rx="14"></rect><image href="assets/logos/kassel.png" x="632" y="104" width="186" height="84" preserveaspectratio="xMidYMid meet"></image><text class="t-s t-mid" x="725" y="232">Partner university</text><rect class="box" x="865" y="86" width="220" height="120" rx="14"></rect><image href="assets/logos/geisenheim.png" x="882" y="104" width="186" height="84" preserveaspectratio="xMidYMid meet"></image><text class="t-s t-mid" x="975" y="232">Partner university</text><text class="t-cap t-mid" x="600" y="270">Parties: they sign the framework agreement and its annexes</text></g><!-- Step 2: the rule --><g data-at="2" class="rise"><rect x="75" y="318" width="1050" height="62" rx="12" fill="#EAF2EE"></rect><use href="#i-stamp" class="i" x="100" y="335" width="28" height="28" style="color:#326158"></use><text class="t-hs" x="146" y="355">Every right, obligation and controller role names a Party, or someone a Party employs.</text></g><!-- Step 3: who is not a Party --><g data-at="3" class="rise" style="--d:0s"><circle cx="104" cy="438" r="24" fill="#F3F5F4"></circle><use href="#i-sprout" class="i" x="92" y="426" width="24" height="24" style="color:#326158"></use><text class="t-hs" x="142" y="432">Practice partners</text><text class="t-s" x="142" y="454">Data subjects only. Commitments towards</text><text class="t-s" x="142" y="472">them are made by the Parties.</text></g><g data-at="3" class="rise" style="--d:0.15s"><circle cx="469" cy="438" r="24" fill="#F3F5F4"></circle><use href="#i-graduation-cap" class="i" x="457" y="426" width="24" height="24" style="color:#326158"></use><text class="t-hs" x="507" y="432">Associated universities</text><text class="t-s" x="507" y="454">Not signatories. They join later, by amending</text><text class="t-s" x="507" y="472">the framework agreement or a separate agreement.</text></g><g data-at="3" class="rise" style="--d:0.3s"><circle cx="864" cy="438" r="24" fill="#F3F5F4"></circle><use href="#i-landmark" class="i" x="852" y="426" width="24" height="24" style="color:#326158"></use><text class="t-hs" x="902" y="432">HLMF</text><text class="t-s" x="902" y="454">Ratifies the Datenrichtlinie, the JCA and</text><text class="t-s" x="902" y="472">the IAT TOM (planned for January 2027).</text></g></svg><aside class="notes">
+        The IAT is not a legal person. So a sentence like "the IAT is responsible" cannot work in these
+        documents. Every obligation lands on ZALF or a partner university.
+        Practice partners are protected by the documents but have no obligations under them.
+      </aside></section><!-- ══ 3 · Two kinds of data ═════════════════════════════ --><section class="lk body" data-steps="3"><header class="hd"><p class="eyebrow">What is regulated</p>
+        <h2>Two kinds of data, and personal data can be in either</h2>
+      </header><svg class="dg" viewbox="0 0 1200 530" role="img" aria-label="Operational data and research data, with personal data crossing both"><!-- Operational --><g><rect class="box" x="0" y="0" width="580" height="296" rx="16"></rect><circle cx="44" cy="44" r="24" fill="#326158"></circle><use href="#i-clipboard-list" class="i" x="32" y="32" width="24" height="24" style="color:#fff"></use><text class="t-h" x="82" y="40" fill="#326158">Operational data</text><text class="t-s" x="82" y="62">Processed to run the IAT</text><text class="t-b" x="24" y="102">Programme management, coordination, events, recruitment,</text><text class="t-b" x="24" y="122">communication. Defined as everything that is not research data.</text><line class="rule" x1="24" y1="142" x2="556" y2="142"></line><use href="#i-calendar-days" class="i" x="24" y="158" width="22" height="22" style="color:#465555"></use><text class="t-b" x="58" y="175">Event registrations and participant lists</text><use href="#i-landmark" class="i" x="24" y="194" width="22" height="22" style="color:#465555"></use><text class="t-b" x="58" y="211">Minutes and member lists of governance bodies</text><use href="#i-id-card" class="i" x="24" y="230" width="22" height="22" style="color:#465555"></use><text class="t-b" x="58" y="247">Applications in joint appointment procedures</text><use href="#i-contact" class="i" x="24" y="266" width="22" height="22" style="color:#465555"></use><text class="t-b" x="58" y="283">Practice-partner contact register</text></g><g data-at="1" style="--d:0.3s"><use href="#i-lock" class="i" x="540" y="158" width="20" height="20" style="color:#C18F59"></use><use href="#i-lock" class="i" x="540" y="194" width="20" height="20" style="color:#C18F59"></use><use href="#i-lock" class="i" x="540" y="230" width="20" height="20" style="color:#C18F59"></use><use href="#i-lock" class="i" x="540" y="266" width="20" height="20" style="color:#C18F59"></use><use href="#i-lock" class="i" x="1160" y="158" width="20" height="20" style="color:#C18F59"></use></g><!-- Research --><g><rect class="box" x="620" y="0" width="580" height="296" rx="16"></rect><circle cx="664" cy="44" r="24" fill="#326158"></circle><use href="#i-microscope" class="i" x="652" y="32" width="24" height="24" style="color:#fff"></use><text class="t-h" x="702" y="40" fill="#326158">Research data</text><text class="t-s" x="702" y="62">Produced directly by research</text><text class="t-b" x="644" y="102">Raw, processed and derived data, with the metadata</text><text class="t-b" x="644" y="122">that describes it and accompanying research software.</text><line class="rule" x1="644" y1="142" x2="1176" y2="142"></line><use href="#i-mic" class="i" x="644" y="158" width="22" height="22" style="color:#465555"></use><text class="t-b" x="678" y="175">Interview recordings and transcripts</text><use href="#i-sprout" class="i" x="644" y="194" width="22" height="22" style="color:#465555"></use><text class="t-b" x="678" y="211">Field measurements and monitoring data</text><use href="#i-tag" class="i" x="644" y="230" width="22" height="22" style="color:#465555"></use><text class="t-b" x="678" y="247">Metadata describing the data</text><use href="#i-layers" class="i" x="644" y="266" width="22" height="22" style="color:#465555"></use><text class="t-b" x="678" y="283">Research software</text></g><!-- Step 1: personal data crosses both --><g data-at="1" class="rise"><path class="rule" d="M290 296 V318 M910 296 V318" style="stroke:#C18F59;stroke-width:2"></path><rect x="0" y="318" width="1200" height="64" rx="12" fill="#F7EEE3"></rect><use href="#i-lock" class="i" x="22" y="336" width="28" height="28" style="color:#C18F59"></use><text class="t-hs" x="66" y="346">Personal data</text><text class="t-b" x="66" y="368">Can sit in either category. “Operational or research?” and “personal or not?” are separate questions.</text></g><!-- Step 2: special categories --><g data-at="2" class="rise"><rect x="60" y="394" width="1080" height="46" rx="10" fill="#EFDCC6"></rect><text class="t-b" x="84" y="423"><tspan font-weight="600">Special-category data (Art. 9 GDPR)</tspan>, e.g. dietary or accessibility needs at events; health or beliefs in interviews</text></g><!-- Step 3: classification rule --><g data-at="3" class="rise"><rect class="box-soft" x="0" y="458" width="1200" height="66" rx="12"></rect><use href="#i-list-checks" class="i" x="22" y="477" width="28" height="28" style="color:#326158"></use><text class="t-b" x="66" y="485"><tspan font-weight="600">Classified per data collection, not per team.</tspan> Where one collection mixes both, the stricter rule applies</text><text class="t-b" x="66" y="507">to each part: publication duties to the non-personal content, confidentiality to the personal content.</text></g></svg><aside class="notes">
+        "Sensitive data" is deliberately not used as a term: it was used for two different things in earlier material.
+        Social Ecological Monitoring is the typical mixed case: classified collection by collection.
+      </aside></section><!-- ══ 4 · The document family ═══════════════════════════ --><section class="lk body" data-steps="4"><header class="hd"><p class="eyebrow">The documents</p>
+        <h2>One framework agreement, three annexes, one living guide</h2>
+      </header><svg class="dg" viewbox="0 0 1200 540" role="img" aria-label="Document hierarchy"><!-- Step 0: Rahmenvereinbarung --><g class="doc doc-rv"><rect class="box" x="430" y="0" width="340" height="76" rx="14"></rect><circle class="band" cx="466" cy="38" r="20"></circle><use href="#i-scroll-text" class="i" x="455" y="27" width="22" height="22" style="color:#fff"></use><text class="t-h" x="498" y="34">Rahmenvereinbarung</text><text class="t-s" x="498" y="57">Framework agreement (drafted by others)</text></g><g data-at="4"><text class="t-s" x="790" y="32">Signed by ZALF and the</text><text class="t-s" x="790" y="50">partner universities</text></g><!-- Step 1: annexes --><g data-at="1" class="draw"><path class="ln" pathlength="1" d="M600 76 V104 M200 130 V104 H1000 V130 M600 104 V130"></path></g><g data-at="1"><text class="t-cap" x="210" y="96">Annexes to the framework agreement</text></g><g data-at="1" class="doc doc-jca rise" style="--d:0.2s"><rect class="box" x="40" y="130" width="320" height="160" rx="14"></rect><circle class="band" cx="70" cy="162" r="20"></circle><use href="#i-handshake" class="i" x="59" y="151" width="22" height="22" style="color:#fff"></use><text class="t-hs" x="102" y="157" fill="#3E7777">Joint Controllership</text><text class="t-hs" x="102" y="179" fill="#3E7777">Agreement (JCA)</text><text class="t-s" x="60" y="214">Who does what for the few operations</text><text class="t-s" x="60" y="233">run jointly. Prevails for those.</text></g><g data-at="1" class="doc doc-dr rise" style="--d:0.35s"><rect class="box" x="440" y="130" width="320" height="160" rx="14" style="stroke-width:3"></rect><circle class="band" cx="470" cy="162" r="20"></circle><use href="#i-book-open" class="i" x="459" y="151" width="22" height="22" style="color:#fff"></use><text class="t-h" x="502" y="170">IAT-Datenrichtlinie</text><text class="t-s" x="460" y="214">The hub: rules for all IAT activities,</text><text class="t-s" x="460" y="233">operational and research data.</text></g><g data-at="1" class="doc doc-tom rise" style="--d:0.5s"><rect class="box" x="840" y="130" width="320" height="160" rx="14"></rect><circle class="band" cx="870" cy="162" r="20"></circle><use href="#i-shield-check" class="i" x="859" y="151" width="22" height="22" style="color:#fff"></use><text class="t-h" x="902" y="170">IAT TOM</text><text class="t-s" x="860" y="214">Security measures, central systems</text><text class="t-s" x="860" y="233">and exchange channels. In German.</text></g><!-- Step 2: cross-references --><g data-at="2" class="draw"><path class="ln" pathlength="1" d="M368 200 H432"></path><path class="ah" d="M372 194 L362 200 L372 206 Z M428 194 L438 200 L428 206 Z"></path></g><g data-at="2" class="draw"><path class="ln" pathlength="1" d="M768 200 H832"></path><path class="ah" d="M772 194 L762 200 L772 206 Z M828 194 L838 200 L828 206 Z"></path></g><!-- Step 3: Handreichung --><g data-at="3" class="draw"><path class="ln" pathlength="1" d="M600 290 V370"></path><path class="ln" pathlength="1" d="M200 290 V450 H440"></path><path class="ln" pathlength="1" d="M1000 290 V450 H760"></path></g><g data-at="3"><text class="t-xs" x="612" y="326">made binding by a clause</text><text class="t-xs" x="612" y="342">in the Datenrichtlinie</text><text class="t-xs" x="214" y="440">how to meet JCA duties</text><text class="t-xs t-end" x="986" y="440">how to use central systems</text></g><g data-at="3" class="doc doc-hr rise" style="--d:0.4s"><rect class="box" x="440" y="370" width="320" height="160" rx="14" style="stroke-dasharray:8 5"></rect><circle class="band" cx="470" cy="402" r="20"></circle><use href="#i-list-checks" class="i" x="459" y="391" width="22" height="22" style="color:#fff"></use><text class="t-h" x="502" y="410">Handreichung</text><text class="t-s" x="460" y="454">Practical how-to for staff. Not an annex:</text><text class="t-s" x="460" y="473">a living document, new DOI per version.</text></g><!-- Step 4: who changes what --><g data-at="4" style="--d:0s"><line class="rule" x1="60" y1="250" x2="340" y2="250"></line><use href="#i-file-pen-line" class="i" x="60" y="258" width="16" height="16" style="color:#906436"></use><text class="t-xs" x="84" y="270">Clauses: HLMF. Entries: signed by</text><text class="t-xs" x="84" y="284">the Parties named in the entry.</text></g><g data-at="4" style="--d:0.1s"><line class="rule" x1="460" y1="250" x2="740" y2="250"></line><use href="#i-file-pen-line" class="i" x="460" y="258" width="16" height="16" style="color:#906436"></use><text class="t-xs" x="484" y="270">Changed by: HLMF.</text><text class="t-xs" x="484" y="284">Reviewed every 2 years.</text></g><g data-at="4" style="--d:0.2s"><line class="rule" x1="860" y1="250" x2="1140" y2="250"></line><use href="#i-file-pen-line" class="i" x="860" y="258" width="16" height="16" style="color:#906436"></use><text class="t-xs" x="884" y="270">Signed off by ZALF</text><text class="t-xs" x="884" y="284">administration and ITS.</text></g><g data-at="4" style="--d:0.3s"><line class="rule" x1="460" y1="490" x2="740" y2="490"></line><use href="#i-file-pen-line" class="i" x="460" y="498" width="16" height="16" style="color:#906436"></use><text class="t-xs" x="484" y="510">Changed by: DML SWG. The ZALF DPO</text><text class="t-xs" x="484" y="524">approves data-protection changes.</text></g></svg><aside class="notes">
+        The Rahmenvereinbarung creates the duty to regulate data and hands the detail to the annexes.
+        The Datenrichtlinie is the hub the others refer to. The JCA prevails only for its listed joint
+        operations. The Handreichung is deliberately not an annex, so it can be updated without touching
+        the framework agreement, but it creates no new obligations.
+        Changed since the concept deck: the Handreichung now also explains the JCA and the TOM, not only the Datenrichtlinie.
+      </aside></section><!-- ══ 5 · What each document answers ════════════════════ --><section class="lk body" data-steps="3"><header class="hd"><p class="eyebrow">The documents</p>
+        <h2>Each document answers one question</h2>
+      </header><div class="cards">
+        <article class="card dr"><div class="card-top">
+            <svg class="ico"><use href="#i-book-open" class="i"></use></svg><div class="card-name">IAT-Datenrichtlinie</div>
+            <div class="card-kind">Annex to the framework agreement</div>
+          </div>
+          <p class="card-q">What are the rules?</p>
+          <ul>
+<li>Applies to all IAT activities and the people carrying them out</li>
+            <li>Operational data: purpose limitation, the broker rule, retention</li>
+            <li>Research data: DMPs, ethics, repositories, embargo, licence, retention</li>
+            <li>A minimum standard: own rules may be stricter</li>
+          </ul>
+<div class="card-foot">
+<b>Changed by</b> the HLMF · reviewed every 2 years</div>
+        </article><article class="card jca rise" data-at="1"><div class="card-top">
+            <svg class="ico"><use href="#i-handshake" class="i"></use></svg><div class="card-name">Joint Controllership Agreement</div>
+            <div class="card-kind">Annex · Art. 26 GDPR</div>
+          </div>
+          <p class="card-q">Who is responsible when we process personal data together?</p>
+          <ul>
+<li>A closed list of joint processing operations</li>
+            <li>Per entry: lead controller, tasks, data, retention, channels</li>
+            <li>Shared rules for requests, breaches and liability</li>
+            <li>Never covers research data</li>
+          </ul>
+<div class="card-foot">
+<b>Entries</b> are signed only by the Parties they involve</div>
+        </article><article class="card tom rise" data-at="2"><div class="card-top">
+            <svg class="ico"><use href="#i-shield-check" class="i"></use></svg><div class="card-name">IAT TOM</div>
+            <div class="card-kind">Annex · Art. 32 GDPR · German</div>
+          </div>
+          <p class="card-q">How is the data protected?</p>
+          <ul>
+<li>Systems ZALF provides centrally: network drives, zCloud, Microsoft 365, BonaRes</li>
+            <li>zCloud as the exchange channel with partners</li>
+            <li>Ten minimum measures for joint operations</li>
+            <li>No whitelist of permitted software</li>
+          </ul>
+<div class="card-foot">
+<b>Confidential</b> between the Parties · signed off by ZALF administration and ITS</div>
+        </article><article class="card hr rise" data-at="3"><div class="card-top">
+            <svg class="ico"><use href="#i-list-checks" class="i"></use></svg><div class="card-name">Handreichung</div>
+            <div class="card-kind">Not an annex · living document</div>
+          </div>
+          <p class="card-q">How do I do this in practice?</p>
+          <ul>
+<li>Step-by-step guidance for staff and researchers</li>
+            <li>Binding because the Datenrichtlinie says so</li>
+            <li>Creates no new obligations</li>
+            <li>Version 1.0 by April 2027, a DOI for every version</li>
+          </ul>
+<div class="card-foot">
+<b>Maintained</b> by the DML SWG · on Teams/SharePoint and BonaRes</div>
+        </article>
+</div>
+      <aside class="notes">
+        A useful test when someone asks "where does this go?": if it is a rule, the Datenrichtlinie; if it
+        is who-does-what in a joint operation, the JCA; if it is a security measure or system, the TOM; if
+        it is "how do I", the Handreichung.
+      </aside></section><!-- ══ 6 · Floor, not ceiling ════════════════════════════ --><section class="lk body" data-steps="4"><header class="hd"><p class="eyebrow">Precedence</p>
+        <h2>The Datenrichtlinie is a floor, not a ceiling</h2>
+      </header><svg class="dg" viewbox="0 0 1200 520" role="img" aria-label="Datenrichtlinie as a minimum standard with stricter institutional rules above it"><!-- Step 1: institutional rules stack on top --><g data-at="1" style="--d:0s"><rect class="grow-up" data-at="1" x="75" y="130" width="150" height="120" rx="6" fill="#E6EEEB"></rect><image href="assets/logos/zalf.png" x="60" y="70" width="180" height="50" preserveaspectratio="xMidYMid meet"></image><text class="t-xs t-mid" x="150" y="236">own stricter rules</text></g><g data-at="1" style="--d:0.15s"><rect class="grow-up" data-at="1" x="275" y="180" width="150" height="70" rx="6" fill="#E6EEEB" style="--d:0.15s"></rect><image href="assets/logos/jlu.png" x="270" y="120" width="160" height="50" preserveaspectratio="xMidYMid meet"></image><text class="t-xs t-mid" x="350" y="236">own stricter rules</text></g><g data-at="1" style="--d:0.3s"><rect class="grow-up" data-at="1" x="475" y="100" width="150" height="150" rx="6" fill="#E6EEEB" style="--d:0.3s"></rect><image href="assets/logos/kassel.png" x="465" y="50" width="170" height="40" preserveaspectratio="xMidYMid meet"></image><text class="t-xs t-mid" x="550" y="236">own stricter rules</text></g><g data-at="1" style="--d:0.45s"><rect class="grow-up" data-at="1" x="675" y="155" width="150" height="95" rx="6" fill="#E6EEEB" style="--d:0.45s"></rect><image href="assets/logos/geisenheim.png" x="670" y="96" width="160" height="50" preserveaspectratio="xMidYMid meet"></image><text class="t-xs t-mid" x="750" y="236">own stricter rules</text></g><!-- Step 0: the floor --><rect x="40" y="250" width="1120" height="58" rx="10" fill="#326158"></rect><use href="#i-book-open" class="i" x="64" y="266" width="26" height="26" style="color:#fff"></use><text class="t-hs t-w" x="104" y="286">IAT-Datenrichtlinie: the minimum standard for all IAT activities</text><!-- Step 2: cannot go below --><g data-at="2" class="rise"><rect x="40" y="324" width="800" height="54" rx="10" fill="none" stroke="#B5473A" stroke-width="2" stroke-dasharray="7 6"></rect><use href="#i-ban" class="i" x="62" y="338" width="26" height="26" style="color:#B5473A"></use><text class="t-b" x="102" y="357" fill="#B5473A"><tspan font-weight="600">Weaker own rules do not apply.</tspan> A Party's policy cannot lower the floor.</text></g><!-- Step 3: two exceptions break through --><g data-at="3"><rect x="880" y="70" width="280" height="44" rx="10" fill="#fff" stroke="#906436" stroke-width="2"></rect><use href="#i-file-signature" class="i" x="896" y="81" width="22" height="22" style="color:#906436"></use><text class="t-b" x="928" y="98">Binding funder requirements</text><rect x="880" y="126" width="280" height="44" rx="10" fill="#fff" stroke="#906436" stroke-width="2"></rect><use href="#i-scale" class="i" x="896" y="137" width="22" height="22" style="color:#906436"></use><text class="t-b" x="928" y="154">Mandatory statutory provisions</text><rect x="1000" y="249" width="40" height="60" fill="#fff"></rect></g><g data-at="3" class="draw" style="--d:0.3s"><path class="ln" pathlength="1" d="M1020 172 V396" style="stroke:#906436;stroke-width:3"></path><path class="ah" d="M1011 390 L1020 406 L1029 390 Z" style="fill:#906436"></path></g><g data-at="3" style="--d:0.6s"><text class="t-s" x="1036" y="350">These apply</text><text class="t-s" x="1036" y="368">even where they</text><text class="t-s" x="1036" y="386">conflict with it.</text></g><!-- Step 4: what changed --><g data-at="4" class="rise"><rect class="box-soft" x="0" y="430" width="1200" height="74" rx="12"></rect><use href="#i-refresh-cw" class="i" x="22" y="453" width="26" height="26" style="color:#326158"></use><text class="t-b" x="64" y="460"><tspan font-weight="600">Changed since the March concept.</tspan> The concept deck quoted the ZALF policy, where institutional policies</text><text class="t-b" x="64" y="482">took precedence. Now each Party's own rules can only add to the Datenrichtlinie, never replace it.</text></g></svg><aside class="notes">
+        This inverts the precedence quote on the March concept slides. The only two things that can override
+        the Datenrichtlinie are binding funder requirements and mandatory statute that applies to a Party.
+        The ZALF Data Policy revision is not waited for: there is no timeline for it.
+      </aside></section><!-- ══ 7 · Controllership ════════════════════════════════ --><section class="lk body" data-steps="3"><header class="hd"><p class="eyebrow">Controllership</p>
+        <h2>Separate controllers by default, joint only by list</h2>
+      </header><svg class="dg" viewbox="0 0 1200 540" role="img" aria-label="Separate controllers by default, joint controllers only for the four listed operations"><!-- Step 0: default --><g><text class="t-cap" x="0" y="14">By default</text><text class="t-h" x="0" y="42" fill="#326158">Each Party is controller for its own purposes</text><rect class="box" x="0" y="64" width="530" height="70" rx="12"></rect><image href="assets/logos/zalf.png" x="14" y="76" width="150" height="46" preserveaspectratio="xMidYMid meet"></image><text class="t-b" x="186" y="94">Including all research by ZALF staff</text><text class="t-s" x="186" y="114">and by joint appointees</text><use href="#i-database" class="i" x="490" y="88" width="24" height="24" style="color:#465555"></use><rect class="box" x="0" y="146" width="530" height="70" rx="12"></rect><image href="assets/logos/jlu.png" x="14" y="158" width="150" height="46" preserveaspectratio="xMidYMid meet"></image><text class="t-b" x="186" y="176">Including research by its own staff</text><text class="t-s" x="186" y="196">on positions the IAT does not fund</text><use href="#i-database" class="i" x="490" y="170" width="24" height="24" style="color:#465555"></use><rect class="box" x="0" y="228" width="530" height="70" rx="12"></rect><image href="assets/logos/kassel.png" x="14" y="244" width="150" height="38" preserveaspectratio="xMidYMid meet"></image><text class="t-b" x="186" y="258">Including research by its own staff</text><text class="t-s" x="186" y="278">on positions the IAT does not fund</text><use href="#i-database" class="i" x="490" y="252" width="24" height="24" style="color:#465555"></use><rect class="box" x="0" y="310" width="530" height="70" rx="12"></rect><image href="assets/logos/geisenheim.png" x="14" y="322" width="150" height="46" preserveaspectratio="xMidYMid meet"></image><text class="t-b" x="186" y="340">Including research by its own staff</text><text class="t-s" x="186" y="360">on positions the IAT does not fund</text><use href="#i-database" class="i" x="490" y="334" width="24" height="24" style="color:#465555"></use></g><!-- Step 1: the JCA list --><g data-at="1"><text class="t-cap" x="580" y="14">Only by list</text><text class="t-h" x="580" y="42" fill="#3E7777">Joint controllers: JCA Schedule 1</text><text class="t-xs t-mid" x="962" y="80">ZALF</text><text class="t-xs t-mid" x="1022" y="80">JLU</text><text class="t-xs t-mid" x="1082" y="80">Kassel</text><text class="t-xs t-mid" x="1142" y="80">HGU</text></g><g data-at="1" class="rise" style="--d:0.1s"><rect class="box" x="580" y="92" width="620" height="66" rx="12" style="stroke:#3E7777"></rect><text class="t-hs" x="600" y="120">1 · Joint appointment procedures</text><text class="t-s" x="600" y="142">Lead: the appointing university</text><circle cx="962" cy="125" r="9" fill="#3E7777"></circle><circle cx="1022" cy="125" r="9" fill="#fff" stroke="#C18F59" stroke-width="3"></circle><circle cx="1082" cy="125" r="9" fill="#fff" stroke="#C18F59" stroke-width="3"></circle><circle cx="1142" cy="125" r="9" fill="#fff" stroke="#C18F59" stroke-width="3"></circle></g><g data-at="1" class="rise" style="--d:0.25s"><rect class="box" x="580" y="166" width="620" height="66" rx="12" style="stroke:#3E7777"></rect><text class="t-hs" x="600" y="194">2 · IAT governance bodies</text><text class="t-s" x="600" y="216">Lead: ZALF, as secretariat</text><circle cx="962" cy="199" r="9" fill="#3E7777" stroke="#C18F59" stroke-width="3"></circle><circle cx="1022" cy="199" r="9" fill="#3E7777"></circle><circle cx="1082" cy="199" r="9" fill="#3E7777"></circle><circle cx="1142" cy="199" r="9" fill="#3E7777"></circle></g><g data-at="1" class="rise" style="--d:0.4s"><rect class="box" x="580" y="240" width="620" height="66" rx="12" style="stroke:#3E7777"></rect><text class="t-hs" x="600" y="268">3 · Jointly organised IAT events</text><text class="t-s" x="600" y="290">Lead: the Party running registration</text><circle cx="962" cy="273" r="9" fill="#3E7777" stroke="#C18F59" stroke-width="3"></circle><circle cx="1022" cy="273" r="8" fill="#fff" stroke="#3E7777" stroke-width="2"></circle><circle cx="1082" cy="273" r="8" fill="#fff" stroke="#3E7777" stroke-width="2"></circle><circle cx="1142" cy="273" r="8" fill="#fff" stroke="#3E7777" stroke-width="2"></circle></g><g data-at="1" class="rise" style="--d:0.55s"><rect class="box" x="580" y="314" width="620" height="66" rx="12" style="stroke:#3E7777;stroke-dasharray:7 5"></rect><text class="t-hs" x="600" y="342" fill="#5B6868">4 · IAT Academy formats</text><text class="t-s" x="600" y="364">Only if actually run jointly (conditional)</text><circle cx="962" cy="347" r="9" fill="#3E7777" stroke="#C18F59" stroke-width="3"></circle><circle cx="1022" cy="347" r="8" fill="#fff" stroke="#3E7777" stroke-width="2"></circle><circle cx="1082" cy="347" r="8" fill="#fff" stroke="#3E7777" stroke-width="2"></circle><circle cx="1142" cy="347" r="8" fill="#fff" stroke="#3E7777" stroke-width="2"></circle></g><!-- Step 2: legend and transfer rule --><g data-at="2"><circle cx="592" cy="404" r="8" fill="#3E7777"></circle><text class="t-s" x="608" y="409">Party to the entry</text><circle cx="752" cy="404" r="8" fill="#fff" stroke="#3E7777" stroke-width="2"></circle><text class="t-s" x="768" y="409">where it takes part</text><circle cx="920" cy="404" r="8" fill="#fff" stroke="#C18F59" stroke-width="3"></circle><text class="t-s" x="936" y="409">lead controller</text><text class="t-s" x="580" y="436">Each entry binds only the Parties it names.</text></g><g data-at="2" class="rise"><use href="#i-send" class="i" x="0" y="396" width="22" height="22" style="color:#326158"></use><text class="t-b" x="34" y="412"><tspan font-weight="600">Sharing outside the list</tspan> is a transfer</text><text class="t-s" x="34" y="432">between separate controllers (Datenrichtlinie)</text></g><!-- Step 3: research data never --><g data-at="3" class="rise"><rect x="0" y="462" width="1200" height="66" rx="12" fill="#FBF1EF" stroke="#B5473A" stroke-width="2" stroke-dasharray="7 6"></rect><use href="#i-microscope" class="i" x="22" y="481" width="28" height="28" style="color:#B5473A"></use><use href="#i-ban" class="i" x="60" y="481" width="28" height="28" style="color:#B5473A"></use><text class="t-hs" x="104" y="490" fill="#B5473A">Research data are never jointly controlled</text><text class="t-s" x="104" y="512">Also not proposed: the practice-partner contact register, press contacts, joint PhDs, joint funding proposals.</text></g></svg><aside class="notes">
+        Joint controllership is a question of fact, not of labels (EDPB guidelines 07/2020): an entry must describe
+        processing the Parties really decide together. So the list is expected to stay short.
+        New entries are added by signed agreement of the Parties they involve, without the HLMF.
+        The JCA table lists every candidate we considered and why it was not proposed.
+      </aside></section><!-- ══ 8 · Divider: example 1 ════════════════════════════ --><section class="lk divider is-dark" data-background-color="#326158"><svg class="ico divider-icon"><use href="#i-calendar-days" class="i"></use></svg><p class="divider-kicker">Worked example 1 · Operational data</p>
+      <h1>A Living Lab workshop, co-organised by ZALF and Universität Kassel</h1>
+      <p class="divider-lede">Practice partners are invited, register, attend and are photographed. What does each document do?</p>
+    </section><!-- ══ 9 · Example 1 scenario ════════════════════════════ --><section class="lk body" data-steps="5"><header class="hd"><p class="eyebrow">Worked example 1 · Operational data</p>
+        <h2>Who holds which data, and how it moves</h2>
+      </header><svg class="dg" viewbox="0 0 1200 468" role="img" aria-label="Data flows for a jointly organised workshop"><!-- Zones (static) --><rect x="0" y="150" width="170" height="190" rx="16" fill="#F3F5F4"></rect><use href="#i-sprout" class="i" x="63" y="176" width="44" height="44" style="color:#326158"></use><text class="t-hs t-mid" x="85" y="250">Practice</text><text class="t-hs t-mid" x="85" y="272">partners</text><text class="t-s t-mid" x="85" y="298">data subjects</text><rect x="215" y="4" width="480" height="460" rx="20" fill="none" stroke="#46A84F" stroke-width="2"></rect><image href="assets/logos/zalf-mark.png" x="232" y="18" width="38" height="38"></image><text class="t-cap" x="280" y="43">ZALF</text><rect x="885" y="4" width="315" height="460" rx="20" fill="none" stroke="#9AA5A3" stroke-width="2"></rect><image href="assets/logos/kassel.png" x="902" y="18" width="190" height="40" preserveaspectratio="xMinYMid meet"></image><!-- ZALF: Regional Network Manager --><rect class="box" x="245" y="76" width="260" height="110" rx="12"></rect><use href="#i-contact" class="i" x="262" y="92" width="26" height="26" style="color:#326158"></use><text class="t-hs" x="300" y="104">Regional Network</text><text class="t-hs" x="300" y="124">Manager</text><use href="#i-database" class="i" x="264" y="146" width="22" height="22" style="color:#465555"></use><text class="t-s" x="300" y="163">Contact register</text><use href="#i-lock" class="i" x="470" y="146" width="20" height="20" style="color:#C18F59"></use><!-- ZALF: events team --><rect class="box" x="245" y="262" width="260" height="110" rx="12"></rect><use href="#i-calendar-days" class="i" x="262" y="278" width="26" height="26" style="color:#326158"></use><text class="t-hs" x="300" y="290">Events and</text><text class="t-hs" x="300" y="310">coordination team</text><text class="t-s" x="264" y="352">Runs the registration</text><!-- zCloud --><rect class="box" x="735" y="282" width="110" height="72" rx="12"></rect><use href="#i-cloud" class="i" x="773" y="290" width="34" height="34" style="color:#906436"></use><text class="t-s t-mid" x="790" y="344">zCloud</text><!-- Kassel: press office and team --><rect class="box" x="915" y="86" width="255" height="90" rx="12"></rect><use href="#i-megaphone" class="i" x="932" y="102" width="26" height="26" style="color:#465555"></use><text class="t-hs" x="970" y="120">Press office</text><text class="t-s" x="970" y="142">Own newsletter</text><rect class="box" x="915" y="262" width="255" height="110" rx="12"></rect><use href="#i-users" class="i" x="932" y="278" width="26" height="26" style="color:#326158"></use><text class="t-hs" x="970" y="290">Co-organising</text><text class="t-hs" x="970" y="310">team</text><text class="t-s" x="934" y="352">Helps run the workshop</text><!-- Step 1: invitations; register stays --><g data-at="1"><path id="p-invite" class="flow" d="M245 131 H120 V150"></path><circle class="packet" r="6"><animatemotion dur="1.8s" repeatcount="indefinite"><mpath href="#p-invite"></mpath></animatemotion></circle><use href="#i-mail" class="i" x="160" y="104" width="20" height="20" style="color:#326158"></use><path class="ln-block" d="M505 131 H690"></path><use href="#i-ban" class="i" x="690" y="119" width="24" height="24" style="color:#B5473A"></use><text class="t-xs" x="520" y="120" fill="#B5473A">register not passed on</text><g class="svgchip dr"><rect x="245" y="194" width="214" height="22" rx="11"></rect><text x="256" y="209">Datenrichtlinie · broker rule</text></g></g><!-- Step 2: registration, lead controller --><g data-at="2"><path id="p-reg" class="flow personal" d="M170 318 H245"></path><circle class="packet personal" r="6"><animatemotion dur="1.2s" repeatcount="indefinite"><mpath href="#p-reg"></mpath></animatemotion></circle><g class="svgchip lead"><rect x="245" y="232" width="124" height="22" rx="11"></rect><text x="256" y="247">Lead controller</text></g><g class="svgchip jca"><rect x="376" y="232" width="100" height="22" rx="11"></rect><text x="387" y="247">JCA Entry 3</text></g><use href="#i-camera" class="i" x="250" y="386" width="18" height="18" style="color:#C18F59"></use><text class="t-xs" x="274" y="400">Photos: consent</text><use href="#i-utensils" class="i" x="250" y="412" width="18" height="18" style="color:#C18F59"></use><text class="t-xs" x="274" y="426">Dietary needs: explicit consent</text><use href="#i-file-text" class="i" x="250" y="438" width="18" height="18" style="color:#C18F59"></use><text class="t-xs" x="274" y="452">Privacy notice at registration</text></g><!-- Step 3: via zCloud to Kassel --><g data-at="3"><path id="p-share1" class="flow personal" d="M505 318 H735"></path><path id="p-share2" class="flow personal" d="M845 318 H915"></path><circle class="packet personal" r="6"><animatemotion dur="2.2s" repeatcount="indefinite" path="M505 318 H735 M845 318 H915"></animatemotion></circle><g class="svgchip tom"><rect x="718" y="250" width="144" height="22" rx="11"></rect><text x="729" y="265">IAT TOM · channel</text></g><text class="t-xs" x="934" y="400">Uses the list only for the event.</text><text class="t-xs" x="934" y="418">Its own TOM (JCA Schedule 2) shows</text><text class="t-xs" x="934" y="436">it meets the minimum measures.</text></g><!-- Step 4: deletion --><g data-at="4" class="pop"><circle cx="505" cy="262" r="17" fill="#465555"></circle><use href="#i-trash-2" class="i" x="495" y="252" width="20" height="20" style="color:#fff"></use><circle cx="1170" cy="262" r="17" fill="#465555"></circle><use href="#i-trash-2" class="i" x="1160" y="252" width="20" height="20" style="color:#fff"></use></g><g data-at="4"><use href="#i-timer" class="i" x="776" y="376" width="28" height="28" style="color:#465555"></use><text class="t-s t-mid" x="790" y="426">+3 months after</text><text class="t-s t-mid" x="790" y="444">the event</text></g><!-- Step 5: new purpose blocked --><g data-at="5"><path class="ln-block" d="M1042 262 V178"></path><path d="M1034 188 L1042 176 L1050 188 Z" fill="#B5473A"></path><circle cx="1042" cy="219" r="15" fill="#fff"></circle><use href="#i-ban" class="i" x="1030" y="207" width="24" height="24" style="color:#B5473A"></use><text class="t-xs" x="1064" y="216" fill="#B5473A">new purpose</text><text class="t-xs" x="1064" y="232" fill="#B5473A">not covered</text></g></svg><div class="captions">
+        <p data-at="0" data-until="0">ZALF and Universität Kassel run a workshop in a Living Lab together and want practice partners to attend.</p>
+        <p data-at="1" data-until="1"><span class="num">1</span>ZALF sends the invitations from its contact register. The register never leaves ZALF, which is its sole controller.</p>
+        <p data-at="2" data-until="2"><span class="num">2</span>Registration is the joint operation. ZALF runs it, so ZALF is lead controller: it informs participants and collects consent.</p>
+        <p data-at="3" data-until="3"><span class="num">3</span>Kassel gets the participant list only through zCloud, the exchange channel set in the IAT TOM.</p>
+        <p data-at="4" data-until="4"><span class="num">4</span>Three months after the event the registration data are deleted. ZALF coordinates; each Party deletes its own copy.</p>
+        <p data-at="5" data-until="5"><span class="num">5</span>Kassel's press office wants the list for its newsletter. That is a new purpose: Entry 3 does not cover it.</p>
+      </div>
+      <aside class="notes">
+        This replaces the concept deck example, where the contact register itself was shared between press, coordination
+        and a partner's events team. In the current drafts the register is ZALF-only (broker rule), and the joint part is the
+        event registration. Photos need consent; dietary and accessibility needs can reveal health or religion, so they need explicit consent.
+        Step 5: Kassel would need its own legal basis for the newsletter, as a separate controller.
+      </aside></section><!-- ══ 10 · What the JCA provides: Entry 3 ═══════════════ --><section class="lk body" data-steps="5"><header class="hd"><p class="eyebrow">Worked example 1 · What the JCA actually provides</p>
+        <h2>One entry settles who does what, before anything happens</h2>
+      </header><div class="entry-wrap">
+        <div class="entry">
+          <div class="entry-head">
+            <svg class="ico"><use href="#i-handshake" class="i"></use></svg>
+            JCA Schedule 1 · Entry 3: Jointly organised IAT events
+            <span class="tag">Draft proposal</span>
+          </div>
+          <div class="entry-grid">
+            <div class="entry-group">
+              <h4>
+<svg class="ico"><use href="#i-clipboard-list" class="i"></use></svg>What and why</h4>
+              <dl>
+<dt>Operation</dt>
+<dd>Invitations, registration, participant lists, on-site documentation, follow-up</dd>
+                <dt>Legal basis</dt>
+<dd>Public task; photos by consent; dietary and accessibility needs by explicit consent (Art. 9)</dd>
+              </dl>
+</div>
+            <div class="entry-group" data-at="1">
+              <h4>
+<svg class="ico"><use href="#i-users" class="i"></use></svg>Who</h4>
+              <dl>
+<dt>Parties to the entry</dt>
+<dd>ZALF and the co-organising university (here: Kassel)</dd>
+                <dt>Lead controller</dt>
+<dd>The Party running registration, normally ZALF</dd>
+                <dt>Recipients</dt>
+<dd>Organising staff; venue and catering as processors</dd>
+              </dl>
+</div>
+            <div class="entry-group" data-at="2">
+              <h4>
+<svg class="ico"><use href="#i-list-checks" class="i"></use></svg>Tasks</h4>
+              <dl>
+<dt>Lead (ZALF)</dt>
+<dd>Privacy notice, consent, requests from participants, deletion</dd>
+                <dt>Co-organiser (Kassel)</dt>
+<dd>Uses lists only for the event; deletes its copy afterwards</dd>
+                <dt>Invitations</dt>
+<dd>Sent by ZALF; the register is not passed on</dd>
+              </dl>
+</div>
+            <div class="entry-group" data-at="3">
+              <h4>
+<svg class="ico"><use href="#i-timer" class="i"></use></svg>How long and how</h4>
+              <dl>
+<dt>Retention</dt>
+<dd>Registration and dietary data: 3 months. Reporting lists: <span class="tbd">[to agree]</span>. Photos: as consented</dd>
+                <dt>Channels</dt>
+<dd>zCloud for lists; registration tool <span class="tbd">[to agree]</span>
+</dd>
+              </dl>
+</div>
+          </div>
+        </div>
+
+        <div>
+          <div class="side" data-at="4">
+            <h4>Applies to every entry</h4>
+            <div class="row">
+<svg class="ico"><use href="#i-send" class="i"></use></svg><div>A request sent to any Party goes to the lead within <span class="tbd">5 working days</span>
+</div>
+</div>
+            <div class="row">
+<svg class="ico"><use href="#i-siren" class="i"></use></svg><div>A breach is reported to the lead and ZALF within <span class="tbd">24 hours</span>
+</div>
+</div>
+            <div class="row">
+<svg class="ico"><use href="#i-shield-check" class="i"></use></svg><div>Every Party meets the TOM minimum measures</div>
+</div>
+            <div class="row">
+<svg class="ico"><use href="#i-scale" class="i"></use></svg><div>Each Party is liable for its own area of responsibility</div>
+</div>
+            <div class="row">
+<svg class="ico"><use href="#i-globe" class="i"></use></svg><div>A short public notice on the IAT website names the lead</div>
+</div>
+          </div>
+          <div class="validate" data-at="5">
+            <b>To check with you:</b> which events are really co-organised? Do universities receive participant lists? Which registration tool? What must be kept for funder reporting?
+          </div>
+        </div>
+      </div>
+      <aside class="notes">
+        This is what the JCA gives the events team: a single page that answers the questions that otherwise get
+        negotiated per event, or not at all. It does not describe the event itself; it describes the category of
+        processing, once. Figures in brown are proposals still to be agreed.
+      </aside></section><!-- ══ 11 · When something happens ═══════════════════════ --><section class="lk body" data-steps="3"><header class="hd"><p class="eyebrow">Worked example 1 · What the JCA actually provides</p>
+        <h2>When something happens, the route is already agreed</h2>
+      </header><svg class="dg" viewbox="0 0 1200 470" role="img" aria-label="Handling a deletion request and a data breach"><!-- Lane A --><text class="t-cap" x="0" y="14">Request from a participant</text><text class="t-h" x="0" y="42" fill="#326158">A participant asks Universität Kassel to delete their data</text><g data-at="1" class="rise" style="--d:0s"><rect class="box" x="0" y="64" width="270" height="118" rx="12"></rect><circle cx="32" cy="96" r="18" fill="#326158"></circle><use href="#i-user" class="i" x="22" y="86" width="20" height="20" style="color:#fff"></use><text class="t-hs" x="62" y="102">Asks Kassel</text><text class="t-s" x="20" y="136">Any Party to the entry can be</text><text class="t-s" x="20" y="155">asked (Art. 26(3) GDPR).</text></g><g data-at="1" class="draw" style="--d:0.3s"><path class="ln" pathlength="1" d="M274 123 H302"></path><path class="ah" d="M298 117 L308 123 L298 129 Z"></path></g><g data-at="1" class="rise" style="--d:0.45s"><rect class="box" x="310" y="64" width="270" height="118" rx="12"></rect><circle cx="342" cy="96" r="18" fill="#326158"></circle><use href="#i-send" class="i" x="332" y="86" width="20" height="20" style="color:#fff"></use><text class="t-hs" x="372" y="102">Kassel forwards</text><text class="t-s" x="330" y="136">to ZALF as lead within 5 working</text><text class="t-s" x="330" y="155">days*, and tells the participant.</text></g><g data-at="1" class="draw" style="--d:0.75s"><path class="ln" pathlength="1" d="M584 123 H612"></path><path class="ah" d="M608 117 L618 123 L608 129 Z"></path></g><g data-at="1" class="rise" style="--d:0.9s"><rect class="box" x="620" y="64" width="270" height="118" rx="12"></rect><circle cx="652" cy="96" r="18" fill="#C18F59"></circle><use href="#i-user-check" class="i" x="642" y="86" width="20" height="20" style="color:#fff"></use><text class="t-hs" x="682" y="102">ZALF replies</text><text class="t-s" x="640" y="136">within one month</text><text class="t-s" x="640" y="155">(Art. 12(3) GDPR).</text></g><g data-at="1" class="draw" style="--d:1.2s"><path class="ln" pathlength="1" d="M894 123 H922"></path><path class="ah" d="M918 117 L928 123 L918 129 Z"></path></g><g data-at="1" class="rise" style="--d:1.35s"><rect class="box" x="930" y="64" width="270" height="118" rx="12"></rect><circle cx="962" cy="96" r="18" fill="#465555"></circle><use href="#i-trash-2" class="i" x="952" y="86" width="20" height="20" style="color:#fff"></use><text class="t-hs" x="992" y="102">Both delete</text><text class="t-s" x="950" y="136">Each Party deletes the copy</text><text class="t-s" x="950" y="155">it holds.</text></g><!-- Lane B --><g data-at="2"><text class="t-cap" x="0" y="232">Personal data breach</text><text class="t-h" x="0" y="260" fill="#B5473A">A participant list is emailed to the wrong address at Kassel</text></g><g data-at="2" class="rise" style="--d:0.2s"><rect class="box" x="0" y="282" width="270" height="118" rx="12"></rect><circle cx="32" cy="314" r="18" fill="#B5473A"></circle><use href="#i-triangle-alert" class="i" x="22" y="304" width="20" height="20" style="color:#fff"></use><text class="t-hs" x="62" y="320">Kassel notices</text><text class="t-s" x="20" y="354">The Party where it happened</text><text class="t-s" x="20" y="373">acts first.</text></g><g data-at="2" class="draw" style="--d:0.5s"><path class="ln" pathlength="1" d="M274 341 H302"></path><path class="ah" d="M298 335 L308 341 L298 347 Z"></path></g><g data-at="2" class="rise" style="--d:0.65s"><rect class="box" x="310" y="282" width="270" height="118" rx="12"></rect><circle cx="342" cy="314" r="18" fill="#B5473A"></circle><use href="#i-bell-ring" class="i" x="332" y="304" width="20" height="20" style="color:#fff"></use><text class="t-hs" x="372" y="320">Informs ZALF</text><text class="t-s" x="330" y="354">the lead and coordinator,</text><text class="t-s" x="330" y="373">within 24 hours*.</text></g><g data-at="2" class="draw" style="--d:0.95s"><path class="ln" pathlength="1" d="M584 341 H612"></path><path class="ah" d="M608 335 L618 341 L608 347 Z"></path></g><g data-at="2" class="rise" style="--d:1.1s"><rect class="box" x="620" y="282" width="270" height="118" rx="12"></rect><circle cx="652" cy="314" r="18" fill="#B5473A"></circle><use href="#i-landmark" class="i" x="642" y="304" width="20" height="20" style="color:#fff"></use><text class="t-hs" x="682" y="320">Own authority</text><text class="t-s" x="640" y="354">Kassel notifies the Hessian</text><text class="t-s" x="640" y="373">authority within 72 h, if required.</text></g><g data-at="2" class="draw" style="--d:1.4s"><path class="ln" pathlength="1" d="M894 341 H922"></path><path class="ah" d="M918 335 L928 341 L918 347 Z"></path></g><g data-at="2" class="rise" style="--d:1.55s"><rect class="box" x="930" y="282" width="270" height="118" rx="12"></rect><circle cx="962" cy="314" r="18" fill="#C18F59"></circle><use href="#i-users" class="i" x="952" y="304" width="20" height="20" style="color:#fff"></use><text class="t-hs" x="992" y="320">ZALF coordinates</text><text class="t-s" x="950" y="354">and informs participants if</text><text class="t-s" x="950" y="373">Art. 34 GDPR requires it.</text></g><g data-at="3"><use href="#i-circle-help" class="i" x="0" y="428" width="22" height="22" style="color:#906436"></use><text class="t-b" x="32" y="445">* Deadlines proposed in the draft JCA, still to be agreed. Nobody has to work this out while the problem is live.</text></g></svg><aside class="notes">
+        Without the JCA, each of these would be negotiated in the moment, under the 72-hour breach deadline.
+        Each Party always deals with its own supervisory authority; that is why the documents name no authority,
+        except the public notice.
+      </aside></section><!-- ══ 12 · Divider: example 2 ═══════════════════════════ --><section class="lk divider is-dark" data-background-color="#326158"><svg class="ico divider-icon"><use href="#i-mic" class="i"></use></svg><p class="divider-kicker">Worked example 2 · Research data</p>
+      <h1>Interviews with farmers in a Living Lab</h1>
+      <p class="divider-lede">An IAT-funded researcher at ZALF interviews farmers and analyses the transcripts with a colleague at JLU Gießen.</p>
+    </section><!-- ══ 13 · Example 2 journey ════════════════════════════ --><section class="lk body" data-steps="5"><header class="hd"><p class="eyebrow">Worked example 2 · Research data</p>
+        <h2>From plan to publication, with one controller throughout</h2>
+      </header><svg class="dg" viewbox="0 0 1200 214" role="img" aria-label="Research data journey in five stages"><!-- Step 0: controller band --><rect x="0" y="0" width="1200" height="38" rx="10" fill="#EAF2EE"></rect><image href="assets/logos/zalf-mark.png" x="12" y="6" width="26" height="26"></image><text class="t-hs" x="50" y="25" fill="#326158">ZALF is controller at every stage</text><text class="t-s" x="360" y="25">The researcher is ZALF staff: IAT-funded, or a joint appointee on a 100% ZALF contract.</text><!-- Track --><path class="rule" d="M120 150 H1080" style="stroke-dasharray:3 7"></path><g data-at="2" class="draw"><path class="ln" pathlength="1" d="M150 150 H330" style="stroke:#326158;stroke-width:3"></path></g><g data-at="3" class="draw"><path class="ln" pathlength="1" d="M390 150 H570" style="stroke:#326158;stroke-width:3"></path></g><g data-at="4" class="draw"><path class="ln" pathlength="1" d="M630 150 H810" style="stroke:#326158;stroke-width:3"></path></g><g data-at="5" class="draw"><path class="ln" pathlength="1" d="M870 150 H1050" style="stroke:#326158;stroke-width:3"></path></g><!-- Actors above each stop --><g data-at="1"><text class="t-xs t-mid" x="120" y="84">DML SWG · Ethics Commission</text><text class="t-xs t-mid" x="120" y="100">ZALF DPO</text></g><g data-at="2"><use href="#i-contact" class="i" x="350" y="70" width="20" height="20" style="color:#465555"></use><text class="t-xs t-mid" x="360" y="106">Regional Network Manager</text></g><g data-at="3"><use href="#i-hard-drive" class="i" x="590" y="70" width="20" height="20" style="color:#906436"></use><text class="t-xs t-mid" x="600" y="106">ZALF network drive (P:)</text></g><g data-at="4"><image href="assets/logos/jlu.png" x="775" y="58" width="130" height="48" preserveaspectratio="xMidYMid meet"></image></g><g data-at="5"><image href="assets/logos/bonares.png" x="1020" y="68" width="120" height="33" preserveaspectratio="xMidYMid meet"></image></g><!-- Stops --><g data-at="1" class="pop"><circle cx="120" cy="150" r="30" fill="#fff" stroke="#326158" stroke-width="3"></circle><use href="#i-clipboard-list" class="i" x="106" y="136" width="28" height="28" style="color:#326158"></use></g><g data-at="2" class="pop" style="--d:0.6s"><circle cx="360" cy="150" r="30" fill="#fff" stroke="#326158" stroke-width="3"></circle><use href="#i-handshake" class="i" x="346" y="136" width="28" height="28" style="color:#326158"></use></g><g data-at="3" class="pop" style="--d:0.6s"><circle cx="600" cy="150" r="30" fill="#fff" stroke="#326158" stroke-width="3"></circle><use href="#i-mic" class="i" x="586" y="136" width="28" height="28" style="color:#326158"></use></g><g data-at="4" class="pop" style="--d:0.6s"><circle cx="840" cy="150" r="30" fill="#fff" stroke="#326158" stroke-width="3"></circle><use href="#i-send" class="i" x="826" y="136" width="28" height="28" style="color:#326158"></use></g><g data-at="5" class="pop" style="--d:0.6s"><circle cx="1080" cy="150" r="30" fill="#fff" stroke="#326158" stroke-width="3"></circle><use href="#i-library" class="i" x="1066" y="136" width="28" height="28" style="color:#326158"></use></g><!-- The researcher moves along the track --><g data-at="1"><g class="walker"><circle cx="120" cy="196" r="13" fill="#C18F59"></circle><use href="#i-user-round" class="i" x="111" y="187" width="18" height="18" style="color:#fff"></use></g></g></svg><div class="journey">
+        <div class="stop" data-at="1">
+          <h4>1 · Plan</h4>
+          <ul>
+<li>DMP on the IAT template to the DML SWG before collection. It checks completeness, it does not approve.</li>
+            <li>Ethics screening; ZALF Ethics Commission if triggered</li>
+            <li>ZALF DPO review before collecting personal data</li>
+          </ul>
+<div class="chips"><span class="chip dr">Datenrichtlinie</span></div>
+        </div>
+        <div class="stop" data-at="2">
+          <h4>2 · Recruit</h4>
+          <ul>
+<li>No access to the contact register: the Regional Network Manager forwards the request</li>
+            <li>Farmers decide whether to respond</li>
+            <li>Contacts received stay confidential and are deleted after use</li>
+          </ul>
+<div class="chips"><span class="chip dr">Datenrichtlinie</span></div>
+        </div>
+        <div class="stop" data-at="3">
+          <h4>3 · Collect and store</h4>
+          <ul>
+<li>Consent form states the 10-year retention and any re-use</li>
+            <li>Recordings on the network drive with project permissions</li>
+            <li>Pseudonymise early; keep the key separate</li>
+          </ul>
+<div class="chips">
+<span class="chip dr">Datenrichtlinie</span><span class="chip tom">IAT TOM</span>
+</div>
+        </div>
+        <div class="stop" data-at="4">
+          <h4>4 · Share</h4>
+          <ul>
+<li>Pseudonymised transcripts to JLU via zCloud</li>
+            <li>JLU is a separate controller: free use for IAT activities under a data use agreement</li>
+            <li>JLU may not publish ZALF's unpublished data without approval</li>
+          </ul>
+<div class="chips">
+<span class="chip dr">Datenrichtlinie</span><span class="chip tom">IAT TOM</span>
+</div>
+        </div>
+        <div class="stop" data-at="5">
+          <h4>5 · Publish and keep</h4>
+          <ul>
+<li>Anonymised data in BonaRes, or a better-suited repository (notify the DML SWG)</li>
+            <li>Embargo at most 5 years, justified in the DMP; CC BY 4.0</li>
+            <li>Kept for 10 years</li>
+          </ul>
+<div class="chips">
+<span class="chip dr">Datenrichtlinie</span><span class="chip hr">Handreichung</span>
+</div>
+        </div>
+      </div>
+      <aside class="notes">
+        Compared with the concept deck: the DML SWG no longer "approves" anything, the DPO and ethics commission do.
+        Publication outside BonaRes no longer needs approval, only notification. Embargo has a hard maximum of 5 years.
+        Open points: whether ethics review is mandatory, and how key management is split between staff and ZALF.
+        Note there is no JCA chip anywhere on this slide.
+      </aside></section><!-- ══ 14 · What the JCA provides for research ═══════════ --><section class="lk body" data-steps="5"><header class="hd"><p class="eyebrow">Worked example 2 · What the JCA actually provides</p>
+        <h2>For research data, the JCA provides a clear boundary</h2>
+      </header><div class="split">
+        <svg class="dg dg-half" viewbox="0 0 470 520" role="img" aria-label="Research data deflected from the JCA to the Datenrichtlinie"><!-- The JCA --><g class="doc doc-jca"><path d="M150 20 H370 L420 70 V330 H150 Z" fill="#fff" stroke="#3E7777" stroke-width="3" stroke-linejoin="round"></path><path d="M370 20 V70 H420" fill="none" stroke="#3E7777" stroke-width="3" stroke-linejoin="round"></path><text class="t-hs" x="172" y="58" fill="#3E7777">JCA</text><text class="t-xs" x="172" y="80">Schedule 1</text><line class="rule" x1="172" y1="96" x2="400" y2="96"></line><circle cx="182" cy="126" r="6" fill="#3E7777"></circle><text class="t-b" x="198" y="131">Appointments</text><circle cx="182" cy="170" r="6" fill="#3E7777"></circle><text class="t-b" x="198" y="175">Governance bodies</text><circle cx="182" cy="214" r="6" fill="#3E7777"></circle><text class="t-b" x="198" y="219">Joint events</text><circle cx="182" cy="258" r="6" fill="#3E7777"></circle><text class="t-b" x="198" y="263" fill="#5B6868">IAT Academy</text><text class="t-xs" x="172" y="306">Research data: no entry</text></g><!-- Research data token --><circle cx="64" cy="176" r="42" fill="#F3F5F4" stroke="#326158" stroke-width="2"></circle><use href="#i-microscope" class="i" x="48" y="160" width="32" height="32" style="color:#326158"></use><text class="t-hs t-mid" x="64" y="246">Research</text><text class="t-hs t-mid" x="64" y="266">data</text><!-- Step 1: blocked --><g data-at="1"><path class="ln-block" d="M108 176 H140"></path><circle cx="150" cy="176" r="16" fill="#fff"></circle><use href="#i-ban" class="i" x="136" y="162" width="28" height="28" style="color:#B5473A"></use></g><!-- Step 1: redirected --><g data-at="1" class="draw" style="--d:0.4s"><path class="ln" pathlength="1" d="M64 280 V430 H150" style="stroke:#326158;stroke-width:3"></path><path class="ah" d="M144 422 L156 430 L144 438 Z" style="fill:#326158"></path></g><g data-at="1" class="doc doc-dr rise" style="--d:0.9s"><rect class="box" x="160" y="386" width="290" height="88" rx="14"></rect><circle class="band" cx="194" cy="430" r="20"></circle><use href="#i-book-open" class="i" x="183" y="419" width="22" height="22" style="color:#fff"></use><text class="t-hs" x="226" y="424" fill="#326158">IAT-Datenrichtlinie</text><text class="t-s" x="226" y="446">all research data rules</text></g></svg><ul class="conseq">
+<li data-at="1" class="from-left">
+            <span class="bullet"><svg class="ico"><use href="#i-scale" class="i"></use></svg></span>
+            <div>
+<b>The JCA draws the line.</b> Research data are not the subject of any entry. Everything about them sits in the Datenrichtlinie.</div>
+          </li>
+          <li data-at="2" class="from-left">
+            <span class="bullet"><svg class="ico"><use href="#i-building-2" class="i"></use></svg></span>
+            <div>
+<b>One controller per project.</b> Here ZALF: one DPO review, one ethics commission, one record of processing. Controllership follows who actually decides about the research.</div>
+          </li>
+          <li data-at="3" class="from-left">
+            <span class="bullet"><svg class="ico"><use href="#i-send" class="i"></use></svg></span>
+            <div>
+<b>Partners get access, not co-controllership.</b> JLU receives data as a separate controller, with a free right of use for IAT activities under a data use agreement.</div>
+          </li>
+          <li data-at="4" class="from-left">
+            <span class="bullet"><svg class="ico"><use href="#i-file-signature" class="i"></use></svg></span>
+            <div>
+<b>No extra paperwork per project.</b> No entry to sign, no lead controller to agree, no public notice to maintain.</div>
+          </li>
+          <li data-at="5" class="from-left caveat">
+            <span class="bullet"><svg class="ico"><use href="#i-circle-help" class="i"></use></svg></span>
+            <div>
+<b>Still open:</b> if a partner-university researcher on a position the IAT does not fund runs the interviews, their university is controller. Whether they are bound by the Datenrichtlinie is a management decision.</div>
+          </li>
+        </ul>
+</div>
+      <aside class="notes">
+        This is the answer to "what does the JCA do for research?": it keeps research out on purpose (ADR 0001).
+        The alternative, joint controllership per research project, would need a signed entry, a lead controller and a
+        public notice for every project, and joint liability to participants.
+        The open case is the "acceding project" proposal in the management notes: gate access to IAT resources rather than binding people.
+      </aside></section><!-- ══ 15 · Side by side ═════════════════════════════════ --><section class="lk body" data-steps="4"><header class="hd"><p class="eyebrow">Both examples</p>
+        <h2>What each document contributes</h2>
+      </header><div class="cmp">
+        <div class="h">Document</div>
+        <div class="h">
+<svg class="ico"><use href="#i-calendar-days" class="i"></use></svg>Example 1 · Joint workshop</div>
+        <div class="h">
+<svg class="ico"><use href="#i-mic" class="i"></use></svg>Example 2 · Farmer interviews</div>
+
+        <div class="docname"><span class="chip rv">Rahmenvereinbarung</span></div>
+        <div style="grid-column: span 2">Creates the duty to regulate data and makes the annexes binding on ZALF, Kassel and JLU alike.</div>
+
+        <div class="docname" data-at="1"><span class="chip dr">IAT-Datenrichtlinie</span></div>
+        <div data-at="1">Broker rule: the register stays at ZALF. Purpose limitation. Points to the JCA for retention.</div>
+        <div data-at="1">DMP, ethics screening, DPO review, pseudonymisation, BonaRes, embargo, CC BY 4.0, rights of use, 10-year retention.</div>
+
+        <div class="docname" data-at="2"><span class="chip jca">JCA</span></div>
+        <div data-at="2">Entry 3: lead controller, tasks, data, retention, channel. Agreed routes for requests and breaches.</div>
+        <div data-at="2">
+<span class="none">Nothing, by design.</span> Research data are excluded, so ZALF stays sole controller.</div>
+
+        <div class="docname" data-at="3"><span class="chip tom">IAT TOM</span></div>
+        <div data-at="3">zCloud as the exchange channel. Minimum measures every Party meets; Kassel shows them in its own TOM.</div>
+        <div data-at="3">Where to store (network drive), how to share (zCloud), where to publish (BonaRes).</div>
+
+        <div class="docname" data-at="4"><span class="chip hr">Handreichung</span></div>
+        <div data-at="4">How to share files through zCloud, and what to tell participants.</div>
+        <div data-at="4">How to write the DMP, contact practice partners and prepare data for publication.</div>
+      </div>
+      <aside class="notes">
+        The pattern: the Datenrichtlinie carries the rules in both cases; the JCA only appears when Parties really
+        process together; the TOM always supplies the "with what"; the Handreichung the "how".
+        The Handreichung is still a skeleton; version 1.0 is due by April 2027.
+      </aside></section><!-- ══ 16 · What we need from you ════════════════════════ --><section class="lk body" data-steps="1"><header class="hd"><p class="eyebrow">Your feedback</p>
+        <h2>What we need to check with you</h2>
+      </header><div class="qcols">
+        <div class="qcol">
+          <h3>
+<svg class="ico"><use href="#i-users" class="i"></use></svg>IAT staff</h3>
+          <p class="who">Checking the proposed JCA entries against how work is really done</p>
+          <ol>
+<li>Which events are co-organised with a partner university? Do universities receive participant lists? Which registration tool is used? <span class="chip jca">Entry 3</span>
+</li>
+            <li>Which bodies are joint under the framework agreement: HLMF, coordination group, IAT-Beirat? Do minutes record who said what? <span class="chip jca">Entry 2</span>
+</li>
+            <li>Is the IAT Academy run jointly, or by ZALF alone? <span class="chip jca">Entry 4</span>
+</li>
+            <li>In joint appointments, does ZALF really co-decide? How are applications shared with ZALF committee members? <span class="chip jca">Entry 1</span>
+</li>
+          </ol>
+</div>
+        <div class="qcol" data-at="1">
+          <h3>
+<svg class="ico"><use href="#i-landmark" class="i"></use></svg>IAT co-heads</h3>
+          <p class="who">Decisions the drafting cannot make</p>
+          <ol>
+<li>Where does an IAT research project end? Proposal: attach conditions to access to IAT resources, through a Living Lab access agreement.</li>
+            <li>Ethics review: mandatory, mandatory screening only, or strongly advised?</li>
+            <li>Review capacity at the ZALF Ethics Commission and DPO: how will the extra load be covered?</li>
+            <li>Deletion and re-identification keys: what staff do, and what ZALF must provide (rules, storage, handover).</li>
+          </ol>
+</div>
+      </div>
+      <aside class="notes">
+        Staff questions come from the "To validate" notes under each JCA entry. Co-head questions come from the
+        management decision notes. Neither blocks drafting, but the answers change the text.
+      </aside></section><!-- ══ 17 · Timeline ═════════════════════════════════════ --><section class="lk body" data-steps="2"><header class="hd"><p class="eyebrow">Next steps</p>
+        <h2>From feedback to ratification in January 2027</h2>
+      </header><svg class="dg" viewbox="0 0 1200 290" role="img" aria-label="Timeline from September 2026 to April 2027"><path class="rule" d="M20 140 H1180" style="stroke-width:3"></path><g><circle class="pulse" data-at="1" cx="40" cy="140" r="16" fill="#C18F59"></circle><circle cx="40" cy="140" r="10" fill="#C18F59"></circle><text class="t-hs" x="24" y="62" fill="#906436">September 2026</text><text class="t-s" x="24" y="84">Feedback meetings:</text><text class="t-s" x="24" y="102">we are here</text></g><g data-at="1" class="rise" style="--d:0.15s"><circle cx="200" cy="140" r="8" fill="#326158"></circle><text class="t-hs t-mid" x="200" y="186">Mid-October</text><text class="t-s t-mid" x="200" y="208">Internal ZALF review</text><text class="t-s t-mid" x="200" y="226">of the English drafts</text></g><g data-at="1" class="rise" style="--d:0.30s"><circle cx="360" cy="140" r="8" fill="#326158"></circle><text class="t-hs t-mid" x="360" y="62">Late October</text><text class="t-s t-mid" x="360" y="84">German version</text><text class="t-s t-mid" x="360" y="102">produced and checked</text></g><g data-at="1" class="rise" style="--d:0.45s"><circle cx="520" cy="140" r="8" fill="#326158"></circle><text class="t-hs t-mid" x="520" y="186">Early November</text><text class="t-s t-mid" x="520" y="208">German draft to partners</text><text class="t-s t-mid" x="520" y="226">(about 4 weeks)</text></g><g data-at="1" class="rise" style="--d:0.60s"><circle cx="680" cy="140" r="8" fill="#326158"></circle><text class="t-hs t-mid" x="680" y="62">Early December</text><text class="t-s t-mid" x="680" y="84">Revisions</text></g><g data-at="1" class="rise" style="--d:0.75s"><circle cx="840" cy="140" r="8" fill="#326158"></circle><text class="t-hs t-mid" x="840" y="186">Mid-December</text><text class="t-s t-mid" x="840" y="208">Final German text to</text><text class="t-s t-mid" x="840" y="226">university specialists</text></g><g data-at="1" class="rise" style="--d:0.90s"><circle cx="1000" cy="140" r="12" fill="#326158"></circle><use href="#i-landmark" class="i" x="992" y="132" width="16" height="16" style="color:#fff"></use><text class="t-hs t-mid" x="1000" y="62" fill="#326158">January 2027</text><text class="t-s t-mid" x="1000" y="84">HLMF ratifies Datenrichtlinie,</text><text class="t-s t-mid" x="1000" y="102">JCA and IAT TOM</text></g><g data-at="1" class="rise" style="--d:1.05s"><circle cx="1160" cy="140" r="8" fill="#357A3C"></circle><text class="t-hs t-end" x="1180" y="186" fill="#357A3C">April 2027</text><text class="t-s t-end" x="1180" y="208">Handreichung 1.0,</text><text class="t-s t-end" x="1180" y="226">roll-out and training</text></g></svg><div class="notes2" data-at="2">
+        <div>
+<svg class="ico"><use href="#i-handshake" class="i"></use></svg><span>The JCA is ratified with <b>some</b> entries. Further entries follow later, signed by the Parties they involve, without the HLMF.</span>
+</div>
+        <div>
+<svg class="ico"><use href="#i-list-checks" class="i"></use></svg><span>The Handreichung is <b>not</b> ratified. A skeleton is shown in January; until 1.0, the DML SWG gives guidance on request.</span>
+</div>
+      </div>
+      <aside class="notes">
+        The one-month rule for university specialists drives the mid-December date.
+        The IAT TOM is realistic for January because it is largely the existing ZALF TOM, with its scope widened.
       </aside></section>
 </div>
 <!-- /.slides -->
@@ -729,6 +1133,6 @@
 </div>
 <!-- /.reveal -->
 
-<img src="assets/dml-strata-deep.svg" alt="" class="deck-logo theme-dml-only"><img src="assets/iat/logo-iat.png" alt="" class="deck-logo theme-iat-only"><script src="vendor/reveal/dist/reveal.js"></script><script src="vendor/reveal/plugin/markdown/markdown.js"></script><script src="vendor/reveal/plugin/notes/notes.js"></script><script src="vendor/reveal/plugin/highlight/highlight.js"></script><script src="js/quiz-config.js"></script><script src="vendor/slide-quiz/slide-quiz.umd.js"></script><script src="js/strata-diagram.js"></script><script src="js/director.js"></script><script src="js/handoff.js"></script><script src="js/quiz-capture.js"></script><script src="js/deck.js"></script>
+<img src="assets/dml-strata-deep.svg" alt="" class="deck-logo theme-dml-only"><img src="assets/iat/logo-iat.png" alt="" class="deck-logo theme-iat-only"><script src="vendor/reveal/dist/reveal.js"></script><script src="vendor/reveal/plugin/markdown/markdown.js"></script><script src="vendor/reveal/plugin/notes/notes.js"></script><script src="vendor/reveal/plugin/highlight/highlight.js"></script><script src="js/quiz-config.js"></script><script src="vendor/slide-quiz/slide-quiz.umd.js"></script><script src="js/strata-diagram.js"></script><script src="js/director.js"></script><script src="js/handoff.js"></script><script src="js/icons.js"></script><script src="js/steps.js"></script><script src="js/quiz-capture.js"></script><script src="js/deck.js"></script>
 </body>
 </html>
