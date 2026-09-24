@@ -176,9 +176,26 @@
         To frame the different services that the DML team will provide we have
         produced this concept that divides them up into three strata: Support, Transfer and Integration.
 
-        <strong>First click</strong>
-        Support means: 
+        <strong>First click: support</strong>
+        Support refers to assisting researchers with managing their data and research software over all stages of their projects.
+        More specifically, this means aspects such as assisting with data management plans, good practices for software development,
+        data archiving and publication and promoting these skills through both direct consultation as well as training. 
 
+        <strong>2nd click: Transfer</strong>
+        Transfer is services to help close the loop between science and practice. 
+        Particularly assistance with digital communication approaches such as web-based dashboards
+        or data visualisations and story-telling. Ideally these outputs can be co-developed with
+        stakeholders and used to support co-design processes within the Living Labs.
+
+        <strong>3rd click: Integration</strong>
+        Integration is services to connect data and methods across groups in the IAT.
+        Helping to make methods and models more interoperable. 
+        Creating shared infrastructures for data and as part of this developing
+        common standards and schemas.
+
+        To make each of these service areas clearer in the remainder of the presentation
+        I am going to talk through real examples that we have already assisted people with.
+        Of course, it goes without saying many service activities will span several of these stratum 
       </aside></section><!-- ══════════════════════════════════════════════════════
          SUPPORT
          ══════════════════════════════════════════════════════ --><!-- Every project slide below is the same shape: media, name, one
@@ -211,16 +228,14 @@
                {"label":"C","text":"Only with a lot of digging"},
                {"label":"D","text":"Honestly, no"}
              ]'><aside class="notes">
-        Question 2 of 7, opening Support. Anyone who kept the page open has
-        this already; newcomers can scan now. The honest answers here are
-        the case for everything that follows: research software, the
-        catalogue, the guidelines, Quarto and the templates.
-        Order of the projects that follow: IAT Data Management and
-        Protection guidelines, PB3 data catalogue, BirdNET-Passage, Living
-        Labs base maps, SEM survey visualisation, Quarto workshop, templates
-        (then the DML Team Manual). The logic: start with the macro (the
-        guidelines), move to the practical (the data catalogue and software
-        examples), then finish with tools.
+        Ok time for a 2nd question related to our support themes:
+        Could a colleague reproduce the analysis in your last paper
+         — figures and tables included — from your files alone?
+
+        It's OK to be honest here, there is no judgement here. 
+
+        So now to move into some examples of services that are relevant for this theme
+        that we have already produced or are in progress.
       </aside></section><section class="project" data-strata-layout="aside" data-strata-active="support"><!-- The document as a spread: its cover, and a crop of the section
            that lists what it covers. Both pages are rendered from the IAT
            internal document template (Quarto + Typst); source, crop box and
@@ -230,17 +245,22 @@
            the whole card. --><div class="project-media tpl-ground is-spread">
         <img class="tpl-page tpl-inside" src="assets/iat-dm-guidelines-inside.png" alt="Inside page listing the topics the guidelines cover"><img class="tpl-page tpl-cover" src="assets/iat-dm-guidelines-cover.png" alt="Front page of the IAT Data Management and Protection Guidelines">
 </div>
-      <h2>IAT Data Management and Protection guidelines</h2>
+      <h2>IAT Data Management and Protection handbook</h2>
       <p class="project-lede">
-        How IAT researchers meet their obligations for
-        <span class="project-key">archiving</span> and sensitive data, agreed
-        with <span class="project-who">IAT management</span>, the ZALF
-        executive and the IAT partner universities.
+        Practical guidance for IAT researchers and staff to meet their obligations for
+        <span class="project-key">publishing research data, sharing data with partners
+        and dealing with personal data.</span>  
+        Developed with <span class="project-who">IAT partner universities</span>, to complement the IAT Data Policy.
       </p>
       <!-- No public URL for this one (your note: NA), so no .project-link.
            If it lands on SharePoint or the DML site, a handle goes here. -->
       <aside class="notes">
-        TODO: notes for the IAT Data Management and Protection guidelines.
+        Firstly, we are developing an IAT Data Management and Protection handbook.
+        This will be a living document that will evolve with your feedback and the
+        aim is to provide practical guidance for IAT researchers and staff to meet
+        their obligations for publishing research data, sharing data with partners
+        and dealing with personal data. It is being developed with the IAT partner
+        universities, alongside an IAT Data Policy.
       </aside></section><section class="project" data-strata-layout="aside" data-strata-active="support"><div class="project-media">
         <!-- The PB3 catalogue flow. Inline, not assets/*.svg, for the same
              reason as the tracker figure below: an SVG behind an <img> is
@@ -274,8 +294,12 @@
            prose layout has no slot for a "related to" line -- if the links
            matter to the telling, they belong in the speaker notes. -->
       <aside class="notes">
-        TODO: notes for the PB3 Data Catalogue. Cross-reference the IAT Data
-        Management guidelines and the IAT DMP here if needed.
+        A very specific data management solution we have been working on specifically
+        with one of the research areas at ZALF is a lightweight solution, 
+        low effort solution for cataloguing the datasets used by their researchers. 
+        The central idea is to use simple formatted plain text files with pre-defined fields
+        to describe each dataset, these can be managed with version control, allow for anyone
+        to make contributions and for automated validation of the contents.  
       </aside></section><section class="project" data-strata-layout="aside" data-strata-active="support"><div class="project-media">
         <!-- The BirdNET-Passage pipeline. Inline, not assets/*.svg, for the
              same reason as the two flows above: an SVG behind an <img> is an
@@ -312,7 +336,19 @@
         <a href="https://github.com/iat-dml/birdnet-passage">github.com/iat-dml/birdnet-passage</a>
       </p>
       <aside class="notes">
-        TODO: notes for BirdNET-Passage.
+        Next I have an example of us assisting with a specific research software need.
+        This project came from, one of our researchers, Marie Perennes, 
+        who was awarded funding as part of the IAT Flexfunding.
+        Marie, uses a large number of acoustic sensors placed on farm land to capture recordings of birds. 
+        She was using a popular AI model called birdNET-analyser to identify species within these
+        recordings. The problem is the sheer volumne of data she is collecting made it very
+        difficult to process with the model on her desktop computer. 
+        So what we did was developing a small software workflow, primarily with R because
+        this is the programming language that Marie and her collaborators are used to,
+        to efficiently process the audio files in parallel but importantly to keep records of the job status,
+        handle any errors smoothly and allow for simple resumption in the event of interruptions. 
+        As part of this we added the capacity for this pipeline to be run on ZALF's
+        High Performance Computer cluster leading to a 100s of times speed up in the overall processing time for the data collections. 
       </aside></section><section class="project" data-strata-layout="aside" data-strata-active="support"><div class="project-media">
         <!-- A baked collage of the five A3 workshop maps from
              living-labs-base-maps/docs/example-*.png, on the .tpl-ground
@@ -330,7 +366,13 @@
         <a href="https://github.com/iat-dml/living-labs-base-maps">github.com/iat-dml/living-labs-base-maps</a>
       </p>
       <aside class="notes">
-        TODO: notes for Living Labs Base Maps.
+        This is a very simple service example but given that we have been collecting
+        a lot of background spatial data for our Living Lab dashboard that I will
+         discuss later, this means that we are well placed to produce
+        map-based visualisations for the purpose of workshops or events. 
+        For example, we have produced a set of maps for our colleagues who are 
+        leading one of the open space sessions this afternoon and we are starting
+        to make a collection of common ready-to-print maps.
       </aside></section><section class="project" data-strata-layout="aside" data-strata-active="support"><div class="project-media">
         <!-- Recorded from sem-survey-visualisation/out/index.html: all 11
              beats with the live morphs between them, 16:10 to fill the card. -->
@@ -355,7 +397,10 @@
            itself, though it puts an underline mid-sentence next to the
            tint. Left plain for now. -->
       <aside class="notes">
-        TODO: notes for the IAT Monitoring Survey Visualisation.
+        At the other end of the spectrum of data visualisations this little gif shows a
+        much more complex bespoke data visualisation that we have produced to tell the
+        story of the reuslts of the recent survey that was sent out by our colleagues in
+        the Socio-ecological Monitoring group. Who will be presenting the results later this afternoon. 
       </aside></section><section class="project" data-strata-layout="aside" data-strata-active="support"><div class="project-media">
         <img src="assets/quarto-workshop-screenshot.png" alt="Quarto workshop site">
 </div>
@@ -370,8 +415,15 @@
         <a href="https://iat-dml.github.io/quarto-workshop/">iat-dml.github.io/quarto-workshop</a>
       </p>
       <aside class="notes">
-        TODO: notes for the Quarto workshop.
-      </aside></section><section class="project" data-strata-layout="aside" data-strata-active="support"><!-- A composition rather than one screenshot: the software on the
+        This next example is a project that we have been working in the area of reproducible
+        scientific publishing. It is a hands on workshop for researchers in the scientific
+        publishing software Quarto that can be used to meet all the typical publishing needs 
+        including preparing journal articles, reports and presentations as well
+        building personal websites. If I were to recommend just one new tool that all academics
+        should use to make their lives easier it would be Quarto.
+        This workshop is available as a full online website and I will also be delivering it 
+        again in person at ZALF in November. 
+    </aside></section><section class="project" data-strata-layout="aside" data-strata-active="support"><!-- A composition rather than one screenshot: the software on the
            left, the two front pages it produces on the right. The pages
            were cut out of the old templates-software.png collage, which
            this replaces; the marks are one-colour so they place the work
@@ -384,14 +436,16 @@
       <h2>Templates</h2>
       <p class="project-lede">
         <span class="project-key">Reproducible</span> document formats for the
-        <span class="project-who">IAT service working groups</span>, built on
+        <span class="project-who">all IAT teams</span>, built on
         Open Source software: Typst, Quarto and Reveal.js.
       </p>
       <p class="project-link">
         <a href="https://github.com/iat-dml/templates">github.com/iat-dml/templates</a>
       </p>
       <aside class="notes">
-        TODO: notes for Templates.
+        Related to this, I have been building up a collection of document templates for producing
+        IAT branded content like reports and presentations using Quarto and other open-source
+        publishing tools like Typst and Reveal. In fact this presentation today is made with one of these 
       </aside></section><section class="project" data-strata-layout="aside" data-strata-active="support"><div class="project-media">
         <!-- Playwright screen capture of the team manual site: section list →
              "How we organise our work" → Figure 1, hovering service-desk.
@@ -408,7 +462,16 @@
         <a href="https://iat-dml.github.io/team-manual">iat-dml.github.io/team-manual</a>
       </p>
       <aside class="notes">
-        TODO: notes for the DML Team Manual.
+        Finally, I am big exponent of the idea that improving the accessibility,
+        re-useability and reproducibility of our research data and software should
+        not just be something we do as individuals rather we should aspire to 
+        building communities of practice for Open Science within our research groups and the IAT more broadly.
+        
+        For this reason, I have made the team manual for the DML service group available online.
+        This details exactly how we use open source tools and subvert useful approaches from
+        the world of software development to organise and optimise our work as well as
+        ensuring it's openness. The goal here is that anyone can adopt and learn from
+        these ways of working as well as contributing ideas of their onw.  
       </aside></section><!-- ══════════════════════════════════════════════════════
          TRANSFER
          ══════════════════════════════════════════════════════ --><!--<section class="divider is-dark"
@@ -420,15 +483,14 @@
       <p class="divider-lede">
         Closing the loop between science and practice.
       </p>
-    </section>--><section class="quiz-slide quiz-slide--aside" data-strata-layout="aside" data-strata-active="transfer" data-quiz-results="transfer-practice-partners" data-quiz-question="How do your results currently reach practice partners?" data-quiz-options='[
+    </section>--><section class="quiz-slide quiz-slide--aside" data-strata-layout="aside" data-strata-active="transfer" data-quiz-results="transfer-practice-partners" data-quiz-question="How do your results currently reach practice partners or stakeholders?" data-quiz-options='[
                {"label":"A","text":"Reports and PDFs"},
                {"label":"B","text":"Talks and workshops"},
                {"label":"C","text":"Websites or dashboards"},
                {"label":"D","text":"They mostly do not, yet"}
              ]'><aside class="notes">
-        Question 3 of 7, opening Transfer. C and D are the two answers the
-        next slides speak to: the project websites and the Living Lab
-        Explorer.
+        Now onto the domain of Transfer and the next question for you:
+        'How do the results of your results currently reach practice partners or stakeholders?'
       </aside></section><section class="project" data-strata-layout="aside" data-strata-active="transfer"><!-- A composition, not one shot: both sites cascading, each with its
            project's mark lapping a corner. Built the way the Templates
            slide is -- DOM elements over the card, geometry in
@@ -457,7 +519,7 @@
         <a href="http://www.transect.de/">transect.de</a>
       </p>
       <aside class="notes">
-        TODO: notes for Project Websites.
+        So the first example of services we have provided in this domain in 
       </aside></section><!-- The handoff, part one: the project card holds the demo's opening
          frame rather than a live iframe, so the next slide has something
          to grow FROM. Paused on purpose -- no data-autoplay here.
