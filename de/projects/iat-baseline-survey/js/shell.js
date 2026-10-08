@@ -2,8 +2,9 @@
 // shell.js -- layer 3 (SPEC 2). Answers exactly one question: which beat.
 //
 // A keyboard controller, deliberately small. Presentation clickers send
-// PageDown / PageUp (or the arrow keys), so those advance. The beat is kept in
-// the URL hash, so a reload or a rehearsal link lands on the same press.
+// PageDown / PageUp (or the arrow keys), so those advance, as does a mouse
+// click (Shift-click goes back). The beat is kept in the URL hash, so a reload
+// or a rehearsal link lands on the same press.
 //
 // Swapping this for Reveal.js later must not touch beats.js or stage.js: the
 // only thing crossing the boundary is go(i, { animate }).
@@ -44,6 +45,12 @@ export function createShell({ count, idOf, indexOf, go, onKey }) {
     else if (e.key === 'End') to(count - 1, false);
     else { onKey?.(e.key); return; }
     e.preventDefault();
+  });
+  // A mouse click advances too, for a presenter without a clicker. Shift-click
+  // steps back; middle and right buttons are left to the browser.
+  window.addEventListener('click', e => {
+    if (e.button !== 0 || e.altKey || e.ctrlKey || e.metaKey) return;
+    to(current + (e.shiftKey ? -1 : 1), true);
   });
   window.addEventListener('hashchange', () => {
     const i = fromHash();
