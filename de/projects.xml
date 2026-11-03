@@ -9,7 +9,7 @@
 <link>https://iat-dml.github.io/de/projects.html</link>
 <atom:link href="https://iat-dml.github.io/de/projects.xml" rel="self" type="application/rss+xml"/>
 <description>„Dies ist die Website der Arbeitsgruppe „Daten- und Modellierungsinfrastruktur für Living Labs“ (SWG) des Innovationszentrums für Agrarsystemtransformation (IAT) als Teil des Leibniz-Zentrums für Agrarlandschaftsforschung (ZALF).“</description>
-<generator>quarto-1.10.20</generator>
+<generator>quarto-1.11.9</generator>
 <lastBuildDate>Tue, 22 Sep 2026 00:00:00 GMT</lastBuildDate>
 <item>
   <title>BirdNET-Passage</title>
@@ -20,7 +20,7 @@
 
 
 
-<div class="callout callout-style-default callout-note callout-titled" title="Bald verfügbar">
+<div class="callout callout-style-default callout-note callout-titled">
 <div class="callout-header d-flex align-content-center">
 <div class="callout-icon-container">
 <i class="callout-icon"></i>
@@ -175,7 +175,7 @@
   <category>transfer</category>
   <guid>https://iat-dml.github.io/de/projects/living-labs-base-maps.html</guid>
   <pubDate>Tue, 15 Sep 2026 00:00:00 GMT</pubDate>
-  <media:content url="https://iat-dml.github.io/de/assets/base-maps-collage.jpg" medium="image" type="image/jpeg"/>
+  <media:content url="https://iat-dml.github.io/de/assets/base-maps-collage.jpg" medium="image" type="image/jpeg" height="90" width="144"/>
 </item>
 <item>
   <title>One Tool to Rule Them All: Ein Quarto-Workshop</title>
