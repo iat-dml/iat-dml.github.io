@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0">
+<channel>
+<title>DML news and projects (for SharePoint)</title>
+<link>https://iat-dml.github.io/</link>
+<description>News and projects of the DML service group, combined for the IAT intranet news flow.</description>
+<item>
+  <title>DML Presents its Services at the IAT Statusseminar 2026</title>
+  <link>https://iat-dml.github.io/news/2026-09-iat-statusseminar.html</link>
+  <guid isPermaLink="true">https://iat-dml.github.io/news/2026-09-iat-statusseminar.html</guid>
+  <pubDate>Thu, 24 Sep 2026 00:00:00 GMT</pubDate>
+  <category>DML News</category>
+  <description><![CDATA[<img src="https://iat-dml.github.io/assets/iat-statusseminar-2026.jpg" />At the IAT Statusseminar 2026 we presented the DML service concept, Support, Transfer and Integration, with examples of the work we have already delivered for IAT researchers. The slides are now available online.]]></description>
+</item>
+<item>
+  <title>BirdNET-Passage</title>
+  <link>https://iat-dml.github.io/projects/birdnet-passage.html</link>
+  <guid isPermaLink="true">https://iat-dml.github.io/projects/birdnet-passage.html</guid>
+  <pubDate>Tue, 22 Sep 2026 00:00:00 GMT</pubDate>
+  <category>DML Project</category>
+  <description><![CDATA[<img src="https://iat-dml.github.io/assets/hero-banner.png" />Research software for fast, reliable AI classification of bird species across thousands of acoustic sensor recordings.]]></description>
+</item>
+<item>
+  <title>Living Lab Workshop Maps</title>
+  <link>https://iat-dml.github.io/projects/living-labs-base-maps.html</link>
+  <guid isPermaLink="true">https://iat-dml.github.io/projects/living-labs-base-maps.html</guid>
+  <pubDate>Tue, 15 Sep 2026 00:00:00 GMT</pubDate>
+  <category>DML Project</category>
+  <description><![CDATA[<img src="https://iat-dml.github.io/assets/base-maps-collage.jpg" />Print-ready A3 base maps of the five IAT Living Labs, made for drawing and writing on in workshops and events.]]></description>
+</item>
+<item>
+  <title>Upcoming Quarto Workshop at iEMSs 2026</title>
+  <link>https://iat-dml.github.io/news/2026-06-iemss-workshop.html</link>
+  <guid isPermaLink="true">https://iat-dml.github.io/news/2026-06-iemss-workshop.html</guid>
+  <pubDate>Sun, 12 Jul 2026 00:00:00 GMT</pubDate>
+  <category>DML News</category>
+  <description><![CDATA[<img src="https://iat-dml.github.io/assets/iemss2026_logo.png" />The DML group is organising a workshop at the iEMSs 2026 conference in Dublin]]></description>
+</item>
+<item>
+  <title>One Tool to Rule Them All: A Quarto Workshop</title>
+  <link>https://iat-dml.github.io/projects/quarto-workshop.html</link>
+  <guid isPermaLink="true">https://iat-dml.github.io/projects/quarto-workshop.html</guid>
+  <pubDate>Sun, 12 Jul 2026 00:00:00 GMT</pubDate>
+  <category>DML Project</category>
+  <description><![CDATA[<img src="https://iat-dml.github.io/assets/quarto-workshop-light.png" />A guided workshop website teaching Quarto for documentation, presentations, manuscripts and outreach — first given at iEMSs 2026.]]></description>
+</item>
+<item>
+  <title>Living Lab Explorer</title>
+  <link>https://iat-dml.github.io/projects/living-lab-dashboards.html</link>
+  <guid isPermaLink="true">https://iat-dml.github.io/projects/living-lab-dashboards.html</guid>
+  <pubDate>Wed, 01 Jul 2026 00:00:00 GMT</pubDate>
+  <category>DML Project</category>
+  <description><![CDATA[<img src="https://iat-dml.github.io/assets/ll-explorer-screenshot.png" />Interactive dashboards for exploring environmental and socio-economic data from the five IAT Living Labs.]]></description>
+</item>
+<item>
+  <title>A how-to guide for Policy Labs</title>
+  <link>https://iat-dml.github.io/projects/policy-lab-guide.html</link>
+  <guid isPermaLink="true">https://iat-dml.github.io/projects/policy-lab-guide.html</guid>
+  <pubDate>Wed, 01 Jul 2026 00:00:00 GMT</pubDate>
+  <category>DML Project</category>
+  <description><![CDATA[<img src="https://iat-dml.github.io/assets/policy-labs-screenshot.png" />An interactive guide for developing Policy Labs for Agri-environmental Measures within Living Labs.]]></description>
+</item>
+<item>
+  <title>DML at Barcamp Open Science 2026</title>
+  <link>https://iat-dml.github.io/news/2026-06-barcamp-openscience.html</link>
+  <guid isPermaLink="true">https://iat-dml.github.io/news/2026-06-barcamp-openscience.html</guid>
+  <pubDate>Wed, 10 Jun 2026 00:00:00 GMT</pubDate>
+  <category>DML News</category>
+  <description><![CDATA[<img src="https://iat-dml.github.io/assets/barcamp-openscience.jpg" />DML took part in the 12th Barcamp Open Science in Berlin and moderated a session on how institutions can effectively incentivise Open Science.]]></description>
+</item>
+<item>
+  <title>MonksHillLab field ecophysiology handbook web version</title>
+  <link>https://iat-dml.github.io/projects/monkshilllabs.html</link>
+  <guid isPermaLink="true">https://iat-dml.github.io/projects/monkshilllabs.html</guid>
+  <pubDate>Wed, 03 Jun 2026 00:00:00 GMT</pubDate>
+  <category>DML Project</category>
+  <description><![CDATA[<img src="https://iat-dml.github.io/assets/mhl-screenshot.png" />The DML group helped broaden the reach of the MonksHillLab field ecophysiology handbook by moving from a PDF to an interactive web resource.]]></description>
+</item>
+<item>
+  <title>DML Presents at IAT Kickoff Meeting</title>
+  <link>https://iat-dml.github.io/news/2026-01-iat-kickoff.html</link>
+  <guid isPermaLink="true">https://iat-dml.github.io/news/2026-01-iat-kickoff.html</guid>
+  <pubDate>Wed, 18 Mar 2026 00:00:00 GMT</pubDate>
+  <category>DML News</category>
+  <description><![CDATA[<img src="https://iat-dml.github.io/assets/hero-banner.png" />Members of the DML working group presented at the IAT kickoff meeting, introducing our service concept for supporting researchers with data and modelling needs.]]></description>
+</item>
+<item>
+  <title>DML at the FAIRagro Community Summit</title>
+  <link>https://iat-dml.github.io/news/2026-03-fairagro-summit.html</link>
+  <guid isPermaLink="true">https://iat-dml.github.io/news/2026-03-fairagro-summit.html</guid>
+  <pubDate>Thu, 05 Mar 2026 00:00:00 GMT</pubDate>
+  <category>DML News</category>
+  <description><![CDATA[<img src="https://iat-dml.github.io/assets/FAIRagro-summit.jpg" />DML working group members attended the FAIRagro community summit, engaging with the FAIR data community in Agricultural research.]]></description>
+</item>
+<item>
+  <title>IAT ZALF Templates</title>
+  <link>https://iat-dml.github.io/projects/zalf-iat-templates.html</link>
+  <guid isPermaLink="true">https://iat-dml.github.io/projects/zalf-iat-templates.html</guid>
+  <pubDate>Fri, 15 Nov 2024 00:00:00 GMT</pubDate>
+  <category>DML Project</category>
+  <description><![CDATA[<img src="https://iat-dml.github.io/assets/templates-dml-revealjs.png" />Templates for producing presentations and documents consistent with the IAT and ZALF branding.]]></description>
+</item>
+</channel>
+</rss>
