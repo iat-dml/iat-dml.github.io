@@ -39,6 +39,10 @@ jobs:
             github::ropensci-review-tools/babelquarto@318d11b
       - name: Render website with Babelquarto
         run: Rscript -e 'babelquarto::render_website()'
+      # Combined news + projects feed for the IAT intranet news flow (Power Automate).
+      # Built from _site/news.xml and _site/projects.xml; see scripts/sharepoint_feed.py.
+      - name: Build SharePoint news feed
+        run: python3 scripts/sharepoint_feed.py _site
       - name: Publish
         uses: quarto-dev/quarto-actions/publish@v2
         with:
