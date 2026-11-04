@@ -23,7 +23,9 @@ from pathlib import Path
 SITE_URL = "https://iat-dml.github.io"
 FEEDS = [("news.xml", "DML News"), ("projects.xml", "DML Project")]
 # Used when an item has no image, or only an SVG, which SharePoint can't use as a banner.
-DEFAULT_IMAGE = f"{SITE_URL}/assets/hero-banner.png"
+# Listed under project.resources in _quarto.yml: nothing links to it, so Quarto would
+# otherwise not publish it.
+DEFAULT_IMAGE = f"{SITE_URL}/assets/sharepoint-default-card.jpg"
 MEDIA = "{http://search.yahoo.com/mrss/}content"
 TEASER_LENGTH = 250
 

@@ -8,6 +8,9 @@ project:
     - "!talks/iat-statusseminar-2026/"
   resources:
     - references.bib
+    # Default card image for the SharePoint news feed (scripts/sharepoint_feed.py).
+    # Nothing links to it, so copy explicitly.
+    - assets/sharepoint-default-card.jpg
     # Linked from team-manual.qmd but not detected by Quarto (raw-HTML iframe,
     # README isn't rendered, .json isn't a page), so copy explicitly.
     - repo-structure/repo-structure.html
