@@ -1207,6 +1207,42 @@ div.embed-container embed {
   text-align: center;
 }
 
+/* A reveal.js deck embedded in a post (e.g. the Statusseminar talk).
+   16:9 to match the decks' 1280x720 canvas, so reveal scales the slides
+   to fill the frame instead of letterboxing them. The background is the
+   decks' paper ground, shown while the iframe loads. */
+.deck-embed {
+  aspect-ratio: 16 / 9;
+  width: 100%;
+  border: 1px solid rgba(53, 98, 89, 0.25);
+  border-radius: 0.5rem;
+  overflow: hidden;
+  background-color: #F5F3EE;
+
+  iframe {
+    display: block;
+    width: 100%;
+    height: 100%;
+    border: 0;
+  }
+}
+
+.deck-embed-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.75rem;
+  margin-block: 1rem 2rem;
+
+  button {
+    font-family: inherit;
+    cursor: pointer;
+  }
+}
+
+body.quarto-dark .deck-embed {
+  border-color: rgba(158, 188, 131, 0.3);
+}
+
 /* ============================================
    Column Alignment Utilities
    ============================================ */

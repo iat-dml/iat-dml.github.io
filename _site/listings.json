@@ -10,6 +10,8 @@
   {
     "listing": "/projects.html",
     "items": [
+      "/projects/birdnet-passage.html",
+      "/projects/living-labs-base-maps.html",
       "/projects/quarto-workshop.html",
       "/projects/living-lab-dashboards.html",
       "/projects/policy-lab-guide.html",
@@ -20,6 +22,7 @@
   {
     "listing": "/news.html",
     "items": [
+      "/news/2026-09-iat-statusseminar.html",
       "/news/2026-06-iemss-workshop.html",
       "/news/2026-06-barcamp-openscience.html",
       "/news/2026-01-iat-kickoff.html",
@@ -29,11 +32,17 @@
   {
     "listing": "/index.de.html",
     "items": [
+      "/news/2026-09-iat-statusseminar.de.html",
+      "/news/2026-09-iat-statusseminar.html",
       "/news/2026-06-iemss-workshop.html",
       "/news/2026-06-barcamp-openscience.html",
       "/news/2026-01-iat-kickoff.html",
       "/news/2026-03-fairagro-summit.de.html",
       "/news/2026-03-fairagro-summit.html",
+      "/projects/birdnet-passage.de.html",
+      "/projects/birdnet-passage.html",
+      "/projects/living-labs-base-maps.de.html",
+      "/projects/living-labs-base-maps.html",
       "/projects/quarto-workshop.de.html",
       "/projects/quarto-workshop.html",
       "/projects/living-lab-dashboards.de.html",
@@ -49,10 +58,13 @@
   {
     "listing": "/index.html",
     "items": [
+      "/news/2026-09-iat-statusseminar.html",
       "/news/2026-06-iemss-workshop.html",
       "/news/2026-06-barcamp-openscience.html",
       "/news/2026-01-iat-kickoff.html",
       "/news/2026-03-fairagro-summit.html",
+      "/projects/birdnet-passage.html",
+      "/projects/living-labs-base-maps.html",
       "/projects/quarto-workshop.html",
       "/projects/living-lab-dashboards.html",
       "/projects/policy-lab-guide.html",
@@ -63,6 +75,8 @@
   {
     "listing": "/news.de.html",
     "items": [
+      "/news/2026-09-iat-statusseminar.de.html",
+      "/news/2026-09-iat-statusseminar.html",
       "/news/2026-06-iemss-workshop.html",
       "/news/2026-06-barcamp-openscience.html",
       "/news/2026-01-iat-kickoff.html",
@@ -73,6 +87,10 @@
   {
     "listing": "/projects.de.html",
     "items": [
+      "/projects/birdnet-passage.de.html",
+      "/projects/birdnet-passage.html",
+      "/projects/living-labs-base-maps.de.html",
+      "/projects/living-labs-base-maps.html",
       "/projects/quarto-workshop.de.html",
       "/projects/quarto-workshop.html",
       "/projects/living-lab-dashboards.de.html",

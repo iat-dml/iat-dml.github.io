@@ -18,7 +18,6 @@ project:
     # backend/ (separate Netlify site) and mock/ (screenshot source) are left out.
     - talks/iat-statusseminar-2026/index.html
     - talks/iat-statusseminar-2026/iat.html
-    - talks/iat-statusseminar-2026/quiz.html
     - talks/iat-statusseminar-2026/css/**
     - talks/iat-statusseminar-2026/js/**
     - talks/iat-statusseminar-2026/assets/**
