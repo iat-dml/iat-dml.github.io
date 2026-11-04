@@ -77,10 +77,6 @@ html[data-theme="iat"] .reveal .team-grid--slide .listing-title {
 
 html[data-theme="iat"] .strata-bands__title { font-weight: 600; font-size: 22px; }
 
-html[data-theme="iat"] .reveal section.quiz-slide {
-  --sq-heading-font-weight: 600;
-}
-
 /* -- Dark slides ------------------------------------------ */
 /* reveal copies each section's classes onto its .slide-background, so
    every .is-dark slide (mission, dividers, close) picks up the IAT hero

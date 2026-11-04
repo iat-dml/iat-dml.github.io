@@ -231,11 +231,53 @@
     "text": "10. Kontakt\nBei Fragen zur Datenschutzerklärung kontaktieren Sie uns bitte:\n\nLeibniz-Zentrum für Agrarlandschaftsforschung (ZALF) e.V.\nArbeitsgruppe „Data and Modelling Infrastructure for Living Labs (DML)”\nE-mail: benjaminsamuel.black@zalf.de"
   },
   {
-    "objectID": "news.html",
-    "href": "news.html",
-    "title": "Nachrichten",
+    "objectID": "news/2026-03-fairagro-summit.html",
+    "href": "news/2026-03-fairagro-summit.html",
+    "title": "DML auf dem FAIRagro Community Summit",
     "section": "",
-    "text": "DML auf dem FAIRagro Community Summit\n\n\n\nFAIRagro\n\nFAIR data\n\ncommunity\n\n\n\nMitglieder der DML-Arbeitsgruppe nahmen am FAIRagro Community Summit teil und tauschten sich mit der FAIR-Daten-Community im Bereich der Agrarforschung aus.\n\n\n\n05.03.2026\n\n\n\n\n\n\nKeine Treffer"
+    "text": "Im März reisten Mitglieder der DML-Arbeitsgruppe nach Frankfurt, um am FAIRagro Community Summit teilzunehmen. Die Veranstaltung brachte die FAIRagro-Community zusammen, um die Dienste und Werkzeuge vorzustellen, die das Konsortium entwickelt hat, um offene und FAIR-konforme Datenpraktiken in der Agrarforschung voranzutreiben.\nFAIRagro ist ein NFDI-Konsortium, das seit 2023 die Agrarsystemforschung in Deutschland vertritt. Mit mehr als 30 Partnern baut es eine FAIR-konforme (Findable, Accessible, Interoperable, Reusable) Infrastruktur für das Forschungsdatenmanagement auf und entwickelt die Tools und Arbeitsabläufe, die zur Unterstützung von Open Science und einer nachhaltigen Pflanzenproduktion erforderlich sind.\nDer Gipfel bot eine hervorragende Gelegenheit, Ideen auszutauschen, sich über aktuelle Entwicklungen zu informieren und Kontakte zu anderen zu knüpfen, die sich mit Herausforderungen im Bereich Forschungsdaten in der Landwirtschaft beschäftigen. Wir freuen uns auf die zukünftige Zusammenarbeit mit dem FAIRagro-Konsortium!"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Startseite",
+    "section": "",
+    "text": "IAT-Arbeitsgruppe\n\n\n\nDiskutieren Sie Ihr Projekt mit uns\nWillkommen auf der Website der Arbeitsgruppe Daten- und Modellierungsinfrastruktur für Living Labs (DML). Wir sind eine Service-Arbeitsgruppe innerhalb des Innovationszentrums für Agrarsystemtransformation (IAT) am Leibniz-Zentrum für Agrarlandschaftsforschung (ZALF). Unsere Mission ist es, Forschende und Partner innerhalb des IAT in allen Belangen rund um Daten und Modellierung zu unterstützen. Die verschiedenen Möglichkeiten, wie wir dies tun, haben wir in der Grafik unten dargestellt:"
+  },
+  {
+    "objectID": "index.html#news",
+    "href": "index.html#news",
+    "title": "Startseite",
+    "section": "News",
+    "text": "News\n\n\n\n\n\n\n\n\n\n\nDML stellt seine Services beim IAT-Statusseminar 2026 vor\n\n\n\npresentation\n\nIAT\n\nsupport\n\ntransfer\n\nintegration\n\n\n\nBeim IAT-Statusseminar 2026 haben wir das Servicekonzept der DML-Arbeitsgruppe – Support, Transfer und Integration – mit Beispielen unserer bisherigen Arbeit für…\n\n\n\n24.09.2026\n\n\n\n\n\n\n\n\n\n\n\n\n\nDML auf dem FAIRagro Community Summit\n\n\n\nFAIRagro\n\nFAIR data\n\ncommunity\n\n\n\nMitglieder der DML-Arbeitsgruppe nahmen am FAIRagro Community Summit teil und tauschten sich mit der FAIR-Daten-Community im Bereich der Agrarforschung aus.\n\n\n\n05.03.2026\n\n\n\n\n\n\nKeine Treffer\n\nAlle News →"
+  },
+  {
+    "objectID": "index.html#projects",
+    "href": "index.html#projects",
+    "title": "Startseite",
+    "section": "Projects",
+    "text": "Projects\n\n\n\n\n\n\n\n\n\n\nBirdNET-Passage\n\n\n\nresearch software\n\ncollaboration\n\nreproducibility\n\nWIP\n\n\n\nForschungssoftware für die schnelle und zuverlässige KI-Bestimmung von Vogelarten in Tausenden akustischen Sensoraufnahmen.\n\n\n\n22.09.2026\n\n\n\n\n\n\n\n\n\n\n\n\n\nWorkshop-Karten für die Living Labs\n\n\n\nmaps\n\nworkshop\n\nliving labs\n\ntransfer\n\n\n\nDruckfertige A3-Grundkarten der fünf IAT-Living-Labs, zum Zeichnen und Beschriften in Workshops und Veranstaltungen.\n\n\n\n15.09.2026\n\n\n\n\n\n\n\n\n\n\n\n\n\nOne Tool to Rule Them All: Ein Quarto-Workshop\n\n\n\ntraining\n\nworkshop\n\nreproducibility\n\ntransfer\n\niEMSs\n\n\n\nEine Workshop-Website zu Quarto für Dokumentation, Präsentationen, Manuskripte und Öffentlichkeitsarbeit — erstmals auf der iEMSs 2026 durchgeführt.\n\n\n\n12.07.2026\n\n\n\n\n\n\nKeine Treffer\n\nAlle Projekte →"
+  },
+  {
+    "objectID": "contact-form.html",
+    "href": "contact-form.html",
+    "title": "Support anfordern",
+    "section": "",
+    "text": "Verwenden Sie das untenstehende Formular, um uns eine Anfrage zu senden – es ist keinerlei Konto erforderlich."
+  },
+  {
+    "objectID": "contact-form.html#bevorzugen-sie-e-mail",
+    "href": "contact-form.html#bevorzugen-sie-e-mail",
+    "title": "Support anfordern",
+    "section": "Bevorzugen Sie E-Mail?",
+    "text": "Bevorzugen Sie E-Mail?\nSchreiben Sie uns an iat-dml@zalf.de mit einer kurzen Beschreibung Ihrer Anfrage – diese wird automatisch in unserem Tracking-System erfasst und wir melden uns bei Ihnen."
+  },
+  {
+    "objectID": "contact-form.html#haben-sie-bereits-ein-github-konto",
+    "href": "contact-form.html#haben-sie-bereits-ein-github-konto",
+    "title": "Support anfordern",
+    "section": "Haben Sie bereits ein GitHub-Konto?",
+    "text": "Haben Sie bereits ein GitHub-Konto?\nSie können eine Anfrage direkt in unserem Service Desk erstellen."
   },
   {
     "objectID": "impressum.html",
@@ -280,53 +322,25 @@
     "text": "Datenschutz\nInformationen zur Verarbeitung personenbezogener Daten finden Sie in unserer Datenschutzerklärung."
   },
   {
-    "objectID": "contact-form.html",
-    "href": "contact-form.html",
-    "title": "Support anfordern",
+    "objectID": "news.html",
+    "href": "news.html",
+    "title": "Nachrichten",
     "section": "",
-    "text": "Verwenden Sie das untenstehende Formular, um uns eine Anfrage zu senden – es ist keinerlei Konto erforderlich."
+    "text": "DML stellt seine Services beim IAT-Statusseminar 2026 vor\n\n\n\npresentation\n\nIAT\n\nsupport\n\ntransfer\n\nintegration\n\n\n\nBeim IAT-Statusseminar 2026 haben wir das Servicekonzept der DML-Arbeitsgruppe – Support, Transfer und Integration – mit Beispielen unserer bisherigen Arbeit für…\n\n\n\n24.09.2026\n\n\n\n\n\n\n\n\n\n\n\n\n\nDML auf dem FAIRagro Community Summit\n\n\n\nFAIRagro\n\nFAIR data\n\ncommunity\n\n\n\nMitglieder der DML-Arbeitsgruppe nahmen am FAIRagro Community Summit teil und tauschten sich mit der FAIR-Daten-Community im Bereich der Agrarforschung aus.\n\n\n\n05.03.2026\n\n\n\n\n\n\nKeine Treffer"
   },
   {
-    "objectID": "contact-form.html#bevorzugen-sie-e-mail",
-    "href": "contact-form.html#bevorzugen-sie-e-mail",
-    "title": "Support anfordern",
-    "section": "Bevorzugen Sie E-Mail?",
-    "text": "Bevorzugen Sie E-Mail?\nSchreiben Sie uns an iat-dml@zalf.de mit einer kurzen Beschreibung Ihrer Anfrage – diese wird automatisch in unserem Tracking-System erfasst und wir melden uns bei Ihnen."
-  },
-  {
-    "objectID": "contact-form.html#haben-sie-bereits-ein-github-konto",
-    "href": "contact-form.html#haben-sie-bereits-ein-github-konto",
-    "title": "Support anfordern",
-    "section": "Haben Sie bereits ein GitHub-Konto?",
-    "text": "Haben Sie bereits ein GitHub-Konto?\nSie können eine Anfrage direkt in unserem Service Desk erstellen."
-  },
-  {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "Startseite",
+    "objectID": "news/2026-09-iat-statusseminar.html",
+    "href": "news/2026-09-iat-statusseminar.html",
+    "title": "DML stellt seine Services beim IAT-Statusseminar 2026 vor",
     "section": "",
-    "text": "IAT-Arbeitsgruppe\n\n\n\nDiskutieren Sie Ihr Projekt mit uns\nWillkommen auf der Website der Arbeitsgruppe Daten- und Modellierungsinfrastruktur für Living Labs (DML). Wir sind eine Service-Arbeitsgruppe innerhalb des Innovationszentrums für Agrarsystemtransformation (IAT) am Leibniz-Zentrum für Agrarlandschaftsforschung (ZALF). Unsere Mission ist es, Forschende und Partner innerhalb des IAT in allen Belangen rund um Daten und Modellierung zu unterstützen. Die verschiedenen Möglichkeiten, wie wir dies tun, haben wir in der Grafik unten dargestellt:"
+    "text": "Am 24. September haben wir die Nachmittagssession des IAT-Statusseminars 2026 an der Justus-Liebig-Universität Gießen mit einem Überblick über die Services der Arbeitsgruppe „Daten- und Modellierungsinfrastruktur für Living Labs“ (DML) eröffnet. Ein halbes Jahr nachdem wir unser Servicekonzept beim IAT-Kickoff erstmals vorgestellt hatten, konnten wir nun zeigen, wie dieses Konzept in der Praxis aussieht.\nDer Vortrag folgte den drei Schichten unseres Servicekonzepts, jeweils veranschaulicht durch Projekte, die wir gemeinsam mit Kolleginnen und Kollegen im IAT abgeschlossen haben oder derzeit umsetzen:\nWährend des Vortrags haben wir dem Publikum außerdem mehrere Live-Fragen gestellt – von der Frage, was mit Forschungsdaten nach Projektende passiert, bis zu den Schulungsformaten, die am besten funktionieren. Vielen Dank an alle, die mitgemacht haben: Ihre Antworten helfen uns, unser Schulungs- und Unterstützungsangebot für das kommende Jahr zu gestalten."
   },
   {
-    "objectID": "index.html#news",
-    "href": "index.html#news",
-    "title": "Startseite",
-    "section": "News",
-    "text": "News\n\n\n\n\n\n\n\n\n\n\nDML auf dem FAIRagro Community Summit\n\n\n\nFAIRagro\n\nFAIR data\n\ncommunity\n\n\n\nMitglieder der DML-Arbeitsgruppe nahmen am FAIRagro Community Summit teil und tauschten sich mit der FAIR-Daten-Community im Bereich der Agrarforschung aus.\n\n\n\n05.03.2026\n\n\n\n\n\n\nKeine Treffer\n\nAlle News →"
-  },
-  {
-    "objectID": "index.html#projects",
-    "href": "index.html#projects",
-    "title": "Startseite",
-    "section": "Projects",
-    "text": "Projects\n\n\n\n\n\n\n\n\n\n\nBirdNET-Passage\n\n\n\nresearch software\n\ncollaboration\n\nreproducibility\n\nWIP\n\n\n\nForschungssoftware für die schnelle und zuverlässige KI-Bestimmung von Vogelarten in Tausenden akustischen Sensoraufnahmen.\n\n\n\n22.09.2026\n\n\n\n\n\n\n\n\n\n\n\n\n\nWorkshop-Karten für die Living Labs\n\n\n\nmaps\n\nworkshop\n\nliving labs\n\ntransfer\n\n\n\nDruckfertige A3-Grundkarten der fünf IAT-Living-Labs, zum Zeichnen und Beschriften in Workshops und Veranstaltungen.\n\n\n\n15.09.2026\n\n\n\n\n\n\n\n\n\n\n\n\n\nOne Tool to Rule Them All: Ein Quarto-Workshop\n\n\n\ntraining\n\nworkshop\n\nreproducibility\n\ntransfer\n\niEMSs\n\n\n\nEine Workshop-Website zu Quarto für Dokumentation, Präsentationen, Manuskripte und Öffentlichkeitsarbeit — erstmals auf der iEMSs 2026 durchgeführt.\n\n\n\n12.07.2026\n\n\n\n\n\n\nKeine Treffer\n\nAlle Projekte →"
-  },
-  {
-    "objectID": "news/2026-03-fairagro-summit.html",
-    "href": "news/2026-03-fairagro-summit.html",
-    "title": "DML auf dem FAIRagro Community Summit",
-    "section": "",
-    "text": "Im März reisten Mitglieder der DML-Arbeitsgruppe nach Frankfurt, um am FAIRagro Community Summit teilzunehmen. Die Veranstaltung brachte die FAIRagro-Community zusammen, um die Dienste und Werkzeuge vorzustellen, die das Konsortium entwickelt hat, um offene und FAIR-konforme Datenpraktiken in der Agrarforschung voranzutreiben.\nFAIRagro ist ein NFDI-Konsortium, das seit 2023 die Agrarsystemforschung in Deutschland vertritt. Mit mehr als 30 Partnern baut es eine FAIR-konforme (Findable, Accessible, Interoperable, Reusable) Infrastruktur für das Forschungsdatenmanagement auf und entwickelt die Tools und Arbeitsabläufe, die zur Unterstützung von Open Science und einer nachhaltigen Pflanzenproduktion erforderlich sind.\nDer Gipfel bot eine hervorragende Gelegenheit, Ideen auszutauschen, sich über aktuelle Entwicklungen zu informieren und Kontakte zu anderen zu knüpfen, die sich mit Herausforderungen im Bereich Forschungsdaten in der Landwirtschaft beschäftigen. Wir freuen uns auf die zukünftige Zusammenarbeit mit dem FAIRagro-Konsortium!"
+    "objectID": "news/2026-09-iat-statusseminar.html#die-folien",
+    "href": "news/2026-09-iat-statusseminar.html#die-folien",
+    "title": "DML stellt seine Services beim IAT-Statusseminar 2026 vor",
+    "section": "Die Folien",
+    "text": "Die Folien\nUnten finden Sie den vollständigen Foliensatz (auf Englisch). Klicken Sie auf die Folien und blättern Sie dann mit den Pfeiltasten oder der Leertaste, oder wechseln Sie in den Vollbildmodus. Die Live-Publikumsfragen sind in dieser Version nicht mehr enthalten.\n\n  \n\n\n  Vollbild\n  In neuem Tab öffnen\n\n\nWenn Sie besprechen möchten, wie wir Ihr Projekt unterstützen können, nehmen Sie Kontakt mit uns auf."
   },
   {
     "objectID": "projects.html",

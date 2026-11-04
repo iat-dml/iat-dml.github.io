@@ -31,27 +31,10 @@ Reveal.initialize({
   /* Keep each fragment state on its own PDF page. */
   pdfSeparateFragments: false,
 
-  /* Live audience quiz. The UMD build hangs the plugin factory off
-     RevealSlideQuiz.default; every setting lives in js/quiz-config.js so
-     quiz.html reads the same ones. `endpoints` is what sends votes to
-     the relay site in backend/ rather than to a path on this origin --
-     Pages cannot run functions. It is undefined when no relay is
-     configured, and the plugin then falls back to its own paths. */
-  slideQuiz: {
-    wsUrl: window.DML_QUIZ.wsUrl,
-    quizGroupId: window.DML_QUIZ.quizGroupId,
-    quizUrl: window.DML_QUIZ.quizUrl,
-    endpoints: window.DML_QUIZ.endpoints
-  },
-
-  plugins: [RevealMarkdown, RevealNotes, RevealHighlight, RevealSlideQuiz.default]
+  plugins: [RevealMarkdown, RevealNotes, RevealHighlight]
 }).then(function () {
   DeckDirector.init();
   DeckHandoff.init();
-  DeckQuizCapture.init();
-
-  /* Step builds on the backup slides (data-steps / data-at, js/steps.js). */
-  DeckSteps.init(Reveal);
 
   /* T flips between the DML and IAT themes. A reload rather than a live
      swap: the strata diagram reads its colours and fonts once, at mount.

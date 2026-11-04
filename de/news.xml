@@ -10,7 +10,71 @@
 <atom:link href="https://iat-dml.github.io/de/news.xml" rel="self" type="application/rss+xml"/>
 <description>„Dies ist die Website der Arbeitsgruppe „Daten- und Modellierungsinfrastruktur für Living Labs“ (SWG) des Innovationszentrums für Agrarsystemtransformation (IAT) als Teil des Leibniz-Zentrums für Agrarlandschaftsforschung (ZALF).“</description>
 <generator>quarto-1.11.9</generator>
-<lastBuildDate>Thu, 05 Mar 2026 00:00:00 GMT</lastBuildDate>
+<lastBuildDate>Thu, 24 Sep 2026 00:00:00 GMT</lastBuildDate>
+<item>
+  <title>DML stellt seine Services beim IAT-Statusseminar 2026 vor</title>
+  <link>https://iat-dml.github.io/de/news/2026-09-iat-statusseminar.html</link>
+  <description><![CDATA[ 
+
+
+
+
+
+<script>window.__articleHeroImage = "../assets/iat-statusseminar-2026.jpg";</script>
+<p>Am 24. September haben wir die Nachmittagssession des IAT-Statusseminars 2026 an der Justus-Liebig-Universität Gießen mit einem Überblick über die Services der Arbeitsgruppe „Daten- und Modellierungsinfrastruktur für Living Labs“ (DML) eröffnet. Ein halbes Jahr nachdem wir unser Servicekonzept beim IAT-Kickoff erstmals vorgestellt hatten, konnten wir nun zeigen, wie dieses Konzept in der Praxis aussieht.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="../assets/iat-statusseminar-2026.jpg" class="lightbox" data-gallery="quarto-lightbox-gallery-1" title="Ben Black stellt die DML-Services beim IAT-Statusseminar 2026 vor. Foto: Paulina Naterstad, 2026."><img src="https://iat-dml.github.io/de/assets/iat-statusseminar-2026.jpg" class="img-fluid figure-img" alt="Ben Black hält am Rednerpult in einem Hörsaal einen Vortrag und zeigt auf eine projizierte Folie mit den DML-Schichten Support, Transfer und Integration; im Vordergrund das Publikum."></a></p>
+<figcaption>Ben Black stellt die DML-Services beim IAT-Statusseminar 2026 vor. Foto: Paulina Naterstad, 2026.</figcaption>
+</figure>
+</div>
+<p>Der Vortrag folgte den drei Schichten unseres Servicekonzepts, jeweils veranschaulicht durch Projekte, die wir gemeinsam mit Kolleginnen und Kollegen im IAT abgeschlossen haben oder derzeit umsetzen:</p>
+<ul>
+<li><strong>Support</strong>: Unterstützung von Forschenden beim Umgang mit ihren Daten und ihrer Software in allen Phasen eines Projekts. Beispiele waren das IAT-Handbuch zu Datenmanagement und Datenschutz, Forschungssoftware wie <a href="../projects/birdnet-passage.html">BirdNET-Passage</a>, die <a href="../projects/living-labs-base-maps.html">Karten für die Living-Lab-Workshops</a>, unser <a href="../projects/quarto-workshop.html">Quarto-Workshop</a> und die <a href="../projects/zalf-iat-templates.html">IAT-ZALF-Vorlagen</a>.</li>
+<li><strong>Transfer</strong>: den Kreis zwischen Wissenschaft und Praxis schließen, mit <a href="../projects/monkshilllabs.html">Projektwebsites</a> und dem <a href="../projects/living-lab-dashboards.html">Living Lab Explorer</a>, einem gemeinsam mit den IAT-Regionalnetzwerkmanagerinnen und -managern entwickelten Dashboard.</li>
+<li><strong>Integration</strong>: Forschungsdaten und Methoden im gesamten IAT miteinander verbinden, durch den IAT-Projekttracker, eine gemeinsame Vorlage für Datenmanagementpläne und den <a href="../projects/policy-lab-guide.html">Leitfaden für Policy Labs</a>.</li>
+</ul>
+<p>Während des Vortrags haben wir dem Publikum außerdem mehrere Live-Fragen gestellt – von der Frage, was mit Forschungsdaten nach Projektende passiert, bis zu den Schulungsformaten, die am besten funktionieren. Vielen Dank an alle, die mitgemacht haben: Ihre Antworten helfen uns, unser Schulungs- und Unterstützungsangebot für das kommende Jahr zu gestalten.</p>
+<section id="die-folien" class="level2">
+<h2 class="anchored" data-anchor-id="die-folien">Die Folien</h2>
+<p>Unten finden Sie den vollständigen Foliensatz (auf Englisch). Klicken Sie auf die Folien und blättern Sie dann mit den Pfeiltasten oder der Leertaste, oder wechseln Sie in den Vollbildmodus. Die Live-Publikumsfragen sind in dieser Version nicht mehr enthalten.</p>
+<div class="deck-embed">
+  <iframe id="statusseminar-deck" src="../talks/iat-statusseminar-2026/index.html" title="Folien: Data and Modelling Infrastructure for Living Labs, IAT-Statusseminar 2026" allow="fullscreen" allowfullscreen="" loading="lazy"></iframe>
+</div>
+<div class="deck-embed-actions">
+  <button type="button" class="btn-brand" data-fullscreen-target="statusseminar-deck">Vollbild</button>
+  <a class="btn-ghost" href="../talks/iat-statusseminar-2026/index.html" target="_blank" rel="noopener">In neuem Tab öffnen</a>
+</div>
+<script>
+  /* Full screen the deck's iframe. Where a browser cannot (iPhone Safari
+     only allows it for video), open the deck in its own tab instead. */
+  document.querySelectorAll("[data-fullscreen-target]").forEach(function (button) {
+    button.addEventListener("click", function () {
+      var frame = document.getElementById(button.dataset.fullscreenTarget);
+      var request = frame.requestFullscreen || frame.webkitRequestFullscreen;
+      var openInTab = function () { window.open(frame.src, "_blank", "noopener"); };
+      if (!request) { openInTab(); return; }
+      Promise.resolve(request.call(frame))
+        .then(function () { frame.contentWindow.focus(); })
+        .catch(openInTab);
+    });
+  });
+</script>
+<p>Wenn Sie besprechen möchten, wie wir Ihr Projekt unterstützen können, <a href="../contact-form.html">nehmen Sie Kontakt mit uns auf</a>.</p>
+
+
+</section>
+
+ ]]></description>
+  <category>presentation</category>
+  <category>IAT</category>
+  <category>support</category>
+  <category>transfer</category>
+  <category>integration</category>
+  <guid>https://iat-dml.github.io/de/news/2026-09-iat-statusseminar.html</guid>
+  <pubDate>Thu, 24 Sep 2026 00:00:00 GMT</pubDate>
+  <media:content url="https://iat-dml.github.io/de/assets/iat-statusseminar-2026.jpg" medium="image" type="image/jpeg" height="96" width="144"/>
+</item>
 <item>
   <title>DML auf dem FAIRagro Community Summit</title>
   <link>https://iat-dml.github.io/de/news/2026-03-fairagro-summit.html</link>
